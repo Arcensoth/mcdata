@@ -195,6 +195,198 @@
       },
       "executable": true
     },
+    "bossbar": {
+      "type": "literal",
+      "children": {
+        "create": {
+          "type": "literal",
+          "children": {
+            "id": {
+              "type": "argument",
+              "parser": "minecraft:resource_location",
+              "children": {
+                "name": {
+                  "type": "argument",
+                  "parser": "minecraft:component",
+                  "executable": true
+                }
+              }
+            }
+          }
+        },
+        "get": {
+          "type": "literal",
+          "children": {
+            "id": {
+              "type": "argument",
+              "parser": "minecraft:resource_location",
+              "children": {
+                "max": {
+                  "type": "literal",
+                  "executable": true
+                },
+                "players": {
+                  "type": "literal",
+                  "executable": true
+                },
+                "value": {
+                  "type": "literal",
+                  "executable": true
+                },
+                "visible": {
+                  "type": "literal",
+                  "executable": true
+                }
+              }
+            }
+          }
+        },
+        "list": {
+          "type": "literal",
+          "executable": true
+        },
+        "remove": {
+          "type": "literal",
+          "children": {
+            "id": {
+              "type": "argument",
+              "parser": "minecraft:resource_location",
+              "executable": true
+            }
+          }
+        },
+        "set": {
+          "type": "literal",
+          "children": {
+            "id": {
+              "type": "argument",
+              "parser": "minecraft:resource_location",
+              "children": {
+                "color": {
+                  "type": "literal",
+                  "children": {
+                    "blue": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "green": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "pink": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "purple": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "red": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "white": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "yellow": {
+                      "type": "literal",
+                      "executable": true
+                    }
+                  }
+                },
+                "max": {
+                  "type": "literal",
+                  "children": {
+                    "max": {
+                      "type": "argument",
+                      "parser": "brigadier:integer",
+                      "properties": {
+                        "min": 1
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "name": {
+                  "type": "literal",
+                  "children": {
+                    "name": {
+                      "type": "argument",
+                      "parser": "minecraft:component",
+                      "executable": true
+                    }
+                  }
+                },
+                "players": {
+                  "type": "literal",
+                  "children": {
+                    "targets": {
+                      "type": "argument",
+                      "parser": "minecraft:entity",
+                      "properties": {
+                        "amount": "multiple",
+                        "type": "players"
+                      },
+                      "executable": true
+                    }
+                  },
+                  "executable": true
+                },
+                "style": {
+                  "type": "literal",
+                  "children": {
+                    "notched_10": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "notched_12": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "notched_20": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "notched_6": {
+                      "type": "literal",
+                      "executable": true
+                    },
+                    "progress": {
+                      "type": "literal",
+                      "executable": true
+                    }
+                  }
+                },
+                "value": {
+                  "type": "literal",
+                  "children": {
+                    "value": {
+                      "type": "argument",
+                      "parser": "brigadier:integer",
+                      "properties": {
+                        "min": 0
+                      },
+                      "executable": true
+                    }
+                  }
+                },
+                "visible": {
+                  "type": "literal",
+                  "children": {
+                    "visible": {
+                      "type": "argument",
+                      "parser": "brigadier:bool",
+                      "executable": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "clear": {
       "type": "literal",
       "children": {
@@ -1171,6 +1363,29 @@
                     }
                   }
                 },
+                "bossbar": {
+                  "type": "literal",
+                  "children": {
+                    "id": {
+                      "type": "argument",
+                      "parser": "minecraft:resource_location",
+                      "children": {
+                        "max": {
+                          "type": "literal",
+                          "redirect": [
+                            "execute"
+                          ]
+                        },
+                        "value": {
+                          "type": "literal",
+                          "redirect": [
+                            "execute"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
                 "entity": {
                   "type": "literal",
                   "children": {
@@ -1374,6 +1589,29 @@
                               }
                             }
                           }
+                        }
+                      }
+                    }
+                  }
+                },
+                "bossbar": {
+                  "type": "literal",
+                  "children": {
+                    "id": {
+                      "type": "argument",
+                      "parser": "minecraft:resource_location",
+                      "children": {
+                        "max": {
+                          "type": "literal",
+                          "redirect": [
+                            "execute"
+                          ]
+                        },
+                        "value": {
+                          "type": "literal",
+                          "redirect": [
+                            "execute"
+                          ]
                         }
                       }
                     }
@@ -3479,7 +3717,7 @@
     "setidletimeout": {
       "type": "literal",
       "children": {
-        "seconds": {
+        "minutes": {
           "type": "argument",
           "parser": "brigadier:integer",
           "properties": {
