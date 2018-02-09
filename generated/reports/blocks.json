@@ -64216,6 +64216,22 @@
       }
     ]
   },
+  "minecraft:void_air": {
+    "states": [
+      {
+        "id": 6718,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:cave_air": {
+    "states": [
+      {
+        "id": 6719,
+        "default": true
+      }
+    ]
+  },
   "minecraft:structure_block": {
     "properties": {
       "mode": [
@@ -64230,26 +64246,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 6718,
+        "id": 6720,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 6719
+        "id": 6721
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 6720
+        "id": 6722
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 6721
+        "id": 6723
       }
     ]
   }

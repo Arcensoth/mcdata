@@ -12,26 +12,9 @@
     "G": {
       "item": "minecraft:glass"
     },
-    "W": [
-      {
-        "item": "minecraft:oak_slab"
-      },
-      {
-        "item": "minecraft:spruce_slab"
-      },
-      {
-        "item": "minecraft:birch_slab"
-      },
-      {
-        "item": "minecraft:jungle_slab"
-      },
-      {
-        "item": "minecraft:acacia_slab"
-      },
-      {
-        "item": "minecraft:dark_oak_slab"
-      }
-    ]
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    }
   },
   "result": {
     "item": "minecraft:daylight_detector"
