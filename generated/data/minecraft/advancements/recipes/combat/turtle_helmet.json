@@ -6,12 +6,12 @@
     ]
   },
   "criteria": {
-    "has_turtle_shell_piece": {
+    "has_scute": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:turtle_shell_piece"
+            "item": "minecraft:scute"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_turtle_shell_piece",
+      "has_scute",
       "has_the_recipe"
     ]
   ]

@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sand"
+            "tag": "minecraft:sand"
           }
         ]
       }

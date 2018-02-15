@@ -65585,17 +65585,7 @@
         "22",
         "23",
         "24",
-        "25",
-        "26",
-        "27",
-        "28",
-        "29",
-        "30",
-        "31",
-        "32",
-        "33",
-        "34",
-        "35"
+        "25"
       ]
     },
     "states": [
@@ -65755,73 +65745,13 @@
           "age": "25"
         },
         "id": 6894
-      },
-      {
-        "properties": {
-          "age": "26"
-        },
-        "id": 6895
-      },
-      {
-        "properties": {
-          "age": "27"
-        },
-        "id": 6896
-      },
-      {
-        "properties": {
-          "age": "28"
-        },
-        "id": 6897
-      },
-      {
-        "properties": {
-          "age": "29"
-        },
-        "id": 6898
-      },
-      {
-        "properties": {
-          "age": "30"
-        },
-        "id": 6899
-      },
-      {
-        "properties": {
-          "age": "31"
-        },
-        "id": 6900
-      },
-      {
-        "properties": {
-          "age": "32"
-        },
-        "id": 6901
-      },
-      {
-        "properties": {
-          "age": "33"
-        },
-        "id": 6902
-      },
-      {
-        "properties": {
-          "age": "34"
-        },
-        "id": 6903
-      },
-      {
-        "properties": {
-          "age": "35"
-        },
-        "id": 6904
       }
     ]
   },
   "minecraft:dried_kelp_block": {
     "states": [
       {
-        "id": 6905,
+        "id": 6895,
         "default": true
       }
     ]
@@ -65846,7 +65776,7 @@
           "eggs": "1",
           "hatch": "0"
         },
-        "id": 6906,
+        "id": 6896,
         "default": true
       },
       {
@@ -65854,84 +65784,84 @@
           "eggs": "1",
           "hatch": "1"
         },
-        "id": 6907
+        "id": 6897
       },
       {
         "properties": {
           "eggs": "1",
           "hatch": "2"
         },
-        "id": 6908
+        "id": 6898
       },
       {
         "properties": {
           "eggs": "2",
           "hatch": "0"
         },
-        "id": 6909
+        "id": 6899
       },
       {
         "properties": {
           "eggs": "2",
           "hatch": "1"
         },
-        "id": 6910
+        "id": 6900
       },
       {
         "properties": {
           "eggs": "2",
           "hatch": "2"
         },
-        "id": 6911
+        "id": 6901
       },
       {
         "properties": {
           "eggs": "3",
           "hatch": "0"
         },
-        "id": 6912
+        "id": 6902
       },
       {
         "properties": {
           "eggs": "3",
           "hatch": "1"
         },
-        "id": 6913
+        "id": 6903
       },
       {
         "properties": {
           "eggs": "3",
           "hatch": "2"
         },
-        "id": 6914
+        "id": 6904
       },
       {
         "properties": {
           "eggs": "4",
           "hatch": "0"
         },
-        "id": 6915
+        "id": 6905
       },
       {
         "properties": {
           "eggs": "4",
           "hatch": "1"
         },
-        "id": 6916
+        "id": 6906
       },
       {
         "properties": {
           "eggs": "4",
           "hatch": "2"
         },
-        "id": 6917
+        "id": 6907
       }
     ]
   },
   "minecraft:void_air": {
     "states": [
       {
-        "id": 6918,
+        "id": 6908,
         "default": true
       }
     ]
@@ -65939,7 +65869,7 @@
   "minecraft:cave_air": {
     "states": [
       {
-        "id": 6919,
+        "id": 6909,
         "default": true
       }
     ]
@@ -65956,14 +65886,14 @@
         "properties": {
           "drag": "true"
         },
-        "id": 6920,
+        "id": 6910,
         "default": true
       },
       {
         "properties": {
           "drag": "false"
         },
-        "id": 6921
+        "id": 6911
       }
     ]
   },
@@ -65981,26 +65911,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 6922,
+        "id": 6912,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 6923
+        "id": 6913
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 6924
+        "id": 6914
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 6925
+        "id": 6915
       }
     ]
   }

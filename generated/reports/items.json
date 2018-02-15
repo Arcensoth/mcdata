@@ -1292,7 +1292,7 @@
   "minecraft:turtle_helmet": {
     "protocol_id": 430
   },
-  "minecraft:turtle_shell_piece": {
+  "minecraft:scute": {
     "protocol_id": 431
   },
   "minecraft:iron_shovel": {
