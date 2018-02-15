@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "item": "minecraft:oak_log"
+      "tag": "minecraft:oak_logs"
     }
   ],
   "result": {

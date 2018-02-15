@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:jungle_planks"
+      "minecraft:prismarine_bricks_stairs"
     ]
   },
   "criteria": {
-    "has_log": {
+    "has_prismarine_bricks": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:jungle_logs"
+            "item": "minecraft:prismarine_bricks"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:jungle_planks"
+        "recipe": "minecraft:prismarine_bricks_stairs"
       }
     }
   },
   "requirements": [
     [
-      "has_log",
+      "has_prismarine_bricks",
       "has_the_recipe"
     ]
   ]

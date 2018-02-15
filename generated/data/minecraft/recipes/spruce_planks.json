@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "item": "minecraft:spruce_log"
+      "tag": "minecraft:spruce_logs"
     }
   ],
   "result": {

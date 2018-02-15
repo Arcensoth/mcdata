@@ -3,7 +3,7 @@
   "group": "planks",
   "ingredients": [
     {
-      "item": "minecraft:acacia_log"
+      "tag": "minecraft:acacia_logs"
     }
   ],
   "result": {

@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:jungle_planks"
+      "minecraft:prismarine_slab"
     ]
   },
   "criteria": {
-    "has_log": {
+    "has_prismarine": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:jungle_logs"
+            "item": "minecraft:prismarine"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:jungle_planks"
+        "recipe": "minecraft:prismarine_slab"
       }
     }
   },
   "requirements": [
     [
-      "has_log",
+      "has_prismarine",
       "has_the_recipe"
     ]
   ]

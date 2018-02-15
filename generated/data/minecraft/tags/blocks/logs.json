@@ -1,17 +1,11 @@
 {
   "replace": false,
   "values": [
-    "minecraft:oak_log",
-    "minecraft:spruce_log",
-    "minecraft:birch_log",
-    "minecraft:jungle_log",
-    "minecraft:acacia_log",
-    "minecraft:dark_oak_log",
-    "minecraft:oak_bark",
-    "minecraft:spruce_bark",
-    "minecraft:birch_bark",
-    "minecraft:jungle_bark",
-    "minecraft:acacia_bark",
-    "minecraft:dark_oak_bark"
+    "#minecraft:dark_oak_logs",
+    "#minecraft:oak_logs",
+    "#minecraft:acacia_logs",
+    "#minecraft:birch_logs",
+    "#minecraft:jungle_logs",
+    "#minecraft:spruce_logs"
   ]
 }

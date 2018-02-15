@@ -6,12 +6,12 @@
     ]
   },
   "criteria": {
-    "has_log2": {
+    "has_logs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_log"
+            "tag": "minecraft:acacia_logs"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_log2",
+      "has_logs",
       "has_the_recipe"
     ]
   ]
