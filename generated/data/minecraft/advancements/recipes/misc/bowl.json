@@ -26,6 +26,16 @@
         ]
       }
     },
+    "has_mushroom_stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mushroom_stew"
+          }
+        ]
+      }
+    },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
@@ -37,6 +47,7 @@
     [
       "has_brown_mushroom",
       "has_red_mushroom",
+      "has_mushroom_stew",
       "has_the_recipe"
     ]
   ]

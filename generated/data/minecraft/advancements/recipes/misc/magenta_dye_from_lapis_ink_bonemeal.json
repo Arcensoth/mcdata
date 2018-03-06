@@ -16,22 +16,22 @@
         ]
       }
     },
+    "has_rose_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:rose_red"
+          }
+        ]
+      }
+    },
     "has_bonemeal": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:bone_meal"
-          }
-        ]
-      }
-    },
-    "has_black_dye": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:ink_sac"
           }
         ]
       }
@@ -46,8 +46,8 @@
   "requirements": [
     [
       "has_lapis",
+      "has_rose_red",
       "has_bonemeal",
-      "has_black_dye",
       "has_the_recipe"
     ]
   ]

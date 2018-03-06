@@ -2584,6 +2584,10 @@
           "type": "literal",
           "executable": true
         },
+        "Ocean_Ruin": {
+          "type": "literal",
+          "executable": true
+        },
         "Stronghold": {
           "type": "literal",
           "executable": true
