@@ -75,7 +75,7 @@
         }
       }
     },
-    "raw_cod": {
+    "cod": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -83,7 +83,7 @@
         }
       }
     },
-    "raw_salmon": {
+    "salmon": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
@@ -298,6 +298,14 @@
           "item": "minecraft:beetroot_soup"
         }
       }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:dried_kelp"
+        }
+      }
     }
   },
   "requirements": [
@@ -323,10 +331,10 @@
       "enchanted_golden_apple"
     ],
     [
-      "raw_cod"
+      "cod"
     ],
     [
-      "raw_salmon"
+      "salmon"
     ],
     [
       "clownfish"
@@ -405,6 +413,9 @@
     ],
     [
       "beetroot_soup"
+    ],
+    [
+      "dried_kelp"
     ]
   ]
 }

@@ -72,7 +72,7 @@
         }
       }
     },
-    "evoker": {
+    "evocation_illager": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -152,7 +152,7 @@
         }
       }
     },
-    "vindicator": {
+    "vindication_illager": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
@@ -191,6 +191,14 @@
           "type": "minecraft:zombie_villager"
         }
       }
+    },
+    "phantom": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:phantom"
+        }
+      }
     }
   },
   "requirements": [
@@ -202,7 +210,7 @@
       "polar_bear",
       "blaze",
       "creeper",
-      "evoker",
+      "evocation_illager",
       "ghast",
       "guardian",
       "husk",
@@ -212,11 +220,12 @@
       "skeleton",
       "slime",
       "stray",
-      "vindicator",
+      "vindication_illager",
       "witch",
       "wither_skeleton",
       "zombie",
-      "zombie_villager"
+      "zombie_villager",
+      "phantom"
     ]
   ]
 }

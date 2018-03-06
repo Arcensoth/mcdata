@@ -65906,7 +65906,7 @@
       }
     ]
   },
-  "minecraft:void_air": {
+  "minecraft:blue_coral_plant": {
     "states": [
       {
         "id": 6914,
@@ -65914,10 +65914,50 @@
       }
     ]
   },
-  "minecraft:cave_air": {
+  "minecraft:pink_coral_plant": {
     "states": [
       {
         "id": 6915,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:purple_coral_plant": {
+    "states": [
+      {
+        "id": 6916,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:red_coral_plant": {
+    "states": [
+      {
+        "id": 6917,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:yellow_coral_plant": {
+    "states": [
+      {
+        "id": 6918,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:void_air": {
+    "states": [
+      {
+        "id": 6919,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:cave_air": {
+    "states": [
+      {
+        "id": 6920,
         "default": true
       }
     ]
@@ -65934,14 +65974,14 @@
         "properties": {
           "drag": "true"
         },
-        "id": 6916,
+        "id": 6921,
         "default": true
       },
       {
         "properties": {
           "drag": "false"
         },
-        "id": 6917
+        "id": 6922
       }
     ]
   },
@@ -65959,26 +65999,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 6918,
+        "id": 6923,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 6919
+        "id": 6924
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 6920
+        "id": 6925
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 6921
+        "id": 6926
       }
     ]
   }

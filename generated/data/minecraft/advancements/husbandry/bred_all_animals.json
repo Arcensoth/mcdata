@@ -19,7 +19,7 @@
     "experience": 100
   },
   "criteria": {
-    "bred_horse": {
+    "horse": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -27,7 +27,7 @@
         }
       }
     },
-    "bred_sheep": {
+    "sheep": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -35,7 +35,7 @@
         }
       }
     },
-    "bred_cow": {
+    "cow": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -43,7 +43,7 @@
         }
       }
     },
-    "bred_mooshroom": {
+    "mooshroom": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -51,7 +51,7 @@
         }
       }
     },
-    "bred_pig": {
+    "pig": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -59,7 +59,7 @@
         }
       }
     },
-    "bred_chicken": {
+    "chicken": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -67,7 +67,7 @@
         }
       }
     },
-    "bred_wolf": {
+    "wolf": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -75,7 +75,7 @@
         }
       }
     },
-    "bred_ocelot": {
+    "ocelot": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -83,7 +83,7 @@
         }
       }
     },
-    "bred_rabbit": {
+    "rabbit": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -91,7 +91,7 @@
         }
       }
     },
-    "bred_llama": {
+    "llama": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -99,7 +99,7 @@
         }
       }
     },
-    "bred_turtle": {
+    "turtle": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -110,37 +110,37 @@
   },
   "requirements": [
     [
-      "bred_horse"
+      "horse"
     ],
     [
-      "bred_sheep"
+      "sheep"
     ],
     [
-      "bred_cow"
+      "cow"
     ],
     [
-      "bred_mooshroom"
+      "mooshroom"
     ],
     [
-      "bred_pig"
+      "pig"
     ],
     [
-      "bred_chicken"
+      "chicken"
     ],
     [
-      "bred_wolf"
+      "wolf"
     ],
     [
-      "bred_ocelot"
+      "ocelot"
     ],
     [
-      "bred_rabbit"
+      "rabbit"
     ],
     [
-      "bred_llama"
+      "llama"
     ],
     [
-      "bred_turtle"
+      "turtle"
     ]
   ]
 }
