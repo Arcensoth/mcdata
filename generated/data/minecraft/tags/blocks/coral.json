@@ -1,7 +1,11 @@
 {
   "replace": false,
   "values": [
-    "minecraft:dead_coral",
+    "minecraft:blue_dead_coral",
+    "minecraft:pink_dead_coral",
+    "minecraft:purple_dead_coral",
+    "minecraft:red_dead_coral",
+    "minecraft:yellow_dead_coral",
     "minecraft:blue_coral",
     "minecraft:pink_coral",
     "minecraft:purple_coral",
