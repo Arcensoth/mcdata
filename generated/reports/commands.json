@@ -2592,6 +2592,10 @@
           "type": "literal",
           "executable": true
         },
+        "Shipwreck": {
+          "type": "literal",
+          "executable": true
+        },
         "Stronghold": {
           "type": "literal",
           "executable": true
