@@ -2299,5 +2299,8 @@
   },
   "minecraft:trident": {
     "protocol_id": 766
+  },
+  "minecraft:phantom_membrane": {
+    "protocol_id": 767
   }
 }
