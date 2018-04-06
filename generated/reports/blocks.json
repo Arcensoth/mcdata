@@ -81299,7 +81299,7 @@
       }
     ]
   },
-  "minecraft:blue_dead_coral": {
+  "minecraft:dead_tube_coral_block": {
     "states": [
       {
         "id": 8359,
@@ -81307,7 +81307,7 @@
       }
     ]
   },
-  "minecraft:pink_dead_coral": {
+  "minecraft:dead_brain_coral_block": {
     "states": [
       {
         "id": 8360,
@@ -81315,7 +81315,7 @@
       }
     ]
   },
-  "minecraft:purple_dead_coral": {
+  "minecraft:dead_bubble_coral_block": {
     "states": [
       {
         "id": 8361,
@@ -81323,7 +81323,7 @@
       }
     ]
   },
-  "minecraft:red_dead_coral": {
+  "minecraft:dead_fire_coral_block": {
     "states": [
       {
         "id": 8362,
@@ -81331,7 +81331,7 @@
       }
     ]
   },
-  "minecraft:yellow_dead_coral": {
+  "minecraft:dead_horn_coral_block": {
     "states": [
       {
         "id": 8363,
@@ -81339,7 +81339,7 @@
       }
     ]
   },
-  "minecraft:blue_coral": {
+  "minecraft:tube_coral_block": {
     "states": [
       {
         "id": 8364,
@@ -81347,7 +81347,7 @@
       }
     ]
   },
-  "minecraft:pink_coral": {
+  "minecraft:brain_coral_block": {
     "states": [
       {
         "id": 8365,
@@ -81355,7 +81355,7 @@
       }
     ]
   },
-  "minecraft:purple_coral": {
+  "minecraft:bubble_coral_block": {
     "states": [
       {
         "id": 8366,
@@ -81363,7 +81363,7 @@
       }
     ]
   },
-  "minecraft:red_coral": {
+  "minecraft:fire_coral_block": {
     "states": [
       {
         "id": 8367,
@@ -81371,7 +81371,7 @@
       }
     ]
   },
-  "minecraft:yellow_coral": {
+  "minecraft:horn_coral_block": {
     "states": [
       {
         "id": 8368,
@@ -81379,7 +81379,7 @@
       }
     ]
   },
-  "minecraft:blue_coral_plant": {
+  "minecraft:tube_coral": {
     "states": [
       {
         "id": 8369,
@@ -81387,7 +81387,7 @@
       }
     ]
   },
-  "minecraft:pink_coral_plant": {
+  "minecraft:brain_coral": {
     "states": [
       {
         "id": 8370,
@@ -81395,7 +81395,7 @@
       }
     ]
   },
-  "minecraft:purple_coral_plant": {
+  "minecraft:bubble_coral": {
     "states": [
       {
         "id": 8371,
@@ -81403,7 +81403,7 @@
       }
     ]
   },
-  "minecraft:red_coral_plant": {
+  "minecraft:fire_coral": {
     "states": [
       {
         "id": 8372,
@@ -81411,7 +81411,7 @@
       }
     ]
   },
-  "minecraft:yellow_coral_plant": {
+  "minecraft:horn_coral": {
     "states": [
       {
         "id": 8373,
@@ -81419,7 +81419,7 @@
       }
     ]
   },
-  "minecraft:blue_coral_fan": {
+  "minecraft:tube_coral_fan": {
     "properties": {
       "facing": [
         "north",
@@ -81456,7 +81456,7 @@
       }
     ]
   },
-  "minecraft:pink_coral_fan": {
+  "minecraft:brain_coral_fan": {
     "properties": {
       "facing": [
         "north",
@@ -81493,7 +81493,7 @@
       }
     ]
   },
-  "minecraft:purple_coral_fan": {
+  "minecraft:bubble_coral_fan": {
     "properties": {
       "facing": [
         "north",
@@ -81530,7 +81530,7 @@
       }
     ]
   },
-  "minecraft:red_coral_fan": {
+  "minecraft:fire_coral_fan": {
     "properties": {
       "facing": [
         "north",
@@ -81567,7 +81567,7 @@
       }
     ]
   },
-  "minecraft:yellow_coral_fan": {
+  "minecraft:horn_coral_fan": {
     "properties": {
       "facing": [
         "north",
@@ -81604,10 +81604,83 @@
       }
     ]
   },
+  "minecraft:sea_pickle": {
+    "properties": {
+      "pickles": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "pickles": "1",
+          "waterlogged": "true"
+        },
+        "id": 8394,
+        "default": true
+      },
+      {
+        "properties": {
+          "pickles": "1",
+          "waterlogged": "false"
+        },
+        "id": 8395
+      },
+      {
+        "properties": {
+          "pickles": "2",
+          "waterlogged": "true"
+        },
+        "id": 8396
+      },
+      {
+        "properties": {
+          "pickles": "2",
+          "waterlogged": "false"
+        },
+        "id": 8397
+      },
+      {
+        "properties": {
+          "pickles": "3",
+          "waterlogged": "true"
+        },
+        "id": 8398
+      },
+      {
+        "properties": {
+          "pickles": "3",
+          "waterlogged": "false"
+        },
+        "id": 8399
+      },
+      {
+        "properties": {
+          "pickles": "4",
+          "waterlogged": "true"
+        },
+        "id": 8400
+      },
+      {
+        "properties": {
+          "pickles": "4",
+          "waterlogged": "false"
+        },
+        "id": 8401
+      }
+    ]
+  },
   "minecraft:void_air": {
     "states": [
       {
-        "id": 8394,
+        "id": 8402,
         "default": true
       }
     ]
@@ -81615,7 +81688,7 @@
   "minecraft:cave_air": {
     "states": [
       {
-        "id": 8395,
+        "id": 8403,
         "default": true
       }
     ]
@@ -81632,14 +81705,14 @@
         "properties": {
           "drag": "true"
         },
-        "id": 8396,
+        "id": 8404,
         "default": true
       },
       {
         "properties": {
           "drag": "false"
         },
-        "id": 8397
+        "id": 8405
       }
     ]
   },
@@ -81657,26 +81730,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 8398,
+        "id": 8406,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 8399
+        "id": 8407
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 8400
+        "id": 8408
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 8401
+        "id": 8409
       }
     ]
   }

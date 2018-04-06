@@ -23,26 +23,27 @@
       "trigger": "minecraft:effects_changed",
       "conditions": {
         "effects": {
-          "minecraft:jump_boost": {},
-          "minecraft:glowing": {},
-          "minecraft:fire_resistance": {},
-          "minecraft:regeneration": {},
-          "minecraft:weakness": {},
-          "minecraft:levitation": {},
-          "minecraft:hunger": {},
-          "minecraft:mining_fatigue": {},
-          "minecraft:poison": {},
-          "minecraft:speed": {},
           "minecraft:water_breathing": {},
-          "minecraft:wither": {},
+          "minecraft:speed": {},
+          "minecraft:jump_boost": {},
+          "minecraft:levitation": {},
           "minecraft:strength": {},
+          "minecraft:glowing": {},
           "minecraft:invisibility": {},
-          "minecraft:haste": {},
-          "minecraft:night_vision": {},
+          "minecraft:absorption": {},
+          "minecraft:poison": {},
+          "minecraft:fire_resistance": {},
           "minecraft:nausea": {},
+          "minecraft:weakness": {},
           "minecraft:slowness": {},
-          "minecraft:resistance": {},
-          "minecraft:absorption": {}
+          "minecraft:hunger": {},
+          "minecraft:night_vision": {},
+          "minecraft:haste": {},
+          "minecraft:slow_falling": {},
+          "minecraft:wither": {},
+          "minecraft:mining_fatigue": {},
+          "minecraft:regeneration": {},
+          "minecraft:resistance": {}
         }
       }
     }
