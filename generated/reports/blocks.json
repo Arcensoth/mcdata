@@ -81677,7 +81677,7 @@
       }
     ]
   },
-  "minecraft:void_air": {
+  "minecraft:blue_ice": {
     "states": [
       {
         "id": 8402,
@@ -81685,10 +81685,26 @@
       }
     ]
   },
-  "minecraft:cave_air": {
+  "minecraft:conduit": {
     "states": [
       {
         "id": 8403,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:void_air": {
+    "states": [
+      {
+        "id": 8404,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:cave_air": {
+    "states": [
+      {
+        "id": 8405,
         "default": true
       }
     ]
@@ -81705,14 +81721,14 @@
         "properties": {
           "drag": "true"
         },
-        "id": 8404,
+        "id": 8406,
         "default": true
       },
       {
         "properties": {
           "drag": "false"
         },
-        "id": 8405
+        "id": 8407
       }
     ]
   },
@@ -81730,26 +81746,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 8406,
+        "id": 8408,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 8407
+        "id": 8409
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 8408
+        "id": 8410
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 8409
+        "id": 8411
       }
     ]
   }
