@@ -1880,145 +1880,145 @@
   "minecraft:chicken_spawn_egg": {
     "protocol_id": 626
   },
-  "minecraft:cow_spawn_egg": {
+  "minecraft:cod_mob_spawn_egg": {
     "protocol_id": 627
   },
-  "minecraft:creeper_spawn_egg": {
+  "minecraft:cow_spawn_egg": {
     "protocol_id": 628
   },
-  "minecraft:dolphin_spawn_egg": {
+  "minecraft:creeper_spawn_egg": {
     "protocol_id": 629
   },
-  "minecraft:donkey_spawn_egg": {
+  "minecraft:dolphin_spawn_egg": {
     "protocol_id": 630
   },
-  "minecraft:drowned_spawn_egg": {
+  "minecraft:donkey_spawn_egg": {
     "protocol_id": 631
   },
-  "minecraft:elder_guardian_spawn_egg": {
+  "minecraft:drowned_spawn_egg": {
     "protocol_id": 632
   },
-  "minecraft:enderman_spawn_egg": {
+  "minecraft:elder_guardian_spawn_egg": {
     "protocol_id": 633
   },
-  "minecraft:endermite_spawn_egg": {
+  "minecraft:enderman_spawn_egg": {
     "protocol_id": 634
   },
-  "minecraft:evocation_illager_spawn_egg": {
+  "minecraft:endermite_spawn_egg": {
     "protocol_id": 635
   },
-  "minecraft:ghast_spawn_egg": {
+  "minecraft:evocation_illager_spawn_egg": {
     "protocol_id": 636
   },
-  "minecraft:guardian_spawn_egg": {
+  "minecraft:ghast_spawn_egg": {
     "protocol_id": 637
   },
-  "minecraft:horse_spawn_egg": {
+  "minecraft:guardian_spawn_egg": {
     "protocol_id": 638
   },
-  "minecraft:husk_spawn_egg": {
+  "minecraft:horse_spawn_egg": {
     "protocol_id": 639
   },
-  "minecraft:llama_spawn_egg": {
+  "minecraft:husk_spawn_egg": {
     "protocol_id": 640
   },
-  "minecraft:magma_cube_spawn_egg": {
+  "minecraft:llama_spawn_egg": {
     "protocol_id": 641
   },
-  "minecraft:mooshroom_spawn_egg": {
+  "minecraft:magma_cube_spawn_egg": {
     "protocol_id": 642
   },
-  "minecraft:mule_spawn_egg": {
+  "minecraft:mooshroom_spawn_egg": {
     "protocol_id": 643
   },
-  "minecraft:ocelot_spawn_egg": {
+  "minecraft:mule_spawn_egg": {
     "protocol_id": 644
   },
-  "minecraft:parrot_spawn_egg": {
+  "minecraft:ocelot_spawn_egg": {
     "protocol_id": 645
   },
-  "minecraft:pig_spawn_egg": {
+  "minecraft:parrot_spawn_egg": {
     "protocol_id": 646
   },
-  "minecraft:phantom_spawn_egg": {
+  "minecraft:pig_spawn_egg": {
     "protocol_id": 647
   },
-  "minecraft:polar_bear_spawn_egg": {
+  "minecraft:phantom_spawn_egg": {
     "protocol_id": 648
   },
-  "minecraft:rabbit_spawn_egg": {
+  "minecraft:polar_bear_spawn_egg": {
     "protocol_id": 649
   },
-  "minecraft:sheep_spawn_egg": {
+  "minecraft:puffer_fish_spawn_egg": {
     "protocol_id": 650
   },
-  "minecraft:shulker_spawn_egg": {
+  "minecraft:rabbit_spawn_egg": {
     "protocol_id": 651
   },
-  "minecraft:silverfish_spawn_egg": {
+  "minecraft:salmon_mob_spawn_egg": {
     "protocol_id": 652
   },
-  "minecraft:skeleton_spawn_egg": {
+  "minecraft:sheep_spawn_egg": {
     "protocol_id": 653
   },
-  "minecraft:skeleton_horse_spawn_egg": {
+  "minecraft:shulker_spawn_egg": {
     "protocol_id": 654
   },
-  "minecraft:slime_spawn_egg": {
+  "minecraft:silverfish_spawn_egg": {
     "protocol_id": 655
   },
-  "minecraft:spider_spawn_egg": {
+  "minecraft:skeleton_spawn_egg": {
     "protocol_id": 656
   },
-  "minecraft:squid_spawn_egg": {
+  "minecraft:skeleton_horse_spawn_egg": {
     "protocol_id": 657
   },
-  "minecraft:stray_spawn_egg": {
+  "minecraft:slime_spawn_egg": {
     "protocol_id": 658
   },
-  "minecraft:turtle_spawn_egg": {
+  "minecraft:spider_spawn_egg": {
     "protocol_id": 659
   },
-  "minecraft:vex_spawn_egg": {
+  "minecraft:squid_spawn_egg": {
     "protocol_id": 660
   },
-  "minecraft:villager_spawn_egg": {
+  "minecraft:stray_spawn_egg": {
     "protocol_id": 661
   },
-  "minecraft:vindication_illager_spawn_egg": {
+  "minecraft:tropical_fish_spawn_egg": {
     "protocol_id": 662
   },
-  "minecraft:witch_spawn_egg": {
+  "minecraft:turtle_spawn_egg": {
     "protocol_id": 663
   },
-  "minecraft:wither_skeleton_spawn_egg": {
+  "minecraft:vex_spawn_egg": {
     "protocol_id": 664
   },
-  "minecraft:wolf_spawn_egg": {
+  "minecraft:villager_spawn_egg": {
     "protocol_id": 665
   },
-  "minecraft:zombie_spawn_egg": {
+  "minecraft:vindication_illager_spawn_egg": {
     "protocol_id": 666
   },
-  "minecraft:zombie_horse_spawn_egg": {
+  "minecraft:witch_spawn_egg": {
     "protocol_id": 667
   },
-  "minecraft:zombie_pigman_spawn_egg": {
+  "minecraft:wither_skeleton_spawn_egg": {
     "protocol_id": 668
   },
-  "minecraft:zombie_villager_spawn_egg": {
+  "minecraft:wolf_spawn_egg": {
     "protocol_id": 669
   },
-  "minecraft:puffer_fish_spawn_egg": {
+  "minecraft:zombie_spawn_egg": {
     "protocol_id": 670
   },
-  "minecraft:salmon_mob_spawn_egg": {
+  "minecraft:zombie_horse_spawn_egg": {
     "protocol_id": 671
   },
-  "minecraft:cod_mob_spawn_egg": {
+  "minecraft:zombie_pigman_spawn_egg": {
     "protocol_id": 672
   },
-  "minecraft:tropical_fish_spawn_egg": {
+  "minecraft:zombie_villager_spawn_egg": {
     "protocol_id": 673
   },
   "minecraft:experience_bottle": {
