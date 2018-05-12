@@ -218,7 +218,7 @@
   "minecraft:dead_bush": {
     "protocol_id": 72
   },
-  "minecraft:sea_grass": {
+  "minecraft:seagrass": {
     "protocol_id": 73
   },
   "minecraft:sea_pickle": {
@@ -1949,7 +1949,7 @@
   "minecraft:polar_bear_spawn_egg": {
     "protocol_id": 649
   },
-  "minecraft:puffer_fish_spawn_egg": {
+  "minecraft:pufferfish_spawn_egg": {
     "protocol_id": 650
   },
   "minecraft:rabbit_spawn_egg": {

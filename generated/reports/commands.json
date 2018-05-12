@@ -198,7 +198,7 @@
     "bossbar": {
       "type": "literal",
       "children": {
-        "create": {
+        "add": {
           "type": "literal",
           "children": {
             "id": {

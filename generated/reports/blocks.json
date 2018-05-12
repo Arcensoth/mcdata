@@ -8225,7 +8225,7 @@
       }
     ]
   },
-  "minecraft:sea_grass": {
+  "minecraft:seagrass": {
     "states": [
       {
         "id": 954,
@@ -8233,7 +8233,7 @@
       }
     ]
   },
-  "minecraft:tall_sea_grass": {
+  "minecraft:tall_seagrass": {
     "properties": {
       "half": [
         "upper",

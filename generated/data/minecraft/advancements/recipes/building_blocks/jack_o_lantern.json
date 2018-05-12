@@ -6,12 +6,12 @@
     ]
   },
   "criteria": {
-    "has_pumpkin": {
+    "has_carved_pumpkin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:pumpkin"
+            "item": "minecraft:carved_pumpkin"
           }
         ]
       }
@@ -25,7 +25,7 @@
   },
   "requirements": [
     [
-      "has_pumpkin",
+      "has_carved_pumpkin",
       "has_the_recipe"
     ]
   ]
