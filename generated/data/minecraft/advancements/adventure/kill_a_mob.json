@@ -199,6 +199,14 @@
           "type": "minecraft:phantom"
         }
       }
+    },
+    "drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:drowned"
+        }
+      }
     }
   },
   "requirements": [
@@ -225,7 +233,8 @@
       "wither_skeleton",
       "zombie",
       "zombie_villager",
-      "phantom"
+      "phantom",
+      "drowned"
     ]
   ]
 }

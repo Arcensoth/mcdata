@@ -368,7 +368,7 @@
   "minecraft:prismarine_slab": {
     "protocol_id": 122
   },
-  "minecraft:prismarine_bricks_slab": {
+  "minecraft:prismarine_brick_slab": {
     "protocol_id": 123
   },
   "minecraft:dark_prismarine_slab": {
@@ -1022,7 +1022,7 @@
   "minecraft:prismarine_stairs": {
     "protocol_id": 340
   },
-  "minecraft:prismarine_bricks_stairs": {
+  "minecraft:prismarine_brick_stairs": {
     "protocol_id": 341
   },
   "minecraft:dark_prismarine_stairs": {
@@ -1628,7 +1628,7 @@
   "minecraft:sugar_cane": {
     "protocol_id": 542
   },
-  "minecraft:kelp_top": {
+  "minecraft:kelp": {
     "protocol_id": 543
   },
   "minecraft:dried_kelp_block": {
@@ -1880,7 +1880,7 @@
   "minecraft:chicken_spawn_egg": {
     "protocol_id": 626
   },
-  "minecraft:cod_mob_spawn_egg": {
+  "minecraft:cod_spawn_egg": {
     "protocol_id": 627
   },
   "minecraft:cow_spawn_egg": {
@@ -1955,7 +1955,7 @@
   "minecraft:rabbit_spawn_egg": {
     "protocol_id": 651
   },
-  "minecraft:salmon_mob_spawn_egg": {
+  "minecraft:salmon_spawn_egg": {
     "protocol_id": 652
   },
   "minecraft:sheep_spawn_egg": {

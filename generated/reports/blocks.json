@@ -64280,7 +64280,7 @@
       }
     ]
   },
-  "minecraft:prismarine_bricks_stairs": {
+  "minecraft:prismarine_brick_stairs": {
     "properties": {
       "facing": [
         "north",
@@ -65834,7 +65834,7 @@
       }
     ]
   },
-  "minecraft:prismarine_bricks_slab": {
+  "minecraft:prismarine_brick_slab": {
     "properties": {
       "type": [
         "top",
@@ -80990,7 +80990,7 @@
       }
     ]
   },
-  "minecraft:kelp": {
+  "minecraft:kelp_plant": {
     "states": [
       {
         "id": 8319,
@@ -80998,7 +80998,7 @@
       }
     ]
   },
-  "minecraft:kelp_top": {
+  "minecraft:kelp": {
     "properties": {
       "age": [
         "0",

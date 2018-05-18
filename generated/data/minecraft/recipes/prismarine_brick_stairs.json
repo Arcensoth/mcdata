@@ -1,6 +1,8 @@
 {
   "type": "crafting_shaped",
   "pattern": [
+    "#  ",
+    "## ",
     "###"
   ],
   "key": {
@@ -9,7 +11,7 @@
     }
   },
   "result": {
-    "item": "minecraft:prismarine_bricks_slab",
-    "count": 6
+    "item": "minecraft:prismarine_brick_stairs",
+    "count": 4
   }
 }

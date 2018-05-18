@@ -4237,12 +4237,32 @@
                     }
                   }
                 },
+                "prefix": {
+                  "type": "literal",
+                  "children": {
+                    "prefix": {
+                      "type": "argument",
+                      "parser": "minecraft:component",
+                      "executable": true
+                    }
+                  }
+                },
                 "seeFriendlyInvisibles": {
                   "type": "literal",
                   "children": {
                     "allowed": {
                       "type": "argument",
                       "parser": "brigadier:bool",
+                      "executable": true
+                    }
+                  }
+                },
+                "suffix": {
+                  "type": "literal",
+                  "children": {
+                    "suffix": {
+                      "type": "argument",
+                      "parser": "minecraft:component",
                       "executable": true
                     }
                   }

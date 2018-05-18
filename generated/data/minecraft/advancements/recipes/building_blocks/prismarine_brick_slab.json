@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:prismarine_bricks_slab"
+      "minecraft:prismarine_brick_slab"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:prismarine_bricks_slab"
+        "recipe": "minecraft:prismarine_brick_slab"
       }
     }
   },
