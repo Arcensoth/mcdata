@@ -605,7 +605,7 @@
   "minecraft:glass_pane": {
     "protocol_id": 201
   },
-  "minecraft:melon_block": {
+  "minecraft:melon": {
     "protocol_id": 202
   },
   "minecraft:vine": {
@@ -1796,7 +1796,7 @@
   "minecraft:shears": {
     "protocol_id": 598
   },
-  "minecraft:melon": {
+  "minecraft:melon_slice": {
     "protocol_id": 599
   },
   "minecraft:dried_kelp": {
@@ -1865,7 +1865,7 @@
   "minecraft:ender_eye": {
     "protocol_id": 621
   },
-  "minecraft:speckled_melon": {
+  "minecraft:glistering_melon_slice": {
     "protocol_id": 622
   },
   "minecraft:bat_spawn_egg": {

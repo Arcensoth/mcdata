@@ -40765,7 +40765,7 @@
       }
     ]
   },
-  "minecraft:melon_block": {
+  "minecraft:melon": {
     "states": [
       {
         "id": 4153,

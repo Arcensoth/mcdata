@@ -131,11 +131,11 @@
         }
       }
     },
-    "melon": {
+    "melon_slice": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:melon"
+          "item": "minecraft:melon_slice"
         }
       }
     },
@@ -352,7 +352,7 @@
       "cookie"
     ],
     [
-      "melon"
+      "melon_slice"
     ],
     [
       "beef"

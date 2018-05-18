@@ -10,10 +10,10 @@
       "item": "minecraft:gold_nugget"
     },
     "X": {
-      "item": "minecraft:melon"
+      "item": "minecraft:melon_slice"
     }
   },
   "result": {
-    "item": "minecraft:speckled_melon"
+    "item": "minecraft:glistering_melon_slice"
   }
 }

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:melon"
+      "item": "minecraft:melon_slice"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "M": {
-      "item": "minecraft:melon"
+      "item": "minecraft:melon_slice"
     }
   },
   "result": {
-    "item": "minecraft:melon_block"
+    "item": "minecraft:melon"
   }
 }
