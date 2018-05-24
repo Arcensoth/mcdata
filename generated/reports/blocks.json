@@ -50252,7 +50252,8 @@
           "waterlogged": "false",
           "west": "false"
         },
-        "id": 5106
+        "id": 5106,
+        "default": true
       },
       {
         "properties": {
@@ -50296,8 +50297,7 @@
           "waterlogged": "false",
           "west": "false"
         },
-        "id": 5110,
-        "default": true
+        "id": 5110
       }
     ]
   },
@@ -50987,7 +50987,8 @@
           "waterlogged": "false",
           "west": "false"
         },
-        "id": 5170
+        "id": 5170,
+        "default": true
       },
       {
         "properties": {
@@ -51031,8 +51032,7 @@
           "waterlogged": "false",
           "west": "false"
         },
-        "id": 5174,
-        "default": true
+        "id": 5174
       }
     ]
   },
