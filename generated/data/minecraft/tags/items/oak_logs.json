@@ -3,6 +3,7 @@
   "values": [
     "minecraft:oak_log",
     "minecraft:oak_bark",
-    "minecraft:stripped_oak_log"
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_oak_bark"
   ]
 }

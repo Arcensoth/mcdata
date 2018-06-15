@@ -3,6 +3,7 @@
   "values": [
     "minecraft:spruce_log",
     "minecraft:spruce_bark",
-    "minecraft:stripped_spruce_log"
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_spruce_bark"
   ]
 }
