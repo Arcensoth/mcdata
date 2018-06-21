@@ -81752,14 +81752,6 @@
       }
     ]
   },
-  "minecraft:kelp_plant": {
-    "states": [
-      {
-        "id": 8409,
-        "default": true
-      }
-    ]
-  },
   "minecraft:kelp": {
     "properties": {
       "age": [
@@ -81796,158 +81788,166 @@
         "properties": {
           "age": "0"
         },
-        "id": 8410,
+        "id": 8409,
         "default": true
       },
       {
         "properties": {
           "age": "1"
         },
-        "id": 8411
+        "id": 8410
       },
       {
         "properties": {
           "age": "2"
         },
-        "id": 8412
+        "id": 8411
       },
       {
         "properties": {
           "age": "3"
         },
-        "id": 8413
+        "id": 8412
       },
       {
         "properties": {
           "age": "4"
         },
-        "id": 8414
+        "id": 8413
       },
       {
         "properties": {
           "age": "5"
         },
-        "id": 8415
+        "id": 8414
       },
       {
         "properties": {
           "age": "6"
         },
-        "id": 8416
+        "id": 8415
       },
       {
         "properties": {
           "age": "7"
         },
-        "id": 8417
+        "id": 8416
       },
       {
         "properties": {
           "age": "8"
         },
-        "id": 8418
+        "id": 8417
       },
       {
         "properties": {
           "age": "9"
         },
-        "id": 8419
+        "id": 8418
       },
       {
         "properties": {
           "age": "10"
         },
-        "id": 8420
+        "id": 8419
       },
       {
         "properties": {
           "age": "11"
         },
-        "id": 8421
+        "id": 8420
       },
       {
         "properties": {
           "age": "12"
         },
-        "id": 8422
+        "id": 8421
       },
       {
         "properties": {
           "age": "13"
         },
-        "id": 8423
+        "id": 8422
       },
       {
         "properties": {
           "age": "14"
         },
-        "id": 8424
+        "id": 8423
       },
       {
         "properties": {
           "age": "15"
         },
-        "id": 8425
+        "id": 8424
       },
       {
         "properties": {
           "age": "16"
         },
-        "id": 8426
+        "id": 8425
       },
       {
         "properties": {
           "age": "17"
         },
-        "id": 8427
+        "id": 8426
       },
       {
         "properties": {
           "age": "18"
         },
-        "id": 8428
+        "id": 8427
       },
       {
         "properties": {
           "age": "19"
         },
-        "id": 8429
+        "id": 8428
       },
       {
         "properties": {
           "age": "20"
         },
-        "id": 8430
+        "id": 8429
       },
       {
         "properties": {
           "age": "21"
         },
-        "id": 8431
+        "id": 8430
       },
       {
         "properties": {
           "age": "22"
         },
-        "id": 8432
+        "id": 8431
       },
       {
         "properties": {
           "age": "23"
         },
-        "id": 8433
+        "id": 8432
       },
       {
         "properties": {
           "age": "24"
         },
-        "id": 8434
+        "id": 8433
       },
       {
         "properties": {
           "age": "25"
         },
-        "id": 8435
+        "id": 8434
+      }
+    ]
+  },
+  "minecraft:kelp_plant": {
+    "states": [
+      {
+        "id": 8435,
+        "default": true
       }
     ]
   },
