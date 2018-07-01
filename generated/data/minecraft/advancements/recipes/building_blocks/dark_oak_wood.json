@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:dark_oak_bark"
+      "minecraft:dark_oak_wood"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:dark_oak_bark"
+        "recipe": "minecraft:dark_oak_wood"
       }
     }
   },

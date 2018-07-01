@@ -91,11 +91,11 @@
         }
       }
     },
-    "clownfish": {
+    "tropical_fish": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:clownfish"
+          "item": "minecraft:tropical_fish"
         }
       }
     },
@@ -337,7 +337,7 @@
       "salmon"
     ],
     [
-      "clownfish"
+      "tropical_fish"
     ],
     [
       "pufferfish"

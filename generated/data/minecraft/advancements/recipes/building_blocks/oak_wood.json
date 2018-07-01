@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:chorus_fruit_popped"
+      "minecraft:oak_wood"
     ]
   },
   "criteria": {
-    "has_chorus_fruit": {
+    "has_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:chorus_fruit"
+            "item": "minecraft:oak_log"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:chorus_fruit_popped"
+        "recipe": "minecraft:oak_wood"
       }
     }
   },
   "requirements": [
     [
-      "has_chorus_fruit",
+      "has_log",
       "has_the_recipe"
     ]
   ]

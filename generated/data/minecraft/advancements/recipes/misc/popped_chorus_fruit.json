@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:spruce_bark"
+      "minecraft:popped_chorus_fruit"
     ]
   },
   "criteria": {
-    "has_log": {
+    "has_chorus_fruit": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_log"
+            "item": "minecraft:chorus_fruit"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:spruce_bark"
+        "recipe": "minecraft:popped_chorus_fruit"
       }
     }
   },
   "requirements": [
     [
-      "has_log",
+      "has_chorus_fruit",
       "has_the_recipe"
     ]
   ]

@@ -131,40 +131,40 @@
   "minecraft:stripped_dark_oak_log": {
     "protocol_id": 43
   },
-  "minecraft:stripped_oak_bark": {
+  "minecraft:stripped_oak_wood": {
     "protocol_id": 44
   },
-  "minecraft:stripped_spruce_bark": {
+  "minecraft:stripped_spruce_wood": {
     "protocol_id": 45
   },
-  "minecraft:stripped_birch_bark": {
+  "minecraft:stripped_birch_wood": {
     "protocol_id": 46
   },
-  "minecraft:stripped_jungle_bark": {
+  "minecraft:stripped_jungle_wood": {
     "protocol_id": 47
   },
-  "minecraft:stripped_acacia_bark": {
+  "minecraft:stripped_acacia_wood": {
     "protocol_id": 48
   },
-  "minecraft:stripped_dark_oak_bark": {
+  "minecraft:stripped_dark_oak_wood": {
     "protocol_id": 49
   },
-  "minecraft:oak_bark": {
+  "minecraft:oak_wood": {
     "protocol_id": 50
   },
-  "minecraft:spruce_bark": {
+  "minecraft:spruce_wood": {
     "protocol_id": 51
   },
-  "minecraft:birch_bark": {
+  "minecraft:birch_wood": {
     "protocol_id": 52
   },
-  "minecraft:jungle_bark": {
+  "minecraft:jungle_wood": {
     "protocol_id": 53
   },
-  "minecraft:acacia_bark": {
+  "minecraft:acacia_wood": {
     "protocol_id": 54
   },
-  "minecraft:dark_oak_bark": {
+  "minecraft:dark_oak_wood": {
     "protocol_id": 55
   },
   "minecraft:oak_leaves": {
@@ -440,7 +440,7 @@
   "minecraft:purpur_stairs": {
     "protocol_id": 146
   },
-  "minecraft:mob_spawner": {
+  "minecraft:spawner": {
     "protocol_id": 147
   },
   "minecraft:oak_stairs": {
@@ -1634,7 +1634,7 @@
   "minecraft:cod_bucket": {
     "protocol_id": 544
   },
-  "minecraft:clownfish_bucket": {
+  "minecraft:tropical_fish_bucket": {
     "protocol_id": 545
   },
   "minecraft:brick": {
@@ -1688,7 +1688,7 @@
   "minecraft:salmon": {
     "protocol_id": 562
   },
-  "minecraft:clownfish": {
+  "minecraft:tropical_fish": {
     "protocol_id": 563
   },
   "minecraft:pufferfish": {
@@ -1925,7 +1925,7 @@
   "minecraft:endermite_spawn_egg": {
     "protocol_id": 641
   },
-  "minecraft:evocation_illager_spawn_egg": {
+  "minecraft:evoker_spawn_egg": {
     "protocol_id": 642
   },
   "minecraft:ghast_spawn_egg": {
@@ -2015,7 +2015,7 @@
   "minecraft:villager_spawn_egg": {
     "protocol_id": 671
   },
-  "minecraft:vindication_illager_spawn_egg": {
+  "minecraft:vindicator_spawn_egg": {
     "protocol_id": 672
   },
   "minecraft:witch_spawn_egg": {
@@ -2228,7 +2228,7 @@
   "minecraft:chorus_fruit": {
     "protocol_id": 742
   },
-  "minecraft:chorus_fruit_popped": {
+  "minecraft:popped_chorus_fruit": {
     "protocol_id": 743
   },
   "minecraft:beetroot": {

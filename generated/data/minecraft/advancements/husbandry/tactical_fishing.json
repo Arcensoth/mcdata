@@ -24,11 +24,11 @@
         }
       }
     },
-    "clownfish_bucket": {
+    "tropical_fish_bucket": {
       "trigger": "minecraft:filled_bucket",
       "conditions": {
         "item": {
-          "item": "minecraft:clownfish_bucket"
+          "item": "minecraft:tropical_fish_bucket"
         }
       }
     },
@@ -52,7 +52,7 @@
   "requirements": [
     [
       "cod_bucket",
-      "clownfish_bucket",
+      "tropical_fish_bucket",
       "pufferfish_bucket",
       "salmon_bucket"
     ]

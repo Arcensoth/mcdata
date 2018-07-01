@@ -7,11 +7,11 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:jungle_log"
     }
   },
   "result": {
-    "item": "minecraft:spruce_bark",
+    "item": "minecraft:jungle_wood",
     "count": 3
   }
 }

@@ -977,7 +977,7 @@
       }
     ]
   },
-  "minecraft:oak_bark": {
+  "minecraft:oak_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1007,7 +1007,7 @@
       }
     ]
   },
-  "minecraft:spruce_bark": {
+  "minecraft:spruce_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1037,7 +1037,7 @@
       }
     ]
   },
-  "minecraft:birch_bark": {
+  "minecraft:birch_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1067,7 +1067,7 @@
       }
     ]
   },
-  "minecraft:jungle_bark": {
+  "minecraft:jungle_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1097,7 +1097,7 @@
       }
     ]
   },
-  "minecraft:acacia_bark": {
+  "minecraft:acacia_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1127,7 +1127,7 @@
       }
     ]
   },
-  "minecraft:dark_oak_bark": {
+  "minecraft:dark_oak_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1157,7 +1157,7 @@
       }
     ]
   },
-  "minecraft:stripped_oak_bark": {
+  "minecraft:stripped_oak_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1187,7 +1187,7 @@
       }
     ]
   },
-  "minecraft:stripped_spruce_bark": {
+  "minecraft:stripped_spruce_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1217,7 +1217,7 @@
       }
     ]
   },
-  "minecraft:stripped_birch_bark": {
+  "minecraft:stripped_birch_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1247,7 +1247,7 @@
       }
     ]
   },
-  "minecraft:stripped_jungle_bark": {
+  "minecraft:stripped_jungle_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1277,7 +1277,7 @@
       }
     ]
   },
-  "minecraft:stripped_acacia_bark": {
+  "minecraft:stripped_acacia_wood": {
     "properties": {
       "axis": [
         "x",
@@ -1307,7 +1307,7 @@
       }
     ]
   },
-  "minecraft:stripped_dark_oak_bark": {
+  "minecraft:stripped_dark_oak_wood": {
     "properties": {
       "axis": [
         "x",
@@ -15441,7 +15441,7 @@
       }
     ]
   },
-  "minecraft:mob_spawner": {
+  "minecraft:spawner": {
     "states": [
       {
         "id": 1647,
@@ -33648,7 +33648,7 @@
       }
     ]
   },
-  "minecraft:portal": {
+  "minecraft:nether_portal": {
     "properties": {
       "axis": [
         "x",
