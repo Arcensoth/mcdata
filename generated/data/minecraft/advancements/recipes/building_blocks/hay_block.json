@@ -13,7 +13,7 @@
           {
             "item": "minecraft:wheat",
             "count": {
-              "min": 9.0
+              "min": 9
             }
           }
         ]

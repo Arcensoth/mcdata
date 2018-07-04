@@ -11,7 +11,7 @@
       "conditions": {
         "slots": {
           "occupied": {
-            "min": 10.0
+            "min": 10
           }
         }
       }

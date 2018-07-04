@@ -19,7 +19,7 @@
     "experience": 100
   },
   "criteria": {
-    "horse": {
+    "minecraft:horse": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -27,7 +27,7 @@
         }
       }
     },
-    "sheep": {
+    "minecraft:sheep": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -35,7 +35,7 @@
         }
       }
     },
-    "cow": {
+    "minecraft:cow": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -43,7 +43,7 @@
         }
       }
     },
-    "mooshroom": {
+    "minecraft:mooshroom": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -51,7 +51,7 @@
         }
       }
     },
-    "pig": {
+    "minecraft:pig": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -59,7 +59,7 @@
         }
       }
     },
-    "chicken": {
+    "minecraft:chicken": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -67,7 +67,7 @@
         }
       }
     },
-    "wolf": {
+    "minecraft:wolf": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -75,7 +75,7 @@
         }
       }
     },
-    "ocelot": {
+    "minecraft:ocelot": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -83,7 +83,7 @@
         }
       }
     },
-    "rabbit": {
+    "minecraft:rabbit": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -91,7 +91,7 @@
         }
       }
     },
-    "llama": {
+    "minecraft:llama": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -99,7 +99,7 @@
         }
       }
     },
-    "turtle": {
+    "minecraft:turtle": {
       "trigger": "minecraft:bred_animals",
       "conditions": {
         "parent": {
@@ -110,37 +110,37 @@
   },
   "requirements": [
     [
-      "horse"
+      "minecraft:horse"
     ],
     [
-      "sheep"
+      "minecraft:sheep"
     ],
     [
-      "cow"
+      "minecraft:cow"
     ],
     [
-      "mooshroom"
+      "minecraft:mooshroom"
     ],
     [
-      "pig"
+      "minecraft:pig"
     ],
     [
-      "chicken"
+      "minecraft:chicken"
     ],
     [
-      "wolf"
+      "minecraft:wolf"
     ],
     [
-      "ocelot"
+      "minecraft:ocelot"
     ],
     [
-      "rabbit"
+      "minecraft:rabbit"
     ],
     [
-      "llama"
+      "minecraft:llama"
     ],
     [
-      "turtle"
+      "minecraft:turtle"
     ]
   ]
 }

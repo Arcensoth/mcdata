@@ -13,7 +13,7 @@
           {
             "item": "minecraft:lapis_lazuli",
             "count": {
-              "min": 9.0
+              "min": 9
             }
           }
         ]

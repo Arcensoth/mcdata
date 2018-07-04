@@ -1197,10 +1197,7 @@
                           "children": {
                             "range": {
                               "type": "argument",
-                              "parser": "minecraft:range",
-                              "properties": {
-                                "decimals": false
-                              },
+                              "parser": "minecraft:int_range",
                               "executable": true,
                               "redirect": [
                                 "execute"
@@ -1970,10 +1967,7 @@
                           "children": {
                             "range": {
                               "type": "argument",
-                              "parser": "minecraft:range",
-                              "properties": {
-                                "decimals": false
-                              },
+                              "parser": "minecraft:int_range",
                               "executable": true,
                               "redirect": [
                                 "execute"
@@ -4009,7 +4003,7 @@
       "children": {
         "entity": {
           "type": "argument",
-          "parser": "minecraft:resource_location",
+          "parser": "minecraft:entity_summon",
           "children": {
             "pos": {
               "type": "argument",

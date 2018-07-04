@@ -19,7 +19,7 @@
     "beacon": {
       "trigger": "minecraft:construct_beacon",
       "conditions": {
-        "level": 4.0
+        "level": 4
       }
     }
   },

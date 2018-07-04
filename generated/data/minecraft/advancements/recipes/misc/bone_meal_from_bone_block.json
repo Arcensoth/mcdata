@@ -13,7 +13,7 @@
           {
             "item": "minecraft:bone_meal",
             "count": {
-              "min": 9.0
+              "min": 9
             }
           }
         ]

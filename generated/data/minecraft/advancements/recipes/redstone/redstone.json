@@ -23,7 +23,7 @@
           {
             "item": "minecraft:redstone",
             "count": {
-              "min": 9.0
+              "min": 9
             }
           }
         ]

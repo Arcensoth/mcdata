@@ -20,7 +20,7 @@
       "trigger": "minecraft:construct_beacon",
       "conditions": {
         "level": {
-          "min": 1.0
+          "min": 1
         }
       }
     }
