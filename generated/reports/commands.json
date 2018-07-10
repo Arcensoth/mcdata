@@ -3505,6 +3505,30 @@
               "type": "literal",
               "executable": true
             },
+            "modify": {
+              "type": "literal",
+              "children": {
+                "objective": {
+                  "type": "argument",
+                  "parser": "minecraft:objective",
+                  "children": {
+                    "displayname": {
+                      "type": "literal",
+                      "children": {
+                        "displayName": {
+                          "type": "argument",
+                          "parser": "brigadier:string",
+                          "properties": {
+                            "type": "greedy"
+                          },
+                          "executable": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             "remove": {
               "type": "literal",
               "children": {
