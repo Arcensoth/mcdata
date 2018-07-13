@@ -82181,188 +82181,963 @@
       }
     ]
   },
-  "minecraft:tube_coral_fan": {
+  "minecraft:dead_tube_coral_wall_fan": {
     "properties": {
       "facing": [
         "north",
         "south",
         "west",
         "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
       ]
     },
     "states": [
       {
         "properties": {
-          "facing": "north"
+          "facing": "north",
+          "waterlogged": "true"
         },
         "id": 8464,
         "default": true
       },
       {
         "properties": {
-          "facing": "south"
+          "facing": "north",
+          "waterlogged": "false"
         },
         "id": 8465
       },
       {
         "properties": {
-          "facing": "west"
+          "facing": "south",
+          "waterlogged": "true"
         },
         "id": 8466
       },
       {
         "properties": {
-          "facing": "east"
+          "facing": "south",
+          "waterlogged": "false"
         },
         "id": 8467
-      }
-    ]
-  },
-  "minecraft:brain_coral_fan": {
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "facing": "north"
-        },
-        "id": 8468,
-        "default": true
       },
       {
         "properties": {
-          "facing": "south"
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8468
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
         },
         "id": 8469
       },
       {
         "properties": {
-          "facing": "west"
+          "facing": "east",
+          "waterlogged": "true"
         },
         "id": 8470
       },
       {
         "properties": {
-          "facing": "east"
+          "facing": "east",
+          "waterlogged": "false"
         },
         "id": 8471
       }
     ]
   },
-  "minecraft:bubble_coral_fan": {
+  "minecraft:dead_brain_coral_wall_fan": {
     "properties": {
       "facing": [
         "north",
         "south",
         "west",
         "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
       ]
     },
     "states": [
       {
         "properties": {
-          "facing": "north"
+          "facing": "north",
+          "waterlogged": "true"
         },
         "id": 8472,
         "default": true
       },
       {
         "properties": {
-          "facing": "south"
+          "facing": "north",
+          "waterlogged": "false"
         },
         "id": 8473
       },
       {
         "properties": {
-          "facing": "west"
+          "facing": "south",
+          "waterlogged": "true"
         },
         "id": 8474
       },
       {
         "properties": {
-          "facing": "east"
+          "facing": "south",
+          "waterlogged": "false"
         },
         "id": 8475
-      }
-    ]
-  },
-  "minecraft:fire_coral_fan": {
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "facing": "north"
-        },
-        "id": 8476,
-        "default": true
       },
       {
         "properties": {
-          "facing": "south"
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8476
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
         },
         "id": 8477
       },
       {
         "properties": {
-          "facing": "west"
+          "facing": "east",
+          "waterlogged": "true"
         },
         "id": 8478
       },
       {
         "properties": {
-          "facing": "east"
+          "facing": "east",
+          "waterlogged": "false"
         },
         "id": 8479
       }
     ]
   },
-  "minecraft:horn_coral_fan": {
+  "minecraft:dead_bubble_coral_wall_fan": {
     "properties": {
       "facing": [
         "north",
         "south",
         "west",
         "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
       ]
     },
     "states": [
       {
         "properties": {
-          "facing": "north"
+          "facing": "north",
+          "waterlogged": "true"
         },
         "id": 8480,
         "default": true
       },
       {
         "properties": {
-          "facing": "south"
+          "facing": "north",
+          "waterlogged": "false"
         },
         "id": 8481
       },
       {
         "properties": {
-          "facing": "west"
+          "facing": "south",
+          "waterlogged": "true"
         },
         "id": 8482
       },
       {
         "properties": {
-          "facing": "east"
+          "facing": "south",
+          "waterlogged": "false"
         },
         "id": 8483
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8484
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8485
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8486
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8487
+      }
+    ]
+  },
+  "minecraft:dead_fire_coral_wall_fan": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "true"
+        },
+        "id": 8488,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "false"
+        },
+        "id": 8489
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8490
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "false"
+        },
+        "id": 8491
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8492
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8493
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8494
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8495
+      }
+    ]
+  },
+  "minecraft:dead_horn_coral_wall_fan": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "true"
+        },
+        "id": 8496,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "false"
+        },
+        "id": 8497
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8498
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "false"
+        },
+        "id": 8499
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8500
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8501
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8502
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8503
+      }
+    ]
+  },
+  "minecraft:tube_coral_wall_fan": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "true"
+        },
+        "id": 8504,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "false"
+        },
+        "id": 8505
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8506
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "false"
+        },
+        "id": 8507
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8508
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8509
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8510
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8511
+      }
+    ]
+  },
+  "minecraft:brain_coral_wall_fan": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "true"
+        },
+        "id": 8512,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "false"
+        },
+        "id": 8513
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8514
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "false"
+        },
+        "id": 8515
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8516
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8517
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8518
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8519
+      }
+    ]
+  },
+  "minecraft:bubble_coral_wall_fan": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "true"
+        },
+        "id": 8520,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "false"
+        },
+        "id": 8521
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8522
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "false"
+        },
+        "id": 8523
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8524
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8525
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8526
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8527
+      }
+    ]
+  },
+  "minecraft:fire_coral_wall_fan": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "true"
+        },
+        "id": 8528,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "false"
+        },
+        "id": 8529
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8530
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "false"
+        },
+        "id": 8531
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8532
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8533
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8534
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8535
+      }
+    ]
+  },
+  "minecraft:horn_coral_wall_fan": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "true"
+        },
+        "id": 8536,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "waterlogged": "false"
+        },
+        "id": 8537
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8538
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "waterlogged": "false"
+        },
+        "id": 8539
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8540
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "waterlogged": "false"
+        },
+        "id": 8541
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8542
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "waterlogged": "false"
+        },
+        "id": 8543
+      }
+    ]
+  },
+  "minecraft:dead_tube_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8544,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8545
+      }
+    ]
+  },
+  "minecraft:dead_brain_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8546,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8547
+      }
+    ]
+  },
+  "minecraft:dead_bubble_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8548,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8549
+      }
+    ]
+  },
+  "minecraft:dead_fire_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8550,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8551
+      }
+    ]
+  },
+  "minecraft:dead_horn_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8552,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8553
+      }
+    ]
+  },
+  "minecraft:tube_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8554,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8555
+      }
+    ]
+  },
+  "minecraft:brain_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8556,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8557
+      }
+    ]
+  },
+  "minecraft:bubble_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8558,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8559
+      }
+    ]
+  },
+  "minecraft:fire_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8560,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8561
+      }
+    ]
+  },
+  "minecraft:horn_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8562,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8563
       }
     ]
   },
@@ -82385,7 +83160,7 @@
           "pickles": "1",
           "waterlogged": "true"
         },
-        "id": 8484,
+        "id": 8564,
         "default": true
       },
       {
@@ -82393,56 +83168,56 @@
           "pickles": "1",
           "waterlogged": "false"
         },
-        "id": 8485
+        "id": 8565
       },
       {
         "properties": {
           "pickles": "2",
           "waterlogged": "true"
         },
-        "id": 8486
+        "id": 8566
       },
       {
         "properties": {
           "pickles": "2",
           "waterlogged": "false"
         },
-        "id": 8487
+        "id": 8567
       },
       {
         "properties": {
           "pickles": "3",
           "waterlogged": "true"
         },
-        "id": 8488
+        "id": 8568
       },
       {
         "properties": {
           "pickles": "3",
           "waterlogged": "false"
         },
-        "id": 8489
+        "id": 8569
       },
       {
         "properties": {
           "pickles": "4",
           "waterlogged": "true"
         },
-        "id": 8490
+        "id": 8570
       },
       {
         "properties": {
           "pickles": "4",
           "waterlogged": "false"
         },
-        "id": 8491
+        "id": 8571
       }
     ]
   },
   "minecraft:blue_ice": {
     "states": [
       {
-        "id": 8492,
+        "id": 8572,
         "default": true
       }
     ]
@@ -82450,7 +83225,7 @@
   "minecraft:conduit": {
     "states": [
       {
-        "id": 8493,
+        "id": 8573,
         "default": true
       }
     ]
@@ -82458,7 +83233,7 @@
   "minecraft:void_air": {
     "states": [
       {
-        "id": 8494,
+        "id": 8574,
         "default": true
       }
     ]
@@ -82466,7 +83241,7 @@
   "minecraft:cave_air": {
     "states": [
       {
-        "id": 8495,
+        "id": 8575,
         "default": true
       }
     ]
@@ -82483,14 +83258,14 @@
         "properties": {
           "drag": "true"
         },
-        "id": 8496,
+        "id": 8576,
         "default": true
       },
       {
         "properties": {
           "drag": "false"
         },
-        "id": 8497
+        "id": 8577
       }
     ]
   },
@@ -82508,26 +83283,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 8498,
+        "id": 8578,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 8499
+        "id": 8579
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 8500
+        "id": 8580
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 8501
+        "id": 8581
       }
     ]
   }
