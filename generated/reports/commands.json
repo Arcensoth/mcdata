@@ -387,6 +387,117 @@
         }
       }
     },
+    "chunk": {
+      "type": "literal",
+      "children": {
+        "force": {
+          "type": "literal",
+          "children": {
+            "x": {
+              "type": "argument",
+              "parser": "brigadier:integer",
+              "properties": {
+                "min": -1875000,
+                "max": 1875000
+              },
+              "children": {
+                "z": {
+                  "type": "argument",
+                  "parser": "brigadier:integer",
+                  "properties": {
+                    "min": -1875000,
+                    "max": 1875000
+                  },
+                  "executable": true
+                }
+              }
+            }
+          }
+        },
+        "in": {
+          "type": "literal",
+          "children": {
+            "dimension": {
+              "type": "unknown",
+              "children": {
+                "force": {
+                  "type": "literal",
+                  "children": {
+                    "x": {
+                      "type": "argument",
+                      "parser": "brigadier:integer",
+                      "properties": {
+                        "min": -1875000,
+                        "max": 1875000
+                      },
+                      "children": {
+                        "z": {
+                          "type": "argument",
+                          "parser": "brigadier:integer",
+                          "properties": {
+                            "min": -1875000,
+                            "max": 1875000
+                          },
+                          "executable": true
+                        }
+                      }
+                    }
+                  }
+                },
+                "unforce": {
+                  "type": "literal",
+                  "children": {
+                    "x": {
+                      "type": "argument",
+                      "parser": "brigadier:integer",
+                      "properties": {
+                        "min": -1875000,
+                        "max": 1875000
+                      },
+                      "children": {
+                        "z": {
+                          "type": "argument",
+                          "parser": "brigadier:integer",
+                          "properties": {
+                            "min": -1875000,
+                            "max": 1875000
+                          },
+                          "executable": true
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "unforce": {
+          "type": "literal",
+          "children": {
+            "x": {
+              "type": "argument",
+              "parser": "brigadier:integer",
+              "properties": {
+                "min": -1875000,
+                "max": 1875000
+              },
+              "children": {
+                "z": {
+                  "type": "argument",
+                  "parser": "brigadier:integer",
+                  "properties": {
+                    "min": -1875000,
+                    "max": 1875000
+                  },
+                  "executable": true
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "clear": {
       "type": "literal",
       "children": {
@@ -1216,20 +1327,8 @@
         "in": {
           "type": "literal",
           "children": {
-            "overworld": {
-              "type": "literal",
-              "redirect": [
-                "execute"
-              ]
-            },
-            "the_end": {
-              "type": "literal",
-              "redirect": [
-                "execute"
-              ]
-            },
-            "the_nether": {
-              "type": "literal",
+            "dimension": {
+              "type": "unknown",
               "redirect": [
                 "execute"
               ]
@@ -4719,10 +4818,10 @@
           "children": {
             "distance": {
               "type": "argument",
-              "parser": "brigadier:integer",
+              "parser": "brigadier:float",
               "properties": {
-                "min": -60000000,
-                "max": 60000000
+                "min": -6.0E7,
+                "max": 6.0E7
               },
               "children": {
                 "time": {
@@ -4788,10 +4887,10 @@
           "children": {
             "distance": {
               "type": "argument",
-              "parser": "brigadier:integer",
+              "parser": "brigadier:float",
               "properties": {
-                "min": -60000000,
-                "max": 60000000
+                "min": -6.0E7,
+                "max": 6.0E7
               },
               "children": {
                 "time": {
