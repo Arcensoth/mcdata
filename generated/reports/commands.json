@@ -40,7 +40,7 @@
                           "type": "argument",
                           "parser": "brigadier:string",
                           "properties": {
-                            "type": "word"
+                            "type": "greedy"
                           },
                           "executable": true
                         }
@@ -109,7 +109,7 @@
                           "type": "argument",
                           "parser": "brigadier:string",
                           "properties": {
-                            "type": "word"
+                            "type": "greedy"
                           },
                           "executable": true
                         }

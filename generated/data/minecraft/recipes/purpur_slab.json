@@ -4,9 +4,14 @@
     "###"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:purpur_block"
-    }
+    "#": [
+      {
+        "item": "minecraft:purpur_block"
+      },
+      {
+        "item": "minecraft:purpur_pillar"
+      }
+    ]
   },
   "result": {
     "item": "minecraft:purpur_slab",

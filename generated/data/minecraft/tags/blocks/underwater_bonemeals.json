@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:seagrass",
-    "#minecraft:coral_plants"
+    "#minecraft:corals",
+    "#minecraft:wall_corals"
   ]
 }
