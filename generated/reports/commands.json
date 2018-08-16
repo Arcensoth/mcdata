@@ -387,117 +387,6 @@
         }
       }
     },
-    "chunk": {
-      "type": "literal",
-      "children": {
-        "force": {
-          "type": "literal",
-          "children": {
-            "x": {
-              "type": "argument",
-              "parser": "brigadier:integer",
-              "properties": {
-                "min": -1875000,
-                "max": 1875000
-              },
-              "children": {
-                "z": {
-                  "type": "argument",
-                  "parser": "brigadier:integer",
-                  "properties": {
-                    "min": -1875000,
-                    "max": 1875000
-                  },
-                  "executable": true
-                }
-              }
-            }
-          }
-        },
-        "in": {
-          "type": "literal",
-          "children": {
-            "dimension": {
-              "type": "unknown",
-              "children": {
-                "force": {
-                  "type": "literal",
-                  "children": {
-                    "x": {
-                      "type": "argument",
-                      "parser": "brigadier:integer",
-                      "properties": {
-                        "min": -1875000,
-                        "max": 1875000
-                      },
-                      "children": {
-                        "z": {
-                          "type": "argument",
-                          "parser": "brigadier:integer",
-                          "properties": {
-                            "min": -1875000,
-                            "max": 1875000
-                          },
-                          "executable": true
-                        }
-                      }
-                    }
-                  }
-                },
-                "unforce": {
-                  "type": "literal",
-                  "children": {
-                    "x": {
-                      "type": "argument",
-                      "parser": "brigadier:integer",
-                      "properties": {
-                        "min": -1875000,
-                        "max": 1875000
-                      },
-                      "children": {
-                        "z": {
-                          "type": "argument",
-                          "parser": "brigadier:integer",
-                          "properties": {
-                            "min": -1875000,
-                            "max": 1875000
-                          },
-                          "executable": true
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "unforce": {
-          "type": "literal",
-          "children": {
-            "x": {
-              "type": "argument",
-              "parser": "brigadier:integer",
-              "properties": {
-                "min": -1875000,
-                "max": 1875000
-              },
-              "children": {
-                "z": {
-                  "type": "argument",
-                  "parser": "brigadier:integer",
-                  "properties": {
-                    "min": -1875000,
-                    "max": 1875000
-                  },
-                  "executable": true
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "clear": {
       "type": "literal",
       "children": {
@@ -1328,7 +1217,8 @@
           "type": "literal",
           "children": {
             "dimension": {
-              "type": "unknown",
+              "type": "argument",
+              "parser": "minecraft:dimension",
               "redirect": [
                 "execute"
               ]
@@ -2221,6 +2111,60 @@
                   "executable": true
                 }
               }
+            }
+          }
+        }
+      }
+    },
+    "forceload": {
+      "type": "literal",
+      "children": {
+        "add": {
+          "type": "literal",
+          "children": {
+            "from": {
+              "type": "argument",
+              "parser": "minecraft:column_pos",
+              "children": {
+                "to": {
+                  "type": "argument",
+                  "parser": "minecraft:column_pos",
+                  "executable": true
+                }
+              },
+              "executable": true
+            }
+          }
+        },
+        "query": {
+          "type": "literal",
+          "children": {
+            "pos": {
+              "type": "argument",
+              "parser": "minecraft:column_pos",
+              "executable": true
+            }
+          },
+          "executable": true
+        },
+        "remove": {
+          "type": "literal",
+          "children": {
+            "all": {
+              "type": "literal",
+              "executable": true
+            },
+            "from": {
+              "type": "argument",
+              "parser": "minecraft:column_pos",
+              "children": {
+                "to": {
+                  "type": "argument",
+                  "parser": "minecraft:column_pos",
+                  "executable": true
+                }
+              },
+              "executable": true
             }
           }
         }
