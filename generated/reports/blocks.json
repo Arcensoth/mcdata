@@ -105403,43 +105403,6 @@
       }
     ]
   },
-  "minecraft:structure_block": {
-    "properties": {
-      "mode": [
-        "save",
-        "load",
-        "corner",
-        "data"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "mode": "save"
-        },
-        "id": 10787,
-        "default": true
-      },
-      {
-        "properties": {
-          "mode": "load"
-        },
-        "id": 10788
-      },
-      {
-        "properties": {
-          "mode": "corner"
-        },
-        "id": 10789
-      },
-      {
-        "properties": {
-          "mode": "data"
-        },
-        "id": 10790
-      }
-    ]
-  },
   "minecraft:loom": {
     "properties": {
       "facing": [
@@ -105454,26 +105417,533 @@
         "properties": {
           "facing": "north"
         },
-        "id": 10791,
+        "id": 10787,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 10792
+        "id": 10788
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 10793
+        "id": 10789
       },
       {
         "properties": {
           "facing": "east"
         },
+        "id": 10790
+      }
+    ]
+  },
+  "minecraft:barrel": {
+    "properties": {
+      "facing": [
+        "north",
+        "east",
+        "south",
+        "west",
+        "up",
+        "down"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north"
+        },
+        "id": 10791,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "east"
+        },
+        "id": 10792
+      },
+      {
+        "properties": {
+          "facing": "south"
+        },
+        "id": 10793
+      },
+      {
+        "properties": {
+          "facing": "west"
+        },
         "id": 10794
+      },
+      {
+        "properties": {
+          "facing": "up"
+        },
+        "id": 10795
+      },
+      {
+        "properties": {
+          "facing": "down"
+        },
+        "id": 10796
+      }
+    ]
+  },
+  "minecraft:smoker": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "lit": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "true"
+        },
+        "id": 10797
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "false"
+        },
+        "id": 10798,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "true"
+        },
+        "id": 10799
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "false"
+        },
+        "id": 10800
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "true"
+        },
+        "id": 10801
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "false"
+        },
+        "id": 10802
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "true"
+        },
+        "id": 10803
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "false"
+        },
+        "id": 10804
+      }
+    ]
+  },
+  "minecraft:blast_furnace": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "lit": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "true"
+        },
+        "id": 10805
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "false"
+        },
+        "id": 10806,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "true"
+        },
+        "id": 10807
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "false"
+        },
+        "id": 10808
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "true"
+        },
+        "id": 10809
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "false"
+        },
+        "id": 10810
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "true"
+        },
+        "id": 10811
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "false"
+        },
+        "id": 10812
+      }
+    ]
+  },
+  "minecraft:cartography_table": {
+    "states": [
+      {
+        "id": 10813,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:fletching_table": {
+    "states": [
+      {
+        "id": 10814,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:grindstone": {
+    "properties": {
+      "face": [
+        "floor",
+        "wall",
+        "ceiling"
+      ],
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "north"
+        },
+        "id": 10815
+      },
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "south"
+        },
+        "id": 10816
+      },
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "west"
+        },
+        "id": 10817
+      },
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "east"
+        },
+        "id": 10818
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "north"
+        },
+        "id": 10819,
+        "default": true
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "south"
+        },
+        "id": 10820
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "west"
+        },
+        "id": 10821
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "east"
+        },
+        "id": 10822
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "north"
+        },
+        "id": 10823
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "south"
+        },
+        "id": 10824
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "west"
+        },
+        "id": 10825
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "east"
+        },
+        "id": 10826
+      }
+    ]
+  },
+  "minecraft:lectern": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north"
+        },
+        "id": 10827,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "south"
+        },
+        "id": 10828
+      },
+      {
+        "properties": {
+          "facing": "west"
+        },
+        "id": 10829
+      },
+      {
+        "properties": {
+          "facing": "east"
+        },
+        "id": 10830
+      }
+    ]
+  },
+  "minecraft:smithing_table": {
+    "states": [
+      {
+        "id": 10831,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:stonecutter": {
+    "states": [
+      {
+        "id": 10832,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:bell": {
+    "properties": {
+      "face": [
+        "floor",
+        "wall",
+        "ceiling"
+      ],
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "north"
+        },
+        "id": 10833,
+        "default": true
+      },
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "south"
+        },
+        "id": 10834
+      },
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "west"
+        },
+        "id": 10835
+      },
+      {
+        "properties": {
+          "face": "floor",
+          "facing": "east"
+        },
+        "id": 10836
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "north"
+        },
+        "id": 10837
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "south"
+        },
+        "id": 10838
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "west"
+        },
+        "id": 10839
+      },
+      {
+        "properties": {
+          "face": "wall",
+          "facing": "east"
+        },
+        "id": 10840
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "north"
+        },
+        "id": 10841
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "south"
+        },
+        "id": 10842
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "west"
+        },
+        "id": 10843
+      },
+      {
+        "properties": {
+          "face": "ceiling",
+          "facing": "east"
+        },
+        "id": 10844
+      }
+    ]
+  },
+  "minecraft:structure_block": {
+    "properties": {
+      "mode": [
+        "save",
+        "load",
+        "corner",
+        "data"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "mode": "save"
+        },
+        "id": 10845,
+        "default": true
+      },
+      {
+        "properties": {
+          "mode": "load"
+        },
+        "id": 10846
+      },
+      {
+        "properties": {
+          "mode": "corner"
+        },
+        "id": 10847
+      },
+      {
+        "properties": {
+          "mode": "data"
+        },
+        "id": 10848
       }
     ]
   }

@@ -308,7 +308,8 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:entity_present",
+          "condition": "minecraft:entity_properties",
+          "predicate": {},
           "entity": "this"
         }
       ]
