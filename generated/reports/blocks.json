@@ -55081,43 +55081,6 @@
       }
     ]
   },
-  "minecraft:skeleton_wall_skull": {
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "facing": "north"
-        },
-        "id": 5654,
-        "default": true
-      },
-      {
-        "properties": {
-          "facing": "south"
-        },
-        "id": 5655
-      },
-      {
-        "properties": {
-          "facing": "west"
-        },
-        "id": 5656
-      },
-      {
-        "properties": {
-          "facing": "east"
-        },
-        "id": 5657
-      }
-    ]
-  },
   "minecraft:skeleton_skull": {
     "properties": {
       "rotation": [
@@ -55144,102 +55107,102 @@
         "properties": {
           "rotation": "0"
         },
-        "id": 5658,
+        "id": 5654,
         "default": true
       },
       {
         "properties": {
           "rotation": "1"
         },
-        "id": 5659
+        "id": 5655
       },
       {
         "properties": {
           "rotation": "2"
         },
-        "id": 5660
+        "id": 5656
       },
       {
         "properties": {
           "rotation": "3"
         },
-        "id": 5661
+        "id": 5657
       },
       {
         "properties": {
           "rotation": "4"
         },
-        "id": 5662
+        "id": 5658
       },
       {
         "properties": {
           "rotation": "5"
         },
-        "id": 5663
+        "id": 5659
       },
       {
         "properties": {
           "rotation": "6"
         },
-        "id": 5664
+        "id": 5660
       },
       {
         "properties": {
           "rotation": "7"
         },
-        "id": 5665
+        "id": 5661
       },
       {
         "properties": {
           "rotation": "8"
         },
-        "id": 5666
+        "id": 5662
       },
       {
         "properties": {
           "rotation": "9"
         },
-        "id": 5667
+        "id": 5663
       },
       {
         "properties": {
           "rotation": "10"
         },
-        "id": 5668
+        "id": 5664
       },
       {
         "properties": {
           "rotation": "11"
         },
-        "id": 5669
+        "id": 5665
       },
       {
         "properties": {
           "rotation": "12"
         },
-        "id": 5670
+        "id": 5666
       },
       {
         "properties": {
           "rotation": "13"
         },
-        "id": 5671
+        "id": 5667
       },
       {
         "properties": {
           "rotation": "14"
         },
-        "id": 5672
+        "id": 5668
       },
       {
         "properties": {
           "rotation": "15"
         },
-        "id": 5673
+        "id": 5669
       }
     ]
   },
-  "minecraft:wither_skeleton_wall_skull": {
+  "minecraft:skeleton_wall_skull": {
     "properties": {
       "facing": [
         "north",
@@ -55253,26 +55216,26 @@
         "properties": {
           "facing": "north"
         },
-        "id": 5674,
+        "id": 5670,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 5675
+        "id": 5671
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 5676
+        "id": 5672
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 5677
+        "id": 5673
       }
     ]
   },
@@ -55302,102 +55265,102 @@
         "properties": {
           "rotation": "0"
         },
-        "id": 5678,
+        "id": 5674,
         "default": true
       },
       {
         "properties": {
           "rotation": "1"
         },
-        "id": 5679
+        "id": 5675
       },
       {
         "properties": {
           "rotation": "2"
         },
-        "id": 5680
+        "id": 5676
       },
       {
         "properties": {
           "rotation": "3"
         },
-        "id": 5681
+        "id": 5677
       },
       {
         "properties": {
           "rotation": "4"
         },
-        "id": 5682
+        "id": 5678
       },
       {
         "properties": {
           "rotation": "5"
         },
-        "id": 5683
+        "id": 5679
       },
       {
         "properties": {
           "rotation": "6"
         },
-        "id": 5684
+        "id": 5680
       },
       {
         "properties": {
           "rotation": "7"
         },
-        "id": 5685
+        "id": 5681
       },
       {
         "properties": {
           "rotation": "8"
         },
-        "id": 5686
+        "id": 5682
       },
       {
         "properties": {
           "rotation": "9"
         },
-        "id": 5687
+        "id": 5683
       },
       {
         "properties": {
           "rotation": "10"
         },
-        "id": 5688
+        "id": 5684
       },
       {
         "properties": {
           "rotation": "11"
         },
-        "id": 5689
+        "id": 5685
       },
       {
         "properties": {
           "rotation": "12"
         },
-        "id": 5690
+        "id": 5686
       },
       {
         "properties": {
           "rotation": "13"
         },
-        "id": 5691
+        "id": 5687
       },
       {
         "properties": {
           "rotation": "14"
         },
-        "id": 5692
+        "id": 5688
       },
       {
         "properties": {
           "rotation": "15"
         },
-        "id": 5693
+        "id": 5689
       }
     ]
   },
-  "minecraft:zombie_wall_head": {
+  "minecraft:wither_skeleton_wall_skull": {
     "properties": {
       "facing": [
         "north",
@@ -55411,26 +55374,26 @@
         "properties": {
           "facing": "north"
         },
-        "id": 5694,
+        "id": 5690,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 5695
+        "id": 5691
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 5696
+        "id": 5692
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 5697
+        "id": 5693
       }
     ]
   },
@@ -55460,102 +55423,102 @@
         "properties": {
           "rotation": "0"
         },
-        "id": 5698,
+        "id": 5694,
         "default": true
       },
       {
         "properties": {
           "rotation": "1"
         },
-        "id": 5699
+        "id": 5695
       },
       {
         "properties": {
           "rotation": "2"
         },
-        "id": 5700
+        "id": 5696
       },
       {
         "properties": {
           "rotation": "3"
         },
-        "id": 5701
+        "id": 5697
       },
       {
         "properties": {
           "rotation": "4"
         },
-        "id": 5702
+        "id": 5698
       },
       {
         "properties": {
           "rotation": "5"
         },
-        "id": 5703
+        "id": 5699
       },
       {
         "properties": {
           "rotation": "6"
         },
-        "id": 5704
+        "id": 5700
       },
       {
         "properties": {
           "rotation": "7"
         },
-        "id": 5705
+        "id": 5701
       },
       {
         "properties": {
           "rotation": "8"
         },
-        "id": 5706
+        "id": 5702
       },
       {
         "properties": {
           "rotation": "9"
         },
-        "id": 5707
+        "id": 5703
       },
       {
         "properties": {
           "rotation": "10"
         },
-        "id": 5708
+        "id": 5704
       },
       {
         "properties": {
           "rotation": "11"
         },
-        "id": 5709
+        "id": 5705
       },
       {
         "properties": {
           "rotation": "12"
         },
-        "id": 5710
+        "id": 5706
       },
       {
         "properties": {
           "rotation": "13"
         },
-        "id": 5711
+        "id": 5707
       },
       {
         "properties": {
           "rotation": "14"
         },
-        "id": 5712
+        "id": 5708
       },
       {
         "properties": {
           "rotation": "15"
         },
-        "id": 5713
+        "id": 5709
       }
     ]
   },
-  "minecraft:player_wall_head": {
+  "minecraft:zombie_wall_head": {
     "properties": {
       "facing": [
         "north",
@@ -55569,26 +55532,26 @@
         "properties": {
           "facing": "north"
         },
-        "id": 5714,
+        "id": 5710,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 5715
+        "id": 5711
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 5716
+        "id": 5712
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 5717
+        "id": 5713
       }
     ]
   },
@@ -55618,102 +55581,102 @@
         "properties": {
           "rotation": "0"
         },
-        "id": 5718,
+        "id": 5714,
         "default": true
       },
       {
         "properties": {
           "rotation": "1"
         },
-        "id": 5719
+        "id": 5715
       },
       {
         "properties": {
           "rotation": "2"
         },
-        "id": 5720
+        "id": 5716
       },
       {
         "properties": {
           "rotation": "3"
         },
-        "id": 5721
+        "id": 5717
       },
       {
         "properties": {
           "rotation": "4"
         },
-        "id": 5722
+        "id": 5718
       },
       {
         "properties": {
           "rotation": "5"
         },
-        "id": 5723
+        "id": 5719
       },
       {
         "properties": {
           "rotation": "6"
         },
-        "id": 5724
+        "id": 5720
       },
       {
         "properties": {
           "rotation": "7"
         },
-        "id": 5725
+        "id": 5721
       },
       {
         "properties": {
           "rotation": "8"
         },
-        "id": 5726
+        "id": 5722
       },
       {
         "properties": {
           "rotation": "9"
         },
-        "id": 5727
+        "id": 5723
       },
       {
         "properties": {
           "rotation": "10"
         },
-        "id": 5728
+        "id": 5724
       },
       {
         "properties": {
           "rotation": "11"
         },
-        "id": 5729
+        "id": 5725
       },
       {
         "properties": {
           "rotation": "12"
         },
-        "id": 5730
+        "id": 5726
       },
       {
         "properties": {
           "rotation": "13"
         },
-        "id": 5731
+        "id": 5727
       },
       {
         "properties": {
           "rotation": "14"
         },
-        "id": 5732
+        "id": 5728
       },
       {
         "properties": {
           "rotation": "15"
         },
-        "id": 5733
+        "id": 5729
       }
     ]
   },
-  "minecraft:creeper_wall_head": {
+  "minecraft:player_wall_head": {
     "properties": {
       "facing": [
         "north",
@@ -55727,26 +55690,26 @@
         "properties": {
           "facing": "north"
         },
-        "id": 5734,
+        "id": 5730,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 5735
+        "id": 5731
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 5736
+        "id": 5732
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 5737
+        "id": 5733
       }
     ]
   },
@@ -55776,102 +55739,102 @@
         "properties": {
           "rotation": "0"
         },
-        "id": 5738,
+        "id": 5734,
         "default": true
       },
       {
         "properties": {
           "rotation": "1"
         },
-        "id": 5739
+        "id": 5735
       },
       {
         "properties": {
           "rotation": "2"
         },
-        "id": 5740
+        "id": 5736
       },
       {
         "properties": {
           "rotation": "3"
         },
-        "id": 5741
+        "id": 5737
       },
       {
         "properties": {
           "rotation": "4"
         },
-        "id": 5742
+        "id": 5738
       },
       {
         "properties": {
           "rotation": "5"
         },
-        "id": 5743
+        "id": 5739
       },
       {
         "properties": {
           "rotation": "6"
         },
-        "id": 5744
+        "id": 5740
       },
       {
         "properties": {
           "rotation": "7"
         },
-        "id": 5745
+        "id": 5741
       },
       {
         "properties": {
           "rotation": "8"
         },
-        "id": 5746
+        "id": 5742
       },
       {
         "properties": {
           "rotation": "9"
         },
-        "id": 5747
+        "id": 5743
       },
       {
         "properties": {
           "rotation": "10"
         },
-        "id": 5748
+        "id": 5744
       },
       {
         "properties": {
           "rotation": "11"
         },
-        "id": 5749
+        "id": 5745
       },
       {
         "properties": {
           "rotation": "12"
         },
-        "id": 5750
+        "id": 5746
       },
       {
         "properties": {
           "rotation": "13"
         },
-        "id": 5751
+        "id": 5747
       },
       {
         "properties": {
           "rotation": "14"
         },
-        "id": 5752
+        "id": 5748
       },
       {
         "properties": {
           "rotation": "15"
         },
-        "id": 5753
+        "id": 5749
       }
     ]
   },
-  "minecraft:dragon_wall_head": {
+  "minecraft:creeper_wall_head": {
     "properties": {
       "facing": [
         "north",
@@ -55885,26 +55848,26 @@
         "properties": {
           "facing": "north"
         },
-        "id": 5754,
+        "id": 5750,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 5755
+        "id": 5751
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 5756
+        "id": 5752
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 5757
+        "id": 5753
       }
     ]
   },
@@ -55934,96 +55897,133 @@
         "properties": {
           "rotation": "0"
         },
-        "id": 5758,
+        "id": 5754,
         "default": true
       },
       {
         "properties": {
           "rotation": "1"
         },
-        "id": 5759
+        "id": 5755
       },
       {
         "properties": {
           "rotation": "2"
         },
-        "id": 5760
+        "id": 5756
       },
       {
         "properties": {
           "rotation": "3"
         },
-        "id": 5761
+        "id": 5757
       },
       {
         "properties": {
           "rotation": "4"
         },
-        "id": 5762
+        "id": 5758
       },
       {
         "properties": {
           "rotation": "5"
         },
-        "id": 5763
+        "id": 5759
       },
       {
         "properties": {
           "rotation": "6"
         },
-        "id": 5764
+        "id": 5760
       },
       {
         "properties": {
           "rotation": "7"
         },
-        "id": 5765
+        "id": 5761
       },
       {
         "properties": {
           "rotation": "8"
         },
-        "id": 5766
+        "id": 5762
       },
       {
         "properties": {
           "rotation": "9"
         },
-        "id": 5767
+        "id": 5763
       },
       {
         "properties": {
           "rotation": "10"
         },
-        "id": 5768
+        "id": 5764
       },
       {
         "properties": {
           "rotation": "11"
         },
-        "id": 5769
+        "id": 5765
       },
       {
         "properties": {
           "rotation": "12"
         },
-        "id": 5770
+        "id": 5766
       },
       {
         "properties": {
           "rotation": "13"
         },
-        "id": 5771
+        "id": 5767
       },
       {
         "properties": {
           "rotation": "14"
         },
-        "id": 5772
+        "id": 5768
       },
       {
         "properties": {
           "rotation": "15"
+        },
+        "id": 5769
+      }
+    ]
+  },
+  "minecraft:dragon_wall_head": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north"
+        },
+        "id": 5770,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "south"
+        },
+        "id": 5771
+      },
+      {
+        "properties": {
+          "facing": "west"
+        },
+        "id": 5772
+      },
+      {
+        "properties": {
+          "facing": "east"
         },
         "id": 5773
       }
@@ -84122,6 +84122,236 @@
       }
     ]
   },
+  "minecraft:dead_tube_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8692,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8693
+      }
+    ]
+  },
+  "minecraft:dead_brain_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8694,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8695
+      }
+    ]
+  },
+  "minecraft:dead_bubble_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8696,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8697
+      }
+    ]
+  },
+  "minecraft:dead_fire_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8698,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8699
+      }
+    ]
+  },
+  "minecraft:dead_horn_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8700,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8701
+      }
+    ]
+  },
+  "minecraft:tube_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8702,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8703
+      }
+    ]
+  },
+  "minecraft:brain_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8704,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8705
+      }
+    ]
+  },
+  "minecraft:bubble_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8706,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8707
+      }
+    ]
+  },
+  "minecraft:fire_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8708,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8709
+      }
+    ]
+  },
+  "minecraft:horn_coral_fan": {
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "waterlogged": "true"
+        },
+        "id": 8710,
+        "default": true
+      },
+      {
+        "properties": {
+          "waterlogged": "false"
+        },
+        "id": 8711
+      }
+    ]
+  },
   "minecraft:dead_tube_coral_wall_fan": {
     "properties": {
       "facing": [
@@ -84141,7 +84371,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8692,
+        "id": 8712,
         "default": true
       },
       {
@@ -84149,49 +84379,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8693
+        "id": 8713
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8694
+        "id": 8714
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8695
+        "id": 8715
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8696
+        "id": 8716
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8697
+        "id": 8717
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8698
+        "id": 8718
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8699
+        "id": 8719
       }
     ]
   },
@@ -84214,7 +84444,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8700,
+        "id": 8720,
         "default": true
       },
       {
@@ -84222,49 +84452,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8701
+        "id": 8721
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8702
+        "id": 8722
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8703
+        "id": 8723
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8704
+        "id": 8724
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8705
+        "id": 8725
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8706
+        "id": 8726
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8707
+        "id": 8727
       }
     ]
   },
@@ -84287,7 +84517,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8708,
+        "id": 8728,
         "default": true
       },
       {
@@ -84295,49 +84525,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8709
+        "id": 8729
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8710
+        "id": 8730
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8711
+        "id": 8731
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8712
+        "id": 8732
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8713
+        "id": 8733
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8714
+        "id": 8734
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8715
+        "id": 8735
       }
     ]
   },
@@ -84360,7 +84590,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8716,
+        "id": 8736,
         "default": true
       },
       {
@@ -84368,49 +84598,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8717
+        "id": 8737
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8718
+        "id": 8738
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8719
+        "id": 8739
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8720
+        "id": 8740
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8721
+        "id": 8741
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8722
+        "id": 8742
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8723
+        "id": 8743
       }
     ]
   },
@@ -84433,7 +84663,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8724,
+        "id": 8744,
         "default": true
       },
       {
@@ -84441,49 +84671,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8725
+        "id": 8745
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8726
+        "id": 8746
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8727
+        "id": 8747
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8728
+        "id": 8748
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8729
+        "id": 8749
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8730
+        "id": 8750
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8731
+        "id": 8751
       }
     ]
   },
@@ -84506,7 +84736,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8732,
+        "id": 8752,
         "default": true
       },
       {
@@ -84514,49 +84744,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8733
+        "id": 8753
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8734
+        "id": 8754
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8735
+        "id": 8755
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8736
+        "id": 8756
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8737
+        "id": 8757
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8738
+        "id": 8758
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8739
+        "id": 8759
       }
     ]
   },
@@ -84579,7 +84809,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8740,
+        "id": 8760,
         "default": true
       },
       {
@@ -84587,49 +84817,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8741
+        "id": 8761
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8742
+        "id": 8762
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8743
+        "id": 8763
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8744
+        "id": 8764
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8745
+        "id": 8765
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8746
+        "id": 8766
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8747
+        "id": 8767
       }
     ]
   },
@@ -84652,7 +84882,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8748,
+        "id": 8768,
         "default": true
       },
       {
@@ -84660,49 +84890,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8749
+        "id": 8769
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8750
+        "id": 8770
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8751
+        "id": 8771
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8752
+        "id": 8772
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8753
+        "id": 8773
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8754
+        "id": 8774
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8755
+        "id": 8775
       }
     ]
   },
@@ -84725,7 +84955,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8756,
+        "id": 8776,
         "default": true
       },
       {
@@ -84733,49 +84963,49 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8757
+        "id": 8777
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "true"
         },
-        "id": 8758
+        "id": 8778
       },
       {
         "properties": {
           "facing": "south",
           "waterlogged": "false"
         },
-        "id": 8759
+        "id": 8779
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "true"
         },
-        "id": 8760
+        "id": 8780
       },
       {
         "properties": {
           "facing": "west",
           "waterlogged": "false"
         },
-        "id": 8761
+        "id": 8781
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "true"
         },
-        "id": 8762
+        "id": 8782
       },
       {
         "properties": {
           "facing": "east",
           "waterlogged": "false"
         },
-        "id": 8763
+        "id": 8783
       }
     ]
   },
@@ -84798,7 +85028,7 @@
           "facing": "north",
           "waterlogged": "true"
         },
-        "id": 8764,
+        "id": 8784,
         "default": true
       },
       {
@@ -84806,276 +85036,46 @@
           "facing": "north",
           "waterlogged": "false"
         },
-        "id": 8765
-      },
-      {
-        "properties": {
-          "facing": "south",
-          "waterlogged": "true"
-        },
-        "id": 8766
-      },
-      {
-        "properties": {
-          "facing": "south",
-          "waterlogged": "false"
-        },
-        "id": 8767
-      },
-      {
-        "properties": {
-          "facing": "west",
-          "waterlogged": "true"
-        },
-        "id": 8768
-      },
-      {
-        "properties": {
-          "facing": "west",
-          "waterlogged": "false"
-        },
-        "id": 8769
-      },
-      {
-        "properties": {
-          "facing": "east",
-          "waterlogged": "true"
-        },
-        "id": 8770
-      },
-      {
-        "properties": {
-          "facing": "east",
-          "waterlogged": "false"
-        },
-        "id": 8771
-      }
-    ]
-  },
-  "minecraft:dead_tube_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8772,
-        "default": true
-      },
-      {
-        "properties": {
-          "waterlogged": "false"
-        },
-        "id": 8773
-      }
-    ]
-  },
-  "minecraft:dead_brain_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8774,
-        "default": true
-      },
-      {
-        "properties": {
-          "waterlogged": "false"
-        },
-        "id": 8775
-      }
-    ]
-  },
-  "minecraft:dead_bubble_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8776,
-        "default": true
-      },
-      {
-        "properties": {
-          "waterlogged": "false"
-        },
-        "id": 8777
-      }
-    ]
-  },
-  "minecraft:dead_fire_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8778,
-        "default": true
-      },
-      {
-        "properties": {
-          "waterlogged": "false"
-        },
-        "id": 8779
-      }
-    ]
-  },
-  "minecraft:dead_horn_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8780,
-        "default": true
-      },
-      {
-        "properties": {
-          "waterlogged": "false"
-        },
-        "id": 8781
-      }
-    ]
-  },
-  "minecraft:tube_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8782,
-        "default": true
-      },
-      {
-        "properties": {
-          "waterlogged": "false"
-        },
-        "id": 8783
-      }
-    ]
-  },
-  "minecraft:brain_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8784,
-        "default": true
-      },
-      {
-        "properties": {
-          "waterlogged": "false"
-        },
         "id": 8785
-      }
-    ]
-  },
-  "minecraft:bubble_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8786,
-        "default": true
       },
       {
         "properties": {
+          "facing": "south",
+          "waterlogged": "true"
+        },
+        "id": 8786
+      },
+      {
+        "properties": {
+          "facing": "south",
           "waterlogged": "false"
         },
         "id": 8787
-      }
-    ]
-  },
-  "minecraft:fire_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8788,
-        "default": true
       },
       {
         "properties": {
+          "facing": "west",
+          "waterlogged": "true"
+        },
+        "id": 8788
+      },
+      {
+        "properties": {
+          "facing": "west",
           "waterlogged": "false"
         },
         "id": 8789
-      }
-    ]
-  },
-  "minecraft:horn_coral_fan": {
-    "properties": {
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "waterlogged": "true"
-        },
-        "id": 8790,
-        "default": true
       },
       {
         "properties": {
+          "facing": "east",
+          "waterlogged": "true"
+        },
+        "id": 8790
+      },
+      {
+        "properties": {
+          "facing": "east",
           "waterlogged": "false"
         },
         "id": 8791
@@ -105403,6 +105403,109 @@
       }
     ]
   },
+  "minecraft:scaffolding": {
+    "properties": {
+      "distance": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "distance": "0",
+          "waterlogged": "true"
+        },
+        "id": 10787
+      },
+      {
+        "properties": {
+          "distance": "0",
+          "waterlogged": "false"
+        },
+        "id": 10788
+      },
+      {
+        "properties": {
+          "distance": "1",
+          "waterlogged": "true"
+        },
+        "id": 10789
+      },
+      {
+        "properties": {
+          "distance": "1",
+          "waterlogged": "false"
+        },
+        "id": 10790
+      },
+      {
+        "properties": {
+          "distance": "2",
+          "waterlogged": "true"
+        },
+        "id": 10791
+      },
+      {
+        "properties": {
+          "distance": "2",
+          "waterlogged": "false"
+        },
+        "id": 10792
+      },
+      {
+        "properties": {
+          "distance": "3",
+          "waterlogged": "true"
+        },
+        "id": 10793
+      },
+      {
+        "properties": {
+          "distance": "3",
+          "waterlogged": "false"
+        },
+        "id": 10794
+      },
+      {
+        "properties": {
+          "distance": "4",
+          "waterlogged": "true"
+        },
+        "id": 10795
+      },
+      {
+        "properties": {
+          "distance": "4",
+          "waterlogged": "false"
+        },
+        "id": 10796
+      },
+      {
+        "properties": {
+          "distance": "5",
+          "waterlogged": "true"
+        },
+        "id": 10797
+      },
+      {
+        "properties": {
+          "distance": "5",
+          "waterlogged": "false"
+        },
+        "id": 10798,
+        "default": true
+      }
+    ]
+  },
   "minecraft:loom": {
     "properties": {
       "facing": [
@@ -105417,26 +105520,26 @@
         "properties": {
           "facing": "north"
         },
-        "id": 10787,
+        "id": 10799,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 10788
+        "id": 10800
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 10789
+        "id": 10801
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 10790
+        "id": 10802
       }
     ]
   },
@@ -105456,38 +105559,38 @@
         "properties": {
           "facing": "north"
         },
-        "id": 10791,
+        "id": 10803,
         "default": true
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 10792
+        "id": 10804
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 10793
+        "id": 10805
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 10794
+        "id": 10806
       },
       {
         "properties": {
           "facing": "up"
         },
-        "id": 10795
+        "id": 10807
       },
       {
         "properties": {
           "facing": "down"
         },
-        "id": 10796
+        "id": 10808
       }
     ]
   },
@@ -105510,14 +105613,14 @@
           "facing": "north",
           "lit": "true"
         },
-        "id": 10797
+        "id": 10809
       },
       {
         "properties": {
           "facing": "north",
           "lit": "false"
         },
-        "id": 10798,
+        "id": 10810,
         "default": true
       },
       {
@@ -105525,42 +105628,42 @@
           "facing": "south",
           "lit": "true"
         },
-        "id": 10799
+        "id": 10811
       },
       {
         "properties": {
           "facing": "south",
           "lit": "false"
         },
-        "id": 10800
+        "id": 10812
       },
       {
         "properties": {
           "facing": "west",
           "lit": "true"
         },
-        "id": 10801
+        "id": 10813
       },
       {
         "properties": {
           "facing": "west",
           "lit": "false"
         },
-        "id": 10802
+        "id": 10814
       },
       {
         "properties": {
           "facing": "east",
           "lit": "true"
         },
-        "id": 10803
+        "id": 10815
       },
       {
         "properties": {
           "facing": "east",
           "lit": "false"
         },
-        "id": 10804
+        "id": 10816
       }
     ]
   },
@@ -105583,14 +105686,14 @@
           "facing": "north",
           "lit": "true"
         },
-        "id": 10805
+        "id": 10817
       },
       {
         "properties": {
           "facing": "north",
           "lit": "false"
         },
-        "id": 10806,
+        "id": 10818,
         "default": true
       },
       {
@@ -105598,49 +105701,49 @@
           "facing": "south",
           "lit": "true"
         },
-        "id": 10807
+        "id": 10819
       },
       {
         "properties": {
           "facing": "south",
           "lit": "false"
         },
-        "id": 10808
+        "id": 10820
       },
       {
         "properties": {
           "facing": "west",
           "lit": "true"
         },
-        "id": 10809
+        "id": 10821
       },
       {
         "properties": {
           "facing": "west",
           "lit": "false"
         },
-        "id": 10810
+        "id": 10822
       },
       {
         "properties": {
           "facing": "east",
           "lit": "true"
         },
-        "id": 10811
+        "id": 10823
       },
       {
         "properties": {
           "facing": "east",
           "lit": "false"
         },
-        "id": 10812
+        "id": 10824
       }
     ]
   },
   "minecraft:cartography_table": {
     "states": [
       {
-        "id": 10813,
+        "id": 10825,
         "default": true
       }
     ]
@@ -105648,7 +105751,7 @@
   "minecraft:fletching_table": {
     "states": [
       {
-        "id": 10814,
+        "id": 10826,
         "default": true
       }
     ]
@@ -105673,35 +105776,35 @@
           "face": "floor",
           "facing": "north"
         },
-        "id": 10815
+        "id": 10827
       },
       {
         "properties": {
           "face": "floor",
           "facing": "south"
         },
-        "id": 10816
+        "id": 10828
       },
       {
         "properties": {
           "face": "floor",
           "facing": "west"
         },
-        "id": 10817
+        "id": 10829
       },
       {
         "properties": {
           "face": "floor",
           "facing": "east"
         },
-        "id": 10818
+        "id": 10830
       },
       {
         "properties": {
           "face": "wall",
           "facing": "north"
         },
-        "id": 10819,
+        "id": 10831,
         "default": true
       },
       {
@@ -105709,49 +105812,49 @@
           "face": "wall",
           "facing": "south"
         },
-        "id": 10820
+        "id": 10832
       },
       {
         "properties": {
           "face": "wall",
           "facing": "west"
         },
-        "id": 10821
+        "id": 10833
       },
       {
         "properties": {
           "face": "wall",
           "facing": "east"
         },
-        "id": 10822
+        "id": 10834
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "north"
         },
-        "id": 10823
+        "id": 10835
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "south"
         },
-        "id": 10824
+        "id": 10836
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "west"
         },
-        "id": 10825
+        "id": 10837
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "east"
         },
-        "id": 10826
+        "id": 10838
       }
     ]
   },
@@ -105769,33 +105872,33 @@
         "properties": {
           "facing": "north"
         },
-        "id": 10827,
+        "id": 10839,
         "default": true
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 10828
+        "id": 10840
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 10829
+        "id": 10841
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 10830
+        "id": 10842
       }
     ]
   },
   "minecraft:smithing_table": {
     "states": [
       {
-        "id": 10831,
+        "id": 10843,
         "default": true
       }
     ]
@@ -105803,7 +105906,7 @@
   "minecraft:stonecutter": {
     "states": [
       {
-        "id": 10832,
+        "id": 10844,
         "default": true
       }
     ]
@@ -105828,7 +105931,7 @@
           "face": "floor",
           "facing": "north"
         },
-        "id": 10833,
+        "id": 10845,
         "default": true
       },
       {
@@ -105836,77 +105939,77 @@
           "face": "floor",
           "facing": "south"
         },
-        "id": 10834
+        "id": 10846
       },
       {
         "properties": {
           "face": "floor",
           "facing": "west"
         },
-        "id": 10835
+        "id": 10847
       },
       {
         "properties": {
           "face": "floor",
           "facing": "east"
         },
-        "id": 10836
+        "id": 10848
       },
       {
         "properties": {
           "face": "wall",
           "facing": "north"
         },
-        "id": 10837
+        "id": 10849
       },
       {
         "properties": {
           "face": "wall",
           "facing": "south"
         },
-        "id": 10838
+        "id": 10850
       },
       {
         "properties": {
           "face": "wall",
           "facing": "west"
         },
-        "id": 10839
+        "id": 10851
       },
       {
         "properties": {
           "face": "wall",
           "facing": "east"
         },
-        "id": 10840
+        "id": 10852
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "north"
         },
-        "id": 10841
+        "id": 10853
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "south"
         },
-        "id": 10842
+        "id": 10854
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "west"
         },
-        "id": 10843
+        "id": 10855
       },
       {
         "properties": {
           "face": "ceiling",
           "facing": "east"
         },
-        "id": 10844
+        "id": 10856
       }
     ]
   },
@@ -105924,26 +106027,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 10845,
+        "id": 10857,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 10846
+        "id": 10858
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 10847
+        "id": 10859
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 10848
+        "id": 10860
       }
     ]
   }
