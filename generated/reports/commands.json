@@ -3498,6 +3498,10 @@
           "type": "literal",
           "executable": true
         },
+        "New_Village": {
+          "type": "literal",
+          "executable": true
+        },
         "Ocean_Ruin": {
           "type": "literal",
           "executable": true
