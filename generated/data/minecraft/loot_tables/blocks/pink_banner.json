@@ -5,15 +5,32 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:dynamic",
-          "name": "minecraft:self"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_name",
+              "source": "block_entity"
+            },
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Patterns",
+                  "target": "BlockEntityTag.Patterns",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:pink_banner"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
         }
       ]
-    }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:explosion_decay"
     }
   ]
 }

@@ -2599,5 +2599,8 @@
   },
   "minecraft:lantern": {
     "protocol_id": 866
+  },
+  "minecraft:sweet_berries": {
+    "protocol_id": 867
   }
 }

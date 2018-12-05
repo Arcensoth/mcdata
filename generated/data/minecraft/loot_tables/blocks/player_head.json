@@ -5,8 +5,21 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:dynamic",
-          "name": "minecraft:self"
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                {
+                  "source": "Owner",
+                  "target": "SkullOwner",
+                  "op": "replace"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:player_head"
         }
       ]
     }

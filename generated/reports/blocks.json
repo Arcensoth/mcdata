@@ -106214,6 +106214,43 @@
       }
     ]
   },
+  "minecraft:sweet_berry_bush": {
+    "properties": {
+      "age": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "age": "0"
+        },
+        "id": 10879,
+        "default": true
+      },
+      {
+        "properties": {
+          "age": "1"
+        },
+        "id": 10880
+      },
+      {
+        "properties": {
+          "age": "2"
+        },
+        "id": 10881
+      },
+      {
+        "properties": {
+          "age": "3"
+        },
+        "id": 10882
+      }
+    ]
+  },
   "minecraft:structure_block": {
     "properties": {
       "mode": [
@@ -106228,26 +106265,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 10879,
+        "id": 10883,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 10880
+        "id": 10884
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 10881
+        "id": 10885
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 10882
+        "id": 10886
       }
     ]
   },
@@ -106267,38 +106304,38 @@
         "properties": {
           "facing": "north"
         },
-        "id": 10883
+        "id": 10887
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 10884
+        "id": 10888
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 10885
+        "id": 10889
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 10886
+        "id": 10890
       },
       {
         "properties": {
           "facing": "up"
         },
-        "id": 10887,
+        "id": 10891,
         "default": true
       },
       {
         "properties": {
           "facing": "down"
         },
-        "id": 10888
+        "id": 10892
       }
     ]
   }

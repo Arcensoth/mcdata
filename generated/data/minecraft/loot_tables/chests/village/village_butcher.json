@@ -3,13 +3,18 @@
   "pools": [
     {
       "rolls": {
-        "min": 3.0,
-        "max": 8.0,
+        "min": 1.0,
+        "max": 5.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -20,99 +25,67 @@
               }
             }
           ],
-          "name": "minecraft:gold_nugget"
+          "name": "minecraft:porkchop"
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:grass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:tall_grass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 4.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:bread"
+          "name": "minecraft:wheat"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 5.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:wheat_seeds"
+          "name": "minecraft:beef"
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 4.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:mutton"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 2.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:acacia_sapling"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:torch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket"
+          "name": "minecraft:coal"
         }
       ]
     }

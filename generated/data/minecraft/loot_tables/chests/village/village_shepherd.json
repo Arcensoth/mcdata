@@ -3,13 +3,29 @@
   "pools": [
     {
       "rolls": {
-        "min": 3.0,
-        "max": 8.0,
+        "min": 1.0,
+        "max": 5.0,
         "type": "minecraft:uniform"
       },
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 8.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:white_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -20,47 +36,7 @@
               }
             }
           ],
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:grass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:tall_grass"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 4.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:bread"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 5.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:wheat_seeds"
+          "name": "minecraft:black_wool"
         },
         {
           "type": "minecraft:item",
@@ -70,49 +46,65 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 4.0,
+                "max": 3.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
+          "name": "minecraft:gray_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:brown_wool"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 3.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:light_gray_wool"
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:emerald"
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "name": "minecraft:shears"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1.0,
-                "max": 2.0,
+                "max": 6.0,
                 "type": "minecraft:uniform"
               }
             }
           ],
-          "name": "minecraft:acacia_sapling"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 2.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:torch"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bucket"
+          "name": "minecraft:wheat"
         }
       ]
     }
