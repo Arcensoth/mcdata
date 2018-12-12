@@ -91,6 +91,14 @@
         }
       }
     },
+    "textures/entity/cat/jellie.png": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "catType": "minecraft:textures/entity/cat/jellie.png"
+        }
+      }
+    },
     "textures/entity/cat/all_black.png": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
@@ -127,6 +135,9 @@
     ],
     [
       "textures/entity/cat/white.png"
+    ],
+    [
+      "textures/entity/cat/jellie.png"
     ],
     [
       "textures/entity/cat/all_black.png"

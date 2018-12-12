@@ -1902,7 +1902,7 @@
                       "type": "argument",
                       "parser": "minecraft:objective",
                       "children": {
-                        "\u003c": {
+                        "<": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -1924,7 +1924,7 @@
                             }
                           }
                         },
-                        "\u003c\u003d": {
+                        "<=": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -1946,7 +1946,7 @@
                             }
                           }
                         },
-                        "\u003d": {
+                        "=": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -1968,7 +1968,7 @@
                             }
                           }
                         },
-                        "\u003e": {
+                        ">": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -1990,7 +1990,7 @@
                             }
                           }
                         },
-                        "\u003e\u003d": {
+                        ">=": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -2708,7 +2708,7 @@
                       "type": "argument",
                       "parser": "minecraft:objective",
                       "children": {
-                        "\u003c": {
+                        "<": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -2730,7 +2730,7 @@
                             }
                           }
                         },
-                        "\u003c\u003d": {
+                        "<=": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -2752,7 +2752,7 @@
                             }
                           }
                         },
-                        "\u003d": {
+                        "=": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -2774,7 +2774,7 @@
                             }
                           }
                         },
-                        "\u003e": {
+                        ">": {
                           "type": "literal",
                           "children": {
                             "source": {
@@ -2796,7 +2796,7 @@
                             }
                           }
                         },
-                        "\u003e\u003d": {
+                        ">=": {
                           "type": "literal",
                           "children": {
                             "source": {
