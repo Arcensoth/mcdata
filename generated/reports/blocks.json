@@ -106355,45 +106355,14 @@
       }
     ]
   },
-  "minecraft:sweet_berry_bush": {
-    "properties": {
-      "age": [
-        "0",
-        "1",
-        "2",
-        "3"
-      ]
-    },
-    "states": [
-      {
-        "properties": {
-          "age": "0"
-        },
-        "id": 10895,
-        "default": true
-      },
-      {
-        "properties": {
-          "age": "1"
-        },
-        "id": 10896
-      },
-      {
-        "properties": {
-          "age": "2"
-        },
-        "id": 10897
-      },
-      {
-        "properties": {
-          "age": "3"
-        },
-        "id": 10898
-      }
-    ]
-  },
   "minecraft:campfire": {
     "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
       "lit": [
         "true",
         "false"
@@ -106410,7 +106379,45 @@
     "states": [
       {
         "properties": {
+          "facing": "north",
           "lit": "true",
+          "signal_fire": "true",
+          "waterlogged": "true"
+        },
+        "id": 10895
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "true",
+          "signal_fire": "true",
+          "waterlogged": "false"
+        },
+        "id": 10896
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "true",
+          "signal_fire": "false",
+          "waterlogged": "true"
+        },
+        "id": 10897
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "true",
+          "signal_fire": "false",
+          "waterlogged": "false"
+        },
+        "id": 10898,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "lit": "false",
           "signal_fire": "true",
           "waterlogged": "true"
         },
@@ -106418,7 +106425,8 @@
       },
       {
         "properties": {
-          "lit": "true",
+          "facing": "north",
+          "lit": "false",
           "signal_fire": "true",
           "waterlogged": "false"
         },
@@ -106426,7 +106434,8 @@
       },
       {
         "properties": {
-          "lit": "true",
+          "facing": "north",
+          "lit": "false",
           "signal_fire": "false",
           "waterlogged": "true"
         },
@@ -106434,16 +106443,17 @@
       },
       {
         "properties": {
-          "lit": "true",
+          "facing": "north",
+          "lit": "false",
           "signal_fire": "false",
           "waterlogged": "false"
         },
-        "id": 10902,
-        "default": true
+        "id": 10902
       },
       {
         "properties": {
-          "lit": "false",
+          "facing": "south",
+          "lit": "true",
           "signal_fire": "true",
           "waterlogged": "true"
         },
@@ -106451,7 +106461,8 @@
       },
       {
         "properties": {
-          "lit": "false",
+          "facing": "south",
+          "lit": "true",
           "signal_fire": "true",
           "waterlogged": "false"
         },
@@ -106459,7 +106470,8 @@
       },
       {
         "properties": {
-          "lit": "false",
+          "facing": "south",
+          "lit": "true",
           "signal_fire": "false",
           "waterlogged": "true"
         },
@@ -106467,11 +106479,229 @@
       },
       {
         "properties": {
-          "lit": "false",
+          "facing": "south",
+          "lit": "true",
           "signal_fire": "false",
           "waterlogged": "false"
         },
         "id": 10906
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "false",
+          "signal_fire": "true",
+          "waterlogged": "true"
+        },
+        "id": 10907
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "false",
+          "signal_fire": "true",
+          "waterlogged": "false"
+        },
+        "id": 10908
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "false",
+          "signal_fire": "false",
+          "waterlogged": "true"
+        },
+        "id": 10909
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "lit": "false",
+          "signal_fire": "false",
+          "waterlogged": "false"
+        },
+        "id": 10910
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "true",
+          "signal_fire": "true",
+          "waterlogged": "true"
+        },
+        "id": 10911
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "true",
+          "signal_fire": "true",
+          "waterlogged": "false"
+        },
+        "id": 10912
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "true",
+          "signal_fire": "false",
+          "waterlogged": "true"
+        },
+        "id": 10913
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "true",
+          "signal_fire": "false",
+          "waterlogged": "false"
+        },
+        "id": 10914
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "false",
+          "signal_fire": "true",
+          "waterlogged": "true"
+        },
+        "id": 10915
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "false",
+          "signal_fire": "true",
+          "waterlogged": "false"
+        },
+        "id": 10916
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "false",
+          "signal_fire": "false",
+          "waterlogged": "true"
+        },
+        "id": 10917
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "lit": "false",
+          "signal_fire": "false",
+          "waterlogged": "false"
+        },
+        "id": 10918
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "true",
+          "signal_fire": "true",
+          "waterlogged": "true"
+        },
+        "id": 10919
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "true",
+          "signal_fire": "true",
+          "waterlogged": "false"
+        },
+        "id": 10920
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "true",
+          "signal_fire": "false",
+          "waterlogged": "true"
+        },
+        "id": 10921
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "true",
+          "signal_fire": "false",
+          "waterlogged": "false"
+        },
+        "id": 10922
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "false",
+          "signal_fire": "true",
+          "waterlogged": "true"
+        },
+        "id": 10923
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "false",
+          "signal_fire": "true",
+          "waterlogged": "false"
+        },
+        "id": 10924
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "false",
+          "signal_fire": "false",
+          "waterlogged": "true"
+        },
+        "id": 10925
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "lit": "false",
+          "signal_fire": "false",
+          "waterlogged": "false"
+        },
+        "id": 10926
+      }
+    ]
+  },
+  "minecraft:sweet_berry_bush": {
+    "properties": {
+      "age": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "age": "0"
+        },
+        "id": 10927,
+        "default": true
+      },
+      {
+        "properties": {
+          "age": "1"
+        },
+        "id": 10928
+      },
+      {
+        "properties": {
+          "age": "2"
+        },
+        "id": 10929
+      },
+      {
+        "properties": {
+          "age": "3"
+        },
+        "id": 10930
       }
     ]
   },
@@ -106489,26 +106719,26 @@
         "properties": {
           "mode": "save"
         },
-        "id": 10907,
+        "id": 10931,
         "default": true
       },
       {
         "properties": {
           "mode": "load"
         },
-        "id": 10908
+        "id": 10932
       },
       {
         "properties": {
           "mode": "corner"
         },
-        "id": 10909
+        "id": 10933
       },
       {
         "properties": {
           "mode": "data"
         },
-        "id": 10910
+        "id": 10934
       }
     ]
   },
@@ -106528,38 +106758,110 @@
         "properties": {
           "facing": "north"
         },
-        "id": 10911
+        "id": 10935
       },
       {
         "properties": {
           "facing": "east"
         },
-        "id": 10912
+        "id": 10936
       },
       {
         "properties": {
           "facing": "south"
         },
-        "id": 10913
+        "id": 10937
       },
       {
         "properties": {
           "facing": "west"
         },
-        "id": 10914
+        "id": 10938
       },
       {
         "properties": {
           "facing": "up"
         },
-        "id": 10915,
+        "id": 10939,
         "default": true
       },
       {
         "properties": {
           "facing": "down"
         },
-        "id": 10916
+        "id": 10940
+      }
+    ]
+  },
+  "minecraft:composter": {
+    "properties": {
+      "level": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "level": "0"
+        },
+        "id": 10941,
+        "default": true
+      },
+      {
+        "properties": {
+          "level": "1"
+        },
+        "id": 10942
+      },
+      {
+        "properties": {
+          "level": "2"
+        },
+        "id": 10943
+      },
+      {
+        "properties": {
+          "level": "3"
+        },
+        "id": 10944
+      },
+      {
+        "properties": {
+          "level": "4"
+        },
+        "id": 10945
+      },
+      {
+        "properties": {
+          "level": "5"
+        },
+        "id": 10946
+      },
+      {
+        "properties": {
+          "level": "6"
+        },
+        "id": 10947
+      },
+      {
+        "properties": {
+          "level": "7"
+        },
+        "id": 10948
+      },
+      {
+        "properties": {
+          "level": "8"
+        },
+        "id": 10949
       }
     ]
   }

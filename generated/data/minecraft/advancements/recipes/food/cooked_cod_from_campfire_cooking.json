@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:cooked_cod_from_campfire"
+      "minecraft:cooked_cod_from_campfire_cooking"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:cooked_cod_from_campfire"
+        "recipe": "minecraft:cooked_cod_from_campfire_cooking"
       }
     }
   },

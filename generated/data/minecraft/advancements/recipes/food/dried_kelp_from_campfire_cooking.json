@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:cooked_porkchop_from_campfire"
+      "minecraft:dried_kelp_from_campfire_cooking"
     ]
   },
   "criteria": {
-    "has_porkchop": {
+    "has_kelp": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:porkchop"
+            "item": "minecraft:kelp"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:cooked_porkchop_from_campfire"
+        "recipe": "minecraft:dried_kelp_from_campfire_cooking"
       }
     }
   },
   "requirements": [
     [
-      "has_porkchop",
+      "has_kelp",
       "has_the_recipe"
     ]
   ]

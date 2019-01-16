@@ -1,5 +1,5 @@
 {
-  "type": "blasting",
+  "type": "minecraft:blasting",
   "ingredient": [
     {
       "item": "minecraft:golden_pickaxe"

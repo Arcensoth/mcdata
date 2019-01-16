@@ -1,5 +1,5 @@
 {
-  "type": "smoking",
+  "type": "minecraft:smoking",
   "ingredient": {
     "item": "minecraft:kelp"
   },
