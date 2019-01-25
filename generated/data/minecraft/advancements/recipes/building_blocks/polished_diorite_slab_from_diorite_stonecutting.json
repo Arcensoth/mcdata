@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:polished_andesite_slab_from_polished_andesite_stonecutting"
+      "minecraft:polished_diorite_slab_from_diorite_stonecutting"
     ]
   },
   "criteria": {
-    "has_polished_andesite": {
+    "has_diorite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:polished_andesite"
+            "item": "minecraft:polished_diorite"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:polished_andesite_slab_from_polished_andesite_stonecutting"
+        "recipe": "minecraft:polished_diorite_slab_from_diorite_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_polished_andesite",
+      "has_diorite",
       "has_the_recipe"
     ]
   ]

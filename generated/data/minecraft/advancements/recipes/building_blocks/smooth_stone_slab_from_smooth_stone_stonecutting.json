@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:polished_andesite_slab_from_polished_andesite_stonecutting"
+      "minecraft:smooth_stone_slab_from_smooth_stone_stonecutting"
     ]
   },
   "criteria": {
-    "has_polished_andesite": {
+    "has_smooth_stone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:polished_andesite"
+            "item": "minecraft:smooth_stone"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:polished_andesite_slab_from_polished_andesite_stonecutting"
+        "recipe": "minecraft:smooth_stone_slab_from_smooth_stone_stonecutting"
       }
     }
   },
   "requirements": [
     [
-      "has_polished_andesite",
+      "has_smooth_stone",
       "has_the_recipe"
     ]
   ]
