@@ -219,11 +219,11 @@
         }
       }
     },
-    "minecraft:illager_beast": {
+    "minecraft:ravager": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:illager_beast"
+          "type": "minecraft:ravager"
         }
       }
     }
@@ -305,7 +305,7 @@
       "minecraft:pillager"
     ],
     [
-      "minecraft:illager_beast"
+      "minecraft:ravager"
     ]
   ]
 }
