@@ -6966,46 +6966,46 @@
       "minecraft:husk_spawn_egg": {
         "protocol_id": 713
       },
-      "minecraft:ravager_spawn_egg": {
+      "minecraft:llama_spawn_egg": {
         "protocol_id": 714
       },
-      "minecraft:llama_spawn_egg": {
+      "minecraft:magma_cube_spawn_egg": {
         "protocol_id": 715
       },
-      "minecraft:magma_cube_spawn_egg": {
+      "minecraft:mooshroom_spawn_egg": {
         "protocol_id": 716
       },
-      "minecraft:mooshroom_spawn_egg": {
+      "minecraft:mule_spawn_egg": {
         "protocol_id": 717
       },
-      "minecraft:mule_spawn_egg": {
+      "minecraft:ocelot_spawn_egg": {
         "protocol_id": 718
       },
-      "minecraft:ocelot_spawn_egg": {
+      "minecraft:panda_spawn_egg": {
         "protocol_id": 719
       },
-      "minecraft:panda_spawn_egg": {
+      "minecraft:parrot_spawn_egg": {
         "protocol_id": 720
       },
-      "minecraft:parrot_spawn_egg": {
+      "minecraft:phantom_spawn_egg": {
         "protocol_id": 721
       },
-      "minecraft:phantom_spawn_egg": {
+      "minecraft:pig_spawn_egg": {
         "protocol_id": 722
       },
-      "minecraft:pig_spawn_egg": {
+      "minecraft:pillager_spawn_egg": {
         "protocol_id": 723
       },
-      "minecraft:pillager_spawn_egg": {
+      "minecraft:polar_bear_spawn_egg": {
         "protocol_id": 724
       },
-      "minecraft:polar_bear_spawn_egg": {
+      "minecraft:pufferfish_spawn_egg": {
         "protocol_id": 725
       },
-      "minecraft:pufferfish_spawn_egg": {
+      "minecraft:rabbit_spawn_egg": {
         "protocol_id": 726
       },
-      "minecraft:rabbit_spawn_egg": {
+      "minecraft:ravager_spawn_egg": {
         "protocol_id": 727
       },
       "minecraft:salmon_spawn_egg": {
@@ -8340,95 +8340,98 @@
       "minecraft:flame": {
         "protocol_id": 23
       },
-      "minecraft:happy_villager": {
+      "minecraft:flash": {
         "protocol_id": 24
       },
-      "minecraft:composter": {
+      "minecraft:happy_villager": {
         "protocol_id": 25
       },
-      "minecraft:heart": {
+      "minecraft:composter": {
         "protocol_id": 26
       },
-      "minecraft:instant_effect": {
+      "minecraft:heart": {
         "protocol_id": 27
       },
-      "minecraft:item": {
+      "minecraft:instant_effect": {
         "protocol_id": 28
       },
-      "minecraft:item_slime": {
+      "minecraft:item": {
         "protocol_id": 29
       },
-      "minecraft:item_snowball": {
+      "minecraft:item_slime": {
         "protocol_id": 30
       },
-      "minecraft:large_smoke": {
+      "minecraft:item_snowball": {
         "protocol_id": 31
       },
-      "minecraft:lava": {
+      "minecraft:large_smoke": {
         "protocol_id": 32
       },
-      "minecraft:mycelium": {
+      "minecraft:lava": {
         "protocol_id": 33
       },
-      "minecraft:note": {
+      "minecraft:mycelium": {
         "protocol_id": 34
       },
-      "minecraft:poof": {
+      "minecraft:note": {
         "protocol_id": 35
       },
-      "minecraft:portal": {
+      "minecraft:poof": {
         "protocol_id": 36
       },
-      "minecraft:rain": {
+      "minecraft:portal": {
         "protocol_id": 37
       },
-      "minecraft:smoke": {
+      "minecraft:rain": {
         "protocol_id": 38
       },
-      "minecraft:sneeze": {
+      "minecraft:smoke": {
         "protocol_id": 39
       },
-      "minecraft:spit": {
+      "minecraft:sneeze": {
         "protocol_id": 40
       },
-      "minecraft:squid_ink": {
+      "minecraft:spit": {
         "protocol_id": 41
       },
-      "minecraft:sweep_attack": {
+      "minecraft:squid_ink": {
         "protocol_id": 42
       },
-      "minecraft:totem_of_undying": {
+      "minecraft:sweep_attack": {
         "protocol_id": 43
       },
-      "minecraft:underwater": {
+      "minecraft:totem_of_undying": {
         "protocol_id": 44
       },
-      "minecraft:splash": {
+      "minecraft:underwater": {
         "protocol_id": 45
       },
-      "minecraft:witch": {
+      "minecraft:splash": {
         "protocol_id": 46
       },
-      "minecraft:bubble_pop": {
+      "minecraft:witch": {
         "protocol_id": 47
       },
-      "minecraft:current_down": {
+      "minecraft:bubble_pop": {
         "protocol_id": 48
       },
-      "minecraft:bubble_column_up": {
+      "minecraft:current_down": {
         "protocol_id": 49
       },
-      "minecraft:nautilus": {
+      "minecraft:bubble_column_up": {
         "protocol_id": 50
       },
-      "minecraft:dolphin": {
+      "minecraft:nautilus": {
         "protocol_id": 51
       },
-      "minecraft:campfire_cosy_smoke": {
+      "minecraft:dolphin": {
         "protocol_id": 52
       },
-      "minecraft:campfire_signal_smoke": {
+      "minecraft:campfire_cosy_smoke": {
         "protocol_id": 53
+      },
+      "minecraft:campfire_signal_smoke": {
+        "protocol_id": 54
       }
     }
   },
