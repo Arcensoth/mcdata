@@ -10,10 +10,10 @@
       "tag": "minecraft:planks"
     },
     "@": {
-      "item": "minecraft:paper"
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {
-    "item": "minecraft:cartography_table"
+    "item": "minecraft:smithing_table"
   }
 }

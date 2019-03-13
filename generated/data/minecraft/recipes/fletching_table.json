@@ -10,10 +10,10 @@
       "tag": "minecraft:planks"
     },
     "@": {
-      "item": "minecraft:paper"
+      "item": "minecraft:flint"
     }
   },
   "result": {
-    "item": "minecraft:cartography_table"
+    "item": "minecraft:fletching_table"
   }
 }

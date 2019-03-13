@@ -17,17 +17,13 @@
   },
   "criteria": {
     "kill_pillager": {
-      "trigger": "minecraft:player_killed_entity",
+      "trigger": "minecraft:killed_by_crossbow",
       "conditions": {
-        "entity": {
-          "type": "minecraft:pillager"
-        },
-        "killing_blow": {
-          "is_projectile": true,
-          "direct_entity": {
-            "type": "minecraft:arrow"
+        "victims": [
+          {
+            "type": "minecraft:pillager"
           }
-        }
+        ]
       }
     }
   },
