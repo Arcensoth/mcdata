@@ -122,6 +122,14 @@
           "type": "minecraft:panda"
         }
       }
+    },
+    "minecraft:fox": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:fox"
+        }
+      }
     }
   },
   "requirements": [
@@ -163,6 +171,9 @@
     ],
     [
       "minecraft:panda"
+    ],
+    [
+      "minecraft:fox"
     ]
   ]
 }
