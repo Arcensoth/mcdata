@@ -8079,8 +8079,11 @@
       "minecraft:sweet_berry_bush": {
         "protocol_id": 89
       },
-      "minecraft:bonus_chest": {
+      "minecraft:fill_layer": {
         "protocol_id": 90
+      },
+      "minecraft:bonus_chest": {
+        "protocol_id": 91
       }
     }
   },
