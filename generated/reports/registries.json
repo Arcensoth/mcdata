@@ -9042,6 +9042,24 @@
       },
       "minecraft:interact_with_campfire": {
         "protocol_id": 62
+      },
+      "minecraft:interact_with_cartography_table": {
+        "protocol_id": 63
+      },
+      "minecraft:interact_with_loom": {
+        "protocol_id": 64
+      },
+      "minecraft:interact_with_stonecutter": {
+        "protocol_id": 65
+      },
+      "minecraft:bell_ring": {
+        "protocol_id": 66
+      },
+      "minecraft:raid_trigger": {
+        "protocol_id": 67
+      },
+      "minecraft:raid_win": {
+        "protocol_id": 68
       }
     }
   },
