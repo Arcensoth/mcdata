@@ -91,6 +91,13 @@
               "function": "minecraft:set_stew_effect",
               "effects": [
                 {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "min": 5.0,
+                    "max": 7.0
+                  }
+                },
+                {
                   "type": "minecraft:poison",
                   "duration": {
                     "min": 10.0,
@@ -105,21 +112,14 @@
                   }
                 },
                 {
-                  "type": "minecraft:blindness",
-                  "duration": {
-                    "min": 5.0,
-                    "max": 7.0
-                  }
-                },
-                {
-                  "type": "minecraft:speed",
+                  "type": "minecraft:jump_boost",
                   "duration": {
                     "min": 7.0,
                     "max": 10.0
                   }
                 },
                 {
-                  "type": "minecraft:jump_boost",
+                  "type": "minecraft:speed",
                   "duration": {
                     "min": 7.0,
                     "max": 10.0

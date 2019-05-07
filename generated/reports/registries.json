@@ -9789,6 +9789,9 @@
       },
       "minecraft:heard_bell_time": {
         "protocol_id": 22
+      },
+      "minecraft:cant_reach_walk_target_since": {
+        "protocol_id": 23
       }
     }
   },
