@@ -9792,6 +9792,9 @@
       },
       "minecraft:cant_reach_walk_target_since": {
         "protocol_id": 23
+      },
+      "minecraft:golem_last_seen_time": {
+        "protocol_id": 24
       }
     }
   },
@@ -9825,6 +9828,9 @@
       },
       "minecraft:secondary_pois": {
         "protocol_id": 8
+      },
+      "minecraft:golem_last_seen": {
+        "protocol_id": 9
       }
     }
   },
