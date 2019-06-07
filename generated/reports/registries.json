@@ -9781,20 +9781,23 @@
       "minecraft:nearest_hostile": {
         "protocol_id": 19
       },
-      "minecraft:golem_spawn_conditions": {
+      "minecraft:hiding_place": {
         "protocol_id": 20
       },
-      "minecraft:hiding_place": {
+      "minecraft:heard_bell_time": {
         "protocol_id": 21
       },
-      "minecraft:heard_bell_time": {
+      "minecraft:cant_reach_walk_target_since": {
         "protocol_id": 22
       },
-      "minecraft:cant_reach_walk_target_since": {
+      "minecraft:golem_last_seen_time": {
         "protocol_id": 23
       },
-      "minecraft:golem_last_seen_time": {
+      "minecraft:last_slept": {
         "protocol_id": 24
+      },
+      "minecraft:last_worked_at_poi": {
+        "protocol_id": 25
       }
     }
   },
