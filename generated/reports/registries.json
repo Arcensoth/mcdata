@@ -9533,20 +9533,23 @@
       "minecraft:crafting_special_suspiciousstew": {
         "protocol_id": 13
       },
-      "minecraft:smelting": {
+      "minecraft:crafting_special_repairitem": {
         "protocol_id": 14
       },
-      "minecraft:blasting": {
+      "minecraft:smelting": {
         "protocol_id": 15
       },
-      "minecraft:smoking": {
+      "minecraft:blasting": {
         "protocol_id": 16
       },
-      "minecraft:campfire_cooking": {
+      "minecraft:smoking": {
         "protocol_id": 17
       },
-      "minecraft:stonecutting": {
+      "minecraft:campfire_cooking": {
         "protocol_id": 18
+      },
+      "minecraft:stonecutting": {
+        "protocol_id": 19
       }
     }
   },
