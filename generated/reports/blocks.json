@@ -109467,5 +109467,383 @@
         "id": 11270
       }
     ]
+  },
+  "minecraft:bee_nest": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "honey_level": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "0"
+        },
+        "id": 11271,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "1"
+        },
+        "id": 11272
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "2"
+        },
+        "id": 11273
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "3"
+        },
+        "id": 11274
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "4"
+        },
+        "id": 11275
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "5"
+        },
+        "id": 11276
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "0"
+        },
+        "id": 11277
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "1"
+        },
+        "id": 11278
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "2"
+        },
+        "id": 11279
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "3"
+        },
+        "id": 11280
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "4"
+        },
+        "id": 11281
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "5"
+        },
+        "id": 11282
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "0"
+        },
+        "id": 11283
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "1"
+        },
+        "id": 11284
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "2"
+        },
+        "id": 11285
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "3"
+        },
+        "id": 11286
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "4"
+        },
+        "id": 11287
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "5"
+        },
+        "id": 11288
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "0"
+        },
+        "id": 11289
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "1"
+        },
+        "id": 11290
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "2"
+        },
+        "id": 11291
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "3"
+        },
+        "id": 11292
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "4"
+        },
+        "id": 11293
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "5"
+        },
+        "id": 11294
+      }
+    ]
+  },
+  "minecraft:bee_hive": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "honey_level": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "0"
+        },
+        "id": 11295,
+        "default": true
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "1"
+        },
+        "id": 11296
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "2"
+        },
+        "id": 11297
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "3"
+        },
+        "id": 11298
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "4"
+        },
+        "id": 11299
+      },
+      {
+        "properties": {
+          "facing": "north",
+          "honey_level": "5"
+        },
+        "id": 11300
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "0"
+        },
+        "id": 11301
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "1"
+        },
+        "id": 11302
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "2"
+        },
+        "id": 11303
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "3"
+        },
+        "id": 11304
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "4"
+        },
+        "id": 11305
+      },
+      {
+        "properties": {
+          "facing": "south",
+          "honey_level": "5"
+        },
+        "id": 11306
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "0"
+        },
+        "id": 11307
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "1"
+        },
+        "id": 11308
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "2"
+        },
+        "id": 11309
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "3"
+        },
+        "id": 11310
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "4"
+        },
+        "id": 11311
+      },
+      {
+        "properties": {
+          "facing": "west",
+          "honey_level": "5"
+        },
+        "id": 11312
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "0"
+        },
+        "id": 11313
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "1"
+        },
+        "id": 11314
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "2"
+        },
+        "id": 11315
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "3"
+        },
+        "id": 11316
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "4"
+        },
+        "id": 11317
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "5"
+        },
+        "id": 11318
+      }
+    ]
   }
 }
