@@ -9883,8 +9883,11 @@
       "minecraft:last_slept": {
         "protocol_id": 25
       },
-      "minecraft:last_worked_at_poi": {
+      "minecraft:last_woken": {
         "protocol_id": 26
+      },
+      "minecraft:last_worked_at_poi": {
+        "protocol_id": 27
       }
     }
   },
