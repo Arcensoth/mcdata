@@ -9798,6 +9798,9 @@
       },
       "minecraft:bee_nest": {
         "protocol_id": 18
+      },
+      "minecraft:nether_portal": {
+        "protocol_id": 19
       }
     }
   },
