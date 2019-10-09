@@ -109805,7 +109805,7 @@
       }
     ]
   },
-  "minecraft:bee_hive": {
+  "minecraft:beehive": {
     "properties": {
       "facing": [
         "north",
@@ -109991,6 +109991,22 @@
           "honey_level": "5"
         },
         "id": 11334
+      }
+    ]
+  },
+  "minecraft:honey_block": {
+    "states": [
+      {
+        "id": 11335,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:honeycomb_block": {
+    "states": [
+      {
+        "id": 11336,
+        "default": true
       }
     ]
   }
