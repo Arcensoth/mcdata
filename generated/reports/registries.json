@@ -9143,6 +9143,12 @@
       },
       "minecraft:raid_win": {
         "protocol_id": 68
+      },
+      "minecraft:interact_with_anvil": {
+        "protocol_id": 69
+      },
+      "minecraft:interact_with_grindstone": {
+        "protocol_id": 70
       }
     }
   },
