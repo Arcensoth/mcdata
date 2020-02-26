@@ -24,63 +24,56 @@ logging.basicConfig(level=ARGS.log)
 LOG = logging.getLogger(__name__)
 
 
-def ensure_dir(dirname: str):
-    if not os.path.exists(dirname):
-        LOG.debug(f"Creating missing directory: {dirname}")
-        os.makedirs(dirname)
+def prepare_filepath(dirname: str, subname: str, ext: str) -> str:
+    subdirname = os.path.join(dirname, subname)
+    if not os.path.exists(subdirname):
+        LOG.debug(f"Creating missing directory: {subdirname}")
+        os.makedirs(subdirname)
+    filepath = os.path.join(subdirname, subname + ext)
+    return filepath
 
 
-def write_json(data: dict, dirname: str, filename: str):
-    subdirname = os.path.join(dirname, filename)
-    ensure_dir(subdirname)
-    filepath = os.path.join(subdirname, filename + JSON_EXT)
+def write_json(data: dict, dirname: str, subname: str):
+    filepath = prepare_filepath(dirname, subname, JSON_EXT)
     with open(filepath, "w") as fp:
         LOG.debug(f"Writing JSON file: {filepath}")
         json.dump(data, fp, indent=2)
 
 
-def write_min_json(data: dict, dirname: str, filename: str):
-    subdirname = os.path.join(dirname, filename)
-    ensure_dir(subdirname)
-    filepath = os.path.join(subdirname, filename + MIN_JSON_EXT)
+def write_min_json(data: dict, dirname: str, subname: str):
+    filepath = prepare_filepath(dirname, subname, MIN_JSON_EXT)
     with open(filepath, "w") as fp:
         LOG.debug(f"Writing minified JSON file: {filepath}")
         json.dump(data, fp, separators=(",", ":"))
 
 
-def write_bson(data: dict, dirname: str, filename: str):
-    subdirname = os.path.join(dirname, filename)
-    ensure_dir(subdirname)
-    filepath = os.path.join(subdirname, filename + BSON_EXT)
+def write_bson(data: dict, dirname: str, subname: str):
+    filepath = prepare_filepath(dirname, subname, BSON_EXT)
     with open(filepath, "wb") as fp:
         LOG.debug(f"Writing BSON file: {filepath}")
         fp.write(bson.dumps(data))
 
 
-def write_yaml(data: dict, dirname: str, filename: str):
-    subdirname = os.path.join(dirname, filename)
-    ensure_dir(subdirname)
-    filepath = os.path.join(subdirname, filename + YAML_EXT)
+def write_yaml(data: dict, dirname: str, subname: str):
+    filepath = prepare_filepath(dirname, subname, YAML_EXT)
     with open(filepath, "w") as fp:
         LOG.debug(f"Writing YAML file: {filepath}")
         yaml.dump(data, fp)
 
 
-def write_txt(data: list, dirname: str, filename: str):
-    subdirname = os.path.join(dirname, filename)
-    ensure_dir(subdirname)
-    filepath = os.path.join(subdirname, filename + TXT_EXT)
+def write_txt(data: list, dirname: str, subname: str):
+    filepath = prepare_filepath(dirname, subname, TXT_EXT)
     with open(filepath, "w") as fp:
         LOG.debug(f"Writing TXT file: {filepath}")
-        fp.write('\n'.join(data))
+        fp.write("\n".join(data))
 
 
 def convert_file(in_dirname: str, in_filename: str, out_dirname: str):
-    out_filename = in_filename[: -len(JSON_EXT)]
     in_filepath = os.path.join(in_dirname, in_filename)
     with open(in_filepath) as fp:
         LOG.debug(f"Reading original file: {in_filepath}")
         data = json.load(fp)
+    out_filename = in_filename[: -len(JSON_EXT)]
     write_min_json(data, out_dirname, out_filename)
     write_bson(data, out_dirname, out_filename)
     write_yaml(data, out_dirname, out_filename)
@@ -104,30 +97,30 @@ def convert_files(inparts: tuple, outparts: tuple):
                 convert_file(dirname, filename, out_dirname)
 
 
-def process_registry(registry: dict, dirname: str, filename: str):
+def process_registry(registry: dict, dirname: str, shortname: str):
     entries = registry["entries"]
     values = list(entries.keys())
     data = {"values": values}
-    write_json(data, dirname, filename)
-    write_min_json(data, dirname, filename)
-    write_bson(data, dirname, filename)
-    write_yaml(data, dirname, filename)
-    write_txt(values, dirname, filename)
+    write_json(data, dirname, shortname)
+    write_min_json(data, dirname, shortname)
+    write_bson(data, dirname, shortname)
+    write_yaml(data, dirname, shortname)
+    write_txt(values, dirname, shortname)
 
 
 def split_registries(inparts: tuple, outparts: tuple):
     # split the registries into multiple files
-    registries_subdir = os.path.join(*outparts, "reports", "registries")
     registries_path = os.path.join(*inparts, "reports", "registries.json")
     LOG.info(f"Reading registries from: {registries_path}")
     with open(registries_path) as registries_fp:
         registries_data = json.load(registries_fp)
     # process each registry
+    registries_outdir = os.path.join(*outparts, "reports", "registries")
     for reg_name, registry in registries_data.items():
         reg_entries = registry["entries"]
         LOG.info(f"Found {len(reg_entries)} entries for registry: {reg_name}")
         reg_shortname = reg_name.split(":")[1]
-        process_registry(registry, registries_subdir, reg_shortname)
+        process_registry(registry, registries_outdir, reg_shortname)
 
 
 def process(inparts: tuple, outparts: tuple):
@@ -135,7 +128,7 @@ def process(inparts: tuple, outparts: tuple):
     convert_files(inparts, outparts)
     print("Splitting registries...")
     split_registries(inparts, outparts)
-    print('Done!')
+    print("Done!")
 
 
 def run():
