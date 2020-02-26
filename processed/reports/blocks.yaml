@@ -2465,7 +2465,7 @@ minecraft:allium:
 minecraft:ancient_debris:
   states:
   - default: true
-    id: 15728
+    id: 15744
 minecraft:andesite:
   states:
   - default: true
@@ -5876,99 +5876,99 @@ minecraft:bee_nest:
     - '5'
   states:
   - default: true
-    id: 15677
+    id: 15693
     properties:
       facing: north
       honey_level: '0'
-  - id: 15678
-    properties:
-      facing: north
-      honey_level: '1'
-  - id: 15679
-    properties:
-      facing: north
-      honey_level: '2'
-  - id: 15680
-    properties:
-      facing: north
-      honey_level: '3'
-  - id: 15681
-    properties:
-      facing: north
-      honey_level: '4'
-  - id: 15682
-    properties:
-      facing: north
-      honey_level: '5'
-  - id: 15683
-    properties:
-      facing: south
-      honey_level: '0'
-  - id: 15684
-    properties:
-      facing: south
-      honey_level: '1'
-  - id: 15685
-    properties:
-      facing: south
-      honey_level: '2'
-  - id: 15686
-    properties:
-      facing: south
-      honey_level: '3'
-  - id: 15687
-    properties:
-      facing: south
-      honey_level: '4'
-  - id: 15688
-    properties:
-      facing: south
-      honey_level: '5'
-  - id: 15689
-    properties:
-      facing: west
-      honey_level: '0'
-  - id: 15690
-    properties:
-      facing: west
-      honey_level: '1'
-  - id: 15691
-    properties:
-      facing: west
-      honey_level: '2'
-  - id: 15692
-    properties:
-      facing: west
-      honey_level: '3'
-  - id: 15693
-    properties:
-      facing: west
-      honey_level: '4'
   - id: 15694
     properties:
+      facing: north
+      honey_level: '1'
+  - id: 15695
+    properties:
+      facing: north
+      honey_level: '2'
+  - id: 15696
+    properties:
+      facing: north
+      honey_level: '3'
+  - id: 15697
+    properties:
+      facing: north
+      honey_level: '4'
+  - id: 15698
+    properties:
+      facing: north
+      honey_level: '5'
+  - id: 15699
+    properties:
+      facing: south
+      honey_level: '0'
+  - id: 15700
+    properties:
+      facing: south
+      honey_level: '1'
+  - id: 15701
+    properties:
+      facing: south
+      honey_level: '2'
+  - id: 15702
+    properties:
+      facing: south
+      honey_level: '3'
+  - id: 15703
+    properties:
+      facing: south
+      honey_level: '4'
+  - id: 15704
+    properties:
+      facing: south
+      honey_level: '5'
+  - id: 15705
+    properties:
+      facing: west
+      honey_level: '0'
+  - id: 15706
+    properties:
+      facing: west
+      honey_level: '1'
+  - id: 15707
+    properties:
+      facing: west
+      honey_level: '2'
+  - id: 15708
+    properties:
+      facing: west
+      honey_level: '3'
+  - id: 15709
+    properties:
+      facing: west
+      honey_level: '4'
+  - id: 15710
+    properties:
       facing: west
       honey_level: '5'
-  - id: 15695
+  - id: 15711
     properties:
       facing: east
       honey_level: '0'
-  - id: 15696
+  - id: 15712
     properties:
       facing: east
       honey_level: '1'
-  - id: 15697
+  - id: 15713
     properties:
       facing: east
       honey_level: '2'
-  - id: 15698
+  - id: 15714
     properties:
       facing: east
       honey_level: '3'
-  - id: 15699
+  - id: 15715
     properties:
       facing: east
       honey_level: '4'
-  - id: 15700
+  - id: 15716
     properties:
       facing: east
       honey_level: '5'
@@ -5988,99 +5988,99 @@ minecraft:beehive:
     - '5'
   states:
   - default: true
-    id: 15701
+    id: 15717
     properties:
       facing: north
       honey_level: '0'
-  - id: 15702
-    properties:
-      facing: north
-      honey_level: '1'
-  - id: 15703
-    properties:
-      facing: north
-      honey_level: '2'
-  - id: 15704
-    properties:
-      facing: north
-      honey_level: '3'
-  - id: 15705
-    properties:
-      facing: north
-      honey_level: '4'
-  - id: 15706
-    properties:
-      facing: north
-      honey_level: '5'
-  - id: 15707
-    properties:
-      facing: south
-      honey_level: '0'
-  - id: 15708
-    properties:
-      facing: south
-      honey_level: '1'
-  - id: 15709
-    properties:
-      facing: south
-      honey_level: '2'
-  - id: 15710
-    properties:
-      facing: south
-      honey_level: '3'
-  - id: 15711
-    properties:
-      facing: south
-      honey_level: '4'
-  - id: 15712
-    properties:
-      facing: south
-      honey_level: '5'
-  - id: 15713
-    properties:
-      facing: west
-      honey_level: '0'
-  - id: 15714
-    properties:
-      facing: west
-      honey_level: '1'
-  - id: 15715
-    properties:
-      facing: west
-      honey_level: '2'
-  - id: 15716
-    properties:
-      facing: west
-      honey_level: '3'
-  - id: 15717
-    properties:
-      facing: west
-      honey_level: '4'
   - id: 15718
     properties:
+      facing: north
+      honey_level: '1'
+  - id: 15719
+    properties:
+      facing: north
+      honey_level: '2'
+  - id: 15720
+    properties:
+      facing: north
+      honey_level: '3'
+  - id: 15721
+    properties:
+      facing: north
+      honey_level: '4'
+  - id: 15722
+    properties:
+      facing: north
+      honey_level: '5'
+  - id: 15723
+    properties:
+      facing: south
+      honey_level: '0'
+  - id: 15724
+    properties:
+      facing: south
+      honey_level: '1'
+  - id: 15725
+    properties:
+      facing: south
+      honey_level: '2'
+  - id: 15726
+    properties:
+      facing: south
+      honey_level: '3'
+  - id: 15727
+    properties:
+      facing: south
+      honey_level: '4'
+  - id: 15728
+    properties:
+      facing: south
+      honey_level: '5'
+  - id: 15729
+    properties:
+      facing: west
+      honey_level: '0'
+  - id: 15730
+    properties:
+      facing: west
+      honey_level: '1'
+  - id: 15731
+    properties:
+      facing: west
+      honey_level: '2'
+  - id: 15732
+    properties:
+      facing: west
+      honey_level: '3'
+  - id: 15733
+    properties:
+      facing: west
+      honey_level: '4'
+  - id: 15734
+    properties:
       facing: west
       honey_level: '5'
-  - id: 15719
+  - id: 15735
     properties:
       facing: east
       honey_level: '0'
-  - id: 15720
+  - id: 15736
     properties:
       facing: east
       honey_level: '1'
-  - id: 15721
+  - id: 15737
     properties:
       facing: east
       honey_level: '2'
-  - id: 15722
+  - id: 15738
     properties:
       facing: east
       honey_level: '3'
-  - id: 15723
+  - id: 15739
     properties:
       facing: east
       honey_level: '4'
-  - id: 15724
+  - id: 15740
     properties:
       facing: east
       honey_level: '5'
@@ -19972,7 +19972,7 @@ minecraft:crimson_fence_gate:
       in_wall: 'false'
       open: 'false'
       powered: 'false'
-minecraft:crimson_fungi:
+minecraft:crimson_fungus:
   states:
   - default: true
     id: 14938
@@ -21219,6 +21219,10 @@ minecraft:crimson_wall_sign:
     properties:
       facing: east
       waterlogged: 'false'
+minecraft:crying_obsidian:
+  states:
+  - default: true
+    id: 15745
 minecraft:cut_red_sandstone:
   states:
   - default: true
@@ -40953,11 +40957,11 @@ minecraft:heavy_weighted_pressure_plate:
 minecraft:honey_block:
   states:
   - default: true
-    id: 15725
+    id: 15741
 minecraft:honeycomb_block:
   states:
   - default: true
-    id: 15726
+    id: 15742
 minecraft:hopper:
   properties:
     enabled:
@@ -57789,7 +57793,7 @@ minecraft:nether_wart_block:
 minecraft:netherite_block:
   states:
   - default: true
-    id: 15727
+    id: 15743
 minecraft:netherrack:
   states:
   - default: true
@@ -67371,6 +67375,14 @@ minecraft:potted_cornflower:
   states:
   - default: true
     id: 6317
+minecraft:potted_crimson_fungus:
+  states:
+  - default: true
+    id: 15746
+minecraft:potted_crimson_roots:
+  states:
+  - default: true
+    id: 15748
 minecraft:potted_dandelion:
   states:
   - default: true
@@ -67427,6 +67439,14 @@ minecraft:potted_spruce_sapling:
   states:
   - default: true
     id: 6301
+minecraft:potted_warped_fungus:
+  states:
+  - default: true
+    id: 15747
+minecraft:potted_warped_roots:
+  states:
+  - default: true
+    id: 15749
 minecraft:potted_white_tulip:
   states:
   - default: true
@@ -101978,6 +101998,75 @@ minecraft:tall_seagrass:
     id: 1346
     properties:
       half: lower
+minecraft:target:
+  properties:
+    power:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+  states:
+  - default: true
+    id: 15677
+    properties:
+      power: '0'
+  - id: 15678
+    properties:
+      power: '1'
+  - id: 15679
+    properties:
+      power: '2'
+  - id: 15680
+    properties:
+      power: '3'
+  - id: 15681
+    properties:
+      power: '4'
+  - id: 15682
+    properties:
+      power: '5'
+  - id: 15683
+    properties:
+      power: '6'
+  - id: 15684
+    properties:
+      power: '7'
+  - id: 15685
+    properties:
+      power: '8'
+  - id: 15686
+    properties:
+      power: '9'
+  - id: 15687
+    properties:
+      power: '10'
+  - id: 15688
+    properties:
+      power: '11'
+  - id: 15689
+    properties:
+      power: '12'
+  - id: 15690
+    properties:
+      power: '13'
+  - id: 15691
+    properties:
+      power: '14'
+  - id: 15692
+    properties:
+      power: '15'
 minecraft:terracotta:
   states:
   - default: true
@@ -104868,7 +104957,7 @@ minecraft:warped_fence_gate:
       in_wall: 'false'
       open: 'false'
       powered: 'false'
-minecraft:warped_fungi:
+minecraft:warped_fungus:
   states:
   - default: true
     id: 14927

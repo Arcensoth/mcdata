@@ -124,15 +124,15 @@ criteria:
       entity:
         type: minecraft:zombie
     trigger: minecraft:player_killed_entity
-  minecraft:zombie_pigman:
-    conditions:
-      entity:
-        type: minecraft:zombie_pigman
-    trigger: minecraft:player_killed_entity
   minecraft:zombie_villager:
     conditions:
       entity:
         type: minecraft:zombie_villager
+    trigger: minecraft:player_killed_entity
+  minecraft:zombified_piglin:
+    conditions:
+      entity:
+        type: minecraft:zombified_piglin
     trigger: minecraft:player_killed_entity
 display:
   announce_to_chat: true
@@ -150,7 +150,7 @@ parent: minecraft:adventure/root
 requirements:
 - - minecraft:cave_spider
   - minecraft:spider
-  - minecraft:zombie_pigman
+  - minecraft:zombified_piglin
   - minecraft:enderman
   - minecraft:blaze
   - minecraft:creeper

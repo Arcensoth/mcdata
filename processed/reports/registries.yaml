@@ -243,7 +243,7 @@ minecraft:block:
     minecraft:allium:
       protocol_id: 121
     minecraft:ancient_debris:
-      protocol_id: 724
+      protocol_id: 725
     minecraft:andesite:
       protocol_id: 6
     minecraft:andesite_slab:
@@ -275,9 +275,9 @@ minecraft:block:
     minecraft:bedrock:
       protocol_id: 25
     minecraft:bee_nest:
-      protocol_id: 719
-    minecraft:beehive:
       protocol_id: 720
+    minecraft:beehive:
+      protocol_id: 721
     minecraft:beetroots:
       protocol_id: 494
     minecraft:bell:
@@ -506,7 +506,7 @@ minecraft:block:
       protocol_id: 700
     minecraft:crimson_fence_gate:
       protocol_id: 704
-    minecraft:crimson_fungi:
+    minecraft:crimson_fungus:
       protocol_id: 689
     minecraft:crimson_nylium:
       protocol_id: 688
@@ -528,6 +528,8 @@ minecraft:block:
       protocol_id: 702
     minecraft:crimson_wall_sign:
       protocol_id: 714
+    minecraft:crying_obsidian:
+      protocol_id: 726
     minecraft:cut_red_sandstone:
       protocol_id: 447
     minecraft:cut_red_sandstone_slab:
@@ -801,9 +803,9 @@ minecraft:block:
     minecraft:heavy_weighted_pressure_plate:
       protocol_id: 328
     minecraft:honey_block:
-      protocol_id: 721
-    minecraft:honeycomb_block:
       protocol_id: 722
+    minecraft:honeycomb_block:
+      protocol_id: 723
     minecraft:hopper:
       protocol_id: 333
     minecraft:horn_coral:
@@ -1049,7 +1051,7 @@ minecraft:block:
     minecraft:nether_wart_block:
       protocol_id: 501
     minecraft:netherite_block:
-      protocol_id: 723
+      protocol_id: 724
     minecraft:netherrack:
       protocol_id: 192
     minecraft:note_block:
@@ -1198,6 +1200,10 @@ minecraft:block:
       protocol_id: 302
     minecraft:potted_cornflower:
       protocol_id: 296
+    minecraft:potted_crimson_fungus:
+      protocol_id: 727
+    minecraft:potted_crimson_roots:
+      protocol_id: 729
     minecraft:potted_dandelion:
       protocol_id: 286
     minecraft:potted_dark_oak_sapling:
@@ -1226,6 +1232,10 @@ minecraft:block:
       protocol_id: 291
     minecraft:potted_spruce_sapling:
       protocol_id: 280
+    minecraft:potted_warped_fungus:
+      protocol_id: 728
+    minecraft:potted_warped_roots:
+      protocol_id: 730
     minecraft:potted_white_tulip:
       protocol_id: 293
     minecraft:potted_wither_rose:
@@ -1526,6 +1536,8 @@ minecraft:block:
       protocol_id: 411
     minecraft:tall_seagrass:
       protocol_id: 98
+    minecraft:target:
+      protocol_id: 719
     minecraft:terracotta:
       protocol_id: 404
     minecraft:tnt:
@@ -1562,7 +1574,7 @@ minecraft:block:
       protocol_id: 701
     minecraft:warped_fence_gate:
       protocol_id: 705
-    minecraft:warped_fungi:
+    minecraft:warped_fungus:
       protocol_id: 682
     minecraft:warped_nylium:
       protocol_id: 681
@@ -1928,6 +1940,8 @@ minecraft:custom_stat:
       protocol_id: 18
     minecraft:talked_to_villager:
       protocol_id: 33
+    minecraft:target_hit:
+      protocol_id: 71
     minecraft:time_since_death:
       protocol_id: 2
     minecraft:time_since_rest:
@@ -2321,10 +2335,10 @@ minecraft:entity_type:
       protocol_id: 95
     minecraft:zombie_horse:
       protocol_id: 96
-    minecraft:zombie_pigman:
-      protocol_id: 57
     minecraft:zombie_villager:
       protocol_id: 97
+    minecraft:zombified_piglin:
+      protocol_id: 57
   protocol_id: 5
 minecraft:feature:
   entries:
@@ -2388,7 +2402,7 @@ minecraft:feature:
       protocol_id: 36
     minecraft:huge_brown_mushroom:
       protocol_id: 34
-    minecraft:huge_fungi:
+    minecraft:huge_fungus:
       protocol_id: 58
     minecraft:huge_red_mushroom:
       protocol_id: 33
@@ -2885,7 +2899,7 @@ minecraft:item:
       protocol_id: 205
     minecraft:crimson_fence_gate:
       protocol_id: 247
-    minecraft:crimson_fungi:
+    minecraft:crimson_fungus:
       protocol_id: 121
     minecraft:crimson_nylium:
       protocol_id: 12
@@ -2907,6 +2921,8 @@ minecraft:item:
       protocol_id: 222
     minecraft:crossbow:
       protocol_id: 894
+    minecraft:crying_obsidian:
+      protocol_id: 938
     minecraft:cut_red_sandstone:
       protocol_id: 401
     minecraft:cut_red_sandstone_slab:
@@ -4201,6 +4217,8 @@ minecraft:item:
       protocol_id: 915
     minecraft:tall_grass:
       protocol_id: 358
+    minecraft:target:
+      protocol_id: 937
     minecraft:terracotta:
       protocol_id: 347
     minecraft:tipped_arrow:
@@ -4257,7 +4275,7 @@ minecraft:item:
       protocol_id: 206
     minecraft:warped_fence_gate:
       protocol_id: 248
-    minecraft:warped_fungi:
+    minecraft:warped_fungus:
       protocol_id: 122
     minecraft:warped_nylium:
       protocol_id: 13
@@ -4367,12 +4385,12 @@ minecraft:item:
       protocol_id: 809
     minecraft:zombie_horse_spawn_egg:
       protocol_id: 790
-    minecraft:zombie_pigman_spawn_egg:
-      protocol_id: 791
     minecraft:zombie_spawn_egg:
       protocol_id: 789
     minecraft:zombie_villager_spawn_egg:
       protocol_id: 792
+    minecraft:zombified_piglin_spawn_egg:
+      protocol_id: 791
   protocol_id: 6
 minecraft:memory_module_type:
   default: minecraft:dummy
@@ -4457,7 +4475,7 @@ minecraft:memory_module_type:
       protocol_id: 10
     minecraft:nearest_visible_wanted_item:
       protocol_id: 32
-    minecraft:nearest_visible_warped_fungi:
+    minecraft:nearest_visible_warped_fungus:
       protocol_id: 51
     minecraft:nearest_visible_wither_skeleton:
       protocol_id: 38
@@ -4700,6 +4718,8 @@ minecraft:particle_type:
       protocol_id: 59
     minecraft:dripping_lava:
       protocol_id: 9
+    minecraft:dripping_obsidian_tear:
+      protocol_id: 66
     minecraft:dripping_water:
       protocol_id: 12
     minecraft:dust:
@@ -4728,6 +4748,8 @@ minecraft:particle_type:
       protocol_id: 10
     minecraft:falling_nectar:
       protocol_id: 62
+    minecraft:falling_obsidian_tear:
+      protocol_id: 67
     minecraft:falling_water:
       protocol_id: 13
     minecraft:firework:
@@ -4754,6 +4776,8 @@ minecraft:particle_type:
       protocol_id: 61
     minecraft:landing_lava:
       protocol_id: 11
+    minecraft:landing_obsidian_tear:
+      protocol_id: 68
     minecraft:large_smoke:
       protocol_id: 36
     minecraft:lava:
@@ -5229,15 +5253,15 @@ minecraft:sound_event:
       protocol_id: 247
     minecraft:block.fire.extinguish:
       protocol_id: 248
-    minecraft:block.fungi.break:
+    minecraft:block.fungus.break:
       protocol_id: 469
-    minecraft:block.fungi.fall:
+    minecraft:block.fungus.fall:
       protocol_id: 473
-    minecraft:block.fungi.hit:
+    minecraft:block.fungus.hit:
       protocol_id: 472
-    minecraft:block.fungi.place:
+    minecraft:block.fungus.place:
       protocol_id: 471
-    minecraft:block.fungi.step:
+    minecraft:block.fungus.step:
       protocol_id: 470
     minecraft:block.furnace.fire_crackle:
       protocol_id: 269
@@ -5511,25 +5535,25 @@ minecraft:sound_event:
       protocol_id: 733
     minecraft:block.snow.step:
       protocol_id: 734
-    minecraft:block.soul_sand_break:
+    minecraft:block.soul_sand.break:
       protocol_id: 709
-    minecraft:block.soul_sand_fall:
+    minecraft:block.soul_sand.fall:
       protocol_id: 713
-    minecraft:block.soul_sand_hit:
+    minecraft:block.soul_sand.hit:
       protocol_id: 712
-    minecraft:block.soul_sand_place:
+    minecraft:block.soul_sand.place:
       protocol_id: 711
-    minecraft:block.soul_sand_step:
+    minecraft:block.soul_sand.step:
       protocol_id: 710
-    minecraft:block.soul_soil_break:
+    minecraft:block.soul_soil.break:
       protocol_id: 714
-    minecraft:block.soul_soil_fall:
+    minecraft:block.soul_soil.fall:
       protocol_id: 718
-    minecraft:block.soul_soil_hit:
+    minecraft:block.soul_soil.hit:
       protocol_id: 717
-    minecraft:block.soul_soil_place:
+    minecraft:block.soul_soil.place:
       protocol_id: 716
-    minecraft:block.soul_soil_step:
+    minecraft:block.soul_soil.step:
       protocol_id: 715
     minecraft:block.stem.break:
       protocol_id: 454
@@ -6687,14 +6711,6 @@ minecraft:sound_event:
       protocol_id: 899
     minecraft:entity.zombie_horse.hurt:
       protocol_id: 900
-    minecraft:entity.zombie_pigman.ambient:
-      protocol_id: 903
-    minecraft:entity.zombie_pigman.angry:
-      protocol_id: 904
-    minecraft:entity.zombie_pigman.death:
-      protocol_id: 905
-    minecraft:entity.zombie_pigman.hurt:
-      protocol_id: 906
     minecraft:entity.zombie_villager.ambient:
       protocol_id: 908
     minecraft:entity.zombie_villager.converted:
@@ -6707,6 +6723,14 @@ minecraft:sound_event:
       protocol_id: 912
     minecraft:entity.zombie_villager.step:
       protocol_id: 913
+    minecraft:entity.zombified_piglin.ambient:
+      protocol_id: 903
+    minecraft:entity.zombified_piglin.angry:
+      protocol_id: 904
+    minecraft:entity.zombified_piglin.death:
+      protocol_id: 905
+    minecraft:entity.zombified_piglin.hurt:
+      protocol_id: 906
     minecraft:event.raid.horn:
       protocol_id: 628
     minecraft:item.armor.equip_chain:

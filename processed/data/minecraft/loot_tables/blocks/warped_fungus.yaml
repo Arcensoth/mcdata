@@ -2,7 +2,7 @@ pools:
 - conditions:
   - condition: minecraft:survives_explosion
   entries:
-  - name: minecraft:warped_fungi
+  - name: minecraft:warped_fungus
     type: minecraft:item
   rolls: 1
 type: minecraft:block

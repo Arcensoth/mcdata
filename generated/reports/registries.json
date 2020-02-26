@@ -1409,19 +1409,19 @@
       "minecraft:block.nether_sprouts.fall": {
         "protocol_id": 468
       },
-      "minecraft:block.fungi.break": {
+      "minecraft:block.fungus.break": {
         "protocol_id": 469
       },
-      "minecraft:block.fungi.step": {
+      "minecraft:block.fungus.step": {
         "protocol_id": 470
       },
-      "minecraft:block.fungi.place": {
+      "minecraft:block.fungus.place": {
         "protocol_id": 471
       },
-      "minecraft:block.fungi.hit": {
+      "minecraft:block.fungus.hit": {
         "protocol_id": 472
       },
-      "minecraft:block.fungi.fall": {
+      "minecraft:block.fungus.fall": {
         "protocol_id": 473
       },
       "minecraft:block.weeping_vines.break": {
@@ -2129,34 +2129,34 @@
       "minecraft:block.slime_block.step": {
         "protocol_id": 708
       },
-      "minecraft:block.soul_sand_break": {
+      "minecraft:block.soul_sand.break": {
         "protocol_id": 709
       },
-      "minecraft:block.soul_sand_step": {
+      "minecraft:block.soul_sand.step": {
         "protocol_id": 710
       },
-      "minecraft:block.soul_sand_place": {
+      "minecraft:block.soul_sand.place": {
         "protocol_id": 711
       },
-      "minecraft:block.soul_sand_hit": {
+      "minecraft:block.soul_sand.hit": {
         "protocol_id": 712
       },
-      "minecraft:block.soul_sand_fall": {
+      "minecraft:block.soul_sand.fall": {
         "protocol_id": 713
       },
-      "minecraft:block.soul_soil_break": {
+      "minecraft:block.soul_soil.break": {
         "protocol_id": 714
       },
-      "minecraft:block.soul_soil_step": {
+      "minecraft:block.soul_soil.step": {
         "protocol_id": 715
       },
-      "minecraft:block.soul_soil_place": {
+      "minecraft:block.soul_soil.place": {
         "protocol_id": 716
       },
-      "minecraft:block.soul_soil_hit": {
+      "minecraft:block.soul_soil.hit": {
         "protocol_id": 717
       },
-      "minecraft:block.soul_soil_fall": {
+      "minecraft:block.soul_soil.fall": {
         "protocol_id": 718
       },
       "minecraft:entity.slime.death_small": {
@@ -2711,16 +2711,16 @@
       "minecraft:entity.zombie.infect": {
         "protocol_id": 902
       },
-      "minecraft:entity.zombie_pigman.ambient": {
+      "minecraft:entity.zombified_piglin.ambient": {
         "protocol_id": 903
       },
-      "minecraft:entity.zombie_pigman.angry": {
+      "minecraft:entity.zombified_piglin.angry": {
         "protocol_id": 904
       },
-      "minecraft:entity.zombie_pigman.death": {
+      "minecraft:entity.zombified_piglin.death": {
         "protocol_id": 905
       },
-      "minecraft:entity.zombie_pigman.hurt": {
+      "minecraft:entity.zombified_piglin.hurt": {
         "protocol_id": 906
       },
       "minecraft:entity.zombie.step": {
@@ -4918,7 +4918,7 @@
       "minecraft:warped_nylium": {
         "protocol_id": 681
       },
-      "minecraft:warped_fungi": {
+      "minecraft:warped_fungus": {
         "protocol_id": 682
       },
       "minecraft:warped_wart_block": {
@@ -4939,7 +4939,7 @@
       "minecraft:crimson_nylium": {
         "protocol_id": 688
       },
-      "minecraft:crimson_fungi": {
+      "minecraft:crimson_fungus": {
         "protocol_id": 689
       },
       "minecraft:shroomlight": {
@@ -5029,23 +5029,41 @@
       "minecraft:composter": {
         "protocol_id": 718
       },
-      "minecraft:bee_nest": {
+      "minecraft:target": {
         "protocol_id": 719
       },
-      "minecraft:beehive": {
+      "minecraft:bee_nest": {
         "protocol_id": 720
       },
-      "minecraft:honey_block": {
+      "minecraft:beehive": {
         "protocol_id": 721
       },
-      "minecraft:honeycomb_block": {
+      "minecraft:honey_block": {
         "protocol_id": 722
       },
-      "minecraft:netherite_block": {
+      "minecraft:honeycomb_block": {
         "protocol_id": 723
       },
-      "minecraft:ancient_debris": {
+      "minecraft:netherite_block": {
         "protocol_id": 724
+      },
+      "minecraft:ancient_debris": {
+        "protocol_id": 725
+      },
+      "minecraft:crying_obsidian": {
+        "protocol_id": 726
+      },
+      "minecraft:potted_crimson_fungus": {
+        "protocol_id": 727
+      },
+      "minecraft:potted_warped_fungus": {
+        "protocol_id": 728
+      },
+      "minecraft:potted_crimson_roots": {
+        "protocol_id": 729
+      },
+      "minecraft:potted_warped_roots": {
+        "protocol_id": 730
       }
     }
   },
@@ -5340,7 +5358,7 @@
       "minecraft:pufferfish": {
         "protocol_id": 56
       },
-      "minecraft:zombie_pigman": {
+      "minecraft:zombified_piglin": {
         "protocol_id": 57
       },
       "minecraft:polar_bear": {
@@ -5853,10 +5871,10 @@
       "minecraft:red_mushroom": {
         "protocol_id": 120
       },
-      "minecraft:crimson_fungi": {
+      "minecraft:crimson_fungus": {
         "protocol_id": 121
       },
-      "minecraft:warped_fungi": {
+      "minecraft:warped_fungus": {
         "protocol_id": 122
       },
       "minecraft:crimson_roots": {
@@ -7863,7 +7881,7 @@
       "minecraft:zombie_horse_spawn_egg": {
         "protocol_id": 790
       },
-      "minecraft:zombie_pigman_spawn_egg": {
+      "minecraft:zombified_piglin_spawn_egg": {
         "protocol_id": 791
       },
       "minecraft:zombie_villager_spawn_egg": {
@@ -8300,6 +8318,12 @@
       },
       "minecraft:netherite_boots": {
         "protocol_id": 936
+      },
+      "minecraft:target": {
+        "protocol_id": 937
+      },
+      "minecraft:crying_obsidian": {
+        "protocol_id": 938
       }
     }
   },
@@ -8682,7 +8706,7 @@
       "minecraft:bamboo": {
         "protocol_id": 57
       },
-      "minecraft:huge_fungi": {
+      "minecraft:huge_fungus": {
         "protocol_id": 58
       },
       "minecraft:nether_forest_vegetation": {
@@ -9349,6 +9373,15 @@
       },
       "minecraft:warped_spore": {
         "protocol_id": 65
+      },
+      "minecraft:dripping_obsidian_tear": {
+        "protocol_id": 66
+      },
+      "minecraft:falling_obsidian_tear": {
+        "protocol_id": 67
+      },
+      "minecraft:landing_obsidian_tear": {
+        "protocol_id": 68
       }
     }
   },
@@ -9809,6 +9842,9 @@
       },
       "minecraft:interact_with_grindstone": {
         "protocol_id": 70
+      },
+      "minecraft:target_hit": {
+        "protocol_id": 71
       }
     }
   },
@@ -10641,7 +10677,7 @@
       "minecraft:ate_recently": {
         "protocol_id": 50
       },
-      "minecraft:nearest_visible_warped_fungi": {
+      "minecraft:nearest_visible_warped_fungus": {
         "protocol_id": 51
       },
       "minecraft:nearest_visible_soul_fire_item": {

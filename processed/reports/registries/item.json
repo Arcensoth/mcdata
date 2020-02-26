@@ -121,8 +121,8 @@
     "minecraft:wither_rose",
     "minecraft:brown_mushroom",
     "minecraft:red_mushroom",
-    "minecraft:crimson_fungi",
-    "minecraft:warped_fungi",
+    "minecraft:crimson_fungus",
+    "minecraft:warped_fungus",
     "minecraft:crimson_roots",
     "minecraft:warped_roots",
     "minecraft:nether_sprouts",
@@ -791,7 +791,7 @@
     "minecraft:wolf_spawn_egg",
     "minecraft:zombie_spawn_egg",
     "minecraft:zombie_horse_spawn_egg",
-    "minecraft:zombie_pigman_spawn_egg",
+    "minecraft:zombified_piglin_spawn_egg",
     "minecraft:zombie_villager_spawn_egg",
     "minecraft:experience_bottle",
     "minecraft:fire_charge",
@@ -936,6 +936,8 @@
     "minecraft:netherite_helmet",
     "minecraft:netherite_chestplate",
     "minecraft:netherite_leggings",
-    "minecraft:netherite_boots"
+    "minecraft:netherite_boots",
+    "minecraft:target",
+    "minecraft:crying_obsidian"
   ]
 }

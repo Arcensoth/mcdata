@@ -1,0 +1,19 @@
+criteria:
+  bullseye:
+    conditions:
+      signalStrength: 15
+    trigger: minecraft:target_hit
+display:
+  announce_to_chat: true
+  description:
+    translate: advancements.adventure.bullseye.description
+  frame: task
+  hidden: false
+  icon:
+    item: minecraft:target
+  show_toast: true
+  title:
+    translate: advancements.adventure.bullseye.title
+parent: minecraft:adventure/shoot_arrow
+requirements:
+- - bullseye

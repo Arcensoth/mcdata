@@ -70,6 +70,7 @@
     "minecraft:raid_trigger",
     "minecraft:raid_win",
     "minecraft:interact_with_anvil",
-    "minecraft:interact_with_grindstone"
+    "minecraft:interact_with_grindstone",
+    "minecraft:target_hit"
   ]
 }
