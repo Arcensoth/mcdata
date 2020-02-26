@@ -10,6 +10,7 @@ JSON_EXT = ".json"
 MIN_JSON_EXT = ".min.json"
 BSON_EXT = ".bson"
 YAML_EXT = ".yaml"
+TXT_EXT = ".txt"
 
 EXCLUDE_DIRS = [".cache", "tmp"]
 
@@ -65,6 +66,15 @@ def write_yaml(data: dict, dirname: str, filename: str):
         yaml.dump(data, fp)
 
 
+def write_txt(data: list, dirname: str, filename: str):
+    subdirname = os.path.join(dirname, filename)
+    ensure_dir(subdirname)
+    filepath = os.path.join(subdirname, filename + TXT_EXT)
+    with open(filepath, "w") as fp:
+        LOG.debug(f"Writing TXT file: {filepath}")
+        fp.write('\n'.join(data))
+
+
 def convert_file(in_dirname: str, in_filename: str, out_dirname: str):
     out_filename = in_filename[: -len(JSON_EXT)]
     in_filepath = os.path.join(in_dirname, in_filename)
@@ -102,6 +112,7 @@ def process_registry(registry: dict, dirname: str, filename: str):
     write_min_json(data, dirname, filename)
     write_bson(data, dirname, filename)
     write_yaml(data, dirname, filename)
+    write_txt(values, dirname, filename)
 
 
 def split_registries(inparts: tuple, outparts: tuple):
