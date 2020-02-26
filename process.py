@@ -16,7 +16,7 @@ EXCLUDE_DIRS = [".cache", "tmp"]
 ARGPARSER = argparse.ArgumentParser(description="Run the mcdata update utility.")
 ARGPARSER.add_argument("--inpath", help="The path to read the generated data from.")
 ARGPARSER.add_argument("--outpath", help="The path to write the processed output to.")
-ARGPARSER.add_argument("--log", help="The logging level.", default=logging.INFO)
+ARGPARSER.add_argument("--log", help="The logging level.", default=logging.WARNING)
 ARGS = ARGPARSER.parse_args()
 
 logging.basicConfig(level=ARGS.log)
