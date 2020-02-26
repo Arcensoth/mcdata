@@ -1,0 +1,49 @@
+pools:
+- entries:
+  - functions:
+    - count:
+        max: 2.0
+        min: 0.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    - count:
+        max: 1.0
+        min: 0.0
+      function: minecraft:looting_enchant
+    name: minecraft:arrow
+    type: minecraft:item
+  rolls: 1
+- entries:
+  - functions:
+    - count:
+        max: 2.0
+        min: 0.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    - count:
+        max: 1.0
+        min: 0.0
+      function: minecraft:looting_enchant
+    name: minecraft:bone
+    type: minecraft:item
+  rolls: 1
+- conditions:
+  - condition: minecraft:killed_by_player
+  entries:
+  - functions:
+    - count:
+        max: 1.0
+        min: 0.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    - count:
+        max: 1.0
+        min: 0.0
+      function: minecraft:looting_enchant
+      limit: 1
+    - function: minecraft:set_nbt
+      tag: '{Potion:"minecraft:slowness"}'
+    name: minecraft:tipped_arrow
+    type: minecraft:item
+  rolls: 1
+type: minecraft:entity

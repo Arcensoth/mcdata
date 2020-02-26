@@ -1,0 +1,13 @@
+pools:
+- conditions:
+  - condition: minecraft:survives_explosion
+  entries:
+  - conditions:
+    - block: minecraft:tnt
+      condition: minecraft:block_state_property
+      properties:
+        unstable: 'false'
+    name: minecraft:tnt
+    type: minecraft:item
+  rolls: 1
+type: minecraft:block

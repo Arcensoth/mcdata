@@ -1,0 +1,9 @@
+key:
+  X:
+    item: minecraft:leather
+pattern:
+- XXX
+- X X
+result:
+  item: minecraft:leather_helmet
+type: minecraft:crafting_shaped

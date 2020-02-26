@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:block_ignore",
+    "minecraft:block_rot",
+    "minecraft:gravity",
+    "minecraft:jigsaw_replacement",
+    "minecraft:rule",
+    "minecraft:nop"
+  ]
+}

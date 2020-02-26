@@ -1,0 +1,6 @@
+group: wooden_button
+ingredients:
+- item: minecraft:jungle_planks
+result:
+  item: minecraft:jungle_button
+type: minecraft:crafting_shapeless

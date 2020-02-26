@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:nether_bricks
+result: minecraft:nether_brick_wall
+type: minecraft:stonecutting

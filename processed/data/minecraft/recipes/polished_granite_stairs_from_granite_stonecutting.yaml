@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:granite
+result: minecraft:polished_granite_stairs
+type: minecraft:stonecutting

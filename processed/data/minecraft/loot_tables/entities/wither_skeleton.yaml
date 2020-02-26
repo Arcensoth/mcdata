@@ -1,0 +1,39 @@
+pools:
+- entries:
+  - functions:
+    - count:
+        max: 1.0
+        min: -1.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    - count:
+        max: 1.0
+        min: 0.0
+      function: minecraft:looting_enchant
+    name: minecraft:coal
+    type: minecraft:item
+  rolls: 1
+- entries:
+  - functions:
+    - count:
+        max: 2.0
+        min: 0.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    - count:
+        max: 1.0
+        min: 0.0
+      function: minecraft:looting_enchant
+    name: minecraft:bone
+    type: minecraft:item
+  rolls: 1
+- conditions:
+  - condition: minecraft:killed_by_player
+  - chance: 0.025
+    condition: minecraft:random_chance_with_looting
+    looting_multiplier: 0.01
+  entries:
+  - name: minecraft:wither_skeleton_skull
+    type: minecraft:item
+  rolls: 1
+type: minecraft:entity

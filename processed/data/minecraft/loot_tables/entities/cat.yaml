@@ -1,0 +1,12 @@
+pools:
+- entries:
+  - functions:
+    - count:
+        max: 2.0
+        min: 0.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:string
+    type: minecraft:item
+  rolls: 1
+type: minecraft:entity

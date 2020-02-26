@@ -1,0 +1,16 @@
+pools:
+- entries:
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:tropical_fish
+    type: minecraft:item
+  rolls: 1
+- conditions:
+  - chance: 0.05
+    condition: minecraft:random_chance
+  entries:
+  - name: minecraft:bone_meal
+    type: minecraft:item
+  rolls: 1
+type: minecraft:entity

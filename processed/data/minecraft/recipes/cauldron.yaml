@@ -1,0 +1,10 @@
+key:
+  '#':
+    item: minecraft:iron_ingot
+pattern:
+- '# #'
+- '# #'
+- '###'
+result:
+  item: minecraft:cauldron
+type: minecraft:crafting_shaped

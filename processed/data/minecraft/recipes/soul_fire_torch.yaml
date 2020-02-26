@@ -1,0 +1,16 @@
+key:
+  '#':
+    item: minecraft:stick
+  S:
+    item: minecraft:soul_soil
+  X:
+  - item: minecraft:coal
+  - item: minecraft:charcoal
+pattern:
+- X
+- '#'
+- S
+result:
+  count: 4
+  item: minecraft:soul_fire_torch
+type: minecraft:crafting_shaped

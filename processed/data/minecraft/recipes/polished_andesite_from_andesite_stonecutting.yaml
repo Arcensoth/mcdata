@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:andesite
+result: minecraft:polished_andesite
+type: minecraft:stonecutting

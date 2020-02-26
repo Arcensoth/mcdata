@@ -1,0 +1,29 @@
+pools:
+- entries:
+  - functions:
+    - count:
+        max: 3.0
+        min: 1.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:iron_ingot
+    type: minecraft:item
+    weight: 2
+  - functions:
+    - count:
+        max: 4.0
+        min: 1.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:bread
+    type: minecraft:item
+    weight: 4
+  - name: minecraft:iron_helmet
+    type: minecraft:item
+  - name: minecraft:emerald
+    type: minecraft:item
+  rolls:
+    max: 5.0
+    min: 1.0
+    type: minecraft:uniform
+type: minecraft:chest

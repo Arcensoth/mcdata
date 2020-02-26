@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:prismarine
+result: minecraft:prismarine_wall
+type: minecraft:stonecutting

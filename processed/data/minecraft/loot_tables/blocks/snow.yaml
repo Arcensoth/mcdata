@@ -1,0 +1,164 @@
+pools:
+- conditions:
+  - condition: minecraft:entity_properties
+    entity: this
+    predicate: {}
+  entries:
+  - children:
+    - children:
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '1'
+        name: minecraft:snowball
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '2'
+        functions:
+        - count: 2
+          function: minecraft:set_count
+        name: minecraft:snowball
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '3'
+        functions:
+        - count: 3
+          function: minecraft:set_count
+        name: minecraft:snowball
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '4'
+        functions:
+        - count: 4
+          function: minecraft:set_count
+        name: minecraft:snowball
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '5'
+        functions:
+        - count: 5
+          function: minecraft:set_count
+        name: minecraft:snowball
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '6'
+        functions:
+        - count: 6
+          function: minecraft:set_count
+        name: minecraft:snowball
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '7'
+        functions:
+        - count: 7
+          function: minecraft:set_count
+        name: minecraft:snowball
+        type: minecraft:item
+      - functions:
+        - count: 8
+          function: minecraft:set_count
+        name: minecraft:snowball
+        type: minecraft:item
+      conditions:
+      - condition: minecraft:inverted
+        term:
+          condition: minecraft:match_tool
+          predicate:
+            enchantments:
+            - enchantment: minecraft:silk_touch
+              levels:
+                min: 1
+      type: minecraft:alternatives
+    - children:
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '1'
+        name: minecraft:snow
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '2'
+        functions:
+        - count: 2
+          function: minecraft:set_count
+        name: minecraft:snow
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '3'
+        functions:
+        - count: 3
+          function: minecraft:set_count
+        name: minecraft:snow
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '4'
+        functions:
+        - count: 4
+          function: minecraft:set_count
+        name: minecraft:snow
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '5'
+        functions:
+        - count: 5
+          function: minecraft:set_count
+        name: minecraft:snow
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '6'
+        functions:
+        - count: 6
+          function: minecraft:set_count
+        name: minecraft:snow
+        type: minecraft:item
+      - conditions:
+        - block: minecraft:snow
+          condition: minecraft:block_state_property
+          properties:
+            layers: '7'
+        functions:
+        - count: 7
+          function: minecraft:set_count
+        name: minecraft:snow
+        type: minecraft:item
+      - name: minecraft:snow_block
+        type: minecraft:item
+      type: minecraft:alternatives
+    type: minecraft:alternatives
+  rolls: 1.0
+type: minecraft:block

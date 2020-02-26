@@ -1,0 +1,7 @@
+group: planks
+ingredients:
+- tag: minecraft:birch_logs
+result:
+  count: 4
+  item: minecraft:birch_planks
+type: minecraft:crafting_shapeless

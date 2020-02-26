@@ -1,0 +1,7 @@
+group: planks
+ingredients:
+- tag: minecraft:spruce_logs
+result:
+  count: 4
+  item: minecraft:spruce_planks
+type: minecraft:crafting_shapeless

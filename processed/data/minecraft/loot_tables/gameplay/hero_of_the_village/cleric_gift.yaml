@@ -1,0 +1,8 @@
+pools:
+- entries:
+  - name: minecraft:redstone
+    type: minecraft:item
+  - name: minecraft:lapis_lazuli
+    type: minecraft:item
+  rolls: 1
+type: minecraft:gift

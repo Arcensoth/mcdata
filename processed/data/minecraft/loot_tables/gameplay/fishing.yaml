@@ -1,0 +1,16 @@
+pools:
+- entries:
+  - name: minecraft:gameplay/fishing/junk
+    quality: -2
+    type: minecraft:loot_table
+    weight: 10
+  - name: minecraft:gameplay/fishing/treasure
+    quality: 2
+    type: minecraft:loot_table
+    weight: 5
+  - name: minecraft:gameplay/fishing/fish
+    quality: -1
+    type: minecraft:loot_table
+    weight: 85
+  rolls: 1
+type: minecraft:fishing

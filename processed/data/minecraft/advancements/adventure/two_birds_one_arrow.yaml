@@ -1,0 +1,24 @@
+criteria:
+  two_birds:
+    conditions:
+      victims:
+      - type: minecraft:phantom
+      - type: minecraft:phantom
+    trigger: minecraft:killed_by_crossbow
+display:
+  announce_to_chat: true
+  description:
+    translate: advancements.adventure.two_birds_one_arrow.description
+  frame: challenge
+  hidden: false
+  icon:
+    item: minecraft:crossbow
+    nbt: '{Damage:0}'
+  show_toast: true
+  title:
+    translate: advancements.adventure.two_birds_one_arrow.title
+parent: minecraft:adventure/ol_betsy
+requirements:
+- - two_birds
+rewards:
+  experience: 65

@@ -1,0 +1,179 @@
+criteria:
+  minecraft:blaze:
+    conditions:
+      entity:
+        type: minecraft:blaze
+    trigger: minecraft:player_killed_entity
+  minecraft:cave_spider:
+    conditions:
+      entity:
+        type: minecraft:cave_spider
+    trigger: minecraft:player_killed_entity
+  minecraft:creeper:
+    conditions:
+      entity:
+        type: minecraft:creeper
+    trigger: minecraft:player_killed_entity
+  minecraft:drowned:
+    conditions:
+      entity:
+        type: minecraft:drowned
+    trigger: minecraft:player_killed_entity
+  minecraft:enderman:
+    conditions:
+      entity:
+        type: minecraft:enderman
+    trigger: minecraft:player_killed_entity
+  minecraft:evoker:
+    conditions:
+      entity:
+        type: minecraft:evoker
+    trigger: minecraft:player_killed_entity
+  minecraft:ghast:
+    conditions:
+      entity:
+        type: minecraft:ghast
+    trigger: minecraft:player_killed_entity
+  minecraft:guardian:
+    conditions:
+      entity:
+        type: minecraft:guardian
+    trigger: minecraft:player_killed_entity
+  minecraft:hoglin:
+    conditions:
+      entity:
+        type: minecraft:hoglin
+    trigger: minecraft:player_killed_entity
+  minecraft:husk:
+    conditions:
+      entity:
+        type: minecraft:husk
+    trigger: minecraft:player_killed_entity
+  minecraft:magma_cube:
+    conditions:
+      entity:
+        type: minecraft:magma_cube
+    trigger: minecraft:player_killed_entity
+  minecraft:phantom:
+    conditions:
+      entity:
+        type: minecraft:phantom
+    trigger: minecraft:player_killed_entity
+  minecraft:piglin:
+    conditions:
+      entity:
+        type: minecraft:piglin
+    trigger: minecraft:player_killed_entity
+  minecraft:pillager:
+    conditions:
+      entity:
+        type: minecraft:pillager
+    trigger: minecraft:player_killed_entity
+  minecraft:ravager:
+    conditions:
+      entity:
+        type: minecraft:ravager
+    trigger: minecraft:player_killed_entity
+  minecraft:shulker:
+    conditions:
+      entity:
+        type: minecraft:shulker
+    trigger: minecraft:player_killed_entity
+  minecraft:silverfish:
+    conditions:
+      entity:
+        type: minecraft:silverfish
+    trigger: minecraft:player_killed_entity
+  minecraft:skeleton:
+    conditions:
+      entity:
+        type: minecraft:skeleton
+    trigger: minecraft:player_killed_entity
+  minecraft:slime:
+    conditions:
+      entity:
+        type: minecraft:slime
+    trigger: minecraft:player_killed_entity
+  minecraft:spider:
+    conditions:
+      entity:
+        type: minecraft:spider
+    trigger: minecraft:player_killed_entity
+  minecraft:stray:
+    conditions:
+      entity:
+        type: minecraft:stray
+    trigger: minecraft:player_killed_entity
+  minecraft:vindicator:
+    conditions:
+      entity:
+        type: minecraft:vindicator
+    trigger: minecraft:player_killed_entity
+  minecraft:witch:
+    conditions:
+      entity:
+        type: minecraft:witch
+    trigger: minecraft:player_killed_entity
+  minecraft:wither_skeleton:
+    conditions:
+      entity:
+        type: minecraft:wither_skeleton
+    trigger: minecraft:player_killed_entity
+  minecraft:zombie:
+    conditions:
+      entity:
+        type: minecraft:zombie
+    trigger: minecraft:player_killed_entity
+  minecraft:zombie_pigman:
+    conditions:
+      entity:
+        type: minecraft:zombie_pigman
+    trigger: minecraft:player_killed_entity
+  minecraft:zombie_villager:
+    conditions:
+      entity:
+        type: minecraft:zombie_villager
+    trigger: minecraft:player_killed_entity
+display:
+  announce_to_chat: true
+  description:
+    translate: advancements.adventure.kill_all_mobs.description
+  frame: challenge
+  hidden: false
+  icon:
+    item: minecraft:diamond_sword
+    nbt: '{Damage:0}'
+  show_toast: true
+  title:
+    translate: advancements.adventure.kill_all_mobs.title
+parent: minecraft:adventure/kill_a_mob
+requirements:
+- - minecraft:cave_spider
+- - minecraft:spider
+- - minecraft:zombie_pigman
+- - minecraft:enderman
+- - minecraft:blaze
+- - minecraft:creeper
+- - minecraft:evoker
+- - minecraft:ghast
+- - minecraft:guardian
+- - minecraft:husk
+- - minecraft:magma_cube
+- - minecraft:shulker
+- - minecraft:silverfish
+- - minecraft:skeleton
+- - minecraft:slime
+- - minecraft:stray
+- - minecraft:vindicator
+- - minecraft:witch
+- - minecraft:wither_skeleton
+- - minecraft:zombie
+- - minecraft:zombie_villager
+- - minecraft:phantom
+- - minecraft:drowned
+- - minecraft:pillager
+- - minecraft:ravager
+- - minecraft:hoglin
+- - minecraft:piglin
+rewards:
+  experience: 100

@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:dark_prismarine
+result: minecraft:dark_prismarine_stairs
+type: minecraft:stonecutting

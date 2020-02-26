@@ -1,0 +1,9 @@
+key:
+  '#':
+    item: minecraft:quartz_slab
+pattern:
+- '#'
+- '#'
+result:
+  item: minecraft:chiseled_quartz_block
+type: minecraft:crafting_shaped

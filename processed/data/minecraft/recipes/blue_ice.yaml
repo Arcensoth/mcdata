@@ -1,0 +1,10 @@
+key:
+  '#':
+    item: minecraft:packed_ice
+pattern:
+- '###'
+- '###'
+- '###'
+result:
+  item: minecraft:blue_ice
+type: minecraft:crafting_shaped

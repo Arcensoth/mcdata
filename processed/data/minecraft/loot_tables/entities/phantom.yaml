@@ -1,0 +1,18 @@
+pools:
+- conditions:
+  - condition: minecraft:killed_by_player
+  entries:
+  - functions:
+    - count:
+        max: 1.0
+        min: 0.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    - count:
+        max: 1.0
+        min: 0.0
+      function: minecraft:looting_enchant
+    name: minecraft:phantom_membrane
+    type: minecraft:item
+  rolls: 1
+type: minecraft:entity

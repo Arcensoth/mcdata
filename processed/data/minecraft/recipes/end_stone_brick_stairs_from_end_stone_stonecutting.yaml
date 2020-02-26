@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:end_stone
+result: minecraft:end_stone_brick_stairs
+type: minecraft:stonecutting

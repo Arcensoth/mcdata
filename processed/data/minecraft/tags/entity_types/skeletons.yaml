@@ -1,0 +1,5 @@
+replace: false
+values:
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton

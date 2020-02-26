@@ -1,0 +1,8 @@
+pools:
+- conditions:
+  - condition: minecraft:survives_explosion
+  entries:
+  - name: minecraft:detector_rail
+    type: minecraft:item
+  rolls: 1
+type: minecraft:block

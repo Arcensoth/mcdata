@@ -1,0 +1,12 @@
+key:
+  '#':
+    item: minecraft:soul_fire_torch
+  X:
+    item: minecraft:iron_nugget
+pattern:
+- XXX
+- X#X
+- XXX
+result:
+  item: minecraft:soul_fire_lantern
+type: minecraft:crafting_shaped

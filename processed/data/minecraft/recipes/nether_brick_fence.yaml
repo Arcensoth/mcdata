@@ -1,0 +1,12 @@
+key:
+  '#':
+    item: minecraft:nether_bricks
+  '-':
+    item: minecraft:nether_brick
+pattern:
+- '#-#'
+- '#-#'
+result:
+  count: 6
+  item: minecraft:nether_brick_fence
+type: minecraft:crafting_shaped

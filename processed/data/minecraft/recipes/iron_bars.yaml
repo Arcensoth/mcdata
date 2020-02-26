@@ -1,0 +1,10 @@
+key:
+  '#':
+    item: minecraft:iron_ingot
+pattern:
+- '###'
+- '###'
+result:
+  count: 16
+  item: minecraft:iron_bars
+type: minecraft:crafting_shaped

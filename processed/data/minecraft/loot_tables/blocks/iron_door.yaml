@@ -1,0 +1,13 @@
+pools:
+- conditions:
+  - condition: minecraft:survives_explosion
+  entries:
+  - conditions:
+    - block: minecraft:iron_door
+      condition: minecraft:block_state_property
+      properties:
+        half: lower
+    name: minecraft:iron_door
+    type: minecraft:item
+  rolls: 1
+type: minecraft:block

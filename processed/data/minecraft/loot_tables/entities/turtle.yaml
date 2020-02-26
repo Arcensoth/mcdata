@@ -1,0 +1,25 @@
+pools:
+- entries:
+  - functions:
+    - count:
+        max: 2.0
+        min: 0.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    - count:
+        max: 1.0
+        min: 0.0
+      function: minecraft:looting_enchant
+    name: minecraft:seagrass
+    type: minecraft:item
+    weight: 3
+  rolls: 1
+- conditions:
+  - condition: minecraft:damage_source_properties
+    predicate:
+      is_lightning: true
+  entries:
+  - name: minecraft:bowl
+    type: minecraft:item
+  rolls: 1
+type: minecraft:entity
