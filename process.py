@@ -6,8 +6,8 @@ import os
 import bson
 
 JSON_EXT = ".json"
-MIN_EXT = ".min.json"
-BIN_EXT = ".bson"
+MIN_JSON_EXT = ".min.json"
+BSON_EXT = ".bson"
 
 EXCLUDE_DIRS = [".cache", "tmp"]
 
@@ -21,50 +21,97 @@ logging.basicConfig(level=ARGS.log)
 LOG = logging.getLogger(__name__)
 
 
-def process_file(old_dirname: str, old_filename: str, new_dirname: str):
+def ensure_dir(dirname: str):
+    if not os.path.exists(dirname):
+        LOG.debug(f"Creating missing directory: {dirname}")
+        os.makedirs(dirname)
+
+
+def write_json(data, basename):
+    filepath = basename + JSON_EXT
+    with open(filepath, "w") as fp:
+        LOG.debug(f"Writing JSON file: {filepath}")
+        json.dump(data, fp, indent=2)
+
+
+def write_min_json(data, basename):
+    filepath = basename + MIN_JSON_EXT
+    with open(filepath, "w") as fp:
+        LOG.debug(f"Writing minified JSON file: {filepath}")
+        json.dump(data, fp, separators=(",", ":"))
+
+
+def write_bson(data, basename):
+    filepath = basename + BSON_EXT
+    with open(filepath, "wb") as fp:
+        LOG.debug(f"Writing BSON file: {filepath}")
+        fp.write(bson.dumps(data))
+
+
+def convert_file(old_dirname: str, old_filename: str, new_dirname: str):
+    new_filename = old_filename[: -len(JSON_EXT)]
+    new_basename = os.path.join(new_dirname, new_filename)
     old_filepath = os.path.join(old_dirname, old_filename)
-    # read the original file
     with open(old_filepath) as fp:
         LOG.debug(f"Reading original file: {old_filepath}")
         data = json.load(fp)
-    # write a minified version
-    min_filename = old_filename[: -len(JSON_EXT)] + MIN_EXT
-    min_filepath = os.path.join(new_dirname, min_filename)
-    with open(min_filepath, "w") as min_fp:
-        LOG.debug(f"Writing minified file: {min_filepath}")
-        json.dump(data, min_fp, separators=(",", ":"))
-    # write a binary version
-    bin_filename = old_filename[: -len(JSON_EXT)] + BIN_EXT
-    bin_filepath = os.path.join(new_dirname, bin_filename)
-    with open(bin_filepath, "wb") as bin_fp:
-        LOG.debug(f"Writing binary file: {bin_filepath}")
-        bin_fp.write(bson.dumps(data))
+    write_min_json(data, new_basename)
+    write_bson(data, new_basename)
 
 
-def make_minified(inparts: tuple, outparts: tuple):
+def convert_files(inparts: tuple, outparts: tuple):
     # create minified versions of all original files
     inpath = os.path.join(*inparts)
     for dirname, subdirnames, filenames in os.walk(inpath):
-        LOG.info(f"Checking directory: {dirname}")
+        LOG.info(f"Reading directory: {dirname}")
         # ignore things like cache and tmp folder
         subdirnames[:] = [d for d in subdirnames if d not in EXCLUDE_DIRS]
-        # skip the "generated" folder
+        # don't include the root "generated" folder in the output
         dirparts = dirname.split(os.path.sep)[1:]
         LOG.debug(f"Directory path components: {dirparts}")
         out_dirname = os.path.join(*outparts, *dirparts)
         LOG.debug(f"Using output directory: {out_dirname}")
         # make sure the subfolder exists
-        if not os.path.exists(out_dirname):
-            LOG.debug(f"Creating missing output directory: {out_dirname}")
-            os.makedirs(out_dirname)
+        ensure_dir(out_dirname)
         # process each file
         for filename in filenames:
             if filename.endswith(JSON_EXT):
-                process_file(dirname, filename, out_dirname)
+                convert_file(dirname, filename, out_dirname)
+
+
+def process_registry(basename: str, registry: dict):
+    entries = registry["entries"]
+    values = list(entries.keys())
+    data = {"values": values}
+    write_json(data, basename)
+    write_min_json(data, basename)
+    write_bson(data, basename)
+
+
+def split_registries(inparts: tuple, outparts: tuple):
+    # split the registries into multiple files
+    registries_path = os.path.join(*inparts, "reports", "registries.json")
+    LOG.info(f"Reading registries from: {registries_path}")
+    with open(registries_path) as registries_fp:
+        registries_data = json.load(registries_fp)
+    # make sure the registries subfolder exists
+    registries_subdir = os.path.join(*outparts, "reports", "registries")
+    ensure_dir(registries_subdir)
+    # process each registry
+    for reg_name, registry in registries_data.items():
+        reg_entries = registry["entries"]
+        LOG.info(f"Found {len(reg_entries)} entries for registry: {reg_name}")
+        reg_shortname = reg_name.split(":")[1]
+        reg_basename = os.path.join(registries_subdir, reg_shortname)
+        process_registry(reg_basename, registry)
 
 
 def process(inparts: tuple, outparts: tuple):
-    make_minified(inparts, outparts)
+    print("Converting files...")
+    convert_files(inparts, outparts)
+    print("Splitting registries...")
+    split_registries(inparts, outparts)
+    print('Done!')
 
 
 def run():
