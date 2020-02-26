@@ -1,0 +1,7 @@
+minecraft:desert
+minecraft:jungle
+minecraft:plains
+minecraft:savanna
+minecraft:snow
+minecraft:swamp
+minecraft:taiga
