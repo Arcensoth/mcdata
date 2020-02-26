@@ -4,10 +4,12 @@ import logging
 import os
 
 import bson
+import yaml
 
 JSON_EXT = ".json"
 MIN_JSON_EXT = ".min.json"
 BSON_EXT = ".bson"
+YAML_EXT = ".yaml"
 
 EXCLUDE_DIRS = [".cache", "tmp"]
 
@@ -48,6 +50,13 @@ def write_bson(data, basename):
         fp.write(bson.dumps(data))
 
 
+def write_yaml(data, basename):
+    filepath = basename + YAML_EXT
+    with open(filepath, "w") as fp:
+        LOG.debug(f"Writing YAML file: {filepath}")
+        yaml.dump(data, fp)
+
+
 def convert_file(old_dirname: str, old_filename: str, new_dirname: str):
     new_filename = old_filename[: -len(JSON_EXT)]
     new_basename = os.path.join(new_dirname, new_filename)
@@ -57,6 +66,7 @@ def convert_file(old_dirname: str, old_filename: str, new_dirname: str):
         data = json.load(fp)
     write_min_json(data, new_basename)
     write_bson(data, new_basename)
+    write_yaml(data, new_basename)
 
 
 def convert_files(inparts: tuple, outparts: tuple):
@@ -86,6 +96,7 @@ def process_registry(basename: str, registry: dict):
     write_json(data, basename)
     write_min_json(data, basename)
     write_bson(data, basename)
+    write_yaml(data, basename)
 
 
 def split_registries(inparts: tuple, outparts: tuple):
