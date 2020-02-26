@@ -3,12 +3,10 @@ import json
 import logging
 import os
 
-import bson
 import yaml
 
 JSON_EXT = ".json"
 MIN_JSON_EXT = ".min.json"
-BSON_EXT = ".bson"
 YAML_EXT = ".yaml"
 TXT_EXT = ".txt"
 
@@ -47,13 +45,6 @@ def write_min_json(data: dict, dirname: str, subname: str):
         json.dump(data, fp, separators=(",", ":"))
 
 
-def write_bson(data: dict, dirname: str, subname: str):
-    filepath = prepare_filepath(dirname, subname, BSON_EXT)
-    with open(filepath, "wb") as fp:
-        LOG.debug(f"Writing BSON file: {filepath}")
-        fp.write(bson.dumps(data))
-
-
 def write_yaml(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, YAML_EXT)
     with open(filepath, "w") as fp:
@@ -75,7 +66,6 @@ def convert_file(in_dirname: str, in_filename: str, out_dirname: str):
         data = json.load(fp)
     out_filename = in_filename[: -len(JSON_EXT)]
     write_min_json(data, out_dirname, out_filename)
-    write_bson(data, out_dirname, out_filename)
     write_yaml(data, out_dirname, out_filename)
 
 
@@ -103,7 +93,6 @@ def process_registry(registry: dict, dirname: str, shortname: str):
     data = {"values": values}
     write_json(data, dirname, shortname)
     write_min_json(data, dirname, shortname)
-    write_bson(data, dirname, shortname)
     write_yaml(data, dirname, shortname)
     write_txt(values, dirname, shortname)
 
