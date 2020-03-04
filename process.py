@@ -127,9 +127,18 @@ def summarize_data(inparts: tuple, outparts: tuple):
     data_path = os.path.join(*inparts, "data")
     for namespace in os.listdir(data_path):
         namespace_root = os.path.join(data_path, namespace)
+        summaries = {}
         for data_subparts in DATA_SUBPARTS:
             resource_ids = []
             summary = {'values': resource_ids}
+            # recursively construct data structure for namespace summary
+            sub_summaries = summaries
+            for subpart in data_subparts[:-1]:
+                if subpart not in sub_summaries:
+                    sub_summaries[subpart] = {}
+                sub_summaries = sub_summaries[subpart]
+            sub_summaries[data_subparts[-1]] = resource_ids
+            # process individual summaries
             namespace_subdir = os.path.join(*data_subparts)
             namespace_data_root = os.path.join(namespace_root, namespace_subdir)
             for dirname, subdirnames, filenames in os.walk(namespace_data_root):
@@ -154,6 +163,10 @@ def summarize_data(inparts: tuple, outparts: tuple):
             write_min_json(summary, summary_out_dir, data_subparts[-1])
             write_yaml(summary, summary_out_dir, data_subparts[-1])
             write_txt(resource_ids, summary_out_dir, data_subparts[-1])
+        summaries_out_dir = os.path.join(*outparts, 'data')
+        write_json(summaries, summaries_out_dir, namespace)
+        write_min_json(summaries, summaries_out_dir, namespace)
+        write_yaml(summaries, summaries_out_dir, namespace)
 
 
 def process(inparts: tuple, outparts: tuple):
