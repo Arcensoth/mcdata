@@ -679,6 +679,8 @@ minecraft:campfire
 minecraft:sweet_berry_bush
 minecraft:warped_stem
 minecraft:stripped_warped_stem
+minecraft:warped_hyphae
+minecraft:stripped_warped_hyphae
 minecraft:warped_nylium
 minecraft:warped_fungus
 minecraft:warped_wart_block
@@ -686,6 +688,8 @@ minecraft:warped_roots
 minecraft:nether_sprouts
 minecraft:crimson_stem
 minecraft:stripped_crimson_stem
+minecraft:crimson_hyphae
+minecraft:stripped_crimson_hyphae
 minecraft:crimson_nylium
 minecraft:crimson_fungus
 minecraft:shroomlight

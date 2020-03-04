@@ -71,3 +71,4 @@ values:
 - minecraft:interact_with_anvil
 - minecraft:interact_with_grindstone
 - minecraft:target_hit
+- minecraft:interact_with_smithing_table

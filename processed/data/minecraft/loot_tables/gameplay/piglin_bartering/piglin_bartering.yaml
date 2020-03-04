@@ -2,21 +2,27 @@ pools:
 - entries:
   - name: minecraft:netherite_hoe
     type: minecraft:item
-  - name: minecraft:warped_nylium
-    type: minecraft:item
-    weight: 5
   - functions:
     - function: minecraft:set_nbt
       tag: '{Potion:"minecraft:fire_resistance"}'
     name: minecraft:potion
     type: minecraft:item
-    weight: 5
+    weight: 10
   - functions:
     - function: minecraft:set_nbt
       tag: '{Potion:"minecraft:fire_resistance"}'
     name: minecraft:splash_potion
     type: minecraft:item
-    weight: 5
+    weight: 10
+  - functions:
+    - count:
+        max: 36.0
+        min: 9.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:iron_nugget
+    type: minecraft:item
+    weight: 10
   - functions:
     - count:
         max: 16.0
@@ -25,7 +31,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:quartz
     type: minecraft:item
-    weight: 10
+    weight: 20
   - functions:
     - count:
         max: 12.0
@@ -34,7 +40,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:glowstone_dust
     type: minecraft:item
-    weight: 10
+    weight: 20
   - functions:
     - count:
         max: 6.0
@@ -43,7 +49,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:magma_cream
     type: minecraft:item
-    weight: 10
+    weight: 20
   - functions:
     - count:
         max: 8.0
@@ -52,7 +58,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:ender_pearl
     type: minecraft:item
-    weight: 10
+    weight: 20
   - functions:
     - count:
         max: 24.0
@@ -61,19 +67,16 @@ pools:
       function: minecraft:set_count
     name: minecraft:string
     type: minecraft:item
-    weight: 10
+    weight: 20
   - functions:
     - count:
-        max: 10.0
-        min: 6.0
+        max: 5.0
+        min: 1.0
         type: minecraft:uniform
       function: minecraft:set_count
-    name: minecraft:shroomlight
+    name: minecraft:fire_charge
     type: minecraft:item
-    weight: 20
-  - name: minecraft:fire_charge
-    type: minecraft:item
-    weight: 20
+    weight: 40
   - functions:
     - count:
         max: 16.0
@@ -82,7 +85,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:gravel
     type: minecraft:item
-    weight: 20
+    weight: 40
   - functions:
     - count:
         max: 10.0
@@ -91,16 +94,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:leather
     type: minecraft:item
-    weight: 20
-  - functions:
-    - count:
-        max: 10.0
-        min: 4.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:warped_fungus
-    type: minecraft:item
-    weight: 20
+    weight: 40
   - functions:
     - count:
         max: 16.0
@@ -109,10 +103,10 @@ pools:
       function: minecraft:set_count
     name: minecraft:nether_brick
     type: minecraft:item
-    weight: 20
+    weight: 40
   - name: minecraft:obsidian
     type: minecraft:item
-    weight: 20
+    weight: 40
   - functions:
     - count:
         max: 3.0
@@ -121,12 +115,15 @@ pools:
       function: minecraft:set_count
     name: minecraft:crying_obsidian
     type: minecraft:item
-    weight: 20
-  functions:
-  - count:
-      max: 5.0
-      min: 1.0
-      type: minecraft:uniform
-    function: minecraft:set_count
+    weight: 40
+  - functions:
+    - count:
+        max: 16.0
+        min: 4.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:soul_sand
+    type: minecraft:item
+    weight: 40
   rolls: 1
 type: minecraft:barter

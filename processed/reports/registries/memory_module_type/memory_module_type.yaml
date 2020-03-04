@@ -13,6 +13,7 @@ values:
 - minecraft:walk_target
 - minecraft:look_target
 - minecraft:attack_target
+- minecraft:attack_cooling_down
 - minecraft:interaction_target
 - minecraft:breed_target
 - minecraft:ride_target
@@ -34,7 +35,7 @@ values:
 - minecraft:nearest_visible_wanted_item
 - minecraft:angry_at
 - minecraft:admiring_item
-- minecraft:was_hit_by_player
+- minecraft:admiring_disabled
 - minecraft:hunted_recently
 - minecraft:celebrate_location
 - minecraft:nearest_visible_wither_skeleton
@@ -50,6 +51,5 @@ values:
 - minecraft:visible_adult_hoglin_count
 - minecraft:nearest_player_holding_wanted_item
 - minecraft:ate_recently
-- minecraft:nearest_visible_warped_fungus
-- minecraft:nearest_visible_soul_fire_item
+- minecraft:nearest_repellent
 - minecraft:pacified

@@ -18,6 +18,7 @@ minecraft:lectern
 minecraft:loom
 minecraft:merchant
 minecraft:shulker_box
+minecraft:smithing
 minecraft:smoker
 minecraft:cartography_table
 minecraft:stonecutter
