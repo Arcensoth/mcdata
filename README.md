@@ -3,13 +3,11 @@ Version-controlled history of Minecraft's generated data.
 
 Since [Minecraft snapshot 18w01a](https://minecraft.net/en-us/article/minecraft-snapshot-18w01a) Mojang has exposed the game's internal data generators, allowing us to get a data-driven dump of commands, blocks, items, and all sorts of nice things.
 
-Run the following command on a server jar to invoke the exposed generators and produce data:
+Run the following command on a server jar to invoke the exposed generators and produce server-side data and reports:
 
 ```bash
-java -cp minecraft_server.*.jar net.minecraft.data.Main --server
+java -cp minecraft_server.*.jar net.minecraft.data.Main --server --reports
 ```
-
-Note that we use `--server` instead of `--all` to limit the output to server-side data.
 
 Server downloads can be found via Mojang's [version manifest](https://launchermeta.mojang.com/mc/game/version_manifest.json).
 
