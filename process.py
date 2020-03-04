@@ -12,6 +12,16 @@ TXT_EXT = ".txt"
 
 EXCLUDE_DIRS = [".cache", "tmp"]
 
+DATA_SUBPARTS = (
+    ("advancements",),
+    ("loot_tables",),
+    ("recipes",),
+    ("tags", "blocks"),
+    ("tags", "entity_types"),
+    ("tags", "fluids"),
+    ("tags", "items"),
+)
+
 ARGPARSER = argparse.ArgumentParser(description="Run the mcdata update utility.")
 ARGPARSER.add_argument("--inpath", help="The path to read the generated data from.")
 ARGPARSER.add_argument("--outpath", help="The path to write the processed output to.")
@@ -112,11 +122,47 @@ def split_registries(inparts: tuple, outparts: tuple):
         process_registry(registry, registries_outdir, reg_shortname)
 
 
+def summarize_data(inparts: tuple, outparts: tuple):
+    # compile namespaced id reports for data root folders
+    data_path = os.path.join(*inparts, "data")
+    for namespace in os.listdir(data_path):
+        namespace_root = os.path.join(data_path, namespace)
+        for data_subparts in DATA_SUBPARTS:
+            resource_ids = []
+            summary = {'values': resource_ids}
+            namespace_subdir = os.path.join(*data_subparts)
+            namespace_data_root = os.path.join(namespace_root, namespace_subdir)
+            for dirname, subdirnames, filenames in os.walk(namespace_data_root):
+                LOG.info(f"Reading directory: {dirname}")
+                subdirnames[:] = [d for d in subdirnames if d not in EXCLUDE_DIRS]
+                for filename in filenames:
+                    resource_header_len = len(namespace_data_root) + len(os.path.sep)
+                    resource_dir = dirname[resource_header_len:]
+                    resource_dir_parts = (
+                        resource_dir.split(os.path.sep) if resource_dir else []
+                    )
+                    filename_parts = filename.split(".")
+                    filename_parts_without_ext = filename_parts[:-1]
+                    filename_without_ext = ".".join(filename_parts_without_ext)
+                    resource_name = "/".join(
+                        (*resource_dir_parts, filename_without_ext)
+                    )
+                    resource_id = f"{namespace}:{resource_name}"
+                    resource_ids.append(resource_id)
+            summary_out_dir = os.path.join(*outparts, 'data', namespace, *data_subparts[:-1])
+            write_json(summary, summary_out_dir, data_subparts[-1])
+            write_min_json(summary, summary_out_dir, data_subparts[-1])
+            write_yaml(summary, summary_out_dir, data_subparts[-1])
+            write_txt(resource_ids, summary_out_dir, data_subparts[-1])
+
+
 def process(inparts: tuple, outparts: tuple):
     print("Converting files...")
     convert_files(inparts, outparts)
     print("Splitting registries...")
     split_registries(inparts, outparts)
+    print("Summarizing data...")
+    summarize_data(inparts, outparts)
     print("Done!")
 
 
