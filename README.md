@@ -6,8 +6,10 @@ Since [Minecraft snapshot 18w01a](https://minecraft.net/en-us/article/minecraft-
 Run the following command on a server jar to invoke the exposed generators and produce data:
 
 ```bash
-java -cp minecraft_server.*.jar net.minecraft.data.Main --all
+java -cp minecraft_server.*.jar net.minecraft.data.Main --server
 ```
+
+Note that we use `--server` instead of `--all` to limit the output to server-side data.
 
 Server downloads can be found via Mojang's [version manifest](https://launchermeta.mojang.com/mc/game/version_manifest.json).
 
