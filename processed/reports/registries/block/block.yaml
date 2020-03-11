@@ -33,6 +33,7 @@ values:
 - minecraft:gold_ore
 - minecraft:iron_ore
 - minecraft:coal_ore
+- minecraft:nether_gold_ore
 - minecraft:oak_log
 - minecraft:spruce_log
 - minecraft:birch_log
@@ -696,6 +697,8 @@ values:
 - minecraft:shroomlight
 - minecraft:weeping_vines
 - minecraft:weeping_vines_plant
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
 - minecraft:crimson_roots
 - minecraft:crimson_planks
 - minecraft:warped_planks

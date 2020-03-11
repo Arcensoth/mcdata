@@ -221,6 +221,7 @@ minecraft:blocks/end_stone_brick_stairs
 minecraft:blocks/end_stone_brick_wall
 minecraft:blocks/farmland
 minecraft:blocks/fern
+minecraft:blocks/fire
 minecraft:blocks/fire_coral
 minecraft:blocks/fire_coral_block
 minecraft:blocks/fire_coral_fan
@@ -378,6 +379,7 @@ minecraft:blocks/nether_brick_fence
 minecraft:blocks/nether_brick_slab
 minecraft:blocks/nether_brick_stairs
 minecraft:blocks/nether_brick_wall
+minecraft:blocks/nether_gold_ore
 minecraft:blocks/nether_quartz_ore
 minecraft:blocks/nether_sprouts
 minecraft:blocks/nether_wart
@@ -558,6 +560,7 @@ minecraft:blocks/smooth_stone
 minecraft:blocks/smooth_stone_slab
 minecraft:blocks/snow
 minecraft:blocks/snow_block
+minecraft:blocks/soul_fire
 minecraft:blocks/soul_fire_lantern
 minecraft:blocks/soul_fire_torch
 minecraft:blocks/soul_sand
@@ -621,6 +624,8 @@ minecraft:blocks/tube_coral
 minecraft:blocks/tube_coral_block
 minecraft:blocks/tube_coral_fan
 minecraft:blocks/turtle_egg
+minecraft:blocks/twisting_vines
+minecraft:blocks/twisting_vines_plant
 minecraft:blocks/vine
 minecraft:blocks/warped_button
 minecraft:blocks/warped_door

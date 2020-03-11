@@ -26,6 +26,7 @@ minecraft:firework
 minecraft:fishing
 minecraft:flame
 minecraft:soul_fire_flame
+minecraft:soul
 minecraft:flash
 minecraft:happy_villager
 minecraft:composter

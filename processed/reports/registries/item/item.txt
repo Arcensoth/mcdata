@@ -34,6 +34,7 @@ minecraft:gravel
 minecraft:gold_ore
 minecraft:iron_ore
 minecraft:coal_ore
+minecraft:nether_gold_ore
 minecraft:oak_log
 minecraft:spruce_log
 minecraft:birch_log
@@ -129,6 +130,7 @@ minecraft:crimson_roots
 minecraft:warped_roots
 minecraft:nether_sprouts
 minecraft:weeping_vines
+minecraft:twisting_vines
 minecraft:gold_block
 minecraft:iron_block
 minecraft:oak_slab
@@ -587,6 +589,10 @@ minecraft:golden_sword
 minecraft:golden_shovel
 minecraft:golden_pickaxe
 minecraft:golden_axe
+minecraft:netherite_sword
+minecraft:netherite_shovel
+minecraft:netherite_pickaxe
+minecraft:netherite_axe
 minecraft:string
 minecraft:feather
 minecraft:gunpowder
@@ -595,6 +601,7 @@ minecraft:stone_hoe
 minecraft:iron_hoe
 minecraft:diamond_hoe
 minecraft:golden_hoe
+minecraft:netherite_hoe
 minecraft:wheat_seeds
 minecraft:wheat
 minecraft:bread
@@ -618,6 +625,10 @@ minecraft:golden_helmet
 minecraft:golden_chestplate
 minecraft:golden_leggings
 minecraft:golden_boots
+minecraft:netherite_helmet
+minecraft:netherite_chestplate
+minecraft:netherite_leggings
+minecraft:netherite_boots
 minecraft:flint
 minecraft:porkchop
 minecraft:cooked_porkchop
@@ -930,14 +941,5 @@ minecraft:netherite_block
 minecraft:ancient_debris
 minecraft:netherite_ingot
 minecraft:netherite_scrap
-minecraft:netherite_sword
-minecraft:netherite_shovel
-minecraft:netherite_pickaxe
-minecraft:netherite_axe
-minecraft:netherite_hoe
-minecraft:netherite_helmet
-minecraft:netherite_chestplate
-minecraft:netherite_leggings
-minecraft:netherite_boots
 minecraft:target
 minecraft:crying_obsidian

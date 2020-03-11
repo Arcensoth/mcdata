@@ -3,6 +3,19 @@ pools:
   - name: minecraft:netherite_hoe
     type: minecraft:item
   - functions:
+    - enchantments:
+      - minecraft:soul_speed
+      function: minecraft:enchant_randomly
+    name: minecraft:enchanted_book
+    type: minecraft:item
+  - functions:
+    - enchantments:
+      - minecraft:soul_speed
+      function: minecraft:enchant_randomly
+    name: minecraft:iron_boots
+    type: minecraft:item
+    weight: 5
+  - functions:
     - function: minecraft:set_nbt
       tag: '{Potion:"minecraft:fire_resistance"}'
     name: minecraft:potion

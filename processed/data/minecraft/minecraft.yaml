@@ -1081,6 +1081,7 @@ loot_tables:
 - minecraft:blocks/end_stone_brick_wall
 - minecraft:blocks/farmland
 - minecraft:blocks/fern
+- minecraft:blocks/fire
 - minecraft:blocks/fire_coral
 - minecraft:blocks/fire_coral_block
 - minecraft:blocks/fire_coral_fan
@@ -1238,6 +1239,7 @@ loot_tables:
 - minecraft:blocks/nether_brick_slab
 - minecraft:blocks/nether_brick_stairs
 - minecraft:blocks/nether_brick_wall
+- minecraft:blocks/nether_gold_ore
 - minecraft:blocks/nether_quartz_ore
 - minecraft:blocks/nether_sprouts
 - minecraft:blocks/nether_wart
@@ -1418,6 +1420,7 @@ loot_tables:
 - minecraft:blocks/smooth_stone_slab
 - minecraft:blocks/snow
 - minecraft:blocks/snow_block
+- minecraft:blocks/soul_fire
 - minecraft:blocks/soul_fire_lantern
 - minecraft:blocks/soul_fire_torch
 - minecraft:blocks/soul_sand
@@ -1481,6 +1484,8 @@ loot_tables:
 - minecraft:blocks/tube_coral_block
 - minecraft:blocks/tube_coral_fan
 - minecraft:blocks/turtle_egg
+- minecraft:blocks/twisting_vines
+- minecraft:blocks/twisting_vines_plant
 - minecraft:blocks/vine
 - minecraft:blocks/warped_button
 - minecraft:blocks/warped_door
@@ -2496,6 +2501,7 @@ tags:
   - minecraft:fire
   - minecraft:flowers
   - minecraft:flower_pots
+  - minecraft:gold_ores
   - minecraft:hoglin_repellents
   - minecraft:ice
   - minecraft:impermeable
@@ -2514,6 +2520,7 @@ tags:
   - minecraft:signs
   - minecraft:slabs
   - minecraft:small_flowers
+  - minecraft:soul_speed_blocks
   - minecraft:spruce_logs
   - minecraft:stairs
   - minecraft:standing_signs
@@ -2565,12 +2572,14 @@ tags:
   - minecraft:fences
   - minecraft:fishes
   - minecraft:flowers
+  - minecraft:gold_ores
   - minecraft:jungle_logs
   - minecraft:leaves
   - minecraft:lectern_books
   - minecraft:logs
   - minecraft:music_discs
   - minecraft:oak_logs
+  - minecraft:piglin_repellents
   - minecraft:planks
   - minecraft:rails
   - minecraft:sand

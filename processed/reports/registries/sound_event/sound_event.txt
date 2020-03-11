@@ -729,6 +729,7 @@ minecraft:block.soul_soil.step
 minecraft:block.soul_soil.place
 minecraft:block.soul_soil.hit
 minecraft:block.soul_soil.fall
+minecraft:particle.soul_escape
 minecraft:entity.slime.death_small
 minecraft:entity.slime.hurt_small
 minecraft:entity.slime.jump_small
@@ -840,6 +841,7 @@ minecraft:entity.vindicator.ambient
 minecraft:entity.vindicator.celebrate
 minecraft:entity.vindicator.death
 minecraft:entity.vindicator.hurt
+minecraft:block.vine.step
 minecraft:block.lily_pad.place
 minecraft:entity.wandering_trader.ambient
 minecraft:entity.wandering_trader.death

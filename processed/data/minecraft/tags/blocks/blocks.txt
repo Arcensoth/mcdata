@@ -23,6 +23,7 @@ minecraft:fences
 minecraft:fire
 minecraft:flowers
 minecraft:flower_pots
+minecraft:gold_ores
 minecraft:hoglin_repellents
 minecraft:ice
 minecraft:impermeable
@@ -41,6 +42,7 @@ minecraft:shulker_boxes
 minecraft:signs
 minecraft:slabs
 minecraft:small_flowers
+minecraft:soul_speed_blocks
 minecraft:spruce_logs
 minecraft:stairs
 minecraft:standing_signs

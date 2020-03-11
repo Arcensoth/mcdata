@@ -2983,6 +2983,9 @@ children:
       Monument:
         executable: true
         type: literal
+      Nether_Fossil:
+        executable: true
+        type: literal
       Ocean_Ruin:
         executable: true
         type: literal
