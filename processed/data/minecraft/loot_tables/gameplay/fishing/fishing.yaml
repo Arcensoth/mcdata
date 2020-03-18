@@ -4,7 +4,13 @@ pools:
     quality: -2
     type: minecraft:loot_table
     weight: 10
-  - name: minecraft:gameplay/fishing/treasure
+  - conditions:
+    - condition: minecraft:entity_properties
+      entity: this
+      predicate:
+        fishing_hook:
+          in_open_water: true
+    name: minecraft:gameplay/fishing/treasure
     quality: 2
     type: minecraft:loot_table
     weight: 5

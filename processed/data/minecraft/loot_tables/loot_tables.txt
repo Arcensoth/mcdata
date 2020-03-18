@@ -435,6 +435,7 @@ minecraft:blocks/podzol
 minecraft:blocks/polished_andesite
 minecraft:blocks/polished_andesite_slab
 minecraft:blocks/polished_andesite_stairs
+minecraft:blocks/polished_basalt
 minecraft:blocks/polished_diorite
 minecraft:blocks/polished_diorite_slab
 minecraft:blocks/polished_diorite_stairs
@@ -531,6 +532,7 @@ minecraft:blocks/red_terracotta
 minecraft:blocks/red_tulip
 minecraft:blocks/red_wool
 minecraft:blocks/repeater
+minecraft:blocks/respawn_anchor
 minecraft:blocks/rose_bush
 minecraft:blocks/sand
 minecraft:blocks/sandstone

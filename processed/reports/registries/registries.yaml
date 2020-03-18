@@ -207,13 +207,13 @@ minecraft:block:
   default: minecraft:air
   entries:
     minecraft:acacia_button:
-      protocol_id: 310
+      protocol_id: 311
     minecraft:acacia_door:
-      protocol_id: 486
+      protocol_id: 487
     minecraft:acacia_fence:
-      protocol_id: 481
+      protocol_id: 482
     minecraft:acacia_fence_gate:
-      protocol_id: 476
+      protocol_id: 477
     minecraft:acacia_leaves:
       protocol_id: 63
     minecraft:acacia_log:
@@ -227,69 +227,69 @@ minecraft:block:
     minecraft:acacia_sign:
       protocol_id: 158
     minecraft:acacia_slab:
-      protocol_id: 454
+      protocol_id: 455
     minecraft:acacia_stairs:
-      protocol_id: 373
+      protocol_id: 374
     minecraft:acacia_trapdoor:
-      protocol_id: 225
+      protocol_id: 226
     minecraft:acacia_wall_sign:
       protocol_id: 168
     minecraft:acacia_wood:
       protocol_id: 51
     minecraft:activator_rail:
-      protocol_id: 339
+      protocol_id: 340
     minecraft:air:
       protocol_id: 0
     minecraft:allium:
       protocol_id: 122
     minecraft:ancient_debris:
-      protocol_id: 732
+      protocol_id: 733
     minecraft:andesite:
       protocol_id: 6
     minecraft:andesite_slab:
-      protocol_id: 648
+      protocol_id: 649
     minecraft:andesite_stairs:
-      protocol_id: 635
+      protocol_id: 636
     minecraft:andesite_wall:
-      protocol_id: 659
+      protocol_id: 660
     minecraft:anvil:
-      protocol_id: 324
+      protocol_id: 325
     minecraft:attached_melon_stem:
-      protocol_id: 244
+      protocol_id: 245
     minecraft:attached_pumpkin_stem:
-      protocol_id: 243
+      protocol_id: 244
     minecraft:azure_bluet:
       protocol_id: 123
     minecraft:bamboo:
-      protocol_id: 620
+      protocol_id: 621
     minecraft:bamboo_sapling:
-      protocol_id: 619
+      protocol_id: 620
     minecraft:barrel:
-      protocol_id: 666
+      protocol_id: 667
     minecraft:barrier:
-      protocol_id: 376
+      protocol_id: 377
     minecraft:basalt:
       protocol_id: 196
     minecraft:beacon:
-      protocol_id: 276
+      protocol_id: 277
     minecraft:bedrock:
       protocol_id: 25
     minecraft:bee_nest:
-      protocol_id: 727
-    minecraft:beehive:
       protocol_id: 728
+    minecraft:beehive:
+      protocol_id: 729
     minecraft:beetroots:
-      protocol_id: 495
+      protocol_id: 496
     minecraft:bell:
-      protocol_id: 675
+      protocol_id: 676
     minecraft:birch_button:
-      protocol_id: 308
+      protocol_id: 309
     minecraft:birch_door:
-      protocol_id: 484
+      protocol_id: 485
     minecraft:birch_fence:
-      protocol_id: 479
+      protocol_id: 480
     minecraft:birch_fence_gate:
-      protocol_id: 474
+      protocol_id: 475
     minecraft:birch_leaves:
       protocol_id: 61
     minecraft:birch_log:
@@ -303,167 +303,167 @@ minecraft:block:
     minecraft:birch_sign:
       protocol_id: 157
     minecraft:birch_slab:
-      protocol_id: 452
+      protocol_id: 453
     minecraft:birch_stairs:
-      protocol_id: 273
+      protocol_id: 274
     minecraft:birch_trapdoor:
-      protocol_id: 223
+      protocol_id: 224
     minecraft:birch_wall_sign:
       protocol_id: 167
     minecraft:birch_wood:
       protocol_id: 49
     minecraft:black_banner:
-      protocol_id: 429
+      protocol_id: 430
     minecraft:black_bed:
       protocol_id: 90
     minecraft:black_carpet:
-      protocol_id: 404
+      protocol_id: 405
     minecraft:black_concrete:
-      protocol_id: 555
+      protocol_id: 556
     minecraft:black_concrete_powder:
-      protocol_id: 571
+      protocol_id: 572
     minecraft:black_glazed_terracotta:
-      protocol_id: 539
+      protocol_id: 540
     minecraft:black_shulker_box:
-      protocol_id: 523
+      protocol_id: 524
     minecraft:black_stained_glass:
-      protocol_id: 220
+      protocol_id: 221
     minecraft:black_stained_glass_pane:
-      protocol_id: 372
+      protocol_id: 373
     minecraft:black_terracotta:
-      protocol_id: 356
+      protocol_id: 357
     minecraft:black_wall_banner:
-      protocol_id: 445
+      protocol_id: 446
     minecraft:black_wool:
       protocol_id: 117
     minecraft:blast_furnace:
-      protocol_id: 668
+      protocol_id: 669
     minecraft:blue_banner:
-      protocol_id: 425
+      protocol_id: 426
     minecraft:blue_bed:
       protocol_id: 86
     minecraft:blue_carpet:
-      protocol_id: 400
+      protocol_id: 401
     minecraft:blue_concrete:
-      protocol_id: 551
+      protocol_id: 552
     minecraft:blue_concrete_powder:
-      protocol_id: 567
+      protocol_id: 568
     minecraft:blue_glazed_terracotta:
-      protocol_id: 535
+      protocol_id: 536
     minecraft:blue_ice:
-      protocol_id: 617
+      protocol_id: 618
     minecraft:blue_orchid:
       protocol_id: 121
     minecraft:blue_shulker_box:
-      protocol_id: 519
+      protocol_id: 520
     minecraft:blue_stained_glass:
-      protocol_id: 216
+      protocol_id: 217
     minecraft:blue_stained_glass_pane:
-      protocol_id: 368
+      protocol_id: 369
     minecraft:blue_terracotta:
-      protocol_id: 352
+      protocol_id: 353
     minecraft:blue_wall_banner:
-      protocol_id: 441
+      protocol_id: 442
     minecraft:blue_wool:
       protocol_id: 113
     minecraft:bone_block:
-      protocol_id: 504
+      protocol_id: 505
     minecraft:bookshelf:
       protocol_id: 138
     minecraft:brain_coral:
-      protocol_id: 592
+      protocol_id: 593
     minecraft:brain_coral_block:
-      protocol_id: 582
+      protocol_id: 583
     minecraft:brain_coral_fan:
-      protocol_id: 602
+      protocol_id: 603
     minecraft:brain_coral_wall_fan:
-      protocol_id: 612
+      protocol_id: 613
     minecraft:brewing_stand:
-      protocol_id: 258
+      protocol_id: 259
     minecraft:brick_slab:
-      protocol_id: 462
+      protocol_id: 463
     minecraft:brick_stairs:
-      protocol_id: 249
+      protocol_id: 250
     minecraft:brick_wall:
-      protocol_id: 652
+      protocol_id: 653
     minecraft:bricks:
       protocol_id: 136
     minecraft:brown_banner:
-      protocol_id: 426
+      protocol_id: 427
     minecraft:brown_bed:
       protocol_id: 87
     minecraft:brown_carpet:
-      protocol_id: 401
+      protocol_id: 402
     minecraft:brown_concrete:
-      protocol_id: 552
+      protocol_id: 553
     minecraft:brown_concrete_powder:
-      protocol_id: 568
+      protocol_id: 569
     minecraft:brown_glazed_terracotta:
-      protocol_id: 536
+      protocol_id: 537
     minecraft:brown_mushroom:
       protocol_id: 132
     minecraft:brown_mushroom_block:
-      protocol_id: 237
+      protocol_id: 238
     minecraft:brown_shulker_box:
-      protocol_id: 520
+      protocol_id: 521
     minecraft:brown_stained_glass:
-      protocol_id: 217
+      protocol_id: 218
     minecraft:brown_stained_glass_pane:
-      protocol_id: 369
+      protocol_id: 370
     minecraft:brown_terracotta:
-      protocol_id: 353
+      protocol_id: 354
     minecraft:brown_wall_banner:
-      protocol_id: 442
+      protocol_id: 443
     minecraft:brown_wool:
       protocol_id: 114
     minecraft:bubble_column:
-      protocol_id: 624
+      protocol_id: 625
     minecraft:bubble_coral:
-      protocol_id: 593
+      protocol_id: 594
     minecraft:bubble_coral_block:
-      protocol_id: 583
+      protocol_id: 584
     minecraft:bubble_coral_fan:
-      protocol_id: 603
+      protocol_id: 604
     minecraft:bubble_coral_wall_fan:
-      protocol_id: 613
+      protocol_id: 614
     minecraft:cactus:
       protocol_id: 187
     minecraft:cake:
-      protocol_id: 203
+      protocol_id: 204
     minecraft:campfire:
-      protocol_id: 678
+      protocol_id: 679
     minecraft:carrots:
-      protocol_id: 304
+      protocol_id: 305
     minecraft:cartography_table:
-      protocol_id: 669
+      protocol_id: 670
     minecraft:carved_pumpkin:
-      protocol_id: 201
+      protocol_id: 202
     minecraft:cauldron:
-      protocol_id: 259
+      protocol_id: 260
     minecraft:cave_air:
-      protocol_id: 623
+      protocol_id: 624
     minecraft:chain_command_block:
-      protocol_id: 499
+      protocol_id: 500
     minecraft:chest:
       protocol_id: 147
     minecraft:chipped_anvil:
-      protocol_id: 325
+      protocol_id: 326
     minecraft:chiseled_quartz_block:
-      protocol_id: 336
+      protocol_id: 337
     minecraft:chiseled_red_sandstone:
-      protocol_id: 447
+      protocol_id: 448
     minecraft:chiseled_sandstone:
       protocol_id: 72
     minecraft:chiseled_stone_bricks:
-      protocol_id: 230
+      protocol_id: 231
     minecraft:chorus_flower:
-      protocol_id: 490
+      protocol_id: 491
     minecraft:chorus_plant:
-      protocol_id: 489
+      protocol_id: 490
     minecraft:clay:
       protocol_id: 188
     minecraft:coal_block:
-      protocol_id: 406
+      protocol_id: 407
     minecraft:coal_ore:
       protocol_id: 33
     minecraft:coarse_dirt:
@@ -471,111 +471,111 @@ minecraft:block:
     minecraft:cobblestone:
       protocol_id: 12
     minecraft:cobblestone_slab:
-      protocol_id: 461
+      protocol_id: 462
     minecraft:cobblestone_stairs:
       protocol_id: 164
     minecraft:cobblestone_wall:
-      protocol_id: 277
+      protocol_id: 278
     minecraft:cobweb:
       protocol_id: 94
     minecraft:cocoa:
-      protocol_id: 265
+      protocol_id: 266
     minecraft:command_block:
-      protocol_id: 275
+      protocol_id: 276
     minecraft:comparator:
-      protocol_id: 330
+      protocol_id: 331
     minecraft:composter:
-      protocol_id: 725
+      protocol_id: 726
     minecraft:conduit:
-      protocol_id: 618
+      protocol_id: 619
     minecraft:cornflower:
       protocol_id: 129
     minecraft:cracked_stone_bricks:
-      protocol_id: 229
+      protocol_id: 230
     minecraft:crafting_table:
       protocol_id: 151
     minecraft:creeper_head:
-      protocol_id: 320
-    minecraft:creeper_wall_head:
       protocol_id: 321
+    minecraft:creeper_wall_head:
+      protocol_id: 322
     minecraft:crimson_button:
-      protocol_id: 715
+      protocol_id: 716
     minecraft:crimson_door:
-      protocol_id: 717
+      protocol_id: 718
     minecraft:crimson_fence:
-      protocol_id: 707
+      protocol_id: 708
     minecraft:crimson_fence_gate:
-      protocol_id: 711
+      protocol_id: 712
     minecraft:crimson_fungus:
-      protocol_id: 694
+      protocol_id: 695
     minecraft:crimson_hyphae:
-      protocol_id: 691
+      protocol_id: 692
     minecraft:crimson_nylium:
-      protocol_id: 693
+      protocol_id: 694
     minecraft:crimson_planks:
-      protocol_id: 701
+      protocol_id: 702
     minecraft:crimson_pressure_plate:
-      protocol_id: 705
+      protocol_id: 706
     minecraft:crimson_roots:
-      protocol_id: 700
+      protocol_id: 701
     minecraft:crimson_sign:
-      protocol_id: 719
+      protocol_id: 720
     minecraft:crimson_slab:
-      protocol_id: 703
+      protocol_id: 704
     minecraft:crimson_stairs:
-      protocol_id: 713
+      protocol_id: 714
     minecraft:crimson_stem:
-      protocol_id: 689
+      protocol_id: 690
     minecraft:crimson_trapdoor:
-      protocol_id: 709
+      protocol_id: 710
     minecraft:crimson_wall_sign:
-      protocol_id: 721
+      protocol_id: 722
     minecraft:crying_obsidian:
-      protocol_id: 733
+      protocol_id: 734
     minecraft:cut_red_sandstone:
-      protocol_id: 448
+      protocol_id: 449
     minecraft:cut_red_sandstone_slab:
-      protocol_id: 467
+      protocol_id: 468
     minecraft:cut_sandstone:
       protocol_id: 73
     minecraft:cut_sandstone_slab:
-      protocol_id: 459
+      protocol_id: 460
     minecraft:cyan_banner:
-      protocol_id: 423
+      protocol_id: 424
     minecraft:cyan_bed:
       protocol_id: 84
     minecraft:cyan_carpet:
-      protocol_id: 398
+      protocol_id: 399
     minecraft:cyan_concrete:
-      protocol_id: 549
+      protocol_id: 550
     minecraft:cyan_concrete_powder:
-      protocol_id: 565
+      protocol_id: 566
     minecraft:cyan_glazed_terracotta:
-      protocol_id: 533
+      protocol_id: 534
     minecraft:cyan_shulker_box:
-      protocol_id: 517
+      protocol_id: 518
     minecraft:cyan_stained_glass:
-      protocol_id: 214
+      protocol_id: 215
     minecraft:cyan_stained_glass_pane:
-      protocol_id: 366
+      protocol_id: 367
     minecraft:cyan_terracotta:
-      protocol_id: 350
+      protocol_id: 351
     minecraft:cyan_wall_banner:
-      protocol_id: 439
+      protocol_id: 440
     minecraft:cyan_wool:
       protocol_id: 111
     minecraft:damaged_anvil:
-      protocol_id: 326
+      protocol_id: 327
     minecraft:dandelion:
       protocol_id: 119
     minecraft:dark_oak_button:
-      protocol_id: 311
+      protocol_id: 312
     minecraft:dark_oak_door:
-      protocol_id: 487
+      protocol_id: 488
     minecraft:dark_oak_fence:
-      protocol_id: 482
+      protocol_id: 483
     minecraft:dark_oak_fence_gate:
-      protocol_id: 477
+      protocol_id: 478
     minecraft:dark_oak_leaves:
       protocol_id: 64
     minecraft:dark_oak_log:
@@ -589,65 +589,65 @@ minecraft:block:
     minecraft:dark_oak_sign:
       protocol_id: 160
     minecraft:dark_oak_slab:
-      protocol_id: 455
+      protocol_id: 456
     minecraft:dark_oak_stairs:
-      protocol_id: 374
+      protocol_id: 375
     minecraft:dark_oak_trapdoor:
-      protocol_id: 226
+      protocol_id: 227
     minecraft:dark_oak_wall_sign:
       protocol_id: 170
     minecraft:dark_oak_wood:
       protocol_id: 52
     minecraft:dark_prismarine:
-      protocol_id: 380
+      protocol_id: 381
     minecraft:dark_prismarine_slab:
-      protocol_id: 386
+      protocol_id: 387
     minecraft:dark_prismarine_stairs:
-      protocol_id: 383
+      protocol_id: 384
     minecraft:daylight_detector:
-      protocol_id: 331
+      protocol_id: 332
     minecraft:dead_brain_coral:
-      protocol_id: 587
-    minecraft:dead_brain_coral_block:
-      protocol_id: 577
-    minecraft:dead_brain_coral_fan:
-      protocol_id: 597
-    minecraft:dead_brain_coral_wall_fan:
-      protocol_id: 607
-    minecraft:dead_bubble_coral:
       protocol_id: 588
-    minecraft:dead_bubble_coral_block:
+    minecraft:dead_brain_coral_block:
       protocol_id: 578
-    minecraft:dead_bubble_coral_fan:
+    minecraft:dead_brain_coral_fan:
       protocol_id: 598
-    minecraft:dead_bubble_coral_wall_fan:
+    minecraft:dead_brain_coral_wall_fan:
       protocol_id: 608
+    minecraft:dead_bubble_coral:
+      protocol_id: 589
+    minecraft:dead_bubble_coral_block:
+      protocol_id: 579
+    minecraft:dead_bubble_coral_fan:
+      protocol_id: 599
+    minecraft:dead_bubble_coral_wall_fan:
+      protocol_id: 609
     minecraft:dead_bush:
       protocol_id: 97
     minecraft:dead_fire_coral:
-      protocol_id: 589
-    minecraft:dead_fire_coral_block:
-      protocol_id: 579
-    minecraft:dead_fire_coral_fan:
-      protocol_id: 599
-    minecraft:dead_fire_coral_wall_fan:
-      protocol_id: 609
-    minecraft:dead_horn_coral:
       protocol_id: 590
-    minecraft:dead_horn_coral_block:
+    minecraft:dead_fire_coral_block:
       protocol_id: 580
-    minecraft:dead_horn_coral_fan:
+    minecraft:dead_fire_coral_fan:
       protocol_id: 600
-    minecraft:dead_horn_coral_wall_fan:
+    minecraft:dead_fire_coral_wall_fan:
       protocol_id: 610
+    minecraft:dead_horn_coral:
+      protocol_id: 591
+    minecraft:dead_horn_coral_block:
+      protocol_id: 581
+    minecraft:dead_horn_coral_fan:
+      protocol_id: 601
+    minecraft:dead_horn_coral_wall_fan:
+      protocol_id: 611
     minecraft:dead_tube_coral:
-      protocol_id: 586
+      protocol_id: 587
     minecraft:dead_tube_coral_block:
-      protocol_id: 576
+      protocol_id: 577
     minecraft:dead_tube_coral_fan:
-      protocol_id: 596
+      protocol_id: 597
     minecraft:dead_tube_coral_wall_fan:
-      protocol_id: 606
+      protocol_id: 607
     minecraft:detector_rail:
       protocol_id: 92
     minecraft:diamond_block:
@@ -657,51 +657,51 @@ minecraft:block:
     minecraft:diorite:
       protocol_id: 4
     minecraft:diorite_slab:
-      protocol_id: 651
+      protocol_id: 652
     minecraft:diorite_stairs:
-      protocol_id: 638
+      protocol_id: 639
     minecraft:diorite_wall:
-      protocol_id: 663
+      protocol_id: 664
     minecraft:dirt:
       protocol_id: 9
     minecraft:dispenser:
       protocol_id: 70
     minecraft:dragon_egg:
-      protocol_id: 263
+      protocol_id: 264
     minecraft:dragon_head:
-      protocol_id: 322
-    minecraft:dragon_wall_head:
       protocol_id: 323
+    minecraft:dragon_wall_head:
+      protocol_id: 324
     minecraft:dried_kelp_block:
-      protocol_id: 574
+      protocol_id: 575
     minecraft:dropper:
-      protocol_id: 340
+      protocol_id: 341
     minecraft:emerald_block:
-      protocol_id: 271
+      protocol_id: 272
     minecraft:emerald_ore:
-      protocol_id: 267
-    minecraft:enchanting_table:
-      protocol_id: 257
-    minecraft:end_gateway:
-      protocol_id: 497
-    minecraft:end_portal:
-      protocol_id: 260
-    minecraft:end_portal_frame:
-      protocol_id: 261
-    minecraft:end_rod:
-      protocol_id: 488
-    minecraft:end_stone:
-      protocol_id: 262
-    minecraft:end_stone_brick_slab:
-      protocol_id: 644
-    minecraft:end_stone_brick_stairs:
-      protocol_id: 630
-    minecraft:end_stone_brick_wall:
-      protocol_id: 662
-    minecraft:end_stone_bricks:
-      protocol_id: 494
-    minecraft:ender_chest:
       protocol_id: 268
+    minecraft:enchanting_table:
+      protocol_id: 258
+    minecraft:end_gateway:
+      protocol_id: 498
+    minecraft:end_portal:
+      protocol_id: 261
+    minecraft:end_portal_frame:
+      protocol_id: 262
+    minecraft:end_rod:
+      protocol_id: 489
+    minecraft:end_stone:
+      protocol_id: 263
+    minecraft:end_stone_brick_slab:
+      protocol_id: 645
+    minecraft:end_stone_brick_stairs:
+      protocol_id: 631
+    minecraft:end_stone_brick_wall:
+      protocol_id: 663
+    minecraft:end_stone_bricks:
+      protocol_id: 495
+    minecraft:ender_chest:
+      protocol_id: 269
     minecraft:farmland:
       protocol_id: 153
     minecraft:fern:
@@ -709,27 +709,27 @@ minecraft:block:
     minecraft:fire:
       protocol_id: 143
     minecraft:fire_coral:
-      protocol_id: 594
+      protocol_id: 595
     minecraft:fire_coral_block:
-      protocol_id: 584
+      protocol_id: 585
     minecraft:fire_coral_fan:
-      protocol_id: 604
+      protocol_id: 605
     minecraft:fire_coral_wall_fan:
-      protocol_id: 614
+      protocol_id: 615
     minecraft:fletching_table:
-      protocol_id: 670
+      protocol_id: 671
     minecraft:flower_pot:
-      protocol_id: 279
+      protocol_id: 280
     minecraft:frosted_ice:
-      protocol_id: 500
+      protocol_id: 501
     minecraft:furnace:
       protocol_id: 154
     minecraft:glass:
       protocol_id: 67
     minecraft:glass_pane:
-      protocol_id: 241
+      protocol_id: 242
     minecraft:glowstone:
-      protocol_id: 199
+      protocol_id: 200
     minecraft:gold_block:
       protocol_id: 134
     minecraft:gold_ore:
@@ -737,103 +737,103 @@ minecraft:block:
     minecraft:granite:
       protocol_id: 2
     minecraft:granite_slab:
-      protocol_id: 647
+      protocol_id: 648
     minecraft:granite_stairs:
-      protocol_id: 634
+      protocol_id: 635
     minecraft:granite_wall:
-      protocol_id: 656
+      protocol_id: 657
     minecraft:grass:
       protocol_id: 95
     minecraft:grass_block:
       protocol_id: 8
     minecraft:grass_path:
-      protocol_id: 496
+      protocol_id: 497
     minecraft:gravel:
       protocol_id: 30
     minecraft:gray_banner:
-      protocol_id: 421
+      protocol_id: 422
     minecraft:gray_bed:
       protocol_id: 82
     minecraft:gray_carpet:
-      protocol_id: 396
+      protocol_id: 397
     minecraft:gray_concrete:
-      protocol_id: 547
+      protocol_id: 548
     minecraft:gray_concrete_powder:
-      protocol_id: 563
+      protocol_id: 564
     minecraft:gray_glazed_terracotta:
-      protocol_id: 531
+      protocol_id: 532
     minecraft:gray_shulker_box:
-      protocol_id: 515
+      protocol_id: 516
     minecraft:gray_stained_glass:
-      protocol_id: 212
+      protocol_id: 213
     minecraft:gray_stained_glass_pane:
-      protocol_id: 364
+      protocol_id: 365
     minecraft:gray_terracotta:
-      protocol_id: 348
+      protocol_id: 349
     minecraft:gray_wall_banner:
-      protocol_id: 437
+      protocol_id: 438
     minecraft:gray_wool:
       protocol_id: 109
     minecraft:green_banner:
-      protocol_id: 427
+      protocol_id: 428
     minecraft:green_bed:
       protocol_id: 88
     minecraft:green_carpet:
-      protocol_id: 402
+      protocol_id: 403
     minecraft:green_concrete:
-      protocol_id: 553
+      protocol_id: 554
     minecraft:green_concrete_powder:
-      protocol_id: 569
+      protocol_id: 570
     minecraft:green_glazed_terracotta:
-      protocol_id: 537
+      protocol_id: 538
     minecraft:green_shulker_box:
-      protocol_id: 521
+      protocol_id: 522
     minecraft:green_stained_glass:
-      protocol_id: 218
+      protocol_id: 219
     minecraft:green_stained_glass_pane:
-      protocol_id: 370
+      protocol_id: 371
     minecraft:green_terracotta:
-      protocol_id: 354
+      protocol_id: 355
     minecraft:green_wall_banner:
-      protocol_id: 443
+      protocol_id: 444
     minecraft:green_wool:
       protocol_id: 115
     minecraft:grindstone:
-      protocol_id: 671
+      protocol_id: 672
     minecraft:hay_block:
-      protocol_id: 388
+      protocol_id: 389
     minecraft:heavy_weighted_pressure_plate:
-      protocol_id: 329
+      protocol_id: 330
     minecraft:honey_block:
-      protocol_id: 729
-    minecraft:honeycomb_block:
       protocol_id: 730
+    minecraft:honeycomb_block:
+      protocol_id: 731
     minecraft:hopper:
-      protocol_id: 334
+      protocol_id: 335
     minecraft:horn_coral:
-      protocol_id: 595
+      protocol_id: 596
     minecraft:horn_coral_block:
-      protocol_id: 585
+      protocol_id: 586
     minecraft:horn_coral_fan:
-      protocol_id: 605
+      protocol_id: 606
     minecraft:horn_coral_wall_fan:
-      protocol_id: 615
+      protocol_id: 616
     minecraft:ice:
       protocol_id: 185
     minecraft:infested_chiseled_stone_bricks:
-      protocol_id: 236
+      protocol_id: 237
     minecraft:infested_cobblestone:
-      protocol_id: 232
-    minecraft:infested_cracked_stone_bricks:
-      protocol_id: 235
-    minecraft:infested_mossy_stone_bricks:
-      protocol_id: 234
-    minecraft:infested_stone:
-      protocol_id: 231
-    minecraft:infested_stone_bricks:
       protocol_id: 233
+    minecraft:infested_cracked_stone_bricks:
+      protocol_id: 236
+    minecraft:infested_mossy_stone_bricks:
+      protocol_id: 235
+    minecraft:infested_stone:
+      protocol_id: 232
+    minecraft:infested_stone_bricks:
+      protocol_id: 234
     minecraft:iron_bars:
-      protocol_id: 240
+      protocol_id: 241
     minecraft:iron_block:
       protocol_id: 135
     minecraft:iron_door:
@@ -841,21 +841,21 @@ minecraft:block:
     minecraft:iron_ore:
       protocol_id: 32
     minecraft:iron_trapdoor:
-      protocol_id: 377
+      protocol_id: 378
     minecraft:jack_o_lantern:
-      protocol_id: 202
+      protocol_id: 203
     minecraft:jigsaw:
-      protocol_id: 724
+      protocol_id: 725
     minecraft:jukebox:
       protocol_id: 190
     minecraft:jungle_button:
-      protocol_id: 309
+      protocol_id: 310
     minecraft:jungle_door:
-      protocol_id: 485
+      protocol_id: 486
     minecraft:jungle_fence:
-      protocol_id: 480
+      protocol_id: 481
     minecraft:jungle_fence_gate:
-      protocol_id: 475
+      protocol_id: 476
     minecraft:jungle_leaves:
       protocol_id: 62
     minecraft:jungle_log:
@@ -869,205 +869,205 @@ minecraft:block:
     minecraft:jungle_sign:
       protocol_id: 159
     minecraft:jungle_slab:
-      protocol_id: 453
+      protocol_id: 454
     minecraft:jungle_stairs:
-      protocol_id: 274
+      protocol_id: 275
     minecraft:jungle_trapdoor:
-      protocol_id: 224
+      protocol_id: 225
     minecraft:jungle_wall_sign:
       protocol_id: 169
     minecraft:jungle_wood:
       protocol_id: 50
     minecraft:kelp:
-      protocol_id: 572
-    minecraft:kelp_plant:
       protocol_id: 573
+    minecraft:kelp_plant:
+      protocol_id: 574
     minecraft:ladder:
       protocol_id: 162
     minecraft:lantern:
-      protocol_id: 676
+      protocol_id: 677
     minecraft:lapis_block:
       protocol_id: 69
     minecraft:lapis_ore:
       protocol_id: 68
     minecraft:large_fern:
-      protocol_id: 413
+      protocol_id: 414
     minecraft:lava:
       protocol_id: 27
     minecraft:lectern:
-      protocol_id: 672
+      protocol_id: 673
     minecraft:lever:
       protocol_id: 171
     minecraft:light_blue_banner:
-      protocol_id: 417
+      protocol_id: 418
     minecraft:light_blue_bed:
       protocol_id: 78
     minecraft:light_blue_carpet:
-      protocol_id: 392
+      protocol_id: 393
     minecraft:light_blue_concrete:
-      protocol_id: 543
+      protocol_id: 544
     minecraft:light_blue_concrete_powder:
-      protocol_id: 559
+      protocol_id: 560
     minecraft:light_blue_glazed_terracotta:
-      protocol_id: 527
+      protocol_id: 528
     minecraft:light_blue_shulker_box:
-      protocol_id: 511
+      protocol_id: 512
     minecraft:light_blue_stained_glass:
-      protocol_id: 208
+      protocol_id: 209
     minecraft:light_blue_stained_glass_pane:
-      protocol_id: 360
+      protocol_id: 361
     minecraft:light_blue_terracotta:
-      protocol_id: 344
+      protocol_id: 345
     minecraft:light_blue_wall_banner:
-      protocol_id: 433
+      protocol_id: 434
     minecraft:light_blue_wool:
       protocol_id: 105
     minecraft:light_gray_banner:
-      protocol_id: 422
+      protocol_id: 423
     minecraft:light_gray_bed:
       protocol_id: 83
     minecraft:light_gray_carpet:
-      protocol_id: 397
+      protocol_id: 398
     minecraft:light_gray_concrete:
-      protocol_id: 548
+      protocol_id: 549
     minecraft:light_gray_concrete_powder:
-      protocol_id: 564
+      protocol_id: 565
     minecraft:light_gray_glazed_terracotta:
-      protocol_id: 532
+      protocol_id: 533
     minecraft:light_gray_shulker_box:
-      protocol_id: 516
+      protocol_id: 517
     minecraft:light_gray_stained_glass:
-      protocol_id: 213
+      protocol_id: 214
     minecraft:light_gray_stained_glass_pane:
-      protocol_id: 365
+      protocol_id: 366
     minecraft:light_gray_terracotta:
-      protocol_id: 349
+      protocol_id: 350
     minecraft:light_gray_wall_banner:
-      protocol_id: 438
+      protocol_id: 439
     minecraft:light_gray_wool:
       protocol_id: 110
     minecraft:light_weighted_pressure_plate:
-      protocol_id: 328
+      protocol_id: 329
     minecraft:lilac:
-      protocol_id: 409
+      protocol_id: 410
     minecraft:lily_of_the_valley:
       protocol_id: 131
     minecraft:lily_pad:
-      protocol_id: 252
+      protocol_id: 253
     minecraft:lime_banner:
-      protocol_id: 419
+      protocol_id: 420
     minecraft:lime_bed:
       protocol_id: 80
     minecraft:lime_carpet:
-      protocol_id: 394
+      protocol_id: 395
     minecraft:lime_concrete:
-      protocol_id: 545
+      protocol_id: 546
     minecraft:lime_concrete_powder:
-      protocol_id: 561
+      protocol_id: 562
     minecraft:lime_glazed_terracotta:
-      protocol_id: 529
+      protocol_id: 530
     minecraft:lime_shulker_box:
-      protocol_id: 513
+      protocol_id: 514
     minecraft:lime_stained_glass:
-      protocol_id: 210
+      protocol_id: 211
     minecraft:lime_stained_glass_pane:
-      protocol_id: 362
+      protocol_id: 363
     minecraft:lime_terracotta:
-      protocol_id: 346
+      protocol_id: 347
     minecraft:lime_wall_banner:
-      protocol_id: 435
+      protocol_id: 436
     minecraft:lime_wool:
       protocol_id: 107
     minecraft:loom:
-      protocol_id: 665
+      protocol_id: 666
     minecraft:magenta_banner:
-      protocol_id: 416
+      protocol_id: 417
     minecraft:magenta_bed:
       protocol_id: 77
     minecraft:magenta_carpet:
-      protocol_id: 391
+      protocol_id: 392
     minecraft:magenta_concrete:
-      protocol_id: 542
+      protocol_id: 543
     minecraft:magenta_concrete_powder:
-      protocol_id: 558
+      protocol_id: 559
     minecraft:magenta_glazed_terracotta:
-      protocol_id: 526
+      protocol_id: 527
     minecraft:magenta_shulker_box:
-      protocol_id: 510
+      protocol_id: 511
     minecraft:magenta_stained_glass:
-      protocol_id: 207
+      protocol_id: 208
     minecraft:magenta_stained_glass_pane:
-      protocol_id: 359
+      protocol_id: 360
     minecraft:magenta_terracotta:
-      protocol_id: 343
+      protocol_id: 344
     minecraft:magenta_wall_banner:
-      protocol_id: 432
+      protocol_id: 433
     minecraft:magenta_wool:
       protocol_id: 104
     minecraft:magma_block:
-      protocol_id: 501
+      protocol_id: 502
     minecraft:melon:
-      protocol_id: 242
+      protocol_id: 243
     minecraft:melon_stem:
-      protocol_id: 246
+      protocol_id: 247
     minecraft:mossy_cobblestone:
       protocol_id: 139
     minecraft:mossy_cobblestone_slab:
-      protocol_id: 643
+      protocol_id: 644
     minecraft:mossy_cobblestone_stairs:
-      protocol_id: 629
+      protocol_id: 630
     minecraft:mossy_cobblestone_wall:
-      protocol_id: 278
+      protocol_id: 279
     minecraft:mossy_stone_brick_slab:
-      protocol_id: 641
+      protocol_id: 642
     minecraft:mossy_stone_brick_stairs:
-      protocol_id: 627
+      protocol_id: 628
     minecraft:mossy_stone_brick_wall:
-      protocol_id: 655
+      protocol_id: 656
     minecraft:mossy_stone_bricks:
-      protocol_id: 228
+      protocol_id: 229
     minecraft:moving_piston:
       protocol_id: 118
     minecraft:mushroom_stem:
-      protocol_id: 239
+      protocol_id: 240
     minecraft:mycelium:
-      protocol_id: 251
+      protocol_id: 252
     minecraft:nether_brick_fence:
-      protocol_id: 254
-    minecraft:nether_brick_slab:
-      protocol_id: 464
-    minecraft:nether_brick_stairs:
       protocol_id: 255
+    minecraft:nether_brick_slab:
+      protocol_id: 465
+    minecraft:nether_brick_stairs:
+      protocol_id: 256
     minecraft:nether_brick_wall:
-      protocol_id: 658
+      protocol_id: 659
     minecraft:nether_bricks:
-      protocol_id: 253
+      protocol_id: 254
     minecraft:nether_gold_ore:
       protocol_id: 34
     minecraft:nether_portal:
-      protocol_id: 200
+      protocol_id: 201
     minecraft:nether_quartz_ore:
-      protocol_id: 333
+      protocol_id: 334
     minecraft:nether_sprouts:
-      protocol_id: 688
+      protocol_id: 689
     minecraft:nether_wart:
-      protocol_id: 256
+      protocol_id: 257
     minecraft:nether_wart_block:
-      protocol_id: 502
+      protocol_id: 503
     minecraft:netherite_block:
-      protocol_id: 731
+      protocol_id: 732
     minecraft:netherrack:
       protocol_id: 193
     minecraft:note_block:
       protocol_id: 74
     minecraft:oak_button:
-      protocol_id: 306
+      protocol_id: 307
     minecraft:oak_door:
       protocol_id: 161
     minecraft:oak_fence:
       protocol_id: 191
     minecraft:oak_fence_gate:
-      protocol_id: 248
+      protocol_id: 249
     minecraft:oak_leaves:
       protocol_id: 59
     minecraft:oak_log:
@@ -1081,77 +1081,77 @@ minecraft:block:
     minecraft:oak_sign:
       protocol_id: 155
     minecraft:oak_slab:
-      protocol_id: 450
+      protocol_id: 451
     minecraft:oak_stairs:
       protocol_id: 146
     minecraft:oak_trapdoor:
-      protocol_id: 221
+      protocol_id: 222
     minecraft:oak_wall_sign:
       protocol_id: 165
     minecraft:oak_wood:
       protocol_id: 47
     minecraft:observer:
-      protocol_id: 506
+      protocol_id: 507
     minecraft:obsidian:
       protocol_id: 140
     minecraft:orange_banner:
-      protocol_id: 415
+      protocol_id: 416
     minecraft:orange_bed:
       protocol_id: 76
     minecraft:orange_carpet:
-      protocol_id: 390
+      protocol_id: 391
     minecraft:orange_concrete:
-      protocol_id: 541
+      protocol_id: 542
     minecraft:orange_concrete_powder:
-      protocol_id: 557
+      protocol_id: 558
     minecraft:orange_glazed_terracotta:
-      protocol_id: 525
+      protocol_id: 526
     minecraft:orange_shulker_box:
-      protocol_id: 509
+      protocol_id: 510
     minecraft:orange_stained_glass:
-      protocol_id: 206
+      protocol_id: 207
     minecraft:orange_stained_glass_pane:
-      protocol_id: 358
+      protocol_id: 359
     minecraft:orange_terracotta:
-      protocol_id: 342
+      protocol_id: 343
     minecraft:orange_tulip:
       protocol_id: 125
     minecraft:orange_wall_banner:
-      protocol_id: 431
+      protocol_id: 432
     minecraft:orange_wool:
       protocol_id: 103
     minecraft:oxeye_daisy:
       protocol_id: 128
     minecraft:packed_ice:
-      protocol_id: 407
+      protocol_id: 408
     minecraft:peony:
-      protocol_id: 411
+      protocol_id: 412
     minecraft:petrified_oak_slab:
-      protocol_id: 460
+      protocol_id: 461
     minecraft:pink_banner:
-      protocol_id: 420
+      protocol_id: 421
     minecraft:pink_bed:
       protocol_id: 81
     minecraft:pink_carpet:
-      protocol_id: 395
+      protocol_id: 396
     minecraft:pink_concrete:
-      protocol_id: 546
+      protocol_id: 547
     minecraft:pink_concrete_powder:
-      protocol_id: 562
+      protocol_id: 563
     minecraft:pink_glazed_terracotta:
-      protocol_id: 530
+      protocol_id: 531
     minecraft:pink_shulker_box:
-      protocol_id: 514
+      protocol_id: 515
     minecraft:pink_stained_glass:
-      protocol_id: 211
+      protocol_id: 212
     minecraft:pink_stained_glass_pane:
-      protocol_id: 363
+      protocol_id: 364
     minecraft:pink_terracotta:
-      protocol_id: 347
+      protocol_id: 348
     minecraft:pink_tulip:
       protocol_id: 127
     minecraft:pink_wall_banner:
-      protocol_id: 436
+      protocol_id: 437
     minecraft:pink_wool:
       protocol_id: 108
     minecraft:piston:
@@ -1159,205 +1159,207 @@ minecraft:block:
     minecraft:piston_head:
       protocol_id: 101
     minecraft:player_head:
-      protocol_id: 318
-    minecraft:player_wall_head:
       protocol_id: 319
+    minecraft:player_wall_head:
+      protocol_id: 320
     minecraft:podzol:
       protocol_id: 11
     minecraft:polished_andesite:
       protocol_id: 7
     minecraft:polished_andesite_slab:
-      protocol_id: 650
+      protocol_id: 651
     minecraft:polished_andesite_stairs:
-      protocol_id: 637
+      protocol_id: 638
+    minecraft:polished_basalt:
+      protocol_id: 197
     minecraft:polished_diorite:
       protocol_id: 5
     minecraft:polished_diorite_slab:
-      protocol_id: 642
+      protocol_id: 643
     minecraft:polished_diorite_stairs:
-      protocol_id: 628
+      protocol_id: 629
     minecraft:polished_granite:
       protocol_id: 3
     minecraft:polished_granite_slab:
-      protocol_id: 639
+      protocol_id: 640
     minecraft:polished_granite_stairs:
-      protocol_id: 625
+      protocol_id: 626
     minecraft:poppy:
       protocol_id: 120
     minecraft:potatoes:
-      protocol_id: 305
+      protocol_id: 306
     minecraft:potted_acacia_sapling:
-      protocol_id: 284
-    minecraft:potted_allium:
-      protocol_id: 290
-    minecraft:potted_azure_bluet:
-      protocol_id: 291
-    minecraft:potted_bamboo:
-      protocol_id: 621
-    minecraft:potted_birch_sapling:
-      protocol_id: 282
-    minecraft:potted_blue_orchid:
-      protocol_id: 289
-    minecraft:potted_brown_mushroom:
-      protocol_id: 301
-    minecraft:potted_cactus:
-      protocol_id: 303
-    minecraft:potted_cornflower:
-      protocol_id: 297
-    minecraft:potted_crimson_fungus:
-      protocol_id: 734
-    minecraft:potted_crimson_roots:
-      protocol_id: 736
-    minecraft:potted_dandelion:
-      protocol_id: 287
-    minecraft:potted_dark_oak_sapling:
       protocol_id: 285
-    minecraft:potted_dead_bush:
-      protocol_id: 302
-    minecraft:potted_fern:
-      protocol_id: 286
-    minecraft:potted_jungle_sapling:
-      protocol_id: 283
-    minecraft:potted_lily_of_the_valley:
-      protocol_id: 298
-    minecraft:potted_oak_sapling:
-      protocol_id: 280
-    minecraft:potted_orange_tulip:
-      protocol_id: 293
-    minecraft:potted_oxeye_daisy:
-      protocol_id: 296
-    minecraft:potted_pink_tulip:
-      protocol_id: 295
-    minecraft:potted_poppy:
-      protocol_id: 288
-    minecraft:potted_red_mushroom:
-      protocol_id: 300
-    minecraft:potted_red_tulip:
+    minecraft:potted_allium:
+      protocol_id: 291
+    minecraft:potted_azure_bluet:
       protocol_id: 292
-    minecraft:potted_spruce_sapling:
-      protocol_id: 281
-    minecraft:potted_warped_fungus:
-      protocol_id: 735
-    minecraft:potted_warped_roots:
-      protocol_id: 737
-    minecraft:potted_white_tulip:
-      protocol_id: 294
-    minecraft:potted_wither_rose:
+    minecraft:potted_bamboo:
+      protocol_id: 622
+    minecraft:potted_birch_sapling:
+      protocol_id: 283
+    minecraft:potted_blue_orchid:
+      protocol_id: 290
+    minecraft:potted_brown_mushroom:
+      protocol_id: 302
+    minecraft:potted_cactus:
+      protocol_id: 304
+    minecraft:potted_cornflower:
+      protocol_id: 298
+    minecraft:potted_crimson_fungus:
+      protocol_id: 736
+    minecraft:potted_crimson_roots:
+      protocol_id: 738
+    minecraft:potted_dandelion:
+      protocol_id: 288
+    minecraft:potted_dark_oak_sapling:
+      protocol_id: 286
+    minecraft:potted_dead_bush:
+      protocol_id: 303
+    minecraft:potted_fern:
+      protocol_id: 287
+    minecraft:potted_jungle_sapling:
+      protocol_id: 284
+    minecraft:potted_lily_of_the_valley:
       protocol_id: 299
+    minecraft:potted_oak_sapling:
+      protocol_id: 281
+    minecraft:potted_orange_tulip:
+      protocol_id: 294
+    minecraft:potted_oxeye_daisy:
+      protocol_id: 297
+    minecraft:potted_pink_tulip:
+      protocol_id: 296
+    minecraft:potted_poppy:
+      protocol_id: 289
+    minecraft:potted_red_mushroom:
+      protocol_id: 301
+    minecraft:potted_red_tulip:
+      protocol_id: 293
+    minecraft:potted_spruce_sapling:
+      protocol_id: 282
+    minecraft:potted_warped_fungus:
+      protocol_id: 737
+    minecraft:potted_warped_roots:
+      protocol_id: 739
+    minecraft:potted_white_tulip:
+      protocol_id: 295
+    minecraft:potted_wither_rose:
+      protocol_id: 300
     minecraft:powered_rail:
       protocol_id: 91
     minecraft:prismarine:
-      protocol_id: 378
-    minecraft:prismarine_brick_slab:
-      protocol_id: 385
-    minecraft:prismarine_brick_stairs:
-      protocol_id: 382
-    minecraft:prismarine_bricks:
       protocol_id: 379
+    minecraft:prismarine_brick_slab:
+      protocol_id: 386
+    minecraft:prismarine_brick_stairs:
+      protocol_id: 383
+    minecraft:prismarine_bricks:
+      protocol_id: 380
     minecraft:prismarine_slab:
-      protocol_id: 384
+      protocol_id: 385
     minecraft:prismarine_stairs:
-      protocol_id: 381
+      protocol_id: 382
     minecraft:prismarine_wall:
-      protocol_id: 653
+      protocol_id: 654
     minecraft:pumpkin:
       protocol_id: 192
     minecraft:pumpkin_stem:
-      protocol_id: 245
+      protocol_id: 246
     minecraft:purple_banner:
-      protocol_id: 424
+      protocol_id: 425
     minecraft:purple_bed:
       protocol_id: 85
     minecraft:purple_carpet:
-      protocol_id: 399
+      protocol_id: 400
     minecraft:purple_concrete:
-      protocol_id: 550
+      protocol_id: 551
     minecraft:purple_concrete_powder:
-      protocol_id: 566
+      protocol_id: 567
     minecraft:purple_glazed_terracotta:
-      protocol_id: 534
+      protocol_id: 535
     minecraft:purple_shulker_box:
-      protocol_id: 518
+      protocol_id: 519
     minecraft:purple_stained_glass:
-      protocol_id: 215
+      protocol_id: 216
     minecraft:purple_stained_glass_pane:
-      protocol_id: 367
+      protocol_id: 368
     minecraft:purple_terracotta:
-      protocol_id: 351
+      protocol_id: 352
     minecraft:purple_wall_banner:
-      protocol_id: 440
+      protocol_id: 441
     minecraft:purple_wool:
       protocol_id: 112
     minecraft:purpur_block:
-      protocol_id: 491
-    minecraft:purpur_pillar:
       protocol_id: 492
-    minecraft:purpur_slab:
-      protocol_id: 468
-    minecraft:purpur_stairs:
+    minecraft:purpur_pillar:
       protocol_id: 493
+    minecraft:purpur_slab:
+      protocol_id: 469
+    minecraft:purpur_stairs:
+      protocol_id: 494
     minecraft:quartz_block:
-      protocol_id: 335
+      protocol_id: 336
     minecraft:quartz_pillar:
-      protocol_id: 337
-    minecraft:quartz_slab:
-      protocol_id: 465
-    minecraft:quartz_stairs:
       protocol_id: 338
+    minecraft:quartz_slab:
+      protocol_id: 466
+    minecraft:quartz_stairs:
+      protocol_id: 339
     minecraft:rail:
       protocol_id: 163
     minecraft:red_banner:
-      protocol_id: 428
+      protocol_id: 429
     minecraft:red_bed:
       protocol_id: 89
     minecraft:red_carpet:
-      protocol_id: 403
+      protocol_id: 404
     minecraft:red_concrete:
-      protocol_id: 554
+      protocol_id: 555
     minecraft:red_concrete_powder:
-      protocol_id: 570
+      protocol_id: 571
     minecraft:red_glazed_terracotta:
-      protocol_id: 538
+      protocol_id: 539
     minecraft:red_mushroom:
       protocol_id: 133
     minecraft:red_mushroom_block:
-      protocol_id: 238
+      protocol_id: 239
     minecraft:red_nether_brick_slab:
-      protocol_id: 649
+      protocol_id: 650
     minecraft:red_nether_brick_stairs:
-      protocol_id: 636
+      protocol_id: 637
     minecraft:red_nether_brick_wall:
-      protocol_id: 660
+      protocol_id: 661
     minecraft:red_nether_bricks:
-      protocol_id: 503
+      protocol_id: 504
     minecraft:red_sand:
       protocol_id: 29
     minecraft:red_sandstone:
-      protocol_id: 446
+      protocol_id: 447
     minecraft:red_sandstone_slab:
-      protocol_id: 466
+      protocol_id: 467
     minecraft:red_sandstone_stairs:
-      protocol_id: 449
+      protocol_id: 450
     minecraft:red_sandstone_wall:
-      protocol_id: 654
+      protocol_id: 655
     minecraft:red_shulker_box:
-      protocol_id: 522
+      protocol_id: 523
     minecraft:red_stained_glass:
-      protocol_id: 219
+      protocol_id: 220
     minecraft:red_stained_glass_pane:
-      protocol_id: 371
+      protocol_id: 372
     minecraft:red_terracotta:
-      protocol_id: 355
+      protocol_id: 356
     minecraft:red_tulip:
       protocol_id: 124
     minecraft:red_wall_banner:
-      protocol_id: 444
+      protocol_id: 445
     minecraft:red_wool:
       protocol_id: 116
     minecraft:redstone_block:
-      protocol_id: 332
+      protocol_id: 333
     minecraft:redstone_lamp:
-      protocol_id: 264
+      protocol_id: 265
     minecraft:redstone_ore:
       protocol_id: 180
     minecraft:redstone_torch:
@@ -1367,65 +1369,67 @@ minecraft:block:
     minecraft:redstone_wire:
       protocol_id: 148
     minecraft:repeater:
-      protocol_id: 204
+      protocol_id: 205
     minecraft:repeating_command_block:
-      protocol_id: 498
+      protocol_id: 499
+    minecraft:respawn_anchor:
+      protocol_id: 735
     minecraft:rose_bush:
-      protocol_id: 410
+      protocol_id: 411
     minecraft:sand:
       protocol_id: 28
     minecraft:sandstone:
       protocol_id: 71
     minecraft:sandstone_slab:
-      protocol_id: 458
+      protocol_id: 459
     minecraft:sandstone_stairs:
-      protocol_id: 266
+      protocol_id: 267
     minecraft:sandstone_wall:
-      protocol_id: 661
+      protocol_id: 662
     minecraft:scaffolding:
-      protocol_id: 664
+      protocol_id: 665
     minecraft:sea_lantern:
-      protocol_id: 387
+      protocol_id: 388
     minecraft:sea_pickle:
-      protocol_id: 616
+      protocol_id: 617
     minecraft:seagrass:
       protocol_id: 98
     minecraft:shroomlight:
-      protocol_id: 695
+      protocol_id: 696
     minecraft:shulker_box:
-      protocol_id: 507
+      protocol_id: 508
     minecraft:skeleton_skull:
-      protocol_id: 312
-    minecraft:skeleton_wall_skull:
       protocol_id: 313
+    minecraft:skeleton_wall_skull:
+      protocol_id: 314
     minecraft:slime_block:
-      protocol_id: 375
+      protocol_id: 376
     minecraft:smithing_table:
-      protocol_id: 673
+      protocol_id: 674
     minecraft:smoker:
-      protocol_id: 667
+      protocol_id: 668
     minecraft:smooth_quartz:
-      protocol_id: 471
-    minecraft:smooth_quartz_slab:
-      protocol_id: 646
-    minecraft:smooth_quartz_stairs:
-      protocol_id: 633
-    minecraft:smooth_red_sandstone:
       protocol_id: 472
+    minecraft:smooth_quartz_slab:
+      protocol_id: 647
+    minecraft:smooth_quartz_stairs:
+      protocol_id: 634
+    minecraft:smooth_red_sandstone:
+      protocol_id: 473
     minecraft:smooth_red_sandstone_slab:
-      protocol_id: 640
+      protocol_id: 641
     minecraft:smooth_red_sandstone_stairs:
-      protocol_id: 626
+      protocol_id: 627
     minecraft:smooth_sandstone:
-      protocol_id: 470
+      protocol_id: 471
     minecraft:smooth_sandstone_slab:
-      protocol_id: 645
+      protocol_id: 646
     minecraft:smooth_sandstone_stairs:
-      protocol_id: 632
+      protocol_id: 633
     minecraft:smooth_stone:
-      protocol_id: 469
+      protocol_id: 470
     minecraft:smooth_stone_slab:
-      protocol_id: 457
+      protocol_id: 458
     minecraft:snow:
       protocol_id: 184
     minecraft:snow_block:
@@ -1433,11 +1437,11 @@ minecraft:block:
     minecraft:soul_fire:
       protocol_id: 144
     minecraft:soul_fire_lantern:
-      protocol_id: 677
+      protocol_id: 678
     minecraft:soul_fire_torch:
-      protocol_id: 197
-    minecraft:soul_fire_wall_torch:
       protocol_id: 198
+    minecraft:soul_fire_wall_torch:
+      protocol_id: 199
     minecraft:soul_sand:
       protocol_id: 194
     minecraft:soul_soil:
@@ -1447,13 +1451,13 @@ minecraft:block:
     minecraft:sponge:
       protocol_id: 65
     minecraft:spruce_button:
-      protocol_id: 307
+      protocol_id: 308
     minecraft:spruce_door:
-      protocol_id: 483
+      protocol_id: 484
     minecraft:spruce_fence:
-      protocol_id: 478
+      protocol_id: 479
     minecraft:spruce_fence_gate:
-      protocol_id: 473
+      protocol_id: 474
     minecraft:spruce_leaves:
       protocol_id: 60
     minecraft:spruce_log:
@@ -1467,11 +1471,11 @@ minecraft:block:
     minecraft:spruce_sign:
       protocol_id: 156
     minecraft:spruce_slab:
-      protocol_id: 451
+      protocol_id: 452
     minecraft:spruce_stairs:
-      protocol_id: 272
+      protocol_id: 273
     minecraft:spruce_trapdoor:
-      protocol_id: 222
+      protocol_id: 223
     minecraft:spruce_wall_sign:
       protocol_id: 166
     minecraft:spruce_wood:
@@ -1481,23 +1485,23 @@ minecraft:block:
     minecraft:stone:
       protocol_id: 1
     minecraft:stone_brick_slab:
-      protocol_id: 463
+      protocol_id: 464
     minecraft:stone_brick_stairs:
-      protocol_id: 250
+      protocol_id: 251
     minecraft:stone_brick_wall:
-      protocol_id: 657
+      protocol_id: 658
     minecraft:stone_bricks:
-      protocol_id: 227
+      protocol_id: 228
     minecraft:stone_button:
       protocol_id: 183
     minecraft:stone_pressure_plate:
       protocol_id: 172
     minecraft:stone_slab:
-      protocol_id: 456
+      protocol_id: 457
     minecraft:stone_stairs:
-      protocol_id: 631
+      protocol_id: 632
     minecraft:stonecutter:
-      protocol_id: 674
+      protocol_id: 675
     minecraft:stripped_acacia_log:
       protocol_id: 44
     minecraft:stripped_acacia_wood:
@@ -1507,9 +1511,9 @@ minecraft:block:
     minecraft:stripped_birch_wood:
       protocol_id: 55
     minecraft:stripped_crimson_hyphae:
-      protocol_id: 692
+      protocol_id: 693
     minecraft:stripped_crimson_stem:
-      protocol_id: 690
+      protocol_id: 691
     minecraft:stripped_dark_oak_log:
       protocol_id: 45
     minecraft:stripped_dark_oak_wood:
@@ -1527,161 +1531,161 @@ minecraft:block:
     minecraft:stripped_spruce_wood:
       protocol_id: 54
     minecraft:stripped_warped_hyphae:
-      protocol_id: 683
+      protocol_id: 684
     minecraft:stripped_warped_stem:
-      protocol_id: 681
+      protocol_id: 682
     minecraft:structure_block:
-      protocol_id: 723
+      protocol_id: 724
     minecraft:structure_void:
-      protocol_id: 505
+      protocol_id: 506
     minecraft:sugar_cane:
       protocol_id: 189
     minecraft:sunflower:
-      protocol_id: 408
+      protocol_id: 409
     minecraft:sweet_berry_bush:
-      protocol_id: 679
+      protocol_id: 680
     minecraft:tall_grass:
-      protocol_id: 412
+      protocol_id: 413
     minecraft:tall_seagrass:
       protocol_id: 99
     minecraft:target:
-      protocol_id: 726
+      protocol_id: 727
     minecraft:terracotta:
-      protocol_id: 405
+      protocol_id: 406
     minecraft:tnt:
       protocol_id: 137
     minecraft:torch:
       protocol_id: 141
     minecraft:trapped_chest:
-      protocol_id: 327
+      protocol_id: 328
     minecraft:tripwire:
-      protocol_id: 270
+      protocol_id: 271
     minecraft:tripwire_hook:
-      protocol_id: 269
+      protocol_id: 270
     minecraft:tube_coral:
-      protocol_id: 591
+      protocol_id: 592
     minecraft:tube_coral_block:
-      protocol_id: 581
+      protocol_id: 582
     minecraft:tube_coral_fan:
-      protocol_id: 601
+      protocol_id: 602
     minecraft:tube_coral_wall_fan:
-      protocol_id: 611
+      protocol_id: 612
     minecraft:turtle_egg:
-      protocol_id: 575
+      protocol_id: 576
     minecraft:twisting_vines:
-      protocol_id: 698
-    minecraft:twisting_vines_plant:
       protocol_id: 699
+    minecraft:twisting_vines_plant:
+      protocol_id: 700
     minecraft:vine:
-      protocol_id: 247
+      protocol_id: 248
     minecraft:void_air:
-      protocol_id: 622
+      protocol_id: 623
     minecraft:wall_torch:
       protocol_id: 142
     minecraft:warped_button:
-      protocol_id: 716
+      protocol_id: 717
     minecraft:warped_door:
-      protocol_id: 718
+      protocol_id: 719
     minecraft:warped_fence:
-      protocol_id: 708
+      protocol_id: 709
     minecraft:warped_fence_gate:
-      protocol_id: 712
+      protocol_id: 713
     minecraft:warped_fungus:
-      protocol_id: 685
-    minecraft:warped_hyphae:
-      protocol_id: 682
-    minecraft:warped_nylium:
-      protocol_id: 684
-    minecraft:warped_planks:
-      protocol_id: 702
-    minecraft:warped_pressure_plate:
-      protocol_id: 706
-    minecraft:warped_roots:
-      protocol_id: 687
-    minecraft:warped_sign:
-      protocol_id: 720
-    minecraft:warped_slab:
-      protocol_id: 704
-    minecraft:warped_stairs:
-      protocol_id: 714
-    minecraft:warped_stem:
-      protocol_id: 680
-    minecraft:warped_trapdoor:
-      protocol_id: 710
-    minecraft:warped_wall_sign:
-      protocol_id: 722
-    minecraft:warped_wart_block:
       protocol_id: 686
+    minecraft:warped_hyphae:
+      protocol_id: 683
+    minecraft:warped_nylium:
+      protocol_id: 685
+    minecraft:warped_planks:
+      protocol_id: 703
+    minecraft:warped_pressure_plate:
+      protocol_id: 707
+    minecraft:warped_roots:
+      protocol_id: 688
+    minecraft:warped_sign:
+      protocol_id: 721
+    minecraft:warped_slab:
+      protocol_id: 705
+    minecraft:warped_stairs:
+      protocol_id: 715
+    minecraft:warped_stem:
+      protocol_id: 681
+    minecraft:warped_trapdoor:
+      protocol_id: 711
+    minecraft:warped_wall_sign:
+      protocol_id: 723
+    minecraft:warped_wart_block:
+      protocol_id: 687
     minecraft:water:
       protocol_id: 26
     minecraft:weeping_vines:
-      protocol_id: 696
-    minecraft:weeping_vines_plant:
       protocol_id: 697
+    minecraft:weeping_vines_plant:
+      protocol_id: 698
     minecraft:wet_sponge:
       protocol_id: 66
     minecraft:wheat:
       protocol_id: 152
     minecraft:white_banner:
-      protocol_id: 414
+      protocol_id: 415
     minecraft:white_bed:
       protocol_id: 75
     minecraft:white_carpet:
-      protocol_id: 389
+      protocol_id: 390
     minecraft:white_concrete:
-      protocol_id: 540
+      protocol_id: 541
     minecraft:white_concrete_powder:
-      protocol_id: 556
+      protocol_id: 557
     minecraft:white_glazed_terracotta:
-      protocol_id: 524
+      protocol_id: 525
     minecraft:white_shulker_box:
-      protocol_id: 508
+      protocol_id: 509
     minecraft:white_stained_glass:
-      protocol_id: 205
+      protocol_id: 206
     minecraft:white_stained_glass_pane:
-      protocol_id: 357
+      protocol_id: 358
     minecraft:white_terracotta:
-      protocol_id: 341
+      protocol_id: 342
     minecraft:white_tulip:
       protocol_id: 126
     minecraft:white_wall_banner:
-      protocol_id: 430
+      protocol_id: 431
     minecraft:white_wool:
       protocol_id: 102
     minecraft:wither_rose:
       protocol_id: 130
     minecraft:wither_skeleton_skull:
-      protocol_id: 314
-    minecraft:wither_skeleton_wall_skull:
       protocol_id: 315
+    minecraft:wither_skeleton_wall_skull:
+      protocol_id: 316
     minecraft:yellow_banner:
-      protocol_id: 418
+      protocol_id: 419
     minecraft:yellow_bed:
       protocol_id: 79
     minecraft:yellow_carpet:
-      protocol_id: 393
+      protocol_id: 394
     minecraft:yellow_concrete:
-      protocol_id: 544
+      protocol_id: 545
     minecraft:yellow_concrete_powder:
-      protocol_id: 560
+      protocol_id: 561
     minecraft:yellow_glazed_terracotta:
-      protocol_id: 528
+      protocol_id: 529
     minecraft:yellow_shulker_box:
-      protocol_id: 512
+      protocol_id: 513
     minecraft:yellow_stained_glass:
-      protocol_id: 209
+      protocol_id: 210
     minecraft:yellow_stained_glass_pane:
-      protocol_id: 361
+      protocol_id: 362
     minecraft:yellow_terracotta:
-      protocol_id: 345
+      protocol_id: 346
     minecraft:yellow_wall_banner:
-      protocol_id: 434
+      protocol_id: 435
     minecraft:yellow_wool:
       protocol_id: 106
     minecraft:zombie_head:
-      protocol_id: 316
-    minecraft:zombie_wall_head:
       protocol_id: 317
+    minecraft:zombie_wall_head:
+      protocol_id: 318
   protocol_id: 3
 minecraft:block_entity_type:
   entries:
@@ -2534,15 +2538,15 @@ minecraft:item:
   default: minecraft:air
   entries:
     minecraft:acacia_boat:
-      protocol_id: 886
+      protocol_id: 887
     minecraft:acacia_button:
-      protocol_id: 298
+      protocol_id: 299
     minecraft:acacia_door:
-      protocol_id: 549
+      protocol_id: 550
     minecraft:acacia_fence:
       protocol_id: 209
     minecraft:acacia_fence_gate:
-      protocol_id: 251
+      protocol_id: 252
     minecraft:acacia_leaves:
       protocol_id: 73
     minecraft:acacia_log:
@@ -2554,83 +2558,83 @@ minecraft:item:
     minecraft:acacia_sapling:
       protocol_id: 27
     minecraft:acacia_sign:
-      protocol_id: 641
+      protocol_id: 642
     minecraft:acacia_slab:
       protocol_id: 139
     minecraft:acacia_stairs:
-      protocol_id: 356
+      protocol_id: 357
     minecraft:acacia_trapdoor:
-      protocol_id: 226
+      protocol_id: 227
     minecraft:acacia_wood:
       protocol_id: 65
     minecraft:activator_rail:
-      protocol_id: 316
+      protocol_id: 317
     minecraft:air:
       protocol_id: 0
     minecraft:allium:
       protocol_id: 114
     minecraft:ancient_debris:
-      protocol_id: 940
+      protocol_id: 941
     minecraft:andesite:
       protocol_id: 6
     minecraft:andesite_slab:
-      protocol_id: 539
+      protocol_id: 540
     minecraft:andesite_stairs:
-      protocol_id: 526
+      protocol_id: 527
     minecraft:andesite_wall:
-      protocol_id: 289
+      protocol_id: 290
     minecraft:anvil:
-      protocol_id: 302
+      protocol_id: 303
     minecraft:apple:
-      protocol_id: 563
+      protocol_id: 564
     minecraft:armor_stand:
-      protocol_id: 844
+      protocol_id: 845
     minecraft:arrow:
-      protocol_id: 565
+      protocol_id: 566
     minecraft:azure_bluet:
       protocol_id: 115
     minecraft:baked_potato:
-      protocol_id: 817
+      protocol_id: 818
     minecraft:bamboo:
-      protocol_id: 664
+      protocol_id: 665
     minecraft:barrel:
-      protocol_id: 918
+      protocol_id: 919
     minecraft:barrier:
-      protocol_id: 334
+      protocol_id: 335
     minecraft:basalt:
       protocol_id: 218
     minecraft:bat_spawn_egg:
-      protocol_id: 747
+      protocol_id: 748
     minecraft:beacon:
-      protocol_id: 279
+      protocol_id: 280
     minecraft:bedrock:
       protocol_id: 29
     minecraft:bee_nest:
-      protocol_id: 934
-    minecraft:bee_spawn_egg:
-      protocol_id: 748
-    minecraft:beef:
-      protocol_id: 727
-    minecraft:beehive:
       protocol_id: 935
+    minecraft:bee_spawn_egg:
+      protocol_id: 749
+    minecraft:beef:
+      protocol_id: 728
+    minecraft:beehive:
+      protocol_id: 936
     minecraft:beetroot:
-      protocol_id: 873
-    minecraft:beetroot_seeds:
       protocol_id: 874
-    minecraft:beetroot_soup:
+    minecraft:beetroot_seeds:
       protocol_id: 875
+    minecraft:beetroot_soup:
+      protocol_id: 876
     minecraft:bell:
-      protocol_id: 927
+      protocol_id: 928
     minecraft:birch_boat:
-      protocol_id: 884
+      protocol_id: 885
     minecraft:birch_button:
-      protocol_id: 296
+      protocol_id: 297
     minecraft:birch_door:
-      protocol_id: 547
+      protocol_id: 548
     minecraft:birch_fence:
       protocol_id: 207
     minecraft:birch_fence_gate:
-      protocol_id: 249
+      protocol_id: 250
     minecraft:birch_leaves:
       protocol_id: 71
     minecraft:birch_log:
@@ -2642,211 +2646,211 @@ minecraft:item:
     minecraft:birch_sapling:
       protocol_id: 25
     minecraft:birch_sign:
-      protocol_id: 639
+      protocol_id: 640
     minecraft:birch_slab:
       protocol_id: 137
     minecraft:birch_stairs:
-      protocol_id: 274
+      protocol_id: 275
     minecraft:birch_trapdoor:
-      protocol_id: 224
+      protocol_id: 225
     minecraft:birch_wood:
       protocol_id: 63
     minecraft:black_banner:
-      protocol_id: 869
+      protocol_id: 870
     minecraft:black_bed:
-      protocol_id: 719
+      protocol_id: 720
     minecraft:black_carpet:
-      protocol_id: 352
+      protocol_id: 353
     minecraft:black_concrete:
-      protocol_id: 466
+      protocol_id: 467
     minecraft:black_concrete_powder:
-      protocol_id: 482
+      protocol_id: 483
     minecraft:black_dye:
-      protocol_id: 699
+      protocol_id: 700
     minecraft:black_glazed_terracotta:
-      protocol_id: 450
+      protocol_id: 451
     minecraft:black_shulker_box:
-      protocol_id: 434
+      protocol_id: 435
     minecraft:black_stained_glass:
-      protocol_id: 381
+      protocol_id: 382
     minecraft:black_stained_glass_pane:
-      protocol_id: 397
+      protocol_id: 398
     minecraft:black_terracotta:
-      protocol_id: 333
+      protocol_id: 334
     minecraft:black_wool:
       protocol_id: 110
     minecraft:blast_furnace:
-      protocol_id: 920
+      protocol_id: 921
     minecraft:blaze_powder:
-      protocol_id: 741
+      protocol_id: 742
     minecraft:blaze_rod:
-      protocol_id: 733
+      protocol_id: 734
     minecraft:blaze_spawn_egg:
-      protocol_id: 749
+      protocol_id: 750
     minecraft:blue_banner:
-      protocol_id: 865
+      protocol_id: 866
     minecraft:blue_bed:
-      protocol_id: 715
+      protocol_id: 716
     minecraft:blue_carpet:
-      protocol_id: 348
+      protocol_id: 349
     minecraft:blue_concrete:
-      protocol_id: 462
+      protocol_id: 463
     minecraft:blue_concrete_powder:
-      protocol_id: 478
+      protocol_id: 479
     minecraft:blue_dye:
-      protocol_id: 697
+      protocol_id: 698
     minecraft:blue_glazed_terracotta:
-      protocol_id: 446
+      protocol_id: 447
     minecraft:blue_ice:
-      protocol_id: 514
+      protocol_id: 515
     minecraft:blue_orchid:
       protocol_id: 113
     minecraft:blue_shulker_box:
-      protocol_id: 430
+      protocol_id: 431
     minecraft:blue_stained_glass:
-      protocol_id: 377
+      protocol_id: 378
     minecraft:blue_stained_glass_pane:
-      protocol_id: 393
+      protocol_id: 394
     minecraft:blue_terracotta:
-      protocol_id: 329
+      protocol_id: 330
     minecraft:blue_wool:
       protocol_id: 106
     minecraft:bone:
-      protocol_id: 701
+      protocol_id: 702
     minecraft:bone_block:
-      protocol_id: 415
+      protocol_id: 416
     minecraft:bone_meal:
-      protocol_id: 696
+      protocol_id: 697
     minecraft:book:
-      protocol_id: 666
+      protocol_id: 667
     minecraft:bookshelf:
       protocol_id: 165
     minecraft:bow:
-      protocol_id: 564
+      protocol_id: 565
     minecraft:bowl:
-      protocol_id: 585
+      protocol_id: 586
     minecraft:brain_coral:
-      protocol_id: 495
+      protocol_id: 496
     minecraft:brain_coral_block:
-      protocol_id: 490
+      protocol_id: 491
     minecraft:brain_coral_fan:
-      protocol_id: 505
+      protocol_id: 506
     minecraft:bread:
-      protocol_id: 606
+      protocol_id: 607
     minecraft:brewing_stand:
-      protocol_id: 743
+      protocol_id: 744
     minecraft:brick:
-      protocol_id: 659
+      protocol_id: 660
     minecraft:brick_slab:
       protocol_id: 149
     minecraft:brick_stairs:
-      protocol_id: 255
+      protocol_id: 256
     minecraft:brick_wall:
-      protocol_id: 282
+      protocol_id: 283
     minecraft:bricks:
       protocol_id: 163
     minecraft:brown_banner:
-      protocol_id: 866
+      protocol_id: 867
     minecraft:brown_bed:
-      protocol_id: 716
+      protocol_id: 717
     minecraft:brown_carpet:
-      protocol_id: 349
+      protocol_id: 350
     minecraft:brown_concrete:
-      protocol_id: 463
+      protocol_id: 464
     minecraft:brown_concrete_powder:
-      protocol_id: 479
+      protocol_id: 480
     minecraft:brown_dye:
-      protocol_id: 698
+      protocol_id: 699
     minecraft:brown_glazed_terracotta:
-      protocol_id: 447
+      protocol_id: 448
     minecraft:brown_mushroom:
       protocol_id: 124
     minecraft:brown_mushroom_block:
-      protocol_id: 240
+      protocol_id: 241
     minecraft:brown_shulker_box:
-      protocol_id: 431
+      protocol_id: 432
     minecraft:brown_stained_glass:
-      protocol_id: 378
+      protocol_id: 379
     minecraft:brown_stained_glass_pane:
-      protocol_id: 394
+      protocol_id: 395
     minecraft:brown_terracotta:
-      protocol_id: 330
+      protocol_id: 331
     minecraft:brown_wool:
       protocol_id: 107
     minecraft:bubble_coral:
-      protocol_id: 496
+      protocol_id: 497
     minecraft:bubble_coral_block:
-      protocol_id: 491
+      protocol_id: 492
     minecraft:bubble_coral_fan:
-      protocol_id: 506
+      protocol_id: 507
     minecraft:bucket:
-      protocol_id: 645
+      protocol_id: 646
     minecraft:cactus:
       protocol_id: 202
     minecraft:cake:
-      protocol_id: 703
+      protocol_id: 704
     minecraft:campfire:
-      protocol_id: 931
+      protocol_id: 932
     minecraft:carrot:
-      protocol_id: 815
+      protocol_id: 816
     minecraft:carrot_on_a_stick:
-      protocol_id: 827
+      protocol_id: 828
     minecraft:cartography_table:
-      protocol_id: 921
+      protocol_id: 922
     minecraft:carved_pumpkin:
       protocol_id: 214
     minecraft:cat_spawn_egg:
-      protocol_id: 750
-    minecraft:cauldron:
-      protocol_id: 744
-    minecraft:cave_spider_spawn_egg:
       protocol_id: 751
+    minecraft:cauldron:
+      protocol_id: 745
+    minecraft:cave_spider_spawn_egg:
+      protocol_id: 752
     minecraft:chain_command_block:
-      protocol_id: 410
+      protocol_id: 411
     minecraft:chainmail_boots:
-      protocol_id: 614
+      protocol_id: 615
     minecraft:chainmail_chestplate:
-      protocol_id: 612
-    minecraft:chainmail_helmet:
-      protocol_id: 611
-    minecraft:chainmail_leggings:
       protocol_id: 613
+    minecraft:chainmail_helmet:
+      protocol_id: 612
+    minecraft:chainmail_leggings:
+      protocol_id: 614
     minecraft:charcoal:
-      protocol_id: 567
+      protocol_id: 568
     minecraft:chest:
       protocol_id: 177
     minecraft:chest_minecart:
-      protocol_id: 668
+      protocol_id: 669
     minecraft:chicken:
-      protocol_id: 729
+      protocol_id: 730
     minecraft:chicken_spawn_egg:
-      protocol_id: 752
+      protocol_id: 753
     minecraft:chipped_anvil:
-      protocol_id: 303
+      protocol_id: 304
     minecraft:chiseled_quartz_block:
-      protocol_id: 312
+      protocol_id: 313
     minecraft:chiseled_red_sandstone:
-      protocol_id: 406
+      protocol_id: 407
     minecraft:chiseled_sandstone:
       protocol_id: 82
     minecraft:chiseled_stone_bricks:
-      protocol_id: 239
+      protocol_id: 240
     minecraft:chorus_flower:
       protocol_id: 171
     minecraft:chorus_fruit:
-      protocol_id: 871
+      protocol_id: 872
     minecraft:chorus_plant:
       protocol_id: 170
     minecraft:clay:
       protocol_id: 203
     minecraft:clay_ball:
-      protocol_id: 660
+      protocol_id: 661
     minecraft:clock:
-      protocol_id: 673
+      protocol_id: 674
     minecraft:coal:
-      protocol_id: 566
+      protocol_id: 567
     minecraft:coal_block:
-      protocol_id: 354
+      protocol_id: 355
     minecraft:coal_ore:
       protocol_id: 35
     minecraft:coarse_dirt:
@@ -2858,71 +2862,71 @@ minecraft:item:
     minecraft:cobblestone_stairs:
       protocol_id: 185
     minecraft:cobblestone_wall:
-      protocol_id: 280
+      protocol_id: 281
     minecraft:cobweb:
       protocol_id: 88
     minecraft:cocoa_beans:
-      protocol_id: 684
+      protocol_id: 685
     minecraft:cod:
-      protocol_id: 675
+      protocol_id: 676
     minecraft:cod_bucket:
-      protocol_id: 657
+      protocol_id: 658
     minecraft:cod_spawn_egg:
-      protocol_id: 753
+      protocol_id: 754
     minecraft:command_block:
-      protocol_id: 278
+      protocol_id: 279
     minecraft:command_block_minecart:
-      protocol_id: 851
+      protocol_id: 852
     minecraft:comparator:
-      protocol_id: 554
+      protocol_id: 555
     minecraft:compass:
-      protocol_id: 671
+      protocol_id: 672
     minecraft:composter:
-      protocol_id: 917
+      protocol_id: 918
     minecraft:conduit:
-      protocol_id: 515
+      protocol_id: 516
     minecraft:cooked_beef:
-      protocol_id: 728
+      protocol_id: 729
     minecraft:cooked_chicken:
-      protocol_id: 730
+      protocol_id: 731
     minecraft:cooked_cod:
-      protocol_id: 679
-    minecraft:cooked_mutton:
-      protocol_id: 853
-    minecraft:cooked_porkchop:
-      protocol_id: 633
-    minecraft:cooked_rabbit:
-      protocol_id: 840
-    minecraft:cooked_salmon:
       protocol_id: 680
+    minecraft:cooked_mutton:
+      protocol_id: 854
+    minecraft:cooked_porkchop:
+      protocol_id: 634
+    minecraft:cooked_rabbit:
+      protocol_id: 841
+    minecraft:cooked_salmon:
+      protocol_id: 681
     minecraft:cookie:
-      protocol_id: 720
+      protocol_id: 721
     minecraft:cornflower:
       protocol_id: 121
     minecraft:cow_spawn_egg:
-      protocol_id: 754
+      protocol_id: 755
     minecraft:cracked_stone_bricks:
-      protocol_id: 238
+      protocol_id: 239
     minecraft:crafting_table:
       protocol_id: 180
     minecraft:creeper_banner_pattern:
-      protocol_id: 913
+      protocol_id: 914
     minecraft:creeper_head:
-      protocol_id: 825
+      protocol_id: 826
     minecraft:creeper_spawn_egg:
-      protocol_id: 755
+      protocol_id: 756
     minecraft:crimson_button:
-      protocol_id: 300
+      protocol_id: 301
     minecraft:crimson_door:
-      protocol_id: 551
+      protocol_id: 552
     minecraft:crimson_fence:
       protocol_id: 211
     minecraft:crimson_fence_gate:
-      protocol_id: 253
+      protocol_id: 254
     minecraft:crimson_fungus:
       protocol_id: 126
     minecraft:crimson_hyphae:
-      protocol_id: 68
+      protocol_id: 67
     minecraft:crimson_nylium:
       protocol_id: 12
     minecraft:crimson_planks:
@@ -2932,21 +2936,21 @@ minecraft:item:
     minecraft:crimson_roots:
       protocol_id: 128
     minecraft:crimson_sign:
-      protocol_id: 643
+      protocol_id: 644
     minecraft:crimson_slab:
       protocol_id: 141
     minecraft:crimson_stairs:
-      protocol_id: 276
+      protocol_id: 277
     minecraft:crimson_stem:
       protocol_id: 43
     minecraft:crimson_trapdoor:
-      protocol_id: 228
+      protocol_id: 229
     minecraft:crossbow:
-      protocol_id: 909
+      protocol_id: 910
     minecraft:crying_obsidian:
-      protocol_id: 944
+      protocol_id: 945
     minecraft:cut_red_sandstone:
-      protocol_id: 407
+      protocol_id: 408
     minecraft:cut_red_sandstone_slab:
       protocol_id: 154
     minecraft:cut_sandstone:
@@ -2954,43 +2958,43 @@ minecraft:item:
     minecraft:cut_sandstone_slab:
       protocol_id: 146
     minecraft:cyan_banner:
-      protocol_id: 863
+      protocol_id: 864
     minecraft:cyan_bed:
-      protocol_id: 713
+      protocol_id: 714
     minecraft:cyan_carpet:
-      protocol_id: 346
+      protocol_id: 347
     minecraft:cyan_concrete:
-      protocol_id: 460
+      protocol_id: 461
     minecraft:cyan_concrete_powder:
-      protocol_id: 476
+      protocol_id: 477
     minecraft:cyan_dye:
-      protocol_id: 687
+      protocol_id: 688
     minecraft:cyan_glazed_terracotta:
-      protocol_id: 444
+      protocol_id: 445
     minecraft:cyan_shulker_box:
-      protocol_id: 428
+      protocol_id: 429
     minecraft:cyan_stained_glass:
-      protocol_id: 375
+      protocol_id: 376
     minecraft:cyan_stained_glass_pane:
-      protocol_id: 391
+      protocol_id: 392
     minecraft:cyan_terracotta:
-      protocol_id: 327
+      protocol_id: 328
     minecraft:cyan_wool:
       protocol_id: 104
     minecraft:damaged_anvil:
-      protocol_id: 304
+      protocol_id: 305
     minecraft:dandelion:
       protocol_id: 111
     minecraft:dark_oak_boat:
-      protocol_id: 887
+      protocol_id: 888
     minecraft:dark_oak_button:
-      protocol_id: 299
+      protocol_id: 300
     minecraft:dark_oak_door:
-      protocol_id: 550
+      protocol_id: 551
     minecraft:dark_oak_fence:
       protocol_id: 210
     minecraft:dark_oak_fence_gate:
-      protocol_id: 252
+      protocol_id: 253
     minecraft:dark_oak_leaves:
       protocol_id: 74
     minecraft:dark_oak_log:
@@ -3002,421 +3006,421 @@ minecraft:item:
     minecraft:dark_oak_sapling:
       protocol_id: 28
     minecraft:dark_oak_sign:
-      protocol_id: 642
+      protocol_id: 643
     minecraft:dark_oak_slab:
       protocol_id: 140
     minecraft:dark_oak_stairs:
-      protocol_id: 357
+      protocol_id: 358
     minecraft:dark_oak_trapdoor:
-      protocol_id: 227
+      protocol_id: 228
     minecraft:dark_oak_wood:
       protocol_id: 66
     minecraft:dark_prismarine:
-      protocol_id: 400
+      protocol_id: 401
     minecraft:dark_prismarine_slab:
       protocol_id: 158
     minecraft:dark_prismarine_stairs:
-      protocol_id: 403
+      protocol_id: 404
     minecraft:daylight_detector:
-      protocol_id: 308
+      protocol_id: 309
     minecraft:dead_brain_coral:
-      protocol_id: 499
-    minecraft:dead_brain_coral_block:
-      protocol_id: 485
-    minecraft:dead_brain_coral_fan:
-      protocol_id: 510
-    minecraft:dead_bubble_coral:
       protocol_id: 500
-    minecraft:dead_bubble_coral_block:
+    minecraft:dead_brain_coral_block:
       protocol_id: 486
-    minecraft:dead_bubble_coral_fan:
+    minecraft:dead_brain_coral_fan:
       protocol_id: 511
+    minecraft:dead_bubble_coral:
+      protocol_id: 501
+    minecraft:dead_bubble_coral_block:
+      protocol_id: 487
+    minecraft:dead_bubble_coral_fan:
+      protocol_id: 512
     minecraft:dead_bush:
       protocol_id: 91
     minecraft:dead_fire_coral:
-      protocol_id: 501
-    minecraft:dead_fire_coral_block:
-      protocol_id: 487
-    minecraft:dead_fire_coral_fan:
-      protocol_id: 512
-    minecraft:dead_horn_coral:
       protocol_id: 502
-    minecraft:dead_horn_coral_block:
+    minecraft:dead_fire_coral_block:
       protocol_id: 488
-    minecraft:dead_horn_coral_fan:
+    minecraft:dead_fire_coral_fan:
       protocol_id: 513
-    minecraft:dead_tube_coral:
+    minecraft:dead_horn_coral:
       protocol_id: 503
+    minecraft:dead_horn_coral_block:
+      protocol_id: 489
+    minecraft:dead_horn_coral_fan:
+      protocol_id: 514
+    minecraft:dead_tube_coral:
+      protocol_id: 504
     minecraft:dead_tube_coral_block:
-      protocol_id: 484
+      protocol_id: 485
     minecraft:dead_tube_coral_fan:
-      protocol_id: 509
+      protocol_id: 510
     minecraft:debug_stick:
-      protocol_id: 892
+      protocol_id: 893
     minecraft:detector_rail:
       protocol_id: 86
     minecraft:diamond:
-      protocol_id: 568
+      protocol_id: 569
     minecraft:diamond_axe:
-      protocol_id: 583
+      protocol_id: 584
     minecraft:diamond_block:
       protocol_id: 179
     minecraft:diamond_boots:
-      protocol_id: 622
+      protocol_id: 623
     minecraft:diamond_chestplate:
-      protocol_id: 620
-    minecraft:diamond_helmet:
-      protocol_id: 619
-    minecraft:diamond_hoe:
-      protocol_id: 601
-    minecraft:diamond_horse_armor:
-      protocol_id: 847
-    minecraft:diamond_leggings:
       protocol_id: 621
+    minecraft:diamond_helmet:
+      protocol_id: 620
+    minecraft:diamond_hoe:
+      protocol_id: 602
+    minecraft:diamond_horse_armor:
+      protocol_id: 848
+    minecraft:diamond_leggings:
+      protocol_id: 622
     minecraft:diamond_ore:
       protocol_id: 178
     minecraft:diamond_pickaxe:
-      protocol_id: 582
+      protocol_id: 583
     minecraft:diamond_shovel:
-      protocol_id: 581
+      protocol_id: 582
     minecraft:diamond_sword:
-      protocol_id: 580
+      protocol_id: 581
     minecraft:diorite:
       protocol_id: 4
     minecraft:diorite_slab:
-      protocol_id: 542
+      protocol_id: 543
     minecraft:diorite_stairs:
-      protocol_id: 529
+      protocol_id: 530
     minecraft:diorite_wall:
-      protocol_id: 293
+      protocol_id: 294
     minecraft:dirt:
       protocol_id: 9
     minecraft:dispenser:
       protocol_id: 80
     minecraft:dolphin_spawn_egg:
-      protocol_id: 756
-    minecraft:donkey_spawn_egg:
       protocol_id: 757
-    minecraft:dragon_breath:
-      protocol_id: 876
-    minecraft:dragon_egg:
-      protocol_id: 266
-    minecraft:dragon_head:
-      protocol_id: 826
-    minecraft:dried_kelp:
-      protocol_id: 724
-    minecraft:dried_kelp_block:
-      protocol_id: 663
-    minecraft:dropper:
-      protocol_id: 317
-    minecraft:drowned_spawn_egg:
+    minecraft:donkey_spawn_egg:
       protocol_id: 758
-    minecraft:egg:
-      protocol_id: 670
-    minecraft:elder_guardian_spawn_egg:
+    minecraft:dragon_breath:
+      protocol_id: 877
+    minecraft:dragon_egg:
+      protocol_id: 267
+    minecraft:dragon_head:
+      protocol_id: 827
+    minecraft:dried_kelp:
+      protocol_id: 725
+    minecraft:dried_kelp_block:
+      protocol_id: 664
+    minecraft:dropper:
+      protocol_id: 318
+    minecraft:drowned_spawn_egg:
       protocol_id: 759
+    minecraft:egg:
+      protocol_id: 671
+    minecraft:elder_guardian_spawn_egg:
+      protocol_id: 760
     minecraft:elytra:
-      protocol_id: 882
+      protocol_id: 883
     minecraft:emerald:
-      protocol_id: 812
+      protocol_id: 813
     minecraft:emerald_block:
-      protocol_id: 272
+      protocol_id: 273
     minecraft:emerald_ore:
-      protocol_id: 269
+      protocol_id: 270
     minecraft:enchanted_book:
-      protocol_id: 832
+      protocol_id: 833
     minecraft:enchanted_golden_apple:
-      protocol_id: 636
+      protocol_id: 637
     minecraft:enchanting_table:
-      protocol_id: 262
-    minecraft:end_crystal:
-      protocol_id: 870
-    minecraft:end_portal_frame:
       protocol_id: 263
+    minecraft:end_crystal:
+      protocol_id: 871
+    minecraft:end_portal_frame:
+      protocol_id: 264
     minecraft:end_rod:
       protocol_id: 169
     minecraft:end_stone:
-      protocol_id: 264
-    minecraft:end_stone_brick_slab:
-      protocol_id: 535
-    minecraft:end_stone_brick_stairs:
-      protocol_id: 521
-    minecraft:end_stone_brick_wall:
-      protocol_id: 292
-    minecraft:end_stone_bricks:
       protocol_id: 265
+    minecraft:end_stone_brick_slab:
+      protocol_id: 536
+    minecraft:end_stone_brick_stairs:
+      protocol_id: 522
+    minecraft:end_stone_brick_wall:
+      protocol_id: 293
+    minecraft:end_stone_bricks:
+      protocol_id: 266
     minecraft:ender_chest:
-      protocol_id: 270
+      protocol_id: 271
     minecraft:ender_eye:
-      protocol_id: 745
+      protocol_id: 746
     minecraft:ender_pearl:
-      protocol_id: 732
+      protocol_id: 733
     minecraft:enderman_spawn_egg:
-      protocol_id: 760
-    minecraft:endermite_spawn_egg:
       protocol_id: 761
-    minecraft:evoker_spawn_egg:
+    minecraft:endermite_spawn_egg:
       protocol_id: 762
+    minecraft:evoker_spawn_egg:
+      protocol_id: 763
     minecraft:experience_bottle:
-      protocol_id: 808
+      protocol_id: 809
     minecraft:farmland:
       protocol_id: 181
     minecraft:feather:
-      protocol_id: 596
+      protocol_id: 597
     minecraft:fermented_spider_eye:
-      protocol_id: 740
+      protocol_id: 741
     minecraft:fern:
       protocol_id: 90
     minecraft:filled_map:
-      protocol_id: 721
+      protocol_id: 722
     minecraft:fire_charge:
-      protocol_id: 809
+      protocol_id: 810
     minecraft:fire_coral:
-      protocol_id: 497
+      protocol_id: 498
     minecraft:fire_coral_block:
-      protocol_id: 492
+      protocol_id: 493
     minecraft:fire_coral_fan:
-      protocol_id: 507
+      protocol_id: 508
     minecraft:firework_rocket:
-      protocol_id: 830
-    minecraft:firework_star:
       protocol_id: 831
+    minecraft:firework_star:
+      protocol_id: 832
     minecraft:fishing_rod:
-      protocol_id: 672
+      protocol_id: 673
     minecraft:fletching_table:
-      protocol_id: 922
+      protocol_id: 923
     minecraft:flint:
-      protocol_id: 631
+      protocol_id: 632
     minecraft:flint_and_steel:
-      protocol_id: 562
+      protocol_id: 563
     minecraft:flower_banner_pattern:
-      protocol_id: 912
+      protocol_id: 913
     minecraft:flower_pot:
-      protocol_id: 814
+      protocol_id: 815
     minecraft:fox_spawn_egg:
-      protocol_id: 763
+      protocol_id: 764
     minecraft:furnace:
       protocol_id: 182
     minecraft:furnace_minecart:
-      protocol_id: 669
+      protocol_id: 670
     minecraft:ghast_spawn_egg:
-      protocol_id: 764
+      protocol_id: 765
     minecraft:ghast_tear:
-      protocol_id: 734
+      protocol_id: 735
     minecraft:glass:
       protocol_id: 77
     minecraft:glass_bottle:
-      protocol_id: 738
+      protocol_id: 739
     minecraft:glass_pane:
-      protocol_id: 244
+      protocol_id: 245
     minecraft:glistering_melon_slice:
-      protocol_id: 746
+      protocol_id: 747
     minecraft:globe_banner_pattern:
-      protocol_id: 916
+      protocol_id: 917
     minecraft:glowstone:
-      protocol_id: 220
+      protocol_id: 221
     minecraft:glowstone_dust:
-      protocol_id: 674
+      protocol_id: 675
     minecraft:gold_block:
       protocol_id: 133
     minecraft:gold_ingot:
-      protocol_id: 570
+      protocol_id: 571
     minecraft:gold_nugget:
-      protocol_id: 735
+      protocol_id: 736
     minecraft:gold_ore:
       protocol_id: 33
     minecraft:golden_apple:
-      protocol_id: 635
+      protocol_id: 636
     minecraft:golden_axe:
-      protocol_id: 590
+      protocol_id: 591
     minecraft:golden_boots:
-      protocol_id: 626
+      protocol_id: 627
     minecraft:golden_carrot:
-      protocol_id: 820
+      protocol_id: 821
     minecraft:golden_chestplate:
-      protocol_id: 624
-    minecraft:golden_helmet:
-      protocol_id: 623
-    minecraft:golden_hoe:
-      protocol_id: 602
-    minecraft:golden_horse_armor:
-      protocol_id: 846
-    minecraft:golden_leggings:
       protocol_id: 625
+    minecraft:golden_helmet:
+      protocol_id: 624
+    minecraft:golden_hoe:
+      protocol_id: 603
+    minecraft:golden_horse_armor:
+      protocol_id: 847
+    minecraft:golden_leggings:
+      protocol_id: 626
     minecraft:golden_pickaxe:
-      protocol_id: 589
+      protocol_id: 590
     minecraft:golden_shovel:
-      protocol_id: 588
+      protocol_id: 589
     minecraft:golden_sword:
-      protocol_id: 587
+      protocol_id: 588
     minecraft:granite:
       protocol_id: 2
     minecraft:granite_slab:
-      protocol_id: 538
+      protocol_id: 539
     minecraft:granite_stairs:
-      protocol_id: 525
+      protocol_id: 526
     minecraft:granite_wall:
-      protocol_id: 286
+      protocol_id: 287
     minecraft:grass:
       protocol_id: 89
     minecraft:grass_block:
       protocol_id: 8
     minecraft:grass_path:
-      protocol_id: 359
+      protocol_id: 360
     minecraft:gravel:
       protocol_id: 32
     minecraft:gray_banner:
-      protocol_id: 861
+      protocol_id: 862
     minecraft:gray_bed:
-      protocol_id: 711
+      protocol_id: 712
     minecraft:gray_carpet:
-      protocol_id: 344
+      protocol_id: 345
     minecraft:gray_concrete:
-      protocol_id: 458
+      protocol_id: 459
     minecraft:gray_concrete_powder:
-      protocol_id: 474
+      protocol_id: 475
     minecraft:gray_dye:
-      protocol_id: 689
+      protocol_id: 690
     minecraft:gray_glazed_terracotta:
-      protocol_id: 442
+      protocol_id: 443
     minecraft:gray_shulker_box:
-      protocol_id: 426
+      protocol_id: 427
     minecraft:gray_stained_glass:
-      protocol_id: 373
+      protocol_id: 374
     minecraft:gray_stained_glass_pane:
-      protocol_id: 389
+      protocol_id: 390
     minecraft:gray_terracotta:
-      protocol_id: 325
+      protocol_id: 326
     minecraft:gray_wool:
       protocol_id: 102
     minecraft:green_banner:
-      protocol_id: 867
+      protocol_id: 868
     minecraft:green_bed:
-      protocol_id: 717
+      protocol_id: 718
     minecraft:green_carpet:
-      protocol_id: 350
+      protocol_id: 351
     minecraft:green_concrete:
-      protocol_id: 464
+      protocol_id: 465
     minecraft:green_concrete_powder:
-      protocol_id: 480
+      protocol_id: 481
     minecraft:green_dye:
-      protocol_id: 683
+      protocol_id: 684
     minecraft:green_glazed_terracotta:
-      protocol_id: 448
+      protocol_id: 449
     minecraft:green_shulker_box:
-      protocol_id: 432
+      protocol_id: 433
     minecraft:green_stained_glass:
-      protocol_id: 379
+      protocol_id: 380
     minecraft:green_stained_glass_pane:
-      protocol_id: 395
+      protocol_id: 396
     minecraft:green_terracotta:
-      protocol_id: 331
+      protocol_id: 332
     minecraft:green_wool:
       protocol_id: 108
     minecraft:grindstone:
-      protocol_id: 923
+      protocol_id: 924
     minecraft:guardian_spawn_egg:
-      protocol_id: 765
-    minecraft:gunpowder:
-      protocol_id: 597
-    minecraft:hay_block:
-      protocol_id: 336
-    minecraft:heart_of_the_sea:
-      protocol_id: 908
-    minecraft:heavy_weighted_pressure_plate:
-      protocol_id: 307
-    minecraft:hoglin_spawn_egg:
       protocol_id: 766
-    minecraft:honey_block:
-      protocol_id: 937
-    minecraft:honey_bottle:
-      protocol_id: 936
-    minecraft:honeycomb:
-      protocol_id: 933
-    minecraft:honeycomb_block:
-      protocol_id: 938
-    minecraft:hopper:
-      protocol_id: 311
-    minecraft:hopper_minecart:
-      protocol_id: 836
-    minecraft:horn_coral:
-      protocol_id: 498
-    minecraft:horn_coral_block:
-      protocol_id: 493
-    minecraft:horn_coral_fan:
-      protocol_id: 508
-    minecraft:horse_spawn_egg:
+    minecraft:gunpowder:
+      protocol_id: 598
+    minecraft:hay_block:
+      protocol_id: 337
+    minecraft:heart_of_the_sea:
+      protocol_id: 909
+    minecraft:heavy_weighted_pressure_plate:
+      protocol_id: 308
+    minecraft:hoglin_spawn_egg:
       protocol_id: 767
-    minecraft:husk_spawn_egg:
+    minecraft:honey_block:
+      protocol_id: 938
+    minecraft:honey_bottle:
+      protocol_id: 937
+    minecraft:honeycomb:
+      protocol_id: 934
+    minecraft:honeycomb_block:
+      protocol_id: 939
+    minecraft:hopper:
+      protocol_id: 312
+    minecraft:hopper_minecart:
+      protocol_id: 837
+    minecraft:horn_coral:
+      protocol_id: 499
+    minecraft:horn_coral_block:
+      protocol_id: 494
+    minecraft:horn_coral_fan:
+      protocol_id: 509
+    minecraft:horse_spawn_egg:
       protocol_id: 768
+    minecraft:husk_spawn_egg:
+      protocol_id: 769
     minecraft:ice:
       protocol_id: 200
     minecraft:infested_chiseled_stone_bricks:
-      protocol_id: 235
+      protocol_id: 236
     minecraft:infested_cobblestone:
-      protocol_id: 231
-    minecraft:infested_cracked_stone_bricks:
-      protocol_id: 234
-    minecraft:infested_mossy_stone_bricks:
-      protocol_id: 233
-    minecraft:infested_stone:
-      protocol_id: 230
-    minecraft:infested_stone_bricks:
       protocol_id: 232
+    minecraft:infested_cracked_stone_bricks:
+      protocol_id: 235
+    minecraft:infested_mossy_stone_bricks:
+      protocol_id: 234
+    minecraft:infested_stone:
+      protocol_id: 231
+    minecraft:infested_stone_bricks:
+      protocol_id: 233
     minecraft:ink_sac:
-      protocol_id: 681
+      protocol_id: 682
     minecraft:iron_axe:
-      protocol_id: 561
+      protocol_id: 562
     minecraft:iron_bars:
-      protocol_id: 243
+      protocol_id: 244
     minecraft:iron_block:
       protocol_id: 134
     minecraft:iron_boots:
-      protocol_id: 618
+      protocol_id: 619
     minecraft:iron_chestplate:
-      protocol_id: 616
-    minecraft:iron_door:
-      protocol_id: 544
-    minecraft:iron_helmet:
-      protocol_id: 615
-    minecraft:iron_hoe:
-      protocol_id: 600
-    minecraft:iron_horse_armor:
-      protocol_id: 845
-    minecraft:iron_ingot:
-      protocol_id: 569
-    minecraft:iron_leggings:
       protocol_id: 617
+    minecraft:iron_door:
+      protocol_id: 545
+    minecraft:iron_helmet:
+      protocol_id: 616
+    minecraft:iron_hoe:
+      protocol_id: 601
+    minecraft:iron_horse_armor:
+      protocol_id: 846
+    minecraft:iron_ingot:
+      protocol_id: 570
+    minecraft:iron_leggings:
+      protocol_id: 618
     minecraft:iron_nugget:
-      protocol_id: 890
+      protocol_id: 891
     minecraft:iron_ore:
       protocol_id: 34
     minecraft:iron_pickaxe:
-      protocol_id: 560
+      protocol_id: 561
     minecraft:iron_shovel:
-      protocol_id: 559
+      protocol_id: 560
     minecraft:iron_sword:
-      protocol_id: 571
+      protocol_id: 572
     minecraft:iron_trapdoor:
-      protocol_id: 335
+      protocol_id: 336
     minecraft:item_frame:
-      protocol_id: 813
+      protocol_id: 814
     minecraft:jack_o_lantern:
-      protocol_id: 221
+      protocol_id: 222
     minecraft:jigsaw:
-      protocol_id: 556
+      protocol_id: 557
     minecraft:jukebox:
       protocol_id: 204
     minecraft:jungle_boat:
-      protocol_id: 885
+      protocol_id: 886
     minecraft:jungle_button:
-      protocol_id: 297
+      protocol_id: 298
     minecraft:jungle_door:
-      protocol_id: 548
+      protocol_id: 549
     minecraft:jungle_fence:
       protocol_id: 208
     minecraft:jungle_fence_gate:
-      protocol_id: 250
+      protocol_id: 251
     minecraft:jungle_leaves:
       protocol_id: 72
     minecraft:jungle_log:
@@ -3428,299 +3432,299 @@ minecraft:item:
     minecraft:jungle_sapling:
       protocol_id: 26
     minecraft:jungle_sign:
-      protocol_id: 640
+      protocol_id: 641
     minecraft:jungle_slab:
       protocol_id: 138
     minecraft:jungle_stairs:
-      protocol_id: 275
+      protocol_id: 276
     minecraft:jungle_trapdoor:
-      protocol_id: 225
+      protocol_id: 226
     minecraft:jungle_wood:
       protocol_id: 64
     minecraft:kelp:
-      protocol_id: 662
+      protocol_id: 663
     minecraft:knowledge_book:
-      protocol_id: 891
+      protocol_id: 892
     minecraft:ladder:
       protocol_id: 183
     minecraft:lantern:
-      protocol_id: 928
+      protocol_id: 929
     minecraft:lapis_block:
       protocol_id: 79
     minecraft:lapis_lazuli:
-      protocol_id: 685
+      protocol_id: 686
     minecraft:lapis_ore:
       protocol_id: 78
     minecraft:large_fern:
-      protocol_id: 365
+      protocol_id: 366
     minecraft:lava_bucket:
-      protocol_id: 647
+      protocol_id: 648
     minecraft:lead:
-      protocol_id: 849
+      protocol_id: 850
     minecraft:leather:
-      protocol_id: 653
+      protocol_id: 654
     minecraft:leather_boots:
-      protocol_id: 610
+      protocol_id: 611
     minecraft:leather_chestplate:
-      protocol_id: 608
-    minecraft:leather_helmet:
-      protocol_id: 607
-    minecraft:leather_horse_armor:
-      protocol_id: 848
-    minecraft:leather_leggings:
       protocol_id: 609
+    minecraft:leather_helmet:
+      protocol_id: 608
+    minecraft:leather_horse_armor:
+      protocol_id: 849
+    minecraft:leather_leggings:
+      protocol_id: 610
     minecraft:lectern:
-      protocol_id: 924
+      protocol_id: 925
     minecraft:lever:
       protocol_id: 186
     minecraft:light_blue_banner:
-      protocol_id: 857
+      protocol_id: 858
     minecraft:light_blue_bed:
-      protocol_id: 707
+      protocol_id: 708
     minecraft:light_blue_carpet:
-      protocol_id: 340
+      protocol_id: 341
     minecraft:light_blue_concrete:
-      protocol_id: 454
+      protocol_id: 455
     minecraft:light_blue_concrete_powder:
-      protocol_id: 470
+      protocol_id: 471
     minecraft:light_blue_dye:
-      protocol_id: 693
+      protocol_id: 694
     minecraft:light_blue_glazed_terracotta:
-      protocol_id: 438
+      protocol_id: 439
     minecraft:light_blue_shulker_box:
-      protocol_id: 422
+      protocol_id: 423
     minecraft:light_blue_stained_glass:
-      protocol_id: 369
+      protocol_id: 370
     minecraft:light_blue_stained_glass_pane:
-      protocol_id: 385
+      protocol_id: 386
     minecraft:light_blue_terracotta:
-      protocol_id: 321
+      protocol_id: 322
     minecraft:light_blue_wool:
       protocol_id: 98
     minecraft:light_gray_banner:
-      protocol_id: 862
+      protocol_id: 863
     minecraft:light_gray_bed:
-      protocol_id: 712
+      protocol_id: 713
     minecraft:light_gray_carpet:
-      protocol_id: 345
+      protocol_id: 346
     minecraft:light_gray_concrete:
-      protocol_id: 459
+      protocol_id: 460
     minecraft:light_gray_concrete_powder:
-      protocol_id: 475
+      protocol_id: 476
     minecraft:light_gray_dye:
-      protocol_id: 688
+      protocol_id: 689
     minecraft:light_gray_glazed_terracotta:
-      protocol_id: 443
+      protocol_id: 444
     minecraft:light_gray_shulker_box:
-      protocol_id: 427
+      protocol_id: 428
     minecraft:light_gray_stained_glass:
-      protocol_id: 374
+      protocol_id: 375
     minecraft:light_gray_stained_glass_pane:
-      protocol_id: 390
+      protocol_id: 391
     minecraft:light_gray_terracotta:
-      protocol_id: 326
+      protocol_id: 327
     minecraft:light_gray_wool:
       protocol_id: 103
     minecraft:light_weighted_pressure_plate:
-      protocol_id: 306
+      protocol_id: 307
     minecraft:lilac:
-      protocol_id: 361
+      protocol_id: 362
     minecraft:lily_of_the_valley:
       protocol_id: 122
     minecraft:lily_pad:
-      protocol_id: 258
+      protocol_id: 259
     minecraft:lime_banner:
-      protocol_id: 859
+      protocol_id: 860
     minecraft:lime_bed:
-      protocol_id: 709
+      protocol_id: 710
     minecraft:lime_carpet:
-      protocol_id: 342
+      protocol_id: 343
     minecraft:lime_concrete:
-      protocol_id: 456
+      protocol_id: 457
     minecraft:lime_concrete_powder:
-      protocol_id: 472
+      protocol_id: 473
     minecraft:lime_dye:
-      protocol_id: 691
+      protocol_id: 692
     minecraft:lime_glazed_terracotta:
-      protocol_id: 440
+      protocol_id: 441
     minecraft:lime_shulker_box:
-      protocol_id: 424
+      protocol_id: 425
     minecraft:lime_stained_glass:
-      protocol_id: 371
+      protocol_id: 372
     minecraft:lime_stained_glass_pane:
-      protocol_id: 387
+      protocol_id: 388
     minecraft:lime_terracotta:
-      protocol_id: 323
+      protocol_id: 324
     minecraft:lime_wool:
       protocol_id: 100
     minecraft:lingering_potion:
-      protocol_id: 880
+      protocol_id: 881
     minecraft:llama_spawn_egg:
-      protocol_id: 769
+      protocol_id: 770
     minecraft:loom:
-      protocol_id: 911
+      protocol_id: 912
     minecraft:magenta_banner:
-      protocol_id: 856
+      protocol_id: 857
     minecraft:magenta_bed:
-      protocol_id: 706
+      protocol_id: 707
     minecraft:magenta_carpet:
-      protocol_id: 339
+      protocol_id: 340
     minecraft:magenta_concrete:
-      protocol_id: 453
+      protocol_id: 454
     minecraft:magenta_concrete_powder:
-      protocol_id: 469
+      protocol_id: 470
     minecraft:magenta_dye:
-      protocol_id: 694
+      protocol_id: 695
     minecraft:magenta_glazed_terracotta:
-      protocol_id: 437
+      protocol_id: 438
     minecraft:magenta_shulker_box:
-      protocol_id: 421
+      protocol_id: 422
     minecraft:magenta_stained_glass:
-      protocol_id: 368
+      protocol_id: 369
     minecraft:magenta_stained_glass_pane:
-      protocol_id: 384
+      protocol_id: 385
     minecraft:magenta_terracotta:
-      protocol_id: 320
+      protocol_id: 321
     minecraft:magenta_wool:
       protocol_id: 97
     minecraft:magma_block:
-      protocol_id: 411
+      protocol_id: 412
     minecraft:magma_cream:
-      protocol_id: 742
+      protocol_id: 743
     minecraft:magma_cube_spawn_egg:
-      protocol_id: 770
-    minecraft:map:
-      protocol_id: 819
-    minecraft:melon:
-      protocol_id: 245
-    minecraft:melon_seeds:
-      protocol_id: 726
-    minecraft:melon_slice:
-      protocol_id: 723
-    minecraft:milk_bucket:
-      protocol_id: 654
-    minecraft:minecart:
-      protocol_id: 648
-    minecraft:mojang_banner_pattern:
-      protocol_id: 915
-    minecraft:mooshroom_spawn_egg:
       protocol_id: 771
+    minecraft:map:
+      protocol_id: 820
+    minecraft:melon:
+      protocol_id: 246
+    minecraft:melon_seeds:
+      protocol_id: 727
+    minecraft:melon_slice:
+      protocol_id: 724
+    minecraft:milk_bucket:
+      protocol_id: 655
+    minecraft:minecart:
+      protocol_id: 649
+    minecraft:mojang_banner_pattern:
+      protocol_id: 916
+    minecraft:mooshroom_spawn_egg:
+      protocol_id: 772
     minecraft:mossy_cobblestone:
       protocol_id: 166
     minecraft:mossy_cobblestone_slab:
-      protocol_id: 534
+      protocol_id: 535
     minecraft:mossy_cobblestone_stairs:
-      protocol_id: 520
+      protocol_id: 521
     minecraft:mossy_cobblestone_wall:
-      protocol_id: 281
+      protocol_id: 282
     minecraft:mossy_stone_brick_slab:
-      protocol_id: 532
+      protocol_id: 533
     minecraft:mossy_stone_brick_stairs:
-      protocol_id: 518
+      protocol_id: 519
     minecraft:mossy_stone_brick_wall:
-      protocol_id: 285
+      protocol_id: 286
     minecraft:mossy_stone_bricks:
-      protocol_id: 237
+      protocol_id: 238
     minecraft:mule_spawn_egg:
-      protocol_id: 772
+      protocol_id: 773
     minecraft:mushroom_stem:
-      protocol_id: 242
+      protocol_id: 243
     minecraft:mushroom_stew:
-      protocol_id: 586
+      protocol_id: 587
     minecraft:music_disc_11:
-      protocol_id: 903
-    minecraft:music_disc_13:
-      protocol_id: 893
-    minecraft:music_disc_blocks:
-      protocol_id: 895
-    minecraft:music_disc_cat:
-      protocol_id: 894
-    minecraft:music_disc_chirp:
-      protocol_id: 896
-    minecraft:music_disc_far:
-      protocol_id: 897
-    minecraft:music_disc_mall:
-      protocol_id: 898
-    minecraft:music_disc_mellohi:
-      protocol_id: 899
-    minecraft:music_disc_stal:
-      protocol_id: 900
-    minecraft:music_disc_strad:
-      protocol_id: 901
-    minecraft:music_disc_wait:
       protocol_id: 904
-    minecraft:music_disc_ward:
+    minecraft:music_disc_13:
+      protocol_id: 894
+    minecraft:music_disc_blocks:
+      protocol_id: 896
+    minecraft:music_disc_cat:
+      protocol_id: 895
+    minecraft:music_disc_chirp:
+      protocol_id: 897
+    minecraft:music_disc_far:
+      protocol_id: 898
+    minecraft:music_disc_mall:
+      protocol_id: 899
+    minecraft:music_disc_mellohi:
+      protocol_id: 900
+    minecraft:music_disc_stal:
+      protocol_id: 901
+    minecraft:music_disc_strad:
       protocol_id: 902
+    minecraft:music_disc_wait:
+      protocol_id: 905
+    minecraft:music_disc_ward:
+      protocol_id: 903
     minecraft:mutton:
-      protocol_id: 852
+      protocol_id: 853
     minecraft:mycelium:
-      protocol_id: 257
+      protocol_id: 258
     minecraft:name_tag:
-      protocol_id: 850
+      protocol_id: 851
     minecraft:nautilus_shell:
-      protocol_id: 907
+      protocol_id: 908
     minecraft:nether_brick:
-      protocol_id: 833
+      protocol_id: 834
     minecraft:nether_brick_fence:
-      protocol_id: 260
+      protocol_id: 261
     minecraft:nether_brick_slab:
       protocol_id: 151
     minecraft:nether_brick_stairs:
-      protocol_id: 261
+      protocol_id: 262
     minecraft:nether_brick_wall:
-      protocol_id: 288
+      protocol_id: 289
     minecraft:nether_bricks:
-      protocol_id: 259
+      protocol_id: 260
     minecraft:nether_gold_ore:
       protocol_id: 36
     minecraft:nether_quartz_ore:
-      protocol_id: 310
+      protocol_id: 311
     minecraft:nether_sprouts:
       protocol_id: 130
     minecraft:nether_star:
-      protocol_id: 828
+      protocol_id: 829
     minecraft:nether_wart:
-      protocol_id: 736
+      protocol_id: 737
     minecraft:nether_wart_block:
-      protocol_id: 412
+      protocol_id: 413
     minecraft:netherite_axe:
-      protocol_id: 594
+      protocol_id: 595
     minecraft:netherite_block:
-      protocol_id: 939
+      protocol_id: 940
     minecraft:netherite_boots:
-      protocol_id: 630
+      protocol_id: 631
     minecraft:netherite_chestplate:
-      protocol_id: 628
-    minecraft:netherite_helmet:
-      protocol_id: 627
-    minecraft:netherite_hoe:
-      protocol_id: 603
-    minecraft:netherite_ingot:
-      protocol_id: 941
-    minecraft:netherite_leggings:
       protocol_id: 629
-    minecraft:netherite_pickaxe:
-      protocol_id: 593
-    minecraft:netherite_scrap:
+    minecraft:netherite_helmet:
+      protocol_id: 628
+    minecraft:netherite_hoe:
+      protocol_id: 604
+    minecraft:netherite_ingot:
       protocol_id: 942
+    minecraft:netherite_leggings:
+      protocol_id: 630
+    minecraft:netherite_pickaxe:
+      protocol_id: 594
+    minecraft:netherite_scrap:
+      protocol_id: 943
     minecraft:netherite_shovel:
-      protocol_id: 592
+      protocol_id: 593
     minecraft:netherite_sword:
-      protocol_id: 591
+      protocol_id: 592
     minecraft:netherrack:
       protocol_id: 215
     minecraft:note_block:
       protocol_id: 84
     minecraft:oak_boat:
-      protocol_id: 652
+      protocol_id: 653
     minecraft:oak_button:
-      protocol_id: 294
+      protocol_id: 295
     minecraft:oak_door:
-      protocol_id: 545
+      protocol_id: 546
     minecraft:oak_fence:
       protocol_id: 205
     minecraft:oak_fence_gate:
-      protocol_id: 247
+      protocol_id: 248
     minecraft:oak_leaves:
       protocol_id: 69
     minecraft:oak_log:
@@ -3732,43 +3736,43 @@ minecraft:item:
     minecraft:oak_sapling:
       protocol_id: 23
     minecraft:oak_sign:
-      protocol_id: 637
+      protocol_id: 638
     minecraft:oak_slab:
       protocol_id: 135
     minecraft:oak_stairs:
       protocol_id: 176
     minecraft:oak_trapdoor:
-      protocol_id: 222
+      protocol_id: 223
     minecraft:oak_wood:
       protocol_id: 61
     minecraft:observer:
-      protocol_id: 417
+      protocol_id: 418
     minecraft:obsidian:
       protocol_id: 167
     minecraft:ocelot_spawn_egg:
-      protocol_id: 773
+      protocol_id: 774
     minecraft:orange_banner:
-      protocol_id: 855
+      protocol_id: 856
     minecraft:orange_bed:
-      protocol_id: 705
+      protocol_id: 706
     minecraft:orange_carpet:
-      protocol_id: 338
+      protocol_id: 339
     minecraft:orange_concrete:
-      protocol_id: 452
+      protocol_id: 453
     minecraft:orange_concrete_powder:
-      protocol_id: 468
+      protocol_id: 469
     minecraft:orange_dye:
-      protocol_id: 695
+      protocol_id: 696
     minecraft:orange_glazed_terracotta:
-      protocol_id: 436
+      protocol_id: 437
     minecraft:orange_shulker_box:
-      protocol_id: 420
+      protocol_id: 421
     minecraft:orange_stained_glass:
-      protocol_id: 367
+      protocol_id: 368
     minecraft:orange_stained_glass_pane:
-      protocol_id: 383
+      protocol_id: 384
     minecraft:orange_terracotta:
-      protocol_id: 319
+      protocol_id: 320
     minecraft:orange_tulip:
       protocol_id: 117
     minecraft:orange_wool:
@@ -3776,51 +3780,51 @@ minecraft:item:
     minecraft:oxeye_daisy:
       protocol_id: 120
     minecraft:packed_ice:
-      protocol_id: 355
+      protocol_id: 356
     minecraft:painting:
-      protocol_id: 634
+      protocol_id: 635
     minecraft:panda_spawn_egg:
-      protocol_id: 774
-    minecraft:paper:
-      protocol_id: 665
-    minecraft:parrot_spawn_egg:
       protocol_id: 775
+    minecraft:paper:
+      protocol_id: 666
+    minecraft:parrot_spawn_egg:
+      protocol_id: 776
     minecraft:peony:
-      protocol_id: 363
+      protocol_id: 364
     minecraft:petrified_oak_slab:
       protocol_id: 147
     minecraft:phantom_membrane:
-      protocol_id: 906
+      protocol_id: 907
     minecraft:phantom_spawn_egg:
-      protocol_id: 776
-    minecraft:pig_spawn_egg:
       protocol_id: 777
-    minecraft:piglin_spawn_egg:
+    minecraft:pig_spawn_egg:
       protocol_id: 778
-    minecraft:pillager_spawn_egg:
+    minecraft:piglin_spawn_egg:
       protocol_id: 779
+    minecraft:pillager_spawn_egg:
+      protocol_id: 780
     minecraft:pink_banner:
-      protocol_id: 860
+      protocol_id: 861
     minecraft:pink_bed:
-      protocol_id: 710
+      protocol_id: 711
     minecraft:pink_carpet:
-      protocol_id: 343
+      protocol_id: 344
     minecraft:pink_concrete:
-      protocol_id: 457
+      protocol_id: 458
     minecraft:pink_concrete_powder:
-      protocol_id: 473
+      protocol_id: 474
     minecraft:pink_dye:
-      protocol_id: 690
+      protocol_id: 691
     minecraft:pink_glazed_terracotta:
-      protocol_id: 441
+      protocol_id: 442
     minecraft:pink_shulker_box:
-      protocol_id: 425
+      protocol_id: 426
     minecraft:pink_stained_glass:
-      protocol_id: 372
+      protocol_id: 373
     minecraft:pink_stained_glass_pane:
-      protocol_id: 388
+      protocol_id: 389
     minecraft:pink_terracotta:
-      protocol_id: 324
+      protocol_id: 325
     minecraft:pink_tulip:
       protocol_id: 119
     minecraft:pink_wool:
@@ -3828,95 +3832,97 @@ minecraft:item:
     minecraft:piston:
       protocol_id: 94
     minecraft:player_head:
-      protocol_id: 823
+      protocol_id: 824
     minecraft:podzol:
       protocol_id: 11
     minecraft:poisonous_potato:
-      protocol_id: 818
+      protocol_id: 819
     minecraft:polar_bear_spawn_egg:
-      protocol_id: 780
+      protocol_id: 781
     minecraft:polished_andesite:
       protocol_id: 7
     minecraft:polished_andesite_slab:
-      protocol_id: 541
+      protocol_id: 542
     minecraft:polished_andesite_stairs:
-      protocol_id: 528
+      protocol_id: 529
+    minecraft:polished_basalt:
+      protocol_id: 219
     minecraft:polished_diorite:
       protocol_id: 5
     minecraft:polished_diorite_slab:
-      protocol_id: 533
+      protocol_id: 534
     minecraft:polished_diorite_stairs:
-      protocol_id: 519
+      protocol_id: 520
     minecraft:polished_granite:
       protocol_id: 3
     minecraft:polished_granite_slab:
-      protocol_id: 530
+      protocol_id: 531
     minecraft:polished_granite_stairs:
-      protocol_id: 516
+      protocol_id: 517
     minecraft:popped_chorus_fruit:
-      protocol_id: 872
+      protocol_id: 873
     minecraft:poppy:
       protocol_id: 112
     minecraft:porkchop:
-      protocol_id: 632
+      protocol_id: 633
     minecraft:potato:
-      protocol_id: 816
+      protocol_id: 817
     minecraft:potion:
-      protocol_id: 737
+      protocol_id: 738
     minecraft:powered_rail:
       protocol_id: 85
     minecraft:prismarine:
-      protocol_id: 398
+      protocol_id: 399
     minecraft:prismarine_brick_slab:
       protocol_id: 157
     minecraft:prismarine_brick_stairs:
-      protocol_id: 402
+      protocol_id: 403
     minecraft:prismarine_bricks:
-      protocol_id: 399
+      protocol_id: 400
     minecraft:prismarine_crystals:
-      protocol_id: 838
+      protocol_id: 839
     minecraft:prismarine_shard:
-      protocol_id: 837
+      protocol_id: 838
     minecraft:prismarine_slab:
       protocol_id: 156
     minecraft:prismarine_stairs:
-      protocol_id: 401
+      protocol_id: 402
     minecraft:prismarine_wall:
-      protocol_id: 283
+      protocol_id: 284
     minecraft:pufferfish:
-      protocol_id: 678
+      protocol_id: 679
     minecraft:pufferfish_bucket:
-      protocol_id: 655
+      protocol_id: 656
     minecraft:pufferfish_spawn_egg:
-      protocol_id: 781
+      protocol_id: 782
     minecraft:pumpkin:
       protocol_id: 213
     minecraft:pumpkin_pie:
-      protocol_id: 829
+      protocol_id: 830
     minecraft:pumpkin_seeds:
-      protocol_id: 725
+      protocol_id: 726
     minecraft:purple_banner:
-      protocol_id: 864
+      protocol_id: 865
     minecraft:purple_bed:
-      protocol_id: 714
+      protocol_id: 715
     minecraft:purple_carpet:
-      protocol_id: 347
+      protocol_id: 348
     minecraft:purple_concrete:
-      protocol_id: 461
+      protocol_id: 462
     minecraft:purple_concrete_powder:
-      protocol_id: 477
+      protocol_id: 478
     minecraft:purple_dye:
-      protocol_id: 686
+      protocol_id: 687
     minecraft:purple_glazed_terracotta:
-      protocol_id: 445
+      protocol_id: 446
     minecraft:purple_shulker_box:
-      protocol_id: 429
+      protocol_id: 430
     minecraft:purple_stained_glass:
-      protocol_id: 376
+      protocol_id: 377
     minecraft:purple_stained_glass_pane:
-      protocol_id: 392
+      protocol_id: 393
     minecraft:purple_terracotta:
-      protocol_id: 328
+      protocol_id: 329
     minecraft:purple_wool:
       protocol_id: 105
     minecraft:purpur_block:
@@ -3928,103 +3934,105 @@ minecraft:item:
     minecraft:purpur_stairs:
       protocol_id: 174
     minecraft:quartz:
-      protocol_id: 834
+      protocol_id: 835
     minecraft:quartz_block:
-      protocol_id: 313
-    minecraft:quartz_pillar:
       protocol_id: 314
+    minecraft:quartz_pillar:
+      protocol_id: 315
     minecraft:quartz_slab:
       protocol_id: 152
     minecraft:quartz_stairs:
-      protocol_id: 315
+      protocol_id: 316
     minecraft:rabbit:
-      protocol_id: 839
+      protocol_id: 840
     minecraft:rabbit_foot:
-      protocol_id: 842
-    minecraft:rabbit_hide:
       protocol_id: 843
+    minecraft:rabbit_hide:
+      protocol_id: 844
     minecraft:rabbit_spawn_egg:
-      protocol_id: 782
+      protocol_id: 783
     minecraft:rabbit_stew:
-      protocol_id: 841
+      protocol_id: 842
     minecraft:rail:
       protocol_id: 184
     minecraft:ravager_spawn_egg:
-      protocol_id: 783
+      protocol_id: 784
     minecraft:red_banner:
-      protocol_id: 868
+      protocol_id: 869
     minecraft:red_bed:
-      protocol_id: 718
+      protocol_id: 719
     minecraft:red_carpet:
-      protocol_id: 351
+      protocol_id: 352
     minecraft:red_concrete:
-      protocol_id: 465
+      protocol_id: 466
     minecraft:red_concrete_powder:
-      protocol_id: 481
+      protocol_id: 482
     minecraft:red_dye:
-      protocol_id: 682
+      protocol_id: 683
     minecraft:red_glazed_terracotta:
-      protocol_id: 449
+      protocol_id: 450
     minecraft:red_mushroom:
       protocol_id: 125
     minecraft:red_mushroom_block:
-      protocol_id: 241
+      protocol_id: 242
     minecraft:red_nether_brick_slab:
-      protocol_id: 540
+      protocol_id: 541
     minecraft:red_nether_brick_stairs:
-      protocol_id: 527
+      protocol_id: 528
     minecraft:red_nether_brick_wall:
-      protocol_id: 290
+      protocol_id: 291
     minecraft:red_nether_bricks:
-      protocol_id: 414
+      protocol_id: 415
     minecraft:red_sand:
       protocol_id: 31
     minecraft:red_sandstone:
-      protocol_id: 405
+      protocol_id: 406
     minecraft:red_sandstone_slab:
       protocol_id: 153
     minecraft:red_sandstone_stairs:
-      protocol_id: 408
+      protocol_id: 409
     minecraft:red_sandstone_wall:
-      protocol_id: 284
+      protocol_id: 285
     minecraft:red_shulker_box:
-      protocol_id: 433
+      protocol_id: 434
     minecraft:red_stained_glass:
-      protocol_id: 380
+      protocol_id: 381
     minecraft:red_stained_glass_pane:
-      protocol_id: 396
+      protocol_id: 397
     minecraft:red_terracotta:
-      protocol_id: 332
+      protocol_id: 333
     minecraft:red_tulip:
       protocol_id: 116
     minecraft:red_wool:
       protocol_id: 109
     minecraft:redstone:
-      protocol_id: 650
+      protocol_id: 651
     minecraft:redstone_block:
-      protocol_id: 309
+      protocol_id: 310
     minecraft:redstone_lamp:
-      protocol_id: 267
+      protocol_id: 268
     minecraft:redstone_ore:
       protocol_id: 196
     minecraft:redstone_torch:
       protocol_id: 197
     minecraft:repeater:
-      protocol_id: 553
+      protocol_id: 554
     minecraft:repeating_command_block:
-      protocol_id: 409
+      protocol_id: 410
+    minecraft:respawn_anchor:
+      protocol_id: 946
     minecraft:rose_bush:
-      protocol_id: 362
+      protocol_id: 363
     minecraft:rotten_flesh:
-      protocol_id: 731
+      protocol_id: 732
     minecraft:saddle:
-      protocol_id: 649
+      protocol_id: 650
     minecraft:salmon:
-      protocol_id: 676
+      protocol_id: 677
     minecraft:salmon_bucket:
-      protocol_id: 656
+      protocol_id: 657
     minecraft:salmon_spawn_egg:
-      protocol_id: 784
+      protocol_id: 785
     minecraft:sand:
       protocol_id: 30
     minecraft:sandstone:
@@ -4032,71 +4040,71 @@ minecraft:item:
     minecraft:sandstone_slab:
       protocol_id: 145
     minecraft:sandstone_stairs:
-      protocol_id: 268
+      protocol_id: 269
     minecraft:sandstone_wall:
-      protocol_id: 291
+      protocol_id: 292
     minecraft:scaffolding:
-      protocol_id: 543
+      protocol_id: 544
     minecraft:scute:
-      protocol_id: 558
+      protocol_id: 559
     minecraft:sea_lantern:
-      protocol_id: 404
+      protocol_id: 405
     minecraft:sea_pickle:
       protocol_id: 93
     minecraft:seagrass:
       protocol_id: 92
     minecraft:shears:
-      protocol_id: 722
+      protocol_id: 723
     minecraft:sheep_spawn_egg:
-      protocol_id: 785
-    minecraft:shield:
-      protocol_id: 881
-    minecraft:shroomlight:
-      protocol_id: 932
-    minecraft:shulker_box:
-      protocol_id: 418
-    minecraft:shulker_shell:
-      protocol_id: 889
-    minecraft:shulker_spawn_egg:
       protocol_id: 786
-    minecraft:silverfish_spawn_egg:
+    minecraft:shield:
+      protocol_id: 882
+    minecraft:shroomlight:
+      protocol_id: 933
+    minecraft:shulker_box:
+      protocol_id: 419
+    minecraft:shulker_shell:
+      protocol_id: 890
+    minecraft:shulker_spawn_egg:
       protocol_id: 787
-    minecraft:skeleton_horse_spawn_egg:
-      protocol_id: 789
-    minecraft:skeleton_skull:
-      protocol_id: 821
-    minecraft:skeleton_spawn_egg:
+    minecraft:silverfish_spawn_egg:
       protocol_id: 788
-    minecraft:skull_banner_pattern:
-      protocol_id: 914
-    minecraft:slime_ball:
-      protocol_id: 667
-    minecraft:slime_block:
-      protocol_id: 358
-    minecraft:slime_spawn_egg:
+    minecraft:skeleton_horse_spawn_egg:
       protocol_id: 790
+    minecraft:skeleton_skull:
+      protocol_id: 822
+    minecraft:skeleton_spawn_egg:
+      protocol_id: 789
+    minecraft:skull_banner_pattern:
+      protocol_id: 915
+    minecraft:slime_ball:
+      protocol_id: 668
+    minecraft:slime_block:
+      protocol_id: 359
+    minecraft:slime_spawn_egg:
+      protocol_id: 791
     minecraft:smithing_table:
-      protocol_id: 925
+      protocol_id: 926
     minecraft:smoker:
-      protocol_id: 919
+      protocol_id: 920
     minecraft:smooth_quartz:
       protocol_id: 159
     minecraft:smooth_quartz_slab:
-      protocol_id: 537
+      protocol_id: 538
     minecraft:smooth_quartz_stairs:
-      protocol_id: 524
+      protocol_id: 525
     minecraft:smooth_red_sandstone:
       protocol_id: 160
     minecraft:smooth_red_sandstone_slab:
-      protocol_id: 531
+      protocol_id: 532
     minecraft:smooth_red_sandstone_stairs:
-      protocol_id: 517
+      protocol_id: 518
     minecraft:smooth_sandstone:
       protocol_id: 161
     minecraft:smooth_sandstone_slab:
-      protocol_id: 536
+      protocol_id: 537
     minecraft:smooth_sandstone_stairs:
-      protocol_id: 523
+      protocol_id: 524
     minecraft:smooth_stone:
       protocol_id: 162
     minecraft:smooth_stone_slab:
@@ -4106,11 +4114,11 @@ minecraft:item:
     minecraft:snow_block:
       protocol_id: 201
     minecraft:snowball:
-      protocol_id: 651
+      protocol_id: 652
     minecraft:soul_fire_lantern:
-      protocol_id: 929
+      protocol_id: 930
     minecraft:soul_fire_torch:
-      protocol_id: 219
+      protocol_id: 220
     minecraft:soul_sand:
       protocol_id: 216
     minecraft:soul_soil:
@@ -4118,25 +4126,25 @@ minecraft:item:
     minecraft:spawner:
       protocol_id: 175
     minecraft:spectral_arrow:
-      protocol_id: 878
+      protocol_id: 879
     minecraft:spider_eye:
-      protocol_id: 739
+      protocol_id: 740
     minecraft:spider_spawn_egg:
-      protocol_id: 791
+      protocol_id: 792
     minecraft:splash_potion:
-      protocol_id: 877
+      protocol_id: 878
     minecraft:sponge:
       protocol_id: 75
     minecraft:spruce_boat:
-      protocol_id: 883
+      protocol_id: 884
     minecraft:spruce_button:
-      protocol_id: 295
+      protocol_id: 296
     minecraft:spruce_door:
-      protocol_id: 546
+      protocol_id: 547
     minecraft:spruce_fence:
       protocol_id: 206
     minecraft:spruce_fence_gate:
-      protocol_id: 248
+      protocol_id: 249
     minecraft:spruce_leaves:
       protocol_id: 70
     minecraft:spruce_log:
@@ -4148,55 +4156,55 @@ minecraft:item:
     minecraft:spruce_sapling:
       protocol_id: 24
     minecraft:spruce_sign:
-      protocol_id: 638
+      protocol_id: 639
     minecraft:spruce_slab:
       protocol_id: 136
     minecraft:spruce_stairs:
-      protocol_id: 273
+      protocol_id: 274
     minecraft:spruce_trapdoor:
-      protocol_id: 223
+      protocol_id: 224
     minecraft:spruce_wood:
       protocol_id: 62
     minecraft:squid_spawn_egg:
-      protocol_id: 792
+      protocol_id: 793
     minecraft:stick:
-      protocol_id: 584
+      protocol_id: 585
     minecraft:sticky_piston:
       protocol_id: 87
     minecraft:stone:
       protocol_id: 1
     minecraft:stone_axe:
-      protocol_id: 579
+      protocol_id: 580
     minecraft:stone_brick_slab:
       protocol_id: 150
     minecraft:stone_brick_stairs:
-      protocol_id: 256
+      protocol_id: 257
     minecraft:stone_brick_wall:
-      protocol_id: 287
+      protocol_id: 288
     minecraft:stone_bricks:
-      protocol_id: 236
+      protocol_id: 237
     minecraft:stone_button:
       protocol_id: 198
     minecraft:stone_hoe:
-      protocol_id: 599
+      protocol_id: 600
     minecraft:stone_pickaxe:
-      protocol_id: 578
+      protocol_id: 579
     minecraft:stone_pressure_plate:
       protocol_id: 187
     minecraft:stone_shovel:
-      protocol_id: 577
+      protocol_id: 578
     minecraft:stone_slab:
       protocol_id: 143
     minecraft:stone_stairs:
-      protocol_id: 522
+      protocol_id: 523
     minecraft:stone_sword:
-      protocol_id: 576
+      protocol_id: 577
     minecraft:stonecutter:
-      protocol_id: 926
+      protocol_id: 927
     minecraft:stray_spawn_egg:
-      protocol_id: 793
+      protocol_id: 794
     minecraft:string:
-      protocol_id: 595
+      protocol_id: 596
     minecraft:stripped_acacia_log:
       protocol_id: 49
     minecraft:stripped_acacia_wood:
@@ -4206,7 +4214,7 @@ minecraft:item:
     minecraft:stripped_birch_wood:
       protocol_id: 55
     minecraft:stripped_crimson_hyphae:
-      protocol_id: 60
+      protocol_id: 59
     minecraft:stripped_crimson_stem:
       protocol_id: 51
     minecraft:stripped_dark_oak_log:
@@ -4226,89 +4234,89 @@ minecraft:item:
     minecraft:stripped_spruce_wood:
       protocol_id: 54
     minecraft:stripped_warped_hyphae:
-      protocol_id: 59
+      protocol_id: 60
     minecraft:stripped_warped_stem:
       protocol_id: 52
     minecraft:structure_block:
-      protocol_id: 555
+      protocol_id: 556
     minecraft:structure_void:
-      protocol_id: 416
+      protocol_id: 417
     minecraft:sugar:
-      protocol_id: 702
+      protocol_id: 703
     minecraft:sugar_cane:
-      protocol_id: 661
+      protocol_id: 662
     minecraft:sunflower:
-      protocol_id: 360
+      protocol_id: 361
     minecraft:suspicious_stew:
-      protocol_id: 910
+      protocol_id: 911
     minecraft:sweet_berries:
-      protocol_id: 930
+      protocol_id: 931
     minecraft:tall_grass:
-      protocol_id: 364
+      protocol_id: 365
     minecraft:target:
-      protocol_id: 943
+      protocol_id: 944
     minecraft:terracotta:
-      protocol_id: 353
+      protocol_id: 354
     minecraft:tipped_arrow:
-      protocol_id: 879
+      protocol_id: 880
     minecraft:tnt:
       protocol_id: 164
     minecraft:tnt_minecart:
-      protocol_id: 835
+      protocol_id: 836
     minecraft:torch:
       protocol_id: 168
     minecraft:totem_of_undying:
-      protocol_id: 888
+      protocol_id: 889
     minecraft:trader_llama_spawn_egg:
-      protocol_id: 794
-    minecraft:trapped_chest:
-      protocol_id: 305
-    minecraft:trident:
-      protocol_id: 905
-    minecraft:tripwire_hook:
-      protocol_id: 271
-    minecraft:tropical_fish:
-      protocol_id: 677
-    minecraft:tropical_fish_bucket:
-      protocol_id: 658
-    minecraft:tropical_fish_spawn_egg:
       protocol_id: 795
-    minecraft:tube_coral:
-      protocol_id: 494
-    minecraft:tube_coral_block:
-      protocol_id: 489
-    minecraft:tube_coral_fan:
-      protocol_id: 504
-    minecraft:turtle_egg:
-      protocol_id: 483
-    minecraft:turtle_helmet:
-      protocol_id: 557
-    minecraft:turtle_spawn_egg:
+    minecraft:trapped_chest:
+      protocol_id: 306
+    minecraft:trident:
+      protocol_id: 906
+    minecraft:tripwire_hook:
+      protocol_id: 272
+    minecraft:tropical_fish:
+      protocol_id: 678
+    minecraft:tropical_fish_bucket:
+      protocol_id: 659
+    minecraft:tropical_fish_spawn_egg:
       protocol_id: 796
+    minecraft:tube_coral:
+      protocol_id: 495
+    minecraft:tube_coral_block:
+      protocol_id: 490
+    minecraft:tube_coral_fan:
+      protocol_id: 505
+    minecraft:turtle_egg:
+      protocol_id: 484
+    minecraft:turtle_helmet:
+      protocol_id: 558
+    minecraft:turtle_spawn_egg:
+      protocol_id: 797
     minecraft:twisting_vines:
       protocol_id: 132
     minecraft:vex_spawn_egg:
-      protocol_id: 797
-    minecraft:villager_spawn_egg:
       protocol_id: 798
-    minecraft:vindicator_spawn_egg:
+    minecraft:villager_spawn_egg:
       protocol_id: 799
-    minecraft:vine:
-      protocol_id: 246
-    minecraft:wandering_trader_spawn_egg:
+    minecraft:vindicator_spawn_egg:
       protocol_id: 800
+    minecraft:vine:
+      protocol_id: 247
+    minecraft:wandering_trader_spawn_egg:
+      protocol_id: 801
     minecraft:warped_button:
-      protocol_id: 301
+      protocol_id: 302
     minecraft:warped_door:
-      protocol_id: 552
+      protocol_id: 553
     minecraft:warped_fence:
       protocol_id: 212
     minecraft:warped_fence_gate:
-      protocol_id: 254
+      protocol_id: 255
     minecraft:warped_fungus:
       protocol_id: 127
     minecraft:warped_hyphae:
-      protocol_id: 67
+      protocol_id: 68
     minecraft:warped_nylium:
       protocol_id: 13
     minecraft:warped_planks:
@@ -4318,111 +4326,111 @@ minecraft:item:
     minecraft:warped_roots:
       protocol_id: 129
     minecraft:warped_sign:
-      protocol_id: 644
+      protocol_id: 645
     minecraft:warped_slab:
       protocol_id: 142
     minecraft:warped_stairs:
-      protocol_id: 277
+      protocol_id: 278
     minecraft:warped_stem:
       protocol_id: 44
     minecraft:warped_trapdoor:
-      protocol_id: 229
+      protocol_id: 230
     minecraft:warped_wart_block:
-      protocol_id: 413
+      protocol_id: 414
     minecraft:water_bucket:
-      protocol_id: 646
+      protocol_id: 647
     minecraft:weeping_vines:
       protocol_id: 131
     minecraft:wet_sponge:
       protocol_id: 76
     minecraft:wheat:
-      protocol_id: 605
+      protocol_id: 606
     minecraft:wheat_seeds:
-      protocol_id: 604
+      protocol_id: 605
     minecraft:white_banner:
-      protocol_id: 854
+      protocol_id: 855
     minecraft:white_bed:
-      protocol_id: 704
+      protocol_id: 705
     minecraft:white_carpet:
-      protocol_id: 337
+      protocol_id: 338
     minecraft:white_concrete:
-      protocol_id: 451
+      protocol_id: 452
     minecraft:white_concrete_powder:
-      protocol_id: 467
+      protocol_id: 468
     minecraft:white_dye:
-      protocol_id: 700
+      protocol_id: 701
     minecraft:white_glazed_terracotta:
-      protocol_id: 435
+      protocol_id: 436
     minecraft:white_shulker_box:
-      protocol_id: 419
+      protocol_id: 420
     minecraft:white_stained_glass:
-      protocol_id: 366
+      protocol_id: 367
     minecraft:white_stained_glass_pane:
-      protocol_id: 382
+      protocol_id: 383
     minecraft:white_terracotta:
-      protocol_id: 318
+      protocol_id: 319
     minecraft:white_tulip:
       protocol_id: 118
     minecraft:white_wool:
       protocol_id: 95
     minecraft:witch_spawn_egg:
-      protocol_id: 801
+      protocol_id: 802
     minecraft:wither_rose:
       protocol_id: 123
     minecraft:wither_skeleton_skull:
-      protocol_id: 822
+      protocol_id: 823
     minecraft:wither_skeleton_spawn_egg:
-      protocol_id: 802
-    minecraft:wolf_spawn_egg:
       protocol_id: 803
+    minecraft:wolf_spawn_egg:
+      protocol_id: 804
     minecraft:wooden_axe:
-      protocol_id: 575
+      protocol_id: 576
     minecraft:wooden_hoe:
-      protocol_id: 598
+      protocol_id: 599
     minecraft:wooden_pickaxe:
-      protocol_id: 574
+      protocol_id: 575
     minecraft:wooden_shovel:
-      protocol_id: 573
+      protocol_id: 574
     minecraft:wooden_sword:
-      protocol_id: 572
+      protocol_id: 573
     minecraft:writable_book:
-      protocol_id: 810
-    minecraft:written_book:
       protocol_id: 811
+    minecraft:written_book:
+      protocol_id: 812
     minecraft:yellow_banner:
-      protocol_id: 858
+      protocol_id: 859
     minecraft:yellow_bed:
-      protocol_id: 708
+      protocol_id: 709
     minecraft:yellow_carpet:
-      protocol_id: 341
+      protocol_id: 342
     minecraft:yellow_concrete:
-      protocol_id: 455
+      protocol_id: 456
     minecraft:yellow_concrete_powder:
-      protocol_id: 471
+      protocol_id: 472
     minecraft:yellow_dye:
-      protocol_id: 692
+      protocol_id: 693
     minecraft:yellow_glazed_terracotta:
-      protocol_id: 439
+      protocol_id: 440
     minecraft:yellow_shulker_box:
-      protocol_id: 423
+      protocol_id: 424
     minecraft:yellow_stained_glass:
-      protocol_id: 370
+      protocol_id: 371
     minecraft:yellow_stained_glass_pane:
-      protocol_id: 386
+      protocol_id: 387
     minecraft:yellow_terracotta:
-      protocol_id: 322
+      protocol_id: 323
     minecraft:yellow_wool:
       protocol_id: 99
     minecraft:zombie_head:
-      protocol_id: 824
+      protocol_id: 825
     minecraft:zombie_horse_spawn_egg:
-      protocol_id: 805
-    minecraft:zombie_spawn_egg:
-      protocol_id: 804
-    minecraft:zombie_villager_spawn_egg:
-      protocol_id: 807
-    minecraft:zombified_piglin_spawn_egg:
       protocol_id: 806
+    minecraft:zombie_spawn_egg:
+      protocol_id: 805
+    minecraft:zombie_villager_spawn_egg:
+      protocol_id: 808
+    minecraft:zombified_piglin_spawn_egg:
+      protocol_id: 807
   protocol_id: 6
 minecraft:memory_module_type:
   default: minecraft:dummy
@@ -4828,6 +4836,8 @@ minecraft:particle_type:
       protocol_id: 42
     minecraft:rain:
       protocol_id: 43
+    minecraft:reverse_portal:
+      protocol_id: 70
     minecraft:smoke:
       protocol_id: 44
     minecraft:sneeze:
@@ -5406,7 +5416,7 @@ minecraft:sound_event:
     minecraft:block.lever.click:
       protocol_id: 401
     minecraft:block.lily_pad.place:
-      protocol_id: 844
+      protocol_id: 848
     minecraft:block.metal.break:
       protocol_id: 421
     minecraft:block.metal.fall:
@@ -5529,6 +5539,14 @@ minecraft:sound_event:
       protocol_id: 634
     minecraft:block.redstone_torch.burnout:
       protocol_id: 654
+    minecraft:block.respawn_anchor.ambient:
+      protocol_id: 655
+    minecraft:block.respawn_anchor.charge:
+      protocol_id: 656
+    minecraft:block.respawn_anchor.deplete:
+      protocol_id: 657
+    minecraft:block.respawn_anchor.set_spawn:
+      protocol_id: 658
     minecraft:block.roots.break:
       protocol_id: 276
     minecraft:block.roots.fall:
@@ -5540,83 +5558,83 @@ minecraft:sound_event:
     minecraft:block.roots.step:
       protocol_id: 277
     minecraft:block.sand.break:
-      protocol_id: 659
-    minecraft:block.sand.fall:
-      protocol_id: 660
-    minecraft:block.sand.hit:
-      protocol_id: 661
-    minecraft:block.sand.place:
-      protocol_id: 662
-    minecraft:block.sand.step:
       protocol_id: 663
-    minecraft:block.scaffolding.break:
+    minecraft:block.sand.fall:
       protocol_id: 664
-    minecraft:block.scaffolding.fall:
+    minecraft:block.sand.hit:
       protocol_id: 665
-    minecraft:block.scaffolding.hit:
+    minecraft:block.sand.place:
       protocol_id: 666
-    minecraft:block.scaffolding.place:
+    minecraft:block.sand.step:
       protocol_id: 667
-    minecraft:block.scaffolding.step:
+    minecraft:block.scaffolding.break:
       protocol_id: 668
+    minecraft:block.scaffolding.fall:
+      protocol_id: 669
+    minecraft:block.scaffolding.hit:
+      protocol_id: 670
+    minecraft:block.scaffolding.place:
+      protocol_id: 671
+    minecraft:block.scaffolding.step:
+      protocol_id: 672
     minecraft:block.shroomlight.break:
-      protocol_id: 676
-    minecraft:block.shroomlight.fall:
       protocol_id: 680
-    minecraft:block.shroomlight.hit:
-      protocol_id: 679
-    minecraft:block.shroomlight.place:
-      protocol_id: 678
-    minecraft:block.shroomlight.step:
-      protocol_id: 677
-    minecraft:block.shulker_box.close:
-      protocol_id: 683
-    minecraft:block.shulker_box.open:
+    minecraft:block.shroomlight.fall:
       protocol_id: 684
+    minecraft:block.shroomlight.hit:
+      protocol_id: 683
+    minecraft:block.shroomlight.place:
+      protocol_id: 682
+    minecraft:block.shroomlight.step:
+      protocol_id: 681
+    minecraft:block.shulker_box.close:
+      protocol_id: 687
+    minecraft:block.shulker_box.open:
+      protocol_id: 688
     minecraft:block.slime_block.break:
-      protocol_id: 716
-    minecraft:block.slime_block.fall:
-      protocol_id: 717
-    minecraft:block.slime_block.hit:
-      protocol_id: 718
-    minecraft:block.slime_block.place:
-      protocol_id: 719
-    minecraft:block.slime_block.step:
       protocol_id: 720
-    minecraft:block.smithing_table.use:
-      protocol_id: 736
-    minecraft:block.smoker.smoke:
-      protocol_id: 737
-    minecraft:block.snow.break:
-      protocol_id: 739
-    minecraft:block.snow.fall:
-      protocol_id: 740
-    minecraft:block.snow.hit:
-      protocol_id: 746
-    minecraft:block.snow.place:
-      protocol_id: 747
-    minecraft:block.snow.step:
-      protocol_id: 748
-    minecraft:block.soul_sand.break:
+    minecraft:block.slime_block.fall:
       protocol_id: 721
-    minecraft:block.soul_sand.fall:
-      protocol_id: 725
-    minecraft:block.soul_sand.hit:
-      protocol_id: 724
-    minecraft:block.soul_sand.place:
-      protocol_id: 723
-    minecraft:block.soul_sand.step:
+    minecraft:block.slime_block.hit:
       protocol_id: 722
-    minecraft:block.soul_soil.break:
-      protocol_id: 726
-    minecraft:block.soul_soil.fall:
-      protocol_id: 730
-    minecraft:block.soul_soil.hit:
+    minecraft:block.slime_block.place:
+      protocol_id: 723
+    minecraft:block.slime_block.step:
+      protocol_id: 724
+    minecraft:block.smithing_table.use:
+      protocol_id: 740
+    minecraft:block.smoker.smoke:
+      protocol_id: 741
+    minecraft:block.snow.break:
+      protocol_id: 743
+    minecraft:block.snow.fall:
+      protocol_id: 744
+    minecraft:block.snow.hit:
+      protocol_id: 750
+    minecraft:block.snow.place:
+      protocol_id: 751
+    minecraft:block.snow.step:
+      protocol_id: 752
+    minecraft:block.soul_sand.break:
+      protocol_id: 725
+    minecraft:block.soul_sand.fall:
       protocol_id: 729
-    minecraft:block.soul_soil.place:
+    minecraft:block.soul_sand.hit:
       protocol_id: 728
-    minecraft:block.soul_soil.step:
+    minecraft:block.soul_sand.place:
       protocol_id: 727
+    minecraft:block.soul_sand.step:
+      protocol_id: 726
+    minecraft:block.soul_soil.break:
+      protocol_id: 730
+    minecraft:block.soul_soil.fall:
+      protocol_id: 734
+    minecraft:block.soul_soil.hit:
+      protocol_id: 733
+    minecraft:block.soul_soil.place:
+      protocol_id: 732
+    minecraft:block.soul_soil.step:
+      protocol_id: 731
     minecraft:block.stem.break:
       protocol_id: 466
     minecraft:block.stem.fall:
@@ -5628,37 +5646,37 @@ minecraft:sound_event:
     minecraft:block.stem.step:
       protocol_id: 467
     minecraft:block.stone.break:
-      protocol_id: 759
-    minecraft:block.stone.fall:
-      protocol_id: 762
-    minecraft:block.stone.hit:
       protocol_id: 763
-    minecraft:block.stone.place:
-      protocol_id: 764
-    minecraft:block.stone.step:
-      protocol_id: 767
-    minecraft:block.stone_button.click_off:
-      protocol_id: 760
-    minecraft:block.stone_button.click_on:
-      protocol_id: 761
-    minecraft:block.stone_pressure_plate.click_off:
-      protocol_id: 765
-    minecraft:block.stone_pressure_plate.click_on:
+    minecraft:block.stone.fall:
       protocol_id: 766
+    minecraft:block.stone.hit:
+      protocol_id: 767
+    minecraft:block.stone.place:
+      protocol_id: 768
+    minecraft:block.stone.step:
+      protocol_id: 771
+    minecraft:block.stone_button.click_off:
+      protocol_id: 764
+    minecraft:block.stone_button.click_on:
+      protocol_id: 765
+    minecraft:block.stone_pressure_plate.click_off:
+      protocol_id: 769
+    minecraft:block.stone_pressure_plate.click_on:
+      protocol_id: 770
     minecraft:block.sweet_berry_bush.break:
-      protocol_id: 772
+      protocol_id: 776
     minecraft:block.sweet_berry_bush.place:
-      protocol_id: 773
+      protocol_id: 777
     minecraft:block.tripwire.attach:
-      protocol_id: 786
+      protocol_id: 790
     minecraft:block.tripwire.click_off:
-      protocol_id: 787
+      protocol_id: 791
     minecraft:block.tripwire.click_on:
-      protocol_id: 788
+      protocol_id: 792
     minecraft:block.tripwire.detach:
-      protocol_id: 789
+      protocol_id: 793
     minecraft:block.vine.step:
-      protocol_id: 843
+      protocol_id: 847
     minecraft:block.wart_block.break:
       protocol_id: 491
     minecraft:block.wart_block.fall:
@@ -5670,7 +5688,7 @@ minecraft:sound_event:
     minecraft:block.wart_block.step:
       protocol_id: 492
     minecraft:block.water.ambient:
-      protocol_id: 855
+      protocol_id: 859
     minecraft:block.weeping_vines.break:
       protocol_id: 486
     minecraft:block.weeping_vines.fall:
@@ -5682,53 +5700,53 @@ minecraft:sound_event:
     minecraft:block.weeping_vines.step:
       protocol_id: 487
     minecraft:block.wet_grass.break:
-      protocol_id: 858
-    minecraft:block.wet_grass.fall:
-      protocol_id: 859
-    minecraft:block.wet_grass.hit:
-      protocol_id: 860
-    minecraft:block.wet_grass.place:
-      protocol_id: 861
-    minecraft:block.wet_grass.step:
       protocol_id: 862
+    minecraft:block.wet_grass.fall:
+      protocol_id: 863
+    minecraft:block.wet_grass.hit:
+      protocol_id: 864
+    minecraft:block.wet_grass.place:
+      protocol_id: 865
+    minecraft:block.wet_grass.step:
+      protocol_id: 866
     minecraft:block.wood.break:
-      protocol_id: 892
-    minecraft:block.wood.fall:
-      protocol_id: 895
-    minecraft:block.wood.hit:
       protocol_id: 896
-    minecraft:block.wood.place:
-      protocol_id: 897
-    minecraft:block.wood.step:
-      protocol_id: 900
-    minecraft:block.wooden_button.click_off:
-      protocol_id: 893
-    minecraft:block.wooden_button.click_on:
-      protocol_id: 894
-    minecraft:block.wooden_door.close:
-      protocol_id: 888
-    minecraft:block.wooden_door.open:
-      protocol_id: 889
-    minecraft:block.wooden_pressure_plate.click_off:
-      protocol_id: 898
-    minecraft:block.wooden_pressure_plate.click_on:
+    minecraft:block.wood.fall:
       protocol_id: 899
-    minecraft:block.wooden_trapdoor.close:
-      protocol_id: 890
-    minecraft:block.wooden_trapdoor.open:
-      protocol_id: 891
-    minecraft:block.wool.break:
+    minecraft:block.wood.hit:
+      protocol_id: 900
+    minecraft:block.wood.place:
       protocol_id: 901
-    minecraft:block.wool.fall:
-      protocol_id: 902
-    minecraft:block.wool.hit:
-      protocol_id: 903
-    minecraft:block.wool.place:
+    minecraft:block.wood.step:
       protocol_id: 904
-    minecraft:block.wool.step:
+    minecraft:block.wooden_button.click_off:
+      protocol_id: 897
+    minecraft:block.wooden_button.click_on:
+      protocol_id: 898
+    minecraft:block.wooden_door.close:
+      protocol_id: 892
+    minecraft:block.wooden_door.open:
+      protocol_id: 893
+    minecraft:block.wooden_pressure_plate.click_off:
+      protocol_id: 902
+    minecraft:block.wooden_pressure_plate.click_on:
+      protocol_id: 903
+    minecraft:block.wooden_trapdoor.close:
+      protocol_id: 894
+    minecraft:block.wooden_trapdoor.open:
+      protocol_id: 895
+    minecraft:block.wool.break:
       protocol_id: 905
+    minecraft:block.wool.fall:
+      protocol_id: 906
+    minecraft:block.wool.hit:
+      protocol_id: 907
+    minecraft:block.wool.place:
+      protocol_id: 908
+    minecraft:block.wool.step:
+      protocol_id: 909
     minecraft:enchant.thorns.hit:
-      protocol_id: 775
+      protocol_id: 779
     minecraft:entity.armor_stand.break:
       protocol_id: 41
     minecraft:entity.armor_stand.fall:
@@ -6460,341 +6478,341 @@ minecraft:sound_event:
     minecraft:entity.ravager.stunned:
       protocol_id: 647
     minecraft:entity.salmon.ambient:
-      protocol_id: 655
+      protocol_id: 659
     minecraft:entity.salmon.death:
-      protocol_id: 656
+      protocol_id: 660
     minecraft:entity.salmon.flop:
-      protocol_id: 657
+      protocol_id: 661
     minecraft:entity.salmon.hurt:
-      protocol_id: 658
+      protocol_id: 662
     minecraft:entity.sheep.ambient:
-      protocol_id: 669
-    minecraft:entity.sheep.death:
-      protocol_id: 670
-    minecraft:entity.sheep.hurt:
-      protocol_id: 671
-    minecraft:entity.sheep.shear:
-      protocol_id: 672
-    minecraft:entity.sheep.step:
       protocol_id: 673
+    minecraft:entity.sheep.death:
+      protocol_id: 674
+    minecraft:entity.sheep.hurt:
+      protocol_id: 675
+    minecraft:entity.sheep.shear:
+      protocol_id: 676
+    minecraft:entity.sheep.step:
+      protocol_id: 677
     minecraft:entity.shulker.ambient:
-      protocol_id: 682
-    minecraft:entity.shulker.close:
-      protocol_id: 687
-    minecraft:entity.shulker.death:
-      protocol_id: 688
-    minecraft:entity.shulker.hurt:
-      protocol_id: 689
-    minecraft:entity.shulker.hurt_closed:
-      protocol_id: 690
-    minecraft:entity.shulker.open:
-      protocol_id: 691
-    minecraft:entity.shulker.shoot:
-      protocol_id: 692
-    minecraft:entity.shulker.teleport:
-      protocol_id: 693
-    minecraft:entity.shulker_bullet.hit:
-      protocol_id: 685
-    minecraft:entity.shulker_bullet.hurt:
       protocol_id: 686
-    minecraft:entity.silverfish.ambient:
+    minecraft:entity.shulker.close:
+      protocol_id: 691
+    minecraft:entity.shulker.death:
+      protocol_id: 692
+    minecraft:entity.shulker.hurt:
+      protocol_id: 693
+    minecraft:entity.shulker.hurt_closed:
       protocol_id: 694
-    minecraft:entity.silverfish.death:
+    minecraft:entity.shulker.open:
       protocol_id: 695
-    minecraft:entity.silverfish.hurt:
+    minecraft:entity.shulker.shoot:
       protocol_id: 696
-    minecraft:entity.silverfish.step:
+    minecraft:entity.shulker.teleport:
       protocol_id: 697
-    minecraft:entity.skeleton.ambient:
+    minecraft:entity.shulker_bullet.hit:
+      protocol_id: 689
+    minecraft:entity.shulker_bullet.hurt:
+      protocol_id: 690
+    minecraft:entity.silverfish.ambient:
       protocol_id: 698
-    minecraft:entity.skeleton.death:
+    minecraft:entity.silverfish.death:
       protocol_id: 699
-    minecraft:entity.skeleton.hurt:
-      protocol_id: 708
-    minecraft:entity.skeleton.shoot:
-      protocol_id: 709
-    minecraft:entity.skeleton.step:
-      protocol_id: 710
-    minecraft:entity.skeleton_horse.ambient:
+    minecraft:entity.silverfish.hurt:
       protocol_id: 700
-    minecraft:entity.skeleton_horse.ambient_water:
-      protocol_id: 704
-    minecraft:entity.skeleton_horse.death:
+    minecraft:entity.silverfish.step:
       protocol_id: 701
-    minecraft:entity.skeleton_horse.gallop_water:
-      protocol_id: 705
-    minecraft:entity.skeleton_horse.hurt:
+    minecraft:entity.skeleton.ambient:
       protocol_id: 702
-    minecraft:entity.skeleton_horse.jump_water:
-      protocol_id: 706
-    minecraft:entity.skeleton_horse.step_water:
-      protocol_id: 707
-    minecraft:entity.skeleton_horse.swim:
+    minecraft:entity.skeleton.death:
       protocol_id: 703
-    minecraft:entity.slime.attack:
-      protocol_id: 711
-    minecraft:entity.slime.death:
+    minecraft:entity.skeleton.hurt:
       protocol_id: 712
-    minecraft:entity.slime.death_small:
-      protocol_id: 732
-    minecraft:entity.slime.hurt:
+    minecraft:entity.skeleton.shoot:
       protocol_id: 713
-    minecraft:entity.slime.hurt_small:
-      protocol_id: 733
-    minecraft:entity.slime.jump:
+    minecraft:entity.skeleton.step:
       protocol_id: 714
-    minecraft:entity.slime.jump_small:
-      protocol_id: 734
-    minecraft:entity.slime.squish:
+    minecraft:entity.skeleton_horse.ambient:
+      protocol_id: 704
+    minecraft:entity.skeleton_horse.ambient_water:
+      protocol_id: 708
+    minecraft:entity.skeleton_horse.death:
+      protocol_id: 705
+    minecraft:entity.skeleton_horse.gallop_water:
+      protocol_id: 709
+    minecraft:entity.skeleton_horse.hurt:
+      protocol_id: 706
+    minecraft:entity.skeleton_horse.jump_water:
+      protocol_id: 710
+    minecraft:entity.skeleton_horse.step_water:
+      protocol_id: 711
+    minecraft:entity.skeleton_horse.swim:
+      protocol_id: 707
+    minecraft:entity.slime.attack:
       protocol_id: 715
-    minecraft:entity.slime.squish_small:
-      protocol_id: 735
-    minecraft:entity.snow_golem.ambient:
-      protocol_id: 741
-    minecraft:entity.snow_golem.death:
-      protocol_id: 742
-    minecraft:entity.snow_golem.hurt:
-      protocol_id: 743
-    minecraft:entity.snow_golem.shear:
-      protocol_id: 745
-    minecraft:entity.snow_golem.shoot:
-      protocol_id: 744
-    minecraft:entity.snowball.throw:
+    minecraft:entity.slime.death:
+      protocol_id: 716
+    minecraft:entity.slime.death_small:
+      protocol_id: 736
+    minecraft:entity.slime.hurt:
+      protocol_id: 717
+    minecraft:entity.slime.hurt_small:
+      protocol_id: 737
+    minecraft:entity.slime.jump:
+      protocol_id: 718
+    minecraft:entity.slime.jump_small:
       protocol_id: 738
-    minecraft:entity.spider.ambient:
+    minecraft:entity.slime.squish:
+      protocol_id: 719
+    minecraft:entity.slime.squish_small:
+      protocol_id: 739
+    minecraft:entity.snow_golem.ambient:
+      protocol_id: 745
+    minecraft:entity.snow_golem.death:
+      protocol_id: 746
+    minecraft:entity.snow_golem.hurt:
+      protocol_id: 747
+    minecraft:entity.snow_golem.shear:
       protocol_id: 749
-    minecraft:entity.spider.death:
-      protocol_id: 750
-    minecraft:entity.spider.hurt:
-      protocol_id: 751
-    minecraft:entity.spider.step:
-      protocol_id: 752
-    minecraft:entity.splash_potion.break:
+    minecraft:entity.snow_golem.shoot:
+      protocol_id: 748
+    minecraft:entity.snowball.throw:
+      protocol_id: 742
+    minecraft:entity.spider.ambient:
       protocol_id: 753
-    minecraft:entity.splash_potion.throw:
+    minecraft:entity.spider.death:
       protocol_id: 754
-    minecraft:entity.squid.ambient:
+    minecraft:entity.spider.hurt:
       protocol_id: 755
-    minecraft:entity.squid.death:
+    minecraft:entity.spider.step:
       protocol_id: 756
-    minecraft:entity.squid.hurt:
+    minecraft:entity.splash_potion.break:
       protocol_id: 757
-    minecraft:entity.squid.squirt:
+    minecraft:entity.splash_potion.throw:
       protocol_id: 758
+    minecraft:entity.squid.ambient:
+      protocol_id: 759
+    minecraft:entity.squid.death:
+      protocol_id: 760
+    minecraft:entity.squid.hurt:
+      protocol_id: 761
+    minecraft:entity.squid.squirt:
+      protocol_id: 762
     minecraft:entity.stray.ambient:
-      protocol_id: 768
+      protocol_id: 772
     minecraft:entity.stray.death:
-      protocol_id: 769
+      protocol_id: 773
     minecraft:entity.stray.hurt:
-      protocol_id: 770
+      protocol_id: 774
     minecraft:entity.stray.step:
-      protocol_id: 771
+      protocol_id: 775
     minecraft:entity.tnt.primed:
-      protocol_id: 776
+      protocol_id: 780
     minecraft:entity.tropical_fish.ambient:
-      protocol_id: 790
-    minecraft:entity.tropical_fish.death:
-      protocol_id: 791
-    minecraft:entity.tropical_fish.flop:
-      protocol_id: 792
-    minecraft:entity.tropical_fish.hurt:
-      protocol_id: 793
-    minecraft:entity.turtle.ambient_land:
       protocol_id: 794
-    minecraft:entity.turtle.death:
+    minecraft:entity.tropical_fish.death:
       protocol_id: 795
-    minecraft:entity.turtle.death_baby:
+    minecraft:entity.tropical_fish.flop:
       protocol_id: 796
-    minecraft:entity.turtle.egg_break:
+    minecraft:entity.tropical_fish.hurt:
       protocol_id: 797
-    minecraft:entity.turtle.egg_crack:
+    minecraft:entity.turtle.ambient_land:
       protocol_id: 798
-    minecraft:entity.turtle.egg_hatch:
+    minecraft:entity.turtle.death:
       protocol_id: 799
-    minecraft:entity.turtle.hurt:
+    minecraft:entity.turtle.death_baby:
       protocol_id: 800
-    minecraft:entity.turtle.hurt_baby:
+    minecraft:entity.turtle.egg_break:
       protocol_id: 801
-    minecraft:entity.turtle.lay_egg:
+    minecraft:entity.turtle.egg_crack:
       protocol_id: 802
-    minecraft:entity.turtle.shamble:
+    minecraft:entity.turtle.egg_hatch:
       protocol_id: 803
-    minecraft:entity.turtle.shamble_baby:
+    minecraft:entity.turtle.hurt:
       protocol_id: 804
-    minecraft:entity.turtle.swim:
+    minecraft:entity.turtle.hurt_baby:
       protocol_id: 805
+    minecraft:entity.turtle.lay_egg:
+      protocol_id: 806
+    minecraft:entity.turtle.shamble:
+      protocol_id: 807
+    minecraft:entity.turtle.shamble_baby:
+      protocol_id: 808
+    minecraft:entity.turtle.swim:
+      protocol_id: 809
     minecraft:entity.vex.ambient:
-      protocol_id: 815
-    minecraft:entity.vex.charge:
-      protocol_id: 816
-    minecraft:entity.vex.death:
-      protocol_id: 817
-    minecraft:entity.vex.hurt:
-      protocol_id: 818
-    minecraft:entity.villager.ambient:
       protocol_id: 819
-    minecraft:entity.villager.celebrate:
+    minecraft:entity.vex.charge:
       protocol_id: 820
-    minecraft:entity.villager.death:
+    minecraft:entity.vex.death:
       protocol_id: 821
-    minecraft:entity.villager.hurt:
+    minecraft:entity.vex.hurt:
       protocol_id: 822
-    minecraft:entity.villager.no:
+    minecraft:entity.villager.ambient:
       protocol_id: 823
-    minecraft:entity.villager.trade:
+    minecraft:entity.villager.celebrate:
       protocol_id: 824
-    minecraft:entity.villager.work_armorer:
-      protocol_id: 826
-    minecraft:entity.villager.work_butcher:
-      protocol_id: 827
-    minecraft:entity.villager.work_cartographer:
-      protocol_id: 828
-    minecraft:entity.villager.work_cleric:
-      protocol_id: 829
-    minecraft:entity.villager.work_farmer:
-      protocol_id: 830
-    minecraft:entity.villager.work_fisherman:
-      protocol_id: 831
-    minecraft:entity.villager.work_fletcher:
-      protocol_id: 832
-    minecraft:entity.villager.work_leatherworker:
-      protocol_id: 833
-    minecraft:entity.villager.work_librarian:
-      protocol_id: 834
-    minecraft:entity.villager.work_mason:
-      protocol_id: 835
-    minecraft:entity.villager.work_shepherd:
-      protocol_id: 836
-    minecraft:entity.villager.work_toolsmith:
-      protocol_id: 837
-    minecraft:entity.villager.work_weaponsmith:
-      protocol_id: 838
-    minecraft:entity.villager.yes:
+    minecraft:entity.villager.death:
       protocol_id: 825
-    minecraft:entity.vindicator.ambient:
+    minecraft:entity.villager.hurt:
+      protocol_id: 826
+    minecraft:entity.villager.no:
+      protocol_id: 827
+    minecraft:entity.villager.trade:
+      protocol_id: 828
+    minecraft:entity.villager.work_armorer:
+      protocol_id: 830
+    minecraft:entity.villager.work_butcher:
+      protocol_id: 831
+    minecraft:entity.villager.work_cartographer:
+      protocol_id: 832
+    minecraft:entity.villager.work_cleric:
+      protocol_id: 833
+    minecraft:entity.villager.work_farmer:
+      protocol_id: 834
+    minecraft:entity.villager.work_fisherman:
+      protocol_id: 835
+    minecraft:entity.villager.work_fletcher:
+      protocol_id: 836
+    minecraft:entity.villager.work_leatherworker:
+      protocol_id: 837
+    minecraft:entity.villager.work_librarian:
+      protocol_id: 838
+    minecraft:entity.villager.work_mason:
       protocol_id: 839
-    minecraft:entity.vindicator.celebrate:
+    minecraft:entity.villager.work_shepherd:
       protocol_id: 840
-    minecraft:entity.vindicator.death:
+    minecraft:entity.villager.work_toolsmith:
       protocol_id: 841
-    minecraft:entity.vindicator.hurt:
+    minecraft:entity.villager.work_weaponsmith:
       protocol_id: 842
-    minecraft:entity.wandering_trader.ambient:
+    minecraft:entity.villager.yes:
+      protocol_id: 829
+    minecraft:entity.vindicator.ambient:
+      protocol_id: 843
+    minecraft:entity.vindicator.celebrate:
+      protocol_id: 844
+    minecraft:entity.vindicator.death:
       protocol_id: 845
-    minecraft:entity.wandering_trader.death:
+    minecraft:entity.vindicator.hurt:
       protocol_id: 846
-    minecraft:entity.wandering_trader.disappeared:
-      protocol_id: 847
-    minecraft:entity.wandering_trader.drink_milk:
-      protocol_id: 848
-    minecraft:entity.wandering_trader.drink_potion:
+    minecraft:entity.wandering_trader.ambient:
       protocol_id: 849
-    minecraft:entity.wandering_trader.hurt:
+    minecraft:entity.wandering_trader.death:
       protocol_id: 850
-    minecraft:entity.wandering_trader.no:
+    minecraft:entity.wandering_trader.disappeared:
       protocol_id: 851
-    minecraft:entity.wandering_trader.reappeared:
+    minecraft:entity.wandering_trader.drink_milk:
       protocol_id: 852
-    minecraft:entity.wandering_trader.trade:
+    minecraft:entity.wandering_trader.drink_potion:
       protocol_id: 853
-    minecraft:entity.wandering_trader.yes:
+    minecraft:entity.wandering_trader.hurt:
       protocol_id: 854
+    minecraft:entity.wandering_trader.no:
+      protocol_id: 855
+    minecraft:entity.wandering_trader.reappeared:
+      protocol_id: 856
+    minecraft:entity.wandering_trader.trade:
+      protocol_id: 857
+    minecraft:entity.wandering_trader.yes:
+      protocol_id: 858
     minecraft:entity.witch.ambient:
-      protocol_id: 863
-    minecraft:entity.witch.celebrate:
-      protocol_id: 864
-    minecraft:entity.witch.death:
-      protocol_id: 865
-    minecraft:entity.witch.drink:
-      protocol_id: 866
-    minecraft:entity.witch.hurt:
       protocol_id: 867
-    minecraft:entity.witch.throw:
+    minecraft:entity.witch.celebrate:
       protocol_id: 868
-    minecraft:entity.wither.ambient:
+    minecraft:entity.witch.death:
       protocol_id: 869
-    minecraft:entity.wither.break_block:
+    minecraft:entity.witch.drink:
       protocol_id: 870
-    minecraft:entity.wither.death:
+    minecraft:entity.witch.hurt:
       protocol_id: 871
-    minecraft:entity.wither.hurt:
+    minecraft:entity.witch.throw:
       protocol_id: 872
-    minecraft:entity.wither.shoot:
+    minecraft:entity.wither.ambient:
       protocol_id: 873
-    minecraft:entity.wither.spawn:
-      protocol_id: 878
-    minecraft:entity.wither_skeleton.ambient:
+    minecraft:entity.wither.break_block:
       protocol_id: 874
-    minecraft:entity.wither_skeleton.death:
+    minecraft:entity.wither.death:
       protocol_id: 875
-    minecraft:entity.wither_skeleton.hurt:
+    minecraft:entity.wither.hurt:
       protocol_id: 876
-    minecraft:entity.wither_skeleton.step:
+    minecraft:entity.wither.shoot:
       protocol_id: 877
-    minecraft:entity.wolf.ambient:
-      protocol_id: 879
-    minecraft:entity.wolf.death:
-      protocol_id: 880
-    minecraft:entity.wolf.growl:
-      protocol_id: 881
-    minecraft:entity.wolf.howl:
+    minecraft:entity.wither.spawn:
       protocol_id: 882
-    minecraft:entity.wolf.hurt:
+    minecraft:entity.wither_skeleton.ambient:
+      protocol_id: 878
+    minecraft:entity.wither_skeleton.death:
+      protocol_id: 879
+    minecraft:entity.wither_skeleton.hurt:
+      protocol_id: 880
+    minecraft:entity.wither_skeleton.step:
+      protocol_id: 881
+    minecraft:entity.wolf.ambient:
       protocol_id: 883
-    minecraft:entity.wolf.pant:
+    minecraft:entity.wolf.death:
       protocol_id: 884
-    minecraft:entity.wolf.shake:
+    minecraft:entity.wolf.growl:
       protocol_id: 885
-    minecraft:entity.wolf.step:
+    minecraft:entity.wolf.howl:
       protocol_id: 886
-    minecraft:entity.wolf.whine:
+    minecraft:entity.wolf.hurt:
       protocol_id: 887
+    minecraft:entity.wolf.pant:
+      protocol_id: 888
+    minecraft:entity.wolf.shake:
+      protocol_id: 889
+    minecraft:entity.wolf.step:
+      protocol_id: 890
+    minecraft:entity.wolf.whine:
+      protocol_id: 891
     minecraft:entity.zombie.ambient:
-      protocol_id: 906
-    minecraft:entity.zombie.attack_iron_door:
-      protocol_id: 908
-    minecraft:entity.zombie.attack_wooden_door:
-      protocol_id: 907
-    minecraft:entity.zombie.break_wooden_door:
-      protocol_id: 909
-    minecraft:entity.zombie.converted_to_drowned:
       protocol_id: 910
-    minecraft:entity.zombie.death:
-      protocol_id: 911
-    minecraft:entity.zombie.destroy_egg:
+    minecraft:entity.zombie.attack_iron_door:
       protocol_id: 912
-    minecraft:entity.zombie.hurt:
-      protocol_id: 916
-    minecraft:entity.zombie.infect:
-      protocol_id: 917
-    minecraft:entity.zombie.step:
-      protocol_id: 922
-    minecraft:entity.zombie_horse.ambient:
+    minecraft:entity.zombie.attack_wooden_door:
+      protocol_id: 911
+    minecraft:entity.zombie.break_wooden_door:
       protocol_id: 913
-    minecraft:entity.zombie_horse.death:
+    minecraft:entity.zombie.converted_to_drowned:
       protocol_id: 914
-    minecraft:entity.zombie_horse.hurt:
+    minecraft:entity.zombie.death:
       protocol_id: 915
-    minecraft:entity.zombie_villager.ambient:
-      protocol_id: 923
-    minecraft:entity.zombie_villager.converted:
-      protocol_id: 924
-    minecraft:entity.zombie_villager.cure:
-      protocol_id: 925
-    minecraft:entity.zombie_villager.death:
-      protocol_id: 926
-    minecraft:entity.zombie_villager.hurt:
-      protocol_id: 927
-    minecraft:entity.zombie_villager.step:
-      protocol_id: 928
-    minecraft:entity.zombified_piglin.ambient:
-      protocol_id: 918
-    minecraft:entity.zombified_piglin.angry:
-      protocol_id: 919
-    minecraft:entity.zombified_piglin.death:
+    minecraft:entity.zombie.destroy_egg:
+      protocol_id: 916
+    minecraft:entity.zombie.hurt:
       protocol_id: 920
-    minecraft:entity.zombified_piglin.hurt:
+    minecraft:entity.zombie.infect:
       protocol_id: 921
+    minecraft:entity.zombie.step:
+      protocol_id: 926
+    minecraft:entity.zombie_horse.ambient:
+      protocol_id: 917
+    minecraft:entity.zombie_horse.death:
+      protocol_id: 918
+    minecraft:entity.zombie_horse.hurt:
+      protocol_id: 919
+    minecraft:entity.zombie_villager.ambient:
+      protocol_id: 927
+    minecraft:entity.zombie_villager.converted:
+      protocol_id: 928
+    minecraft:entity.zombie_villager.cure:
+      protocol_id: 929
+    minecraft:entity.zombie_villager.death:
+      protocol_id: 930
+    minecraft:entity.zombie_villager.hurt:
+      protocol_id: 931
+    minecraft:entity.zombie_villager.step:
+      protocol_id: 932
+    minecraft:entity.zombified_piglin.ambient:
+      protocol_id: 922
+    minecraft:entity.zombified_piglin.angry:
+      protocol_id: 923
+    minecraft:entity.zombified_piglin.death:
+      protocol_id: 924
+    minecraft:entity.zombified_piglin.hurt:
+      protocol_id: 925
     minecraft:event.raid.horn:
       protocol_id: 640
     minecraft:item.armor.equip_chain:
@@ -6872,31 +6890,31 @@ minecraft:sound_event:
     minecraft:item.nether_wart.plant:
       protocol_id: 465
     minecraft:item.shield.block:
-      protocol_id: 674
+      protocol_id: 678
     minecraft:item.shield.break:
-      protocol_id: 675
+      protocol_id: 679
     minecraft:item.shovel.flatten:
-      protocol_id: 681
+      protocol_id: 685
     minecraft:item.sweet_berries.pick_from_bush:
-      protocol_id: 774
-    minecraft:item.totem.use:
-      protocol_id: 777
-    minecraft:item.trident.hit:
       protocol_id: 778
-    minecraft:item.trident.hit_ground:
-      protocol_id: 779
-    minecraft:item.trident.return:
-      protocol_id: 780
-    minecraft:item.trident.riptide_1:
+    minecraft:item.totem.use:
       protocol_id: 781
-    minecraft:item.trident.riptide_2:
+    minecraft:item.trident.hit:
       protocol_id: 782
-    minecraft:item.trident.riptide_3:
+    minecraft:item.trident.hit_ground:
       protocol_id: 783
-    minecraft:item.trident.throw:
+    minecraft:item.trident.return:
       protocol_id: 784
-    minecraft:item.trident.thunder:
+    minecraft:item.trident.riptide_1:
       protocol_id: 785
+    minecraft:item.trident.riptide_2:
+      protocol_id: 786
+    minecraft:item.trident.riptide_3:
+      protocol_id: 787
+    minecraft:item.trident.throw:
+      protocol_id: 788
+    minecraft:item.trident.thunder:
+      protocol_id: 789
     minecraft:music.creative:
       protocol_id: 439
     minecraft:music.credits:
@@ -6938,29 +6956,29 @@ minecraft:sound_event:
     minecraft:music_disc.ward:
       protocol_id: 452
     minecraft:particle.soul_escape:
-      protocol_id: 731
+      protocol_id: 735
     minecraft:ui.button.click:
-      protocol_id: 806
-    minecraft:ui.cartography_table.take_result:
-      protocol_id: 809
-    minecraft:ui.loom.select_pattern:
-      protocol_id: 807
-    minecraft:ui.loom.take_result:
-      protocol_id: 808
-    minecraft:ui.stonecutter.select_recipe:
-      protocol_id: 811
-    minecraft:ui.stonecutter.take_result:
       protocol_id: 810
-    minecraft:ui.toast.challenge_complete:
-      protocol_id: 812
-    minecraft:ui.toast.in:
+    minecraft:ui.cartography_table.take_result:
       protocol_id: 813
-    minecraft:ui.toast.out:
+    minecraft:ui.loom.select_pattern:
+      protocol_id: 811
+    minecraft:ui.loom.take_result:
+      protocol_id: 812
+    minecraft:ui.stonecutter.select_recipe:
+      protocol_id: 815
+    minecraft:ui.stonecutter.take_result:
       protocol_id: 814
+    minecraft:ui.toast.challenge_complete:
+      protocol_id: 816
+    minecraft:ui.toast.in:
+      protocol_id: 817
+    minecraft:ui.toast.out:
+      protocol_id: 818
     minecraft:weather.rain:
-      protocol_id: 856
+      protocol_id: 860
     minecraft:weather.rain.above:
-      protocol_id: 857
+      protocol_id: 861
   protocol_id: 0
 minecraft:stat_type:
   entries:

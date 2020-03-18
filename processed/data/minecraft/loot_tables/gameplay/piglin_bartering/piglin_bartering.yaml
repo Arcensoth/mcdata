@@ -6,7 +6,7 @@ pools:
     - enchantments:
       - minecraft:soul_speed
       function: minecraft:enchant_randomly
-    name: minecraft:enchanted_book
+    name: minecraft:book
     type: minecraft:item
   - functions:
     - enchantments:

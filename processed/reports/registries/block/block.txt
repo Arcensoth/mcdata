@@ -195,6 +195,7 @@ minecraft:netherrack
 minecraft:soul_sand
 minecraft:soul_soil
 minecraft:basalt
+minecraft:polished_basalt
 minecraft:soul_fire_torch
 minecraft:soul_fire_wall_torch
 minecraft:glowstone
@@ -732,6 +733,7 @@ minecraft:honeycomb_block
 minecraft:netherite_block
 minecraft:ancient_debris
 minecraft:crying_obsidian
+minecraft:respawn_anchor
 minecraft:potted_crimson_fungus
 minecraft:potted_warped_fungus
 minecraft:potted_crimson_roots

@@ -24,6 +24,11 @@ criteria:
       parent:
         type: minecraft:fox
     trigger: minecraft:bred_animals
+  minecraft:hoglin:
+    conditions:
+      parent:
+        type: minecraft:hoglin
+    trigger: minecraft:bred_animals
   minecraft:horse:
     conditions:
       parent:
@@ -102,5 +107,6 @@ requirements:
 - - minecraft:panda
 - - minecraft:fox
 - - minecraft:bee
+- - minecraft:hoglin
 rewards:
   experience: 100

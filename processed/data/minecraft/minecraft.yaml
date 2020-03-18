@@ -235,6 +235,7 @@ advancements:
 - minecraft:recipes/building_blocks/polished_andesite_stairs
 - minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting
 - minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting
+- minecraft:recipes/building_blocks/polished_basalt
 - minecraft:recipes/building_blocks/polished_diorite
 - minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting
 - minecraft:recipes/building_blocks/polished_diorite_slab
@@ -562,6 +563,7 @@ advancements:
 - minecraft:recipes/decorations/red_sandstone_wall_from_red_sandstone_stonecutting
 - minecraft:recipes/decorations/red_stained_glass_pane
 - minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane
+- minecraft:recipes/decorations/respawn_anchor
 - minecraft:recipes/decorations/sandstone_wall
 - minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting
 - minecraft:recipes/decorations/scaffolding
@@ -1295,6 +1297,7 @@ loot_tables:
 - minecraft:blocks/polished_andesite
 - minecraft:blocks/polished_andesite_slab
 - minecraft:blocks/polished_andesite_stairs
+- minecraft:blocks/polished_basalt
 - minecraft:blocks/polished_diorite
 - minecraft:blocks/polished_diorite_slab
 - minecraft:blocks/polished_diorite_stairs
@@ -1391,6 +1394,7 @@ loot_tables:
 - minecraft:blocks/red_tulip
 - minecraft:blocks/red_wool
 - minecraft:blocks/repeater
+- minecraft:blocks/respawn_anchor
 - minecraft:blocks/rose_bush
 - minecraft:blocks/sand
 - minecraft:blocks/sandstone
@@ -2226,6 +2230,7 @@ recipes:
 - minecraft:polished_andesite_stairs
 - minecraft:polished_andesite_stairs_from_andesite_stonecutting
 - minecraft:polished_andesite_stairs_from_polished_andesite_stonecutting
+- minecraft:polished_basalt
 - minecraft:polished_diorite
 - minecraft:polished_diorite_from_diorite_stonecutting
 - minecraft:polished_diorite_slab
@@ -2328,6 +2333,7 @@ recipes:
 - minecraft:red_wool
 - minecraft:repair_item
 - minecraft:repeater
+- minecraft:respawn_anchor
 - minecraft:sandstone
 - minecraft:sandstone_slab
 - minecraft:sandstone_slab_from_sandstone_stonecutting
@@ -2520,6 +2526,7 @@ tags:
   - minecraft:signs
   - minecraft:slabs
   - minecraft:small_flowers
+  - minecraft:soul_fire_base_blocks
   - minecraft:soul_speed_blocks
   - minecraft:spruce_logs
   - minecraft:stairs

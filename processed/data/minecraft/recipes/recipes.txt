@@ -550,6 +550,7 @@ minecraft:polished_andesite_slab_from_polished_andesite_stonecutting
 minecraft:polished_andesite_stairs
 minecraft:polished_andesite_stairs_from_andesite_stonecutting
 minecraft:polished_andesite_stairs_from_polished_andesite_stonecutting
+minecraft:polished_basalt
 minecraft:polished_diorite
 minecraft:polished_diorite_from_diorite_stonecutting
 minecraft:polished_diorite_slab
@@ -652,6 +653,7 @@ minecraft:red_terracotta
 minecraft:red_wool
 minecraft:repair_item
 minecraft:repeater
+minecraft:respawn_anchor
 minecraft:sandstone
 minecraft:sandstone_slab
 minecraft:sandstone_slab_from_sandstone_stonecutting

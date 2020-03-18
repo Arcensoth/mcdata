@@ -59,16 +59,16 @@
     "minecraft:stripped_jungle_wood",
     "minecraft:stripped_acacia_wood",
     "minecraft:stripped_dark_oak_wood",
-    "minecraft:stripped_warped_hyphae",
     "minecraft:stripped_crimson_hyphae",
+    "minecraft:stripped_warped_hyphae",
     "minecraft:oak_wood",
     "minecraft:spruce_wood",
     "minecraft:birch_wood",
     "minecraft:jungle_wood",
     "minecraft:acacia_wood",
     "minecraft:dark_oak_wood",
-    "minecraft:warped_hyphae",
     "minecraft:crimson_hyphae",
+    "minecraft:warped_hyphae",
     "minecraft:oak_leaves",
     "minecraft:spruce_leaves",
     "minecraft:birch_leaves",
@@ -219,6 +219,7 @@
     "minecraft:soul_sand",
     "minecraft:soul_soil",
     "minecraft:basalt",
+    "minecraft:polished_basalt",
     "minecraft:soul_fire_torch",
     "minecraft:glowstone",
     "minecraft:jack_o_lantern",
@@ -944,6 +945,7 @@
     "minecraft:netherite_ingot",
     "minecraft:netherite_scrap",
     "minecraft:target",
-    "minecraft:crying_obsidian"
+    "minecraft:crying_obsidian",
+    "minecraft:respawn_anchor"
   ]
 }

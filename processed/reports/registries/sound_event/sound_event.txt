@@ -653,6 +653,10 @@ minecraft:block.nether_ore.hit
 minecraft:block.nether_ore.place
 minecraft:block.nether_ore.step
 minecraft:block.redstone_torch.burnout
+minecraft:block.respawn_anchor.ambient
+minecraft:block.respawn_anchor.charge
+minecraft:block.respawn_anchor.deplete
+minecraft:block.respawn_anchor.set_spawn
 minecraft:entity.salmon.ambient
 minecraft:entity.salmon.death
 minecraft:entity.salmon.flop

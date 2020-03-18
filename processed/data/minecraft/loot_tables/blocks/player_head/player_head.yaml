@@ -4,7 +4,7 @@ pools:
     - function: minecraft:copy_nbt
       ops:
       - op: replace
-        source: Owner
+        source: SkullOwner
         target: SkullOwner
       source: block_entity
     name: minecraft:player_head

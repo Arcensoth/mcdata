@@ -69,6 +69,7 @@
     "minecraft:warped_spore",
     "minecraft:dripping_obsidian_tear",
     "minecraft:falling_obsidian_tear",
-    "minecraft:landing_obsidian_tear"
+    "minecraft:landing_obsidian_tear",
+    "minecraft:reverse_portal"
   ]
 }
