@@ -20,7 +20,9 @@ minecraft:jungle_logs
 minecraft:leaves
 minecraft:lectern_books
 minecraft:logs
+minecraft:logs_that_burn
 minecraft:music_discs
+minecraft:non_flammable_wood
 minecraft:oak_logs
 minecraft:piglin_repellents
 minecraft:planks

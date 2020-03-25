@@ -8,13 +8,14 @@ pools:
       function: minecraft:enchant_randomly
     name: minecraft:book
     type: minecraft:item
+    weight: 5
   - functions:
     - enchantments:
       - minecraft:soul_speed
       function: minecraft:enchant_randomly
     name: minecraft:iron_boots
     type: minecraft:item
-    weight: 5
+    weight: 8
   - functions:
     - function: minecraft:set_nbt
       tag: '{Potion:"minecraft:fire_resistance"}'

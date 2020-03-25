@@ -738,3 +738,4 @@ minecraft:potted_crimson_fungus
 minecraft:potted_warped_fungus
 minecraft:potted_crimson_roots
 minecraft:potted_warped_roots
+minecraft:lodestone

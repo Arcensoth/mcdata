@@ -30,6 +30,8 @@ minecraft:impermeable
 minecraft:jungle_logs
 minecraft:leaves
 minecraft:logs
+minecraft:logs_that_burn
+minecraft:non_flammable_wood
 minecraft:nylium
 minecraft:oak_logs
 minecraft:piglin_repellents
@@ -48,6 +50,7 @@ minecraft:spruce_logs
 minecraft:stairs
 minecraft:standing_signs
 minecraft:stone_bricks
+minecraft:strider_warm_blocks
 minecraft:tall_flowers
 minecraft:trapdoors
 minecraft:underwater_bonemeals

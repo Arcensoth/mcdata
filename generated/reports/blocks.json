@@ -157203,52 +157203,94 @@
   },
   "minecraft:jigsaw": {
     "properties": {
-      "facing": [
-        "north",
-        "east",
-        "south",
-        "west",
-        "up",
-        "down"
+      "orientation": [
+        "down_east",
+        "down_north",
+        "down_south",
+        "down_west",
+        "up_east",
+        "up_north",
+        "up_south",
+        "up_west",
+        "west_up",
+        "east_up",
+        "north_up",
+        "south_up"
       ]
     },
     "states": [
       {
         "properties": {
-          "facing": "north"
+          "orientation": "down_east"
         },
         "id": 15705
       },
       {
         "properties": {
-          "facing": "east"
+          "orientation": "down_north"
         },
         "id": 15706
       },
       {
         "properties": {
-          "facing": "south"
+          "orientation": "down_south"
         },
         "id": 15707
       },
       {
         "properties": {
-          "facing": "west"
+          "orientation": "down_west"
         },
         "id": 15708
       },
       {
         "properties": {
-          "facing": "up"
+          "orientation": "up_east"
         },
-        "id": 15709,
+        "id": 15709
+      },
+      {
+        "properties": {
+          "orientation": "up_north"
+        },
+        "id": 15710
+      },
+      {
+        "properties": {
+          "orientation": "up_south"
+        },
+        "id": 15711
+      },
+      {
+        "properties": {
+          "orientation": "up_west"
+        },
+        "id": 15712
+      },
+      {
+        "properties": {
+          "orientation": "west_up"
+        },
+        "id": 15713
+      },
+      {
+        "properties": {
+          "orientation": "east_up"
+        },
+        "id": 15714
+      },
+      {
+        "properties": {
+          "orientation": "north_up"
+        },
+        "id": 15715,
         "default": true
       },
       {
         "properties": {
-          "facing": "down"
+          "orientation": "south_up"
         },
-        "id": 15710
+        "id": 15716
       }
     ]
   },
@@ -157271,56 +157313,56 @@
         "properties": {
           "level": "0"
         },
-        "id": 15711,
+        "id": 15717,
         "default": true
       },
       {
         "properties": {
           "level": "1"
         },
-        "id": 15712
+        "id": 15718
       },
       {
         "properties": {
           "level": "2"
         },
-        "id": 15713
+        "id": 15719
       },
       {
         "properties": {
           "level": "3"
         },
-        "id": 15714
+        "id": 15720
       },
       {
         "properties": {
           "level": "4"
         },
-        "id": 15715
+        "id": 15721
       },
       {
         "properties": {
           "level": "5"
         },
-        "id": 15716
+        "id": 15722
       },
       {
         "properties": {
           "level": "6"
         },
-        "id": 15717
+        "id": 15723
       },
       {
         "properties": {
           "level": "7"
         },
-        "id": 15718
+        "id": 15724
       },
       {
         "properties": {
           "level": "8"
         },
-        "id": 15719
+        "id": 15725
       }
     ]
   },
@@ -157350,98 +157392,98 @@
         "properties": {
           "power": "0"
         },
-        "id": 15720,
+        "id": 15726,
         "default": true
       },
       {
         "properties": {
           "power": "1"
         },
-        "id": 15721
+        "id": 15727
       },
       {
         "properties": {
           "power": "2"
         },
-        "id": 15722
+        "id": 15728
       },
       {
         "properties": {
           "power": "3"
         },
-        "id": 15723
+        "id": 15729
       },
       {
         "properties": {
           "power": "4"
         },
-        "id": 15724
+        "id": 15730
       },
       {
         "properties": {
           "power": "5"
         },
-        "id": 15725
+        "id": 15731
       },
       {
         "properties": {
           "power": "6"
         },
-        "id": 15726
+        "id": 15732
       },
       {
         "properties": {
           "power": "7"
         },
-        "id": 15727
+        "id": 15733
       },
       {
         "properties": {
           "power": "8"
         },
-        "id": 15728
+        "id": 15734
       },
       {
         "properties": {
           "power": "9"
         },
-        "id": 15729
+        "id": 15735
       },
       {
         "properties": {
           "power": "10"
         },
-        "id": 15730
+        "id": 15736
       },
       {
         "properties": {
           "power": "11"
         },
-        "id": 15731
+        "id": 15737
       },
       {
         "properties": {
           "power": "12"
         },
-        "id": 15732
+        "id": 15738
       },
       {
         "properties": {
           "power": "13"
         },
-        "id": 15733
+        "id": 15739
       },
       {
         "properties": {
           "power": "14"
         },
-        "id": 15734
+        "id": 15740
       },
       {
         "properties": {
           "power": "15"
         },
-        "id": 15735
+        "id": 15741
       }
     ]
   },
@@ -157468,7 +157510,7 @@
           "facing": "north",
           "honey_level": "0"
         },
-        "id": 15736,
+        "id": 15742,
         "default": true
       },
       {
@@ -157476,161 +157518,161 @@
           "facing": "north",
           "honey_level": "1"
         },
-        "id": 15737
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "2"
-        },
-        "id": 15738
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "3"
-        },
-        "id": 15739
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "4"
-        },
-        "id": 15740
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "5"
-        },
-        "id": 15741
-      },
-      {
-        "properties": {
-          "facing": "south",
-          "honey_level": "0"
-        },
-        "id": 15742
-      },
-      {
-        "properties": {
-          "facing": "south",
-          "honey_level": "1"
-        },
         "id": 15743
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "2"
         },
         "id": 15744
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "3"
         },
         "id": 15745
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "4"
         },
         "id": 15746
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "5"
         },
         "id": 15747
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "0"
         },
         "id": 15748
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "1"
         },
         "id": 15749
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "2"
         },
         "id": 15750
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "3"
         },
         "id": 15751
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "4"
         },
         "id": 15752
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "5"
         },
         "id": 15753
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "0"
         },
         "id": 15754
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "1"
         },
         "id": 15755
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "2"
         },
         "id": 15756
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "3"
         },
         "id": 15757
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "4"
         },
         "id": 15758
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "5"
         },
         "id": 15759
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "0"
+        },
+        "id": 15760
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "1"
+        },
+        "id": 15761
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "2"
+        },
+        "id": 15762
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "3"
+        },
+        "id": 15763
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "4"
+        },
+        "id": 15764
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "5"
+        },
+        "id": 15765
       }
     ]
   },
@@ -157657,7 +157699,7 @@
           "facing": "north",
           "honey_level": "0"
         },
-        "id": 15760,
+        "id": 15766,
         "default": true
       },
       {
@@ -157665,168 +157707,168 @@
           "facing": "north",
           "honey_level": "1"
         },
-        "id": 15761
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "2"
-        },
-        "id": 15762
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "3"
-        },
-        "id": 15763
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "4"
-        },
-        "id": 15764
-      },
-      {
-        "properties": {
-          "facing": "north",
-          "honey_level": "5"
-        },
-        "id": 15765
-      },
-      {
-        "properties": {
-          "facing": "south",
-          "honey_level": "0"
-        },
-        "id": 15766
-      },
-      {
-        "properties": {
-          "facing": "south",
-          "honey_level": "1"
-        },
         "id": 15767
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "2"
         },
         "id": 15768
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "3"
         },
         "id": 15769
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "4"
         },
         "id": 15770
       },
       {
         "properties": {
-          "facing": "south",
+          "facing": "north",
           "honey_level": "5"
         },
         "id": 15771
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "0"
         },
         "id": 15772
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "1"
         },
         "id": 15773
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "2"
         },
         "id": 15774
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "3"
         },
         "id": 15775
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "4"
         },
         "id": 15776
       },
       {
         "properties": {
-          "facing": "west",
+          "facing": "south",
           "honey_level": "5"
         },
         "id": 15777
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "0"
         },
         "id": 15778
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "1"
         },
         "id": 15779
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "2"
         },
         "id": 15780
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "3"
         },
         "id": 15781
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "4"
         },
         "id": 15782
       },
       {
         "properties": {
-          "facing": "east",
+          "facing": "west",
           "honey_level": "5"
         },
         "id": 15783
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "0"
+        },
+        "id": 15784
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "1"
+        },
+        "id": 15785
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "2"
+        },
+        "id": 15786
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "3"
+        },
+        "id": 15787
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "4"
+        },
+        "id": 15788
+      },
+      {
+        "properties": {
+          "facing": "east",
+          "honey_level": "5"
+        },
+        "id": 15789
       }
     ]
   },
   "minecraft:honey_block": {
     "states": [
       {
-        "id": 15784,
+        "id": 15790,
         "default": true
       }
     ]
@@ -157834,7 +157876,7 @@
   "minecraft:honeycomb_block": {
     "states": [
       {
-        "id": 15785,
+        "id": 15791,
         "default": true
       }
     ]
@@ -157842,7 +157884,7 @@
   "minecraft:netherite_block": {
     "states": [
       {
-        "id": 15786,
+        "id": 15792,
         "default": true
       }
     ]
@@ -157850,7 +157892,7 @@
   "minecraft:ancient_debris": {
     "states": [
       {
-        "id": 15787,
+        "id": 15793,
         "default": true
       }
     ]
@@ -157858,7 +157900,7 @@
   "minecraft:crying_obsidian": {
     "states": [
       {
-        "id": 15788,
+        "id": 15794,
         "default": true
       }
     ]
@@ -157878,39 +157920,39 @@
         "properties": {
           "charges": "0"
         },
-        "id": 15789,
+        "id": 15795,
         "default": true
       },
       {
         "properties": {
           "charges": "1"
         },
-        "id": 15790
+        "id": 15796
       },
       {
         "properties": {
           "charges": "2"
         },
-        "id": 15791
+        "id": 15797
       },
       {
         "properties": {
           "charges": "3"
         },
-        "id": 15792
+        "id": 15798
       },
       {
         "properties": {
           "charges": "4"
         },
-        "id": 15793
+        "id": 15799
       }
     ]
   },
   "minecraft:potted_crimson_fungus": {
     "states": [
       {
-        "id": 15794,
+        "id": 15800,
         "default": true
       }
     ]
@@ -157918,7 +157960,7 @@
   "minecraft:potted_warped_fungus": {
     "states": [
       {
-        "id": 15795,
+        "id": 15801,
         "default": true
       }
     ]
@@ -157926,7 +157968,7 @@
   "minecraft:potted_crimson_roots": {
     "states": [
       {
-        "id": 15796,
+        "id": 15802,
         "default": true
       }
     ]
@@ -157934,7 +157976,15 @@
   "minecraft:potted_warped_roots": {
     "states": [
       {
-        "id": 15797,
+        "id": 15803,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:lodestone": {
+    "states": [
+      {
+        "id": 15804,
         "default": true
       }
     ]

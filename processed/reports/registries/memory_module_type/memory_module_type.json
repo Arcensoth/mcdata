@@ -44,6 +44,7 @@
     "minecraft:nearest_visible_baby_hoglin",
     "minecraft:nearest_visible_baby_piglin",
     "minecraft:nearest_targetable_player_not_wearing_gold",
+    "minecraft:nearest_adult_piglins",
     "minecraft:nearest_visible_adult_piglins",
     "minecraft:nearest_visible_adult_hoglins",
     "minecraft:nearest_visible_adult_piglin",

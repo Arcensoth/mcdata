@@ -348,6 +348,7 @@ values:
 - minecraft:blocks/lime_stained_glass_pane
 - minecraft:blocks/lime_terracotta
 - minecraft:blocks/lime_wool
+- minecraft:blocks/lodestone
 - minecraft:blocks/loom
 - minecraft:blocks/magenta_banner
 - minecraft:blocks/magenta_bed
@@ -766,6 +767,7 @@ values:
 - minecraft:entities/spider
 - minecraft:entities/squid
 - minecraft:entities/stray
+- minecraft:entities/strider
 - minecraft:entities/trader_llama
 - minecraft:entities/tropical_fish
 - minecraft:entities/turtle

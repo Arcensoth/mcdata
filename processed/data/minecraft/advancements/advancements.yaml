@@ -236,6 +236,7 @@ values:
 - minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting
 - minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting
 - minecraft:recipes/building_blocks/polished_basalt
+- minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting
 - minecraft:recipes/building_blocks/polished_diorite
 - minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting
 - minecraft:recipes/building_blocks/polished_diorite_slab
@@ -506,6 +507,7 @@ values:
 - minecraft:recipes/decorations/lime_glazed_terracotta
 - minecraft:recipes/decorations/lime_stained_glass_pane
 - minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane
+- minecraft:recipes/decorations/lodestone
 - minecraft:recipes/decorations/loom
 - minecraft:recipes/decorations/magenta_banner
 - minecraft:recipes/decorations/magenta_bed
@@ -843,6 +845,7 @@ values:
 - minecraft:recipes/transportation/rail
 - minecraft:recipes/transportation/spruce_boat
 - minecraft:recipes/transportation/tnt_minecart
+- minecraft:recipes/transportation/warped_fungus_on_a_stick
 - minecraft:story/cure_zombie_villager
 - minecraft:story/deflect_arrow
 - minecraft:story/enchant_item
