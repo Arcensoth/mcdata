@@ -1643,6 +1643,7 @@ loot_tables:
 - minecraft:entities/wither
 - minecraft:entities/wither_skeleton
 - minecraft:entities/wolf
+- minecraft:entities/zoglin
 - minecraft:entities/zombie
 - minecraft:entities/zombie_horse
 - minecraft:entities/zombie_villager

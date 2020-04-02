@@ -325,6 +325,7 @@ minecraft:item.hoe.till
 minecraft:entity.hoglin.ambient
 minecraft:entity.hoglin.angry
 minecraft:entity.hoglin.attack
+minecraft:entity.hoglin.converted_to_zombified
 minecraft:entity.hoglin.death
 minecraft:entity.hoglin.hurt
 minecraft:entity.hoglin.retreat
@@ -922,6 +923,12 @@ minecraft:block.wool.fall
 minecraft:block.wool.hit
 minecraft:block.wool.place
 minecraft:block.wool.step
+minecraft:entity.zoglin.ambient
+minecraft:entity.zoglin.angry
+minecraft:entity.zoglin.attack
+minecraft:entity.zoglin.death
+minecraft:entity.zoglin.hurt
+minecraft:entity.zoglin.step
 minecraft:entity.zombie.ambient
 minecraft:entity.zombie.attack_wooden_door
 minecraft:entity.zombie.attack_iron_door

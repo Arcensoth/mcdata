@@ -17,7 +17,6 @@ values:
 - minecraft:nether_fossil
 - minecraft:no_op
 - minecraft:normal_tree
-- minecraft:acacia_tree
 - minecraft:fancy_tree
 - minecraft:jungle_ground_bush
 - minecraft:dark_oak_tree

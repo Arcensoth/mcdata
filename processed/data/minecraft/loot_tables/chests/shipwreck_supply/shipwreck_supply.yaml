@@ -52,9 +52,9 @@ pools:
           min: 6.0
         type: minecraft:weakness
       - duration:
-          max: 7.0
-          min: 5.0
-        type: minecraft:blindness
+          max: 10.0
+          min: 7.0
+        type: minecraft:night_vision
       - duration:
           max: 20.0
           min: 10.0
@@ -64,9 +64,9 @@ pools:
           min: 7.0
         type: minecraft:saturation
       - duration:
-          max: 10.0
-          min: 7.0
-        type: minecraft:night_vision
+          max: 7.0
+          min: 5.0
+        type: minecraft:blindness
       - duration:
           max: 10.0
           min: 7.0

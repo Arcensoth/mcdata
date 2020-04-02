@@ -55,7 +55,6 @@ minecraft:panda
 minecraft:parrot
 minecraft:pig
 minecraft:pufferfish
-minecraft:zombified_piglin
 minecraft:polar_bear
 minecraft:tnt
 minecraft:rabbit
@@ -94,6 +93,7 @@ minecraft:wither_skeleton
 minecraft:wither_skull
 minecraft:wolf
 minecraft:zombie
+minecraft:zombified_piglin
 minecraft:zombie_horse
 minecraft:zombie_villager
 minecraft:phantom
@@ -101,6 +101,7 @@ minecraft:ravager
 minecraft:hoglin
 minecraft:piglin
 minecraft:strider
+minecraft:zoglin
 minecraft:lightning_bolt
 minecraft:player
 minecraft:fishing_bobber

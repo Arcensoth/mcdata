@@ -19,10 +19,25 @@ criteria:
       entity:
         type: minecraft:drowned
     trigger: minecraft:player_killed_entity
+  minecraft:elder_guardian:
+    conditions:
+      entity:
+        type: minecraft:elder_guardian
+    trigger: minecraft:player_killed_entity
+  minecraft:ender_dragon:
+    conditions:
+      entity:
+        type: minecraft:ender_dragon
+    trigger: minecraft:player_killed_entity
   minecraft:enderman:
     conditions:
       entity:
         type: minecraft:enderman
+    trigger: minecraft:player_killed_entity
+  minecraft:endermite:
+    conditions:
+      entity:
+        type: minecraft:endermite
     trigger: minecraft:player_killed_entity
   minecraft:evoker:
     conditions:
@@ -104,6 +119,11 @@ criteria:
       entity:
         type: minecraft:stray
     trigger: minecraft:player_killed_entity
+  minecraft:vex:
+    conditions:
+      entity:
+        type: minecraft:vex
+    trigger: minecraft:player_killed_entity
   minecraft:vindicator:
     conditions:
       entity:
@@ -114,10 +134,20 @@ criteria:
       entity:
         type: minecraft:witch
     trigger: minecraft:player_killed_entity
+  minecraft:wither:
+    conditions:
+      entity:
+        type: minecraft:wither
+    trigger: minecraft:player_killed_entity
   minecraft:wither_skeleton:
     conditions:
       entity:
         type: minecraft:wither_skeleton
+    trigger: minecraft:player_killed_entity
+  minecraft:zoglin:
+    conditions:
+      entity:
+        type: minecraft:zoglin
     trigger: minecraft:player_killed_entity
   minecraft:zombie:
     conditions:
@@ -148,32 +178,38 @@ display:
     translate: advancements.adventure.kill_all_mobs.title
 parent: minecraft:adventure/kill_a_mob
 requirements:
-- - minecraft:cave_spider
-- - minecraft:spider
-- - minecraft:zombified_piglin
-- - minecraft:enderman
 - - minecraft:blaze
+- - minecraft:cave_spider
 - - minecraft:creeper
+- - minecraft:drowned
+- - minecraft:elder_guardian
+- - minecraft:ender_dragon
+- - minecraft:enderman
+- - minecraft:endermite
 - - minecraft:evoker
 - - minecraft:ghast
 - - minecraft:guardian
+- - minecraft:hoglin
 - - minecraft:husk
 - - minecraft:magma_cube
+- - minecraft:phantom
+- - minecraft:piglin
+- - minecraft:pillager
+- - minecraft:ravager
 - - minecraft:shulker
 - - minecraft:silverfish
 - - minecraft:skeleton
 - - minecraft:slime
+- - minecraft:spider
 - - minecraft:stray
+- - minecraft:vex
 - - minecraft:vindicator
 - - minecraft:witch
 - - minecraft:wither_skeleton
-- - minecraft:zombie
+- - minecraft:wither
+- - minecraft:zoglin
 - - minecraft:zombie_villager
-- - minecraft:phantom
-- - minecraft:drowned
-- - minecraft:pillager
-- - minecraft:ravager
-- - minecraft:hoglin
-- - minecraft:piglin
+- - minecraft:zombie
+- - minecraft:zombified_piglin
 rewards:
   experience: 100

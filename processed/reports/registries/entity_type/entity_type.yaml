@@ -56,7 +56,6 @@ values:
 - minecraft:parrot
 - minecraft:pig
 - minecraft:pufferfish
-- minecraft:zombified_piglin
 - minecraft:polar_bear
 - minecraft:tnt
 - minecraft:rabbit
@@ -95,6 +94,7 @@ values:
 - minecraft:wither_skull
 - minecraft:wolf
 - minecraft:zombie
+- minecraft:zombified_piglin
 - minecraft:zombie_horse
 - minecraft:zombie_villager
 - minecraft:phantom
@@ -102,6 +102,7 @@ values:
 - minecraft:hoglin
 - minecraft:piglin
 - minecraft:strider
+- minecraft:zoglin
 - minecraft:lightning_bolt
 - minecraft:player
 - minecraft:fishing_bobber

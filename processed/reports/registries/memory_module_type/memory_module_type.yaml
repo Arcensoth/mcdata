@@ -39,7 +39,7 @@ values:
 - minecraft:hunted_recently
 - minecraft:celebrate_location
 - minecraft:nearest_visible_wither_skeleton
-- minecraft:nearest_visible_adult_hoglin
+- minecraft:nearest_visible_huntable_hoglin
 - minecraft:nearest_visible_baby_hoglin
 - minecraft:nearest_visible_baby_piglin
 - minecraft:nearest_targetable_player_not_wearing_gold
@@ -47,7 +47,7 @@ values:
 - minecraft:nearest_visible_adult_piglins
 - minecraft:nearest_visible_adult_hoglins
 - minecraft:nearest_visible_adult_piglin
-- minecraft:nearest_visible_zombified_piglin
+- minecraft:nearest_visible_zombified
 - minecraft:visible_adult_piglin_count
 - minecraft:visible_adult_hoglin_count
 - minecraft:nearest_player_holding_wanted_item
