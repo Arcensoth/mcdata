@@ -1,5 +1,8 @@
 values:
 - minecraft:ambient.cave
+- minecraft:ambient.basalt_deltas.additions
+- minecraft:ambient.basalt_deltas.loop
+- minecraft:ambient.basalt_deltas.mood
 - minecraft:ambient.crimson_forest.additions
 - minecraft:ambient.crimson_forest.loop
 - minecraft:ambient.crimson_forest.mood
@@ -463,7 +466,11 @@ values:
 - minecraft:music.end
 - minecraft:music.game
 - minecraft:music.menu
-- minecraft:music.nether
+- minecraft:music.nether.basalt_deltas
+- minecraft:music.nether.nether_wastes
+- minecraft:music.nether.soul_sand_valley
+- minecraft:music.nether.crimson_forest
+- minecraft:music.nether.warped_forest
 - minecraft:music.under_water
 - minecraft:block.nether_bricks.break
 - minecraft:block.nether_bricks.step
@@ -750,6 +757,7 @@ values:
 - minecraft:entity.strider.step
 - minecraft:entity.strider.step_lava
 - minecraft:entity.strider.eat
+- minecraft:entity.strider.saddle
 - minecraft:entity.slime.death_small
 - minecraft:entity.slime.hurt_small
 - minecraft:entity.slime.jump_small

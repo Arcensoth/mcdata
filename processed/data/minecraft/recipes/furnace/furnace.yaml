@@ -1,6 +1,6 @@
 key:
   '#':
-    item: minecraft:cobblestone
+    tag: minecraft:furnace_materials
 pattern:
 - '###'
 - '# #'

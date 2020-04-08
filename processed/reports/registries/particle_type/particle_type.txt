@@ -69,3 +69,4 @@ minecraft:dripping_obsidian_tear
 minecraft:falling_obsidian_tear
 minecraft:landing_obsidian_tear
 minecraft:reverse_portal
+minecraft:white_ash

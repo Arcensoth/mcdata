@@ -91,14 +91,21 @@
               "function": "minecraft:set_stew_effect",
               "effects": [
                 {
-                  "type": "minecraft:weakness",
+                  "type": "minecraft:blindness",
                   "duration": {
-                    "min": 6.0,
-                    "max": 8.0
+                    "min": 5.0,
+                    "max": 7.0
                   }
                 },
                 {
-                  "type": "minecraft:night_vision",
+                  "type": "minecraft:saturation",
+                  "duration": {
+                    "min": 7.0,
+                    "max": 10.0
+                  }
+                },
+                {
+                  "type": "minecraft:jump_boost",
                   "duration": {
                     "min": 7.0,
                     "max": 10.0
@@ -112,21 +119,14 @@
                   }
                 },
                 {
-                  "type": "minecraft:saturation",
+                  "type": "minecraft:weakness",
                   "duration": {
-                    "min": 7.0,
-                    "max": 10.0
+                    "min": 6.0,
+                    "max": 8.0
                   }
                 },
                 {
-                  "type": "minecraft:blindness",
-                  "duration": {
-                    "min": 5.0,
-                    "max": 7.0
-                  }
-                },
-                {
-                  "type": "minecraft:jump_boost",
+                  "type": "minecraft:night_vision",
                   "duration": {
                     "min": 7.0,
                     "max": 10.0

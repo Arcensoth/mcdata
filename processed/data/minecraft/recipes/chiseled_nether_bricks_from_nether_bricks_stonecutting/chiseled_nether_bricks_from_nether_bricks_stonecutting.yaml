@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:nether_bricks
+result: minecraft:chiseled_nether_bricks
+type: minecraft:stonecutting

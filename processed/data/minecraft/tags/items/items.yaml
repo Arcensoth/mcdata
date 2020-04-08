@@ -16,6 +16,7 @@ values:
 - minecraft:fences
 - minecraft:fishes
 - minecraft:flowers
+- minecraft:furnace_materials
 - minecraft:gold_ores
 - minecraft:jungle_logs
 - minecraft:leaves
@@ -33,9 +34,11 @@ values:
 - minecraft:signs
 - minecraft:slabs
 - minecraft:small_flowers
+- minecraft:soul_fire_base_blocks
 - minecraft:spruce_logs
 - minecraft:stairs
 - minecraft:stone_bricks
+- minecraft:stone_tool_materials
 - minecraft:tall_flowers
 - minecraft:trapdoors
 - minecraft:walls

@@ -11,4 +11,5 @@ minecraft:frozen_ocean
 minecraft:nether
 minecraft:nether_forest
 minecraft:soul_sand_valley
+minecraft:basalt_deltas
 minecraft:nope

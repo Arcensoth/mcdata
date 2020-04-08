@@ -60,6 +60,9 @@ values:
 - minecraft:nether_forest_vegetation
 - minecraft:weeping_vines
 - minecraft:twisting_vines
+- minecraft:basalt_columns
+- minecraft:delta_feature
+- minecraft:netherrack_replace_blobs
 - minecraft:fill_layer
 - minecraft:bonus_chest
 - minecraft:basalt_pillar

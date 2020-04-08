@@ -30,3 +30,6 @@ values:
 - minecraft:diorite_slab
 - minecraft:cut_sandstone_slab
 - minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab

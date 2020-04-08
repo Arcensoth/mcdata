@@ -2,3 +2,4 @@ replace: false
 values:
 - '#minecraft:wooden_buttons'
 - minecraft:stone_button
+- minecraft:polished_blackstone_button

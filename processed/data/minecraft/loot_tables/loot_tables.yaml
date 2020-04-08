@@ -47,6 +47,10 @@ values:
 - minecraft:blocks/birch_stairs
 - minecraft:blocks/birch_trapdoor
 - minecraft:blocks/birch_wood
+- minecraft:blocks/blackstone
+- minecraft:blocks/blackstone_slab
+- minecraft:blocks/blackstone_stairs
+- minecraft:blocks/blackstone_wall
 - minecraft:blocks/black_banner
 - minecraft:blocks/black_bed
 - minecraft:blocks/black_carpet
@@ -107,6 +111,8 @@ values:
 - minecraft:blocks/cauldron
 - minecraft:blocks/chest
 - minecraft:blocks/chipped_anvil
+- minecraft:blocks/chiseled_nether_bricks
+- minecraft:blocks/chiseled_polished_blackstone
 - minecraft:blocks/chiseled_quartz_block
 - minecraft:blocks/chiseled_red_sandstone
 - minecraft:blocks/chiseled_sandstone
@@ -127,6 +133,8 @@ values:
 - minecraft:blocks/composter
 - minecraft:blocks/conduit
 - minecraft:blocks/cornflower
+- minecraft:blocks/cracked_nether_bricks
+- minecraft:blocks/cracked_polished_blackstone_bricks
 - minecraft:blocks/cracked_stone_bricks
 - minecraft:blocks/crafting_table
 - minecraft:blocks/creeper_head
@@ -230,6 +238,7 @@ values:
 - minecraft:blocks/flower_pot
 - minecraft:blocks/frosted_ice
 - minecraft:blocks/furnace
+- minecraft:blocks/gilded_blackstone
 - minecraft:blocks/glass
 - minecraft:blocks/glass_pane
 - minecraft:blocks/glowstone
@@ -438,6 +447,16 @@ values:
 - minecraft:blocks/polished_andesite_slab
 - minecraft:blocks/polished_andesite_stairs
 - minecraft:blocks/polished_basalt
+- minecraft:blocks/polished_blackstone
+- minecraft:blocks/polished_blackstone_bricks
+- minecraft:blocks/polished_blackstone_brick_slab
+- minecraft:blocks/polished_blackstone_brick_stairs
+- minecraft:blocks/polished_blackstone_brick_wall
+- minecraft:blocks/polished_blackstone_button
+- minecraft:blocks/polished_blackstone_pressure_plate
+- minecraft:blocks/polished_blackstone_slab
+- minecraft:blocks/polished_blackstone_stairs
+- minecraft:blocks/polished_blackstone_wall
 - minecraft:blocks/polished_diorite
 - minecraft:blocks/polished_diorite_slab
 - minecraft:blocks/polished_diorite_stairs
@@ -501,6 +520,7 @@ values:
 - minecraft:blocks/purpur_slab
 - minecraft:blocks/purpur_stairs
 - minecraft:blocks/quartz_block
+- minecraft:blocks/quartz_bricks
 - minecraft:blocks/quartz_pillar
 - minecraft:blocks/quartz_slab
 - minecraft:blocks/quartz_stairs
@@ -564,6 +584,7 @@ values:
 - minecraft:blocks/smooth_stone_slab
 - minecraft:blocks/snow
 - minecraft:blocks/snow_block
+- minecraft:blocks/soul_campfire
 - minecraft:blocks/soul_fire
 - minecraft:blocks/soul_fire_lantern
 - minecraft:blocks/soul_fire_torch

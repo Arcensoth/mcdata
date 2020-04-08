@@ -8,6 +8,7 @@ minecraft:beehives
 minecraft:bee_growables
 minecraft:birch_logs
 minecraft:buttons
+minecraft:campfires
 minecraft:carpets
 minecraft:climbable
 minecraft:corals
@@ -24,6 +25,7 @@ minecraft:fire
 minecraft:flowers
 minecraft:flower_pots
 minecraft:gold_ores
+minecraft:guarded_by_piglins
 minecraft:hoglin_repellents
 minecraft:ice
 minecraft:impermeable
