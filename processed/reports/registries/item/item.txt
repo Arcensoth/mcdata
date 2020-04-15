@@ -246,6 +246,7 @@ minecraft:brown_mushroom_block
 minecraft:red_mushroom_block
 minecraft:mushroom_stem
 minecraft:iron_bars
+minecraft:chain
 minecraft:glass_pane
 minecraft:melon
 minecraft:vine
@@ -910,6 +911,7 @@ minecraft:music_disc_strad
 minecraft:music_disc_ward
 minecraft:music_disc_11
 minecraft:music_disc_wait
+minecraft:music_disc_pigstep
 minecraft:trident
 minecraft:phantom_membrane
 minecraft:nautilus_shell

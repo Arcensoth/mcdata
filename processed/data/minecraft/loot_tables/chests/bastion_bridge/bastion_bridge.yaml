@@ -1,0 +1,133 @@
+pools:
+- entries:
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:lodestone
+    type: minecraft:item
+  rolls: 1
+- entries:
+  - functions:
+    - count:
+        max: 18.0
+        min: 5.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:spectral_arrow
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 10.0
+        min: 5.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:gilded_blackstone
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 8.0
+        min: 3.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:crying_obsidian
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:gold_block
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 8.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:gold_ingot
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 8.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:iron_ingot
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:golden_sword
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:golden_chestplate
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:golden_helmet
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:golden_leggings
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:golden_boots
+    type: minecraft:item
+  rolls:
+    max: 2.0
+    min: 1.0
+    type: minecraft:uniform
+- entries:
+  - functions:
+    - count:
+        max: 6.0
+        min: 1.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:string
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 3.0
+        min: 1.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:leather
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 17.0
+        min: 5.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:arrow
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 6.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:iron_nugget
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 6.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:gold_nugget
+    type: minecraft:item
+  rolls:
+    max: 4.0
+    min: 2.0
+    type: minecraft:uniform
+type: minecraft:chest

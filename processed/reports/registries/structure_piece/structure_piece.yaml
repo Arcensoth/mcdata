@@ -36,6 +36,7 @@ values:
 - minecraft:tejp
 - minecraft:orp
 - minecraft:iglu
+- minecraft:rupo
 - minecraft:tesh
 - minecraft:tedp
 - minecraft:omb
@@ -55,3 +56,5 @@ values:
 - minecraft:btp
 - minecraft:shipwreck
 - minecraft:nefos
+- minecraft:bastionremnant
+- minecraft:runtime

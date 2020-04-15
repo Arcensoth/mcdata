@@ -466,6 +466,7 @@ advancements:
 - minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane
 - minecraft:recipes/decorations/campfire
 - minecraft:recipes/decorations/cartography_table
+- minecraft:recipes/decorations/chain
 - minecraft:recipes/decorations/chest
 - minecraft:recipes/decorations/cobblestone_wall
 - minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting
@@ -1017,6 +1018,7 @@ loot_tables:
 - minecraft:blocks/cartography_table
 - minecraft:blocks/carved_pumpkin
 - minecraft:blocks/cauldron
+- minecraft:blocks/chain
 - minecraft:blocks/chest
 - minecraft:blocks/chipped_anvil
 - minecraft:blocks/chiseled_nether_bricks
@@ -1607,6 +1609,10 @@ loot_tables:
 - minecraft:blocks/yellow_wool
 - minecraft:blocks/zombie_head
 - minecraft:chests/abandoned_mineshaft
+- minecraft:chests/bastion_bridge
+- minecraft:chests/bastion_hoglin_stable
+- minecraft:chests/bastion_other
+- minecraft:chests/bastion_treasure
 - minecraft:chests/buried_treasure
 - minecraft:chests/desert_pyramid
 - minecraft:chests/end_city_treasure
@@ -1615,6 +1621,7 @@ loot_tables:
 - minecraft:chests/jungle_temple_dispenser
 - minecraft:chests/nether_bridge
 - minecraft:chests/pillager_outpost
+- minecraft:chests/ruined_portal
 - minecraft:chests/shipwreck_map
 - minecraft:chests/shipwreck_supply
 - minecraft:chests/shipwreck_treasure
@@ -1867,6 +1874,7 @@ recipes:
 - minecraft:carrot_on_a_stick
 - minecraft:cartography_table
 - minecraft:cauldron
+- minecraft:chain
 - minecraft:charcoal
 - minecraft:chest
 - minecraft:chest_minecart
@@ -2696,6 +2704,7 @@ tags:
   - minecraft:buttons
   - minecraft:carpets
   - minecraft:coals
+  - minecraft:creeper_drop_music_discs
   - minecraft:crimson_stems
   - minecraft:dark_oak_logs
   - minecraft:doors

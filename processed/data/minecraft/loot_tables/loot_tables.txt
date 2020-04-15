@@ -108,6 +108,7 @@ minecraft:blocks/carrots
 minecraft:blocks/cartography_table
 minecraft:blocks/carved_pumpkin
 minecraft:blocks/cauldron
+minecraft:blocks/chain
 minecraft:blocks/chest
 minecraft:blocks/chipped_anvil
 minecraft:blocks/chiseled_nether_bricks
@@ -698,6 +699,10 @@ minecraft:blocks/yellow_terracotta
 minecraft:blocks/yellow_wool
 minecraft:blocks/zombie_head
 minecraft:chests/abandoned_mineshaft
+minecraft:chests/bastion_bridge
+minecraft:chests/bastion_hoglin_stable
+minecraft:chests/bastion_other
+minecraft:chests/bastion_treasure
 minecraft:chests/buried_treasure
 minecraft:chests/desert_pyramid
 minecraft:chests/end_city_treasure
@@ -706,6 +711,7 @@ minecraft:chests/jungle_temple
 minecraft:chests/jungle_temple_dispenser
 minecraft:chests/nether_bridge
 minecraft:chests/pillager_outpost
+minecraft:chests/ruined_portal
 minecraft:chests/shipwreck_map
 minecraft:chests/shipwreck_supply
 minecraft:chests/shipwreck_treasure

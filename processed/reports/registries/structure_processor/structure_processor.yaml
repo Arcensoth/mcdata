@@ -5,3 +5,5 @@ values:
 - minecraft:jigsaw_replacement
 - minecraft:rule
 - minecraft:nop
+- minecraft:block_age
+- minecraft:blackstone_replace

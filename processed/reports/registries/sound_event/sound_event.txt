@@ -457,6 +457,7 @@ minecraft:music_disc.chirp
 minecraft:music_disc.far
 minecraft:music_disc.mall
 minecraft:music_disc.mellohi
+minecraft:music_disc.pigstep
 minecraft:music_disc.stal
 minecraft:music_disc.strad
 minecraft:music_disc.wait

@@ -5,6 +5,7 @@ values:
 - minecraft:jungle_temple
 - minecraft:desert_pyramid
 - minecraft:igloo
+- minecraft:ruined_portal
 - minecraft:shipwreck
 - minecraft:swamp_hut
 - minecraft:stronghold
@@ -15,6 +16,7 @@ values:
 - minecraft:buried_treasure
 - minecraft:village
 - minecraft:nether_fossil
+- minecraft:bastion_remnant
 - minecraft:no_op
 - minecraft:normal_tree
 - minecraft:fancy_tree

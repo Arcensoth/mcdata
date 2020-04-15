@@ -2956,6 +2956,9 @@ children:
     type: literal
   locate:
     children:
+      Bastion_Remnant:
+        executable: true
+        type: literal
       Buried_Treasure:
         executable: true
         type: literal
@@ -2990,6 +2993,9 @@ children:
         executable: true
         type: literal
       Pillager_Outpost:
+        executable: true
+        type: literal
+      Ruined_Portal:
         executable: true
         type: literal
       Shipwreck:

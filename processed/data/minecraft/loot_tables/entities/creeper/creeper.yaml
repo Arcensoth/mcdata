@@ -20,7 +20,7 @@ pools:
       type: '#minecraft:skeletons'
   entries:
   - expand: true
-    name: minecraft:music_discs
+    name: minecraft:creeper_drop_music_discs
     type: minecraft:tag
   rolls: 1.0
 type: minecraft:entity

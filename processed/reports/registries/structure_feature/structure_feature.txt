@@ -6,6 +6,7 @@ minecraft:jungle_pyramid
 minecraft:ocean_ruin
 minecraft:desert_pyramid
 minecraft:igloo
+minecraft:ruined_portal
 minecraft:swamp_hut
 minecraft:monument
 minecraft:endcity
@@ -14,3 +15,4 @@ minecraft:buried_treasure
 minecraft:shipwreck
 minecraft:village
 minecraft:nether_fossil
+minecraft:bastion_remnant
