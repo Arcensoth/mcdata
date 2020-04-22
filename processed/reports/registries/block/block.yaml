@@ -197,8 +197,8 @@ values:
 - minecraft:soul_soil
 - minecraft:basalt
 - minecraft:polished_basalt
-- minecraft:soul_fire_torch
-- minecraft:soul_fire_wall_torch
+- minecraft:soul_torch
+- minecraft:soul_wall_torch
 - minecraft:glowstone
 - minecraft:nether_portal
 - minecraft:carved_pumpkin
@@ -678,7 +678,7 @@ values:
 - minecraft:stonecutter
 - minecraft:bell
 - minecraft:lantern
-- minecraft:soul_fire_lantern
+- minecraft:soul_lantern
 - minecraft:campfire
 - minecraft:soul_campfire
 - minecraft:sweet_berry_bush

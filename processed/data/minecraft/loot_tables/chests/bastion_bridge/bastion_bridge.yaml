@@ -8,16 +8,24 @@ pools:
   rolls: 1
 - entries:
   - functions:
+    - damage:
+        max: 0.5
+        min: 0.1
+      function: minecraft:set_damage
+    - function: minecraft:enchant_randomly
+    name: minecraft:crossbow
+    type: minecraft:item
+  - functions:
     - count:
-        max: 18.0
-        min: 5.0
+        max: 12.0
+        min: 2.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:spectral_arrow
     type: minecraft:item
   - functions:
     - count:
-        max: 10.0
+        max: 8.0
         min: 5.0
         type: minecraft:uniform
       function: minecraft:set_count

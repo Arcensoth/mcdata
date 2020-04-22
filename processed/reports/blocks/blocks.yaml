@@ -105180,7 +105180,7 @@ minecraft:soul_fire:
   states:
   - default: true
     id: 1952
-minecraft:soul_fire_lantern:
+minecraft:soul_lantern:
   properties:
     hanging:
     - 'true'
@@ -105193,11 +105193,19 @@ minecraft:soul_fire_lantern:
     id: 14888
     properties:
       hanging: 'false'
-minecraft:soul_fire_torch:
+minecraft:soul_sand:
+  states:
+  - default: true
+    id: 4000
+minecraft:soul_soil:
+  states:
+  - default: true
+    id: 4001
+minecraft:soul_torch:
   states:
   - default: true
     id: 4008
-minecraft:soul_fire_wall_torch:
+minecraft:soul_wall_torch:
   properties:
     facing:
     - north
@@ -105218,14 +105226,6 @@ minecraft:soul_fire_wall_torch:
   - id: 4012
     properties:
       facing: east
-minecraft:soul_sand:
-  states:
-  - default: true
-    id: 4000
-minecraft:soul_soil:
-  states:
-  - default: true
-    id: 4001
 minecraft:spawner:
   states:
   - default: true

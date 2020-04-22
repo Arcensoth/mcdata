@@ -8,50 +8,51 @@ pools:
     - function: minecraft:enchant_randomly
     name: minecraft:crossbow
     type: minecraft:item
-    weight: 10
+    weight: 12
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
-    weight: 5
+    weight: 2
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:netherite_scrap
     type: minecraft:item
-    weight: 5
+    weight: 2
   - functions:
     - count:
-        max: 20.0
-        min: 5.0
+        max: 15.0
+        min: 2.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:spectral_arrow
     type: minecraft:item
-    weight: 10
+    weight: 16
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:piglin_banner_pattern
     type: minecraft:item
-    weight: 10
+    weight: 5
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:music_disc_pigstep
     type: minecraft:item
-    weight: 10
-  - type: minecraft:empty
-    weight: 10
-  rolls: 1
-- entries:
+    weight: 3
   - functions:
     - enchantments:
       - minecraft:soul_speed
       function: minecraft:enchant_randomly
     name: minecraft:book
     type: minecraft:item
+    weight: 10
+  - type: minecraft:empty
+    weight: 50
+  rolls: 1
+- entries:
   - functions:
     - count: 1
       function: minecraft:set_count

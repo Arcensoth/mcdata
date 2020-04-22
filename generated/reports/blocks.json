@@ -37799,7 +37799,7 @@
       }
     ]
   },
-  "minecraft:soul_fire_torch": {
+  "minecraft:soul_torch": {
     "states": [
       {
         "id": 4008,
@@ -37807,7 +37807,7 @@
       }
     ]
   },
-  "minecraft:soul_fire_wall_torch": {
+  "minecraft:soul_wall_torch": {
     "properties": {
       "facing": [
         "north",
@@ -149339,7 +149339,7 @@
       }
     ]
   },
-  "minecraft:soul_fire_lantern": {
+  "minecraft:soul_lantern": {
     "properties": {
       "hanging": [
         "true",

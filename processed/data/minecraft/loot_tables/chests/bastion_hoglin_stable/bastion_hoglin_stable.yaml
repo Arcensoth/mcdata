@@ -6,27 +6,27 @@ pools:
         min: 0.15
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
-    name: minecraft:netherite_shovel
+    name: minecraft:diamond_shovel
     type: minecraft:item
-    weight: 10
+    weight: 5
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:netherite_scrap
     type: minecraft:item
-    weight: 10
+    weight: 2
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
-    weight: 10
+    weight: 3
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:saddle
     type: minecraft:item
-    weight: 15
+    weight: 10
   - functions:
     - count:
         max: 4.0
@@ -35,16 +35,16 @@ pools:
       function: minecraft:set_count
     name: minecraft:gold_block
     type: minecraft:item
-    weight: 10
+    weight: 25
   - functions:
     - count: 1
       function: minecraft:set_count
     - function: minecraft:enchant_randomly
     name: minecraft:golden_hoe
     type: minecraft:item
-    weight: 10
+    weight: 15
   - type: minecraft:empty
-    weight: 10
+    weight: 45
   rolls: 1
 - entries:
   - functions:

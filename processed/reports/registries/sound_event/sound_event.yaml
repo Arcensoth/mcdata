@@ -128,6 +128,11 @@ values:
 - minecraft:entity.cat.hurt
 - minecraft:entity.cat.purr
 - minecraft:entity.cat.purreow
+- minecraft:block.chain.break
+- minecraft:block.chain.fall
+- minecraft:block.chain.hit
+- minecraft:block.chain.place
+- minecraft:block.chain.step
 - minecraft:block.chest.close
 - minecraft:block.chest.locked
 - minecraft:block.chest.open
@@ -301,6 +306,11 @@ values:
 - minecraft:entity.ghast.scream
 - minecraft:entity.ghast.shoot
 - minecraft:entity.ghast.warn
+- minecraft:block.gilded_blackstone.break
+- minecraft:block.gilded_blackstone.fall
+- minecraft:block.gilded_blackstone.hit
+- minecraft:block.gilded_blackstone.place
+- minecraft:block.gilded_blackstone.step
 - minecraft:block.glass.break
 - minecraft:block.glass.fall
 - minecraft:block.glass.hit
@@ -663,6 +673,11 @@ values:
 - minecraft:entity.ravager.step
 - minecraft:entity.ravager.stunned
 - minecraft:entity.ravager.roar
+- minecraft:block.nether_gold_ore.break
+- minecraft:block.nether_gold_ore.fall
+- minecraft:block.nether_gold_ore.hit
+- minecraft:block.nether_gold_ore.place
+- minecraft:block.nether_gold_ore.step
 - minecraft:block.nether_ore.break
 - minecraft:block.nether_ore.fall
 - minecraft:block.nether_ore.hit

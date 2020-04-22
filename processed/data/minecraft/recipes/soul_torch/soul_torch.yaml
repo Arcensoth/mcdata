@@ -12,5 +12,5 @@ pattern:
 - S
 result:
   count: 4
-  item: minecraft:soul_fire_torch
+  item: minecraft:soul_torch
 type: minecraft:crafting_shaped

@@ -11,7 +11,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
-    weight: 10
+    weight: 14
   - functions:
     - count: 1
       function: minecraft:set_count
@@ -23,14 +23,13 @@ pools:
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
-    weight: 5
   - functions:
     - damage:
         max: 0.65
         min: 0.2
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
-    name: minecraft:netherite_sword
+    name: minecraft:diamond_sword
     type: minecraft:item
     weight: 10
   - functions:
@@ -39,7 +38,7 @@ pools:
         min: 0.2
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
-    name: minecraft:netherite_chestplate
+    name: minecraft:diamond_chestplate
     type: minecraft:item
     weight: 6
   - functions:
@@ -48,7 +47,7 @@ pools:
         min: 0.2
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
-    name: minecraft:netherite_helmet
+    name: minecraft:diamond_helmet
     type: minecraft:item
     weight: 6
   - functions:
@@ -57,7 +56,7 @@ pools:
         min: 0.2
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
-    name: minecraft:netherite_leggings
+    name: minecraft:diamond_leggings
     type: minecraft:item
     weight: 6
   - functions:
@@ -66,7 +65,7 @@ pools:
         min: 0.2
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
-    name: minecraft:netherite_boots
+    name: minecraft:diamond_boots
     type: minecraft:item
     weight: 6
   - functions:
@@ -74,7 +73,7 @@ pools:
         max: 0.65
         min: 0.2
       function: minecraft:set_damage
-    name: minecraft:netherite_sword
+    name: minecraft:diamond_sword
     type: minecraft:item
     weight: 6
   - functions:
@@ -82,7 +81,7 @@ pools:
         max: 0.65
         min: 0.2
       function: minecraft:set_damage
-    name: minecraft:netherite_chestplate
+    name: minecraft:diamond_chestplate
     type: minecraft:item
     weight: 5
   - functions:
@@ -90,7 +89,7 @@ pools:
         max: 0.65
         min: 0.2
       function: minecraft:set_damage
-    name: minecraft:netherite_helmet
+    name: minecraft:diamond_helmet
     type: minecraft:item
     weight: 5
   - functions:
@@ -98,7 +97,7 @@ pools:
         max: 0.65
         min: 0.2
       function: minecraft:set_damage
-    name: minecraft:netherite_boots
+    name: minecraft:diamond_boots
     type: minecraft:item
     weight: 5
   - functions:
@@ -106,7 +105,7 @@ pools:
         max: 0.65
         min: 0.2
       function: minecraft:set_damage
-    name: minecraft:netherite_leggings
+    name: minecraft:diamond_leggings
     type: minecraft:item
     weight: 5
   - functions:
@@ -118,7 +117,10 @@ pools:
     name: minecraft:diamond
     type: minecraft:item
     weight: 5
-  rolls: 1
+  rolls:
+    max: 2.0
+    min: 1.0
+    type: minecraft:uniform
 - entries:
   - functions:
     - count:

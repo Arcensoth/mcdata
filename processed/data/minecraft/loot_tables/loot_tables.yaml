@@ -587,10 +587,10 @@ values:
 - minecraft:blocks/snow_block
 - minecraft:blocks/soul_campfire
 - minecraft:blocks/soul_fire
-- minecraft:blocks/soul_fire_lantern
-- minecraft:blocks/soul_fire_torch
+- minecraft:blocks/soul_lantern
 - minecraft:blocks/soul_sand
 - minecraft:blocks/soul_soil
+- minecraft:blocks/soul_torch
 - minecraft:blocks/spawner
 - minecraft:blocks/sponge
 - minecraft:blocks/spruce_button

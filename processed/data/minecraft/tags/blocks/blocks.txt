@@ -39,6 +39,7 @@ minecraft:oak_logs
 minecraft:piglin_repellents
 minecraft:planks
 minecraft:portals
+minecraft:pressure_plates
 minecraft:rails
 minecraft:sand
 minecraft:saplings
@@ -52,6 +53,7 @@ minecraft:spruce_logs
 minecraft:stairs
 minecraft:standing_signs
 minecraft:stone_bricks
+minecraft:stone_pressure_plates
 minecraft:strider_warm_blocks
 minecraft:tall_flowers
 minecraft:trapdoors

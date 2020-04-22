@@ -740,8 +740,8 @@ minecraft:smooth_stone_slab_from_smooth_stone_stonecutting
 minecraft:snow
 minecraft:snow_block
 minecraft:soul_campfire
-minecraft:soul_fire_lantern
-minecraft:soul_fire_torch
+minecraft:soul_lantern
+minecraft:soul_torch
 minecraft:spectral_arrow
 minecraft:sponge
 minecraft:spruce_boat

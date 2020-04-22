@@ -98,6 +98,97 @@ children:
             type: argument
         type: literal
     type: literal
+  attribute:
+    children:
+      target:
+        children:
+          attribute:
+            children:
+              base:
+                children:
+                  get:
+                    children:
+                      scale:
+                        executable: true
+                        parser: brigadier:double
+                        type: argument
+                    executable: true
+                    type: literal
+                  set:
+                    children:
+                      value:
+                        executable: true
+                        parser: brigadier:double
+                        type: argument
+                    type: literal
+                type: literal
+              get:
+                children:
+                  scale:
+                    executable: true
+                    parser: brigadier:double
+                    type: argument
+                executable: true
+                type: literal
+              modifier:
+                children:
+                  add:
+                    children:
+                      uuid:
+                        children:
+                          name:
+                            children:
+                              value:
+                                children:
+                                  add:
+                                    executable: true
+                                    type: literal
+                                  multiply:
+                                    executable: true
+                                    type: literal
+                                  multiply_base:
+                                    executable: true
+                                    type: literal
+                                parser: brigadier:double
+                                type: argument
+                            parser: brigadier:string
+                            properties:
+                              type: phrase
+                            type: argument
+                        parser: minecraft:uuid
+                        type: argument
+                    type: literal
+                  remove:
+                    children:
+                      uuid:
+                        executable: true
+                        parser: minecraft:uuid
+                        type: argument
+                    type: literal
+                  value:
+                    children:
+                      get:
+                        children:
+                          uuid:
+                            children:
+                              scale:
+                                executable: true
+                                parser: brigadier:double
+                                type: argument
+                            executable: true
+                            parser: minecraft:uuid
+                            type: argument
+                        type: literal
+                    type: literal
+                type: literal
+            parser: minecraft:resource_location
+            type: argument
+        parser: minecraft:entity
+        properties:
+          amount: single
+          type: entities
+        type: argument
+    type: literal
   ban:
     children:
       targets:

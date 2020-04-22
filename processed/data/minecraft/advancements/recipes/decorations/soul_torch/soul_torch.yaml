@@ -6,7 +6,7 @@ criteria:
     trigger: minecraft:inventory_changed
   has_the_recipe:
     conditions:
-      recipe: minecraft:soul_fire_torch
+      recipe: minecraft:soul_torch
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
@@ -14,4 +14,4 @@ requirements:
   - has_the_recipe
 rewards:
   recipes:
-  - minecraft:soul_fire_torch
+  - minecraft:soul_torch

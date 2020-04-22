@@ -1,6 +1,6 @@
 key:
   '#':
-    item: minecraft:soul_fire_torch
+    item: minecraft:soul_torch
   X:
     item: minecraft:iron_nugget
 pattern:
@@ -8,5 +8,5 @@ pattern:
 - X#X
 - XXX
 result:
-  item: minecraft:soul_fire_lantern
+  item: minecraft:soul_lantern
 type: minecraft:crafting_shaped
