@@ -2,7 +2,10 @@ criteria:
   summoned:
     conditions:
       entity:
-        type: minecraft:wither
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:wither
     trigger: minecraft:summoned_entity
 display:
   announce_to_chat: true

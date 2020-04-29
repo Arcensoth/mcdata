@@ -2,167 +2,266 @@ criteria:
   minecraft:blaze:
     conditions:
       entity:
-        type: minecraft:blaze
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:blaze
     trigger: minecraft:player_killed_entity
   minecraft:cave_spider:
     conditions:
       entity:
-        type: minecraft:cave_spider
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:cave_spider
     trigger: minecraft:player_killed_entity
   minecraft:creeper:
     conditions:
       entity:
-        type: minecraft:creeper
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:creeper
     trigger: minecraft:player_killed_entity
   minecraft:drowned:
     conditions:
       entity:
-        type: minecraft:drowned
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:drowned
     trigger: minecraft:player_killed_entity
   minecraft:elder_guardian:
     conditions:
       entity:
-        type: minecraft:elder_guardian
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:elder_guardian
     trigger: minecraft:player_killed_entity
   minecraft:ender_dragon:
     conditions:
       entity:
-        type: minecraft:ender_dragon
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:ender_dragon
     trigger: minecraft:player_killed_entity
   minecraft:enderman:
     conditions:
       entity:
-        type: minecraft:enderman
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:enderman
     trigger: minecraft:player_killed_entity
   minecraft:endermite:
     conditions:
       entity:
-        type: minecraft:endermite
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:endermite
     trigger: minecraft:player_killed_entity
   minecraft:evoker:
     conditions:
       entity:
-        type: minecraft:evoker
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:evoker
     trigger: minecraft:player_killed_entity
   minecraft:ghast:
     conditions:
       entity:
-        type: minecraft:ghast
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:ghast
     trigger: minecraft:player_killed_entity
   minecraft:guardian:
     conditions:
       entity:
-        type: minecraft:guardian
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:guardian
     trigger: minecraft:player_killed_entity
   minecraft:hoglin:
     conditions:
       entity:
-        type: minecraft:hoglin
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:hoglin
     trigger: minecraft:player_killed_entity
   minecraft:husk:
     conditions:
       entity:
-        type: minecraft:husk
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:husk
     trigger: minecraft:player_killed_entity
   minecraft:magma_cube:
     conditions:
       entity:
-        type: minecraft:magma_cube
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:magma_cube
     trigger: minecraft:player_killed_entity
   minecraft:phantom:
     conditions:
       entity:
-        type: minecraft:phantom
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:phantom
     trigger: minecraft:player_killed_entity
   minecraft:piglin:
     conditions:
       entity:
-        type: minecraft:piglin
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:piglin
     trigger: minecraft:player_killed_entity
   minecraft:pillager:
     conditions:
       entity:
-        type: minecraft:pillager
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:pillager
     trigger: minecraft:player_killed_entity
   minecraft:ravager:
     conditions:
       entity:
-        type: minecraft:ravager
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:ravager
     trigger: minecraft:player_killed_entity
   minecraft:shulker:
     conditions:
       entity:
-        type: minecraft:shulker
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:shulker
     trigger: minecraft:player_killed_entity
   minecraft:silverfish:
     conditions:
       entity:
-        type: minecraft:silverfish
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:silverfish
     trigger: minecraft:player_killed_entity
   minecraft:skeleton:
     conditions:
       entity:
-        type: minecraft:skeleton
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:skeleton
     trigger: minecraft:player_killed_entity
   minecraft:slime:
     conditions:
       entity:
-        type: minecraft:slime
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:slime
     trigger: minecraft:player_killed_entity
   minecraft:spider:
     conditions:
       entity:
-        type: minecraft:spider
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:spider
     trigger: minecraft:player_killed_entity
   minecraft:stray:
     conditions:
       entity:
-        type: minecraft:stray
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:stray
     trigger: minecraft:player_killed_entity
   minecraft:vex:
     conditions:
       entity:
-        type: minecraft:vex
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:vex
     trigger: minecraft:player_killed_entity
   minecraft:vindicator:
     conditions:
       entity:
-        type: minecraft:vindicator
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:vindicator
     trigger: minecraft:player_killed_entity
   minecraft:witch:
     conditions:
       entity:
-        type: minecraft:witch
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:witch
     trigger: minecraft:player_killed_entity
   minecraft:wither:
     conditions:
       entity:
-        type: minecraft:wither
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:wither
     trigger: minecraft:player_killed_entity
   minecraft:wither_skeleton:
     conditions:
       entity:
-        type: minecraft:wither_skeleton
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:wither_skeleton
     trigger: minecraft:player_killed_entity
   minecraft:zoglin:
     conditions:
       entity:
-        type: minecraft:zoglin
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:zoglin
     trigger: minecraft:player_killed_entity
   minecraft:zombie:
     conditions:
       entity:
-        type: minecraft:zombie
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:zombie
     trigger: minecraft:player_killed_entity
   minecraft:zombie_villager:
     conditions:
       entity:
-        type: minecraft:zombie_villager
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:zombie_villager
     trigger: minecraft:player_killed_entity
   minecraft:zombified_piglin:
     conditions:
       entity:
-        type: minecraft:zombified_piglin
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:zombified_piglin
     trigger: minecraft:player_killed_entity
 display:
   announce_to_chat: true

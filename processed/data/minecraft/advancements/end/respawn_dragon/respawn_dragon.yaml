@@ -2,7 +2,10 @@ criteria:
   summoned_dragon:
     conditions:
       entity:
-        type: minecraft:ender_dragon
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:ender_dragon
     trigger: minecraft:summoned_entity
 display:
   announce_to_chat: true

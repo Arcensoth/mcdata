@@ -1,171 +1,213 @@
 criteria:
   minecraft:badlands:
     conditions:
-      biome: minecraft:badlands
+      location:
+        biome: minecraft:badlands
     trigger: minecraft:location
   minecraft:badlands_plateau:
     conditions:
-      biome: minecraft:badlands_plateau
+      location:
+        biome: minecraft:badlands_plateau
     trigger: minecraft:location
   minecraft:bamboo_jungle:
     conditions:
-      biome: minecraft:bamboo_jungle
+      location:
+        biome: minecraft:bamboo_jungle
     trigger: minecraft:location
   minecraft:bamboo_jungle_hills:
     conditions:
-      biome: minecraft:bamboo_jungle_hills
+      location:
+        biome: minecraft:bamboo_jungle_hills
     trigger: minecraft:location
   minecraft:beach:
     conditions:
-      biome: minecraft:beach
+      location:
+        biome: minecraft:beach
     trigger: minecraft:location
   minecraft:birch_forest:
     conditions:
-      biome: minecraft:birch_forest
+      location:
+        biome: minecraft:birch_forest
     trigger: minecraft:location
   minecraft:birch_forest_hills:
     conditions:
-      biome: minecraft:birch_forest_hills
+      location:
+        biome: minecraft:birch_forest_hills
     trigger: minecraft:location
   minecraft:cold_ocean:
     conditions:
-      biome: minecraft:cold_ocean
+      location:
+        biome: minecraft:cold_ocean
     trigger: minecraft:location
   minecraft:dark_forest:
     conditions:
-      biome: minecraft:dark_forest
+      location:
+        biome: minecraft:dark_forest
     trigger: minecraft:location
   minecraft:deep_cold_ocean:
     conditions:
-      biome: minecraft:deep_cold_ocean
+      location:
+        biome: minecraft:deep_cold_ocean
     trigger: minecraft:location
   minecraft:deep_frozen_ocean:
     conditions:
-      biome: minecraft:deep_frozen_ocean
+      location:
+        biome: minecraft:deep_frozen_ocean
     trigger: minecraft:location
   minecraft:deep_lukewarm_ocean:
     conditions:
-      biome: minecraft:deep_lukewarm_ocean
+      location:
+        biome: minecraft:deep_lukewarm_ocean
     trigger: minecraft:location
   minecraft:desert:
     conditions:
-      biome: minecraft:desert
+      location:
+        biome: minecraft:desert
     trigger: minecraft:location
   minecraft:desert_hills:
     conditions:
-      biome: minecraft:desert_hills
+      location:
+        biome: minecraft:desert_hills
     trigger: minecraft:location
   minecraft:forest:
     conditions:
-      biome: minecraft:forest
+      location:
+        biome: minecraft:forest
     trigger: minecraft:location
   minecraft:frozen_river:
     conditions:
-      biome: minecraft:frozen_river
+      location:
+        biome: minecraft:frozen_river
     trigger: minecraft:location
   minecraft:giant_tree_taiga:
     conditions:
-      biome: minecraft:giant_tree_taiga
+      location:
+        biome: minecraft:giant_tree_taiga
     trigger: minecraft:location
   minecraft:giant_tree_taiga_hills:
     conditions:
-      biome: minecraft:giant_tree_taiga_hills
+      location:
+        biome: minecraft:giant_tree_taiga_hills
     trigger: minecraft:location
   minecraft:jungle:
     conditions:
-      biome: minecraft:jungle
+      location:
+        biome: minecraft:jungle
     trigger: minecraft:location
   minecraft:jungle_edge:
     conditions:
-      biome: minecraft:jungle_edge
+      location:
+        biome: minecraft:jungle_edge
     trigger: minecraft:location
   minecraft:jungle_hills:
     conditions:
-      biome: minecraft:jungle_hills
+      location:
+        biome: minecraft:jungle_hills
     trigger: minecraft:location
   minecraft:lukewarm_ocean:
     conditions:
-      biome: minecraft:lukewarm_ocean
+      location:
+        biome: minecraft:lukewarm_ocean
     trigger: minecraft:location
   minecraft:mountains:
     conditions:
-      biome: minecraft:mountains
+      location:
+        biome: minecraft:mountains
     trigger: minecraft:location
   minecraft:mushroom_field_shore:
     conditions:
-      biome: minecraft:mushroom_field_shore
+      location:
+        biome: minecraft:mushroom_field_shore
     trigger: minecraft:location
   minecraft:mushroom_fields:
     conditions:
-      biome: minecraft:mushroom_fields
+      location:
+        biome: minecraft:mushroom_fields
     trigger: minecraft:location
   minecraft:plains:
     conditions:
-      biome: minecraft:plains
+      location:
+        biome: minecraft:plains
     trigger: minecraft:location
   minecraft:river:
     conditions:
-      biome: minecraft:river
+      location:
+        biome: minecraft:river
     trigger: minecraft:location
   minecraft:savanna:
     conditions:
-      biome: minecraft:savanna
+      location:
+        biome: minecraft:savanna
     trigger: minecraft:location
   minecraft:savanna_plateau:
     conditions:
-      biome: minecraft:savanna_plateau
+      location:
+        biome: minecraft:savanna_plateau
     trigger: minecraft:location
   minecraft:snowy_beach:
     conditions:
-      biome: minecraft:snowy_beach
+      location:
+        biome: minecraft:snowy_beach
     trigger: minecraft:location
   minecraft:snowy_mountains:
     conditions:
-      biome: minecraft:snowy_mountains
+      location:
+        biome: minecraft:snowy_mountains
     trigger: minecraft:location
   minecraft:snowy_taiga:
     conditions:
-      biome: minecraft:snowy_taiga
+      location:
+        biome: minecraft:snowy_taiga
     trigger: minecraft:location
   minecraft:snowy_taiga_hills:
     conditions:
-      biome: minecraft:snowy_taiga_hills
+      location:
+        biome: minecraft:snowy_taiga_hills
     trigger: minecraft:location
   minecraft:snowy_tundra:
     conditions:
-      biome: minecraft:snowy_tundra
+      location:
+        biome: minecraft:snowy_tundra
     trigger: minecraft:location
   minecraft:stone_shore:
     conditions:
-      biome: minecraft:stone_shore
+      location:
+        biome: minecraft:stone_shore
     trigger: minecraft:location
   minecraft:swamp:
     conditions:
-      biome: minecraft:swamp
+      location:
+        biome: minecraft:swamp
     trigger: minecraft:location
   minecraft:taiga:
     conditions:
-      biome: minecraft:taiga
+      location:
+        biome: minecraft:taiga
     trigger: minecraft:location
   minecraft:taiga_hills:
     conditions:
-      biome: minecraft:taiga_hills
+      location:
+        biome: minecraft:taiga_hills
     trigger: minecraft:location
   minecraft:warm_ocean:
     conditions:
-      biome: minecraft:warm_ocean
+      location:
+        biome: minecraft:warm_ocean
     trigger: minecraft:location
   minecraft:wooded_badlands_plateau:
     conditions:
-      biome: minecraft:wooded_badlands_plateau
+      location:
+        biome: minecraft:wooded_badlands_plateau
     trigger: minecraft:location
   minecraft:wooded_hills:
     conditions:
-      biome: minecraft:wooded_hills
+      location:
+        biome: minecraft:wooded_hills
     trigger: minecraft:location
   minecraft:wooded_mountains:
     conditions:
-      biome: minecraft:wooded_mountains
+      location:
+        biome: minecraft:wooded_mountains
     trigger: minecraft:location
 display:
   announce_to_chat: true

@@ -2,7 +2,10 @@ criteria:
   killed_ghast:
     conditions:
       entity:
-        type: minecraft:ghast
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:ghast
       killing_blow:
         direct_entity:
           type: minecraft:fireball

@@ -2,7 +2,10 @@ criteria:
   struck_villager:
     conditions:
       victims:
-      - type: minecraft:villager
+      - - condition: minecraft:entity_properties
+          entity: this
+          predicate:
+            type: minecraft:villager
     trigger: minecraft:channeled_lightning
 display:
   announce_to_chat: true

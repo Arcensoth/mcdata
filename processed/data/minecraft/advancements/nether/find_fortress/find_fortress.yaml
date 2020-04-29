@@ -1,7 +1,8 @@
 criteria:
   fortress:
     conditions:
-      feature: fortress
+      location:
+        feature: fortress
     trigger: minecraft:location
 display:
   announce_to_chat: true

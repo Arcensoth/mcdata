@@ -2,82 +2,130 @@ criteria:
   minecraft:bee:
     conditions:
       parent:
-        type: minecraft:bee
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:bee
     trigger: minecraft:bred_animals
   minecraft:cat:
     conditions:
       parent:
-        type: minecraft:cat
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:cat
     trigger: minecraft:bred_animals
   minecraft:chicken:
     conditions:
       parent:
-        type: minecraft:chicken
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:chicken
     trigger: minecraft:bred_animals
   minecraft:cow:
     conditions:
       parent:
-        type: minecraft:cow
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:cow
     trigger: minecraft:bred_animals
   minecraft:fox:
     conditions:
       parent:
-        type: minecraft:fox
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:fox
     trigger: minecraft:bred_animals
   minecraft:hoglin:
     conditions:
       parent:
-        type: minecraft:hoglin
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:hoglin
     trigger: minecraft:bred_animals
   minecraft:horse:
     conditions:
       parent:
-        type: minecraft:horse
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:horse
     trigger: minecraft:bred_animals
   minecraft:llama:
     conditions:
       parent:
-        type: minecraft:llama
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:llama
     trigger: minecraft:bred_animals
   minecraft:mooshroom:
     conditions:
       parent:
-        type: minecraft:mooshroom
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:mooshroom
     trigger: minecraft:bred_animals
   minecraft:ocelot:
     conditions:
       parent:
-        type: minecraft:ocelot
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:ocelot
     trigger: minecraft:bred_animals
   minecraft:panda:
     conditions:
       parent:
-        type: minecraft:panda
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:panda
     trigger: minecraft:bred_animals
   minecraft:pig:
     conditions:
       parent:
-        type: minecraft:pig
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:pig
     trigger: minecraft:bred_animals
   minecraft:rabbit:
     conditions:
       parent:
-        type: minecraft:rabbit
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:rabbit
     trigger: minecraft:bred_animals
   minecraft:sheep:
     conditions:
       parent:
-        type: minecraft:sheep
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:sheep
     trigger: minecraft:bred_animals
   minecraft:turtle:
     conditions:
       parent:
-        type: minecraft:turtle
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:turtle
     trigger: minecraft:bred_animals
   minecraft:wolf:
     conditions:
       parent:
-        type: minecraft:wolf
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:wolf
     trigger: minecraft:bred_animals
 display:
   announce_to_chat: true

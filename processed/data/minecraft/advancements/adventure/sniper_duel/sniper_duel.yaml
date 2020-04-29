@@ -2,10 +2,13 @@ criteria:
   killed_skeleton:
     conditions:
       entity:
-        distance:
-          horizontal:
-            min: 50.0
-        type: minecraft:skeleton
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          distance:
+            horizontal:
+              min: 50.0
+          type: minecraft:skeleton
       killing_blow:
         is_projectile: true
     trigger: minecraft:player_killed_entity

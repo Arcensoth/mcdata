@@ -1,7 +1,8 @@
 criteria:
   in_stronghold:
     conditions:
-      feature: stronghold
+      location:
+        feature: stronghold
     trigger: minecraft:location
 display:
   announce_to_chat: true

@@ -2,7 +2,10 @@ criteria:
   killed_dragon:
     conditions:
       entity:
-        type: minecraft:ender_dragon
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:ender_dragon
     trigger: minecraft:player_killed_entity
 display:
   announce_to_chat: true

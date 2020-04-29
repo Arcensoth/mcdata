@@ -2,8 +2,14 @@ criteria:
   two_birds:
     conditions:
       victims:
-      - type: minecraft:phantom
-      - type: minecraft:phantom
+      - - condition: minecraft:entity_properties
+          entity: this
+          predicate:
+            type: minecraft:phantom
+      - - condition: minecraft:entity_properties
+          entity: this
+          predicate:
+            type: minecraft:phantom
     trigger: minecraft:killed_by_crossbow
 display:
   announce_to_chat: true

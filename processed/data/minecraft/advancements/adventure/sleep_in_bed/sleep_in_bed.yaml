@@ -1,5 +1,6 @@
 criteria:
   slept_in_bed:
+    conditions: {}
     trigger: minecraft:slept_in_bed
 display:
   announce_to_chat: true

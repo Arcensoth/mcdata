@@ -2,9 +2,12 @@ criteria:
   killed_ghast:
     conditions:
       entity:
-        location:
-          dimension: minecraft:overworld
-        type: minecraft:ghast
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          location:
+            dimension: minecraft:overworld
+          type: minecraft:ghast
     trigger: minecraft:player_killed_entity
 display:
   announce_to_chat: true
