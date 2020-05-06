@@ -10156,167 +10156,170 @@
       "minecraft:swim_one_cm": {
         "protocol_id": 18
       },
-      "minecraft:jump": {
+      "minecraft:strider_one_cm": {
         "protocol_id": 19
       },
-      "minecraft:drop": {
+      "minecraft:jump": {
         "protocol_id": 20
       },
-      "minecraft:damage_dealt": {
+      "minecraft:drop": {
         "protocol_id": 21
       },
-      "minecraft:damage_dealt_absorbed": {
+      "minecraft:damage_dealt": {
         "protocol_id": 22
       },
-      "minecraft:damage_dealt_resisted": {
+      "minecraft:damage_dealt_absorbed": {
         "protocol_id": 23
       },
-      "minecraft:damage_taken": {
+      "minecraft:damage_dealt_resisted": {
         "protocol_id": 24
       },
-      "minecraft:damage_blocked_by_shield": {
+      "minecraft:damage_taken": {
         "protocol_id": 25
       },
-      "minecraft:damage_absorbed": {
+      "minecraft:damage_blocked_by_shield": {
         "protocol_id": 26
       },
-      "minecraft:damage_resisted": {
+      "minecraft:damage_absorbed": {
         "protocol_id": 27
       },
-      "minecraft:deaths": {
+      "minecraft:damage_resisted": {
         "protocol_id": 28
       },
-      "minecraft:mob_kills": {
+      "minecraft:deaths": {
         "protocol_id": 29
       },
-      "minecraft:animals_bred": {
+      "minecraft:mob_kills": {
         "protocol_id": 30
       },
-      "minecraft:player_kills": {
+      "minecraft:animals_bred": {
         "protocol_id": 31
       },
-      "minecraft:fish_caught": {
+      "minecraft:player_kills": {
         "protocol_id": 32
       },
-      "minecraft:talked_to_villager": {
+      "minecraft:fish_caught": {
         "protocol_id": 33
       },
-      "minecraft:traded_with_villager": {
+      "minecraft:talked_to_villager": {
         "protocol_id": 34
       },
-      "minecraft:eat_cake_slice": {
+      "minecraft:traded_with_villager": {
         "protocol_id": 35
       },
-      "minecraft:fill_cauldron": {
+      "minecraft:eat_cake_slice": {
         "protocol_id": 36
       },
-      "minecraft:use_cauldron": {
+      "minecraft:fill_cauldron": {
         "protocol_id": 37
       },
-      "minecraft:clean_armor": {
+      "minecraft:use_cauldron": {
         "protocol_id": 38
       },
-      "minecraft:clean_banner": {
+      "minecraft:clean_armor": {
         "protocol_id": 39
       },
-      "minecraft:clean_shulker_box": {
+      "minecraft:clean_banner": {
         "protocol_id": 40
       },
-      "minecraft:interact_with_brewingstand": {
+      "minecraft:clean_shulker_box": {
         "protocol_id": 41
       },
-      "minecraft:interact_with_beacon": {
+      "minecraft:interact_with_brewingstand": {
         "protocol_id": 42
       },
-      "minecraft:inspect_dropper": {
+      "minecraft:interact_with_beacon": {
         "protocol_id": 43
       },
-      "minecraft:inspect_hopper": {
+      "minecraft:inspect_dropper": {
         "protocol_id": 44
       },
-      "minecraft:inspect_dispenser": {
+      "minecraft:inspect_hopper": {
         "protocol_id": 45
       },
-      "minecraft:play_noteblock": {
+      "minecraft:inspect_dispenser": {
         "protocol_id": 46
       },
-      "minecraft:tune_noteblock": {
+      "minecraft:play_noteblock": {
         "protocol_id": 47
       },
-      "minecraft:pot_flower": {
+      "minecraft:tune_noteblock": {
         "protocol_id": 48
       },
-      "minecraft:trigger_trapped_chest": {
+      "minecraft:pot_flower": {
         "protocol_id": 49
       },
-      "minecraft:open_enderchest": {
+      "minecraft:trigger_trapped_chest": {
         "protocol_id": 50
       },
-      "minecraft:enchant_item": {
+      "minecraft:open_enderchest": {
         "protocol_id": 51
       },
-      "minecraft:play_record": {
+      "minecraft:enchant_item": {
         "protocol_id": 52
       },
-      "minecraft:interact_with_furnace": {
+      "minecraft:play_record": {
         "protocol_id": 53
       },
-      "minecraft:interact_with_crafting_table": {
+      "minecraft:interact_with_furnace": {
         "protocol_id": 54
       },
-      "minecraft:open_chest": {
+      "minecraft:interact_with_crafting_table": {
         "protocol_id": 55
       },
-      "minecraft:sleep_in_bed": {
+      "minecraft:open_chest": {
         "protocol_id": 56
       },
-      "minecraft:open_shulker_box": {
+      "minecraft:sleep_in_bed": {
         "protocol_id": 57
       },
-      "minecraft:open_barrel": {
+      "minecraft:open_shulker_box": {
         "protocol_id": 58
       },
-      "minecraft:interact_with_blast_furnace": {
+      "minecraft:open_barrel": {
         "protocol_id": 59
       },
-      "minecraft:interact_with_smoker": {
+      "minecraft:interact_with_blast_furnace": {
         "protocol_id": 60
       },
-      "minecraft:interact_with_lectern": {
+      "minecraft:interact_with_smoker": {
         "protocol_id": 61
       },
-      "minecraft:interact_with_campfire": {
+      "minecraft:interact_with_lectern": {
         "protocol_id": 62
       },
-      "minecraft:interact_with_cartography_table": {
+      "minecraft:interact_with_campfire": {
         "protocol_id": 63
       },
-      "minecraft:interact_with_loom": {
+      "minecraft:interact_with_cartography_table": {
         "protocol_id": 64
       },
-      "minecraft:interact_with_stonecutter": {
+      "minecraft:interact_with_loom": {
         "protocol_id": 65
       },
-      "minecraft:bell_ring": {
+      "minecraft:interact_with_stonecutter": {
         "protocol_id": 66
       },
-      "minecraft:raid_trigger": {
+      "minecraft:bell_ring": {
         "protocol_id": 67
       },
-      "minecraft:raid_win": {
+      "minecraft:raid_trigger": {
         "protocol_id": 68
       },
-      "minecraft:interact_with_anvil": {
+      "minecraft:raid_win": {
         "protocol_id": 69
       },
-      "minecraft:interact_with_grindstone": {
+      "minecraft:interact_with_anvil": {
         "protocol_id": 70
       },
-      "minecraft:target_hit": {
+      "minecraft:interact_with_grindstone": {
         "protocol_id": 71
       },
-      "minecraft:interact_with_smithing_table": {
+      "minecraft:target_hit": {
         "protocol_id": 72
+      },
+      "minecraft:interact_with_smithing_table": {
+        "protocol_id": 73
       }
     }
   },
