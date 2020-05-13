@@ -1,7 +1,5 @@
 pools:
 - entries:
-  - name: minecraft:netherite_hoe
-    type: minecraft:item
   - functions:
     - enchantments:
       - minecraft:soul_speed

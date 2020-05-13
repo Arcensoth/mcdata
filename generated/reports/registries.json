@@ -9978,28 +9978,8 @@
       }
     }
   },
-  "minecraft:chunk_generator_type": {
-    "protocol_id": 22,
-    "entries": {
-      "minecraft:surface": {
-        "protocol_id": 0
-      },
-      "minecraft:caves": {
-        "protocol_id": 1
-      },
-      "minecraft:floating_islands": {
-        "protocol_id": 2
-      },
-      "minecraft:debug": {
-        "protocol_id": 3
-      },
-      "minecraft:flat": {
-        "protocol_id": 4
-      }
-    }
-  },
   "minecraft:dimension_type": {
-    "protocol_id": 23,
+    "protocol_id": 22,
     "entries": {
       "minecraft:overworld": {
         "protocol_id": 1
@@ -10014,7 +9994,7 @@
   },
   "minecraft:motive": {
     "default": "minecraft:kebab",
-    "protocol_id": 24,
+    "protocol_id": 23,
     "entries": {
       "minecraft:kebab": {
         "protocol_id": 0
@@ -10097,7 +10077,7 @@
     }
   },
   "minecraft:custom_stat": {
-    "protocol_id": 25,
+    "protocol_id": 24,
     "entries": {
       "minecraft:leave_game": {
         "protocol_id": 0
@@ -10325,7 +10305,7 @@
   },
   "minecraft:chunk_status": {
     "default": "minecraft:empty",
-    "protocol_id": 26,
+    "protocol_id": 25,
     "entries": {
       "minecraft:empty": {
         "protocol_id": 0
@@ -10369,7 +10349,7 @@
     }
   },
   "minecraft:structure_feature": {
-    "protocol_id": 27,
+    "protocol_id": 26,
     "entries": {
       "minecraft:mineshaft": {
         "protocol_id": 0
@@ -10428,7 +10408,7 @@
     }
   },
   "minecraft:structure_piece": {
-    "protocol_id": 28,
+    "protocol_id": 27,
     "entries": {
       "minecraft:mscorridor": {
         "protocol_id": 0
@@ -10610,7 +10590,7 @@
     }
   },
   "minecraft:rule_test": {
-    "protocol_id": 29,
+    "protocol_id": 28,
     "entries": {
       "minecraft:always_true": {
         "protocol_id": 0
@@ -10633,7 +10613,7 @@
     }
   },
   "minecraft:pos_rule_test": {
-    "protocol_id": 30,
+    "protocol_id": 29,
     "entries": {
       "minecraft:always_true": {
         "protocol_id": 0
@@ -10647,7 +10627,7 @@
     }
   },
   "minecraft:structure_processor": {
-    "protocol_id": 31,
+    "protocol_id": 30,
     "entries": {
       "minecraft:block_ignore": {
         "protocol_id": 0
@@ -10676,7 +10656,7 @@
     }
   },
   "minecraft:structure_pool_element": {
-    "protocol_id": 32,
+    "protocol_id": 31,
     "entries": {
       "minecraft:single_pool_element": {
         "protocol_id": 0
@@ -10696,7 +10676,7 @@
     }
   },
   "minecraft:menu": {
-    "protocol_id": 33,
+    "protocol_id": 32,
     "entries": {
       "minecraft:generic_9x1": {
         "protocol_id": 0
@@ -10773,7 +10753,7 @@
     }
   },
   "minecraft:recipe_type": {
-    "protocol_id": 34,
+    "protocol_id": 33,
     "entries": {
       "minecraft:crafting": {
         "protocol_id": 0
@@ -10796,7 +10776,7 @@
     }
   },
   "minecraft:recipe_serializer": {
-    "protocol_id": 35,
+    "protocol_id": 34,
     "entries": {
       "minecraft:crafting_shaped": {
         "protocol_id": 0
@@ -10861,7 +10841,7 @@
     }
   },
   "minecraft:attributes": {
-    "protocol_id": 36,
+    "protocol_id": 35,
     "entries": {
       "minecraft:generic.max_health": {
         "protocol_id": 0
@@ -10905,7 +10885,7 @@
     }
   },
   "minecraft:stat_type": {
-    "protocol_id": 37,
+    "protocol_id": 36,
     "entries": {
       "minecraft:mined": {
         "protocol_id": 0
@@ -10938,7 +10918,7 @@
   },
   "minecraft:villager_type": {
     "default": "minecraft:plains",
-    "protocol_id": 38,
+    "protocol_id": 37,
     "entries": {
       "minecraft:desert": {
         "protocol_id": 0
@@ -10965,7 +10945,7 @@
   },
   "minecraft:villager_profession": {
     "default": "minecraft:none",
-    "protocol_id": 39,
+    "protocol_id": 38,
     "entries": {
       "minecraft:none": {
         "protocol_id": 0
@@ -11016,7 +10996,7 @@
   },
   "minecraft:point_of_interest_type": {
     "default": "minecraft:unemployed",
-    "protocol_id": 40,
+    "protocol_id": 39,
     "entries": {
       "minecraft:unemployed": {
         "protocol_id": 0
@@ -11085,7 +11065,7 @@
   },
   "minecraft:memory_module_type": {
     "default": "minecraft:dummy",
-    "protocol_id": 41,
+    "protocol_id": 40,
     "entries": {
       "minecraft:dummy": {
         "protocol_id": 0
@@ -11256,7 +11236,7 @@
   },
   "minecraft:sensor_type": {
     "default": "minecraft:dummy",
-    "protocol_id": 42,
+    "protocol_id": 41,
     "entries": {
       "minecraft:dummy": {
         "protocol_id": 0
@@ -11300,7 +11280,7 @@
     }
   },
   "minecraft:schedule": {
-    "protocol_id": 43,
+    "protocol_id": 42,
     "entries": {
       "minecraft:empty": {
         "protocol_id": 0
@@ -11317,7 +11297,7 @@
     }
   },
   "minecraft:activity": {
-    "protocol_id": 44,
+    "protocol_id": 43,
     "entries": {
       "minecraft:core": {
         "protocol_id": 0

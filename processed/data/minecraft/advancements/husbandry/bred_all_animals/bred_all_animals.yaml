@@ -111,6 +111,14 @@ criteria:
         predicate:
           type: minecraft:sheep
     trigger: minecraft:bred_animals
+  minecraft:strider:
+    conditions:
+      parent:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:strider
+    trigger: minecraft:bred_animals
   minecraft:turtle:
     conditions:
       parent:
@@ -156,5 +164,6 @@ requirements:
 - - minecraft:fox
 - - minecraft:bee
 - - minecraft:hoglin
+- - minecraft:strider
 rewards:
   experience: 100

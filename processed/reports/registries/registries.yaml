@@ -30,7 +30,7 @@ minecraft:activity:
       protocol_id: 14
     minecraft:work:
       protocol_id: 2
-  protocol_id: 44
+  protocol_id: 43
 minecraft:attributes:
   entries:
     minecraft:generic.armor:
@@ -59,7 +59,7 @@ minecraft:attributes:
       protocol_id: 12
     minecraft:zombie.spawn_reinforcements:
       protocol_id: 11
-  protocol_id: 36
+  protocol_id: 35
 minecraft:biome:
   entries:
     minecraft:badlands:
@@ -1866,19 +1866,6 @@ minecraft:carver:
     minecraft:underwater_cave:
       protocol_id: 4
   protocol_id: 8
-minecraft:chunk_generator_type:
-  entries:
-    minecraft:caves:
-      protocol_id: 1
-    minecraft:debug:
-      protocol_id: 3
-    minecraft:flat:
-      protocol_id: 4
-    minecraft:floating_islands:
-      protocol_id: 2
-    minecraft:surface:
-      protocol_id: 0
-  protocol_id: 22
 minecraft:chunk_status:
   default: minecraft:empty
   entries:
@@ -1908,7 +1895,7 @@ minecraft:chunk_status:
       protocol_id: 1
     minecraft:surface:
       protocol_id: 5
-  protocol_id: 26
+  protocol_id: 25
 minecraft:custom_stat:
   entries:
     minecraft:animals_bred:
@@ -2059,7 +2046,7 @@ minecraft:custom_stat:
       protocol_id: 5
     minecraft:walk_under_water_one_cm:
       protocol_id: 12
-  protocol_id: 25
+  protocol_id: 24
 minecraft:decorator:
   entries:
     minecraft:carving_mask:
@@ -2147,7 +2134,7 @@ minecraft:dimension_type:
       protocol_id: 2
     minecraft:the_nether:
       protocol_id: 0
-  protocol_id: 23
+  protocol_id: 22
 minecraft:enchantment:
   entries:
     minecraft:aqua_affinity:
@@ -4699,7 +4686,7 @@ minecraft:memory_module_type:
       protocol_id: 7
     minecraft:walk_target:
       protocol_id: 11
-  protocol_id: 41
+  protocol_id: 40
 minecraft:menu:
   entries:
     minecraft:anvil:
@@ -4750,7 +4737,7 @@ minecraft:menu:
       protocol_id: 21
     minecraft:stonecutter:
       protocol_id: 23
-  protocol_id: 33
+  protocol_id: 32
 minecraft:mob_effect:
   entries:
     minecraft:absorption:
@@ -4873,7 +4860,7 @@ minecraft:motive:
       protocol_id: 6
     minecraft:wither:
       protocol_id: 19
-  protocol_id: 24
+  protocol_id: 23
 minecraft:particle_type:
   entries:
     minecraft:ambient_entity_effect:
@@ -5066,7 +5053,7 @@ minecraft:point_of_interest_type:
       protocol_id: 0
     minecraft:weaponsmith:
       protocol_id: 14
-  protocol_id: 40
+  protocol_id: 39
 minecraft:pos_rule_test:
   entries:
     minecraft:always_true:
@@ -5075,7 +5062,7 @@ minecraft:pos_rule_test:
       protocol_id: 2
     minecraft:linear_pos:
       protocol_id: 1
-  protocol_id: 30
+  protocol_id: 29
 minecraft:potion:
   default: minecraft:empty
   entries:
@@ -5208,7 +5195,7 @@ minecraft:recipe_serializer:
       protocol_id: 17
     minecraft:stonecutting:
       protocol_id: 19
-  protocol_id: 35
+  protocol_id: 34
 minecraft:recipe_type:
   entries:
     minecraft:blasting:
@@ -5223,7 +5210,7 @@ minecraft:recipe_type:
       protocol_id: 3
     minecraft:stonecutting:
       protocol_id: 5
-  protocol_id: 34
+  protocol_id: 33
 minecraft:rule_test:
   entries:
     minecraft:always_true:
@@ -5238,7 +5225,7 @@ minecraft:rule_test:
       protocol_id: 5
     minecraft:tag_match:
       protocol_id: 3
-  protocol_id: 29
+  protocol_id: 28
 minecraft:schedule:
   entries:
     minecraft:empty:
@@ -5249,7 +5236,7 @@ minecraft:schedule:
       protocol_id: 2
     minecraft:villager_default:
       protocol_id: 3
-  protocol_id: 43
+  protocol_id: 42
 minecraft:sensor_type:
   default: minecraft:dummy
   entries:
@@ -5279,7 +5266,7 @@ minecraft:sensor_type:
       protocol_id: 8
     minecraft:villager_hostiles:
       protocol_id: 7
-  protocol_id: 42
+  protocol_id: 41
 minecraft:sound_event:
   entries:
     minecraft:ambient.basalt_deltas.additions:
@@ -7259,7 +7246,7 @@ minecraft:stat_type:
       protocol_id: 4
     minecraft:used:
       protocol_id: 2
-  protocol_id: 37
+  protocol_id: 36
 minecraft:structure_feature:
   entries:
     minecraft:bastion_remnant:
@@ -7298,7 +7285,7 @@ minecraft:structure_feature:
       protocol_id: 9
     minecraft:village:
       protocol_id: 15
-  protocol_id: 27
+  protocol_id: 26
 minecraft:structure_piece:
   entries:
     minecraft:bastionremnant:
@@ -7419,7 +7406,7 @@ minecraft:structure_piece:
       protocol_id: 38
     minecraft:wmp:
       protocol_id: 53
-  protocol_id: 28
+  protocol_id: 27
 minecraft:structure_pool_element:
   entries:
     minecraft:empty_pool_element:
@@ -7432,7 +7419,7 @@ minecraft:structure_pool_element:
       protocol_id: 1
     minecraft:single_pool_element:
       protocol_id: 0
-  protocol_id: 32
+  protocol_id: 31
 minecraft:structure_processor:
   entries:
     minecraft:blackstone_replace:
@@ -7451,7 +7438,7 @@ minecraft:structure_processor:
       protocol_id: 5
     minecraft:rule:
       protocol_id: 4
-  protocol_id: 31
+  protocol_id: 30
 minecraft:surface_builder:
   entries:
     minecraft:badlands:
@@ -7546,7 +7533,7 @@ minecraft:villager_profession:
       protocol_id: 13
     minecraft:weaponsmith:
       protocol_id: 14
-  protocol_id: 39
+  protocol_id: 38
 minecraft:villager_type:
   default: minecraft:plains
   entries:
@@ -7564,4 +7551,4 @@ minecraft:villager_type:
       protocol_id: 5
     minecraft:taiga:
       protocol_id: 6
-  protocol_id: 38
+  protocol_id: 37
