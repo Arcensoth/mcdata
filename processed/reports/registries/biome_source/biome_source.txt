@@ -1,0 +1,5 @@
+minecraft:fixed
+minecraft:multi_noise
+minecraft:checkerboard
+minecraft:vanilla_layered
+minecraft:the_end

@@ -94190,7 +94190,8 @@ minecraft:redstone_wire:
       power: '0'
       south: side
       west: up
-  - id: 2638
+  - default: true
+    id: 2638
     properties:
       east: side
       north: side
@@ -98250,8 +98251,7 @@ minecraft:redstone_wire:
       power: '0'
       south: none
       west: side
-  - default: true
-    id: 3218
+  - id: 3218
     properties:
       east: none
       north: none

@@ -198,6 +198,7 @@ values:
 - minecraft:entity.donkey.angry
 - minecraft:entity.donkey.chest
 - minecraft:entity.donkey.death
+- minecraft:entity.donkey.eat
 - minecraft:entity.donkey.hurt
 - minecraft:entity.drowned.ambient
 - minecraft:entity.drowned.ambient_water
@@ -283,6 +284,7 @@ values:
 - minecraft:entity.fox.sleep
 - minecraft:entity.fox.sniff
 - minecraft:entity.fox.spit
+- minecraft:entity.fox.teleport
 - minecraft:block.roots.break
 - minecraft:block.roots.step
 - minecraft:block.roots.place
@@ -455,8 +457,10 @@ values:
 - minecraft:entity.mooshroom.suspicious_milk
 - minecraft:entity.mooshroom.shear
 - minecraft:entity.mule.ambient
+- minecraft:entity.mule.angry
 - minecraft:entity.mule.chest
 - minecraft:entity.mule.death
+- minecraft:entity.mule.eat
 - minecraft:entity.mule.hurt
 - minecraft:music.creative
 - minecraft:music.credits
@@ -576,10 +580,12 @@ values:
 - minecraft:entity.parrot.imitate.evoker
 - minecraft:entity.parrot.imitate.ghast
 - minecraft:entity.parrot.imitate.guardian
+- minecraft:entity.parrot.imitate.hoglin
 - minecraft:entity.parrot.imitate.husk
 - minecraft:entity.parrot.imitate.illusioner
 - minecraft:entity.parrot.imitate.magma_cube
 - minecraft:entity.parrot.imitate.phantom
+- minecraft:entity.parrot.imitate.piglin
 - minecraft:entity.parrot.imitate.pillager
 - minecraft:entity.parrot.imitate.ravager
 - minecraft:entity.parrot.imitate.shulker
@@ -593,6 +599,7 @@ values:
 - minecraft:entity.parrot.imitate.witch
 - minecraft:entity.parrot.imitate.wither
 - minecraft:entity.parrot.imitate.wither_skeleton
+- minecraft:entity.parrot.imitate.zoglin
 - minecraft:entity.parrot.imitate.zombie
 - minecraft:entity.parrot.imitate.zombie_villager
 - minecraft:entity.parrot.step

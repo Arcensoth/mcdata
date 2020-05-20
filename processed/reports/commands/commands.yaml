@@ -3047,58 +3047,58 @@ children:
     type: literal
   locate:
     children:
-      Bastion_Remnant:
+      bastion_remnant:
         executable: true
         type: literal
-      Buried_Treasure:
+      buried_treasure:
         executable: true
         type: literal
-      Desert_Pyramid:
+      desert_pyramid:
         executable: true
         type: literal
-      EndCity:
+      endcity:
         executable: true
         type: literal
-      Fortress:
+      fortress:
         executable: true
         type: literal
-      Igloo:
+      igloo:
         executable: true
         type: literal
-      Jungle_Pyramid:
+      jungle_pyramid:
         executable: true
         type: literal
-      Mansion:
+      mansion:
         executable: true
         type: literal
-      Mineshaft:
+      mineshaft:
         executable: true
         type: literal
-      Monument:
+      monument:
         executable: true
         type: literal
-      Nether_Fossil:
+      nether_fossil:
         executable: true
         type: literal
-      Ocean_Ruin:
+      ocean_ruin:
         executable: true
         type: literal
-      Pillager_Outpost:
+      pillager_outpost:
         executable: true
         type: literal
-      Ruined_Portal:
+      ruined_portal:
         executable: true
         type: literal
-      Shipwreck:
+      shipwreck:
         executable: true
         type: literal
-      Stronghold:
+      stronghold:
         executable: true
         type: literal
-      Swamp_Hut:
+      swamp_hut:
         executable: true
         type: literal
-      Village:
+      village:
         executable: true
         type: literal
     type: literal
@@ -4512,6 +4512,24 @@ children:
                         type: argument
                     parser: brigadier:bool
                     type: argument
+                  under:
+                    children:
+                      maxHeight:
+                        children:
+                          respectTeams:
+                            children:
+                              targets:
+                                executable: true
+                                parser: minecraft:entity
+                                properties:
+                                  amount: multiple
+                                  type: entities
+                                type: argument
+                            parser: brigadier:bool
+                            type: argument
+                        parser: brigadier:integer
+                        type: argument
+                    type: literal
                 parser: brigadier:float
                 properties:
                   min: 1.0

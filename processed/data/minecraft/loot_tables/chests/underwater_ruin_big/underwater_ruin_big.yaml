@@ -52,7 +52,6 @@ pools:
     weight: 5
   - functions:
     - decoration: red_x
-      destination: buried_treasure
       function: minecraft:exploration_map
       skip_existing_chunks: false
       zoom: 1

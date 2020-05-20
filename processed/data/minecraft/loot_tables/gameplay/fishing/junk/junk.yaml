@@ -1,5 +1,8 @@
 pools:
 - entries:
+  - name: minecraft:lily_pad
+    type: minecraft:item
+    weight: 17
   - functions:
     - damage:
         max: 0.9

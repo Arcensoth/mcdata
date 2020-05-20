@@ -24722,7 +24722,8 @@
           "south": "side",
           "west": "side"
         },
-        "id": 2638
+        "id": 2638,
+        "default": true
       },
       {
         "properties": {
@@ -30522,8 +30523,7 @@
           "south": "none",
           "west": "none"
         },
-        "id": 3218,
-        "default": true
+        "id": 3218
       },
       {
         "properties": {

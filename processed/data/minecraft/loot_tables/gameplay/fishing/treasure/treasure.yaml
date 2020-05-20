@@ -1,7 +1,5 @@
 pools:
 - entries:
-  - name: minecraft:lily_pad
-    type: minecraft:item
   - name: minecraft:name_tag
     type: minecraft:item
   - name: minecraft:saddle
