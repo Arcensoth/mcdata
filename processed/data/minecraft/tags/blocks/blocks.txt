@@ -21,6 +21,7 @@ minecraft:doors
 minecraft:dragon_immune
 minecraft:enderman_holdable
 minecraft:fences
+minecraft:fence_gates
 minecraft:fire
 minecraft:flowers
 minecraft:flower_pots
@@ -59,6 +60,7 @@ minecraft:strider_warm_blocks
 minecraft:tall_flowers
 minecraft:trapdoors
 minecraft:underwater_bonemeals
+minecraft:unstable_bottom_center
 minecraft:valid_spawn
 minecraft:walls
 minecraft:wall_corals

@@ -4539,119 +4539,222 @@ minecraft:item:
     minecraft:zombified_piglin_spawn_egg:
       protocol_id: 820
   protocol_id: 6
+minecraft:loot_condition_type:
+  entries:
+    minecraft:alternative:
+      protocol_id: 1
+    minecraft:block_state_property:
+      protocol_id: 7
+    minecraft:damage_source_properties:
+      protocol_id: 11
+    minecraft:entity_properties:
+      protocol_id: 4
+    minecraft:entity_scores:
+      protocol_id: 6
+    minecraft:inverted:
+      protocol_id: 0
+    minecraft:killed_by_player:
+      protocol_id: 5
+    minecraft:location_check:
+      protocol_id: 12
+    minecraft:match_tool:
+      protocol_id: 8
+    minecraft:random_chance:
+      protocol_id: 2
+    minecraft:random_chance_with_looting:
+      protocol_id: 3
+    minecraft:reference:
+      protocol_id: 14
+    minecraft:survives_explosion:
+      protocol_id: 10
+    minecraft:table_bonus:
+      protocol_id: 9
+    minecraft:time_check:
+      protocol_id: 15
+    minecraft:weather_check:
+      protocol_id: 13
+  protocol_id: 46
+minecraft:loot_function_type:
+  entries:
+    minecraft:apply_bonus:
+      protocol_id: 14
+    minecraft:copy_name:
+      protocol_id: 11
+    minecraft:copy_nbt:
+      protocol_id: 19
+    minecraft:copy_state:
+      protocol_id: 20
+    minecraft:enchant_randomly:
+      protocol_id: 2
+    minecraft:enchant_with_levels:
+      protocol_id: 1
+    minecraft:exploration_map:
+      protocol_id: 9
+    minecraft:explosion_decay:
+      protocol_id: 16
+    minecraft:fill_player_head:
+      protocol_id: 18
+    minecraft:furnace_smelt:
+      protocol_id: 4
+    minecraft:limit_count:
+      protocol_id: 13
+    minecraft:looting_enchant:
+      protocol_id: 5
+    minecraft:set_attributes:
+      protocol_id: 7
+    minecraft:set_contents:
+      protocol_id: 12
+    minecraft:set_count:
+      protocol_id: 0
+    minecraft:set_damage:
+      protocol_id: 6
+    minecraft:set_loot_table:
+      protocol_id: 15
+    minecraft:set_lore:
+      protocol_id: 17
+    minecraft:set_name:
+      protocol_id: 8
+    minecraft:set_nbt:
+      protocol_id: 3
+    minecraft:set_stew_effect:
+      protocol_id: 10
+  protocol_id: 45
+minecraft:loot_pool_entry_type:
+  entries:
+    minecraft:alternatives:
+      protocol_id: 5
+    minecraft:dynamic:
+      protocol_id: 3
+    minecraft:empty:
+      protocol_id: 0
+    minecraft:group:
+      protocol_id: 7
+    minecraft:item:
+      protocol_id: 1
+    minecraft:loot_table:
+      protocol_id: 2
+    minecraft:sequence:
+      protocol_id: 6
+    minecraft:tag:
+      protocol_id: 4
+  protocol_id: 44
 minecraft:memory_module_type:
   default: minecraft:dummy
   entries:
     minecraft:admiring_disabled:
-      protocol_id: 36
+      protocol_id: 37
     minecraft:admiring_item:
-      protocol_id: 35
+      protocol_id: 36
     minecraft:angry_at:
-      protocol_id: 34
+      protocol_id: 35
     minecraft:ate_recently:
-      protocol_id: 52
+      protocol_id: 54
     minecraft:attack_cooling_down:
-      protocol_id: 14
+      protocol_id: 15
     minecraft:attack_target:
-      protocol_id: 13
+      protocol_id: 14
     minecraft:avoid_target:
-      protocol_id: 24
+      protocol_id: 25
     minecraft:breed_target:
-      protocol_id: 16
+      protocol_id: 17
     minecraft:cant_reach_walk_target_since:
-      protocol_id: 28
+      protocol_id: 29
     minecraft:celebrate_location:
-      protocol_id: 38
+      protocol_id: 39
+    minecraft:dancing:
+      protocol_id: 40
     minecraft:dummy:
       protocol_id: 0
     minecraft:golem_last_seen_time:
-      protocol_id: 29
+      protocol_id: 30
     minecraft:heard_bell_time:
-      protocol_id: 27
+      protocol_id: 28
     minecraft:hiding_place:
-      protocol_id: 26
+      protocol_id: 27
     minecraft:home:
       protocol_id: 1
     minecraft:hunted_recently:
-      protocol_id: 37
+      protocol_id: 38
     minecraft:hurt_by:
-      protocol_id: 22
-    minecraft:hurt_by_entity:
       protocol_id: 23
+    minecraft:hurt_by_entity:
+      protocol_id: 24
     minecraft:interactable_doors:
-      protocol_id: 19
+      protocol_id: 20
     minecraft:interaction_target:
-      protocol_id: 15
+      protocol_id: 16
     minecraft:job_site:
       protocol_id: 2
     minecraft:last_slept:
-      protocol_id: 30
-    minecraft:last_woken:
       protocol_id: 31
-    minecraft:last_worked_at_poi:
+    minecraft:last_woken:
       protocol_id: 32
-    minecraft:look_target:
-      protocol_id: 12
-    minecraft:meeting_point:
-      protocol_id: 3
-    minecraft:mobs:
-      protocol_id: 5
-    minecraft:nearest_adult_piglins:
-      protocol_id: 44
-    minecraft:nearest_bed:
-      protocol_id: 21
-    minecraft:nearest_hostile:
-      protocol_id: 25
-    minecraft:nearest_player_holding_wanted_item:
-      protocol_id: 51
-    minecraft:nearest_players:
-      protocol_id: 8
-    minecraft:nearest_repellent:
-      protocol_id: 53
-    minecraft:nearest_targetable_player_not_wearing_gold:
-      protocol_id: 43
-    minecraft:nearest_visible_adult_hoglins:
-      protocol_id: 46
-    minecraft:nearest_visible_adult_piglin:
-      protocol_id: 47
-    minecraft:nearest_visible_adult_piglins:
-      protocol_id: 45
-    minecraft:nearest_visible_baby_hoglin:
-      protocol_id: 41
-    minecraft:nearest_visible_baby_piglin:
-      protocol_id: 42
-    minecraft:nearest_visible_huntable_hoglin:
-      protocol_id: 40
-    minecraft:nearest_visible_player:
-      protocol_id: 9
-    minecraft:nearest_visible_targetable_player:
-      protocol_id: 10
-    minecraft:nearest_visible_wanted_item:
+    minecraft:last_worked_at_poi:
       protocol_id: 33
-    minecraft:nearest_visible_wither_skeleton:
-      protocol_id: 39
-    minecraft:nearest_visible_zombified:
-      protocol_id: 48
-    minecraft:opened_doors:
-      protocol_id: 20
-    minecraft:pacified:
-      protocol_id: 54
-    minecraft:path:
-      protocol_id: 18
-    minecraft:ride_target:
-      protocol_id: 17
-    minecraft:secondary_job_site:
+    minecraft:look_target:
+      protocol_id: 13
+    minecraft:meeting_point:
       protocol_id: 4
-    minecraft:visible_adult_hoglin_count:
-      protocol_id: 50
-    minecraft:visible_adult_piglin_count:
-      protocol_id: 49
-    minecraft:visible_mobs:
+    minecraft:mobs:
       protocol_id: 6
-    minecraft:visible_villager_babies:
-      protocol_id: 7
-    minecraft:walk_target:
+    minecraft:nearest_adult_piglins:
+      protocol_id: 46
+    minecraft:nearest_bed:
+      protocol_id: 22
+    minecraft:nearest_hostile:
+      protocol_id: 26
+    minecraft:nearest_player_holding_wanted_item:
+      protocol_id: 53
+    minecraft:nearest_players:
+      protocol_id: 9
+    minecraft:nearest_repellent:
+      protocol_id: 55
+    minecraft:nearest_targetable_player_not_wearing_gold:
+      protocol_id: 45
+    minecraft:nearest_visible_adult_hoglins:
+      protocol_id: 48
+    minecraft:nearest_visible_adult_piglin:
+      protocol_id: 49
+    minecraft:nearest_visible_adult_piglins:
+      protocol_id: 47
+    minecraft:nearest_visible_baby_hoglin:
+      protocol_id: 43
+    minecraft:nearest_visible_baby_piglin:
+      protocol_id: 44
+    minecraft:nearest_visible_huntable_hoglin:
+      protocol_id: 42
+    minecraft:nearest_visible_player:
+      protocol_id: 10
+    minecraft:nearest_visible_targetable_player:
       protocol_id: 11
+    minecraft:nearest_visible_wanted_item:
+      protocol_id: 34
+    minecraft:nearest_visible_wither_skeleton:
+      protocol_id: 41
+    minecraft:nearest_visible_zombified:
+      protocol_id: 50
+    minecraft:opened_doors:
+      protocol_id: 21
+    minecraft:pacified:
+      protocol_id: 56
+    minecraft:path:
+      protocol_id: 19
+    minecraft:potential_job_site:
+      protocol_id: 3
+    minecraft:ride_target:
+      protocol_id: 18
+    minecraft:secondary_job_site:
+      protocol_id: 5
+    minecraft:visible_adult_hoglin_count:
+      protocol_id: 52
+    minecraft:visible_adult_piglin_count:
+      protocol_id: 51
+    minecraft:visible_mobs:
+      protocol_id: 7
+    minecraft:visible_villager_babies:
+      protocol_id: 8
+    minecraft:walk_target:
+      protocol_id: 12
   protocol_id: 40
 minecraft:menu:
   entries:

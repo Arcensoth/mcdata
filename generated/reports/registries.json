@@ -11046,161 +11046,167 @@
       "minecraft:job_site": {
         "protocol_id": 2
       },
-      "minecraft:meeting_point": {
+      "minecraft:potential_job_site": {
         "protocol_id": 3
       },
-      "minecraft:secondary_job_site": {
+      "minecraft:meeting_point": {
         "protocol_id": 4
       },
-      "minecraft:mobs": {
+      "minecraft:secondary_job_site": {
         "protocol_id": 5
       },
-      "minecraft:visible_mobs": {
+      "minecraft:mobs": {
         "protocol_id": 6
       },
-      "minecraft:visible_villager_babies": {
+      "minecraft:visible_mobs": {
         "protocol_id": 7
       },
-      "minecraft:nearest_players": {
+      "minecraft:visible_villager_babies": {
         "protocol_id": 8
       },
-      "minecraft:nearest_visible_player": {
+      "minecraft:nearest_players": {
         "protocol_id": 9
       },
-      "minecraft:nearest_visible_targetable_player": {
+      "minecraft:nearest_visible_player": {
         "protocol_id": 10
       },
-      "minecraft:walk_target": {
+      "minecraft:nearest_visible_targetable_player": {
         "protocol_id": 11
       },
-      "minecraft:look_target": {
+      "minecraft:walk_target": {
         "protocol_id": 12
       },
-      "minecraft:attack_target": {
+      "minecraft:look_target": {
         "protocol_id": 13
       },
-      "minecraft:attack_cooling_down": {
+      "minecraft:attack_target": {
         "protocol_id": 14
       },
-      "minecraft:interaction_target": {
+      "minecraft:attack_cooling_down": {
         "protocol_id": 15
       },
-      "minecraft:breed_target": {
+      "minecraft:interaction_target": {
         "protocol_id": 16
       },
-      "minecraft:ride_target": {
+      "minecraft:breed_target": {
         "protocol_id": 17
       },
-      "minecraft:path": {
+      "minecraft:ride_target": {
         "protocol_id": 18
       },
-      "minecraft:interactable_doors": {
+      "minecraft:path": {
         "protocol_id": 19
       },
-      "minecraft:opened_doors": {
+      "minecraft:interactable_doors": {
         "protocol_id": 20
       },
-      "minecraft:nearest_bed": {
+      "minecraft:opened_doors": {
         "protocol_id": 21
       },
-      "minecraft:hurt_by": {
+      "minecraft:nearest_bed": {
         "protocol_id": 22
       },
-      "minecraft:hurt_by_entity": {
+      "minecraft:hurt_by": {
         "protocol_id": 23
       },
-      "minecraft:avoid_target": {
+      "minecraft:hurt_by_entity": {
         "protocol_id": 24
       },
-      "minecraft:nearest_hostile": {
+      "minecraft:avoid_target": {
         "protocol_id": 25
       },
-      "minecraft:hiding_place": {
+      "minecraft:nearest_hostile": {
         "protocol_id": 26
       },
-      "minecraft:heard_bell_time": {
+      "minecraft:hiding_place": {
         "protocol_id": 27
       },
-      "minecraft:cant_reach_walk_target_since": {
+      "minecraft:heard_bell_time": {
         "protocol_id": 28
       },
-      "minecraft:golem_last_seen_time": {
+      "minecraft:cant_reach_walk_target_since": {
         "protocol_id": 29
       },
-      "minecraft:last_slept": {
+      "minecraft:golem_last_seen_time": {
         "protocol_id": 30
       },
-      "minecraft:last_woken": {
+      "minecraft:last_slept": {
         "protocol_id": 31
       },
-      "minecraft:last_worked_at_poi": {
+      "minecraft:last_woken": {
         "protocol_id": 32
       },
-      "minecraft:nearest_visible_wanted_item": {
+      "minecraft:last_worked_at_poi": {
         "protocol_id": 33
       },
-      "minecraft:angry_at": {
+      "minecraft:nearest_visible_wanted_item": {
         "protocol_id": 34
       },
-      "minecraft:admiring_item": {
+      "minecraft:angry_at": {
         "protocol_id": 35
       },
-      "minecraft:admiring_disabled": {
+      "minecraft:admiring_item": {
         "protocol_id": 36
       },
-      "minecraft:hunted_recently": {
+      "minecraft:admiring_disabled": {
         "protocol_id": 37
       },
-      "minecraft:celebrate_location": {
+      "minecraft:hunted_recently": {
         "protocol_id": 38
       },
-      "minecraft:nearest_visible_wither_skeleton": {
+      "minecraft:celebrate_location": {
         "protocol_id": 39
       },
-      "minecraft:nearest_visible_huntable_hoglin": {
+      "minecraft:dancing": {
         "protocol_id": 40
       },
-      "minecraft:nearest_visible_baby_hoglin": {
+      "minecraft:nearest_visible_wither_skeleton": {
         "protocol_id": 41
       },
-      "minecraft:nearest_visible_baby_piglin": {
+      "minecraft:nearest_visible_huntable_hoglin": {
         "protocol_id": 42
       },
-      "minecraft:nearest_targetable_player_not_wearing_gold": {
+      "minecraft:nearest_visible_baby_hoglin": {
         "protocol_id": 43
       },
-      "minecraft:nearest_adult_piglins": {
+      "minecraft:nearest_visible_baby_piglin": {
         "protocol_id": 44
       },
-      "minecraft:nearest_visible_adult_piglins": {
+      "minecraft:nearest_targetable_player_not_wearing_gold": {
         "protocol_id": 45
       },
-      "minecraft:nearest_visible_adult_hoglins": {
+      "minecraft:nearest_adult_piglins": {
         "protocol_id": 46
       },
-      "minecraft:nearest_visible_adult_piglin": {
+      "minecraft:nearest_visible_adult_piglins": {
         "protocol_id": 47
       },
-      "minecraft:nearest_visible_zombified": {
+      "minecraft:nearest_visible_adult_hoglins": {
         "protocol_id": 48
       },
-      "minecraft:visible_adult_piglin_count": {
+      "minecraft:nearest_visible_adult_piglin": {
         "protocol_id": 49
       },
-      "minecraft:visible_adult_hoglin_count": {
+      "minecraft:nearest_visible_zombified": {
         "protocol_id": 50
       },
-      "minecraft:nearest_player_holding_wanted_item": {
+      "minecraft:visible_adult_piglin_count": {
         "protocol_id": 51
       },
-      "minecraft:ate_recently": {
+      "minecraft:visible_adult_hoglin_count": {
         "protocol_id": 52
       },
-      "minecraft:nearest_repellent": {
+      "minecraft:nearest_player_holding_wanted_item": {
         "protocol_id": 53
       },
-      "minecraft:pacified": {
+      "minecraft:ate_recently": {
         "protocol_id": 54
+      },
+      "minecraft:nearest_repellent": {
+        "protocol_id": 55
+      },
+      "minecraft:pacified": {
+        "protocol_id": 56
       }
     }
   },
@@ -11313,6 +11319,156 @@
       },
       "minecraft:ride": {
         "protocol_id": 14
+      }
+    }
+  },
+  "minecraft:loot_pool_entry_type": {
+    "protocol_id": 44,
+    "entries": {
+      "minecraft:empty": {
+        "protocol_id": 0
+      },
+      "minecraft:item": {
+        "protocol_id": 1
+      },
+      "minecraft:loot_table": {
+        "protocol_id": 2
+      },
+      "minecraft:dynamic": {
+        "protocol_id": 3
+      },
+      "minecraft:tag": {
+        "protocol_id": 4
+      },
+      "minecraft:alternatives": {
+        "protocol_id": 5
+      },
+      "minecraft:sequence": {
+        "protocol_id": 6
+      },
+      "minecraft:group": {
+        "protocol_id": 7
+      }
+    }
+  },
+  "minecraft:loot_function_type": {
+    "protocol_id": 45,
+    "entries": {
+      "minecraft:set_count": {
+        "protocol_id": 0
+      },
+      "minecraft:enchant_with_levels": {
+        "protocol_id": 1
+      },
+      "minecraft:enchant_randomly": {
+        "protocol_id": 2
+      },
+      "minecraft:set_nbt": {
+        "protocol_id": 3
+      },
+      "minecraft:furnace_smelt": {
+        "protocol_id": 4
+      },
+      "minecraft:looting_enchant": {
+        "protocol_id": 5
+      },
+      "minecraft:set_damage": {
+        "protocol_id": 6
+      },
+      "minecraft:set_attributes": {
+        "protocol_id": 7
+      },
+      "minecraft:set_name": {
+        "protocol_id": 8
+      },
+      "minecraft:exploration_map": {
+        "protocol_id": 9
+      },
+      "minecraft:set_stew_effect": {
+        "protocol_id": 10
+      },
+      "minecraft:copy_name": {
+        "protocol_id": 11
+      },
+      "minecraft:set_contents": {
+        "protocol_id": 12
+      },
+      "minecraft:limit_count": {
+        "protocol_id": 13
+      },
+      "minecraft:apply_bonus": {
+        "protocol_id": 14
+      },
+      "minecraft:set_loot_table": {
+        "protocol_id": 15
+      },
+      "minecraft:explosion_decay": {
+        "protocol_id": 16
+      },
+      "minecraft:set_lore": {
+        "protocol_id": 17
+      },
+      "minecraft:fill_player_head": {
+        "protocol_id": 18
+      },
+      "minecraft:copy_nbt": {
+        "protocol_id": 19
+      },
+      "minecraft:copy_state": {
+        "protocol_id": 20
+      }
+    }
+  },
+  "minecraft:loot_condition_type": {
+    "protocol_id": 46,
+    "entries": {
+      "minecraft:inverted": {
+        "protocol_id": 0
+      },
+      "minecraft:alternative": {
+        "protocol_id": 1
+      },
+      "minecraft:random_chance": {
+        "protocol_id": 2
+      },
+      "minecraft:random_chance_with_looting": {
+        "protocol_id": 3
+      },
+      "minecraft:entity_properties": {
+        "protocol_id": 4
+      },
+      "minecraft:killed_by_player": {
+        "protocol_id": 5
+      },
+      "minecraft:entity_scores": {
+        "protocol_id": 6
+      },
+      "minecraft:block_state_property": {
+        "protocol_id": 7
+      },
+      "minecraft:match_tool": {
+        "protocol_id": 8
+      },
+      "minecraft:table_bonus": {
+        "protocol_id": 9
+      },
+      "minecraft:survives_explosion": {
+        "protocol_id": 10
+      },
+      "minecraft:damage_source_properties": {
+        "protocol_id": 11
+      },
+      "minecraft:location_check": {
+        "protocol_id": 12
+      },
+      "minecraft:weather_check": {
+        "protocol_id": 13
+      },
+      "minecraft:reference": {
+        "protocol_id": 14
+      },
+      "minecraft:time_check": {
+        "protocol_id": 15
       }
     }
   }

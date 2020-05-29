@@ -2,6 +2,7 @@ values:
 - minecraft:dummy
 - minecraft:home
 - minecraft:job_site
+- minecraft:potential_job_site
 - minecraft:meeting_point
 - minecraft:secondary_job_site
 - minecraft:mobs
@@ -38,6 +39,7 @@ values:
 - minecraft:admiring_disabled
 - minecraft:hunted_recently
 - minecraft:celebrate_location
+- minecraft:dancing
 - minecraft:nearest_visible_wither_skeleton
 - minecraft:nearest_visible_huntable_hoglin
 - minecraft:nearest_visible_baby_hoglin

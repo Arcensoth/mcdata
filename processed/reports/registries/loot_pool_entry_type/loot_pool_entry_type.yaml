@@ -1,0 +1,9 @@
+values:
+- minecraft:empty
+- minecraft:item
+- minecraft:loot_table
+- minecraft:dynamic
+- minecraft:tag
+- minecraft:alternatives
+- minecraft:sequence
+- minecraft:group

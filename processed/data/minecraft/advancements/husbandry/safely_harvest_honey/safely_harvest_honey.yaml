@@ -5,7 +5,7 @@ criteria:
         item: minecraft:glass_bottle
       location:
         block:
-          block: minecraft:beehive
+          tag: minecraft:beehives
         smokey: true
     trigger: minecraft:item_used_on_block
 display:

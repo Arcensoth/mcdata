@@ -48,9 +48,9 @@ pools:
   - functions:
     - effects:
       - duration:
-          max: 20.0
-          min: 10.0
-        type: minecraft:poison
+          max: 7.0
+          min: 5.0
+        type: minecraft:blindness
       - duration:
           max: 10.0
           min: 7.0
@@ -64,13 +64,13 @@ pools:
           min: 6.0
         type: minecraft:weakness
       - duration:
+          max: 20.0
+          min: 10.0
+        type: minecraft:poison
+      - duration:
           max: 10.0
           min: 7.0
         type: minecraft:night_vision
-      - duration:
-          max: 7.0
-          min: 5.0
-        type: minecraft:blindness
       function: minecraft:set_stew_effect
     name: minecraft:suspicious_stew
     type: minecraft:item
