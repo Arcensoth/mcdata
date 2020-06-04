@@ -1,7 +1,7 @@
 criteria:
   minecraft:bee:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -9,7 +9,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:cat:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -17,7 +17,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:chicken:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -25,15 +25,23 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:cow:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
           type: minecraft:cow
     trigger: minecraft:bred_animals
+  minecraft:donkey:
+    conditions:
+      child:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:donkey
+    trigger: minecraft:bred_animals
   minecraft:fox:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -41,7 +49,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:hoglin:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -49,7 +57,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:horse:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -57,7 +65,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:llama:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -65,15 +73,23 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:mooshroom:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
           type: minecraft:mooshroom
     trigger: minecraft:bred_animals
+  minecraft:mule:
+    conditions:
+      child:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:mule
+    trigger: minecraft:bred_animals
   minecraft:ocelot:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -81,7 +97,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:panda:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -89,7 +105,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:pig:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -97,7 +113,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:rabbit:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -105,7 +121,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:sheep:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -113,7 +129,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:strider:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -121,7 +137,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:turtle:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -129,7 +145,7 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:wolf:
     conditions:
-      parent:
+      child:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -149,6 +165,8 @@ display:
 parent: minecraft:husbandry/breed_an_animal
 requirements:
 - - minecraft:horse
+- - minecraft:donkey
+- - minecraft:mule
 - - minecraft:sheep
 - - minecraft:cow
 - - minecraft:mooshroom

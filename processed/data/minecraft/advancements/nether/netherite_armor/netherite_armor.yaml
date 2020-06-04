@@ -22,3 +22,5 @@ display:
 parent: minecraft:nether/obtain_ancient_debris
 requirements:
 - - netherite_armor
+rewards:
+  experience: 100

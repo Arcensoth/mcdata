@@ -2884,6 +2884,14 @@ children:
             type: argument
         executable: true
         type: literal
+      forgiveDeadPlayers:
+        children:
+          value:
+            executable: true
+            parser: brigadier:bool
+            type: argument
+        executable: true
+        type: literal
       keepInventory:
         children:
           value:
@@ -2973,6 +2981,14 @@ children:
         executable: true
         type: literal
       spectatorsGenerateChunks:
+        children:
+          value:
+            executable: true
+            parser: brigadier:bool
+            type: argument
+        executable: true
+        type: literal
+      universalAnger:
         children:
           value:
             executable: true

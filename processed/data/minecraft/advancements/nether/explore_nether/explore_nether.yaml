@@ -43,3 +43,5 @@ requirements:
 - - minecraft:warped_forest
 - - minecraft:crimson_forest
 - - minecraft:basalt_deltas
+rewards:
+  experience: 500

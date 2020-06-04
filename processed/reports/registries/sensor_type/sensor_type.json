@@ -12,6 +12,7 @@
     "minecraft:secondary_pois",
     "minecraft:golem_last_seen",
     "minecraft:piglin_specific_sensor",
-    "minecraft:hoglin_specific_sensor"
+    "minecraft:hoglin_specific_sensor",
+    "minecraft:nearest_adult"
   ]
 }
