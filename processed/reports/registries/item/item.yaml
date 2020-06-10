@@ -819,8 +819,8 @@ values:
 - minecraft:zoglin_spawn_egg
 - minecraft:zombie_spawn_egg
 - minecraft:zombie_horse_spawn_egg
-- minecraft:zombified_piglin_spawn_egg
 - minecraft:zombie_villager_spawn_egg
+- minecraft:zombified_piglin_spawn_egg
 - minecraft:experience_bottle
 - minecraft:fire_charge
 - minecraft:writable_book

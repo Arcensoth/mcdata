@@ -5,6 +5,8 @@ criteria:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
+          flags:
+            is_baby: false
           type: minecraft:piglin
       item:
         tag: minecraft:piglin_loved

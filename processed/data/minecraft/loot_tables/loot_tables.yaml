@@ -392,6 +392,7 @@ values:
 - minecraft:blocks/nether_brick_stairs
 - minecraft:blocks/nether_brick_wall
 - minecraft:blocks/nether_gold_ore
+- minecraft:blocks/nether_portal
 - minecraft:blocks/nether_quartz_ore
 - minecraft:blocks/nether_sprouts
 - minecraft:blocks/nether_wart

@@ -7,6 +7,7 @@
     "minecraft:rule",
     "minecraft:nop",
     "minecraft:block_age",
-    "minecraft:blackstone_replace"
+    "minecraft:blackstone_replace",
+    "minecraft:lava_submerged_block"
   ]
 }

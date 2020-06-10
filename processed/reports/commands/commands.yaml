@@ -4544,6 +4544,8 @@ children:
                             parser: brigadier:bool
                             type: argument
                         parser: brigadier:integer
+                        properties:
+                          min: 0
                         type: argument
                     type: literal
                 parser: brigadier:float

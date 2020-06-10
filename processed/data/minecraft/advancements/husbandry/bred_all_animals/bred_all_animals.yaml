@@ -137,7 +137,12 @@ criteria:
     trigger: minecraft:bred_animals
   minecraft:turtle:
     conditions:
-      child:
+      parent:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:turtle
+      partner:
       - condition: minecraft:entity_properties
         entity: this
         predicate:
@@ -176,12 +181,12 @@ requirements:
 - - minecraft:ocelot
 - - minecraft:rabbit
 - - minecraft:llama
-- - minecraft:turtle
 - - minecraft:cat
 - - minecraft:panda
 - - minecraft:fox
 - - minecraft:bee
 - - minecraft:hoglin
 - - minecraft:strider
+- - minecraft:turtle
 rewards:
   experience: 100

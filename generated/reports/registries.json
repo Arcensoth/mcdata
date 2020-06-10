@@ -8286,10 +8286,10 @@
       "minecraft:zombie_horse_spawn_egg": {
         "protocol_id": 819
       },
-      "minecraft:zombified_piglin_spawn_egg": {
+      "minecraft:zombie_villager_spawn_egg": {
         "protocol_id": 820
       },
-      "minecraft:zombie_villager_spawn_egg": {
+      "minecraft:zombified_piglin_spawn_egg": {
         "protocol_id": 821
       },
       "minecraft:experience_bottle": {
@@ -10622,6 +10622,9 @@
       },
       "minecraft:blackstone_replace": {
         "protocol_id": 7
+      },
+      "minecraft:lava_submerged_block": {
+        "protocol_id": 8
       }
     }
   },
@@ -10816,7 +10819,7 @@
       }
     }
   },
-  "minecraft:attributes": {
+  "minecraft:attribute": {
     "protocol_id": 35,
     "entries": {
       "minecraft:generic.max_health": {

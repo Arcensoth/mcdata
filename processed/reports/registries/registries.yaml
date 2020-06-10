@@ -31,7 +31,7 @@ minecraft:activity:
     minecraft:work:
       protocol_id: 2
   protocol_id: 43
-minecraft:attributes:
+minecraft:attribute:
   entries:
     minecraft:generic.armor:
       protocol_id: 8
@@ -4535,9 +4535,9 @@ minecraft:item:
     minecraft:zombie_spawn_egg:
       protocol_id: 818
     minecraft:zombie_villager_spawn_egg:
-      protocol_id: 821
-    minecraft:zombified_piglin_spawn_egg:
       protocol_id: 820
+    minecraft:zombified_piglin_spawn_egg:
+      protocol_id: 821
   protocol_id: 6
 minecraft:loot_condition_type:
   entries:
@@ -7527,6 +7527,8 @@ minecraft:structure_processor:
       protocol_id: 2
     minecraft:jigsaw_replacement:
       protocol_id: 3
+    minecraft:lava_submerged_block:
+      protocol_id: 8
     minecraft:nop:
       protocol_id: 5
     minecraft:rule:

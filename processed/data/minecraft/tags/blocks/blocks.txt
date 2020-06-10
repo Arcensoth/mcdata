@@ -30,6 +30,9 @@ minecraft:guarded_by_piglins
 minecraft:hoglin_repellents
 minecraft:ice
 minecraft:impermeable
+minecraft:infiniburn_end
+minecraft:infiniburn_nether
+minecraft:infiniburn_overworld
 minecraft:jungle_logs
 minecraft:leaves
 minecraft:logs
