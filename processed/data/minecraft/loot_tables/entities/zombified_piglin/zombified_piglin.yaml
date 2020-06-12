@@ -28,7 +28,13 @@ pools:
     type: minecraft:item
   rolls: 1
 - conditions:
-  - condition: minecraft:killed_by_player
+  - condition: minecraft:alternative
+    terms:
+    - condition: minecraft:killed_by_player
+    - condition: minecraft:entity_properties
+      entity: this
+      predicate:
+        targeted_entity: {}
   - chance: 0.025
     condition: minecraft:random_chance_with_looting
     looting_multiplier: 0.01
