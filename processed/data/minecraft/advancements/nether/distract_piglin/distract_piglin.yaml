@@ -44,6 +44,51 @@ criteria:
               feet:
                 item: minecraft:golden_boots
     trigger: minecraft:thrown_item_picked_up_by_entity
+  distract_piglin_directly:
+    conditions:
+      entity:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          flags:
+            is_baby: false
+          type: minecraft:piglin
+      item:
+        item: minecraft:gold_ingot
+      player:
+      - condition: minecraft:inverted
+        term:
+          condition: minecraft:entity_properties
+          entity: this
+          predicate:
+            equipment:
+              head:
+                item: minecraft:golden_helmet
+      - condition: minecraft:inverted
+        term:
+          condition: minecraft:entity_properties
+          entity: this
+          predicate:
+            equipment:
+              chest:
+                item: minecraft:golden_chestplate
+      - condition: minecraft:inverted
+        term:
+          condition: minecraft:entity_properties
+          entity: this
+          predicate:
+            equipment:
+              legs:
+                item: minecraft:golden_leggings
+      - condition: minecraft:inverted
+        term:
+          condition: minecraft:entity_properties
+          entity: this
+          predicate:
+            equipment:
+              feet:
+                item: minecraft:golden_boots
+    trigger: minecraft:player_interacted_with_entity
 display:
   announce_to_chat: true
   description:
@@ -58,3 +103,4 @@ display:
 parent: minecraft:nether/root
 requirements:
 - - distract_piglin
+  - distract_piglin_directly
