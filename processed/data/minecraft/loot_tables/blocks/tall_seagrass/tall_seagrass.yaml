@@ -4,7 +4,10 @@ pools:
     predicate:
       item: minecraft:shears
   entries:
-  - name: minecraft:seagrass
+  - functions:
+    - count: 2
+      function: minecraft:set_count
+    name: minecraft:seagrass
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block
