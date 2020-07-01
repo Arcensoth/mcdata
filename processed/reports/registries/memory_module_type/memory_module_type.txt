@@ -28,7 +28,7 @@ minecraft:nearest_hostile
 minecraft:hiding_place
 minecraft:heard_bell_time
 minecraft:cant_reach_walk_target_since
-minecraft:golem_last_seen_time
+minecraft:golem_detected_recently
 minecraft:last_slept
 minecraft:last_woken
 minecraft:last_worked_at_poi
@@ -44,9 +44,8 @@ minecraft:celebrate_location
 minecraft:dancing
 minecraft:nearest_visible_huntable_hoglin
 minecraft:nearest_visible_baby_hoglin
-minecraft:nearest_visible_baby_piglin
 minecraft:nearest_targetable_player_not_wearing_gold
-minecraft:nearest_adult_piglins
+minecraft:nearby_adult_piglins
 minecraft:nearest_visible_adult_piglins
 minecraft:nearest_visible_adult_hoglins
 minecraft:nearest_visible_adult_piglin

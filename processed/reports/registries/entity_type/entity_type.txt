@@ -59,6 +59,7 @@ minecraft:parrot
 minecraft:phantom
 minecraft:pig
 minecraft:piglin
+minecraft:piglin_brute
 minecraft:pillager
 minecraft:polar_bear
 minecraft:tnt

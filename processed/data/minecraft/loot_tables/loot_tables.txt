@@ -777,6 +777,7 @@ minecraft:entities/parrot
 minecraft:entities/phantom
 minecraft:entities/pig
 minecraft:entities/piglin
+minecraft:entities/piglin_brute
 minecraft:entities/pillager
 minecraft:entities/player
 minecraft:entities/polar_bear

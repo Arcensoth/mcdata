@@ -790,6 +790,7 @@ values:
 - minecraft:phantom_spawn_egg
 - minecraft:pig_spawn_egg
 - minecraft:piglin_spawn_egg
+- minecraft:piglin_brute_spawn_egg
 - minecraft:pillager_spawn_egg
 - minecraft:polar_bear_spawn_egg
 - minecraft:pufferfish_spawn_egg

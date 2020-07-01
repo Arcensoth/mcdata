@@ -8,7 +8,8 @@ minecraft:hurt_by
 minecraft:villager_hostiles
 minecraft:villager_babies
 minecraft:secondary_pois
-minecraft:golem_last_seen
+minecraft:golem_detected
 minecraft:piglin_specific_sensor
+minecraft:piglin_brute_specific_sensor
 minecraft:hoglin_specific_sensor
 minecraft:nearest_adult

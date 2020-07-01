@@ -127,6 +127,14 @@ criteria:
         predicate:
           type: minecraft:piglin
     trigger: minecraft:player_killed_entity
+  minecraft:piglin_brute:
+    conditions:
+      entity:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          type: minecraft:piglin_brute
+    trigger: minecraft:player_killed_entity
   minecraft:pillager:
     conditions:
       entity:
@@ -293,6 +301,7 @@ requirements:
 - - minecraft:magma_cube
 - - minecraft:phantom
 - - minecraft:piglin
+- - minecraft:piglin_brute
 - - minecraft:pillager
 - - minecraft:ravager
 - - minecraft:shulker

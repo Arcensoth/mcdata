@@ -585,6 +585,7 @@ minecraft:entity.parrot.imitate.illusioner
 minecraft:entity.parrot.imitate.magma_cube
 minecraft:entity.parrot.imitate.phantom
 minecraft:entity.parrot.imitate.piglin
+minecraft:entity.parrot.imitate.piglin_brute
 minecraft:entity.parrot.imitate.pillager
 minecraft:entity.parrot.imitate.ravager
 minecraft:entity.parrot.imitate.shulker
@@ -623,6 +624,12 @@ minecraft:entity.piglin.hurt
 minecraft:entity.piglin.retreat
 minecraft:entity.piglin.step
 minecraft:entity.piglin.converted_to_zombified
+minecraft:entity.piglin_brute.ambient
+minecraft:entity.piglin_brute.angry
+minecraft:entity.piglin_brute.death
+minecraft:entity.piglin_brute.hurt
+minecraft:entity.piglin_brute.step
+minecraft:entity.piglin_brute.converted_to_zombified
 minecraft:entity.pillager.ambient
 minecraft:entity.pillager.celebrate
 minecraft:entity.pillager.death

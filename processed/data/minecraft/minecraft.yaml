@@ -1706,6 +1706,7 @@ loot_tables:
 - minecraft:entities/phantom
 - minecraft:entities/pig
 - minecraft:entities/piglin
+- minecraft:entities/piglin_brute
 - minecraft:entities/pillager
 - minecraft:entities/player
 - minecraft:entities/polar_bear
@@ -2676,6 +2677,7 @@ tags:
   - minecraft:leaves
   - minecraft:logs
   - minecraft:logs_that_burn
+  - minecraft:mushroom_grow_block
   - minecraft:non_flammable_wood
   - minecraft:nylium
   - minecraft:oak_logs
