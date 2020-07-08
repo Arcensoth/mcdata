@@ -40,6 +40,8 @@
     "minecraft:angry_at",
     "minecraft:universal_anger",
     "minecraft:admiring_item",
+    "minecraft:time_trying_to_reach_admire_item",
+    "minecraft:disable_walk_to_admire_item",
     "minecraft:admiring_disabled",
     "minecraft:hunted_recently",
     "minecraft:celebrate_location",

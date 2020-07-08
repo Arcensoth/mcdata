@@ -19,17 +19,23 @@ pools:
       tag: '{Potion:"minecraft:fire_resistance"}'
     name: minecraft:potion
     type: minecraft:item
-    weight: 10
+    weight: 8
   - functions:
     - function: minecraft:set_nbt
       tag: '{Potion:"minecraft:fire_resistance"}'
     name: minecraft:splash_potion
     type: minecraft:item
+    weight: 8
+  - functions:
+    - function: minecraft:set_nbt
+      tag: '{Potion:"minecraft:water"}'
+    name: minecraft:potion
+    type: minecraft:item
     weight: 10
   - functions:
     - count:
         max: 36.0
-        min: 9.0
+        min: 10.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:iron_nugget
@@ -37,11 +43,20 @@ pools:
     weight: 10
   - functions:
     - count:
-        max: 16.0
-        min: 8.0
+        max: 4.0
+        min: 2.0
         type: minecraft:uniform
       function: minecraft:set_count
-    name: minecraft:quartz
+    name: minecraft:ender_pearl
+    type: minecraft:item
+    weight: 10
+  - functions:
+    - count:
+        max: 9.0
+        min: 3.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:string
     type: minecraft:item
     weight: 20
   - functions:
@@ -50,43 +65,58 @@ pools:
         min: 5.0
         type: minecraft:uniform
       function: minecraft:set_count
-    name: minecraft:glowstone_dust
+    name: minecraft:quartz
     type: minecraft:item
     weight: 20
-  - functions:
-    - count:
-        max: 6.0
-        min: 2.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:magma_cream
+  - name: minecraft:obsidian
     type: minecraft:item
-    weight: 20
+    weight: 40
   - functions:
     - count:
-        max: 8.0
-        min: 4.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:ender_pearl
-    type: minecraft:item
-    weight: 20
-  - functions:
-    - count:
-        max: 24.0
-        min: 8.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:string
-    type: minecraft:item
-    weight: 20
-  - functions:
-    - count:
-        max: 5.0
+        max: 3.0
         min: 1.0
         type: minecraft:uniform
       function: minecraft:set_count
-    name: minecraft:fire_charge
+    name: minecraft:crying_obsidian
+    type: minecraft:item
+    weight: 40
+  - name: minecraft:fire_charge
+    type: minecraft:item
+    weight: 40
+  - functions:
+    - count:
+        max: 4.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:leather
+    type: minecraft:item
+    weight: 40
+  - functions:
+    - count:
+        max: 8.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:soul_sand
+    type: minecraft:item
+    weight: 40
+  - functions:
+    - count:
+        max: 8.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:nether_brick
+    type: minecraft:item
+    weight: 40
+  - functions:
+    - count:
+        max: 12.0
+        min: 6.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:spectral_arrow
     type: minecraft:item
     weight: 40
   - functions:
@@ -100,41 +130,11 @@ pools:
     weight: 40
   - functions:
     - count:
-        max: 10.0
-        min: 4.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:leather
-    type: minecraft:item
-    weight: 40
-  - functions:
-    - count:
         max: 16.0
-        min: 4.0
+        min: 8.0
         type: minecraft:uniform
       function: minecraft:set_count
-    name: minecraft:nether_brick
-    type: minecraft:item
-    weight: 40
-  - name: minecraft:obsidian
-    type: minecraft:item
-    weight: 40
-  - functions:
-    - count:
-        max: 3.0
-        min: 1.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:crying_obsidian
-    type: minecraft:item
-    weight: 40
-  - functions:
-    - count:
-        max: 16.0
-        min: 4.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:soul_sand
+    name: minecraft:blackstone
     type: minecraft:item
     weight: 40
   rolls: 1

@@ -30,7 +30,7 @@ minecraft:activity:
       protocol_id: 14
     minecraft:work:
       protocol_id: 2
-  protocol_id: 43
+  protocol_id: 26
 minecraft:attribute:
   entries:
     minecraft:generic.armor:
@@ -59,181 +59,7 @@ minecraft:attribute:
       protocol_id: 12
     minecraft:zombie.spawn_reinforcements:
       protocol_id: 11
-  protocol_id: 35
-minecraft:biome:
-  entries:
-    minecraft:badlands:
-      protocol_id: 37
-    minecraft:badlands_plateau:
-      protocol_id: 39
-    minecraft:bamboo_jungle:
-      protocol_id: 168
-    minecraft:bamboo_jungle_hills:
-      protocol_id: 169
-    minecraft:basalt_deltas:
-      protocol_id: 173
-    minecraft:beach:
-      protocol_id: 16
-    minecraft:birch_forest:
-      protocol_id: 27
-    minecraft:birch_forest_hills:
-      protocol_id: 28
-    minecraft:cold_ocean:
-      protocol_id: 46
-    minecraft:crimson_forest:
-      protocol_id: 171
-    minecraft:dark_forest:
-      protocol_id: 29
-    minecraft:dark_forest_hills:
-      protocol_id: 157
-    minecraft:deep_cold_ocean:
-      protocol_id: 49
-    minecraft:deep_frozen_ocean:
-      protocol_id: 50
-    minecraft:deep_lukewarm_ocean:
-      protocol_id: 48
-    minecraft:deep_ocean:
-      protocol_id: 24
-    minecraft:deep_warm_ocean:
-      protocol_id: 47
-    minecraft:desert:
-      protocol_id: 2
-    minecraft:desert_hills:
-      protocol_id: 17
-    minecraft:desert_lakes:
-      protocol_id: 130
-    minecraft:end_barrens:
-      protocol_id: 43
-    minecraft:end_highlands:
-      protocol_id: 42
-    minecraft:end_midlands:
-      protocol_id: 41
-    minecraft:eroded_badlands:
-      protocol_id: 165
-    minecraft:flower_forest:
-      protocol_id: 132
-    minecraft:forest:
-      protocol_id: 4
-    minecraft:frozen_ocean:
-      protocol_id: 10
-    minecraft:frozen_river:
-      protocol_id: 11
-    minecraft:giant_spruce_taiga:
-      protocol_id: 160
-    minecraft:giant_spruce_taiga_hills:
-      protocol_id: 161
-    minecraft:giant_tree_taiga:
-      protocol_id: 32
-    minecraft:giant_tree_taiga_hills:
-      protocol_id: 33
-    minecraft:gravelly_mountains:
-      protocol_id: 131
-    minecraft:ice_spikes:
-      protocol_id: 140
-    minecraft:jungle:
-      protocol_id: 21
-    minecraft:jungle_edge:
-      protocol_id: 23
-    minecraft:jungle_hills:
-      protocol_id: 22
-    minecraft:lukewarm_ocean:
-      protocol_id: 45
-    minecraft:modified_badlands_plateau:
-      protocol_id: 167
-    minecraft:modified_gravelly_mountains:
-      protocol_id: 162
-    minecraft:modified_jungle:
-      protocol_id: 149
-    minecraft:modified_jungle_edge:
-      protocol_id: 151
-    minecraft:modified_wooded_badlands_plateau:
-      protocol_id: 166
-    minecraft:mountain_edge:
-      protocol_id: 20
-    minecraft:mountains:
-      protocol_id: 3
-    minecraft:mushroom_field_shore:
-      protocol_id: 15
-    minecraft:mushroom_fields:
-      protocol_id: 14
-    minecraft:nether_wastes:
-      protocol_id: 8
-    minecraft:ocean:
-      protocol_id: 0
-    minecraft:plains:
-      protocol_id: 1
-    minecraft:river:
-      protocol_id: 7
-    minecraft:savanna:
-      protocol_id: 35
-    minecraft:savanna_plateau:
-      protocol_id: 36
-    minecraft:shattered_savanna:
-      protocol_id: 163
-    minecraft:shattered_savanna_plateau:
-      protocol_id: 164
-    minecraft:small_end_islands:
-      protocol_id: 40
-    minecraft:snowy_beach:
-      protocol_id: 26
-    minecraft:snowy_mountains:
-      protocol_id: 13
-    minecraft:snowy_taiga:
-      protocol_id: 30
-    minecraft:snowy_taiga_hills:
-      protocol_id: 31
-    minecraft:snowy_taiga_mountains:
-      protocol_id: 158
-    minecraft:snowy_tundra:
-      protocol_id: 12
-    minecraft:soul_sand_valley:
-      protocol_id: 170
-    minecraft:stone_shore:
-      protocol_id: 25
-    minecraft:sunflower_plains:
-      protocol_id: 129
-    minecraft:swamp:
-      protocol_id: 6
-    minecraft:swamp_hills:
-      protocol_id: 134
-    minecraft:taiga:
-      protocol_id: 5
-    minecraft:taiga_hills:
-      protocol_id: 19
-    minecraft:taiga_mountains:
-      protocol_id: 133
-    minecraft:tall_birch_forest:
-      protocol_id: 155
-    minecraft:tall_birch_hills:
-      protocol_id: 156
-    minecraft:the_end:
-      protocol_id: 9
-    minecraft:the_void:
-      protocol_id: 127
-    minecraft:warm_ocean:
-      protocol_id: 44
-    minecraft:warped_forest:
-      protocol_id: 172
-    minecraft:wooded_badlands_plateau:
-      protocol_id: 38
-    minecraft:wooded_hills:
-      protocol_id: 18
-    minecraft:wooded_mountains:
-      protocol_id: 34
-  protocol_id: 12
-minecraft:biome_source:
-  entries:
-    minecraft:checkerboard:
-      protocol_id: 2
-    minecraft:fixed:
-      protocol_id: 0
-    minecraft:multi_noise:
-      protocol_id: 1
-    minecraft:the_end:
-      protocol_id: 4
-    minecraft:vanilla_layered:
-      protocol_id: 3
-  protocol_id: 20
+  protocol_id: 18
 minecraft:block:
   default: minecraft:air
   entries:
@@ -1832,51 +1658,7 @@ minecraft:block_entity_type:
       protocol_id: 19
     minecraft:trapped_chest:
       protocol_id: 2
-  protocol_id: 22
-minecraft:block_placer_type:
-  entries:
-    minecraft:column_placer:
-      protocol_id: 2
-    minecraft:double_plant_placer:
-      protocol_id: 1
-    minecraft:simple_block_placer:
-      protocol_id: 0
-  protocol_id: 14
-minecraft:block_state_provider_type:
-  entries:
-    minecraft:forest_flower_provider:
-      protocol_id: 3
-    minecraft:plain_flower_provider:
-      protocol_id: 2
-    minecraft:rotated_block_provider:
-      protocol_id: 4
-    minecraft:simple_state_provider:
-      protocol_id: 0
-    minecraft:weighted_state_provider:
-      protocol_id: 1
-  protocol_id: 13
-minecraft:carver:
-  entries:
-    minecraft:canyon:
-      protocol_id: 2
-    minecraft:cave:
-      protocol_id: 0
-    minecraft:nether_cave:
-      protocol_id: 1
-    minecraft:underwater_canyon:
-      protocol_id: 3
-    minecraft:underwater_cave:
-      protocol_id: 4
-  protocol_id: 8
-minecraft:chunk_generator:
-  entries:
-    minecraft:debug:
-      protocol_id: 2
-    minecraft:flat:
-      protocol_id: 1
-    minecraft:noise:
-      protocol_id: 0
-  protocol_id: 21
+  protocol_id: 9
 minecraft:chunk_status:
   default: minecraft:empty
   entries:
@@ -1906,7 +1688,7 @@ minecraft:chunk_status:
       protocol_id: 1
     minecraft:surface:
       protocol_id: 5
-  protocol_id: 25
+  protocol_id: 12
 minecraft:custom_stat:
   entries:
     minecraft:animals_bred:
@@ -2057,85 +1839,6 @@ minecraft:custom_stat:
       protocol_id: 5
     minecraft:walk_under_water_one_cm:
       protocol_id: 12
-  protocol_id: 24
-minecraft:decorator:
-  entries:
-    minecraft:carving_mask:
-      protocol_id: 24
-    minecraft:chance_heightmap:
-      protocol_id: 8
-    minecraft:chance_heightmap_double:
-      protocol_id: 9
-    minecraft:chance_passthrough:
-      protocol_id: 10
-    minecraft:chance_range:
-      protocol_id: 17
-    minecraft:chance_top_solid_heightmap:
-      protocol_id: 11
-    minecraft:chorus_plant:
-      protocol_id: 36
-    minecraft:count_biased_range:
-      protocol_id: 14
-    minecraft:count_chance_heightmap:
-      protocol_id: 18
-    minecraft:count_chance_heightmap_double:
-      protocol_id: 19
-    minecraft:count_depth_average:
-      protocol_id: 20
-    minecraft:count_extra_heightmap:
-      protocol_id: 12
-    minecraft:count_height_64:
-      protocol_id: 5
-    minecraft:count_heightmap:
-      protocol_id: 1
-    minecraft:count_heightmap_32:
-      protocol_id: 3
-    minecraft:count_heightmap_double:
-      protocol_id: 4
-    minecraft:count_range:
-      protocol_id: 13
-    minecraft:count_top_solid:
-      protocol_id: 2
-    minecraft:count_very_biased_range:
-      protocol_id: 15
-    minecraft:dark_oak_tree:
-      protocol_id: 32
-    minecraft:dungeons:
-      protocol_id: 31
-    minecraft:emerald_ore:
-      protocol_id: 28
-    minecraft:end_gateway:
-      protocol_id: 37
-    minecraft:end_island:
-      protocol_id: 35
-    minecraft:fire:
-      protocol_id: 26
-    minecraft:forest_rock:
-      protocol_id: 25
-    minecraft:iceberg:
-      protocol_id: 33
-    minecraft:lava_lake:
-      protocol_id: 29
-    minecraft:light_gem_chance:
-      protocol_id: 34
-    minecraft:magma:
-      protocol_id: 27
-    minecraft:noise_heightmap_32:
-      protocol_id: 6
-    minecraft:noise_heightmap_double:
-      protocol_id: 7
-    minecraft:nope:
-      protocol_id: 0
-    minecraft:random_count_range:
-      protocol_id: 16
-    minecraft:top_solid_heightmap:
-      protocol_id: 21
-    minecraft:top_solid_heightmap_noise_biased:
-      protocol_id: 23
-    minecraft:top_solid_heightmap_range:
-      protocol_id: 22
-    minecraft:water_lake:
-      protocol_id: 30
   protocol_id: 11
 minecraft:enchantment:
   entries:
@@ -2436,122 +2139,6 @@ minecraft:entity_type:
     minecraft:zombified_piglin:
       protocol_id: 105
   protocol_id: 5
-minecraft:feature:
-  entries:
-    minecraft:bamboo:
-      protocol_id: 35
-    minecraft:basalt_columns:
-      protocol_id: 40
-    minecraft:basalt_pillar:
-      protocol_id: 45
-    minecraft:block_pile:
-      protocol_id: 4
-    minecraft:blue_ice:
-      protocol_id: 18
-    minecraft:bonus_chest:
-      protocol_id: 44
-    minecraft:chorus_plant:
-      protocol_id: 6
-    minecraft:coral_claw:
-      protocol_id: 32
-    minecraft:coral_mushroom:
-      protocol_id: 31
-    minecraft:coral_tree:
-      protocol_id: 30
-    minecraft:decorated:
-      protocol_id: 51
-    minecraft:decorated_flower:
-      protocol_id: 52
-    minecraft:delta_feature:
-      protocol_id: 41
-    minecraft:desert_well:
-      protocol_id: 9
-    minecraft:disk:
-      protocol_id: 21
-    minecraft:emerald_ore:
-      protocol_id: 7
-    minecraft:end_gateway:
-      protocol_id: 27
-    minecraft:end_island:
-      protocol_id: 26
-    minecraft:end_spike:
-      protocol_id: 25
-    minecraft:fill_layer:
-      protocol_id: 43
-    minecraft:flower:
-      protocol_id: 2
-    minecraft:forest_rock:
-      protocol_id: 20
-    minecraft:fossil:
-      protocol_id: 10
-    minecraft:freeze_top_layer:
-      protocol_id: 15
-    minecraft:glowstone_blob:
-      protocol_id: 14
-    minecraft:huge_brown_mushroom:
-      protocol_id: 12
-    minecraft:huge_fungus:
-      protocol_id: 36
-    minecraft:huge_red_mushroom:
-      protocol_id: 11
-    minecraft:ice_patch:
-      protocol_id: 22
-    minecraft:ice_spike:
-      protocol_id: 13
-    minecraft:iceberg:
-      protocol_id: 19
-    minecraft:kelp:
-      protocol_id: 29
-    minecraft:lake:
-      protocol_id: 23
-    minecraft:monster_room:
-      protocol_id: 17
-    minecraft:nether_forest_vegetation:
-      protocol_id: 37
-    minecraft:netherrack_replace_blobs:
-      protocol_id: 42
-    minecraft:no_op:
-      protocol_id: 0
-    minecraft:no_surface_ore:
-      protocol_id: 46
-    minecraft:ore:
-      protocol_id: 24
-    minecraft:random_boolean_selector:
-      protocol_id: 50
-    minecraft:random_patch:
-      protocol_id: 3
-    minecraft:random_random_selector:
-      protocol_id: 47
-    minecraft:random_selector:
-      protocol_id: 48
-    minecraft:sea_pickle:
-      protocol_id: 33
-    minecraft:seagrass:
-      protocol_id: 28
-    minecraft:simple_block:
-      protocol_id: 34
-    minecraft:simple_random_selector:
-      protocol_id: 49
-    minecraft:spring_feature:
-      protocol_id: 5
-    minecraft:tree:
-      protocol_id: 1
-    minecraft:twisting_vines:
-      protocol_id: 39
-    minecraft:vines:
-      protocol_id: 16
-    minecraft:void_start_platform:
-      protocol_id: 8
-    minecraft:weeping_vines:
-      protocol_id: 38
-  protocol_id: 10
-minecraft:feature_size_type:
-  entries:
-    minecraft:three_layers_feature_size:
-      protocol_id: 1
-    minecraft:two_layers_feature_size:
-      protocol_id: 0
-  protocol_id: 18
 minecraft:fluid:
   default: minecraft:empty
   entries:
@@ -2566,27 +2153,6 @@ minecraft:fluid:
     minecraft:water:
       protocol_id: 2
   protocol_id: 1
-minecraft:foliage_placer_type:
-  entries:
-    minecraft:acacia_foliage_placer:
-      protocol_id: 3
-    minecraft:blob_foliage_placer:
-      protocol_id: 0
-    minecraft:bush_foliage_placer:
-      protocol_id: 4
-    minecraft:dark_oak_foliage_placer:
-      protocol_id: 8
-    minecraft:fancy_foliage_placer:
-      protocol_id: 5
-    minecraft:jungle_foliage_placer:
-      protocol_id: 6
-    minecraft:mega_pine_foliage_placer:
-      protocol_id: 7
-    minecraft:pine_foliage_placer:
-      protocol_id: 2
-    minecraft:spruce_foliage_placer:
-      protocol_id: 1
-  protocol_id: 15
 minecraft:item:
   default: minecraft:air
   entries:
@@ -4577,7 +4143,7 @@ minecraft:loot_condition_type:
       protocol_id: 15
     minecraft:weather_check:
       protocol_id: 13
-  protocol_id: 46
+  protocol_id: 29
 minecraft:loot_function_type:
   entries:
     minecraft:apply_bonus:
@@ -4622,7 +4188,7 @@ minecraft:loot_function_type:
       protocol_id: 3
     minecraft:set_stew_effect:
       protocol_id: 10
-  protocol_id: 45
+  protocol_id: 28
 minecraft:loot_pool_entry_type:
   entries:
     minecraft:alternatives:
@@ -4641,18 +4207,18 @@ minecraft:loot_pool_entry_type:
       protocol_id: 6
     minecraft:tag:
       protocol_id: 4
-  protocol_id: 44
+  protocol_id: 27
 minecraft:memory_module_type:
   default: minecraft:dummy
   entries:
     minecraft:admiring_disabled:
-      protocol_id: 40
+      protocol_id: 42
     minecraft:admiring_item:
       protocol_id: 39
     minecraft:angry_at:
       protocol_id: 37
     minecraft:ate_recently:
-      protocol_id: 55
+      protocol_id: 57
     minecraft:attack_cooling_down:
       protocol_id: 15
     minecraft:attack_target:
@@ -4664,9 +4230,11 @@ minecraft:memory_module_type:
     minecraft:cant_reach_walk_target_since:
       protocol_id: 29
     minecraft:celebrate_location:
-      protocol_id: 42
+      protocol_id: 44
     minecraft:dancing:
-      protocol_id: 43
+      protocol_id: 45
+    minecraft:disable_walk_to_admire_item:
+      protocol_id: 41
     minecraft:dummy:
       protocol_id: 0
     minecraft:golem_detected_recently:
@@ -4678,7 +4246,7 @@ minecraft:memory_module_type:
     minecraft:home:
       protocol_id: 1
     minecraft:hunted_recently:
-      protocol_id: 41
+      protocol_id: 43
     minecraft:hurt_by:
       protocol_id: 23
     minecraft:hurt_by_entity:
@@ -4702,31 +4270,31 @@ minecraft:memory_module_type:
     minecraft:mobs:
       protocol_id: 6
     minecraft:nearby_adult_piglins:
-      protocol_id: 47
+      protocol_id: 49
     minecraft:nearest_bed:
       protocol_id: 22
     minecraft:nearest_hostile:
       protocol_id: 26
     minecraft:nearest_player_holding_wanted_item:
-      protocol_id: 54
+      protocol_id: 56
     minecraft:nearest_players:
       protocol_id: 9
     minecraft:nearest_repellent:
-      protocol_id: 56
+      protocol_id: 58
     minecraft:nearest_targetable_player_not_wearing_gold:
-      protocol_id: 46
+      protocol_id: 48
     minecraft:nearest_visible_adult:
       protocol_id: 34
     minecraft:nearest_visible_adult_hoglins:
-      protocol_id: 49
+      protocol_id: 51
     minecraft:nearest_visible_adult_piglin:
-      protocol_id: 50
+      protocol_id: 52
     minecraft:nearest_visible_adult_piglins:
-      protocol_id: 48
+      protocol_id: 50
     minecraft:nearest_visible_baby_hoglin:
-      protocol_id: 45
+      protocol_id: 47
     minecraft:nearest_visible_huntable_hoglin:
-      protocol_id: 44
+      protocol_id: 46
     minecraft:nearest_visible_nemesis:
       protocol_id: 36
     minecraft:nearest_visible_player:
@@ -4736,11 +4304,11 @@ minecraft:memory_module_type:
     minecraft:nearest_visible_wanted_item:
       protocol_id: 35
     minecraft:nearest_visible_zombified:
-      protocol_id: 51
+      protocol_id: 53
     minecraft:opened_doors:
       protocol_id: 21
     minecraft:pacified:
-      protocol_id: 57
+      protocol_id: 59
     minecraft:path:
       protocol_id: 19
     minecraft:potential_job_site:
@@ -4749,19 +4317,21 @@ minecraft:memory_module_type:
       protocol_id: 18
     minecraft:secondary_job_site:
       protocol_id: 5
+    minecraft:time_trying_to_reach_admire_item:
+      protocol_id: 40
     minecraft:universal_anger:
       protocol_id: 38
     minecraft:visible_adult_hoglin_count:
-      protocol_id: 53
+      protocol_id: 55
     minecraft:visible_adult_piglin_count:
-      protocol_id: 52
+      protocol_id: 54
     minecraft:visible_mobs:
       protocol_id: 7
     minecraft:visible_villager_babies:
       protocol_id: 8
     minecraft:walk_target:
       protocol_id: 12
-  protocol_id: 40
+  protocol_id: 23
 minecraft:menu:
   entries:
     minecraft:anvil:
@@ -4812,7 +4382,7 @@ minecraft:menu:
       protocol_id: 21
     minecraft:stonecutter:
       protocol_id: 23
-  protocol_id: 32
+  protocol_id: 15
 minecraft:mob_effect:
   entries:
     minecraft:absorption:
@@ -4935,7 +4505,7 @@ minecraft:motive:
       protocol_id: 6
     minecraft:wither:
       protocol_id: 19
-  protocol_id: 23
+  protocol_id: 10
 minecraft:particle_type:
   entries:
     minecraft:ambient_entity_effect:
@@ -5082,7 +4652,7 @@ minecraft:particle_type:
       protocol_id: 71
     minecraft:witch:
       protocol_id: 52
-  protocol_id: 19
+  protocol_id: 8
 minecraft:point_of_interest_type:
   default: minecraft:unemployed
   entries:
@@ -5128,7 +4698,7 @@ minecraft:point_of_interest_type:
       protocol_id: 0
     minecraft:weaponsmith:
       protocol_id: 14
-  protocol_id: 39
+  protocol_id: 22
 minecraft:pos_rule_test:
   entries:
     minecraft:always_true:
@@ -5137,7 +4707,7 @@ minecraft:pos_rule_test:
       protocol_id: 2
     minecraft:linear_pos:
       protocol_id: 1
-  protocol_id: 29
+  protocol_id: 14
 minecraft:potion:
   default: minecraft:empty
   entries:
@@ -5272,7 +4842,7 @@ minecraft:recipe_serializer:
       protocol_id: 17
     minecraft:stonecutting:
       protocol_id: 19
-  protocol_id: 34
+  protocol_id: 17
 minecraft:recipe_type:
   entries:
     minecraft:blasting:
@@ -5289,7 +4859,7 @@ minecraft:recipe_type:
       protocol_id: 3
     minecraft:stonecutting:
       protocol_id: 5
-  protocol_id: 33
+  protocol_id: 16
 minecraft:rule_test:
   entries:
     minecraft:always_true:
@@ -5304,7 +4874,7 @@ minecraft:rule_test:
       protocol_id: 5
     minecraft:tag_match:
       protocol_id: 3
-  protocol_id: 28
+  protocol_id: 13
 minecraft:schedule:
   entries:
     minecraft:empty:
@@ -5315,7 +4885,7 @@ minecraft:schedule:
       protocol_id: 2
     minecraft:villager_default:
       protocol_id: 3
-  protocol_id: 42
+  protocol_id: 25
 minecraft:sensor_type:
   default: minecraft:dummy
   entries:
@@ -5349,7 +4919,7 @@ minecraft:sensor_type:
       protocol_id: 8
     minecraft:villager_hostiles:
       protocol_id: 7
-  protocol_id: 41
+  protocol_id: 24
 minecraft:sound_event:
   entries:
     minecraft:ambient.basalt_deltas.additions:
@@ -7357,8 +6927,313 @@ minecraft:stat_type:
       protocol_id: 4
     minecraft:used:
       protocol_id: 2
+  protocol_id: 19
+minecraft:villager_profession:
+  default: minecraft:none
+  entries:
+    minecraft:armorer:
+      protocol_id: 1
+    minecraft:butcher:
+      protocol_id: 2
+    minecraft:cartographer:
+      protocol_id: 3
+    minecraft:cleric:
+      protocol_id: 4
+    minecraft:farmer:
+      protocol_id: 5
+    minecraft:fisherman:
+      protocol_id: 6
+    minecraft:fletcher:
+      protocol_id: 7
+    minecraft:leatherworker:
+      protocol_id: 8
+    minecraft:librarian:
+      protocol_id: 9
+    minecraft:mason:
+      protocol_id: 10
+    minecraft:nitwit:
+      protocol_id: 11
+    minecraft:none:
+      protocol_id: 0
+    minecraft:shepherd:
+      protocol_id: 12
+    minecraft:toolsmith:
+      protocol_id: 13
+    minecraft:weaponsmith:
+      protocol_id: 14
+  protocol_id: 21
+minecraft:villager_type:
+  default: minecraft:plains
+  entries:
+    minecraft:desert:
+      protocol_id: 0
+    minecraft:jungle:
+      protocol_id: 1
+    minecraft:plains:
+      protocol_id: 2
+    minecraft:savanna:
+      protocol_id: 3
+    minecraft:snow:
+      protocol_id: 4
+    minecraft:swamp:
+      protocol_id: 5
+    minecraft:taiga:
+      protocol_id: 6
+  protocol_id: 20
+minecraft:worldgen/biome_source:
+  entries:
+    minecraft:checkerboard:
+      protocol_id: 2
+    minecraft:fixed:
+      protocol_id: 0
+    minecraft:multi_noise:
+      protocol_id: 1
+    minecraft:the_end:
+      protocol_id: 4
+    minecraft:vanilla_layered:
+      protocol_id: 3
+  protocol_id: 42
+minecraft:worldgen/block_placer_type:
+  entries:
+    minecraft:column_placer:
+      protocol_id: 2
+    minecraft:double_plant_placer:
+      protocol_id: 1
+    minecraft:simple_block_placer:
+      protocol_id: 0
+  protocol_id: 37
+minecraft:worldgen/block_state_provider_type:
+  entries:
+    minecraft:forest_flower_provider:
+      protocol_id: 3
+    minecraft:plain_flower_provider:
+      protocol_id: 2
+    minecraft:rotated_block_provider:
+      protocol_id: 4
+    minecraft:simple_state_provider:
+      protocol_id: 0
+    minecraft:weighted_state_provider:
+      protocol_id: 1
   protocol_id: 36
-minecraft:structure_feature:
+minecraft:worldgen/carver:
+  entries:
+    minecraft:canyon:
+      protocol_id: 2
+    minecraft:cave:
+      protocol_id: 0
+    minecraft:nether_cave:
+      protocol_id: 1
+    minecraft:underwater_canyon:
+      protocol_id: 3
+    minecraft:underwater_cave:
+      protocol_id: 4
+  protocol_id: 31
+minecraft:worldgen/chunk_generator:
+  entries:
+    minecraft:debug:
+      protocol_id: 2
+    minecraft:flat:
+      protocol_id: 1
+    minecraft:noise:
+      protocol_id: 0
+  protocol_id: 43
+minecraft:worldgen/decorator:
+  entries:
+    minecraft:carving_mask:
+      protocol_id: 16
+    minecraft:chance:
+      protocol_id: 1
+    minecraft:count:
+      protocol_id: 2
+    minecraft:count_extra:
+      protocol_id: 5
+    minecraft:count_multilayer:
+      protocol_id: 28
+    minecraft:count_noise:
+      protocol_id: 3
+    minecraft:count_noise_biased:
+      protocol_id: 4
+    minecraft:dark_oak_tree:
+      protocol_id: 24
+    minecraft:decorated:
+      protocol_id: 27
+    minecraft:depth_average:
+      protocol_id: 14
+    minecraft:emerald_ore:
+      protocol_id: 19
+    minecraft:end_gateway:
+      protocol_id: 23
+    minecraft:end_island:
+      protocol_id: 26
+    minecraft:fire:
+      protocol_id: 17
+    minecraft:glowstone:
+      protocol_id: 22
+    minecraft:heightmap:
+      protocol_id: 7
+    minecraft:heightmap_spread_double:
+      protocol_id: 8
+    minecraft:heightmap_world_surface:
+      protocol_id: 10
+    minecraft:iceberg:
+      protocol_id: 25
+    minecraft:lava_lake:
+      protocol_id: 20
+    minecraft:magma:
+      protocol_id: 18
+    minecraft:nope:
+      protocol_id: 0
+    minecraft:range:
+      protocol_id: 11
+    minecraft:range_biased:
+      protocol_id: 12
+    minecraft:range_very_biased:
+      protocol_id: 13
+    minecraft:spread_32_above:
+      protocol_id: 15
+    minecraft:square:
+      protocol_id: 6
+    minecraft:top_solid_heightmap:
+      protocol_id: 9
+    minecraft:water_lake:
+      protocol_id: 21
+  protocol_id: 35
+minecraft:worldgen/feature:
+  entries:
+    minecraft:bamboo:
+      protocol_id: 35
+    minecraft:basalt_columns:
+      protocol_id: 40
+    minecraft:basalt_pillar:
+      protocol_id: 45
+    minecraft:block_pile:
+      protocol_id: 4
+    minecraft:blue_ice:
+      protocol_id: 18
+    minecraft:bonus_chest:
+      protocol_id: 44
+    minecraft:chorus_plant:
+      protocol_id: 6
+    minecraft:coral_claw:
+      protocol_id: 32
+    minecraft:coral_mushroom:
+      protocol_id: 31
+    minecraft:coral_tree:
+      protocol_id: 30
+    minecraft:decorated:
+      protocol_id: 50
+    minecraft:decorated_flower:
+      protocol_id: 51
+    minecraft:delta_feature:
+      protocol_id: 41
+    minecraft:desert_well:
+      protocol_id: 9
+    minecraft:disk:
+      protocol_id: 21
+    minecraft:emerald_ore:
+      protocol_id: 7
+    minecraft:end_gateway:
+      protocol_id: 27
+    minecraft:end_island:
+      protocol_id: 26
+    minecraft:end_spike:
+      protocol_id: 25
+    minecraft:fill_layer:
+      protocol_id: 43
+    minecraft:flower:
+      protocol_id: 2
+    minecraft:forest_rock:
+      protocol_id: 20
+    minecraft:fossil:
+      protocol_id: 10
+    minecraft:freeze_top_layer:
+      protocol_id: 15
+    minecraft:glowstone_blob:
+      protocol_id: 14
+    minecraft:huge_brown_mushroom:
+      protocol_id: 12
+    minecraft:huge_fungus:
+      protocol_id: 36
+    minecraft:huge_red_mushroom:
+      protocol_id: 11
+    minecraft:ice_patch:
+      protocol_id: 22
+    minecraft:ice_spike:
+      protocol_id: 13
+    minecraft:iceberg:
+      protocol_id: 19
+    minecraft:kelp:
+      protocol_id: 29
+    minecraft:lake:
+      protocol_id: 23
+    minecraft:monster_room:
+      protocol_id: 17
+    minecraft:nether_forest_vegetation:
+      protocol_id: 37
+    minecraft:netherrack_replace_blobs:
+      protocol_id: 42
+    minecraft:no_op:
+      protocol_id: 0
+    minecraft:no_surface_ore:
+      protocol_id: 46
+    minecraft:ore:
+      protocol_id: 24
+    minecraft:random_boolean_selector:
+      protocol_id: 49
+    minecraft:random_patch:
+      protocol_id: 3
+    minecraft:random_selector:
+      protocol_id: 47
+    minecraft:sea_pickle:
+      protocol_id: 33
+    minecraft:seagrass:
+      protocol_id: 28
+    minecraft:simple_block:
+      protocol_id: 34
+    minecraft:simple_random_selector:
+      protocol_id: 48
+    minecraft:spring_feature:
+      protocol_id: 5
+    minecraft:tree:
+      protocol_id: 1
+    minecraft:twisting_vines:
+      protocol_id: 39
+    minecraft:vines:
+      protocol_id: 16
+    minecraft:void_start_platform:
+      protocol_id: 8
+    minecraft:weeping_vines:
+      protocol_id: 38
+  protocol_id: 32
+minecraft:worldgen/feature_size_type:
+  entries:
+    minecraft:three_layers_feature_size:
+      protocol_id: 1
+    minecraft:two_layers_feature_size:
+      protocol_id: 0
+  protocol_id: 41
+minecraft:worldgen/foliage_placer_type:
+  entries:
+    minecraft:acacia_foliage_placer:
+      protocol_id: 3
+    minecraft:blob_foliage_placer:
+      protocol_id: 0
+    minecraft:bush_foliage_placer:
+      protocol_id: 4
+    minecraft:dark_oak_foliage_placer:
+      protocol_id: 8
+    minecraft:fancy_foliage_placer:
+      protocol_id: 5
+    minecraft:jungle_foliage_placer:
+      protocol_id: 6
+    minecraft:mega_pine_foliage_placer:
+      protocol_id: 7
+    minecraft:pine_foliage_placer:
+      protocol_id: 2
+    minecraft:spruce_foliage_placer:
+      protocol_id: 1
+  protocol_id: 38
+minecraft:worldgen/structure_feature:
   entries:
     minecraft:bastion_remnant:
       protocol_id: 17
@@ -7396,17 +7271,17 @@ minecraft:structure_feature:
       protocol_id: 8
     minecraft:village:
       protocol_id: 15
-  protocol_id: 26
-minecraft:structure_piece:
+  protocol_id: 33
+minecraft:worldgen/structure_piece:
   entries:
-    minecraft:bastionremnant:
-      protocol_id: 57
     minecraft:btp:
-      protocol_id: 54
-    minecraft:ecp:
       protocol_id: 52
+    minecraft:ecp:
+      protocol_id: 50
     minecraft:iglu:
-      protocol_id: 36
+      protocol_id: 34
+    minecraft:jigsaw:
+      protocol_id: 55
     minecraft:mscorridor:
       protocol_id: 0
     minecraft:mscrossing:
@@ -7416,109 +7291,103 @@ minecraft:structure_piece:
     minecraft:msstairs:
       protocol_id: 3
     minecraft:nebcr:
-      protocol_id: 6
-    minecraft:nebef:
-      protocol_id: 7
-    minecraft:nebs:
-      protocol_id: 8
-    minecraft:neccs:
-      protocol_id: 9
-    minecraft:nece:
-      protocol_id: 11
-    minecraft:necsr:
-      protocol_id: 16
-    minecraft:nectb:
-      protocol_id: 10
-    minecraft:nefos:
-      protocol_id: 56
-    minecraft:nemt:
-      protocol_id: 17
-    minecraft:nerc:
-      protocol_id: 18
-    minecraft:nesc:
-      protocol_id: 14
-    minecraft:nesclt:
-      protocol_id: 13
-    minecraft:nescrt:
-      protocol_id: 15
-    minecraft:nescsc:
-      protocol_id: 12
-    minecraft:nesr:
-      protocol_id: 19
-    minecraft:nestart:
-      protocol_id: 20
-    minecraft:nvi:
-      protocol_id: 5
-    minecraft:omb:
-      protocol_id: 40
-    minecraft:omcr:
-      protocol_id: 41
-    minecraft:omdxr:
-      protocol_id: 42
-    minecraft:omdxyr:
-      protocol_id: 43
-    minecraft:omdyr:
-      protocol_id: 44
-    minecraft:omdyzr:
-      protocol_id: 45
-    minecraft:omdzr:
-      protocol_id: 46
-    minecraft:omentry:
-      protocol_id: 47
-    minecraft:ompenthouse:
-      protocol_id: 48
-    minecraft:omsimple:
-      protocol_id: 49
-    minecraft:omsimplet:
-      protocol_id: 50
-    minecraft:omwr:
-      protocol_id: 51
-    minecraft:orp:
-      protocol_id: 35
-    minecraft:pcp:
       protocol_id: 4
-    minecraft:runtime:
-      protocol_id: 58
-    minecraft:rupo:
-      protocol_id: 37
-    minecraft:sh5c:
-      protocol_id: 23
-    minecraft:shcc:
-      protocol_id: 21
-    minecraft:shfc:
-      protocol_id: 22
-    minecraft:shipwreck:
-      protocol_id: 55
-    minecraft:shli:
-      protocol_id: 25
-    minecraft:shlt:
-      protocol_id: 24
-    minecraft:shph:
-      protocol_id: 27
-    minecraft:shpr:
-      protocol_id: 26
-    minecraft:shrc:
-      protocol_id: 29
-    minecraft:shrt:
-      protocol_id: 28
-    minecraft:shs:
-      protocol_id: 32
-    minecraft:shsd:
-      protocol_id: 30
-    minecraft:shssd:
-      protocol_id: 33
-    minecraft:shstart:
-      protocol_id: 31
-    minecraft:tedp:
-      protocol_id: 39
-    minecraft:tejp:
-      protocol_id: 34
-    minecraft:tesh:
+    minecraft:nebef:
+      protocol_id: 5
+    minecraft:nebs:
+      protocol_id: 6
+    minecraft:neccs:
+      protocol_id: 7
+    minecraft:nece:
+      protocol_id: 9
+    minecraft:necsr:
+      protocol_id: 14
+    minecraft:nectb:
+      protocol_id: 8
+    minecraft:nefos:
+      protocol_id: 54
+    minecraft:nemt:
+      protocol_id: 15
+    minecraft:nerc:
+      protocol_id: 16
+    minecraft:nesc:
+      protocol_id: 12
+    minecraft:nesclt:
+      protocol_id: 11
+    minecraft:nescrt:
+      protocol_id: 13
+    minecraft:nescsc:
+      protocol_id: 10
+    minecraft:nesr:
+      protocol_id: 17
+    minecraft:nestart:
+      protocol_id: 18
+    minecraft:omb:
       protocol_id: 38
-    minecraft:wmp:
+    minecraft:omcr:
+      protocol_id: 39
+    minecraft:omdxr:
+      protocol_id: 40
+    minecraft:omdxyr:
+      protocol_id: 41
+    minecraft:omdyr:
+      protocol_id: 42
+    minecraft:omdyzr:
+      protocol_id: 43
+    minecraft:omdzr:
+      protocol_id: 44
+    minecraft:omentry:
+      protocol_id: 45
+    minecraft:ompenthouse:
+      protocol_id: 46
+    minecraft:omsimple:
+      protocol_id: 47
+    minecraft:omsimplet:
+      protocol_id: 48
+    minecraft:omwr:
+      protocol_id: 49
+    minecraft:orp:
+      protocol_id: 33
+    minecraft:rupo:
+      protocol_id: 35
+    minecraft:sh5c:
+      protocol_id: 21
+    minecraft:shcc:
+      protocol_id: 19
+    minecraft:shfc:
+      protocol_id: 20
+    minecraft:shipwreck:
       protocol_id: 53
-  protocol_id: 27
-minecraft:structure_pool_element:
+    minecraft:shli:
+      protocol_id: 23
+    minecraft:shlt:
+      protocol_id: 22
+    minecraft:shph:
+      protocol_id: 25
+    minecraft:shpr:
+      protocol_id: 24
+    minecraft:shrc:
+      protocol_id: 27
+    minecraft:shrt:
+      protocol_id: 26
+    minecraft:shs:
+      protocol_id: 30
+    minecraft:shsd:
+      protocol_id: 28
+    minecraft:shssd:
+      protocol_id: 31
+    minecraft:shstart:
+      protocol_id: 29
+    minecraft:tedp:
+      protocol_id: 37
+    minecraft:tejp:
+      protocol_id: 32
+    minecraft:tesh:
+      protocol_id: 36
+    minecraft:wmp:
+      protocol_id: 51
+  protocol_id: 34
+minecraft:worldgen/structure_pool_element:
   entries:
     minecraft:empty_pool_element:
       protocol_id: 3
@@ -7530,8 +7399,8 @@ minecraft:structure_pool_element:
       protocol_id: 1
     minecraft:single_pool_element:
       protocol_id: 0
-  protocol_id: 31
-minecraft:structure_processor:
+  protocol_id: 45
+minecraft:worldgen/structure_processor:
   entries:
     minecraft:blackstone_replace:
       protocol_id: 7
@@ -7551,8 +7420,8 @@ minecraft:structure_processor:
       protocol_id: 5
     minecraft:rule:
       protocol_id: 4
-  protocol_id: 30
-minecraft:surface_builder:
+  protocol_id: 44
+minecraft:worldgen/surface_builder:
   entries:
     minecraft:badlands:
       protocol_id: 6
@@ -7584,8 +7453,8 @@ minecraft:surface_builder:
       protocol_id: 5
     minecraft:wooded_badlands:
       protocol_id: 7
-  protocol_id: 9
-minecraft:tree_decorator_type:
+  protocol_id: 30
+minecraft:worldgen/tree_decorator_type:
   entries:
     minecraft:alter_ground:
       protocol_id: 4
@@ -7597,8 +7466,8 @@ minecraft:tree_decorator_type:
       protocol_id: 1
     minecraft:trunk_vine:
       protocol_id: 0
-  protocol_id: 17
-minecraft:trunk_placer_type:
+  protocol_id: 40
+minecraft:worldgen/trunk_placer_type:
   entries:
     minecraft:dark_oak_trunk_placer:
       protocol_id: 4
@@ -7612,56 +7481,4 @@ minecraft:trunk_placer_type:
       protocol_id: 3
     minecraft:straight_trunk_placer:
       protocol_id: 0
-  protocol_id: 16
-minecraft:villager_profession:
-  default: minecraft:none
-  entries:
-    minecraft:armorer:
-      protocol_id: 1
-    minecraft:butcher:
-      protocol_id: 2
-    minecraft:cartographer:
-      protocol_id: 3
-    minecraft:cleric:
-      protocol_id: 4
-    minecraft:farmer:
-      protocol_id: 5
-    minecraft:fisherman:
-      protocol_id: 6
-    minecraft:fletcher:
-      protocol_id: 7
-    minecraft:leatherworker:
-      protocol_id: 8
-    minecraft:librarian:
-      protocol_id: 9
-    minecraft:mason:
-      protocol_id: 10
-    minecraft:nitwit:
-      protocol_id: 11
-    minecraft:none:
-      protocol_id: 0
-    minecraft:shepherd:
-      protocol_id: 12
-    minecraft:toolsmith:
-      protocol_id: 13
-    minecraft:weaponsmith:
-      protocol_id: 14
-  protocol_id: 38
-minecraft:villager_type:
-  default: minecraft:plains
-  entries:
-    minecraft:desert:
-      protocol_id: 0
-    minecraft:jungle:
-      protocol_id: 1
-    minecraft:plains:
-      protocol_id: 2
-    minecraft:savanna:
-      protocol_id: 3
-    minecraft:snow:
-      protocol_id: 4
-    minecraft:swamp:
-      protocol_id: 5
-    minecraft:taiga:
-      protocol_id: 6
-  protocol_id: 37
+  protocol_id: 39

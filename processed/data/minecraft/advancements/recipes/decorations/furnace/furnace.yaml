@@ -2,7 +2,7 @@ criteria:
   has_cobblestone:
     conditions:
       items:
-      - tag: minecraft:furnace_materials
+      - tag: minecraft:stone_crafting_materials
     trigger: minecraft:inventory_changed
   has_the_recipe:
     conditions:

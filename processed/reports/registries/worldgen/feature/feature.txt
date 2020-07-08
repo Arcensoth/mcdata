@@ -45,7 +45,6 @@ minecraft:fill_layer
 minecraft:bonus_chest
 minecraft:basalt_pillar
 minecraft:no_surface_ore
-minecraft:random_random_selector
 minecraft:random_selector
 minecraft:simple_random_selector
 minecraft:random_boolean_selector

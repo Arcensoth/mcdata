@@ -2,8 +2,6 @@ minecraft:mscorridor
 minecraft:mscrossing
 minecraft:msroom
 minecraft:msstairs
-minecraft:pcp
-minecraft:nvi
 minecraft:nebcr
 minecraft:nebef
 minecraft:nebs
@@ -55,5 +53,4 @@ minecraft:wmp
 minecraft:btp
 minecraft:shipwreck
 minecraft:nefos
-minecraft:bastionremnant
-minecraft:runtime
+minecraft:jigsaw

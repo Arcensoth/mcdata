@@ -17,7 +17,6 @@ values:
 - minecraft:fences
 - minecraft:fishes
 - minecraft:flowers
-- minecraft:furnace_materials
 - minecraft:gold_ores
 - minecraft:jungle_logs
 - minecraft:leaves
@@ -40,6 +39,7 @@ values:
 - minecraft:spruce_logs
 - minecraft:stairs
 - minecraft:stone_bricks
+- minecraft:stone_crafting_materials
 - minecraft:stone_tool_materials
 - minecraft:tall_flowers
 - minecraft:trapdoors
