@@ -37,42 +37,43 @@ def prepare_filepath(dirname: str, subname: str, ext: str) -> str:
     if not os.path.exists(subdirname):
         LOG.debug(f"Creating missing directory: {subdirname}")
         os.makedirs(subdirname)
-    filepath = os.path.join(subdirname, subname + ext)
+    filename = subname.split('/')[-1]
+    filepath = os.path.join(subdirname, filename + ext)
     return filepath
 
 
 def write_json(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, JSON_EXT)
+    LOG.debug(f"Writing JSON file: {filepath}")
     with open(filepath, "w") as fp:
-        LOG.debug(f"Writing JSON file: {filepath}")
         json.dump(data, fp, indent=2)
 
 
 def write_min_json(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, MIN_JSON_EXT)
+    LOG.debug(f"Writing minified JSON file: {filepath}")
     with open(filepath, "w") as fp:
-        LOG.debug(f"Writing minified JSON file: {filepath}")
         json.dump(data, fp, separators=(",", ":"))
 
 
 def write_yaml(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, YAML_EXT)
+    LOG.debug(f"Writing YAML file: {filepath}")
     with open(filepath, "w") as fp:
-        LOG.debug(f"Writing YAML file: {filepath}")
         yaml.dump(data, fp)
 
 
 def write_txt(data: list, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, TXT_EXT)
+    LOG.debug(f"Writing TXT file: {filepath}")
     with open(filepath, "w") as fp:
-        LOG.debug(f"Writing TXT file: {filepath}")
         fp.write("\n".join(data))
 
 
 def convert_file(in_dirname: str, in_filename: str, out_dirname: str):
     in_filepath = os.path.join(in_dirname, in_filename)
+    LOG.debug(f"Reading original file: {in_filepath}")
     with open(in_filepath) as fp:
-        LOG.debug(f"Reading original file: {in_filepath}")
         data = json.load(fp)
     out_filename = in_filename[: -len(JSON_EXT)]
     write_min_json(data, out_dirname, out_filename)
