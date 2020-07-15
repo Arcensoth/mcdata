@@ -1,0 +1,761 @@
+carvers:
+  air:
+  - config:
+      probability: 0.2
+    name: minecraft:nether_cave
+category: nether
+depth: 0.1
+downfall: 0.0
+effects:
+  additions_sound:
+    sound: minecraft:ambient.soul_sand_valley.additions
+    tick_chance: 0.0111
+  ambient_sound: minecraft:ambient.soul_sand_valley.loop
+  fog_color: 1787717
+  mood_sound:
+    block_search_extent: 8
+    offset: 2.0
+    sound: minecraft:ambient.soul_sand_valley.mood
+    tick_delay: 6000
+  music:
+    max_delay: 24000
+    min_delay: 12000
+    replace_current_music: false
+    sound: minecraft:music.nether.soul_sand_valley
+  particle:
+    options:
+      type: minecraft:ash
+    probability: 0.00625
+  water_color: 4159204
+  water_fog_color: 329011
+features:
+- []
+- []
+- - config:
+      decorator:
+        config:
+          count: 10
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 0
+                  maximum: 128
+                  top_offset: 0
+                name: minecraft:range
+              feature:
+                config: {}
+                name: minecraft:basalt_pillar
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+- []
+- []
+- []
+- []
+- - config:
+      decorator:
+        config:
+          count: 8
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 4
+                  maximum: 128
+                  top_offset: 8
+                name: minecraft:range
+              feature:
+                config:
+                  hole_count: 1
+                  requires_block_below: false
+                  rock_count: 4
+                  state:
+                    Name: minecraft:lava
+                    Properties:
+                      falling: 'true'
+                  valid_blocks:
+                  - minecraft:netherrack
+                name: minecraft:spring_feature
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 10
+        name: minecraft:glowstone
+      feature:
+        config: {}
+        name: minecraft:glowstone_blob
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 10
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 0
+                  maximum: 128
+                  top_offset: 0
+                name: minecraft:range
+              feature:
+                config: {}
+                name: minecraft:glowstone_blob
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          bottom_offset: 0
+          maximum: 128
+          top_offset: 0
+        name: minecraft:range
+      feature:
+        config:
+          blacklist: []
+          block_placer:
+            type: minecraft:simple_block_placer
+          can_replace: false
+          need_water: false
+          project: false
+          state_provider:
+            state:
+              Name: minecraft:crimson_roots
+            type: minecraft:simple_state_provider
+          tries: 64
+          whitelist: []
+          xspread: 7
+          yspread: 3
+          zspread: 7
+        name: minecraft:random_patch
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 10
+        name: minecraft:fire
+      feature:
+        config:
+          blacklist: []
+          block_placer:
+            type: minecraft:simple_block_placer
+          can_replace: false
+          need_water: false
+          project: false
+          state_provider:
+            state:
+              Name: minecraft:fire
+              Properties:
+                age: '0'
+                east: 'false'
+                north: 'false'
+                south: 'false'
+                up: 'false'
+                west: 'false'
+            type: minecraft:simple_state_provider
+          tries: 64
+          whitelist:
+          - Name: minecraft:netherrack
+          xspread: 7
+          yspread: 3
+          zspread: 7
+        name: minecraft:random_patch
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 10
+        name: minecraft:fire
+      feature:
+        config:
+          blacklist: []
+          block_placer:
+            type: minecraft:simple_block_placer
+          can_replace: false
+          need_water: false
+          project: false
+          state_provider:
+            state:
+              Name: minecraft:soul_fire
+            type: minecraft:simple_state_provider
+          tries: 64
+          whitelist:
+          - Name: minecraft:soul_soil
+          xspread: 7
+          yspread: 3
+          zspread: 7
+        name: minecraft:random_patch
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 4
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config: {}
+                name: minecraft:magma
+              feature:
+                config:
+                  size: 33
+                  state:
+                    Name: minecraft:magma_block
+                  target:
+                    block: minecraft:netherrack
+                    predicate_type: minecraft:block_match
+                name: minecraft:ore
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 16
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 10
+                  maximum: 128
+                  top_offset: 20
+                name: minecraft:range
+              feature:
+                config:
+                  hole_count: 0
+                  requires_block_below: false
+                  rock_count: 5
+                  state:
+                    Name: minecraft:lava
+                    Properties:
+                      falling: 'true'
+                  valid_blocks:
+                  - minecraft:netherrack
+                name: minecraft:spring_feature
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 12
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 0
+                  maximum: 32
+                  top_offset: 0
+                name: minecraft:range
+              feature:
+                config:
+                  size: 12
+                  state:
+                    Name: minecraft:soul_sand
+                  target:
+                    block: minecraft:netherrack
+                    predicate_type: minecraft:block_match
+                name: minecraft:ore
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 2
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 5
+                  maximum: 37
+                  top_offset: 0
+                name: minecraft:range
+              feature:
+                config:
+                  size: 33
+                  state:
+                    Name: minecraft:gravel
+                  target:
+                    block: minecraft:netherrack
+                    predicate_type: minecraft:block_match
+                name: minecraft:ore
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 2
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 5
+                  maximum: 37
+                  top_offset: 10
+                name: minecraft:range
+              feature:
+                config:
+                  size: 33
+                  state:
+                    Name: minecraft:blackstone
+                  target:
+                    block: minecraft:netherrack
+                    predicate_type: minecraft:block_match
+                name: minecraft:ore
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 10
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 10
+                  maximum: 128
+                  top_offset: 20
+                name: minecraft:range
+              feature:
+                config:
+                  size: 10
+                  state:
+                    Name: minecraft:nether_gold_ore
+                  target:
+                    block: minecraft:netherrack
+                    predicate_type: minecraft:block_match
+                name: minecraft:ore
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 16
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 10
+                  maximum: 128
+                  top_offset: 20
+                name: minecraft:range
+              feature:
+                config:
+                  size: 14
+                  state:
+                    Name: minecraft:nether_quartz_ore
+                  target:
+                    block: minecraft:netherrack
+                    predicate_type: minecraft:block_match
+                name: minecraft:ore
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config: {}
+        name: minecraft:square
+      feature:
+        config:
+          decorator:
+            config:
+              baseline: 16
+              spread: 8
+            name: minecraft:depth_average
+          feature:
+            config:
+              size: 3
+              state:
+                Name: minecraft:ancient_debris
+              target:
+                predicate_type: minecraft:tag_match
+                tag: minecraft:base_stone_nether
+            name: minecraft:no_surface_ore
+        name: minecraft:decorated
+    name: minecraft:decorated
+  - config:
+      decorator:
+        config: {}
+        name: minecraft:square
+      feature:
+        config:
+          decorator:
+            config:
+              bottom_offset: 8
+              maximum: 128
+              top_offset: 16
+            name: minecraft:range
+          feature:
+            config:
+              size: 2
+              state:
+                Name: minecraft:ancient_debris
+              target:
+                predicate_type: minecraft:tag_match
+                tag: minecraft:base_stone_nether
+            name: minecraft:no_surface_ore
+        name: minecraft:decorated
+    name: minecraft:decorated
+- - config:
+      decorator:
+        config:
+          count: 20
+        name: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            name: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_offset: 8
+                  maximum: 256
+                  top_offset: 16
+                name: minecraft:range_very_biased
+              feature:
+                config:
+                  hole_count: 1
+                  requires_block_below: true
+                  rock_count: 4
+                  state:
+                    Name: minecraft:lava
+                    Properties:
+                      falling: 'true'
+                  valid_blocks:
+                  - minecraft:stone
+                  - minecraft:granite
+                  - minecraft:diorite
+                  - minecraft:andesite
+                name: minecraft:spring_feature
+            name: minecraft:decorated
+        name: minecraft:decorated
+    name: minecraft:decorated
+precipitation: none
+scale: 0.2
+sky_color: 7254527
+spawn_costs:
+  minecraft:enderman:
+    charge: 0.7
+    energy_budget: 0.15
+  minecraft:ghast:
+    charge: 0.7
+    energy_budget: 0.15
+  minecraft:skeleton:
+    charge: 0.7
+    energy_budget: 0.15
+  minecraft:strider:
+    charge: 0.7
+    energy_budget: 0.15
+spawners:
+  ambient: []
+  creature:
+  - maxCount: 2
+    minCount: 1
+    type: minecraft:strider
+    weight: 60
+  misc: []
+  monster:
+  - maxCount: 5
+    minCount: 5
+    type: minecraft:skeleton
+    weight: 20
+  - maxCount: 4
+    minCount: 4
+    type: minecraft:ghast
+    weight: 50
+  - maxCount: 4
+    minCount: 4
+    type: minecraft:enderman
+    weight: 1
+  water_ambient: []
+  water_creature: []
+starts:
+- config: {}
+  name: minecraft:fortress
+- config: {}
+  name: minecraft:nether_fossil
+- config:
+    portal_type: nether
+  name: minecraft:ruined_portal
+- config:
+    size: 6
+    start_pool:
+      elements:
+      - element:
+          element_type: minecraft:single_pool_element
+          location: minecraft:bastion/units/air_base
+          processors:
+            processors:
+            - processor_type: minecraft:rule
+              rules:
+              - input_predicate:
+                  block: minecraft:polished_blackstone_bricks
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.0001
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:air
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:gold_block
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.01
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:gilded_blackstone
+                position_predicate:
+                  predicate_type: minecraft:always_true
+          projection: rigid
+        weight: 1
+      - element:
+          element_type: minecraft:single_pool_element
+          location: minecraft:bastion/hoglin_stable/air_base
+          processors:
+            processors:
+            - processor_type: minecraft:rule
+              rules:
+              - input_predicate:
+                  block: minecraft:polished_blackstone_bricks
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.0001
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:air
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:gold_block
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.01
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:gilded_blackstone
+                position_predicate:
+                  predicate_type: minecraft:always_true
+          projection: rigid
+        weight: 1
+      - element:
+          element_type: minecraft:single_pool_element
+          location: minecraft:bastion/treasure/big_air_full
+          processors:
+            processors:
+            - processor_type: minecraft:rule
+              rules:
+              - input_predicate:
+                  block: minecraft:polished_blackstone_bricks
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.0001
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:air
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:gold_block
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.01
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:gilded_blackstone
+                position_predicate:
+                  predicate_type: minecraft:always_true
+          projection: rigid
+        weight: 1
+      - element:
+          element_type: minecraft:single_pool_element
+          location: minecraft:bastion/bridge/starting_pieces/entrance_base
+          processors:
+            processors:
+            - processor_type: minecraft:rule
+              rules:
+              - input_predicate:
+                  block: minecraft:polished_blackstone_bricks
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.0001
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:air
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:gold_block
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.3
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.01
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:gilded_blackstone
+                position_predicate:
+                  predicate_type: minecraft:always_true
+          projection: rigid
+        weight: 1
+      fallback: minecraft:empty
+      name: minecraft:bastion/starts
+  name: minecraft:bastion_remnant
+surface_builder:
+  config:
+    top_material:
+      Name: minecraft:soul_sand
+    under_material:
+      Name: minecraft:soul_sand
+    underwater_material:
+      Name: minecraft:soul_sand
+  name: minecraft:soul_sand_valley
+temperature: 2.0

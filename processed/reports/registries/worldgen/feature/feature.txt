@@ -1,6 +1,7 @@
 minecraft:no_op
 minecraft:tree
 minecraft:flower
+minecraft:no_bonemeal_flower
 minecraft:random_patch
 minecraft:block_pile
 minecraft:spring_feature
@@ -49,4 +50,3 @@ minecraft:random_selector
 minecraft:simple_random_selector
 minecraft:random_boolean_selector
 minecraft:decorated
-minecraft:decorated_flower

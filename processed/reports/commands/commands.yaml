@@ -4469,6 +4469,10 @@ children:
   setworldspawn:
     children:
       pos:
+        children:
+          angle:
+            executable: true
+            type: unknown
         executable: true
         parser: minecraft:block_pos
         type: argument
@@ -4479,6 +4483,10 @@ children:
       targets:
         children:
           pos:
+            children:
+              angle:
+                executable: true
+                type: unknown
             executable: true
             parser: minecraft:block_pos
             type: argument

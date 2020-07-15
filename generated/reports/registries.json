@@ -7566,145 +7566,145 @@
       "minecraft:scute": {
         "protocol_id": 571
       },
-      "minecraft:iron_shovel": {
+      "minecraft:flint_and_steel": {
         "protocol_id": 572
       },
-      "minecraft:iron_pickaxe": {
+      "minecraft:apple": {
         "protocol_id": 573
       },
-      "minecraft:iron_axe": {
+      "minecraft:bow": {
         "protocol_id": 574
       },
-      "minecraft:flint_and_steel": {
+      "minecraft:arrow": {
         "protocol_id": 575
       },
-      "minecraft:apple": {
+      "minecraft:coal": {
         "protocol_id": 576
       },
-      "minecraft:bow": {
+      "minecraft:charcoal": {
         "protocol_id": 577
       },
-      "minecraft:arrow": {
+      "minecraft:diamond": {
         "protocol_id": 578
       },
-      "minecraft:coal": {
+      "minecraft:iron_ingot": {
         "protocol_id": 579
       },
-      "minecraft:charcoal": {
+      "minecraft:gold_ingot": {
         "protocol_id": 580
       },
-      "minecraft:diamond": {
+      "minecraft:netherite_ingot": {
         "protocol_id": 581
       },
-      "minecraft:iron_ingot": {
+      "minecraft:netherite_scrap": {
         "protocol_id": 582
       },
-      "minecraft:gold_ingot": {
+      "minecraft:wooden_sword": {
         "protocol_id": 583
       },
-      "minecraft:netherite_ingot": {
+      "minecraft:wooden_shovel": {
         "protocol_id": 584
       },
-      "minecraft:netherite_scrap": {
+      "minecraft:wooden_pickaxe": {
         "protocol_id": 585
       },
-      "minecraft:iron_sword": {
+      "minecraft:wooden_axe": {
         "protocol_id": 586
       },
-      "minecraft:wooden_sword": {
+      "minecraft:wooden_hoe": {
         "protocol_id": 587
       },
-      "minecraft:wooden_shovel": {
+      "minecraft:stone_sword": {
         "protocol_id": 588
       },
-      "minecraft:wooden_pickaxe": {
+      "minecraft:stone_shovel": {
         "protocol_id": 589
       },
-      "minecraft:wooden_axe": {
+      "minecraft:stone_pickaxe": {
         "protocol_id": 590
       },
-      "minecraft:stone_sword": {
+      "minecraft:stone_axe": {
         "protocol_id": 591
       },
-      "minecraft:stone_shovel": {
+      "minecraft:stone_hoe": {
         "protocol_id": 592
       },
-      "minecraft:stone_pickaxe": {
+      "minecraft:golden_sword": {
         "protocol_id": 593
       },
-      "minecraft:stone_axe": {
+      "minecraft:golden_shovel": {
         "protocol_id": 594
       },
-      "minecraft:diamond_sword": {
+      "minecraft:golden_pickaxe": {
         "protocol_id": 595
       },
-      "minecraft:diamond_shovel": {
+      "minecraft:golden_axe": {
         "protocol_id": 596
       },
-      "minecraft:diamond_pickaxe": {
+      "minecraft:golden_hoe": {
         "protocol_id": 597
       },
-      "minecraft:diamond_axe": {
+      "minecraft:iron_sword": {
         "protocol_id": 598
       },
-      "minecraft:stick": {
+      "minecraft:iron_shovel": {
         "protocol_id": 599
       },
-      "minecraft:bowl": {
+      "minecraft:iron_pickaxe": {
         "protocol_id": 600
       },
-      "minecraft:mushroom_stew": {
+      "minecraft:iron_axe": {
         "protocol_id": 601
       },
-      "minecraft:golden_sword": {
+      "minecraft:iron_hoe": {
         "protocol_id": 602
       },
-      "minecraft:golden_shovel": {
+      "minecraft:diamond_sword": {
         "protocol_id": 603
       },
-      "minecraft:golden_pickaxe": {
+      "minecraft:diamond_shovel": {
         "protocol_id": 604
       },
-      "minecraft:golden_axe": {
+      "minecraft:diamond_pickaxe": {
         "protocol_id": 605
       },
-      "minecraft:netherite_sword": {
+      "minecraft:diamond_axe": {
         "protocol_id": 606
       },
-      "minecraft:netherite_shovel": {
+      "minecraft:diamond_hoe": {
         "protocol_id": 607
       },
-      "minecraft:netherite_pickaxe": {
+      "minecraft:netherite_sword": {
         "protocol_id": 608
       },
-      "minecraft:netherite_axe": {
+      "minecraft:netherite_shovel": {
         "protocol_id": 609
       },
-      "minecraft:string": {
+      "minecraft:netherite_pickaxe": {
         "protocol_id": 610
       },
-      "minecraft:feather": {
+      "minecraft:netherite_axe": {
         "protocol_id": 611
       },
-      "minecraft:gunpowder": {
+      "minecraft:netherite_hoe": {
         "protocol_id": 612
       },
-      "minecraft:wooden_hoe": {
+      "minecraft:stick": {
         "protocol_id": 613
       },
-      "minecraft:stone_hoe": {
+      "minecraft:bowl": {
         "protocol_id": 614
       },
-      "minecraft:iron_hoe": {
+      "minecraft:mushroom_stew": {
         "protocol_id": 615
       },
-      "minecraft:diamond_hoe": {
+      "minecraft:string": {
         "protocol_id": 616
       },
-      "minecraft:golden_hoe": {
+      "minecraft:feather": {
         "protocol_id": 617
       },
-      "minecraft:netherite_hoe": {
+      "minecraft:gunpowder": {
         "protocol_id": 618
       },
       "minecraft:wheat_seeds": {
@@ -10563,151 +10563,151 @@
       "minecraft:flower": {
         "protocol_id": 2
       },
-      "minecraft:random_patch": {
+      "minecraft:no_bonemeal_flower": {
         "protocol_id": 3
       },
-      "minecraft:block_pile": {
+      "minecraft:random_patch": {
         "protocol_id": 4
       },
-      "minecraft:spring_feature": {
+      "minecraft:block_pile": {
         "protocol_id": 5
       },
-      "minecraft:chorus_plant": {
+      "minecraft:spring_feature": {
         "protocol_id": 6
       },
-      "minecraft:emerald_ore": {
+      "minecraft:chorus_plant": {
         "protocol_id": 7
       },
-      "minecraft:void_start_platform": {
+      "minecraft:emerald_ore": {
         "protocol_id": 8
       },
-      "minecraft:desert_well": {
+      "minecraft:void_start_platform": {
         "protocol_id": 9
       },
-      "minecraft:fossil": {
+      "minecraft:desert_well": {
         "protocol_id": 10
       },
-      "minecraft:huge_red_mushroom": {
+      "minecraft:fossil": {
         "protocol_id": 11
       },
-      "minecraft:huge_brown_mushroom": {
+      "minecraft:huge_red_mushroom": {
         "protocol_id": 12
       },
-      "minecraft:ice_spike": {
+      "minecraft:huge_brown_mushroom": {
         "protocol_id": 13
       },
-      "minecraft:glowstone_blob": {
+      "minecraft:ice_spike": {
         "protocol_id": 14
       },
-      "minecraft:freeze_top_layer": {
+      "minecraft:glowstone_blob": {
         "protocol_id": 15
       },
-      "minecraft:vines": {
+      "minecraft:freeze_top_layer": {
         "protocol_id": 16
       },
-      "minecraft:monster_room": {
+      "minecraft:vines": {
         "protocol_id": 17
       },
-      "minecraft:blue_ice": {
+      "minecraft:monster_room": {
         "protocol_id": 18
       },
-      "minecraft:iceberg": {
+      "minecraft:blue_ice": {
         "protocol_id": 19
       },
-      "minecraft:forest_rock": {
+      "minecraft:iceberg": {
         "protocol_id": 20
       },
-      "minecraft:disk": {
+      "minecraft:forest_rock": {
         "protocol_id": 21
       },
-      "minecraft:ice_patch": {
+      "minecraft:disk": {
         "protocol_id": 22
       },
-      "minecraft:lake": {
+      "minecraft:ice_patch": {
         "protocol_id": 23
       },
-      "minecraft:ore": {
+      "minecraft:lake": {
         "protocol_id": 24
       },
-      "minecraft:end_spike": {
+      "minecraft:ore": {
         "protocol_id": 25
       },
-      "minecraft:end_island": {
+      "minecraft:end_spike": {
         "protocol_id": 26
       },
-      "minecraft:end_gateway": {
+      "minecraft:end_island": {
         "protocol_id": 27
       },
-      "minecraft:seagrass": {
+      "minecraft:end_gateway": {
         "protocol_id": 28
       },
-      "minecraft:kelp": {
+      "minecraft:seagrass": {
         "protocol_id": 29
       },
-      "minecraft:coral_tree": {
+      "minecraft:kelp": {
         "protocol_id": 30
       },
-      "minecraft:coral_mushroom": {
+      "minecraft:coral_tree": {
         "protocol_id": 31
       },
-      "minecraft:coral_claw": {
+      "minecraft:coral_mushroom": {
         "protocol_id": 32
       },
-      "minecraft:sea_pickle": {
+      "minecraft:coral_claw": {
         "protocol_id": 33
       },
-      "minecraft:simple_block": {
+      "minecraft:sea_pickle": {
         "protocol_id": 34
       },
-      "minecraft:bamboo": {
+      "minecraft:simple_block": {
         "protocol_id": 35
       },
-      "minecraft:huge_fungus": {
+      "minecraft:bamboo": {
         "protocol_id": 36
       },
-      "minecraft:nether_forest_vegetation": {
+      "minecraft:huge_fungus": {
         "protocol_id": 37
       },
-      "minecraft:weeping_vines": {
+      "minecraft:nether_forest_vegetation": {
         "protocol_id": 38
       },
-      "minecraft:twisting_vines": {
+      "minecraft:weeping_vines": {
         "protocol_id": 39
       },
-      "minecraft:basalt_columns": {
+      "minecraft:twisting_vines": {
         "protocol_id": 40
       },
-      "minecraft:delta_feature": {
+      "minecraft:basalt_columns": {
         "protocol_id": 41
       },
-      "minecraft:netherrack_replace_blobs": {
+      "minecraft:delta_feature": {
         "protocol_id": 42
       },
-      "minecraft:fill_layer": {
+      "minecraft:netherrack_replace_blobs": {
         "protocol_id": 43
       },
-      "minecraft:bonus_chest": {
+      "minecraft:fill_layer": {
         "protocol_id": 44
       },
-      "minecraft:basalt_pillar": {
+      "minecraft:bonus_chest": {
         "protocol_id": 45
       },
-      "minecraft:no_surface_ore": {
+      "minecraft:basalt_pillar": {
         "protocol_id": 46
       },
-      "minecraft:random_selector": {
+      "minecraft:no_surface_ore": {
         "protocol_id": 47
       },
-      "minecraft:simple_random_selector": {
+      "minecraft:random_selector": {
         "protocol_id": 48
       },
-      "minecraft:random_boolean_selector": {
+      "minecraft:simple_random_selector": {
         "protocol_id": 49
       },
-      "minecraft:decorated": {
+      "minecraft:random_boolean_selector": {
         "protocol_id": 50
       },
-      "minecraft:decorated_flower": {
+      "minecraft:decorated": {
         "protocol_id": 51
       }
     }
