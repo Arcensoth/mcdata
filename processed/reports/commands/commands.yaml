@@ -4472,7 +4472,8 @@ children:
         children:
           angle:
             executable: true
-            type: unknown
+            parser: minecraft:angle
+            type: argument
         executable: true
         parser: minecraft:block_pos
         type: argument
@@ -4486,7 +4487,8 @@ children:
             children:
               angle:
                 executable: true
-                type: unknown
+                parser: minecraft:angle
+                type: argument
             executable: true
             parser: minecraft:block_pos
             type: argument

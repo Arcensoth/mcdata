@@ -10094,7 +10094,7 @@
       "minecraft:interactable_doors": {
         "protocol_id": 20
       },
-      "minecraft:opened_doors": {
+      "minecraft:doors_to_close": {
         "protocol_id": 21
       },
       "minecraft:nearest_bed": {
@@ -10229,38 +10229,35 @@
       "minecraft:nearest_players": {
         "protocol_id": 3
       },
-      "minecraft:interactable_doors": {
+      "minecraft:nearest_bed": {
         "protocol_id": 4
       },
-      "minecraft:nearest_bed": {
+      "minecraft:hurt_by": {
         "protocol_id": 5
       },
-      "minecraft:hurt_by": {
+      "minecraft:villager_hostiles": {
         "protocol_id": 6
       },
-      "minecraft:villager_hostiles": {
+      "minecraft:villager_babies": {
         "protocol_id": 7
       },
-      "minecraft:villager_babies": {
+      "minecraft:secondary_pois": {
         "protocol_id": 8
       },
-      "minecraft:secondary_pois": {
+      "minecraft:golem_detected": {
         "protocol_id": 9
       },
-      "minecraft:golem_detected": {
+      "minecraft:piglin_specific_sensor": {
         "protocol_id": 10
       },
-      "minecraft:piglin_specific_sensor": {
+      "minecraft:piglin_brute_specific_sensor": {
         "protocol_id": 11
       },
-      "minecraft:piglin_brute_specific_sensor": {
+      "minecraft:hoglin_specific_sensor": {
         "protocol_id": 12
       },
-      "minecraft:hoglin_specific_sensor": {
-        "protocol_id": 13
-      },
       "minecraft:nearest_adult": {
-        "protocol_id": 14
+        "protocol_id": 13
       }
     }
   },

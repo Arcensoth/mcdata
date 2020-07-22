@@ -1,27 +1,16 @@
 {
-  "starts": [
-    {
-      "config": {},
-      "name": "minecraft:endcity"
-    }
-  ],
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "creature": [],
-    "ambient": [],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "sky_color": 0,
+    "fog_color": 10518688,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
-  "spawn_costs": {},
-  "sky_color": 0,
   "surface_builder": {
     "config": {
       "top_material": {
@@ -34,7 +23,7 @@
         "Name": "minecraft:end_stone"
       }
     },
-    "name": "minecraft:default"
+    "type": "minecraft:default"
   },
   "carvers": {},
   "features": [
@@ -54,14 +43,14 @@
               ],
               "exact": true
             },
-            "name": "minecraft:end_gateway"
+            "type": "minecraft:end_gateway"
           },
           "decorator": {
             "config": {},
-            "name": "minecraft:end_gateway"
+            "type": "minecraft:end_gateway"
           }
         },
-        "name": "minecraft:decorated"
+        "type": "minecraft:decorated"
       }
     ],
     [],
@@ -74,23 +63,23 @@
             "config": {
               "feature": {
                 "config": {},
-                "name": "minecraft:chorus_plant"
+                "type": "minecraft:chorus_plant"
               },
               "decorator": {
                 "config": {
                   "outer": {
                     "config": {},
-                    "name": "minecraft:square"
+                    "type": "minecraft:square"
                   },
                   "inner": {
                     "config": {},
-                    "name": "minecraft:heightmap"
+                    "type": "minecraft:heightmap"
                   }
                 },
-                "name": "minecraft:decorated"
+                "type": "minecraft:decorated"
               }
             },
-            "name": "minecraft:decorated"
+            "type": "minecraft:decorated"
           },
           "decorator": {
             "config": {
@@ -99,28 +88,39 @@
                 "spread": 4
               }
             },
-            "name": "minecraft:count"
+            "type": "minecraft:count"
           }
         },
-        "name": "minecraft:decorated"
+        "type": "minecraft:decorated"
       }
     ]
   ],
-  "scale": 0.2,
+  "starts": [
+    {
+      "config": {},
+      "type": "minecraft:endcity"
+    }
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "precipitation": "none",
   "temperature": 0.5,
   "downfall": 0.5,
-  "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "fog_color": 10518688,
-    "water_color": 4159204,
-    "water_fog_color": 329011
-  },
-  "precipitation": "none",
   "category": "the_end",
-  "depth": 0.1
+  "depth": 0.1,
+  "scale": 0.2
 }

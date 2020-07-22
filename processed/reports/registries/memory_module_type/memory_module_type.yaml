@@ -20,7 +20,7 @@ values:
 - minecraft:ride_target
 - minecraft:path
 - minecraft:interactable_doors
-- minecraft:opened_doors
+- minecraft:doors_to_close
 - minecraft:nearest_bed
 - minecraft:hurt_by
 - minecraft:hurt_by_entity

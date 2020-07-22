@@ -4235,6 +4235,8 @@ minecraft:memory_module_type:
       protocol_id: 45
     minecraft:disable_walk_to_admire_item:
       protocol_id: 41
+    minecraft:doors_to_close:
+      protocol_id: 21
     minecraft:dummy:
       protocol_id: 0
     minecraft:golem_detected_recently:
@@ -4305,8 +4307,6 @@ minecraft:memory_module_type:
       protocol_id: 35
     minecraft:nearest_visible_zombified:
       protocol_id: 53
-    minecraft:opened_doors:
-      protocol_id: 21
     minecraft:pacified:
       protocol_id: 59
     minecraft:path:
@@ -4892,17 +4892,15 @@ minecraft:sensor_type:
     minecraft:dummy:
       protocol_id: 0
     minecraft:golem_detected:
-      protocol_id: 10
+      protocol_id: 9
     minecraft:hoglin_specific_sensor:
-      protocol_id: 13
+      protocol_id: 12
     minecraft:hurt_by:
-      protocol_id: 6
-    minecraft:interactable_doors:
-      protocol_id: 4
-    minecraft:nearest_adult:
-      protocol_id: 14
-    minecraft:nearest_bed:
       protocol_id: 5
+    minecraft:nearest_adult:
+      protocol_id: 13
+    minecraft:nearest_bed:
+      protocol_id: 4
     minecraft:nearest_items:
       protocol_id: 1
     minecraft:nearest_living_entities:
@@ -4910,15 +4908,15 @@ minecraft:sensor_type:
     minecraft:nearest_players:
       protocol_id: 3
     minecraft:piglin_brute_specific_sensor:
-      protocol_id: 12
-    minecraft:piglin_specific_sensor:
       protocol_id: 11
+    minecraft:piglin_specific_sensor:
+      protocol_id: 10
     minecraft:secondary_pois:
-      protocol_id: 9
-    minecraft:villager_babies:
       protocol_id: 8
-    minecraft:villager_hostiles:
+    minecraft:villager_babies:
       protocol_id: 7
+    minecraft:villager_hostiles:
+      protocol_id: 6
   protocol_id: 24
 minecraft:sound_event:
   entries:

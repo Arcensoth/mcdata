@@ -9,6 +9,7 @@ effects:
     offset: 2.0
     sound: minecraft:ambient.cave
     tick_delay: 6000
+  sky_color: 0
   water_color: 4159204
   water_fog_color: 329011
 features:
@@ -19,7 +20,7 @@ features:
 - - config:
       decorator:
         config: {}
-        name: minecraft:end_gateway
+        type: minecraft:end_gateway
       feature:
         config:
           exact: true
@@ -27,8 +28,8 @@ features:
           - 100
           - 50
           - 0
-        name: minecraft:end_gateway
-    name: minecraft:decorated
+        type: minecraft:end_gateway
+    type: minecraft:decorated
 - []
 - []
 - []
@@ -38,26 +39,25 @@ features:
           count:
             base: 0
             spread: 4
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config:
               inner:
                 config: {}
-                name: minecraft:heightmap
+                type: minecraft:heightmap
               outer:
                 config: {}
-                name: minecraft:square
-            name: minecraft:decorated
+                type: minecraft:square
+            type: minecraft:decorated
           feature:
             config: {}
-            name: minecraft:chorus_plant
-        name: minecraft:decorated
-    name: minecraft:decorated
+            type: minecraft:chorus_plant
+        type: minecraft:decorated
+    type: minecraft:decorated
 precipitation: none
 scale: 0.2
-sky_color: 0
 spawn_costs: {}
 spawners:
   ambient: []
@@ -72,7 +72,7 @@ spawners:
   water_creature: []
 starts:
 - config: {}
-  name: minecraft:endcity
+  type: minecraft:endcity
 surface_builder:
   config:
     top_material:
@@ -81,5 +81,5 @@ surface_builder:
       Name: minecraft:end_stone
     underwater_material:
       Name: minecraft:end_stone
-  name: minecraft:default
+  type: minecraft:default
 temperature: 0.5

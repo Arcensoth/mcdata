@@ -9,12 +9,17 @@ effects:
     offset: 2.0
     sound: minecraft:ambient.cave
     tick_delay: 6000
+  sky_color: 0
   water_color: 4159204
   water_fog_color: 329011
-features: []
+features:
+- []
+- []
+- []
+- []
+- []
 precipitation: none
 scale: 0.2
-sky_color: 0
 spawn_costs: {}
 spawners:
   ambient: []
@@ -29,7 +34,7 @@ spawners:
   water_creature: []
 starts:
 - config: {}
-  name: minecraft:endcity
+  type: minecraft:endcity
 surface_builder:
   config:
     top_material:
@@ -38,5 +43,5 @@ surface_builder:
       Name: minecraft:end_stone
     underwater_material:
       Name: minecraft:end_stone
-  name: minecraft:default
+  type: minecraft:default
 temperature: 0.5

@@ -5,37 +5,38 @@ pools:
       function: minecraft:set_count
     name: minecraft:netherite_ingot
     type: minecraft:item
-    weight: 10
+    weight: 15
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
-    weight: 14
+    weight: 10
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:netherite_scrap
     type: minecraft:item
-    weight: 10
+    weight: 8
   - functions:
     - count: 2
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
+    weight: 4
   - functions:
     - damage:
-        max: 0.65
-        min: 0.2
+        max: 1.0
+        min: 0.8
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
     name: minecraft:diamond_sword
     type: minecraft:item
-    weight: 10
+    weight: 6
   - functions:
     - damage:
-        max: 0.65
-        min: 0.2
+        max: 1.0
+        min: 0.8
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
     name: minecraft:diamond_chestplate
@@ -43,8 +44,8 @@ pools:
     weight: 6
   - functions:
     - damage:
-        max: 0.65
-        min: 0.2
+        max: 1.0
+        min: 0.8
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
     name: minecraft:diamond_helmet
@@ -52,8 +53,8 @@ pools:
     weight: 6
   - functions:
     - damage:
-        max: 0.65
-        min: 0.2
+        max: 1.0
+        min: 0.8
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
     name: minecraft:diamond_leggings
@@ -61,71 +62,49 @@ pools:
     weight: 6
   - functions:
     - damage:
-        max: 0.65
-        min: 0.2
+        max: 1.0
+        min: 0.8
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
     name: minecraft:diamond_boots
     type: minecraft:item
     weight: 6
-  - functions:
-    - damage:
-        max: 0.65
-        min: 0.2
-      function: minecraft:set_damage
-    name: minecraft:diamond_sword
+  - name: minecraft:diamond_sword
     type: minecraft:item
     weight: 6
-  - functions:
-    - damage:
-        max: 0.65
-        min: 0.2
-      function: minecraft:set_damage
-    name: minecraft:diamond_chestplate
+  - name: minecraft:diamond_chestplate
     type: minecraft:item
     weight: 5
-  - functions:
-    - damage:
-        max: 0.65
-        min: 0.2
-      function: minecraft:set_damage
-    name: minecraft:diamond_helmet
+  - name: minecraft:diamond_helmet
     type: minecraft:item
     weight: 5
-  - functions:
-    - damage:
-        max: 0.65
-        min: 0.2
-      function: minecraft:set_damage
-    name: minecraft:diamond_boots
+  - name: minecraft:diamond_boots
     type: minecraft:item
     weight: 5
-  - functions:
-    - damage:
-        max: 0.65
-        min: 0.2
-      function: minecraft:set_damage
-    name: minecraft:diamond_leggings
+  - name: minecraft:diamond_leggings
     type: minecraft:item
     weight: 5
   - functions:
     - count:
-        max: 3.0
-        min: 1.0
+        max: 6.0
+        min: 2.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:diamond
     type: minecraft:item
     weight: 5
-  rolls:
-    max: 2.0
-    min: 1.0
-    type: minecraft:uniform
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:enchanted_golden_apple
+    type: minecraft:item
+    weight: 2
+  rolls: 3
 - entries:
   - functions:
     - count:
-        max: 21.0
-        min: 5.0
+        max: 25.0
+        min: 12.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:spectral_arrow
@@ -137,6 +116,14 @@ pools:
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:gold_block
+    type: minecraft:item
+  - functions:
+    - count:
+        max: 5.0
+        min: 2.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:iron_block
     type: minecraft:item
   - functions:
     - count:
@@ -157,7 +144,7 @@ pools:
   - functions:
     - count:
         max: 5.0
-        min: 1.0
+        min: 3.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:crying_obsidian
@@ -172,8 +159,8 @@ pools:
     type: minecraft:item
   - functions:
     - count:
-        max: 5.0
-        min: 1.0
+        max: 15.0
+        min: 5.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:gilded_blackstone
@@ -181,21 +168,13 @@ pools:
   - functions:
     - count:
         max: 8.0
-        min: 2.0
+        min: 3.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:magma_cream
     type: minecraft:item
-  - functions:
-    - count:
-        max: 16.0
-        min: 8.0
-        type: minecraft:uniform
-      function: minecraft:set_count
-    name: minecraft:iron_nugget
-    type: minecraft:item
   rolls:
     max: 4.0
-    min: 2.0
+    min: 3.0
     type: minecraft:uniform
 type: minecraft:chest

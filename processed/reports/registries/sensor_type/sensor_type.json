@@ -4,7 +4,6 @@
     "minecraft:nearest_items",
     "minecraft:nearest_living_entities",
     "minecraft:nearest_players",
-    "minecraft:interactable_doors",
     "minecraft:nearest_bed",
     "minecraft:hurt_by",
     "minecraft:villager_hostiles",

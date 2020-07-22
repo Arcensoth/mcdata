@@ -17,16 +17,16 @@ pools:
     type: minecraft:item
   - functions:
     - count:
-        max: 12.0
-        min: 2.0
+        max: 28.0
+        min: 10.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:spectral_arrow
     type: minecraft:item
   - functions:
     - count:
-        max: 8.0
-        min: 5.0
+        max: 12.0
+        min: 8.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:gilded_blackstone
@@ -46,16 +46,16 @@ pools:
     type: minecraft:item
   - functions:
     - count:
-        max: 8.0
-        min: 2.0
+        max: 9.0
+        min: 4.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:gold_ingot
     type: minecraft:item
   - functions:
     - count:
-        max: 8.0
-        min: 2.0
+        max: 9.0
+        min: 4.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:iron_ingot
@@ -88,6 +88,12 @@ pools:
       function: minecraft:set_count
     - function: minecraft:enchant_randomly
     name: minecraft:golden_boots
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:golden_axe
     type: minecraft:item
   rolls:
     max: 2.0

@@ -9,6 +9,7 @@ effects:
     offset: 2.0
     sound: minecraft:ambient.cave
     tick_delay: 6000
+  sky_color: 8103167
   water_color: 4159204
   water_fog_color: 329011
 features:
@@ -22,10 +23,9 @@ features:
 - []
 - []
 - - config: {}
-    name: minecraft:void_start_platform
+    type: minecraft:void_start_platform
 precipitation: none
 scale: 0.2
-sky_color: 8103167
 spawn_costs: {}
 spawners:
   ambient: []
@@ -43,5 +43,5 @@ surface_builder:
       Name: minecraft:stone
     underwater_material:
       Name: minecraft:gravel
-  name: minecraft:nope
+  type: minecraft:nope
 temperature: 0.5

@@ -1,47 +1,75 @@
 pools:
 - entries:
   - functions:
+    - count: 1
+      function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:diamond_pickaxe
+    type: minecraft:item
+    weight: 6
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:diamond_shovel
+    type: minecraft:item
+    weight: 6
+  - functions:
     - damage:
-        max: 0.5
+        max: 0.9
         min: 0.1
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
     name: minecraft:crossbow
     type: minecraft:item
-    weight: 12
+    weight: 6
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
-    weight: 2
+    weight: 12
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:netherite_scrap
     type: minecraft:item
-    weight: 2
+    weight: 4
   - functions:
     - count:
-        max: 15.0
-        min: 2.0
+        max: 22.0
+        min: 10.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:spectral_arrow
     type: minecraft:item
-    weight: 16
+    weight: 10
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:piglin_banner_pattern
     type: minecraft:item
-    weight: 5
+    weight: 9
   - functions:
     - count: 1
       function: minecraft:set_count
     name: minecraft:music_disc_pigstep
     type: minecraft:item
-    weight: 3
+    weight: 5
+  - functions:
+    - count:
+        max: 17.0
+        min: 6.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:golden_carrot
+    type: minecraft:item
+    weight: 12
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:golden_apple
+    type: minecraft:item
+    weight: 9
   - functions:
     - enchantments:
       - minecraft:soul_speed
@@ -49,10 +77,25 @@ pools:
     name: minecraft:book
     type: minecraft:item
     weight: 10
-  - type: minecraft:empty
-    weight: 50
   rolls: 1
 - entries:
+  - functions:
+    - damage:
+        max: 0.9
+        min: 0.1
+      function: minecraft:set_damage
+    - count: 1
+      function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:iron_sword
+    type: minecraft:item
+    weight: 2
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:iron_block
+    type: minecraft:item
+    weight: 2
   - functions:
     - count: 1
       function: minecraft:set_count
@@ -64,8 +107,15 @@ pools:
   - functions:
     - count: 1
       function: minecraft:set_count
+    - function: minecraft:enchant_randomly
+    name: minecraft:golden_axe
+    type: minecraft:item
+  - functions:
+    - count: 1
+      function: minecraft:set_count
     name: minecraft:gold_block
     type: minecraft:item
+    weight: 2
   - functions:
     - count: 1
       function: minecraft:set_count
@@ -79,6 +129,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:gold_ingot
     type: minecraft:item
+    weight: 2
   - functions:
     - count:
         max: 6.0
@@ -87,6 +138,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:iron_ingot
     type: minecraft:item
+    weight: 2
   - functions:
     - count: 1
       function: minecraft:set_count
@@ -112,7 +164,14 @@ pools:
       function: minecraft:set_count
     name: minecraft:golden_boots
     type: minecraft:item
-  - type: minecraft:empty
+  - functions:
+    - count:
+        max: 5.0
+        min: 1.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:crying_obsidian
+    type: minecraft:item
     weight: 2
   rolls: 2
 - entries:
@@ -122,16 +181,9 @@ pools:
         min: 1.0
         type: minecraft:uniform
       function: minecraft:set_count
-    name: minecraft:crying_obsidian
-    type: minecraft:item
-  - functions:
-    - count:
-        max: 5.0
-        min: 1.0
-        type: minecraft:uniform
-      function: minecraft:set_count
     name: minecraft:gilded_blackstone
     type: minecraft:item
+    weight: 2
   - functions:
     - count:
         max: 10.0
@@ -148,6 +200,7 @@ pools:
       function: minecraft:set_count
     name: minecraft:magma_cream
     type: minecraft:item
+    weight: 2
   - functions:
     - count:
         max: 6.0
@@ -197,8 +250,13 @@ pools:
     name: minecraft:arrow
     type: minecraft:item
     weight: 2
+  - functions:
+    - count: 1
+      function: minecraft:set_count
+    name: minecraft:cooked_porkchop
+    type: minecraft:item
   rolls:
-    max: 5.0
+    max: 4.0
     min: 3.0
     type: minecraft:uniform
 type: minecraft:chest

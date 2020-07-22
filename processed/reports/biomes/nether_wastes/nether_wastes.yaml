@@ -2,7 +2,7 @@ carvers:
   air:
   - config:
       probability: 0.2
-    name: minecraft:nether_cave
+    type: minecraft:nether_cave
 category: nether
 depth: 0.1
 downfall: 0.0
@@ -22,6 +22,7 @@ effects:
     min_delay: 12000
     replace_current_music: false
     sound: minecraft:music.nether.nether_wastes
+  sky_color: 7254527
   water_color: 4159204
   water_fog_color: 329011
 features:
@@ -36,12 +37,12 @@ features:
       decorator:
         config:
           count: 8
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -49,7 +50,7 @@ features:
                   bottom_offset: 4
                   maximum: 128
                   top_offset: 8
-                name: minecraft:range
+                type: minecraft:range
               feature:
                 config:
                   hole_count: 1
@@ -61,15 +62,15 @@ features:
                       falling: 'true'
                   valid_blocks:
                   - minecraft:netherrack
-                name: minecraft:spring_feature
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:spring_feature
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 10
-        name: minecraft:fire
+        type: minecraft:fire
       feature:
         config:
           blacklist: []
@@ -95,13 +96,13 @@ features:
           xspread: 7
           yspread: 3
           zspread: 7
-        name: minecraft:random_patch
-    name: minecraft:decorated
+        type: minecraft:random_patch
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 10
-        name: minecraft:fire
+        type: minecraft:fire
       feature:
         config:
           blacklist: []
@@ -120,27 +121,27 @@ features:
           xspread: 7
           yspread: 3
           zspread: 7
-        name: minecraft:random_patch
-    name: minecraft:decorated
+        type: minecraft:random_patch
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 10
-        name: minecraft:glowstone
+        type: minecraft:glowstone
       feature:
         config: {}
-        name: minecraft:glowstone_blob
-    name: minecraft:decorated
+        type: minecraft:glowstone_blob
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 10
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -148,18 +149,18 @@ features:
                   bottom_offset: 0
                   maximum: 128
                   top_offset: 0
-                name: minecraft:range
+                type: minecraft:range
               feature:
                 config: {}
-                name: minecraft:glowstone_blob
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:glowstone_blob
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           chance: 2
-        name: minecraft:chance
+        type: minecraft:chance
       feature:
         config:
           decorator:
@@ -167,7 +168,7 @@ features:
               bottom_offset: 0
               maximum: 128
               top_offset: 0
-            name: minecraft:range
+            type: minecraft:range
           feature:
             config:
               blacklist: []
@@ -185,14 +186,14 @@ features:
               xspread: 7
               yspread: 3
               zspread: 7
-            name: minecraft:random_patch
-        name: minecraft:decorated
-    name: minecraft:decorated
+            type: minecraft:random_patch
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           chance: 2
-        name: minecraft:chance
+        type: minecraft:chance
       feature:
         config:
           decorator:
@@ -200,7 +201,7 @@ features:
               bottom_offset: 0
               maximum: 128
               top_offset: 0
-            name: minecraft:range
+            type: minecraft:range
           feature:
             config:
               blacklist: []
@@ -218,24 +219,24 @@ features:
               xspread: 7
               yspread: 3
               zspread: 7
-            name: minecraft:random_patch
-        name: minecraft:decorated
-    name: minecraft:decorated
+            type: minecraft:random_patch
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 4
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
                 config: {}
-                name: minecraft:magma
+                type: minecraft:magma
               feature:
                 config:
                   size: 33
@@ -244,20 +245,20 @@ features:
                   target:
                     block: minecraft:netherrack
                     predicate_type: minecraft:block_match
-                name: minecraft:ore
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 16
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -265,7 +266,7 @@ features:
                   bottom_offset: 10
                   maximum: 128
                   top_offset: 20
-                name: minecraft:range
+                type: minecraft:range
               feature:
                 config:
                   hole_count: 0
@@ -277,20 +278,20 @@ features:
                       falling: 'true'
                   valid_blocks:
                   - minecraft:netherrack
-                name: minecraft:spring_feature
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:spring_feature
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 2
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -298,7 +299,7 @@ features:
                   bottom_offset: 5
                   maximum: 37
                   top_offset: 0
-                name: minecraft:range
+                type: minecraft:range
               feature:
                 config:
                   size: 33
@@ -307,20 +308,20 @@ features:
                   target:
                     block: minecraft:netherrack
                     predicate_type: minecraft:block_match
-                name: minecraft:ore
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 2
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -328,7 +329,7 @@ features:
                   bottom_offset: 5
                   maximum: 37
                   top_offset: 10
-                name: minecraft:range
+                type: minecraft:range
               feature:
                 config:
                   size: 33
@@ -337,20 +338,20 @@ features:
                   target:
                     block: minecraft:netherrack
                     predicate_type: minecraft:block_match
-                name: minecraft:ore
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 10
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -358,7 +359,7 @@ features:
                   bottom_offset: 10
                   maximum: 128
                   top_offset: 20
-                name: minecraft:range
+                type: minecraft:range
               feature:
                 config:
                   size: 10
@@ -367,20 +368,20 @@ features:
                   target:
                     block: minecraft:netherrack
                     predicate_type: minecraft:block_match
-                name: minecraft:ore
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           count: 16
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -388,7 +389,7 @@ features:
                   bottom_offset: 10
                   maximum: 128
                   top_offset: 20
-                name: minecraft:range
+                type: minecraft:range
               feature:
                 config:
                   size: 14
@@ -397,21 +398,21 @@ features:
                   target:
                     block: minecraft:netherrack
                     predicate_type: minecraft:block_match
-                name: minecraft:ore
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config: {}
-        name: minecraft:square
+        type: minecraft:square
       feature:
         config:
           decorator:
             config:
               baseline: 16
               spread: 8
-            name: minecraft:depth_average
+            type: minecraft:depth_average
           feature:
             config:
               size: 3
@@ -420,13 +421,13 @@ features:
               target:
                 predicate_type: minecraft:tag_match
                 tag: minecraft:base_stone_nether
-            name: minecraft:no_surface_ore
-        name: minecraft:decorated
-    name: minecraft:decorated
+            type: minecraft:no_surface_ore
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config: {}
-        name: minecraft:square
+        type: minecraft:square
       feature:
         config:
           decorator:
@@ -434,7 +435,7 @@ features:
               bottom_offset: 8
               maximum: 128
               top_offset: 16
-            name: minecraft:range
+            type: minecraft:range
           feature:
             config:
               size: 2
@@ -443,19 +444,19 @@ features:
               target:
                 predicate_type: minecraft:tag_match
                 tag: minecraft:base_stone_nether
-            name: minecraft:no_surface_ore
-        name: minecraft:decorated
-    name: minecraft:decorated
+            type: minecraft:no_surface_ore
+        type: minecraft:decorated
+    type: minecraft:decorated
 - - config:
       decorator:
         config:
           count: 20
-        name: minecraft:count
+        type: minecraft:count
       feature:
         config:
           decorator:
             config: {}
-            name: minecraft:square
+            type: minecraft:square
           feature:
             config:
               decorator:
@@ -463,7 +464,7 @@ features:
                   bottom_offset: 8
                   maximum: 256
                   top_offset: 16
-                name: minecraft:range_very_biased
+                type: minecraft:range_very_biased
               feature:
                 config:
                   hole_count: 1
@@ -478,26 +479,26 @@ features:
                   - minecraft:granite
                   - minecraft:diorite
                   - minecraft:andesite
-                name: minecraft:spring_feature
-            name: minecraft:decorated
-        name: minecraft:decorated
-    name: minecraft:decorated
+                type: minecraft:spring_feature
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           chance: 4
-        name: minecraft:chance
+        type: minecraft:chance
       feature:
         config:
           decorator:
             config:
               inner:
                 config: {}
-                name: minecraft:heightmap_spread_double
+                type: minecraft:heightmap_spread_double
               outer:
                 config: {}
-                name: minecraft:square
-            name: minecraft:decorated
+                type: minecraft:square
+            type: minecraft:decorated
           feature:
             config:
               blacklist: []
@@ -515,25 +516,25 @@ features:
               xspread: 7
               yspread: 3
               zspread: 7
-            name: minecraft:random_patch
-        name: minecraft:decorated
-    name: minecraft:decorated
+            type: minecraft:random_patch
+        type: minecraft:decorated
+    type: minecraft:decorated
   - config:
       decorator:
         config:
           chance: 8
-        name: minecraft:chance
+        type: minecraft:chance
       feature:
         config:
           decorator:
             config:
               inner:
                 config: {}
-                name: minecraft:heightmap_spread_double
+                type: minecraft:heightmap_spread_double
               outer:
                 config: {}
-                name: minecraft:square
-            name: minecraft:decorated
+                type: minecraft:square
+            type: minecraft:decorated
           feature:
             config:
               blacklist: []
@@ -551,12 +552,11 @@ features:
               xspread: 7
               yspread: 3
               zspread: 7
-            name: minecraft:random_patch
-        name: minecraft:decorated
-    name: minecraft:decorated
+            type: minecraft:random_patch
+        type: minecraft:decorated
+    type: minecraft:decorated
 precipitation: none
 scale: 0.2
-sky_color: 7254527
 spawn_costs: {}
 spawners:
   ambient: []
@@ -592,9 +592,9 @@ spawners:
 starts:
 - config:
     portal_type: nether
-  name: minecraft:ruined_portal
+  type: minecraft:ruined_portal
 - config: {}
-  name: minecraft:fortress
+  type: minecraft:fortress
 - config:
     size: 6
     start_pool:
@@ -634,6 +634,16 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:gilded_blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.5
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:blackstone
                 position_predicate:
                   predicate_type: minecraft:always_true
               - input_predicate:
@@ -686,6 +696,16 @@ starts:
                 position_predicate:
                   predicate_type: minecraft:always_true
               - input_predicate:
+                  block: minecraft:gilded_blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.5
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:blackstone
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
                   probability: 0.01
@@ -732,6 +752,16 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
+                  block: minecraft:gilded_blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.5
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:blackstone
                 position_predicate:
                   predicate_type: minecraft:always_true
               - input_predicate:
@@ -784,6 +814,16 @@ starts:
                 position_predicate:
                   predicate_type: minecraft:always_true
               - input_predicate:
+                  block: minecraft:gilded_blackstone
+                  predicate_type: minecraft:random_block_match
+                  probability: 0.5
+                location_predicate:
+                  predicate_type: minecraft:always_true
+                output_state:
+                  Name: minecraft:blackstone
+                position_predicate:
+                  predicate_type: minecraft:always_true
+              - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
                   probability: 0.01
@@ -797,7 +837,7 @@ starts:
         weight: 1
       fallback: minecraft:empty
       name: minecraft:bastion/starts
-  name: minecraft:bastion_remnant
+  type: minecraft:bastion_remnant
 surface_builder:
   config:
     top_material:
@@ -806,5 +846,5 @@ surface_builder:
       Name: minecraft:netherrack
     underwater_material:
       Name: minecraft:netherrack
-  name: minecraft:nether
+  type: minecraft:nether
 temperature: 2.0
