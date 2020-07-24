@@ -22,6 +22,8 @@ DATA_SUBPARTS = (
     ("tags", "items"),
 )
 
+REPORT_SUBPARTS = (("biomes",),)
+
 ARGPARSER = argparse.ArgumentParser(description="Run the mcdata update utility.")
 ARGPARSER.add_argument("--inpath", help="The path to read the generated data from.")
 ARGPARSER.add_argument("--outpath", help="The path to write the processed output to.")
@@ -37,7 +39,7 @@ def prepare_filepath(dirname: str, subname: str, ext: str) -> str:
     if not os.path.exists(subdirname):
         LOG.debug(f"Creating missing directory: {subdirname}")
         os.makedirs(subdirname)
-    filename = 'data'
+    filename = "data"
     filepath = os.path.join(subdirname, filename + ext)
     return filepath
 
@@ -123,6 +125,38 @@ def split_registries(inparts: tuple, outparts: tuple):
         process_registry(registry, registries_outdir, reg_shortname)
 
 
+def summarize_reports(inparts: tuple, outparts: tuple):
+    # assume namespace is `minecraft` for now
+    namespace = "minecraft"
+    # compile namespaced id reports for report root folders
+    reports_path = os.path.join(*inparts, "reports")
+    for report_subparts in REPORT_SUBPARTS:
+        resource_ids = []
+        summary = {"values": resource_ids}
+        # process individual summaries
+        namespace_subdir = os.path.join(reports_path, *report_subparts)
+        for dirname, subdirnames, filenames in os.walk(namespace_subdir):
+            LOG.info(f"Reading directory: {dirname}")
+            subdirnames[:] = [d for d in subdirnames if d not in EXCLUDE_DIRS]
+            for filename in filenames:
+                resource_header_len = len(namespace_subdir) + len(os.path.sep)
+                resource_dir = dirname[resource_header_len:]
+                resource_dir_parts = (
+                    resource_dir.split(os.path.sep) if resource_dir else []
+                )
+                filename_parts = filename.split(".")
+                filename_parts_without_ext = filename_parts[:-1]
+                filename_without_ext = ".".join(filename_parts_without_ext)
+                resource_name = "/".join((*resource_dir_parts, filename_without_ext))
+                resource_id = f"{namespace}:{resource_name}"
+                resource_ids.append(resource_id)
+        summary_out_dir = os.path.join(*outparts, "reports", *report_subparts[:-1])
+        write_json(summary, summary_out_dir, report_subparts[-1])
+        write_min_json(summary, summary_out_dir, report_subparts[-1])
+        write_yaml(summary, summary_out_dir, report_subparts[-1])
+        write_txt(resource_ids, summary_out_dir, report_subparts[-1])
+
+
 def summarize_data(inparts: tuple, outparts: tuple):
     # compile namespaced id reports for data root folders
     data_path = os.path.join(*inparts, "data")
@@ -131,7 +165,7 @@ def summarize_data(inparts: tuple, outparts: tuple):
         summaries = {}
         for data_subparts in DATA_SUBPARTS:
             resource_ids = []
-            summary = {'values': resource_ids}
+            summary = {"values": resource_ids}
             # recursively construct data structure for namespace summary
             sub_summaries = summaries
             for subpart in data_subparts[:-1]:
@@ -159,12 +193,14 @@ def summarize_data(inparts: tuple, outparts: tuple):
                     )
                     resource_id = f"{namespace}:{resource_name}"
                     resource_ids.append(resource_id)
-            summary_out_dir = os.path.join(*outparts, 'data', namespace, *data_subparts[:-1])
+            summary_out_dir = os.path.join(
+                *outparts, "data", namespace, *data_subparts[:-1]
+            )
             write_json(summary, summary_out_dir, data_subparts[-1])
             write_min_json(summary, summary_out_dir, data_subparts[-1])
             write_yaml(summary, summary_out_dir, data_subparts[-1])
             write_txt(resource_ids, summary_out_dir, data_subparts[-1])
-        summaries_out_dir = os.path.join(*outparts, 'data')
+        summaries_out_dir = os.path.join(*outparts, "data")
         write_json(summaries, summaries_out_dir, namespace)
         write_min_json(summaries, summaries_out_dir, namespace)
         write_yaml(summaries, summaries_out_dir, namespace)
@@ -175,6 +211,8 @@ def process(inparts: tuple, outparts: tuple):
     convert_files(inparts, outparts)
     print("Splitting registries...")
     split_registries(inparts, outparts)
+    print("Summarizing reports...")
+    summarize_reports(inparts, outparts)
     print("Summarizing data...")
     summarize_data(inparts, outparts)
     print("Done!")
