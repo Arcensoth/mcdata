@@ -37,7 +37,7 @@ def prepare_filepath(dirname: str, subname: str, ext: str) -> str:
     if not os.path.exists(subdirname):
         LOG.debug(f"Creating missing directory: {subdirname}")
         os.makedirs(subdirname)
-    filename = subname.split('/')[-1]
+    filename = 'data'
     filepath = os.path.join(subdirname, filename + ext)
     return filepath
 
