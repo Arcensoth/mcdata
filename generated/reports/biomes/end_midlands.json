@@ -26,13 +26,7 @@
     "type": "minecraft:default"
   },
   "carvers": {},
-  "features": [
-    [],
-    [],
-    [],
-    [],
-    []
-  ],
+  "features": [],
   "starts": [
     {
       "config": {},
