@@ -7932,61 +7932,61 @@
       "minecraft:ink_sac": {
         "protocol_id": 693
       },
-      "minecraft:red_dye": {
+      "minecraft:cocoa_beans": {
         "protocol_id": 694
       },
-      "minecraft:green_dye": {
+      "minecraft:lapis_lazuli": {
         "protocol_id": 695
       },
-      "minecraft:cocoa_beans": {
+      "minecraft:white_dye": {
         "protocol_id": 696
       },
-      "minecraft:lapis_lazuli": {
+      "minecraft:orange_dye": {
         "protocol_id": 697
       },
-      "minecraft:purple_dye": {
+      "minecraft:magenta_dye": {
         "protocol_id": 698
       },
-      "minecraft:cyan_dye": {
+      "minecraft:light_blue_dye": {
         "protocol_id": 699
       },
-      "minecraft:light_gray_dye": {
+      "minecraft:yellow_dye": {
         "protocol_id": 700
       },
-      "minecraft:gray_dye": {
+      "minecraft:lime_dye": {
         "protocol_id": 701
       },
       "minecraft:pink_dye": {
         "protocol_id": 702
       },
-      "minecraft:lime_dye": {
+      "minecraft:gray_dye": {
         "protocol_id": 703
       },
-      "minecraft:yellow_dye": {
+      "minecraft:light_gray_dye": {
         "protocol_id": 704
       },
-      "minecraft:light_blue_dye": {
+      "minecraft:cyan_dye": {
         "protocol_id": 705
       },
-      "minecraft:magenta_dye": {
+      "minecraft:purple_dye": {
         "protocol_id": 706
       },
-      "minecraft:orange_dye": {
+      "minecraft:blue_dye": {
         "protocol_id": 707
       },
-      "minecraft:bone_meal": {
+      "minecraft:brown_dye": {
         "protocol_id": 708
       },
-      "minecraft:blue_dye": {
+      "minecraft:green_dye": {
         "protocol_id": 709
       },
-      "minecraft:brown_dye": {
+      "minecraft:red_dye": {
         "protocol_id": 710
       },
       "minecraft:black_dye": {
         "protocol_id": 711
       },
-      "minecraft:white_dye": {
+      "minecraft:bone_meal": {
         "protocol_id": 712
       },
       "minecraft:bone": {

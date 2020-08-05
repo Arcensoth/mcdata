@@ -533,6 +533,7 @@ features:
             type: minecraft:weighted_state_provider
         type: minecraft:nether_forest_vegetation
     type: minecraft:decorated
+player_spawn_friendly: false
 precipitation: none
 scale: 0.2
 spawn_costs: {}

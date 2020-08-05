@@ -874,7 +874,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
-parent: savanna
+player_spawn_friendly: false
 precipitation: none
 scale: 1.225
 spawn_costs: {}

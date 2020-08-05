@@ -952,7 +952,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
-parent: wooded_mountains
+player_spawn_friendly: false
 precipitation: rain
 scale: 0.5
 spawn_costs: {}

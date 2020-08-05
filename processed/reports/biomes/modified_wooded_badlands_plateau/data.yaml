@@ -889,7 +889,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
-parent: wooded_badlands_plateau
+player_spawn_friendly: false
 precipitation: none
 scale: 0.3
 spawn_costs: {}

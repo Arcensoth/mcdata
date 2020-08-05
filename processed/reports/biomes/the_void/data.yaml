@@ -24,6 +24,7 @@ features:
 - []
 - - config: {}
     type: minecraft:void_start_platform
+player_spawn_friendly: false
 precipitation: none
 scale: 0.2
 spawn_costs: {}

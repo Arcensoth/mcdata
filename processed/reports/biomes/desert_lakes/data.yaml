@@ -856,7 +856,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
-parent: desert
+player_spawn_friendly: false
 precipitation: none
 scale: 0.25
 spawn_costs: {}

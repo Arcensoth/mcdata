@@ -835,6 +835,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
+player_spawn_friendly: false
 precipitation: snow
 scale: 0.3
 spawn_costs: {}

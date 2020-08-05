@@ -2325,7 +2325,7 @@ minecraft:item:
     minecraft:blue_concrete_powder:
       protocol_id: 491
     minecraft:blue_dye:
-      protocol_id: 709
+      protocol_id: 707
     minecraft:blue_glazed_terracotta:
       protocol_id: 459
     minecraft:blue_ice:
@@ -2347,7 +2347,7 @@ minecraft:item:
     minecraft:bone_block:
       protocol_id: 428
     minecraft:bone_meal:
-      protocol_id: 708
+      protocol_id: 712
     minecraft:book:
       protocol_id: 678
     minecraft:bookshelf:
@@ -2387,7 +2387,7 @@ minecraft:item:
     minecraft:brown_concrete_powder:
       protocol_id: 492
     minecraft:brown_dye:
-      protocol_id: 710
+      protocol_id: 708
     minecraft:brown_glazed_terracotta:
       protocol_id: 460
     minecraft:brown_mushroom:
@@ -2499,7 +2499,7 @@ minecraft:item:
     minecraft:cobweb:
       protocol_id: 88
     minecraft:cocoa_beans:
-      protocol_id: 696
+      protocol_id: 694
     minecraft:cod:
       protocol_id: 687
     minecraft:cod_bucket:
@@ -2605,7 +2605,7 @@ minecraft:item:
     minecraft:cyan_concrete_powder:
       protocol_id: 489
     minecraft:cyan_dye:
-      protocol_id: 699
+      protocol_id: 705
     minecraft:cyan_glazed_terracotta:
       protocol_id: 457
     minecraft:cyan_shulker_box:
@@ -2919,7 +2919,7 @@ minecraft:item:
     minecraft:gray_concrete_powder:
       protocol_id: 487
     minecraft:gray_dye:
-      protocol_id: 701
+      protocol_id: 703
     minecraft:gray_glazed_terracotta:
       protocol_id: 455
     minecraft:gray_shulker_box:
@@ -2943,7 +2943,7 @@ minecraft:item:
     minecraft:green_concrete_powder:
       protocol_id: 493
     minecraft:green_dye:
-      protocol_id: 695
+      protocol_id: 709
     minecraft:green_glazed_terracotta:
       protocol_id: 461
     minecraft:green_shulker_box:
@@ -3091,7 +3091,7 @@ minecraft:item:
     minecraft:lapis_block:
       protocol_id: 79
     minecraft:lapis_lazuli:
-      protocol_id: 697
+      protocol_id: 695
     minecraft:lapis_ore:
       protocol_id: 78
     minecraft:large_fern:
@@ -3127,7 +3127,7 @@ minecraft:item:
     minecraft:light_blue_concrete_powder:
       protocol_id: 483
     minecraft:light_blue_dye:
-      protocol_id: 705
+      protocol_id: 699
     minecraft:light_blue_glazed_terracotta:
       protocol_id: 451
     minecraft:light_blue_shulker_box:
@@ -3151,7 +3151,7 @@ minecraft:item:
     minecraft:light_gray_concrete_powder:
       protocol_id: 488
     minecraft:light_gray_dye:
-      protocol_id: 700
+      protocol_id: 704
     minecraft:light_gray_glazed_terracotta:
       protocol_id: 456
     minecraft:light_gray_shulker_box:
@@ -3183,7 +3183,7 @@ minecraft:item:
     minecraft:lime_concrete_powder:
       protocol_id: 485
     minecraft:lime_dye:
-      protocol_id: 703
+      protocol_id: 701
     minecraft:lime_glazed_terracotta:
       protocol_id: 453
     minecraft:lime_shulker_box:
@@ -3215,7 +3215,7 @@ minecraft:item:
     minecraft:magenta_concrete_powder:
       protocol_id: 482
     minecraft:magenta_dye:
-      protocol_id: 706
+      protocol_id: 698
     minecraft:magenta_glazed_terracotta:
       protocol_id: 450
     minecraft:magenta_shulker_box:
@@ -3405,7 +3405,7 @@ minecraft:item:
     minecraft:orange_concrete_powder:
       protocol_id: 481
     minecraft:orange_dye:
-      protocol_id: 707
+      protocol_id: 697
     minecraft:orange_glazed_terracotta:
       protocol_id: 449
     minecraft:orange_shulker_box:
@@ -3579,7 +3579,7 @@ minecraft:item:
     minecraft:purple_concrete_powder:
       protocol_id: 490
     minecraft:purple_dye:
-      protocol_id: 698
+      protocol_id: 706
     minecraft:purple_glazed_terracotta:
       protocol_id: 458
     minecraft:purple_shulker_box:
@@ -3637,7 +3637,7 @@ minecraft:item:
     minecraft:red_concrete_powder:
       protocol_id: 494
     minecraft:red_dye:
-      protocol_id: 694
+      protocol_id: 710
     minecraft:red_glazed_terracotta:
       protocol_id: 462
     minecraft:red_mushroom:
@@ -4033,7 +4033,7 @@ minecraft:item:
     minecraft:white_concrete_powder:
       protocol_id: 480
     minecraft:white_dye:
-      protocol_id: 712
+      protocol_id: 696
     minecraft:white_glazed_terracotta:
       protocol_id: 448
     minecraft:white_shulker_box:
@@ -4083,7 +4083,7 @@ minecraft:item:
     minecraft:yellow_concrete_powder:
       protocol_id: 484
     minecraft:yellow_dye:
-      protocol_id: 704
+      protocol_id: 700
     minecraft:yellow_glazed_terracotta:
       protocol_id: 452
     minecraft:yellow_shulker_box:

@@ -834,7 +834,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
-parent: badlands
+player_spawn_friendly: false
 precipitation: none
 scale: 0.2
 spawn_costs: {}

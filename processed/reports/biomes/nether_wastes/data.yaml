@@ -555,6 +555,7 @@ features:
             type: minecraft:random_patch
         type: minecraft:decorated
     type: minecraft:decorated
+player_spawn_friendly: false
 precipitation: none
 scale: 0.2
 spawn_costs: {}

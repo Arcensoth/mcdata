@@ -896,7 +896,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
-parent: snowy_tundra
+player_spawn_friendly: false
 precipitation: snow
 scale: 0.45000002
 spawn_costs: {}

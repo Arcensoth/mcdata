@@ -1031,7 +1031,7 @@ features:
     type: minecraft:decorated
 - - config: {}
     type: minecraft:freeze_top_layer
-parent: taiga
+player_spawn_friendly: false
 precipitation: rain
 scale: 0.4
 spawn_costs: {}

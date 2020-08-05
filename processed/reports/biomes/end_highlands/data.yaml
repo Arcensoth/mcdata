@@ -56,6 +56,7 @@ features:
             type: minecraft:chorus_plant
         type: minecraft:decorated
     type: minecraft:decorated
+player_spawn_friendly: false
 precipitation: none
 scale: 0.2
 spawn_costs: {}

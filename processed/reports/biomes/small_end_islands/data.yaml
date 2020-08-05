@@ -21,6 +21,7 @@ features:
         config: {}
         type: minecraft:end_island
     type: minecraft:decorated
+player_spawn_friendly: false
 precipitation: none
 scale: 0.2
 spawn_costs: {}
