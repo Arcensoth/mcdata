@@ -1126,8 +1126,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:mossy_cobblestone
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 49
       - element:
@@ -1145,8 +1143,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:mossy_cobblestone
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 49
       - element:
@@ -1164,8 +1160,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:mossy_cobblestone
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   predicate_type: minecraft:tag_match
                   tag: minecraft:doors
@@ -1173,8 +1167,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:torch
                   predicate_type: minecraft:block_match
@@ -1182,8 +1174,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wall_torch
                   predicate_type: minecraft:block_match
@@ -1191,8 +1181,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:campfire
                   predicate_type: minecraft:block_match
@@ -1205,8 +1193,6 @@ starts:
                     lit: 'false'
                     signal_fire: 'false'
                     waterlogged: 'false'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:cobblestone
                   predicate_type: minecraft:random_block_match
@@ -1215,8 +1201,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:spruce_log
                   predicate_type: minecraft:random_block_match
@@ -1225,8 +1209,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:glass_pane
                   predicate_type: minecraft:random_block_match
@@ -1235,8 +1217,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block_state:
                     Name: minecraft:glass_pane
@@ -1257,8 +1237,6 @@ starts:
                     south: 'true'
                     waterlogged: 'false'
                     west: 'false'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block_state:
                     Name: minecraft:glass_pane
@@ -1279,8 +1257,6 @@ starts:
                     south: 'false'
                     waterlogged: 'false'
                     west: 'true'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1291,8 +1267,6 @@ starts:
                   Name: minecraft:pumpkin_stem
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1303,8 +1277,6 @@ starts:
                   Name: minecraft:potatoes
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 1
       - element:
@@ -1322,8 +1294,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:mossy_cobblestone
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   predicate_type: minecraft:tag_match
                   tag: minecraft:doors
@@ -1331,8 +1301,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:torch
                   predicate_type: minecraft:block_match
@@ -1340,8 +1308,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wall_torch
                   predicate_type: minecraft:block_match
@@ -1349,8 +1315,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:campfire
                   predicate_type: minecraft:block_match
@@ -1363,8 +1327,6 @@ starts:
                     lit: 'false'
                     signal_fire: 'false'
                     waterlogged: 'false'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:cobblestone
                   predicate_type: minecraft:random_block_match
@@ -1373,8 +1335,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:spruce_log
                   predicate_type: minecraft:random_block_match
@@ -1383,8 +1343,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:glass_pane
                   predicate_type: minecraft:random_block_match
@@ -1393,8 +1351,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block_state:
                     Name: minecraft:glass_pane
@@ -1415,8 +1371,6 @@ starts:
                     south: 'true'
                     waterlogged: 'false'
                     west: 'false'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block_state:
                     Name: minecraft:glass_pane
@@ -1437,8 +1391,6 @@ starts:
                     south: 'false'
                     waterlogged: 'false'
                     west: 'true'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1449,8 +1401,6 @@ starts:
                   Name: minecraft:pumpkin_stem
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1461,8 +1411,6 @@ starts:
                   Name: minecraft:potatoes
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 1
       fallback: minecraft:empty

@@ -960,8 +960,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:torch
                   predicate_type: minecraft:block_match
@@ -969,8 +967,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wall_torch
                   predicate_type: minecraft:block_match
@@ -978,8 +974,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone
                   predicate_type: minecraft:random_block_match
@@ -988,8 +982,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:cut_sandstone
                   predicate_type: minecraft:random_block_match
@@ -998,8 +990,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:terracotta
                   predicate_type: minecraft:random_block_match
@@ -1008,8 +998,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone_stairs
                   predicate_type: minecraft:random_block_match
@@ -1018,8 +1006,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone_slab
                   predicate_type: minecraft:random_block_match
@@ -1028,8 +1014,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1040,8 +1024,6 @@ starts:
                   Name: minecraft:beetroots
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1052,8 +1034,6 @@ starts:
                   Name: minecraft:melon_stem
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 2
       - element:
@@ -1070,8 +1050,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:torch
                   predicate_type: minecraft:block_match
@@ -1079,8 +1057,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wall_torch
                   predicate_type: minecraft:block_match
@@ -1088,8 +1064,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone
                   predicate_type: minecraft:random_block_match
@@ -1098,8 +1072,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:cut_sandstone
                   predicate_type: minecraft:random_block_match
@@ -1108,8 +1080,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:terracotta
                   predicate_type: minecraft:random_block_match
@@ -1118,8 +1088,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone_stairs
                   predicate_type: minecraft:random_block_match
@@ -1128,8 +1096,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone_slab
                   predicate_type: minecraft:random_block_match
@@ -1138,8 +1104,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1150,8 +1114,6 @@ starts:
                   Name: minecraft:beetroots
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1162,8 +1124,6 @@ starts:
                   Name: minecraft:melon_stem
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 2
       - element:
@@ -1180,8 +1140,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:torch
                   predicate_type: minecraft:block_match
@@ -1189,8 +1147,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wall_torch
                   predicate_type: minecraft:block_match
@@ -1198,8 +1154,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone
                   predicate_type: minecraft:random_block_match
@@ -1208,8 +1162,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:cut_sandstone
                   predicate_type: minecraft:random_block_match
@@ -1218,8 +1170,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:terracotta
                   predicate_type: minecraft:random_block_match
@@ -1228,8 +1178,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone_stairs
                   predicate_type: minecraft:random_block_match
@@ -1238,8 +1186,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:smooth_sandstone_slab
                   predicate_type: minecraft:random_block_match
@@ -1248,8 +1194,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cobweb
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1260,8 +1204,6 @@ starts:
                   Name: minecraft:beetroots
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:wheat
                   predicate_type: minecraft:random_block_match
@@ -1272,8 +1214,6 @@ starts:
                   Name: minecraft:melon_stem
                   Properties:
                     age: '0'
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 1
       fallback: minecraft:empty

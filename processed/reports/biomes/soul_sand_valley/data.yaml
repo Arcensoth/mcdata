@@ -566,8 +566,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -576,8 +574,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gold_block
                   predicate_type: minecraft:random_block_match
@@ -586,8 +582,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gilded_blackstone
                   predicate_type: minecraft:random_block_match
@@ -596,8 +590,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -606,8 +598,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:gilded_blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 1
       - element:
@@ -625,8 +615,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -635,8 +623,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gold_block
                   predicate_type: minecraft:random_block_match
@@ -645,8 +631,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gilded_blackstone
                   predicate_type: minecraft:random_block_match
@@ -655,8 +639,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -665,8 +647,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:gilded_blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 1
       - element:
@@ -684,8 +664,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -694,8 +672,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gold_block
                   predicate_type: minecraft:random_block_match
@@ -704,8 +680,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gilded_blackstone
                   predicate_type: minecraft:random_block_match
@@ -714,8 +688,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -724,8 +696,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:gilded_blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 1
       - element:
@@ -743,8 +713,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -753,8 +721,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:air
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gold_block
                   predicate_type: minecraft:random_block_match
@@ -763,8 +729,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:cracked_polished_blackstone_bricks
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:gilded_blackstone
                   predicate_type: minecraft:random_block_match
@@ -773,8 +737,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
               - input_predicate:
                   block: minecraft:blackstone
                   predicate_type: minecraft:random_block_match
@@ -783,8 +745,6 @@ starts:
                   predicate_type: minecraft:always_true
                 output_state:
                   Name: minecraft:gilded_blackstone
-                position_predicate:
-                  predicate_type: minecraft:always_true
           projection: rigid
         weight: 1
       fallback: minecraft:empty

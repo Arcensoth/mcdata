@@ -868,9 +868,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -884,9 +881,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -900,9 +894,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -916,9 +907,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:blackstone"
                           },
@@ -932,9 +920,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:gilded_blackstone"
                           },
@@ -965,9 +950,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -981,9 +963,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -997,9 +976,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -1013,9 +989,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:blackstone"
                           },
@@ -1029,9 +1002,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:gilded_blackstone"
                           },
@@ -1062,9 +1032,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -1078,9 +1045,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1094,9 +1058,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -1110,9 +1071,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:blackstone"
                           },
@@ -1126,9 +1084,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:gilded_blackstone"
                           },
@@ -1159,9 +1114,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -1175,9 +1127,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1191,9 +1140,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cracked_polished_blackstone_bricks"
                           },
@@ -1207,9 +1153,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:blackstone"
                           },
@@ -1223,9 +1166,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:gilded_blackstone"
                           },

@@ -1473,9 +1473,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1488,9 +1485,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1503,9 +1497,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1518,9 +1509,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1534,9 +1522,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1550,9 +1535,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1566,9 +1548,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1582,9 +1561,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1598,9 +1574,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1614,9 +1587,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1630,9 +1600,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1646,9 +1613,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "false",
@@ -1677,9 +1641,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "true",
@@ -1708,9 +1669,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "age": "0"
@@ -1744,9 +1702,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1759,9 +1714,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1774,9 +1726,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -1789,9 +1738,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1805,9 +1751,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1821,9 +1764,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1837,9 +1777,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1853,9 +1790,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1869,9 +1803,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1885,9 +1816,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1901,9 +1829,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -1917,9 +1842,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "false",
@@ -1948,9 +1870,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "true",
@@ -1979,9 +1898,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "age": "0"
@@ -2015,9 +1931,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -2030,9 +1943,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -2045,9 +1955,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -2060,9 +1967,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2076,9 +1980,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2092,9 +1993,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2108,9 +2006,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2124,9 +2019,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2140,9 +2032,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2156,9 +2045,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2172,9 +2058,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2188,9 +2071,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "false",
@@ -2219,9 +2099,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "true",
@@ -2250,9 +2127,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "age": "0"
@@ -2286,9 +2160,6 @@
                     {
                       "rules": [
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -2301,9 +2172,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -2316,9 +2184,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:air"
                           },
@@ -2331,9 +2196,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2347,9 +2209,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2363,9 +2222,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2379,9 +2235,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2395,9 +2248,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2411,9 +2261,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2427,9 +2274,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2443,9 +2287,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Name": "minecraft:cobweb"
                           },
@@ -2459,9 +2300,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "false",
@@ -2490,9 +2328,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "west": "true",
@@ -2521,9 +2356,6 @@
                           }
                         },
                         {
-                          "position_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
                           "output_state": {
                             "Properties": {
                               "age": "0"
