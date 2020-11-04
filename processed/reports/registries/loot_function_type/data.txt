@@ -19,3 +19,4 @@ minecraft:set_lore
 minecraft:fill_player_head
 minecraft:copy_nbt
 minecraft:copy_state
+minecraft:set_banner_pattern

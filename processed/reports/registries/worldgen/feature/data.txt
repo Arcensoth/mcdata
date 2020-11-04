@@ -50,3 +50,4 @@ minecraft:random_selector
 minecraft:simple_random_selector
 minecraft:random_boolean_selector
 minecraft:decorated
+minecraft:geode

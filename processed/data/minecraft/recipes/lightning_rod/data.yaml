@@ -1,0 +1,10 @@
+key:
+  '#':
+    item: minecraft:copper_ingot
+pattern:
+- '#'
+- '#'
+- '#'
+result:
+  item: minecraft:lightning_rod
+type: minecraft:crafting_shaped

@@ -12,6 +12,7 @@ values:
 - minecraft:acacia_trapdoor
 - minecraft:acacia_wood
 - minecraft:activator_rail
+- minecraft:amethyst_block
 - minecraft:andesite
 - minecraft:andesite_slab
 - minecraft:andesite_slab_from_andesite_stonecutting
@@ -52,6 +53,7 @@ values:
 - minecraft:black_banner
 - minecraft:black_bed
 - minecraft:black_bed_from_white_bed
+- minecraft:black_candle
 - minecraft:black_carpet
 - minecraft:black_carpet_from_white_carpet
 - minecraft:black_concrete_powder
@@ -68,6 +70,7 @@ values:
 - minecraft:blue_banner
 - minecraft:blue_bed
 - minecraft:blue_bed_from_white_bed
+- minecraft:blue_candle
 - minecraft:blue_carpet
 - minecraft:blue_carpet_from_white_carpet
 - minecraft:blue_concrete_powder
@@ -101,6 +104,7 @@ values:
 - minecraft:brown_banner
 - minecraft:brown_bed
 - minecraft:brown_bed_from_white_bed
+- minecraft:brown_candle
 - minecraft:brown_carpet
 - minecraft:brown_carpet_from_white_carpet
 - minecraft:brown_concrete_powder
@@ -112,8 +116,10 @@ values:
 - minecraft:brown_terracotta
 - minecraft:brown_wool
 - minecraft:bucket
+- minecraft:bundle
 - minecraft:cake
 - minecraft:campfire
+- minecraft:candle
 - minecraft:carrot_on_a_stick
 - minecraft:cartography_table
 - minecraft:cauldron
@@ -174,6 +180,10 @@ values:
 - minecraft:cooked_salmon_from_campfire_cooking
 - minecraft:cooked_salmon_from_smoking
 - minecraft:cookie
+- minecraft:copper_block
+- minecraft:copper_ingot
+- minecraft:copper_ingot_from_blasting
+- minecraft:copper_ingot_from_copper_block
 - minecraft:cracked_nether_bricks
 - minecraft:cracked_polished_blackstone_bricks
 - minecraft:cracked_stone_bricks
@@ -191,6 +201,9 @@ values:
 - minecraft:crimson_stairs
 - minecraft:crimson_trapdoor
 - minecraft:crossbow
+- minecraft:cut_copper
+- minecraft:cut_copper_slab
+- minecraft:cut_copper_stairs
 - minecraft:cut_red_sandstone
 - minecraft:cut_red_sandstone_from_red_sandstone_stonecutting
 - minecraft:cut_red_sandstone_slab
@@ -204,6 +217,7 @@ values:
 - minecraft:cyan_banner
 - minecraft:cyan_bed
 - minecraft:cyan_bed_from_white_bed
+- minecraft:cyan_candle
 - minecraft:cyan_carpet
 - minecraft:cyan_carpet_from_white_carpet
 - minecraft:cyan_concrete_powder
@@ -282,6 +296,7 @@ values:
 - minecraft:end_stone_brick_wall_from_end_stone_stonecutting
 - minecraft:fermented_spider_eye
 - minecraft:firework_rocket
+- minecraft:firework_rocket_simple
 - minecraft:firework_star
 - minecraft:firework_star_fade
 - minecraft:fire_charge
@@ -326,6 +341,7 @@ values:
 - minecraft:gray_banner
 - minecraft:gray_bed
 - minecraft:gray_bed_from_white_bed
+- minecraft:gray_candle
 - minecraft:gray_carpet
 - minecraft:gray_carpet_from_white_carpet
 - minecraft:gray_concrete_powder
@@ -339,6 +355,7 @@ values:
 - minecraft:green_banner
 - minecraft:green_bed
 - minecraft:green_bed_from_white_bed
+- minecraft:green_candle
 - minecraft:green_carpet
 - minecraft:green_carpet_from_white_carpet
 - minecraft:green_concrete_powder
@@ -407,9 +424,14 @@ values:
 - minecraft:leather_leggings
 - minecraft:lectern
 - minecraft:lever
+- minecraft:lightly_weathered_cut_copper
+- minecraft:lightly_weathered_cut_copper_slab
+- minecraft:lightly_weathered_cut_copper_stairs
+- minecraft:lightning_rod
 - minecraft:light_blue_banner
 - minecraft:light_blue_bed
 - minecraft:light_blue_bed_from_white_bed
+- minecraft:light_blue_candle
 - minecraft:light_blue_carpet
 - minecraft:light_blue_carpet_from_white_carpet
 - minecraft:light_blue_concrete_powder
@@ -424,6 +446,7 @@ values:
 - minecraft:light_gray_banner
 - minecraft:light_gray_bed
 - minecraft:light_gray_bed_from_white_bed
+- minecraft:light_gray_candle
 - minecraft:light_gray_carpet
 - minecraft:light_gray_carpet_from_white_carpet
 - minecraft:light_gray_concrete_powder
@@ -442,6 +465,7 @@ values:
 - minecraft:lime_banner
 - minecraft:lime_bed
 - minecraft:lime_bed_from_white_bed
+- minecraft:lime_candle
 - minecraft:lime_carpet
 - minecraft:lime_carpet_from_white_carpet
 - minecraft:lime_concrete_powder
@@ -458,6 +482,7 @@ values:
 - minecraft:magenta_banner
 - minecraft:magenta_bed
 - minecraft:magenta_bed_from_white_bed
+- minecraft:magenta_candle
 - minecraft:magenta_carpet
 - minecraft:magenta_carpet_from_white_carpet
 - minecraft:magenta_concrete_powder
@@ -537,6 +562,7 @@ values:
 - minecraft:orange_banner
 - minecraft:orange_bed
 - minecraft:orange_bed_from_white_bed
+- minecraft:orange_candle
 - minecraft:orange_carpet
 - minecraft:orange_carpet_from_white_carpet
 - minecraft:orange_concrete_powder
@@ -554,6 +580,7 @@ values:
 - minecraft:pink_banner
 - minecraft:pink_bed
 - minecraft:pink_bed_from_white_bed
+- minecraft:pink_candle
 - minecraft:pink_carpet
 - minecraft:pink_carpet_from_white_carpet
 - minecraft:pink_concrete_powder
@@ -640,6 +667,7 @@ values:
 - minecraft:purple_banner
 - minecraft:purple_bed
 - minecraft:purple_bed_from_white_bed
+- minecraft:purple_candle
 - minecraft:purple_carpet
 - minecraft:purple_carpet_from_white_carpet
 - minecraft:purple_concrete_powder
@@ -680,6 +708,7 @@ values:
 - minecraft:red_banner
 - minecraft:red_bed
 - minecraft:red_bed_from_white_bed
+- minecraft:red_candle
 - minecraft:red_carpet
 - minecraft:red_carpet_from_white_carpet
 - minecraft:red_concrete_powder
@@ -719,6 +748,9 @@ values:
 - minecraft:sandstone_wall_from_sandstone_stonecutting
 - minecraft:scaffolding
 - minecraft:sea_lantern
+- minecraft:semi_weathered_cut_copper
+- minecraft:semi_weathered_cut_copper_slab
+- minecraft:semi_weathered_cut_copper_stairs
 - minecraft:shears
 - minecraft:shield
 - minecraft:shield_decoration
@@ -766,6 +798,7 @@ values:
 - minecraft:spruce_stairs
 - minecraft:spruce_trapdoor
 - minecraft:spruce_wood
+- minecraft:spyglass
 - minecraft:stick
 - minecraft:sticky_piston
 - minecraft:stick_from_bamboo_item
@@ -806,6 +839,7 @@ values:
 - minecraft:suspicious_stew
 - minecraft:target
 - minecraft:terracotta
+- minecraft:tinted_glass
 - minecraft:tipped_arrow
 - minecraft:tnt
 - minecraft:tnt_minecart
@@ -825,9 +859,34 @@ values:
 - minecraft:warped_slab
 - minecraft:warped_stairs
 - minecraft:warped_trapdoor
+- minecraft:waxed_copper
+- minecraft:waxed_copper_cut_slab_from_honeycomb
+- minecraft:waxed_copper_cut_stairs_from_honeycomb
+- minecraft:waxed_cut_copper_from_honeycomb
+- minecraft:waxed_cut_copper_from_waxed_block
+- minecraft:waxed_cut_copper_slab_from_waxed_block
+- minecraft:waxed_cut_copper_stairs_from_waxed_block
+- minecraft:waxed_lightly_weathered_copper
+- minecraft:waxed_lightly_weathered_cut_copper_from_honeycomb
+- minecraft:waxed_lightly_weathered_cut_copper_from_waxed_block
+- minecraft:waxed_lightly_weathered_cut_copper_slab_from_honeycomb
+- minecraft:waxed_lightly_weathered_cut_copper_slab_from_waxed_block
+- minecraft:waxed_lightly_weathered_cut_copper_stairs_from_honeycomb
+- minecraft:waxed_lightly_weathered_cut_copper_stairs_from_waxed_block
+- minecraft:waxed_semi_weathered_copper
+- minecraft:waxed_semi_weathered_cut_copper_from_honeycomb
+- minecraft:waxed_semi_weathered_cut_copper_from_waxed_block
+- minecraft:waxed_semi_weathered_cut_copper_slab_from_honeycomb
+- minecraft:waxed_semi_weathered_cut_copper_slab_from_waxed_block
+- minecraft:waxed_semi_weathered_cut_copper_stairs_from_honeycomb
+- minecraft:waxed_semi_weathered_cut_copper_stairs_from_waxed_block
+- minecraft:weathered_cut_copper
+- minecraft:weathered_cut_copper_slab
+- minecraft:weathered_cut_copper_stairs
 - minecraft:wheat
 - minecraft:white_banner
 - minecraft:white_bed
+- minecraft:white_candle
 - minecraft:white_carpet
 - minecraft:white_concrete_powder
 - minecraft:white_dye
@@ -847,6 +906,7 @@ values:
 - minecraft:yellow_banner
 - minecraft:yellow_bed
 - minecraft:yellow_bed_from_white_bed
+- minecraft:yellow_candle
 - minecraft:yellow_carpet
 - minecraft:yellow_carpet_from_white_carpet
 - minecraft:yellow_concrete_powder

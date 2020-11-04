@@ -1,0 +1,7 @@
+group: copper_ingot
+ingredients:
+- item: minecraft:copper_block
+result:
+  count: 9
+  item: minecraft:copper_ingot
+type: minecraft:crafting_shapeless

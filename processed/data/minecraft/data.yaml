@@ -76,6 +76,7 @@ advancements:
 - minecraft:recipes/building_blocks/acacia_slab
 - minecraft:recipes/building_blocks/acacia_stairs
 - minecraft:recipes/building_blocks/acacia_wood
+- minecraft:recipes/building_blocks/amethyst_block
 - minecraft:recipes/building_blocks/andesite
 - minecraft:recipes/building_blocks/andesite_slab
 - minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting
@@ -130,6 +131,7 @@ advancements:
 - minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting
 - minecraft:recipes/building_blocks/cobblestone_stairs
 - minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting
+- minecraft:recipes/building_blocks/copper_block
 - minecraft:recipes/building_blocks/cracked_nether_bricks
 - minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks
 - minecraft:recipes/building_blocks/cracked_stone_bricks
@@ -137,6 +139,9 @@ advancements:
 - minecraft:recipes/building_blocks/crimson_planks
 - minecraft:recipes/building_blocks/crimson_slab
 - minecraft:recipes/building_blocks/crimson_stairs
+- minecraft:recipes/building_blocks/cut_copper
+- minecraft:recipes/building_blocks/cut_copper_slab
+- minecraft:recipes/building_blocks/cut_copper_stairs
 - minecraft:recipes/building_blocks/cut_red_sandstone
 - minecraft:recipes/building_blocks/cut_red_sandstone_from_red_sandstone_stonecutting
 - minecraft:recipes/building_blocks/cut_red_sandstone_slab
@@ -200,6 +205,9 @@ advancements:
 - minecraft:recipes/building_blocks/jungle_stairs
 - minecraft:recipes/building_blocks/jungle_wood
 - minecraft:recipes/building_blocks/lapis_block
+- minecraft:recipes/building_blocks/lightly_weathered_cut_copper
+- minecraft:recipes/building_blocks/lightly_weathered_cut_copper_slab
+- minecraft:recipes/building_blocks/lightly_weathered_cut_copper_stairs
 - minecraft:recipes/building_blocks/light_blue_concrete_powder
 - minecraft:recipes/building_blocks/light_blue_stained_glass
 - minecraft:recipes/building_blocks/light_blue_terracotta
@@ -343,6 +351,9 @@ advancements:
 - minecraft:recipes/building_blocks/sandstone_stairs
 - minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting
 - minecraft:recipes/building_blocks/sea_lantern
+- minecraft:recipes/building_blocks/semi_weathered_cut_copper
+- minecraft:recipes/building_blocks/semi_weathered_cut_copper_slab
+- minecraft:recipes/building_blocks/semi_weathered_cut_copper_stairs
 - minecraft:recipes/building_blocks/smooth_quartz
 - minecraft:recipes/building_blocks/smooth_quartz_slab
 - minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting
@@ -389,10 +400,35 @@ advancements:
 - minecraft:recipes/building_blocks/stripped_spruce_wood
 - minecraft:recipes/building_blocks/stripped_warped_hyphae
 - minecraft:recipes/building_blocks/terracotta
+- minecraft:recipes/building_blocks/tinted_glass
 - minecraft:recipes/building_blocks/warped_hyphae
 - minecraft:recipes/building_blocks/warped_planks
 - minecraft:recipes/building_blocks/warped_slab
 - minecraft:recipes/building_blocks/warped_stairs
+- minecraft:recipes/building_blocks/waxed_copper
+- minecraft:recipes/building_blocks/waxed_copper_cut_slab_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_copper
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_semi_weathered_copper
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_waxed_block
+- minecraft:recipes/building_blocks/weathered_cut_copper
+- minecraft:recipes/building_blocks/weathered_cut_copper_slab
+- minecraft:recipes/building_blocks/weathered_cut_copper_stairs
 - minecraft:recipes/building_blocks/white_concrete_powder
 - minecraft:recipes/building_blocks/white_stained_glass
 - minecraft:recipes/building_blocks/white_terracotta
@@ -448,6 +484,7 @@ advancements:
 - minecraft:recipes/decorations/black_banner
 - minecraft:recipes/decorations/black_bed
 - minecraft:recipes/decorations/black_bed_from_white_bed
+- minecraft:recipes/decorations/black_candle
 - minecraft:recipes/decorations/black_carpet
 - minecraft:recipes/decorations/black_carpet_from_white_carpet
 - minecraft:recipes/decorations/black_glazed_terracotta
@@ -457,6 +494,7 @@ advancements:
 - minecraft:recipes/decorations/blue_banner
 - minecraft:recipes/decorations/blue_bed
 - minecraft:recipes/decorations/blue_bed_from_white_bed
+- minecraft:recipes/decorations/blue_candle
 - minecraft:recipes/decorations/blue_carpet
 - minecraft:recipes/decorations/blue_carpet_from_white_carpet
 - minecraft:recipes/decorations/blue_glazed_terracotta
@@ -467,12 +505,14 @@ advancements:
 - minecraft:recipes/decorations/brown_banner
 - minecraft:recipes/decorations/brown_bed
 - minecraft:recipes/decorations/brown_bed_from_white_bed
+- minecraft:recipes/decorations/brown_candle
 - minecraft:recipes/decorations/brown_carpet
 - minecraft:recipes/decorations/brown_carpet_from_white_carpet
 - minecraft:recipes/decorations/brown_glazed_terracotta
 - minecraft:recipes/decorations/brown_stained_glass_pane
 - minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane
 - minecraft:recipes/decorations/campfire
+- minecraft:recipes/decorations/candle
 - minecraft:recipes/decorations/cartography_table
 - minecraft:recipes/decorations/chain
 - minecraft:recipes/decorations/chest
@@ -485,6 +525,7 @@ advancements:
 - minecraft:recipes/decorations/cyan_banner
 - minecraft:recipes/decorations/cyan_bed
 - minecraft:recipes/decorations/cyan_bed_from_white_bed
+- minecraft:recipes/decorations/cyan_candle
 - minecraft:recipes/decorations/cyan_carpet
 - minecraft:recipes/decorations/cyan_carpet_from_white_carpet
 - minecraft:recipes/decorations/cyan_glazed_terracotta
@@ -510,6 +551,7 @@ advancements:
 - minecraft:recipes/decorations/gray_banner
 - minecraft:recipes/decorations/gray_bed
 - minecraft:recipes/decorations/gray_bed_from_white_bed
+- minecraft:recipes/decorations/gray_candle
 - minecraft:recipes/decorations/gray_carpet
 - minecraft:recipes/decorations/gray_carpet_from_white_carpet
 - minecraft:recipes/decorations/gray_glazed_terracotta
@@ -518,6 +560,7 @@ advancements:
 - minecraft:recipes/decorations/green_banner
 - minecraft:recipes/decorations/green_bed
 - minecraft:recipes/decorations/green_bed_from_white_bed
+- minecraft:recipes/decorations/green_candle
 - minecraft:recipes/decorations/green_carpet
 - minecraft:recipes/decorations/green_carpet_from_white_carpet
 - minecraft:recipes/decorations/green_glazed_terracotta
@@ -536,6 +579,7 @@ advancements:
 - minecraft:recipes/decorations/light_blue_banner
 - minecraft:recipes/decorations/light_blue_bed
 - minecraft:recipes/decorations/light_blue_bed_from_white_bed
+- minecraft:recipes/decorations/light_blue_candle
 - minecraft:recipes/decorations/light_blue_carpet
 - minecraft:recipes/decorations/light_blue_carpet_from_white_carpet
 - minecraft:recipes/decorations/light_blue_glazed_terracotta
@@ -544,6 +588,7 @@ advancements:
 - minecraft:recipes/decorations/light_gray_banner
 - minecraft:recipes/decorations/light_gray_bed
 - minecraft:recipes/decorations/light_gray_bed_from_white_bed
+- minecraft:recipes/decorations/light_gray_candle
 - minecraft:recipes/decorations/light_gray_carpet
 - minecraft:recipes/decorations/light_gray_carpet_from_white_carpet
 - minecraft:recipes/decorations/light_gray_glazed_terracotta
@@ -552,6 +597,7 @@ advancements:
 - minecraft:recipes/decorations/lime_banner
 - minecraft:recipes/decorations/lime_bed
 - minecraft:recipes/decorations/lime_bed_from_white_bed
+- minecraft:recipes/decorations/lime_candle
 - minecraft:recipes/decorations/lime_carpet
 - minecraft:recipes/decorations/lime_carpet_from_white_carpet
 - minecraft:recipes/decorations/lime_glazed_terracotta
@@ -562,6 +608,7 @@ advancements:
 - minecraft:recipes/decorations/magenta_banner
 - minecraft:recipes/decorations/magenta_bed
 - minecraft:recipes/decorations/magenta_bed_from_white_bed
+- minecraft:recipes/decorations/magenta_candle
 - minecraft:recipes/decorations/magenta_carpet
 - minecraft:recipes/decorations/magenta_carpet_from_white_carpet
 - minecraft:recipes/decorations/magenta_glazed_terracotta
@@ -579,6 +626,7 @@ advancements:
 - minecraft:recipes/decorations/orange_banner
 - minecraft:recipes/decorations/orange_bed
 - minecraft:recipes/decorations/orange_bed_from_white_bed
+- minecraft:recipes/decorations/orange_candle
 - minecraft:recipes/decorations/orange_carpet
 - minecraft:recipes/decorations/orange_carpet_from_white_carpet
 - minecraft:recipes/decorations/orange_glazed_terracotta
@@ -588,6 +636,7 @@ advancements:
 - minecraft:recipes/decorations/pink_banner
 - minecraft:recipes/decorations/pink_bed
 - minecraft:recipes/decorations/pink_bed_from_white_bed
+- minecraft:recipes/decorations/pink_candle
 - minecraft:recipes/decorations/pink_carpet
 - minecraft:recipes/decorations/pink_carpet_from_white_carpet
 - minecraft:recipes/decorations/pink_glazed_terracotta
@@ -605,6 +654,7 @@ advancements:
 - minecraft:recipes/decorations/purple_banner
 - minecraft:recipes/decorations/purple_bed
 - minecraft:recipes/decorations/purple_bed_from_white_bed
+- minecraft:recipes/decorations/purple_candle
 - minecraft:recipes/decorations/purple_carpet
 - minecraft:recipes/decorations/purple_carpet_from_white_carpet
 - minecraft:recipes/decorations/purple_glazed_terracotta
@@ -613,6 +663,7 @@ advancements:
 - minecraft:recipes/decorations/red_banner
 - minecraft:recipes/decorations/red_bed
 - minecraft:recipes/decorations/red_bed_from_white_bed
+- minecraft:recipes/decorations/red_candle
 - minecraft:recipes/decorations/red_carpet
 - minecraft:recipes/decorations/red_carpet_from_white_carpet
 - minecraft:recipes/decorations/red_glazed_terracotta
@@ -645,6 +696,7 @@ advancements:
 - minecraft:recipes/decorations/warped_sign
 - minecraft:recipes/decorations/white_banner
 - minecraft:recipes/decorations/white_bed
+- minecraft:recipes/decorations/white_candle
 - minecraft:recipes/decorations/white_carpet
 - minecraft:recipes/decorations/white_glazed_terracotta
 - minecraft:recipes/decorations/white_stained_glass_pane
@@ -652,6 +704,7 @@ advancements:
 - minecraft:recipes/decorations/yellow_banner
 - minecraft:recipes/decorations/yellow_bed
 - minecraft:recipes/decorations/yellow_bed_from_white_bed
+- minecraft:recipes/decorations/yellow_candle
 - minecraft:recipes/decorations/yellow_carpet
 - minecraft:recipes/decorations/yellow_carpet_from_white_carpet
 - minecraft:recipes/decorations/yellow_glazed_terracotta
@@ -712,6 +765,9 @@ advancements:
 - minecraft:recipes/misc/coal_from_blasting
 - minecraft:recipes/misc/coal_from_smelting
 - minecraft:recipes/misc/conduit
+- minecraft:recipes/misc/copper_ingot
+- minecraft:recipes/misc/copper_ingot_from_blasting
+- minecraft:recipes/misc/copper_ingot_from_copper_block
 - minecraft:recipes/misc/creeper_banner_pattern
 - minecraft:recipes/misc/cyan_dye
 - minecraft:recipes/misc/diamond
@@ -721,6 +777,7 @@ advancements:
 - minecraft:recipes/misc/emerald_from_blasting
 - minecraft:recipes/misc/emerald_from_smelting
 - minecraft:recipes/misc/ender_eye
+- minecraft:recipes/misc/firework_rocket_simple
 - minecraft:recipes/misc/fire_charge
 - minecraft:recipes/misc/flower_banner_pattern
 - minecraft:recipes/misc/gold_ingot
@@ -828,6 +885,7 @@ advancements:
 - minecraft:recipes/redstone/jungle_trapdoor
 - minecraft:recipes/redstone/lectern
 - minecraft:recipes/redstone/lever
+- minecraft:recipes/redstone/lightning_rod
 - minecraft:recipes/redstone/light_weighted_pressure_plate
 - minecraft:recipes/redstone/note_block
 - minecraft:recipes/redstone/oak_button
@@ -863,6 +921,7 @@ advancements:
 - minecraft:recipes/redstone/warped_fence_gate
 - minecraft:recipes/redstone/warped_pressure_plate
 - minecraft:recipes/redstone/warped_trapdoor
+- minecraft:recipes/tools/bundle
 - minecraft:recipes/tools/clock
 - minecraft:recipes/tools/compass
 - minecraft:recipes/tools/diamond_axe
@@ -885,6 +944,7 @@ advancements:
 - minecraft:recipes/tools/netherite_pickaxe_smithing
 - minecraft:recipes/tools/netherite_shovel_smithing
 - minecraft:recipes/tools/shears
+- minecraft:recipes/tools/spyglass
 - minecraft:recipes/tools/stone_axe
 - minecraft:recipes/tools/stone_hoe
 - minecraft:recipes/tools/stone_pickaxe
@@ -943,6 +1003,8 @@ loot_tables:
 - minecraft:blocks/acacia_wood
 - minecraft:blocks/activator_rail
 - minecraft:blocks/allium
+- minecraft:blocks/amethyst_block
+- minecraft:blocks/amethyst_cluster
 - minecraft:blocks/ancient_debris
 - minecraft:blocks/andesite
 - minecraft:blocks/andesite_slab
@@ -981,6 +1043,8 @@ loot_tables:
 - minecraft:blocks/blackstone_wall
 - minecraft:blocks/black_banner
 - minecraft:blocks/black_bed
+- minecraft:blocks/black_candle
+- minecraft:blocks/black_candle_cake
 - minecraft:blocks/black_carpet
 - minecraft:blocks/black_concrete
 - minecraft:blocks/black_concrete_powder
@@ -993,6 +1057,8 @@ loot_tables:
 - minecraft:blocks/blast_furnace
 - minecraft:blocks/blue_banner
 - minecraft:blocks/blue_bed
+- minecraft:blocks/blue_candle
+- minecraft:blocks/blue_candle_cake
 - minecraft:blocks/blue_carpet
 - minecraft:blocks/blue_concrete
 - minecraft:blocks/blue_concrete_powder
@@ -1016,6 +1082,8 @@ loot_tables:
 - minecraft:blocks/brick_wall
 - minecraft:blocks/brown_banner
 - minecraft:blocks/brown_bed
+- minecraft:blocks/brown_candle
+- minecraft:blocks/brown_candle_cake
 - minecraft:blocks/brown_carpet
 - minecraft:blocks/brown_concrete
 - minecraft:blocks/brown_concrete_powder
@@ -1030,9 +1098,13 @@ loot_tables:
 - minecraft:blocks/bubble_coral
 - minecraft:blocks/bubble_coral_block
 - minecraft:blocks/bubble_coral_fan
+- minecraft:blocks/budding_amethyst
 - minecraft:blocks/cactus
 - minecraft:blocks/cake
+- minecraft:blocks/calcite
 - minecraft:blocks/campfire
+- minecraft:blocks/candle
+- minecraft:blocks/candle_cake
 - minecraft:blocks/carrots
 - minecraft:blocks/cartography_table
 - minecraft:blocks/carved_pumpkin
@@ -1061,6 +1133,8 @@ loot_tables:
 - minecraft:blocks/comparator
 - minecraft:blocks/composter
 - minecraft:blocks/conduit
+- minecraft:blocks/copper_block
+- minecraft:blocks/copper_ore
 - minecraft:blocks/cornflower
 - minecraft:blocks/cracked_nether_bricks
 - minecraft:blocks/cracked_polished_blackstone_bricks
@@ -1083,12 +1157,17 @@ loot_tables:
 - minecraft:blocks/crimson_stem
 - minecraft:blocks/crimson_trapdoor
 - minecraft:blocks/crying_obsidian
+- minecraft:blocks/cut_copper
+- minecraft:blocks/cut_copper_slab
+- minecraft:blocks/cut_copper_stairs
 - minecraft:blocks/cut_red_sandstone
 - minecraft:blocks/cut_red_sandstone_slab
 - minecraft:blocks/cut_sandstone
 - minecraft:blocks/cut_sandstone_slab
 - minecraft:blocks/cyan_banner
 - minecraft:blocks/cyan_bed
+- minecraft:blocks/cyan_candle
+- minecraft:blocks/cyan_candle_cake
 - minecraft:blocks/cyan_carpet
 - minecraft:blocks/cyan_concrete
 - minecraft:blocks/cyan_concrete_powder
@@ -1142,6 +1221,7 @@ loot_tables:
 - minecraft:blocks/diorite_stairs
 - minecraft:blocks/diorite_wall
 - minecraft:blocks/dirt
+- minecraft:blocks/dirt_path
 - minecraft:blocks/dispenser
 - minecraft:blocks/dragon_egg
 - minecraft:blocks/dragon_head
@@ -1179,10 +1259,11 @@ loot_tables:
 - minecraft:blocks/granite_wall
 - minecraft:blocks/grass
 - minecraft:blocks/grass_block
-- minecraft:blocks/grass_path
 - minecraft:blocks/gravel
 - minecraft:blocks/gray_banner
 - minecraft:blocks/gray_bed
+- minecraft:blocks/gray_candle
+- minecraft:blocks/gray_candle_cake
 - minecraft:blocks/gray_carpet
 - minecraft:blocks/gray_concrete
 - minecraft:blocks/gray_concrete_powder
@@ -1194,6 +1275,8 @@ loot_tables:
 - minecraft:blocks/gray_wool
 - minecraft:blocks/green_banner
 - minecraft:blocks/green_bed
+- minecraft:blocks/green_candle
+- minecraft:blocks/green_candle_cake
 - minecraft:blocks/green_carpet
 - minecraft:blocks/green_concrete
 - minecraft:blocks/green_concrete_powder
@@ -1246,11 +1329,20 @@ loot_tables:
 - minecraft:blocks/lantern
 - minecraft:blocks/lapis_block
 - minecraft:blocks/lapis_ore
+- minecraft:blocks/large_amethyst_bud
 - minecraft:blocks/large_fern
+- minecraft:blocks/lava_cauldron
 - minecraft:blocks/lectern
 - minecraft:blocks/lever
+- minecraft:blocks/lightly_weathered_copper_block
+- minecraft:blocks/lightly_weathered_cut_copper
+- minecraft:blocks/lightly_weathered_cut_copper_slab
+- minecraft:blocks/lightly_weathered_cut_copper_stairs
+- minecraft:blocks/lightning_rod
 - minecraft:blocks/light_blue_banner
 - minecraft:blocks/light_blue_bed
+- minecraft:blocks/light_blue_candle
+- minecraft:blocks/light_blue_candle_cake
 - minecraft:blocks/light_blue_carpet
 - minecraft:blocks/light_blue_concrete
 - minecraft:blocks/light_blue_concrete_powder
@@ -1262,6 +1354,8 @@ loot_tables:
 - minecraft:blocks/light_blue_wool
 - minecraft:blocks/light_gray_banner
 - minecraft:blocks/light_gray_bed
+- minecraft:blocks/light_gray_candle
+- minecraft:blocks/light_gray_candle_cake
 - minecraft:blocks/light_gray_carpet
 - minecraft:blocks/light_gray_concrete
 - minecraft:blocks/light_gray_concrete_powder
@@ -1277,6 +1371,8 @@ loot_tables:
 - minecraft:blocks/lily_pad
 - minecraft:blocks/lime_banner
 - minecraft:blocks/lime_bed
+- minecraft:blocks/lime_candle
+- minecraft:blocks/lime_candle_cake
 - minecraft:blocks/lime_carpet
 - minecraft:blocks/lime_concrete
 - minecraft:blocks/lime_concrete_powder
@@ -1290,6 +1386,8 @@ loot_tables:
 - minecraft:blocks/loom
 - minecraft:blocks/magenta_banner
 - minecraft:blocks/magenta_bed
+- minecraft:blocks/magenta_candle
+- minecraft:blocks/magenta_candle_cake
 - minecraft:blocks/magenta_carpet
 - minecraft:blocks/magenta_concrete
 - minecraft:blocks/magenta_concrete_powder
@@ -1300,6 +1398,7 @@ loot_tables:
 - minecraft:blocks/magenta_terracotta
 - minecraft:blocks/magenta_wool
 - minecraft:blocks/magma_block
+- minecraft:blocks/medium_amethyst_bud
 - minecraft:blocks/melon
 - minecraft:blocks/melon_stem
 - minecraft:blocks/mossy_cobblestone
@@ -1344,6 +1443,8 @@ loot_tables:
 - minecraft:blocks/obsidian
 - minecraft:blocks/orange_banner
 - minecraft:blocks/orange_bed
+- minecraft:blocks/orange_candle
+- minecraft:blocks/orange_candle_cake
 - minecraft:blocks/orange_carpet
 - minecraft:blocks/orange_concrete
 - minecraft:blocks/orange_concrete_powder
@@ -1360,6 +1461,8 @@ loot_tables:
 - minecraft:blocks/petrified_oak_slab
 - minecraft:blocks/pink_banner
 - minecraft:blocks/pink_bed
+- minecraft:blocks/pink_candle
+- minecraft:blocks/pink_candle_cake
 - minecraft:blocks/pink_carpet
 - minecraft:blocks/pink_concrete
 - minecraft:blocks/pink_concrete_powder
@@ -1436,6 +1539,8 @@ loot_tables:
 - minecraft:blocks/pumpkin_stem
 - minecraft:blocks/purple_banner
 - minecraft:blocks/purple_bed
+- minecraft:blocks/purple_candle
+- minecraft:blocks/purple_candle_cake
 - minecraft:blocks/purple_carpet
 - minecraft:blocks/purple_concrete
 - minecraft:blocks/purple_concrete_powder
@@ -1462,6 +1567,8 @@ loot_tables:
 - minecraft:blocks/redstone_wire
 - minecraft:blocks/red_banner
 - minecraft:blocks/red_bed
+- minecraft:blocks/red_candle
+- minecraft:blocks/red_candle_cake
 - minecraft:blocks/red_carpet
 - minecraft:blocks/red_concrete
 - minecraft:blocks/red_concrete_powder
@@ -1495,10 +1602,15 @@ loot_tables:
 - minecraft:blocks/seagrass
 - minecraft:blocks/sea_lantern
 - minecraft:blocks/sea_pickle
+- minecraft:blocks/semi_weathered_copper_block
+- minecraft:blocks/semi_weathered_cut_copper
+- minecraft:blocks/semi_weathered_cut_copper_slab
+- minecraft:blocks/semi_weathered_cut_copper_stairs
 - minecraft:blocks/shroomlight
 - minecraft:blocks/shulker_box
 - minecraft:blocks/skeleton_skull
 - minecraft:blocks/slime_block
+- minecraft:blocks/small_amethyst_bud
 - minecraft:blocks/smithing_table
 - minecraft:blocks/smoker
 - minecraft:blocks/smooth_quartz
@@ -1570,6 +1682,7 @@ loot_tables:
 - minecraft:blocks/tall_seagrass
 - minecraft:blocks/target
 - minecraft:blocks/terracotta
+- minecraft:blocks/tinted_glass
 - minecraft:blocks/tnt
 - minecraft:blocks/torch
 - minecraft:blocks/trapped_chest
@@ -1578,6 +1691,7 @@ loot_tables:
 - minecraft:blocks/tube_coral
 - minecraft:blocks/tube_coral_block
 - minecraft:blocks/tube_coral_fan
+- minecraft:blocks/tuff
 - minecraft:blocks/turtle_egg
 - minecraft:blocks/twisting_vines
 - minecraft:blocks/twisting_vines_plant
@@ -1598,12 +1712,31 @@ loot_tables:
 - minecraft:blocks/warped_stem
 - minecraft:blocks/warped_trapdoor
 - minecraft:blocks/warped_wart_block
+- minecraft:blocks/water_cauldron
+- minecraft:blocks/waxed_copper
+- minecraft:blocks/waxed_cut_copper
+- minecraft:blocks/waxed_cut_copper_slab
+- minecraft:blocks/waxed_cut_copper_stairs
+- minecraft:blocks/waxed_lightly_weathered_copper
+- minecraft:blocks/waxed_lightly_weathered_cut_copper
+- minecraft:blocks/waxed_lightly_weathered_cut_copper_slab
+- minecraft:blocks/waxed_lightly_weathered_cut_copper_stairs
+- minecraft:blocks/waxed_semi_weathered_copper
+- minecraft:blocks/waxed_semi_weathered_cut_copper
+- minecraft:blocks/waxed_semi_weathered_cut_copper_slab
+- minecraft:blocks/waxed_semi_weathered_cut_copper_stairs
+- minecraft:blocks/weathered_copper_block
+- minecraft:blocks/weathered_cut_copper
+- minecraft:blocks/weathered_cut_copper_slab
+- minecraft:blocks/weathered_cut_copper_stairs
 - minecraft:blocks/weeping_vines
 - minecraft:blocks/weeping_vines_plant
 - minecraft:blocks/wet_sponge
 - minecraft:blocks/wheat
 - minecraft:blocks/white_banner
 - minecraft:blocks/white_bed
+- minecraft:blocks/white_candle
+- minecraft:blocks/white_candle_cake
 - minecraft:blocks/white_carpet
 - minecraft:blocks/white_concrete
 - minecraft:blocks/white_concrete_powder
@@ -1618,6 +1751,8 @@ loot_tables:
 - minecraft:blocks/wither_skeleton_skull
 - minecraft:blocks/yellow_banner
 - minecraft:blocks/yellow_bed
+- minecraft:blocks/yellow_candle
+- minecraft:blocks/yellow_candle_cake
 - minecraft:blocks/yellow_carpet
 - minecraft:blocks/yellow_concrete
 - minecraft:blocks/yellow_concrete_powder
@@ -1790,6 +1925,7 @@ recipes:
 - minecraft:acacia_trapdoor
 - minecraft:acacia_wood
 - minecraft:activator_rail
+- minecraft:amethyst_block
 - minecraft:andesite
 - minecraft:andesite_slab
 - minecraft:andesite_slab_from_andesite_stonecutting
@@ -1830,6 +1966,7 @@ recipes:
 - minecraft:black_banner
 - minecraft:black_bed
 - minecraft:black_bed_from_white_bed
+- minecraft:black_candle
 - minecraft:black_carpet
 - minecraft:black_carpet_from_white_carpet
 - minecraft:black_concrete_powder
@@ -1846,6 +1983,7 @@ recipes:
 - minecraft:blue_banner
 - minecraft:blue_bed
 - minecraft:blue_bed_from_white_bed
+- minecraft:blue_candle
 - minecraft:blue_carpet
 - minecraft:blue_carpet_from_white_carpet
 - minecraft:blue_concrete_powder
@@ -1879,6 +2017,7 @@ recipes:
 - minecraft:brown_banner
 - minecraft:brown_bed
 - minecraft:brown_bed_from_white_bed
+- minecraft:brown_candle
 - minecraft:brown_carpet
 - minecraft:brown_carpet_from_white_carpet
 - minecraft:brown_concrete_powder
@@ -1890,8 +2029,10 @@ recipes:
 - minecraft:brown_terracotta
 - minecraft:brown_wool
 - minecraft:bucket
+- minecraft:bundle
 - minecraft:cake
 - minecraft:campfire
+- minecraft:candle
 - minecraft:carrot_on_a_stick
 - minecraft:cartography_table
 - minecraft:cauldron
@@ -1952,6 +2093,10 @@ recipes:
 - minecraft:cooked_salmon_from_campfire_cooking
 - minecraft:cooked_salmon_from_smoking
 - minecraft:cookie
+- minecraft:copper_block
+- minecraft:copper_ingot
+- minecraft:copper_ingot_from_blasting
+- minecraft:copper_ingot_from_copper_block
 - minecraft:cracked_nether_bricks
 - minecraft:cracked_polished_blackstone_bricks
 - minecraft:cracked_stone_bricks
@@ -1969,6 +2114,9 @@ recipes:
 - minecraft:crimson_stairs
 - minecraft:crimson_trapdoor
 - minecraft:crossbow
+- minecraft:cut_copper
+- minecraft:cut_copper_slab
+- minecraft:cut_copper_stairs
 - minecraft:cut_red_sandstone
 - minecraft:cut_red_sandstone_from_red_sandstone_stonecutting
 - minecraft:cut_red_sandstone_slab
@@ -1982,6 +2130,7 @@ recipes:
 - minecraft:cyan_banner
 - minecraft:cyan_bed
 - minecraft:cyan_bed_from_white_bed
+- minecraft:cyan_candle
 - minecraft:cyan_carpet
 - minecraft:cyan_carpet_from_white_carpet
 - minecraft:cyan_concrete_powder
@@ -2060,6 +2209,7 @@ recipes:
 - minecraft:end_stone_brick_wall_from_end_stone_stonecutting
 - minecraft:fermented_spider_eye
 - minecraft:firework_rocket
+- minecraft:firework_rocket_simple
 - minecraft:firework_star
 - minecraft:firework_star_fade
 - minecraft:fire_charge
@@ -2104,6 +2254,7 @@ recipes:
 - minecraft:gray_banner
 - minecraft:gray_bed
 - minecraft:gray_bed_from_white_bed
+- minecraft:gray_candle
 - minecraft:gray_carpet
 - minecraft:gray_carpet_from_white_carpet
 - minecraft:gray_concrete_powder
@@ -2117,6 +2268,7 @@ recipes:
 - minecraft:green_banner
 - minecraft:green_bed
 - minecraft:green_bed_from_white_bed
+- minecraft:green_candle
 - minecraft:green_carpet
 - minecraft:green_carpet_from_white_carpet
 - minecraft:green_concrete_powder
@@ -2185,9 +2337,14 @@ recipes:
 - minecraft:leather_leggings
 - minecraft:lectern
 - minecraft:lever
+- minecraft:lightly_weathered_cut_copper
+- minecraft:lightly_weathered_cut_copper_slab
+- minecraft:lightly_weathered_cut_copper_stairs
+- minecraft:lightning_rod
 - minecraft:light_blue_banner
 - minecraft:light_blue_bed
 - minecraft:light_blue_bed_from_white_bed
+- minecraft:light_blue_candle
 - minecraft:light_blue_carpet
 - minecraft:light_blue_carpet_from_white_carpet
 - minecraft:light_blue_concrete_powder
@@ -2202,6 +2359,7 @@ recipes:
 - minecraft:light_gray_banner
 - minecraft:light_gray_bed
 - minecraft:light_gray_bed_from_white_bed
+- minecraft:light_gray_candle
 - minecraft:light_gray_carpet
 - minecraft:light_gray_carpet_from_white_carpet
 - minecraft:light_gray_concrete_powder
@@ -2220,6 +2378,7 @@ recipes:
 - minecraft:lime_banner
 - minecraft:lime_bed
 - minecraft:lime_bed_from_white_bed
+- minecraft:lime_candle
 - minecraft:lime_carpet
 - minecraft:lime_carpet_from_white_carpet
 - minecraft:lime_concrete_powder
@@ -2236,6 +2395,7 @@ recipes:
 - minecraft:magenta_banner
 - minecraft:magenta_bed
 - minecraft:magenta_bed_from_white_bed
+- minecraft:magenta_candle
 - minecraft:magenta_carpet
 - minecraft:magenta_carpet_from_white_carpet
 - minecraft:magenta_concrete_powder
@@ -2315,6 +2475,7 @@ recipes:
 - minecraft:orange_banner
 - minecraft:orange_bed
 - minecraft:orange_bed_from_white_bed
+- minecraft:orange_candle
 - minecraft:orange_carpet
 - minecraft:orange_carpet_from_white_carpet
 - minecraft:orange_concrete_powder
@@ -2332,6 +2493,7 @@ recipes:
 - minecraft:pink_banner
 - minecraft:pink_bed
 - minecraft:pink_bed_from_white_bed
+- minecraft:pink_candle
 - minecraft:pink_carpet
 - minecraft:pink_carpet_from_white_carpet
 - minecraft:pink_concrete_powder
@@ -2418,6 +2580,7 @@ recipes:
 - minecraft:purple_banner
 - minecraft:purple_bed
 - minecraft:purple_bed_from_white_bed
+- minecraft:purple_candle
 - minecraft:purple_carpet
 - minecraft:purple_carpet_from_white_carpet
 - minecraft:purple_concrete_powder
@@ -2458,6 +2621,7 @@ recipes:
 - minecraft:red_banner
 - minecraft:red_bed
 - minecraft:red_bed_from_white_bed
+- minecraft:red_candle
 - minecraft:red_carpet
 - minecraft:red_carpet_from_white_carpet
 - minecraft:red_concrete_powder
@@ -2497,6 +2661,9 @@ recipes:
 - minecraft:sandstone_wall_from_sandstone_stonecutting
 - minecraft:scaffolding
 - minecraft:sea_lantern
+- minecraft:semi_weathered_cut_copper
+- minecraft:semi_weathered_cut_copper_slab
+- minecraft:semi_weathered_cut_copper_stairs
 - minecraft:shears
 - minecraft:shield
 - minecraft:shield_decoration
@@ -2544,6 +2711,7 @@ recipes:
 - minecraft:spruce_stairs
 - minecraft:spruce_trapdoor
 - minecraft:spruce_wood
+- minecraft:spyglass
 - minecraft:stick
 - minecraft:sticky_piston
 - minecraft:stick_from_bamboo_item
@@ -2584,6 +2752,7 @@ recipes:
 - minecraft:suspicious_stew
 - minecraft:target
 - minecraft:terracotta
+- minecraft:tinted_glass
 - minecraft:tipped_arrow
 - minecraft:tnt
 - minecraft:tnt_minecart
@@ -2603,9 +2772,34 @@ recipes:
 - minecraft:warped_slab
 - minecraft:warped_stairs
 - minecraft:warped_trapdoor
+- minecraft:waxed_copper
+- minecraft:waxed_copper_cut_slab_from_honeycomb
+- minecraft:waxed_copper_cut_stairs_from_honeycomb
+- minecraft:waxed_cut_copper_from_honeycomb
+- minecraft:waxed_cut_copper_from_waxed_block
+- minecraft:waxed_cut_copper_slab_from_waxed_block
+- minecraft:waxed_cut_copper_stairs_from_waxed_block
+- minecraft:waxed_lightly_weathered_copper
+- minecraft:waxed_lightly_weathered_cut_copper_from_honeycomb
+- minecraft:waxed_lightly_weathered_cut_copper_from_waxed_block
+- minecraft:waxed_lightly_weathered_cut_copper_slab_from_honeycomb
+- minecraft:waxed_lightly_weathered_cut_copper_slab_from_waxed_block
+- minecraft:waxed_lightly_weathered_cut_copper_stairs_from_honeycomb
+- minecraft:waxed_lightly_weathered_cut_copper_stairs_from_waxed_block
+- minecraft:waxed_semi_weathered_copper
+- minecraft:waxed_semi_weathered_cut_copper_from_honeycomb
+- minecraft:waxed_semi_weathered_cut_copper_from_waxed_block
+- minecraft:waxed_semi_weathered_cut_copper_slab_from_honeycomb
+- minecraft:waxed_semi_weathered_cut_copper_slab_from_waxed_block
+- minecraft:waxed_semi_weathered_cut_copper_stairs_from_honeycomb
+- minecraft:waxed_semi_weathered_cut_copper_stairs_from_waxed_block
+- minecraft:weathered_cut_copper
+- minecraft:weathered_cut_copper_slab
+- minecraft:weathered_cut_copper_stairs
 - minecraft:wheat
 - minecraft:white_banner
 - minecraft:white_bed
+- minecraft:white_candle
 - minecraft:white_carpet
 - minecraft:white_concrete_powder
 - minecraft:white_dye
@@ -2625,6 +2819,7 @@ recipes:
 - minecraft:yellow_banner
 - minecraft:yellow_bed
 - minecraft:yellow_bed_from_white_bed
+- minecraft:yellow_candle
 - minecraft:yellow_carpet
 - minecraft:yellow_carpet_from_white_carpet
 - minecraft:yellow_concrete_powder
@@ -2651,13 +2846,17 @@ tags:
   - minecraft:birch_logs
   - minecraft:buttons
   - minecraft:campfires
+  - minecraft:candles
+  - minecraft:candle_cakes
   - minecraft:carpets
+  - minecraft:cauldrons
   - minecraft:climbable
   - minecraft:corals
   - minecraft:coral_blocks
   - minecraft:coral_plants
   - minecraft:crimson_stems
   - minecraft:crops
+  - minecraft:crystal_sound_blocks
   - minecraft:dark_oak_logs
   - minecraft:doors
   - minecraft:dragon_immune
@@ -2743,6 +2942,7 @@ tags:
   - minecraft:birch_logs
   - minecraft:boats
   - minecraft:buttons
+  - minecraft:candles
   - minecraft:carpets
   - minecraft:coals
   - minecraft:creeper_drop_music_discs
@@ -2753,6 +2953,7 @@ tags:
   - minecraft:fishes
   - minecraft:flowers
   - minecraft:gold_ores
+  - minecraft:ignored_by_piglin_babies
   - minecraft:jungle_logs
   - minecraft:leaves
   - minecraft:lectern_books
@@ -2761,6 +2962,7 @@ tags:
   - minecraft:music_discs
   - minecraft:non_flammable_wood
   - minecraft:oak_logs
+  - minecraft:piglin_food
   - minecraft:piglin_loved
   - minecraft:piglin_repellents
   - minecraft:planks

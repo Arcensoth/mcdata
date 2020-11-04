@@ -8,6 +8,7 @@ values:
 - minecraft:birch_logs
 - minecraft:boats
 - minecraft:buttons
+- minecraft:candles
 - minecraft:carpets
 - minecraft:coals
 - minecraft:creeper_drop_music_discs
@@ -18,6 +19,7 @@ values:
 - minecraft:fishes
 - minecraft:flowers
 - minecraft:gold_ores
+- minecraft:ignored_by_piglin_babies
 - minecraft:jungle_logs
 - minecraft:leaves
 - minecraft:lectern_books
@@ -26,6 +28,7 @@ values:
 - minecraft:music_discs
 - minecraft:non_flammable_wood
 - minecraft:oak_logs
+- minecraft:piglin_food
 - minecraft:piglin_loved
 - minecraft:piglin_repellents
 - minecraft:planks

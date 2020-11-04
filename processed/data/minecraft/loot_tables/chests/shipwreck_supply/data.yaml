@@ -54,23 +54,23 @@ pools:
       - duration:
           max: 10.0
           min: 7.0
-        type: minecraft:jump_boost
+        type: minecraft:saturation
       - duration:
           max: 10.0
           min: 7.0
-        type: minecraft:night_vision
+        type: minecraft:jump_boost
       - duration:
           max: 7.0
           min: 5.0
         type: minecraft:blindness
       - duration:
-          max: 10.0
-          min: 7.0
-        type: minecraft:saturation
-      - duration:
           max: 8.0
           min: 6.0
         type: minecraft:weakness
+      - duration:
+          max: 10.0
+          min: 7.0
+        type: minecraft:night_vision
       function: minecraft:set_stew_effect
     name: minecraft:suspicious_stew
     type: minecraft:item

@@ -12,13 +12,17 @@ values:
 - minecraft:birch_logs
 - minecraft:buttons
 - minecraft:campfires
+- minecraft:candles
+- minecraft:candle_cakes
 - minecraft:carpets
+- minecraft:cauldrons
 - minecraft:climbable
 - minecraft:corals
 - minecraft:coral_blocks
 - minecraft:coral_plants
 - minecraft:crimson_stems
 - minecraft:crops
+- minecraft:crystal_sound_blocks
 - minecraft:dark_oak_logs
 - minecraft:doors
 - minecraft:dragon_immune
