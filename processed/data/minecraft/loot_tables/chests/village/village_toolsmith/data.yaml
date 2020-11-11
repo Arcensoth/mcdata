@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -9,7 +11,8 @@ pools:
     name: minecraft:diamond
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -18,7 +21,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -26,7 +30,8 @@ pools:
     name: minecraft:gold_ingot
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -38,7 +43,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -46,7 +52,8 @@ pools:
     name: minecraft:coal
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform

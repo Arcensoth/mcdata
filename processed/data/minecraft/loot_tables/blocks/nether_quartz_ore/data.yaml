@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - condition: minecraft:match_tool
@@ -18,5 +19,5 @@ pools:
       name: minecraft:quartz
       type: minecraft:item
     type: minecraft:alternatives
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

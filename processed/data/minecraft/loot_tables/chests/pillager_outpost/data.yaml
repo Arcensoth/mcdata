@@ -1,14 +1,17 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:crossbow
     type: minecraft:item
   rolls:
     max: 1.0
     min: 0.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 3.0
         type: minecraft:uniform
@@ -17,7 +20,8 @@ pools:
     type: minecraft:item
     weight: 7
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 2.0
         type: minecraft:uniform
@@ -26,7 +30,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 3.0
         type: minecraft:uniform
@@ -38,9 +43,11 @@ pools:
     max: 3.0
     min: 2.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 2.0
         type: minecraft:uniform
@@ -51,12 +58,14 @@ pools:
     max: 3.0
     min: 1.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:experience_bottle
     type: minecraft:item
     weight: 7
   - functions:
-    - count:
+    - add: false
+      count:
         max: 6.0
         min: 1.0
         type: minecraft:uniform
@@ -65,7 +74,8 @@ pools:
     type: minecraft:item
     weight: 4
   - functions:
-    - count:
+    - add: false
+      count:
         max: 7.0
         min: 2.0
         type: minecraft:uniform
@@ -74,7 +84,8 @@ pools:
     type: minecraft:item
     weight: 4
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -83,7 +94,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform

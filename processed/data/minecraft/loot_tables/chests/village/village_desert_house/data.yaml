@@ -1,11 +1,13 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:clay_ball
     type: minecraft:item
   - name: minecraft:green_dye
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -14,7 +16,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 7.0
         min: 1.0
         type: minecraft:uniform
@@ -23,7 +26,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -34,7 +38,8 @@ pools:
   - name: minecraft:book
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -43,7 +48,8 @@ pools:
     type: minecraft:item
     weight: 2
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform

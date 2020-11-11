@@ -1,51 +1,62 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - damage:
+    - add: false
+      damage:
         max: 0.8
         min: 0.15
+        type: minecraft:uniform
       function: minecraft:set_damage
     - function: minecraft:enchant_randomly
     name: minecraft:diamond_shovel
     type: minecraft:item
     weight: 15
   - functions:
-    - damage:
+    - add: false
+      damage:
         max: 0.95
         min: 0.15
+        type: minecraft:uniform
       function: minecraft:set_damage
-    - count: 1
+    - add: false
+      count: 1.0
       function: minecraft:set_count
     - function: minecraft:enchant_randomly
     name: minecraft:diamond_pickaxe
     type: minecraft:item
     weight: 12
   - functions:
-    - count: 1
+    - add: false
+      count: 1.0
       function: minecraft:set_count
     name: minecraft:netherite_scrap
     type: minecraft:item
     weight: 8
   - functions:
-    - count: 1
+    - add: false
+      count: 1.0
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
     weight: 12
   - functions:
-    - count: 2
+    - add: false
+      count: 2.0
       function: minecraft:set_count
     name: minecraft:ancient_debris
     type: minecraft:item
     weight: 5
   - functions:
-    - count: 1
+    - add: false
+      count: 1.0
       function: minecraft:set_count
     name: minecraft:saddle
     type: minecraft:item
     weight: 12
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -54,7 +65,8 @@ pools:
     type: minecraft:item
     weight: 16
   - functions:
-    - count:
+    - add: false
+      count:
         max: 17.0
         min: 8.0
         type: minecraft:uniform
@@ -63,21 +75,25 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count: 1
+    - add: false
+      count: 1.0
       function: minecraft:set_count
     name: minecraft:golden_apple
     type: minecraft:item
     weight: 10
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count: 1
+    - add: false
+      count: 1.0
       function: minecraft:set_count
     - function: minecraft:enchant_randomly
     name: minecraft:golden_axe
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -85,7 +101,8 @@ pools:
     name: minecraft:crying_obsidian
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 6.0
         min: 3.0
         type: minecraft:uniform
@@ -93,7 +110,8 @@ pools:
     name: minecraft:glowstone
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 2.0
         type: minecraft:uniform
@@ -101,7 +119,8 @@ pools:
     name: minecraft:gilded_blackstone
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 7.0
         min: 2.0
         type: minecraft:uniform
@@ -109,7 +128,8 @@ pools:
     name: minecraft:soul_sand
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 7.0
         min: 2.0
         type: minecraft:uniform
@@ -117,7 +137,8 @@ pools:
     name: minecraft:crimson_nylium
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 2.0
         type: minecraft:uniform
@@ -125,7 +146,8 @@ pools:
     name: minecraft:gold_nugget
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -133,7 +155,8 @@ pools:
     name: minecraft:leather
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 17.0
         min: 5.0
         type: minecraft:uniform
@@ -141,7 +164,8 @@ pools:
     name: minecraft:arrow
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 3.0
         type: minecraft:uniform
@@ -149,7 +173,8 @@ pools:
     name: minecraft:string
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 2.0
         type: minecraft:uniform
@@ -157,7 +182,8 @@ pools:
     name: minecraft:porkchop
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 2.0
         type: minecraft:uniform
@@ -165,7 +191,8 @@ pools:
     name: minecraft:cooked_porkchop
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 7.0
         min: 2.0
         type: minecraft:uniform
@@ -173,7 +200,8 @@ pools:
     name: minecraft:crimson_fungus
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 7.0
         min: 2.0
         type: minecraft:uniform

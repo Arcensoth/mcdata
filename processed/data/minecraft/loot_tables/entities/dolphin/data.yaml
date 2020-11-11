@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 1.0
         min: 0.0
         type: minecraft:uniform
@@ -9,6 +11,7 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     - conditions:
       - condition: minecraft:entity_properties
@@ -19,5 +22,5 @@ pools:
       function: minecraft:furnace_smelt
     name: minecraft:cod
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity

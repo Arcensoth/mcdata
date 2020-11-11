@@ -1,7 +1,8 @@
 functions:
 - function: minecraft:explosion_decay
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:sweet_berry_bush
     condition: minecraft:block_state_property
     properties:
@@ -10,7 +11,8 @@ pools:
   - name: minecraft:sweet_berries
     type: minecraft:item
   functions:
-  - count:
+  - add: false
+    count:
       max: 3.0
       min: 2.0
       type: minecraft:uniform
@@ -21,7 +23,8 @@ pools:
     parameters:
       bonusMultiplier: 1
   rolls: 1.0
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:sweet_berry_bush
     condition: minecraft:block_state_property
     properties:
@@ -30,7 +33,8 @@ pools:
   - name: minecraft:sweet_berries
     type: minecraft:item
   functions:
-  - count:
+  - add: false
+    count:
       max: 2.0
       min: 1.0
       type: minecraft:uniform

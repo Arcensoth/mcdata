@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 1.0
         type: minecraft:uniform
@@ -10,7 +12,8 @@ pools:
     type: minecraft:item
     weight: 6
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -19,7 +22,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -28,7 +32,8 @@ pools:
     type: minecraft:item
     weight: 2
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -37,7 +42,8 @@ pools:
     type: minecraft:item
     weight: 2
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -50,7 +56,8 @@ pools:
   - name: minecraft:shears
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 6.0
         min: 1.0
         type: minecraft:uniform

@@ -1,10 +1,11 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:stone_axe
     type: minecraft:item
   - name: minecraft:golden_axe
     type: minecraft:item
   - name: minecraft:iron_axe
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:gift

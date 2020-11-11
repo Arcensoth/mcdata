@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:stone_pickaxe
     type: minecraft:item
   - name: minecraft:stone_axe
@@ -8,5 +9,5 @@ pools:
     type: minecraft:item
   - name: minecraft:stone_shovel
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:gift

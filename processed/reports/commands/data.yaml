@@ -3028,6 +3028,154 @@ children:
         type: argument
     executable: true
     type: literal
+  item:
+    children:
+      block:
+        children:
+          pos:
+            children:
+              slot:
+                children:
+                  copy:
+                    children:
+                      block:
+                        children:
+                          source:
+                            children:
+                              sourceSlot:
+                                children:
+                                  modifier:
+                                    executable: true
+                                    parser: minecraft:resource_location
+                                    type: argument
+                                executable: true
+                                parser: minecraft:item_slot
+                                type: argument
+                            parser: minecraft:block_pos
+                            type: argument
+                        type: literal
+                      entity:
+                        children:
+                          source:
+                            children:
+                              sourceSlot:
+                                children:
+                                  modifier:
+                                    executable: true
+                                    parser: minecraft:resource_location
+                                    type: argument
+                                executable: true
+                                parser: minecraft:item_slot
+                                type: argument
+                            parser: minecraft:entity
+                            properties:
+                              amount: single
+                              type: entities
+                            type: argument
+                        type: literal
+                    type: literal
+                  modify:
+                    children:
+                      modifier:
+                        executable: true
+                        parser: minecraft:resource_location
+                        type: argument
+                    type: literal
+                  replace:
+                    children:
+                      item:
+                        children:
+                          count:
+                            executable: true
+                            parser: brigadier:integer
+                            properties:
+                              max: 64
+                              min: 1
+                            type: argument
+                        executable: true
+                        parser: minecraft:item_stack
+                        type: argument
+                    type: literal
+                parser: minecraft:item_slot
+                type: argument
+            parser: minecraft:block_pos
+            type: argument
+        type: literal
+      entity:
+        children:
+          targets:
+            children:
+              slot:
+                children:
+                  copy:
+                    children:
+                      block:
+                        children:
+                          source:
+                            children:
+                              sourceSlot:
+                                children:
+                                  modifier:
+                                    executable: true
+                                    parser: minecraft:resource_location
+                                    type: argument
+                                executable: true
+                                parser: minecraft:item_slot
+                                type: argument
+                            parser: minecraft:block_pos
+                            type: argument
+                        type: literal
+                      entity:
+                        children:
+                          source:
+                            children:
+                              sourceSlot:
+                                children:
+                                  modifier:
+                                    executable: true
+                                    parser: minecraft:resource_location
+                                    type: argument
+                                executable: true
+                                parser: minecraft:item_slot
+                                type: argument
+                            parser: minecraft:entity
+                            properties:
+                              amount: single
+                              type: entities
+                            type: argument
+                        type: literal
+                    type: literal
+                  modify:
+                    children:
+                      modifier:
+                        executable: true
+                        parser: minecraft:resource_location
+                        type: argument
+                    type: literal
+                  replace:
+                    children:
+                      item:
+                        children:
+                          count:
+                            executable: true
+                            parser: brigadier:integer
+                            properties:
+                              max: 64
+                              min: 1
+                            type: argument
+                        executable: true
+                        parser: minecraft:item_stack
+                        type: argument
+                    type: literal
+                parser: minecraft:item_slot
+                type: argument
+            parser: minecraft:entity
+            properties:
+              amount: multiple
+              type: entities
+            type: argument
+        type: literal
+    type: literal
   kick:
     children:
       targets:
@@ -4126,58 +4274,6 @@ children:
     type: literal
   reload:
     executable: true
-    type: literal
-  replaceitem:
-    children:
-      block:
-        children:
-          pos:
-            children:
-              slot:
-                children:
-                  item:
-                    children:
-                      count:
-                        executable: true
-                        parser: brigadier:integer
-                        properties:
-                          max: 64
-                          min: 1
-                        type: argument
-                    executable: true
-                    parser: minecraft:item_stack
-                    type: argument
-                parser: minecraft:item_slot
-                type: argument
-            parser: minecraft:block_pos
-            type: argument
-        type: literal
-      entity:
-        children:
-          targets:
-            children:
-              slot:
-                children:
-                  item:
-                    children:
-                      count:
-                        executable: true
-                        parser: brigadier:integer
-                        properties:
-                          max: 64
-                          min: 1
-                        type: argument
-                    executable: true
-                    parser: minecraft:item_stack
-                    type: argument
-                parser: minecraft:item_slot
-                type: argument
-            parser: minecraft:entity
-            properties:
-              amount: multiple
-              type: entities
-            type: argument
-        type: literal
     type: literal
   save-all:
     children:

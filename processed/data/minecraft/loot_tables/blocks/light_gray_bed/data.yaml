@@ -1,5 +1,6 @@
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:survives_explosion
   entries:
   - conditions:
@@ -9,5 +10,5 @@ pools:
         part: head
     name: minecraft:light_gray_bed
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

@@ -1,11 +1,13 @@
 functions:
 - function: minecraft:explosion_decay
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:potato
     type: minecraft:item
   rolls: 1.0
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:potatoes
     condition: minecraft:block_state_property
     properties:
@@ -21,7 +23,8 @@ pools:
     name: minecraft:potato
     type: minecraft:item
   rolls: 1.0
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:potatoes
     condition: minecraft:block_state_property
     properties:

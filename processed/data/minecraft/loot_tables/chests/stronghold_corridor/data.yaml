@@ -1,10 +1,12 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:ender_pearl
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -13,7 +15,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -22,7 +25,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -31,7 +35,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 9.0
         min: 4.0
         type: minecraft:uniform
@@ -40,7 +45,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -49,7 +55,8 @@ pools:
     type: minecraft:item
     weight: 15
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -87,7 +94,7 @@ pools:
     type: minecraft:item
   - functions:
     - function: minecraft:enchant_with_levels
-      levels: 30
+      levels: 30.0
       treasure: true
     name: minecraft:book
     type: minecraft:item

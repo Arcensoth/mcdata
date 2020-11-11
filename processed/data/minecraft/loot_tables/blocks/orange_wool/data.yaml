@@ -1,8 +1,9 @@
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:survives_explosion
   entries:
   - name: minecraft:orange_wool
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

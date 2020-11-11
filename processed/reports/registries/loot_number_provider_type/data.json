@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:constant",
+    "minecraft:uniform",
+    "minecraft:binomial",
+    "minecraft:score"
+  ]
+}

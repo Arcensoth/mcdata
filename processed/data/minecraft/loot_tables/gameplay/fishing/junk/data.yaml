@@ -1,12 +1,15 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:lily_pad
     type: minecraft:item
     weight: 17
   - functions:
-    - damage:
+    - add: false
+      damage:
         max: 0.9
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:set_damage
     name: minecraft:leather_boots
     type: minecraft:item
@@ -27,9 +30,11 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - damage:
+    - add: false
+      damage:
         max: 0.9
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:set_damage
     name: minecraft:fishing_rod
     type: minecraft:item
@@ -41,7 +46,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count: 10
+    - add: false
+      count: 10.0
       function: minecraft:set_count
     name: minecraft:ink_sac
     type: minecraft:item

@@ -1,10 +1,12 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:black_wool
     type: minecraft:item
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:entities/sheep
     type: minecraft:loot_table
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity

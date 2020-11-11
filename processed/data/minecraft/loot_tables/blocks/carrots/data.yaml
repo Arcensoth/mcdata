@@ -1,11 +1,13 @@
 functions:
 - function: minecraft:explosion_decay
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:carrot
     type: minecraft:item
   rolls: 1.0
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:carrots
     condition: minecraft:block_state_property
     properties:

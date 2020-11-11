@@ -59,6 +59,7 @@ minecraft:shulker_boxes
 minecraft:signs
 minecraft:slabs
 minecraft:small_flowers
+minecraft:snow_step_sound_blocks
 minecraft:soul_fire_base_blocks
 minecraft:soul_speed_blocks
 minecraft:spruce_logs

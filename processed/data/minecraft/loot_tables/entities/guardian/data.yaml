@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 0.0
         type: minecraft:uniform
@@ -9,15 +11,18 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:prismarine_shard
     type: minecraft:item
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     - conditions:
       - condition: minecraft:entity_properties
@@ -33,13 +38,15 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:prismarine_crystals
     type: minecraft:item
     weight: 2
   - type: minecraft:empty
-  rolls: 1
-- conditions:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:killed_by_player
   - chance: 0.025
     condition: minecraft:random_chance_with_looting
@@ -47,5 +54,5 @@ pools:
   entries:
   - name: minecraft:gameplay/fishing/fish
     type: minecraft:loot_table
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity

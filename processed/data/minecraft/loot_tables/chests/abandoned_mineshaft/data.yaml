@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:golden_apple
     type: minecraft:item
     weight: 20
@@ -18,10 +19,12 @@ pools:
     weight: 5
   - type: minecraft:empty
     weight: 5
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -30,7 +33,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -39,7 +43,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 9.0
         min: 4.0
         type: minecraft:uniform
@@ -48,7 +53,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 9.0
         min: 4.0
         type: minecraft:uniform
@@ -57,7 +63,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -66,7 +73,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 3.0
         type: minecraft:uniform
@@ -75,7 +83,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -84,7 +93,8 @@ pools:
     type: minecraft:item
     weight: 15
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -93,7 +103,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -102,7 +113,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -114,9 +126,11 @@ pools:
     max: 4.0
     min: 2.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 4.0
         type: minecraft:uniform
@@ -125,7 +139,8 @@ pools:
     type: minecraft:item
     weight: 20
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -134,7 +149,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -143,7 +159,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -152,7 +169,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 16.0
         min: 1.0
         type: minecraft:uniform
@@ -160,5 +178,5 @@ pools:
     name: minecraft:torch
     type: minecraft:item
     weight: 15
-  rolls: 3
+  rolls: 3.0
 type: minecraft:chest

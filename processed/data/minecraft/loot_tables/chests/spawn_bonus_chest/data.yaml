@@ -1,21 +1,25 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:stone_axe
     type: minecraft:item
   - name: minecraft:wooden_axe
     type: minecraft:item
     weight: 3
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:stone_pickaxe
     type: minecraft:item
   - name: minecraft:wooden_pickaxe
     type: minecraft:item
     weight: 3
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -24,7 +28,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -33,7 +38,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -41,10 +47,12 @@ pools:
     name: minecraft:salmon
     type: minecraft:item
     weight: 3
-  rolls: 3
-- entries:
+  rolls: 3.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 12.0
         min: 1.0
         type: minecraft:uniform
@@ -53,7 +61,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 12.0
         min: 1.0
         type: minecraft:uniform
@@ -62,7 +71,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -71,7 +81,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -80,7 +91,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -89,7 +101,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -98,7 +111,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -107,7 +121,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -115,5 +130,5 @@ pools:
     name: minecraft:dark_oak_log
     type: minecraft:item
     weight: 3
-  rolls: 4
+  rolls: 4.0
 type: minecraft:chest

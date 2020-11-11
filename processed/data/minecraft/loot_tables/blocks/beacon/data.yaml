@@ -1,9 +1,10 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
     - function: minecraft:copy_name
       source: block_entity
     name: minecraft:beacon
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

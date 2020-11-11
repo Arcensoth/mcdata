@@ -1,11 +1,13 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
     - function: minecraft:explosion_decay
     name: minecraft:composter
     type: minecraft:item
   rolls: 1.0
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:composter
     condition: minecraft:block_state_property
     properties:

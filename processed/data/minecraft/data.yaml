@@ -1527,6 +1527,8 @@ loot_tables:
 - minecraft:blocks/potted_warped_roots
 - minecraft:blocks/potted_white_tulip
 - minecraft:blocks/potted_wither_rose
+- minecraft:blocks/powder_snow
+- minecraft:blocks/powder_snow_cauldron
 - minecraft:blocks/powered_rail
 - minecraft:blocks/prismarine
 - minecraft:blocks/prismarine_bricks
@@ -2894,6 +2896,7 @@ tags:
   - minecraft:signs
   - minecraft:slabs
   - minecraft:small_flowers
+  - minecraft:snow_step_sound_blocks
   - minecraft:soul_fire_base_blocks
   - minecraft:soul_speed_blocks
   - minecraft:spruce_logs
@@ -2927,6 +2930,7 @@ tags:
   - minecraft:arrows
   - minecraft:beehive_inhabitors
   - minecraft:impact_projectiles
+  - minecraft:powder_snow_walkable_mobs
   - minecraft:raiders
   - minecraft:skeletons
   fluids:

@@ -1,5 +1,6 @@
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:large_fern
     condition: minecraft:block_state_property
     properties:
@@ -18,7 +19,8 @@ pools:
         predicate:
           item: minecraft:shears
       functions:
-      - count: 2
+      - add: false
+        count: 2.0
         function: minecraft:set_count
       name: minecraft:fern
       type: minecraft:item
@@ -30,7 +32,8 @@ pools:
       type: minecraft:item
     type: minecraft:alternatives
   rolls: 1.0
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:large_fern
     condition: minecraft:block_state_property
     properties:
@@ -49,7 +52,8 @@ pools:
         predicate:
           item: minecraft:shears
       functions:
-      - count: 2
+      - add: false
+        count: 2.0
         function: minecraft:set_count
       name: minecraft:fern
       type: minecraft:item

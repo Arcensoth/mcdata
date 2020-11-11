@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
     - enchantments:
       - minecraft:soul_speed
@@ -33,7 +34,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 36.0
         min: 10.0
         type: minecraft:uniform
@@ -42,7 +44,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -51,7 +54,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 9.0
         min: 3.0
         type: minecraft:uniform
@@ -60,7 +64,8 @@ pools:
     type: minecraft:item
     weight: 20
   - functions:
-    - count:
+    - add: false
+      count:
         max: 12.0
         min: 5.0
         type: minecraft:uniform
@@ -72,7 +77,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -84,7 +90,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -93,7 +100,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 2.0
         type: minecraft:uniform
@@ -102,7 +110,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 2.0
         type: minecraft:uniform
@@ -111,7 +120,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 12.0
         min: 6.0
         type: minecraft:uniform
@@ -120,7 +130,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 16.0
         min: 8.0
         type: minecraft:uniform
@@ -129,7 +140,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 16.0
         min: 8.0
         type: minecraft:uniform
@@ -137,5 +149,5 @@ pools:
     name: minecraft:blackstone
     type: minecraft:item
     weight: 40
-  rolls: 1
+  rolls: 1.0
 type: minecraft:barter

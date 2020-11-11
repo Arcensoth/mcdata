@@ -1,7 +1,8 @@
 functions:
 - function: minecraft:explosion_decay
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - block: minecraft:wheat
@@ -14,7 +15,8 @@ pools:
       type: minecraft:item
     type: minecraft:alternatives
   rolls: 1.0
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - block: minecraft:wheat
     condition: minecraft:block_state_property
     properties:

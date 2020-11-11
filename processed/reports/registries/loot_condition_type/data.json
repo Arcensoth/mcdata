@@ -15,6 +15,7 @@
     "minecraft:location_check",
     "minecraft:weather_check",
     "minecraft:reference",
-    "minecraft:time_check"
+    "minecraft:time_check",
+    "minecraft:value_check"
   ]
 }

@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:white_wool
     type: minecraft:item
   - name: minecraft:orange_wool
@@ -32,5 +33,5 @@ pools:
     type: minecraft:item
   - name: minecraft:black_wool
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:gift

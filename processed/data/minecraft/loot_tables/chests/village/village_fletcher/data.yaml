@@ -1,9 +1,11 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:emerald
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -12,7 +14,8 @@ pools:
     type: minecraft:item
     weight: 2
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -21,7 +24,8 @@ pools:
     type: minecraft:item
     weight: 6
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -30,7 +34,8 @@ pools:
     type: minecraft:item
     weight: 2
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -39,7 +44,8 @@ pools:
     type: minecraft:item
     weight: 6
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform

@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -10,7 +12,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -21,7 +24,8 @@ pools:
   - name: minecraft:emerald
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 2.0
         type: minecraft:uniform
@@ -33,7 +37,8 @@ pools:
     max: 8.0
     min: 2.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:golden_apple
     type: minecraft:item
   - functions:
@@ -58,5 +63,5 @@ pools:
     name: minecraft:map
     type: minecraft:item
     weight: 10
-  rolls: 1
+  rolls: 1.0
 type: minecraft:chest

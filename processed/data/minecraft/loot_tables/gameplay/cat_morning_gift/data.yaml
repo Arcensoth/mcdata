@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:rabbit_hide
     type: minecraft:item
     weight: 10
@@ -21,5 +22,5 @@ pools:
   - name: minecraft:phantom_membrane
     type: minecraft:item
     weight: 2
-  rolls: 1
+  rolls: 1.0
 type: minecraft:gift

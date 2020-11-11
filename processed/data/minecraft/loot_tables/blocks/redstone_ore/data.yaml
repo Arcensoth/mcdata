@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - condition: minecraft:match_tool
@@ -11,7 +12,8 @@ pools:
       name: minecraft:redstone_ore
       type: minecraft:item
     - functions:
-      - count:
+      - add: false
+        count:
           max: 5.0
           min: 4.0
           type: minecraft:uniform
@@ -25,5 +27,5 @@ pools:
       name: minecraft:redstone
       type: minecraft:item
     type: minecraft:alternatives
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

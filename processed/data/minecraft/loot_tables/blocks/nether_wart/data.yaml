@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - conditions:
+    - add: false
+      conditions:
       - block: minecraft:nether_wart
         condition: minecraft:block_state_property
         properties:
@@ -25,5 +27,5 @@ pools:
     type: minecraft:item
   functions:
   - function: minecraft:explosion_decay
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - condition: minecraft:match_tool
@@ -11,7 +12,8 @@ pools:
       name: minecraft:melon
       type: minecraft:item
     - functions:
-      - count:
+      - add: false
+        count:
           max: 7.0
           min: 3.0
           type: minecraft:uniform
@@ -23,10 +25,10 @@ pools:
           bonusMultiplier: 1
       - function: minecraft:limit_count
         limit:
-          max: 9
+          max: 9.0
       - function: minecraft:explosion_decay
       name: minecraft:melon_slice
       type: minecraft:item
     type: minecraft:alternatives
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
     - function: minecraft:copy_nbt
       ops:
@@ -9,5 +10,5 @@ pools:
       source: block_entity
     name: minecraft:player_head
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

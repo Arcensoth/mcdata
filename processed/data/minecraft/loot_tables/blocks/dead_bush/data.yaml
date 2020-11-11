@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - condition: minecraft:match_tool
@@ -8,7 +9,8 @@ pools:
       name: minecraft:dead_bush
       type: minecraft:item
     - functions:
-      - count:
+      - add: false
+        count:
           max: 2.0
           min: 0.0
           type: minecraft:uniform
@@ -17,5 +19,5 @@ pools:
       name: minecraft:stick
       type: minecraft:item
     type: minecraft:alternatives
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

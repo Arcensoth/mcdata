@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 12.0
         min: 1.0
         type: minecraft:uniform
@@ -10,7 +12,8 @@ pools:
     type: minecraft:item
     weight: 8
   - functions:
-    - count:
+    - add: false
+      count:
         max: 6.0
         min: 2.0
         type: minecraft:uniform
@@ -19,7 +22,8 @@ pools:
     type: minecraft:item
     weight: 7
   - functions:
-    - count:
+    - add: false
+      count:
         max: 6.0
         min: 2.0
         type: minecraft:uniform
@@ -28,7 +32,8 @@ pools:
     type: minecraft:item
     weight: 7
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 4.0
         type: minecraft:uniform
@@ -37,7 +42,8 @@ pools:
     type: minecraft:item
     weight: 7
   - functions:
-    - count:
+    - add: false
+      count:
         max: 21.0
         min: 8.0
         type: minecraft:uniform
@@ -48,35 +54,42 @@ pools:
   - functions:
     - effects:
       - duration:
-          max: 20.0
-          min: 10.0
-        type: minecraft:poison
-      - duration:
-          max: 10.0
-          min: 7.0
-        type: minecraft:saturation
-      - duration:
-          max: 10.0
-          min: 7.0
-        type: minecraft:jump_boost
-      - duration:
           max: 7.0
           min: 5.0
+          type: minecraft:uniform
         type: minecraft:blindness
+      - duration:
+          max: 10.0
+          min: 7.0
+          type: minecraft:uniform
+        type: minecraft:jump_boost
+      - duration:
+          max: 10.0
+          min: 7.0
+          type: minecraft:uniform
+        type: minecraft:night_vision
+      - duration:
+          max: 10.0
+          min: 7.0
+          type: minecraft:uniform
+        type: minecraft:saturation
+      - duration:
+          max: 20.0
+          min: 10.0
+          type: minecraft:uniform
+        type: minecraft:poison
       - duration:
           max: 8.0
           min: 6.0
+          type: minecraft:uniform
         type: minecraft:weakness
-      - duration:
-          max: 10.0
-          min: 7.0
-        type: minecraft:night_vision
       function: minecraft:set_stew_effect
     name: minecraft:suspicious_stew
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 2.0
         type: minecraft:uniform
@@ -85,7 +98,8 @@ pools:
     type: minecraft:item
     weight: 6
   - functions:
-    - count:
+    - add: false
+      count:
         max: 24.0
         min: 5.0
         type: minecraft:uniform
@@ -94,7 +108,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -103,7 +118,8 @@ pools:
     type: minecraft:item
     weight: 2
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -112,7 +128,8 @@ pools:
     type: minecraft:item
     weight: 2
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -121,7 +138,8 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform

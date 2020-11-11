@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:cooked_rabbit
     type: minecraft:item
   - name: minecraft:cooked_chicken
@@ -10,5 +11,5 @@ pools:
     type: minecraft:item
   - name: minecraft:cooked_mutton
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:gift

@@ -1,5 +1,6 @@
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:match_tool
     predicate:
       enchantments:
@@ -9,5 +10,5 @@ pools:
   entries:
   - name: minecraft:blue_ice
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

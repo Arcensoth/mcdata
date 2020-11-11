@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -16,13 +18,16 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:porkchop
     type: minecraft:item
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 1.0
         min: 0.0
         type: minecraft:uniform
@@ -30,8 +35,9 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:leather
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity

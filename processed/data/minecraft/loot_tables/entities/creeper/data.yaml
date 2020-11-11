@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 0.0
         type: minecraft:uniform
@@ -9,11 +11,13 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:gunpowder
     type: minecraft:item
-  rolls: 1
-- conditions:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:entity_properties
     entity: killer
     predicate:

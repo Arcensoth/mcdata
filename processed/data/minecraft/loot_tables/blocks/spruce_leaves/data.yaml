@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - condition: minecraft:alternative
@@ -27,8 +28,9 @@ pools:
       name: minecraft:spruce_sapling
       type: minecraft:item
     type: minecraft:alternatives
-  rolls: 1
-- conditions:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:inverted
     term:
       condition: minecraft:alternative
@@ -53,7 +55,8 @@ pools:
       condition: minecraft:table_bonus
       enchantment: minecraft:fortune
     functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -61,5 +64,5 @@ pools:
     - function: minecraft:explosion_decay
     name: minecraft:stick
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

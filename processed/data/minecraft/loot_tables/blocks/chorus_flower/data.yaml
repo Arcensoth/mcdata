@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - conditions:
     - condition: minecraft:survives_explosion
     - condition: minecraft:entity_properties
@@ -7,5 +8,5 @@ pools:
       predicate: {}
     name: minecraft:chorus_flower
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

@@ -71,3 +71,4 @@ minecraft:landing_obsidian_tear
 minecraft:reverse_portal
 minecraft:white_ash
 minecraft:small_flame
+minecraft:snowflake

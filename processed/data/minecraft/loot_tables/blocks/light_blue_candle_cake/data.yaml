@@ -1,6 +1,7 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:light_blue_candle
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

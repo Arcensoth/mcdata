@@ -1,16 +1,19 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count: 1
+    - add: false
+      count: 1.0
       function: minecraft:set_count
     name: minecraft:pufferfish
     type: minecraft:item
-  rolls: 1
-- conditions:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  conditions:
   - chance: 0.05
     condition: minecraft:random_chance
   entries:
   - name: minecraft:bone_meal
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity

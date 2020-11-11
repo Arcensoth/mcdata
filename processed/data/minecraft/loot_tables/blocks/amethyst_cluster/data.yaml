@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - condition: minecraft:match_tool
@@ -11,7 +12,8 @@ pools:
       name: minecraft:amethyst_cluster
       type: minecraft:item
     - functions:
-      - count: 4
+      - add: false
+        count: 4.0
         function: minecraft:set_count
       - enchantment: minecraft:fortune
         formula: minecraft:ore_drops
@@ -20,5 +22,5 @@ pools:
       name: minecraft:amethyst_shard
       type: minecraft:item
     type: minecraft:alternatives
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

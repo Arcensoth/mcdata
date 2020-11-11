@@ -1,13 +1,16 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:totem_of_undying
     type: minecraft:item
-  rolls: 1
-- conditions:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:killed_by_player
   entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 1.0
         min: 0.0
         type: minecraft:uniform
@@ -15,8 +18,9 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:emerald
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity

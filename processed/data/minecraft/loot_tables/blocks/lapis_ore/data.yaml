@@ -1,5 +1,6 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - children:
     - conditions:
       - condition: minecraft:match_tool
@@ -11,7 +12,8 @@ pools:
       name: minecraft:lapis_ore
       type: minecraft:item
     - functions:
-      - count:
+      - add: false
+        count:
           max: 9.0
           min: 4.0
           type: minecraft:uniform
@@ -23,5 +25,5 @@ pools:
       name: minecraft:lapis_lazuli
       type: minecraft:item
     type: minecraft:alternatives
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

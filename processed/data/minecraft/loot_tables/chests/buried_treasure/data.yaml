@@ -1,11 +1,14 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:heart_of_the_sea
     type: minecraft:item
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -14,7 +17,8 @@ pools:
     type: minecraft:item
     weight: 20
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -23,7 +27,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -35,9 +40,11 @@ pools:
     max: 8.0
     min: 5.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 4.0
         type: minecraft:uniform
@@ -46,7 +53,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -55,7 +63,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -67,7 +76,8 @@ pools:
     max: 3.0
     min: 1.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - name: minecraft:leather_chestplate
     type: minecraft:item
   - name: minecraft:iron_sword
@@ -76,9 +86,11 @@ pools:
     max: 1.0
     min: 0.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
@@ -86,12 +98,13 @@ pools:
     name: minecraft:cooked_cod
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 2.0
         type: minecraft:uniform
       function: minecraft:set_count
     name: minecraft:cooked_salmon
     type: minecraft:item
-  rolls: 2
+  rolls: 2.0
 type: minecraft:chest

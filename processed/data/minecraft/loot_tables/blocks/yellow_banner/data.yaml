@@ -1,5 +1,6 @@
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:survives_explosion
   entries:
   - functions:
@@ -13,5 +14,5 @@ pools:
       source: block_entity
     name: minecraft:yellow_banner
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

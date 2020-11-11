@@ -1,10 +1,11 @@
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:match_tool
     predicate:
       item: minecraft:shears
   entries:
   - name: minecraft:seagrass
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:block

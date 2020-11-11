@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform
@@ -10,7 +12,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 4.0
         min: 1.0
         type: minecraft:uniform
@@ -19,7 +22,8 @@ pools:
     type: minecraft:item
     weight: 40
   - functions:
-    - count:
+    - add: false
+      count:
         max: 18.0
         min: 9.0
         type: minecraft:uniform
@@ -37,7 +41,8 @@ pools:
     type: minecraft:item
     weight: 15
   - functions:
-    - count:
+    - add: false
+      count:
         max: 24.0
         min: 4.0
         type: minecraft:uniform
@@ -91,7 +96,8 @@ pools:
     type: minecraft:item
     weight: 15
   - functions:
-    - count:
+    - add: false
+      count:
         max: 12.0
         min: 4.0
         type: minecraft:uniform
@@ -106,7 +112,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 12.0
         min: 4.0
         type: minecraft:uniform
@@ -118,7 +125,8 @@ pools:
     type: minecraft:item
     weight: 5
   - functions:
-    - count:
+    - add: false
+      count:
         max: 8.0
         min: 2.0
         type: minecraft:uniform
@@ -131,7 +139,8 @@ pools:
   - name: minecraft:enchanted_golden_apple
     type: minecraft:item
   - functions:
-    - count:
+    - add: false
+      count:
         max: 2.0
         min: 1.0
         type: minecraft:uniform

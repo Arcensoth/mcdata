@@ -3,6 +3,7 @@
     "minecraft:set_count",
     "minecraft:enchant_with_levels",
     "minecraft:enchant_randomly",
+    "minecraft:set_enchantments",
     "minecraft:set_nbt",
     "minecraft:furnace_smelt",
     "minecraft:looting_enchant",

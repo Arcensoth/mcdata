@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -10,7 +12,8 @@ pools:
     type: minecraft:item
     weight: 90
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -19,7 +22,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 5.0
         min: 1.0
         type: minecraft:uniform
@@ -37,9 +41,11 @@ pools:
     max: 6.0
     min: 3.0
     type: minecraft:uniform
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 10.0
         min: 1.0
         type: minecraft:uniform
@@ -48,7 +54,8 @@ pools:
     type: minecraft:item
     weight: 50
   - functions:
-    - count:
+    - add: false
+      count:
         max: 10.0
         min: 1.0
         type: minecraft:uniform
@@ -57,7 +64,8 @@ pools:
     type: minecraft:item
     weight: 10
   - functions:
-    - count:
+    - add: false
+      count:
         max: 10.0
         min: 1.0
         type: minecraft:uniform

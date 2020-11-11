@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 1.0
         min: 0.0
         type: minecraft:uniform
@@ -9,13 +11,16 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:rotten_flesh
     type: minecraft:item
-  rolls: 1
-- entries:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 1.0
         min: 0.0
         type: minecraft:uniform
@@ -23,11 +28,13 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:gold_nugget
     type: minecraft:item
-  rolls: 1
-- conditions:
+  rolls: 1.0
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:killed_by_player
   - chance: 0.025
     condition: minecraft:random_chance_with_looting
@@ -35,5 +42,5 @@ pools:
   entries:
   - name: minecraft:gold_ingot
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity

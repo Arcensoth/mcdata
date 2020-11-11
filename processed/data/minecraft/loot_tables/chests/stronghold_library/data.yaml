@@ -1,7 +1,9 @@
 pools:
-- entries:
+- bonus_rolls: 0.0
+  entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 3.0
         min: 1.0
         type: minecraft:uniform
@@ -10,7 +12,8 @@ pools:
     type: minecraft:item
     weight: 20
   - functions:
-    - count:
+    - add: false
+      count:
         max: 7.0
         min: 2.0
         type: minecraft:uniform
@@ -24,7 +27,7 @@ pools:
     type: minecraft:item
   - functions:
     - function: minecraft:enchant_with_levels
-      levels: 30
+      levels: 30.0
       treasure: true
     name: minecraft:book
     type: minecraft:item

@@ -1,9 +1,11 @@
 pools:
-- conditions:
+- bonus_rolls: 0.0
+  conditions:
   - condition: minecraft:killed_by_player
   entries:
   - functions:
-    - count:
+    - add: false
+      count:
         max: 1.0
         min: 0.0
         type: minecraft:uniform
@@ -11,8 +13,9 @@ pools:
     - count:
         max: 1.0
         min: 0.0
+        type: minecraft:uniform
       function: minecraft:looting_enchant
     name: minecraft:emerald
     type: minecraft:item
-  rolls: 1
+  rolls: 1.0
 type: minecraft:entity
