@@ -33280,6 +33280,10 @@ minecraft:dried_kelp_block:
   states:
   - default: true
     id: 9551
+minecraft:dripstone_block:
+  states:
+  - default: true
+    id: 18219
 minecraft:dropper:
   properties:
     facing:
@@ -72071,6 +72075,122 @@ minecraft:podzol:
     id: 13
     properties:
       snowy: 'false'
+minecraft:pointed_dripstone:
+  properties:
+    thickness:
+    - tip_merge
+    - tip
+    - frustum
+    - middle
+    - base
+    vertical_direction:
+    - up
+    - down
+    waterlogged:
+    - 'true'
+    - 'false'
+  states:
+  - id: 18199
+    properties:
+      thickness: tip_merge
+      vertical_direction: up
+      waterlogged: 'true'
+  - id: 18200
+    properties:
+      thickness: tip_merge
+      vertical_direction: up
+      waterlogged: 'false'
+  - id: 18201
+    properties:
+      thickness: tip_merge
+      vertical_direction: down
+      waterlogged: 'true'
+  - id: 18202
+    properties:
+      thickness: tip_merge
+      vertical_direction: down
+      waterlogged: 'false'
+  - id: 18203
+    properties:
+      thickness: tip
+      vertical_direction: up
+      waterlogged: 'true'
+  - default: true
+    id: 18204
+    properties:
+      thickness: tip
+      vertical_direction: up
+      waterlogged: 'false'
+  - id: 18205
+    properties:
+      thickness: tip
+      vertical_direction: down
+      waterlogged: 'true'
+  - id: 18206
+    properties:
+      thickness: tip
+      vertical_direction: down
+      waterlogged: 'false'
+  - id: 18207
+    properties:
+      thickness: frustum
+      vertical_direction: up
+      waterlogged: 'true'
+  - id: 18208
+    properties:
+      thickness: frustum
+      vertical_direction: up
+      waterlogged: 'false'
+  - id: 18209
+    properties:
+      thickness: frustum
+      vertical_direction: down
+      waterlogged: 'true'
+  - id: 18210
+    properties:
+      thickness: frustum
+      vertical_direction: down
+      waterlogged: 'false'
+  - id: 18211
+    properties:
+      thickness: middle
+      vertical_direction: up
+      waterlogged: 'true'
+  - id: 18212
+    properties:
+      thickness: middle
+      vertical_direction: up
+      waterlogged: 'false'
+  - id: 18213
+    properties:
+      thickness: middle
+      vertical_direction: down
+      waterlogged: 'true'
+  - id: 18214
+    properties:
+      thickness: middle
+      vertical_direction: down
+      waterlogged: 'false'
+  - id: 18215
+    properties:
+      thickness: base
+      vertical_direction: up
+      waterlogged: 'true'
+  - id: 18216
+    properties:
+      thickness: base
+      vertical_direction: up
+      waterlogged: 'false'
+  - id: 18217
+    properties:
+      thickness: base
+      vertical_direction: down
+      waterlogged: 'true'
+  - id: 18218
+    properties:
+      thickness: base
+      vertical_direction: down
+      waterlogged: 'false'
 minecraft:polished_andesite:
   states:
   - default: true

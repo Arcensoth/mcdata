@@ -1,5 +1,5 @@
 criteria:
-  has_nether_brick:
+  has_nether_bricks:
     conditions:
       items:
       - item: minecraft:nether_bricks
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_nether_brick
+- - has_nether_bricks
   - has_the_recipe
 rewards:
   recipes:

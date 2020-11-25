@@ -1,8 +1,8 @@
 criteria:
-  has_nether_bricks:
+  has_nether_brick_slab:
     conditions:
       items:
-      - item: minecraft:nether_bricks
+      - item: minecraft:nether_brick_slab
     trigger: minecraft:inventory_changed
   has_the_recipe:
     conditions:
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_nether_bricks
+- - has_nether_brick_slab
   - has_the_recipe
 rewards:
   recipes:

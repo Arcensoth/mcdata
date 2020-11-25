@@ -182079,5 +182079,195 @@
         "id": 18198
       }
     ]
+  },
+  "minecraft:pointed_dripstone": {
+    "properties": {
+      "thickness": [
+        "tip_merge",
+        "tip",
+        "frustum",
+        "middle",
+        "base"
+      ],
+      "vertical_direction": [
+        "up",
+        "down"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "thickness": "tip_merge",
+          "vertical_direction": "up",
+          "waterlogged": "true"
+        },
+        "id": 18199
+      },
+      {
+        "properties": {
+          "thickness": "tip_merge",
+          "vertical_direction": "up",
+          "waterlogged": "false"
+        },
+        "id": 18200
+      },
+      {
+        "properties": {
+          "thickness": "tip_merge",
+          "vertical_direction": "down",
+          "waterlogged": "true"
+        },
+        "id": 18201
+      },
+      {
+        "properties": {
+          "thickness": "tip_merge",
+          "vertical_direction": "down",
+          "waterlogged": "false"
+        },
+        "id": 18202
+      },
+      {
+        "properties": {
+          "thickness": "tip",
+          "vertical_direction": "up",
+          "waterlogged": "true"
+        },
+        "id": 18203
+      },
+      {
+        "properties": {
+          "thickness": "tip",
+          "vertical_direction": "up",
+          "waterlogged": "false"
+        },
+        "id": 18204,
+        "default": true
+      },
+      {
+        "properties": {
+          "thickness": "tip",
+          "vertical_direction": "down",
+          "waterlogged": "true"
+        },
+        "id": 18205
+      },
+      {
+        "properties": {
+          "thickness": "tip",
+          "vertical_direction": "down",
+          "waterlogged": "false"
+        },
+        "id": 18206
+      },
+      {
+        "properties": {
+          "thickness": "frustum",
+          "vertical_direction": "up",
+          "waterlogged": "true"
+        },
+        "id": 18207
+      },
+      {
+        "properties": {
+          "thickness": "frustum",
+          "vertical_direction": "up",
+          "waterlogged": "false"
+        },
+        "id": 18208
+      },
+      {
+        "properties": {
+          "thickness": "frustum",
+          "vertical_direction": "down",
+          "waterlogged": "true"
+        },
+        "id": 18209
+      },
+      {
+        "properties": {
+          "thickness": "frustum",
+          "vertical_direction": "down",
+          "waterlogged": "false"
+        },
+        "id": 18210
+      },
+      {
+        "properties": {
+          "thickness": "middle",
+          "vertical_direction": "up",
+          "waterlogged": "true"
+        },
+        "id": 18211
+      },
+      {
+        "properties": {
+          "thickness": "middle",
+          "vertical_direction": "up",
+          "waterlogged": "false"
+        },
+        "id": 18212
+      },
+      {
+        "properties": {
+          "thickness": "middle",
+          "vertical_direction": "down",
+          "waterlogged": "true"
+        },
+        "id": 18213
+      },
+      {
+        "properties": {
+          "thickness": "middle",
+          "vertical_direction": "down",
+          "waterlogged": "false"
+        },
+        "id": 18214
+      },
+      {
+        "properties": {
+          "thickness": "base",
+          "vertical_direction": "up",
+          "waterlogged": "true"
+        },
+        "id": 18215
+      },
+      {
+        "properties": {
+          "thickness": "base",
+          "vertical_direction": "up",
+          "waterlogged": "false"
+        },
+        "id": 18216
+      },
+      {
+        "properties": {
+          "thickness": "base",
+          "vertical_direction": "down",
+          "waterlogged": "true"
+        },
+        "id": 18217
+      },
+      {
+        "properties": {
+          "thickness": "base",
+          "vertical_direction": "down",
+          "waterlogged": "false"
+        },
+        "id": 18218
+      }
+    ]
+  },
+  "minecraft:dripstone_block": {
+    "states": [
+      {
+        "id": 18219,
+        "default": true
+      }
+    ]
   }
 }

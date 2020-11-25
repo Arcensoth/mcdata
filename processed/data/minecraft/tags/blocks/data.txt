@@ -39,6 +39,7 @@ minecraft:impermeable
 minecraft:infiniburn_end
 minecraft:infiniburn_nether
 minecraft:infiniburn_overworld
+minecraft:inside_step_sound_blocks
 minecraft:jungle_logs
 minecraft:leaves
 minecraft:logs
@@ -59,7 +60,6 @@ minecraft:shulker_boxes
 minecraft:signs
 minecraft:slabs
 minecraft:small_flowers
-minecraft:snow_step_sound_blocks
 minecraft:soul_fire_base_blocks
 minecraft:soul_speed_blocks
 minecraft:spruce_logs

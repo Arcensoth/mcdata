@@ -1036,6 +1036,8 @@
     "minecraft:waxed_lightly_weathered_cut_copper_slab",
     "minecraft:waxed_semi_weathered_cut_copper_slab",
     "minecraft:lightning_rod",
-    "minecraft:powder_snow_bucket"
+    "minecraft:powder_snow_bucket",
+    "minecraft:pointed_dripstone",
+    "minecraft:dripstone_block"
   ]
 }

@@ -73,6 +73,10 @@
     "minecraft:reverse_portal",
     "minecraft:white_ash",
     "minecraft:small_flame",
-    "minecraft:snowflake"
+    "minecraft:snowflake",
+    "minecraft:dripping_dripstone_lava",
+    "minecraft:falling_dripstone_lava",
+    "minecraft:dripping_dripstone_water",
+    "minecraft:falling_dripstone_water"
   ]
 }

@@ -410,22 +410,22 @@ advancements:
 - minecraft:recipes/building_blocks/waxed_copper_cut_stairs_from_honeycomb
 - minecraft:recipes/building_blocks/waxed_cut_copper_from_honeycomb
 - minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_block
-- minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_block
-- minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_cut_copper_slab
+- minecraft:recipes/building_blocks/waxed_cut_copper_stairs
 - minecraft:recipes/building_blocks/waxed_lightly_weathered_copper
 - minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_honeycomb
 - minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab
 - minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_honeycomb
-- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_slab_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs
 - minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_honeycomb
-- minecraft:recipes/building_blocks/waxed_lightly_weathered_cut_copper_stairs_from_waxed_block
 - minecraft:recipes/building_blocks/waxed_semi_weathered_copper
 - minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_from_honeycomb
 - minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_slab
 - minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_honeycomb
-- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_slab_from_waxed_block
+- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs
 - minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_honeycomb
-- minecraft:recipes/building_blocks/waxed_semi_weathered_cut_copper_stairs_from_waxed_block
 - minecraft:recipes/building_blocks/weathered_cut_copper
 - minecraft:recipes/building_blocks/weathered_cut_copper_slab
 - minecraft:recipes/building_blocks/weathered_cut_copper_stairs
@@ -1226,6 +1226,7 @@ loot_tables:
 - minecraft:blocks/dragon_egg
 - minecraft:blocks/dragon_head
 - minecraft:blocks/dried_kelp_block
+- minecraft:blocks/dripstone_block
 - minecraft:blocks/dropper
 - minecraft:blocks/emerald_block
 - minecraft:blocks/emerald_ore
@@ -1476,6 +1477,7 @@ loot_tables:
 - minecraft:blocks/piston
 - minecraft:blocks/player_head
 - minecraft:blocks/podzol
+- minecraft:blocks/pointed_dripstone
 - minecraft:blocks/polished_andesite
 - minecraft:blocks/polished_andesite_slab
 - minecraft:blocks/polished_andesite_stairs
@@ -2779,22 +2781,22 @@ recipes:
 - minecraft:waxed_copper_cut_stairs_from_honeycomb
 - minecraft:waxed_cut_copper_from_honeycomb
 - minecraft:waxed_cut_copper_from_waxed_block
-- minecraft:waxed_cut_copper_slab_from_waxed_block
-- minecraft:waxed_cut_copper_stairs_from_waxed_block
+- minecraft:waxed_cut_copper_slab
+- minecraft:waxed_cut_copper_stairs
 - minecraft:waxed_lightly_weathered_copper
 - minecraft:waxed_lightly_weathered_cut_copper_from_honeycomb
 - minecraft:waxed_lightly_weathered_cut_copper_from_waxed_block
+- minecraft:waxed_lightly_weathered_cut_copper_slab
 - minecraft:waxed_lightly_weathered_cut_copper_slab_from_honeycomb
-- minecraft:waxed_lightly_weathered_cut_copper_slab_from_waxed_block
+- minecraft:waxed_lightly_weathered_cut_copper_stairs
 - minecraft:waxed_lightly_weathered_cut_copper_stairs_from_honeycomb
-- minecraft:waxed_lightly_weathered_cut_copper_stairs_from_waxed_block
 - minecraft:waxed_semi_weathered_copper
 - minecraft:waxed_semi_weathered_cut_copper_from_honeycomb
 - minecraft:waxed_semi_weathered_cut_copper_from_waxed_block
+- minecraft:waxed_semi_weathered_cut_copper_slab
 - minecraft:waxed_semi_weathered_cut_copper_slab_from_honeycomb
-- minecraft:waxed_semi_weathered_cut_copper_slab_from_waxed_block
+- minecraft:waxed_semi_weathered_cut_copper_stairs
 - minecraft:waxed_semi_weathered_cut_copper_stairs_from_honeycomb
-- minecraft:waxed_semi_weathered_cut_copper_stairs_from_waxed_block
 - minecraft:weathered_cut_copper
 - minecraft:weathered_cut_copper_slab
 - minecraft:weathered_cut_copper_stairs
@@ -2876,6 +2878,7 @@ tags:
   - minecraft:infiniburn_end
   - minecraft:infiniburn_nether
   - minecraft:infiniburn_overworld
+  - minecraft:inside_step_sound_blocks
   - minecraft:jungle_logs
   - minecraft:leaves
   - minecraft:logs
@@ -2896,7 +2899,6 @@ tags:
   - minecraft:signs
   - minecraft:slabs
   - minecraft:small_flowers
-  - minecraft:snow_step_sound_blocks
   - minecraft:soul_fire_base_blocks
   - minecraft:soul_speed_blocks
   - minecraft:spruce_logs
@@ -2956,6 +2958,7 @@ tags:
   - minecraft:fences
   - minecraft:fishes
   - minecraft:flowers
+  - minecraft:freeze_immune_wearables
   - minecraft:gold_ores
   - minecraft:ignored_by_piglin_babies
   - minecraft:jungle_logs

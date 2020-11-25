@@ -2892,6 +2892,14 @@ children:
             type: argument
         executable: true
         type: literal
+      freezeDamage:
+        children:
+          value:
+            executable: true
+            parser: brigadier:bool
+            type: argument
+        executable: true
+        type: literal
       keepInventory:
         children:
           value:

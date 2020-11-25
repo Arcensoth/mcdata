@@ -1,5 +1,5 @@
 criteria:
-  has_stone:
+  has_granite:
     conditions:
       items:
       - item: minecraft:granite
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_stone
+- - has_granite
   - has_the_recipe
 rewards:
   recipes:

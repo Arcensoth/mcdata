@@ -1,5 +1,5 @@
 criteria:
-  has_stone_bricks:
+  has_tag:
     conditions:
       items:
       - tag: minecraft:stone_bricks
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_stone_bricks
+- - has_tag
   - has_the_recipe
 rewards:
   recipes:
