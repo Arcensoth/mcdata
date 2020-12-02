@@ -13,6 +13,7 @@ minecraft:landing_lava
 minecraft:dripping_water
 minecraft:falling_water
 minecraft:dust
+minecraft:dust_color_transition
 minecraft:effect
 minecraft:elder_guardian
 minecraft:enchanted_hit
@@ -33,6 +34,7 @@ minecraft:composter
 minecraft:heart
 minecraft:instant_effect
 minecraft:item
+minecraft:vibration
 minecraft:item_slime
 minecraft:item_snowball
 minecraft:large_smoke

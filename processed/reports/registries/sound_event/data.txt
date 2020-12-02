@@ -772,6 +772,13 @@ minecraft:block.scaffolding.fall
 minecraft:block.scaffolding.hit
 minecraft:block.scaffolding.place
 minecraft:block.scaffolding.step
+minecraft:block.sculk_sensor.clicking
+minecraft:block.sculk_sensor.clicking_stop
+minecraft:block.sculk_sensor.break
+minecraft:block.sculk_sensor.fall
+minecraft:block.sculk_sensor.hit
+minecraft:block.sculk_sensor.place
+minecraft:block.sculk_sensor.step
 minecraft:entity.sheep.ambient
 minecraft:entity.sheep.death
 minecraft:entity.sheep.hurt

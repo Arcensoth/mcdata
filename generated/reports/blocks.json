@@ -176215,10 +176215,812 @@
       }
     ]
   },
+  "minecraft:sculk_sensor": {
+    "properties": {
+      "power": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "sculk_sensor_phase": [
+        "inactive",
+        "active",
+        "cooldown"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "properties": {
+          "power": "0",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17570
+      },
+      {
+        "properties": {
+          "power": "0",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17571
+      },
+      {
+        "properties": {
+          "power": "0",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17572
+      },
+      {
+        "properties": {
+          "power": "0",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17573
+      },
+      {
+        "properties": {
+          "power": "0",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17574
+      },
+      {
+        "properties": {
+          "power": "0",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17575,
+        "default": true
+      },
+      {
+        "properties": {
+          "power": "1",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17576
+      },
+      {
+        "properties": {
+          "power": "1",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17577
+      },
+      {
+        "properties": {
+          "power": "1",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17578
+      },
+      {
+        "properties": {
+          "power": "1",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17579
+      },
+      {
+        "properties": {
+          "power": "1",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17580
+      },
+      {
+        "properties": {
+          "power": "1",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17581
+      },
+      {
+        "properties": {
+          "power": "2",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17582
+      },
+      {
+        "properties": {
+          "power": "2",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17583
+      },
+      {
+        "properties": {
+          "power": "2",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17584
+      },
+      {
+        "properties": {
+          "power": "2",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17585
+      },
+      {
+        "properties": {
+          "power": "2",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17586
+      },
+      {
+        "properties": {
+          "power": "2",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17587
+      },
+      {
+        "properties": {
+          "power": "3",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17588
+      },
+      {
+        "properties": {
+          "power": "3",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17589
+      },
+      {
+        "properties": {
+          "power": "3",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17590
+      },
+      {
+        "properties": {
+          "power": "3",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17591
+      },
+      {
+        "properties": {
+          "power": "3",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17592
+      },
+      {
+        "properties": {
+          "power": "3",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17593
+      },
+      {
+        "properties": {
+          "power": "4",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17594
+      },
+      {
+        "properties": {
+          "power": "4",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17595
+      },
+      {
+        "properties": {
+          "power": "4",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17596
+      },
+      {
+        "properties": {
+          "power": "4",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17597
+      },
+      {
+        "properties": {
+          "power": "4",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17598
+      },
+      {
+        "properties": {
+          "power": "4",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17599
+      },
+      {
+        "properties": {
+          "power": "5",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17600
+      },
+      {
+        "properties": {
+          "power": "5",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17601
+      },
+      {
+        "properties": {
+          "power": "5",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17602
+      },
+      {
+        "properties": {
+          "power": "5",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17603
+      },
+      {
+        "properties": {
+          "power": "5",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17604
+      },
+      {
+        "properties": {
+          "power": "5",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17605
+      },
+      {
+        "properties": {
+          "power": "6",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17606
+      },
+      {
+        "properties": {
+          "power": "6",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17607
+      },
+      {
+        "properties": {
+          "power": "6",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17608
+      },
+      {
+        "properties": {
+          "power": "6",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17609
+      },
+      {
+        "properties": {
+          "power": "6",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17610
+      },
+      {
+        "properties": {
+          "power": "6",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17611
+      },
+      {
+        "properties": {
+          "power": "7",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17612
+      },
+      {
+        "properties": {
+          "power": "7",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17613
+      },
+      {
+        "properties": {
+          "power": "7",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17614
+      },
+      {
+        "properties": {
+          "power": "7",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17615
+      },
+      {
+        "properties": {
+          "power": "7",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17616
+      },
+      {
+        "properties": {
+          "power": "7",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17617
+      },
+      {
+        "properties": {
+          "power": "8",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17618
+      },
+      {
+        "properties": {
+          "power": "8",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17619
+      },
+      {
+        "properties": {
+          "power": "8",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17620
+      },
+      {
+        "properties": {
+          "power": "8",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17621
+      },
+      {
+        "properties": {
+          "power": "8",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17622
+      },
+      {
+        "properties": {
+          "power": "8",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17623
+      },
+      {
+        "properties": {
+          "power": "9",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17624
+      },
+      {
+        "properties": {
+          "power": "9",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17625
+      },
+      {
+        "properties": {
+          "power": "9",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17626
+      },
+      {
+        "properties": {
+          "power": "9",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17627
+      },
+      {
+        "properties": {
+          "power": "9",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17628
+      },
+      {
+        "properties": {
+          "power": "9",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17629
+      },
+      {
+        "properties": {
+          "power": "10",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17630
+      },
+      {
+        "properties": {
+          "power": "10",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17631
+      },
+      {
+        "properties": {
+          "power": "10",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17632
+      },
+      {
+        "properties": {
+          "power": "10",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17633
+      },
+      {
+        "properties": {
+          "power": "10",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17634
+      },
+      {
+        "properties": {
+          "power": "10",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17635
+      },
+      {
+        "properties": {
+          "power": "11",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17636
+      },
+      {
+        "properties": {
+          "power": "11",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17637
+      },
+      {
+        "properties": {
+          "power": "11",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17638
+      },
+      {
+        "properties": {
+          "power": "11",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17639
+      },
+      {
+        "properties": {
+          "power": "11",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17640
+      },
+      {
+        "properties": {
+          "power": "11",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17641
+      },
+      {
+        "properties": {
+          "power": "12",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17642
+      },
+      {
+        "properties": {
+          "power": "12",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17643
+      },
+      {
+        "properties": {
+          "power": "12",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17644
+      },
+      {
+        "properties": {
+          "power": "12",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17645
+      },
+      {
+        "properties": {
+          "power": "12",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17646
+      },
+      {
+        "properties": {
+          "power": "12",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17647
+      },
+      {
+        "properties": {
+          "power": "13",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17648
+      },
+      {
+        "properties": {
+          "power": "13",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17649
+      },
+      {
+        "properties": {
+          "power": "13",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17650
+      },
+      {
+        "properties": {
+          "power": "13",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17651
+      },
+      {
+        "properties": {
+          "power": "13",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17652
+      },
+      {
+        "properties": {
+          "power": "13",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17653
+      },
+      {
+        "properties": {
+          "power": "14",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17654
+      },
+      {
+        "properties": {
+          "power": "14",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17655
+      },
+      {
+        "properties": {
+          "power": "14",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17656
+      },
+      {
+        "properties": {
+          "power": "14",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17657
+      },
+      {
+        "properties": {
+          "power": "14",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17658
+      },
+      {
+        "properties": {
+          "power": "14",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17659
+      },
+      {
+        "properties": {
+          "power": "15",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "true"
+        },
+        "id": 17660
+      },
+      {
+        "properties": {
+          "power": "15",
+          "sculk_sensor_phase": "inactive",
+          "waterlogged": "false"
+        },
+        "id": 17661
+      },
+      {
+        "properties": {
+          "power": "15",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "true"
+        },
+        "id": 17662
+      },
+      {
+        "properties": {
+          "power": "15",
+          "sculk_sensor_phase": "active",
+          "waterlogged": "false"
+        },
+        "id": 17663
+      },
+      {
+        "properties": {
+          "power": "15",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "true"
+        },
+        "id": 17664
+      },
+      {
+        "properties": {
+          "power": "15",
+          "sculk_sensor_phase": "cooldown",
+          "waterlogged": "false"
+        },
+        "id": 17665
+      }
+    ]
+  },
   "minecraft:weathered_copper_block": {
     "states": [
       {
-        "id": 17570,
+        "id": 17666,
         "default": true
       }
     ]
@@ -176226,7 +177028,7 @@
   "minecraft:semi_weathered_copper_block": {
     "states": [
       {
-        "id": 17571,
+        "id": 17667,
         "default": true
       }
     ]
@@ -176234,7 +177036,7 @@
   "minecraft:lightly_weathered_copper_block": {
     "states": [
       {
-        "id": 17572,
+        "id": 17668,
         "default": true
       }
     ]
@@ -176242,7 +177044,7 @@
   "minecraft:copper_block": {
     "states": [
       {
-        "id": 17573,
+        "id": 17669,
         "default": true
       }
     ]
@@ -176250,7 +177052,7 @@
   "minecraft:copper_ore": {
     "states": [
       {
-        "id": 17574,
+        "id": 17670,
         "default": true
       }
     ]
@@ -176258,7 +177060,7 @@
   "minecraft:weathered_cut_copper": {
     "states": [
       {
-        "id": 17575,
+        "id": 17671,
         "default": true
       }
     ]
@@ -176266,7 +177068,7 @@
   "minecraft:semi_weathered_cut_copper": {
     "states": [
       {
-        "id": 17576,
+        "id": 17672,
         "default": true
       }
     ]
@@ -176274,7 +177076,7 @@
   "minecraft:lightly_weathered_cut_copper": {
     "states": [
       {
-        "id": 17577,
+        "id": 17673,
         "default": true
       }
     ]
@@ -176282,7 +177084,7 @@
   "minecraft:cut_copper": {
     "states": [
       {
-        "id": 17578,
+        "id": 17674,
         "default": true
       }
     ]
@@ -176319,7 +177121,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17579
+        "id": 17675
       },
       {
         "properties": {
@@ -176328,7 +177130,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17580
+        "id": 17676
       },
       {
         "properties": {
@@ -176337,7 +177139,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17581
+        "id": 17677
       },
       {
         "properties": {
@@ -176346,7 +177148,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17582
+        "id": 17678
       },
       {
         "properties": {
@@ -176355,7 +177157,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17583
+        "id": 17679
       },
       {
         "properties": {
@@ -176364,7 +177166,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17584
+        "id": 17680
       },
       {
         "properties": {
@@ -176373,7 +177175,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17585
+        "id": 17681
       },
       {
         "properties": {
@@ -176382,7 +177184,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17586
+        "id": 17682
       },
       {
         "properties": {
@@ -176391,7 +177193,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17587
+        "id": 17683
       },
       {
         "properties": {
@@ -176400,7 +177202,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17588
+        "id": 17684
       },
       {
         "properties": {
@@ -176409,7 +177211,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17589
+        "id": 17685
       },
       {
         "properties": {
@@ -176418,7 +177220,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17590,
+        "id": 17686,
         "default": true
       },
       {
@@ -176428,7 +177230,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17591
+        "id": 17687
       },
       {
         "properties": {
@@ -176437,7 +177239,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17592
+        "id": 17688
       },
       {
         "properties": {
@@ -176446,7 +177248,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17593
+        "id": 17689
       },
       {
         "properties": {
@@ -176455,7 +177257,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17594
+        "id": 17690
       },
       {
         "properties": {
@@ -176464,7 +177266,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17595
+        "id": 17691
       },
       {
         "properties": {
@@ -176473,7 +177275,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17596
+        "id": 17692
       },
       {
         "properties": {
@@ -176482,7 +177284,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17597
+        "id": 17693
       },
       {
         "properties": {
@@ -176491,7 +177293,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17598
+        "id": 17694
       },
       {
         "properties": {
@@ -176500,7 +177302,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17599
+        "id": 17695
       },
       {
         "properties": {
@@ -176509,7 +177311,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17600
+        "id": 17696
       },
       {
         "properties": {
@@ -176518,7 +177320,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17601
+        "id": 17697
       },
       {
         "properties": {
@@ -176527,7 +177329,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17602
+        "id": 17698
       },
       {
         "properties": {
@@ -176536,7 +177338,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17603
+        "id": 17699
       },
       {
         "properties": {
@@ -176545,7 +177347,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17604
+        "id": 17700
       },
       {
         "properties": {
@@ -176554,7 +177356,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17605
+        "id": 17701
       },
       {
         "properties": {
@@ -176563,7 +177365,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17606
+        "id": 17702
       },
       {
         "properties": {
@@ -176572,7 +177374,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17607
+        "id": 17703
       },
       {
         "properties": {
@@ -176581,7 +177383,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17608
+        "id": 17704
       },
       {
         "properties": {
@@ -176590,7 +177392,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17609
+        "id": 17705
       },
       {
         "properties": {
@@ -176599,7 +177401,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17610
+        "id": 17706
       },
       {
         "properties": {
@@ -176608,7 +177410,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17611
+        "id": 17707
       },
       {
         "properties": {
@@ -176617,7 +177419,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17612
+        "id": 17708
       },
       {
         "properties": {
@@ -176626,7 +177428,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17613
+        "id": 17709
       },
       {
         "properties": {
@@ -176635,7 +177437,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17614
+        "id": 17710
       },
       {
         "properties": {
@@ -176644,7 +177446,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17615
+        "id": 17711
       },
       {
         "properties": {
@@ -176653,7 +177455,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17616
+        "id": 17712
       },
       {
         "properties": {
@@ -176662,7 +177464,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17617
+        "id": 17713
       },
       {
         "properties": {
@@ -176671,7 +177473,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17618
+        "id": 17714
       },
       {
         "properties": {
@@ -176680,7 +177482,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17619
+        "id": 17715
       },
       {
         "properties": {
@@ -176689,7 +177491,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17620
+        "id": 17716
       },
       {
         "properties": {
@@ -176698,7 +177500,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17621
+        "id": 17717
       },
       {
         "properties": {
@@ -176707,7 +177509,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17622
+        "id": 17718
       },
       {
         "properties": {
@@ -176716,7 +177518,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17623
+        "id": 17719
       },
       {
         "properties": {
@@ -176725,7 +177527,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17624
+        "id": 17720
       },
       {
         "properties": {
@@ -176734,7 +177536,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17625
+        "id": 17721
       },
       {
         "properties": {
@@ -176743,7 +177545,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17626
+        "id": 17722
       },
       {
         "properties": {
@@ -176752,7 +177554,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17627
+        "id": 17723
       },
       {
         "properties": {
@@ -176761,7 +177563,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17628
+        "id": 17724
       },
       {
         "properties": {
@@ -176770,7 +177572,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17629
+        "id": 17725
       },
       {
         "properties": {
@@ -176779,7 +177581,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17630
+        "id": 17726
       },
       {
         "properties": {
@@ -176788,7 +177590,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17631
+        "id": 17727
       },
       {
         "properties": {
@@ -176797,7 +177599,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17632
+        "id": 17728
       },
       {
         "properties": {
@@ -176806,7 +177608,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17633
+        "id": 17729
       },
       {
         "properties": {
@@ -176815,7 +177617,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17634
+        "id": 17730
       },
       {
         "properties": {
@@ -176824,7 +177626,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17635
+        "id": 17731
       },
       {
         "properties": {
@@ -176833,7 +177635,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17636
+        "id": 17732
       },
       {
         "properties": {
@@ -176842,7 +177644,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17637
+        "id": 17733
       },
       {
         "properties": {
@@ -176851,7 +177653,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17638
+        "id": 17734
       },
       {
         "properties": {
@@ -176860,7 +177662,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17639
+        "id": 17735
       },
       {
         "properties": {
@@ -176869,7 +177671,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17640
+        "id": 17736
       },
       {
         "properties": {
@@ -176878,7 +177680,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17641
+        "id": 17737
       },
       {
         "properties": {
@@ -176887,7 +177689,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17642
+        "id": 17738
       },
       {
         "properties": {
@@ -176896,7 +177698,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17643
+        "id": 17739
       },
       {
         "properties": {
@@ -176905,7 +177707,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17644
+        "id": 17740
       },
       {
         "properties": {
@@ -176914,7 +177716,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17645
+        "id": 17741
       },
       {
         "properties": {
@@ -176923,7 +177725,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17646
+        "id": 17742
       },
       {
         "properties": {
@@ -176932,7 +177734,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17647
+        "id": 17743
       },
       {
         "properties": {
@@ -176941,7 +177743,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17648
+        "id": 17744
       },
       {
         "properties": {
@@ -176950,7 +177752,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17649
+        "id": 17745
       },
       {
         "properties": {
@@ -176959,7 +177761,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17650
+        "id": 17746
       },
       {
         "properties": {
@@ -176968,7 +177770,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17651
+        "id": 17747
       },
       {
         "properties": {
@@ -176977,7 +177779,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17652
+        "id": 17748
       },
       {
         "properties": {
@@ -176986,7 +177788,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17653
+        "id": 17749
       },
       {
         "properties": {
@@ -176995,7 +177797,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17654
+        "id": 17750
       },
       {
         "properties": {
@@ -177004,7 +177806,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17655
+        "id": 17751
       },
       {
         "properties": {
@@ -177013,7 +177815,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17656
+        "id": 17752
       },
       {
         "properties": {
@@ -177022,7 +177824,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17657
+        "id": 17753
       },
       {
         "properties": {
@@ -177031,7 +177833,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17658
+        "id": 17754
       }
     ]
   },
@@ -177067,7 +177869,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17659
+        "id": 17755
       },
       {
         "properties": {
@@ -177076,7 +177878,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17660
+        "id": 17756
       },
       {
         "properties": {
@@ -177085,7 +177887,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17661
+        "id": 17757
       },
       {
         "properties": {
@@ -177094,7 +177896,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17662
+        "id": 17758
       },
       {
         "properties": {
@@ -177103,7 +177905,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17663
+        "id": 17759
       },
       {
         "properties": {
@@ -177112,7 +177914,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17664
+        "id": 17760
       },
       {
         "properties": {
@@ -177121,7 +177923,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17665
+        "id": 17761
       },
       {
         "properties": {
@@ -177130,7 +177932,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17666
+        "id": 17762
       },
       {
         "properties": {
@@ -177139,7 +177941,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17667
+        "id": 17763
       },
       {
         "properties": {
@@ -177148,7 +177950,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17668
+        "id": 17764
       },
       {
         "properties": {
@@ -177157,7 +177959,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17669
+        "id": 17765
       },
       {
         "properties": {
@@ -177166,7 +177968,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17670,
+        "id": 17766,
         "default": true
       },
       {
@@ -177176,7 +177978,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17671
+        "id": 17767
       },
       {
         "properties": {
@@ -177185,7 +177987,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17672
+        "id": 17768
       },
       {
         "properties": {
@@ -177194,7 +177996,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17673
+        "id": 17769
       },
       {
         "properties": {
@@ -177203,7 +178005,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17674
+        "id": 17770
       },
       {
         "properties": {
@@ -177212,7 +178014,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17675
+        "id": 17771
       },
       {
         "properties": {
@@ -177221,7 +178023,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17676
+        "id": 17772
       },
       {
         "properties": {
@@ -177230,7 +178032,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17677
+        "id": 17773
       },
       {
         "properties": {
@@ -177239,7 +178041,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17678
+        "id": 17774
       },
       {
         "properties": {
@@ -177248,7 +178050,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17679
+        "id": 17775
       },
       {
         "properties": {
@@ -177257,7 +178059,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17680
+        "id": 17776
       },
       {
         "properties": {
@@ -177266,7 +178068,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17681
+        "id": 17777
       },
       {
         "properties": {
@@ -177275,7 +178077,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17682
+        "id": 17778
       },
       {
         "properties": {
@@ -177284,7 +178086,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17683
+        "id": 17779
       },
       {
         "properties": {
@@ -177293,7 +178095,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17684
+        "id": 17780
       },
       {
         "properties": {
@@ -177302,7 +178104,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17685
+        "id": 17781
       },
       {
         "properties": {
@@ -177311,7 +178113,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17686
+        "id": 17782
       },
       {
         "properties": {
@@ -177320,7 +178122,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17687
+        "id": 17783
       },
       {
         "properties": {
@@ -177329,7 +178131,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17688
+        "id": 17784
       },
       {
         "properties": {
@@ -177338,7 +178140,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17689
+        "id": 17785
       },
       {
         "properties": {
@@ -177347,7 +178149,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17690
+        "id": 17786
       },
       {
         "properties": {
@@ -177356,7 +178158,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17691
+        "id": 17787
       },
       {
         "properties": {
@@ -177365,7 +178167,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17692
+        "id": 17788
       },
       {
         "properties": {
@@ -177374,7 +178176,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17693
+        "id": 17789
       },
       {
         "properties": {
@@ -177383,7 +178185,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17694
+        "id": 17790
       },
       {
         "properties": {
@@ -177392,7 +178194,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17695
+        "id": 17791
       },
       {
         "properties": {
@@ -177401,7 +178203,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17696
+        "id": 17792
       },
       {
         "properties": {
@@ -177410,7 +178212,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17697
+        "id": 17793
       },
       {
         "properties": {
@@ -177419,7 +178221,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17698
+        "id": 17794
       },
       {
         "properties": {
@@ -177428,7 +178230,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17699
+        "id": 17795
       },
       {
         "properties": {
@@ -177437,7 +178239,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17700
+        "id": 17796
       },
       {
         "properties": {
@@ -177446,7 +178248,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17701
+        "id": 17797
       },
       {
         "properties": {
@@ -177455,7 +178257,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17702
+        "id": 17798
       },
       {
         "properties": {
@@ -177464,7 +178266,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17703
+        "id": 17799
       },
       {
         "properties": {
@@ -177473,7 +178275,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17704
+        "id": 17800
       },
       {
         "properties": {
@@ -177482,7 +178284,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17705
+        "id": 17801
       },
       {
         "properties": {
@@ -177491,7 +178293,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17706
+        "id": 17802
       },
       {
         "properties": {
@@ -177500,7 +178302,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17707
+        "id": 17803
       },
       {
         "properties": {
@@ -177509,7 +178311,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17708
+        "id": 17804
       },
       {
         "properties": {
@@ -177518,7 +178320,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17709
+        "id": 17805
       },
       {
         "properties": {
@@ -177527,7 +178329,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17710
+        "id": 17806
       },
       {
         "properties": {
@@ -177536,7 +178338,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17711
+        "id": 17807
       },
       {
         "properties": {
@@ -177545,7 +178347,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17712
+        "id": 17808
       },
       {
         "properties": {
@@ -177554,7 +178356,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17713
+        "id": 17809
       },
       {
         "properties": {
@@ -177563,7 +178365,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17714
+        "id": 17810
       },
       {
         "properties": {
@@ -177572,7 +178374,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17715
+        "id": 17811
       },
       {
         "properties": {
@@ -177581,7 +178383,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17716
+        "id": 17812
       },
       {
         "properties": {
@@ -177590,7 +178392,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17717
+        "id": 17813
       },
       {
         "properties": {
@@ -177599,7 +178401,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17718
+        "id": 17814
       },
       {
         "properties": {
@@ -177608,7 +178410,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17719
+        "id": 17815
       },
       {
         "properties": {
@@ -177617,7 +178419,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17720
+        "id": 17816
       },
       {
         "properties": {
@@ -177626,7 +178428,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17721
+        "id": 17817
       },
       {
         "properties": {
@@ -177635,7 +178437,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17722
+        "id": 17818
       },
       {
         "properties": {
@@ -177644,7 +178446,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17723
+        "id": 17819
       },
       {
         "properties": {
@@ -177653,7 +178455,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17724
+        "id": 17820
       },
       {
         "properties": {
@@ -177662,7 +178464,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17725
+        "id": 17821
       },
       {
         "properties": {
@@ -177671,7 +178473,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17726
+        "id": 17822
       },
       {
         "properties": {
@@ -177680,7 +178482,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17727
+        "id": 17823
       },
       {
         "properties": {
@@ -177689,7 +178491,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17728
+        "id": 17824
       },
       {
         "properties": {
@@ -177698,7 +178500,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17729
+        "id": 17825
       },
       {
         "properties": {
@@ -177707,7 +178509,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17730
+        "id": 17826
       },
       {
         "properties": {
@@ -177716,7 +178518,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17731
+        "id": 17827
       },
       {
         "properties": {
@@ -177725,7 +178527,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17732
+        "id": 17828
       },
       {
         "properties": {
@@ -177734,7 +178536,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17733
+        "id": 17829
       },
       {
         "properties": {
@@ -177743,7 +178545,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17734
+        "id": 17830
       },
       {
         "properties": {
@@ -177752,7 +178554,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17735
+        "id": 17831
       },
       {
         "properties": {
@@ -177761,7 +178563,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17736
+        "id": 17832
       },
       {
         "properties": {
@@ -177770,7 +178572,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17737
+        "id": 17833
       },
       {
         "properties": {
@@ -177779,7 +178581,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17738
+        "id": 17834
       }
     ]
   },
@@ -177815,7 +178617,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17739
+        "id": 17835
       },
       {
         "properties": {
@@ -177824,7 +178626,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17740
+        "id": 17836
       },
       {
         "properties": {
@@ -177833,7 +178635,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17741
+        "id": 17837
       },
       {
         "properties": {
@@ -177842,7 +178644,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17742
+        "id": 17838
       },
       {
         "properties": {
@@ -177851,7 +178653,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17743
+        "id": 17839
       },
       {
         "properties": {
@@ -177860,7 +178662,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17744
+        "id": 17840
       },
       {
         "properties": {
@@ -177869,7 +178671,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17745
+        "id": 17841
       },
       {
         "properties": {
@@ -177878,7 +178680,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17746
+        "id": 17842
       },
       {
         "properties": {
@@ -177887,7 +178689,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17747
+        "id": 17843
       },
       {
         "properties": {
@@ -177896,7 +178698,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17748
+        "id": 17844
       },
       {
         "properties": {
@@ -177905,7 +178707,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17749
+        "id": 17845
       },
       {
         "properties": {
@@ -177914,7 +178716,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17750,
+        "id": 17846,
         "default": true
       },
       {
@@ -177924,7 +178726,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17751
+        "id": 17847
       },
       {
         "properties": {
@@ -177933,7 +178735,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17752
+        "id": 17848
       },
       {
         "properties": {
@@ -177942,7 +178744,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17753
+        "id": 17849
       },
       {
         "properties": {
@@ -177951,7 +178753,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17754
+        "id": 17850
       },
       {
         "properties": {
@@ -177960,7 +178762,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17755
+        "id": 17851
       },
       {
         "properties": {
@@ -177969,7 +178771,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17756
+        "id": 17852
       },
       {
         "properties": {
@@ -177978,7 +178780,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17757
+        "id": 17853
       },
       {
         "properties": {
@@ -177987,7 +178789,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17758
+        "id": 17854
       },
       {
         "properties": {
@@ -177996,7 +178798,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17759
+        "id": 17855
       },
       {
         "properties": {
@@ -178005,7 +178807,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17760
+        "id": 17856
       },
       {
         "properties": {
@@ -178014,7 +178816,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17761
+        "id": 17857
       },
       {
         "properties": {
@@ -178023,7 +178825,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17762
+        "id": 17858
       },
       {
         "properties": {
@@ -178032,7 +178834,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17763
+        "id": 17859
       },
       {
         "properties": {
@@ -178041,7 +178843,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17764
+        "id": 17860
       },
       {
         "properties": {
@@ -178050,7 +178852,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17765
+        "id": 17861
       },
       {
         "properties": {
@@ -178059,7 +178861,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17766
+        "id": 17862
       },
       {
         "properties": {
@@ -178068,7 +178870,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17767
+        "id": 17863
       },
       {
         "properties": {
@@ -178077,7 +178879,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17768
+        "id": 17864
       },
       {
         "properties": {
@@ -178086,7 +178888,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17769
+        "id": 17865
       },
       {
         "properties": {
@@ -178095,7 +178897,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17770
+        "id": 17866
       },
       {
         "properties": {
@@ -178104,7 +178906,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17771
+        "id": 17867
       },
       {
         "properties": {
@@ -178113,7 +178915,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17772
+        "id": 17868
       },
       {
         "properties": {
@@ -178122,7 +178924,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17773
+        "id": 17869
       },
       {
         "properties": {
@@ -178131,7 +178933,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17774
+        "id": 17870
       },
       {
         "properties": {
@@ -178140,7 +178942,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17775
+        "id": 17871
       },
       {
         "properties": {
@@ -178149,7 +178951,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17776
+        "id": 17872
       },
       {
         "properties": {
@@ -178158,7 +178960,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17777
+        "id": 17873
       },
       {
         "properties": {
@@ -178167,7 +178969,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17778
+        "id": 17874
       },
       {
         "properties": {
@@ -178176,7 +178978,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17779
+        "id": 17875
       },
       {
         "properties": {
@@ -178185,7 +178987,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17780
+        "id": 17876
       },
       {
         "properties": {
@@ -178194,7 +178996,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17781
+        "id": 17877
       },
       {
         "properties": {
@@ -178203,7 +179005,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17782
+        "id": 17878
       },
       {
         "properties": {
@@ -178212,7 +179014,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17783
+        "id": 17879
       },
       {
         "properties": {
@@ -178221,7 +179023,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17784
+        "id": 17880
       },
       {
         "properties": {
@@ -178230,7 +179032,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17785
+        "id": 17881
       },
       {
         "properties": {
@@ -178239,7 +179041,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17786
+        "id": 17882
       },
       {
         "properties": {
@@ -178248,7 +179050,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17787
+        "id": 17883
       },
       {
         "properties": {
@@ -178257,7 +179059,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17788
+        "id": 17884
       },
       {
         "properties": {
@@ -178266,7 +179068,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17789
+        "id": 17885
       },
       {
         "properties": {
@@ -178275,7 +179077,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17790
+        "id": 17886
       },
       {
         "properties": {
@@ -178284,7 +179086,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17791
+        "id": 17887
       },
       {
         "properties": {
@@ -178293,7 +179095,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17792
+        "id": 17888
       },
       {
         "properties": {
@@ -178302,7 +179104,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17793
+        "id": 17889
       },
       {
         "properties": {
@@ -178311,7 +179113,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17794
+        "id": 17890
       },
       {
         "properties": {
@@ -178320,7 +179122,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17795
+        "id": 17891
       },
       {
         "properties": {
@@ -178329,7 +179131,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17796
+        "id": 17892
       },
       {
         "properties": {
@@ -178338,7 +179140,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17797
+        "id": 17893
       },
       {
         "properties": {
@@ -178347,7 +179149,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17798
+        "id": 17894
       },
       {
         "properties": {
@@ -178356,7 +179158,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17799
+        "id": 17895
       },
       {
         "properties": {
@@ -178365,7 +179167,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17800
+        "id": 17896
       },
       {
         "properties": {
@@ -178374,7 +179176,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17801
+        "id": 17897
       },
       {
         "properties": {
@@ -178383,7 +179185,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17802
+        "id": 17898
       },
       {
         "properties": {
@@ -178392,7 +179194,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17803
+        "id": 17899
       },
       {
         "properties": {
@@ -178401,7 +179203,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17804
+        "id": 17900
       },
       {
         "properties": {
@@ -178410,7 +179212,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17805
+        "id": 17901
       },
       {
         "properties": {
@@ -178419,7 +179221,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17806
+        "id": 17902
       },
       {
         "properties": {
@@ -178428,7 +179230,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17807
+        "id": 17903
       },
       {
         "properties": {
@@ -178437,7 +179239,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17808
+        "id": 17904
       },
       {
         "properties": {
@@ -178446,7 +179248,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17809
+        "id": 17905
       },
       {
         "properties": {
@@ -178455,7 +179257,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17810
+        "id": 17906
       },
       {
         "properties": {
@@ -178464,7 +179266,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17811
+        "id": 17907
       },
       {
         "properties": {
@@ -178473,7 +179275,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17812
+        "id": 17908
       },
       {
         "properties": {
@@ -178482,7 +179284,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17813
+        "id": 17909
       },
       {
         "properties": {
@@ -178491,7 +179293,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17814
+        "id": 17910
       },
       {
         "properties": {
@@ -178500,7 +179302,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17815
+        "id": 17911
       },
       {
         "properties": {
@@ -178509,7 +179311,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17816
+        "id": 17912
       },
       {
         "properties": {
@@ -178518,7 +179320,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17817
+        "id": 17913
       },
       {
         "properties": {
@@ -178527,7 +179329,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17818
+        "id": 17914
       }
     ]
   },
@@ -178563,7 +179365,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17819
+        "id": 17915
       },
       {
         "properties": {
@@ -178572,7 +179374,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17820
+        "id": 17916
       },
       {
         "properties": {
@@ -178581,7 +179383,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17821
+        "id": 17917
       },
       {
         "properties": {
@@ -178590,7 +179392,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17822
+        "id": 17918
       },
       {
         "properties": {
@@ -178599,7 +179401,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17823
+        "id": 17919
       },
       {
         "properties": {
@@ -178608,7 +179410,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17824
+        "id": 17920
       },
       {
         "properties": {
@@ -178617,7 +179419,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17825
+        "id": 17921
       },
       {
         "properties": {
@@ -178626,7 +179428,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17826
+        "id": 17922
       },
       {
         "properties": {
@@ -178635,7 +179437,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17827
+        "id": 17923
       },
       {
         "properties": {
@@ -178644,7 +179446,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17828
+        "id": 17924
       },
       {
         "properties": {
@@ -178653,7 +179455,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17829
+        "id": 17925
       },
       {
         "properties": {
@@ -178662,7 +179464,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17830,
+        "id": 17926,
         "default": true
       },
       {
@@ -178672,7 +179474,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17831
+        "id": 17927
       },
       {
         "properties": {
@@ -178681,7 +179483,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17832
+        "id": 17928
       },
       {
         "properties": {
@@ -178690,7 +179492,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17833
+        "id": 17929
       },
       {
         "properties": {
@@ -178699,7 +179501,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17834
+        "id": 17930
       },
       {
         "properties": {
@@ -178708,7 +179510,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17835
+        "id": 17931
       },
       {
         "properties": {
@@ -178717,7 +179519,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17836
+        "id": 17932
       },
       {
         "properties": {
@@ -178726,7 +179528,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17837
+        "id": 17933
       },
       {
         "properties": {
@@ -178735,7 +179537,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17838
+        "id": 17934
       },
       {
         "properties": {
@@ -178744,7 +179546,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17839
+        "id": 17935
       },
       {
         "properties": {
@@ -178753,7 +179555,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17840
+        "id": 17936
       },
       {
         "properties": {
@@ -178762,7 +179564,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17841
+        "id": 17937
       },
       {
         "properties": {
@@ -178771,7 +179573,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17842
+        "id": 17938
       },
       {
         "properties": {
@@ -178780,7 +179582,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17843
+        "id": 17939
       },
       {
         "properties": {
@@ -178789,7 +179591,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17844
+        "id": 17940
       },
       {
         "properties": {
@@ -178798,7 +179600,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17845
+        "id": 17941
       },
       {
         "properties": {
@@ -178807,7 +179609,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17846
+        "id": 17942
       },
       {
         "properties": {
@@ -178816,7 +179618,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17847
+        "id": 17943
       },
       {
         "properties": {
@@ -178825,7 +179627,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17848
+        "id": 17944
       },
       {
         "properties": {
@@ -178834,7 +179636,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17849
+        "id": 17945
       },
       {
         "properties": {
@@ -178843,7 +179645,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17850
+        "id": 17946
       },
       {
         "properties": {
@@ -178852,7 +179654,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17851
+        "id": 17947
       },
       {
         "properties": {
@@ -178861,7 +179663,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17852
+        "id": 17948
       },
       {
         "properties": {
@@ -178870,7 +179672,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17853
+        "id": 17949
       },
       {
         "properties": {
@@ -178879,7 +179681,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17854
+        "id": 17950
       },
       {
         "properties": {
@@ -178888,7 +179690,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17855
+        "id": 17951
       },
       {
         "properties": {
@@ -178897,7 +179699,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17856
+        "id": 17952
       },
       {
         "properties": {
@@ -178906,7 +179708,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17857
+        "id": 17953
       },
       {
         "properties": {
@@ -178915,7 +179717,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17858
+        "id": 17954
       },
       {
         "properties": {
@@ -178924,7 +179726,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17859
+        "id": 17955
       },
       {
         "properties": {
@@ -178933,7 +179735,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17860
+        "id": 17956
       },
       {
         "properties": {
@@ -178942,7 +179744,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17861
+        "id": 17957
       },
       {
         "properties": {
@@ -178951,7 +179753,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17862
+        "id": 17958
       },
       {
         "properties": {
@@ -178960,7 +179762,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17863
+        "id": 17959
       },
       {
         "properties": {
@@ -178969,7 +179771,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17864
+        "id": 17960
       },
       {
         "properties": {
@@ -178978,7 +179780,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17865
+        "id": 17961
       },
       {
         "properties": {
@@ -178987,7 +179789,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17866
+        "id": 17962
       },
       {
         "properties": {
@@ -178996,7 +179798,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17867
+        "id": 17963
       },
       {
         "properties": {
@@ -179005,7 +179807,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17868
+        "id": 17964
       },
       {
         "properties": {
@@ -179014,7 +179816,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17869
+        "id": 17965
       },
       {
         "properties": {
@@ -179023,7 +179825,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17870
+        "id": 17966
       },
       {
         "properties": {
@@ -179032,7 +179834,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17871
+        "id": 17967
       },
       {
         "properties": {
@@ -179041,7 +179843,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17872
+        "id": 17968
       },
       {
         "properties": {
@@ -179050,7 +179852,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17873
+        "id": 17969
       },
       {
         "properties": {
@@ -179059,7 +179861,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17874
+        "id": 17970
       },
       {
         "properties": {
@@ -179068,7 +179870,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17875
+        "id": 17971
       },
       {
         "properties": {
@@ -179077,7 +179879,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17876
+        "id": 17972
       },
       {
         "properties": {
@@ -179086,7 +179888,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17877
+        "id": 17973
       },
       {
         "properties": {
@@ -179095,7 +179897,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17878
+        "id": 17974
       },
       {
         "properties": {
@@ -179104,7 +179906,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17879
+        "id": 17975
       },
       {
         "properties": {
@@ -179113,7 +179915,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17880
+        "id": 17976
       },
       {
         "properties": {
@@ -179122,7 +179924,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17881
+        "id": 17977
       },
       {
         "properties": {
@@ -179131,7 +179933,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17882
+        "id": 17978
       },
       {
         "properties": {
@@ -179140,7 +179942,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17883
+        "id": 17979
       },
       {
         "properties": {
@@ -179149,7 +179951,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17884
+        "id": 17980
       },
       {
         "properties": {
@@ -179158,7 +179960,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17885
+        "id": 17981
       },
       {
         "properties": {
@@ -179167,7 +179969,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17886
+        "id": 17982
       },
       {
         "properties": {
@@ -179176,7 +179978,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17887
+        "id": 17983
       },
       {
         "properties": {
@@ -179185,7 +179987,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17888
+        "id": 17984
       },
       {
         "properties": {
@@ -179194,7 +179996,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17889
+        "id": 17985
       },
       {
         "properties": {
@@ -179203,7 +180005,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17890
+        "id": 17986
       },
       {
         "properties": {
@@ -179212,7 +180014,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17891
+        "id": 17987
       },
       {
         "properties": {
@@ -179221,7 +180023,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17892
+        "id": 17988
       },
       {
         "properties": {
@@ -179230,7 +180032,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17893
+        "id": 17989
       },
       {
         "properties": {
@@ -179239,7 +180041,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17894
+        "id": 17990
       },
       {
         "properties": {
@@ -179248,7 +180050,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17895
+        "id": 17991
       },
       {
         "properties": {
@@ -179257,7 +180059,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17896
+        "id": 17992
       },
       {
         "properties": {
@@ -179266,7 +180068,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17897
+        "id": 17993
       },
       {
         "properties": {
@@ -179275,7 +180077,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17898
+        "id": 17994
       }
     ]
   },
@@ -179297,28 +180099,28 @@
           "type": "top",
           "waterlogged": "true"
         },
-        "id": 17899
+        "id": 17995
       },
       {
         "properties": {
           "type": "top",
           "waterlogged": "false"
         },
-        "id": 17900
+        "id": 17996
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "true"
         },
-        "id": 17901
+        "id": 17997
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "false"
         },
-        "id": 17902,
+        "id": 17998,
         "default": true
       },
       {
@@ -179326,14 +180128,14 @@
           "type": "double",
           "waterlogged": "true"
         },
-        "id": 17903
+        "id": 17999
       },
       {
         "properties": {
           "type": "double",
           "waterlogged": "false"
         },
-        "id": 17904
+        "id": 18000
       }
     ]
   },
@@ -179355,28 +180157,28 @@
           "type": "top",
           "waterlogged": "true"
         },
-        "id": 17905
+        "id": 18001
       },
       {
         "properties": {
           "type": "top",
           "waterlogged": "false"
         },
-        "id": 17906
+        "id": 18002
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "true"
         },
-        "id": 17907
+        "id": 18003
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "false"
         },
-        "id": 17908,
+        "id": 18004,
         "default": true
       },
       {
@@ -179384,14 +180186,14 @@
           "type": "double",
           "waterlogged": "true"
         },
-        "id": 17909
+        "id": 18005
       },
       {
         "properties": {
           "type": "double",
           "waterlogged": "false"
         },
-        "id": 17910
+        "id": 18006
       }
     ]
   },
@@ -179413,28 +180215,28 @@
           "type": "top",
           "waterlogged": "true"
         },
-        "id": 17911
+        "id": 18007
       },
       {
         "properties": {
           "type": "top",
           "waterlogged": "false"
         },
-        "id": 17912
+        "id": 18008
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "true"
         },
-        "id": 17913
+        "id": 18009
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "false"
         },
-        "id": 17914,
+        "id": 18010,
         "default": true
       },
       {
@@ -179442,14 +180244,14 @@
           "type": "double",
           "waterlogged": "true"
         },
-        "id": 17915
+        "id": 18011
       },
       {
         "properties": {
           "type": "double",
           "waterlogged": "false"
         },
-        "id": 17916
+        "id": 18012
       }
     ]
   },
@@ -179471,28 +180273,28 @@
           "type": "top",
           "waterlogged": "true"
         },
-        "id": 17917
+        "id": 18013
       },
       {
         "properties": {
           "type": "top",
           "waterlogged": "false"
         },
-        "id": 17918
+        "id": 18014
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "true"
         },
-        "id": 17919
+        "id": 18015
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "false"
         },
-        "id": 17920,
+        "id": 18016,
         "default": true
       },
       {
@@ -179500,21 +180302,21 @@
           "type": "double",
           "waterlogged": "true"
         },
-        "id": 17921
+        "id": 18017
       },
       {
         "properties": {
           "type": "double",
           "waterlogged": "false"
         },
-        "id": 17922
+        "id": 18018
       }
     ]
   },
   "minecraft:waxed_copper": {
     "states": [
       {
-        "id": 17923,
+        "id": 18019,
         "default": true
       }
     ]
@@ -179522,7 +180324,7 @@
   "minecraft:waxed_semi_weathered_copper": {
     "states": [
       {
-        "id": 17924,
+        "id": 18020,
         "default": true
       }
     ]
@@ -179530,7 +180332,7 @@
   "minecraft:waxed_lightly_weathered_copper": {
     "states": [
       {
-        "id": 17925,
+        "id": 18021,
         "default": true
       }
     ]
@@ -179538,7 +180340,7 @@
   "minecraft:waxed_semi_weathered_cut_copper": {
     "states": [
       {
-        "id": 17926,
+        "id": 18022,
         "default": true
       }
     ]
@@ -179546,7 +180348,7 @@
   "minecraft:waxed_lightly_weathered_cut_copper": {
     "states": [
       {
-        "id": 17927,
+        "id": 18023,
         "default": true
       }
     ]
@@ -179554,7 +180356,7 @@
   "minecraft:waxed_cut_copper": {
     "states": [
       {
-        "id": 17928,
+        "id": 18024,
         "default": true
       }
     ]
@@ -179591,7 +180393,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17929
+        "id": 18025
       },
       {
         "properties": {
@@ -179600,7 +180402,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17930
+        "id": 18026
       },
       {
         "properties": {
@@ -179609,7 +180411,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17931
+        "id": 18027
       },
       {
         "properties": {
@@ -179618,7 +180420,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17932
+        "id": 18028
       },
       {
         "properties": {
@@ -179627,7 +180429,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17933
+        "id": 18029
       },
       {
         "properties": {
@@ -179636,7 +180438,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17934
+        "id": 18030
       },
       {
         "properties": {
@@ -179645,7 +180447,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17935
+        "id": 18031
       },
       {
         "properties": {
@@ -179654,7 +180456,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17936
+        "id": 18032
       },
       {
         "properties": {
@@ -179663,7 +180465,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17937
+        "id": 18033
       },
       {
         "properties": {
@@ -179672,7 +180474,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17938
+        "id": 18034
       },
       {
         "properties": {
@@ -179681,7 +180483,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17939
+        "id": 18035
       },
       {
         "properties": {
@@ -179690,7 +180492,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17940,
+        "id": 18036,
         "default": true
       },
       {
@@ -179700,7 +180502,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17941
+        "id": 18037
       },
       {
         "properties": {
@@ -179709,7 +180511,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17942
+        "id": 18038
       },
       {
         "properties": {
@@ -179718,7 +180520,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17943
+        "id": 18039
       },
       {
         "properties": {
@@ -179727,7 +180529,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17944
+        "id": 18040
       },
       {
         "properties": {
@@ -179736,7 +180538,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17945
+        "id": 18041
       },
       {
         "properties": {
@@ -179745,7 +180547,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17946
+        "id": 18042
       },
       {
         "properties": {
@@ -179754,7 +180556,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17947
+        "id": 18043
       },
       {
         "properties": {
@@ -179763,7 +180565,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17948
+        "id": 18044
       },
       {
         "properties": {
@@ -179772,7 +180574,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17949
+        "id": 18045
       },
       {
         "properties": {
@@ -179781,7 +180583,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17950
+        "id": 18046
       },
       {
         "properties": {
@@ -179790,7 +180592,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17951
+        "id": 18047
       },
       {
         "properties": {
@@ -179799,7 +180601,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17952
+        "id": 18048
       },
       {
         "properties": {
@@ -179808,7 +180610,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17953
+        "id": 18049
       },
       {
         "properties": {
@@ -179817,7 +180619,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17954
+        "id": 18050
       },
       {
         "properties": {
@@ -179826,7 +180628,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17955
+        "id": 18051
       },
       {
         "properties": {
@@ -179835,7 +180637,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17956
+        "id": 18052
       },
       {
         "properties": {
@@ -179844,7 +180646,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17957
+        "id": 18053
       },
       {
         "properties": {
@@ -179853,7 +180655,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17958
+        "id": 18054
       },
       {
         "properties": {
@@ -179862,7 +180664,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17959
+        "id": 18055
       },
       {
         "properties": {
@@ -179871,7 +180673,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17960
+        "id": 18056
       },
       {
         "properties": {
@@ -179880,7 +180682,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17961
+        "id": 18057
       },
       {
         "properties": {
@@ -179889,7 +180691,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17962
+        "id": 18058
       },
       {
         "properties": {
@@ -179898,7 +180700,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17963
+        "id": 18059
       },
       {
         "properties": {
@@ -179907,7 +180709,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17964
+        "id": 18060
       },
       {
         "properties": {
@@ -179916,7 +180718,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17965
+        "id": 18061
       },
       {
         "properties": {
@@ -179925,7 +180727,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17966
+        "id": 18062
       },
       {
         "properties": {
@@ -179934,7 +180736,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17967
+        "id": 18063
       },
       {
         "properties": {
@@ -179943,7 +180745,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17968
+        "id": 18064
       },
       {
         "properties": {
@@ -179952,7 +180754,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17969
+        "id": 18065
       },
       {
         "properties": {
@@ -179961,7 +180763,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17970
+        "id": 18066
       },
       {
         "properties": {
@@ -179970,7 +180772,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17971
+        "id": 18067
       },
       {
         "properties": {
@@ -179979,7 +180781,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17972
+        "id": 18068
       },
       {
         "properties": {
@@ -179988,7 +180790,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17973
+        "id": 18069
       },
       {
         "properties": {
@@ -179997,7 +180799,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17974
+        "id": 18070
       },
       {
         "properties": {
@@ -180006,7 +180808,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17975
+        "id": 18071
       },
       {
         "properties": {
@@ -180015,7 +180817,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17976
+        "id": 18072
       },
       {
         "properties": {
@@ -180024,7 +180826,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17977
+        "id": 18073
       },
       {
         "properties": {
@@ -180033,7 +180835,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17978
+        "id": 18074
       },
       {
         "properties": {
@@ -180042,7 +180844,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17979
+        "id": 18075
       },
       {
         "properties": {
@@ -180051,7 +180853,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17980
+        "id": 18076
       },
       {
         "properties": {
@@ -180060,7 +180862,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17981
+        "id": 18077
       },
       {
         "properties": {
@@ -180069,7 +180871,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17982
+        "id": 18078
       },
       {
         "properties": {
@@ -180078,7 +180880,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17983
+        "id": 18079
       },
       {
         "properties": {
@@ -180087,7 +180889,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17984
+        "id": 18080
       },
       {
         "properties": {
@@ -180096,7 +180898,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17985
+        "id": 18081
       },
       {
         "properties": {
@@ -180105,7 +180907,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17986
+        "id": 18082
       },
       {
         "properties": {
@@ -180114,7 +180916,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17987
+        "id": 18083
       },
       {
         "properties": {
@@ -180123,7 +180925,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17988
+        "id": 18084
       },
       {
         "properties": {
@@ -180132,7 +180934,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17989
+        "id": 18085
       },
       {
         "properties": {
@@ -180141,7 +180943,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 17990
+        "id": 18086
       },
       {
         "properties": {
@@ -180150,7 +180952,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 17991
+        "id": 18087
       },
       {
         "properties": {
@@ -180159,7 +180961,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 17992
+        "id": 18088
       },
       {
         "properties": {
@@ -180168,7 +180970,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 17993
+        "id": 18089
       },
       {
         "properties": {
@@ -180177,7 +180979,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 17994
+        "id": 18090
       },
       {
         "properties": {
@@ -180186,7 +180988,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 17995
+        "id": 18091
       },
       {
         "properties": {
@@ -180195,7 +180997,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 17996
+        "id": 18092
       },
       {
         "properties": {
@@ -180204,7 +181006,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 17997
+        "id": 18093
       },
       {
         "properties": {
@@ -180213,7 +181015,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 17998
+        "id": 18094
       },
       {
         "properties": {
@@ -180222,7 +181024,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 17999
+        "id": 18095
       },
       {
         "properties": {
@@ -180231,7 +181033,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18000
+        "id": 18096
       },
       {
         "properties": {
@@ -180240,7 +181042,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18001
+        "id": 18097
       },
       {
         "properties": {
@@ -180249,7 +181051,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18002
+        "id": 18098
       },
       {
         "properties": {
@@ -180258,7 +181060,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18003
+        "id": 18099
       },
       {
         "properties": {
@@ -180267,7 +181069,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18004
+        "id": 18100
       },
       {
         "properties": {
@@ -180276,7 +181078,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18005
+        "id": 18101
       },
       {
         "properties": {
@@ -180285,7 +181087,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18006
+        "id": 18102
       },
       {
         "properties": {
@@ -180294,7 +181096,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18007
+        "id": 18103
       },
       {
         "properties": {
@@ -180303,7 +181105,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18008
+        "id": 18104
       }
     ]
   },
@@ -180339,7 +181141,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18009
+        "id": 18105
       },
       {
         "properties": {
@@ -180348,7 +181150,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18010
+        "id": 18106
       },
       {
         "properties": {
@@ -180357,7 +181159,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18011
+        "id": 18107
       },
       {
         "properties": {
@@ -180366,7 +181168,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18012
+        "id": 18108
       },
       {
         "properties": {
@@ -180375,7 +181177,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18013
+        "id": 18109
       },
       {
         "properties": {
@@ -180384,7 +181186,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18014
+        "id": 18110
       },
       {
         "properties": {
@@ -180393,7 +181195,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18015
+        "id": 18111
       },
       {
         "properties": {
@@ -180402,7 +181204,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18016
+        "id": 18112
       },
       {
         "properties": {
@@ -180411,7 +181213,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18017
+        "id": 18113
       },
       {
         "properties": {
@@ -180420,7 +181222,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18018
+        "id": 18114
       },
       {
         "properties": {
@@ -180429,7 +181231,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18019
+        "id": 18115
       },
       {
         "properties": {
@@ -180438,7 +181240,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18020,
+        "id": 18116,
         "default": true
       },
       {
@@ -180448,7 +181250,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18021
+        "id": 18117
       },
       {
         "properties": {
@@ -180457,7 +181259,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18022
+        "id": 18118
       },
       {
         "properties": {
@@ -180466,7 +181268,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18023
+        "id": 18119
       },
       {
         "properties": {
@@ -180475,7 +181277,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18024
+        "id": 18120
       },
       {
         "properties": {
@@ -180484,7 +181286,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18025
+        "id": 18121
       },
       {
         "properties": {
@@ -180493,7 +181295,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18026
+        "id": 18122
       },
       {
         "properties": {
@@ -180502,7 +181304,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18027
+        "id": 18123
       },
       {
         "properties": {
@@ -180511,7 +181313,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18028
+        "id": 18124
       },
       {
         "properties": {
@@ -180520,7 +181322,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18029
+        "id": 18125
       },
       {
         "properties": {
@@ -180529,7 +181331,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18030
+        "id": 18126
       },
       {
         "properties": {
@@ -180538,7 +181340,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18031
+        "id": 18127
       },
       {
         "properties": {
@@ -180547,7 +181349,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18032
+        "id": 18128
       },
       {
         "properties": {
@@ -180556,7 +181358,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18033
+        "id": 18129
       },
       {
         "properties": {
@@ -180565,7 +181367,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18034
+        "id": 18130
       },
       {
         "properties": {
@@ -180574,7 +181376,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18035
+        "id": 18131
       },
       {
         "properties": {
@@ -180583,7 +181385,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18036
+        "id": 18132
       },
       {
         "properties": {
@@ -180592,7 +181394,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18037
+        "id": 18133
       },
       {
         "properties": {
@@ -180601,7 +181403,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18038
+        "id": 18134
       },
       {
         "properties": {
@@ -180610,7 +181412,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18039
+        "id": 18135
       },
       {
         "properties": {
@@ -180619,7 +181421,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18040
+        "id": 18136
       },
       {
         "properties": {
@@ -180628,7 +181430,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18041
+        "id": 18137
       },
       {
         "properties": {
@@ -180637,7 +181439,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18042
+        "id": 18138
       },
       {
         "properties": {
@@ -180646,7 +181448,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18043
+        "id": 18139
       },
       {
         "properties": {
@@ -180655,7 +181457,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18044
+        "id": 18140
       },
       {
         "properties": {
@@ -180664,7 +181466,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18045
+        "id": 18141
       },
       {
         "properties": {
@@ -180673,7 +181475,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18046
+        "id": 18142
       },
       {
         "properties": {
@@ -180682,7 +181484,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18047
+        "id": 18143
       },
       {
         "properties": {
@@ -180691,7 +181493,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18048
+        "id": 18144
       },
       {
         "properties": {
@@ -180700,7 +181502,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18049
+        "id": 18145
       },
       {
         "properties": {
@@ -180709,7 +181511,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18050
+        "id": 18146
       },
       {
         "properties": {
@@ -180718,7 +181520,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18051
+        "id": 18147
       },
       {
         "properties": {
@@ -180727,7 +181529,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18052
+        "id": 18148
       },
       {
         "properties": {
@@ -180736,7 +181538,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18053
+        "id": 18149
       },
       {
         "properties": {
@@ -180745,7 +181547,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18054
+        "id": 18150
       },
       {
         "properties": {
@@ -180754,7 +181556,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18055
+        "id": 18151
       },
       {
         "properties": {
@@ -180763,7 +181565,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18056
+        "id": 18152
       },
       {
         "properties": {
@@ -180772,7 +181574,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18057
+        "id": 18153
       },
       {
         "properties": {
@@ -180781,7 +181583,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18058
+        "id": 18154
       },
       {
         "properties": {
@@ -180790,7 +181592,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18059
+        "id": 18155
       },
       {
         "properties": {
@@ -180799,7 +181601,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18060
+        "id": 18156
       },
       {
         "properties": {
@@ -180808,7 +181610,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18061
+        "id": 18157
       },
       {
         "properties": {
@@ -180817,7 +181619,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18062
+        "id": 18158
       },
       {
         "properties": {
@@ -180826,7 +181628,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18063
+        "id": 18159
       },
       {
         "properties": {
@@ -180835,7 +181637,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18064
+        "id": 18160
       },
       {
         "properties": {
@@ -180844,7 +181646,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18065
+        "id": 18161
       },
       {
         "properties": {
@@ -180853,7 +181655,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18066
+        "id": 18162
       },
       {
         "properties": {
@@ -180862,7 +181664,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18067
+        "id": 18163
       },
       {
         "properties": {
@@ -180871,7 +181673,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18068
+        "id": 18164
       },
       {
         "properties": {
@@ -180880,7 +181682,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18069
+        "id": 18165
       },
       {
         "properties": {
@@ -180889,7 +181691,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18070
+        "id": 18166
       },
       {
         "properties": {
@@ -180898,7 +181700,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18071
+        "id": 18167
       },
       {
         "properties": {
@@ -180907,7 +181709,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18072
+        "id": 18168
       },
       {
         "properties": {
@@ -180916,7 +181718,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18073
+        "id": 18169
       },
       {
         "properties": {
@@ -180925,7 +181727,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18074
+        "id": 18170
       },
       {
         "properties": {
@@ -180934,7 +181736,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18075
+        "id": 18171
       },
       {
         "properties": {
@@ -180943,7 +181745,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18076
+        "id": 18172
       },
       {
         "properties": {
@@ -180952,7 +181754,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18077
+        "id": 18173
       },
       {
         "properties": {
@@ -180961,7 +181763,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18078
+        "id": 18174
       },
       {
         "properties": {
@@ -180970,7 +181772,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18079
+        "id": 18175
       },
       {
         "properties": {
@@ -180979,7 +181781,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18080
+        "id": 18176
       },
       {
         "properties": {
@@ -180988,7 +181790,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18081
+        "id": 18177
       },
       {
         "properties": {
@@ -180997,7 +181799,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18082
+        "id": 18178
       },
       {
         "properties": {
@@ -181006,7 +181808,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18083
+        "id": 18179
       },
       {
         "properties": {
@@ -181015,7 +181817,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18084
+        "id": 18180
       },
       {
         "properties": {
@@ -181024,7 +181826,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18085
+        "id": 18181
       },
       {
         "properties": {
@@ -181033,7 +181835,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18086
+        "id": 18182
       },
       {
         "properties": {
@@ -181042,7 +181844,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18087
+        "id": 18183
       },
       {
         "properties": {
@@ -181051,7 +181853,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18088
+        "id": 18184
       }
     ]
   },
@@ -181087,7 +181889,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18089
+        "id": 18185
       },
       {
         "properties": {
@@ -181096,7 +181898,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18090
+        "id": 18186
       },
       {
         "properties": {
@@ -181105,7 +181907,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18091
+        "id": 18187
       },
       {
         "properties": {
@@ -181114,7 +181916,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18092
+        "id": 18188
       },
       {
         "properties": {
@@ -181123,7 +181925,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18093
+        "id": 18189
       },
       {
         "properties": {
@@ -181132,7 +181934,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18094
+        "id": 18190
       },
       {
         "properties": {
@@ -181141,7 +181943,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18095
+        "id": 18191
       },
       {
         "properties": {
@@ -181150,7 +181952,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18096
+        "id": 18192
       },
       {
         "properties": {
@@ -181159,7 +181961,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18097
+        "id": 18193
       },
       {
         "properties": {
@@ -181168,7 +181970,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18098
+        "id": 18194
       },
       {
         "properties": {
@@ -181177,7 +181979,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18099
+        "id": 18195
       },
       {
         "properties": {
@@ -181186,7 +181988,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18100,
+        "id": 18196,
         "default": true
       },
       {
@@ -181196,7 +181998,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18101
+        "id": 18197
       },
       {
         "properties": {
@@ -181205,7 +182007,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18102
+        "id": 18198
       },
       {
         "properties": {
@@ -181214,7 +182016,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18103
+        "id": 18199
       },
       {
         "properties": {
@@ -181223,7 +182025,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18104
+        "id": 18200
       },
       {
         "properties": {
@@ -181232,7 +182034,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18105
+        "id": 18201
       },
       {
         "properties": {
@@ -181241,7 +182043,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18106
+        "id": 18202
       },
       {
         "properties": {
@@ -181250,7 +182052,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18107
+        "id": 18203
       },
       {
         "properties": {
@@ -181259,7 +182061,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18108
+        "id": 18204
       },
       {
         "properties": {
@@ -181268,7 +182070,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18109
+        "id": 18205
       },
       {
         "properties": {
@@ -181277,7 +182079,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18110
+        "id": 18206
       },
       {
         "properties": {
@@ -181286,7 +182088,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18111
+        "id": 18207
       },
       {
         "properties": {
@@ -181295,7 +182097,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18112
+        "id": 18208
       },
       {
         "properties": {
@@ -181304,7 +182106,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18113
+        "id": 18209
       },
       {
         "properties": {
@@ -181313,7 +182115,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18114
+        "id": 18210
       },
       {
         "properties": {
@@ -181322,7 +182124,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18115
+        "id": 18211
       },
       {
         "properties": {
@@ -181331,7 +182133,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18116
+        "id": 18212
       },
       {
         "properties": {
@@ -181340,7 +182142,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18117
+        "id": 18213
       },
       {
         "properties": {
@@ -181349,7 +182151,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18118
+        "id": 18214
       },
       {
         "properties": {
@@ -181358,7 +182160,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18119
+        "id": 18215
       },
       {
         "properties": {
@@ -181367,7 +182169,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18120
+        "id": 18216
       },
       {
         "properties": {
@@ -181376,7 +182178,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18121
+        "id": 18217
       },
       {
         "properties": {
@@ -181385,7 +182187,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18122
+        "id": 18218
       },
       {
         "properties": {
@@ -181394,7 +182196,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18123
+        "id": 18219
       },
       {
         "properties": {
@@ -181403,7 +182205,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18124
+        "id": 18220
       },
       {
         "properties": {
@@ -181412,7 +182214,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18125
+        "id": 18221
       },
       {
         "properties": {
@@ -181421,7 +182223,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18126
+        "id": 18222
       },
       {
         "properties": {
@@ -181430,7 +182232,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18127
+        "id": 18223
       },
       {
         "properties": {
@@ -181439,7 +182241,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18128
+        "id": 18224
       },
       {
         "properties": {
@@ -181448,7 +182250,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18129
+        "id": 18225
       },
       {
         "properties": {
@@ -181457,7 +182259,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18130
+        "id": 18226
       },
       {
         "properties": {
@@ -181466,7 +182268,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18131
+        "id": 18227
       },
       {
         "properties": {
@@ -181475,7 +182277,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18132
+        "id": 18228
       },
       {
         "properties": {
@@ -181484,7 +182286,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18133
+        "id": 18229
       },
       {
         "properties": {
@@ -181493,7 +182295,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18134
+        "id": 18230
       },
       {
         "properties": {
@@ -181502,7 +182304,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18135
+        "id": 18231
       },
       {
         "properties": {
@@ -181511,7 +182313,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18136
+        "id": 18232
       },
       {
         "properties": {
@@ -181520,7 +182322,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18137
+        "id": 18233
       },
       {
         "properties": {
@@ -181529,7 +182331,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18138
+        "id": 18234
       },
       {
         "properties": {
@@ -181538,7 +182340,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18139
+        "id": 18235
       },
       {
         "properties": {
@@ -181547,7 +182349,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18140
+        "id": 18236
       },
       {
         "properties": {
@@ -181556,7 +182358,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18141
+        "id": 18237
       },
       {
         "properties": {
@@ -181565,7 +182367,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18142
+        "id": 18238
       },
       {
         "properties": {
@@ -181574,7 +182376,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18143
+        "id": 18239
       },
       {
         "properties": {
@@ -181583,7 +182385,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18144
+        "id": 18240
       },
       {
         "properties": {
@@ -181592,7 +182394,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18145
+        "id": 18241
       },
       {
         "properties": {
@@ -181601,7 +182403,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18146
+        "id": 18242
       },
       {
         "properties": {
@@ -181610,7 +182412,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18147
+        "id": 18243
       },
       {
         "properties": {
@@ -181619,7 +182421,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18148
+        "id": 18244
       },
       {
         "properties": {
@@ -181628,7 +182430,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18149
+        "id": 18245
       },
       {
         "properties": {
@@ -181637,7 +182439,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18150
+        "id": 18246
       },
       {
         "properties": {
@@ -181646,7 +182448,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18151
+        "id": 18247
       },
       {
         "properties": {
@@ -181655,7 +182457,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18152
+        "id": 18248
       },
       {
         "properties": {
@@ -181664,7 +182466,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18153
+        "id": 18249
       },
       {
         "properties": {
@@ -181673,7 +182475,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18154
+        "id": 18250
       },
       {
         "properties": {
@@ -181682,7 +182484,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18155
+        "id": 18251
       },
       {
         "properties": {
@@ -181691,7 +182493,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18156
+        "id": 18252
       },
       {
         "properties": {
@@ -181700,7 +182502,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18157
+        "id": 18253
       },
       {
         "properties": {
@@ -181709,7 +182511,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18158
+        "id": 18254
       },
       {
         "properties": {
@@ -181718,7 +182520,7 @@
           "shape": "straight",
           "waterlogged": "true"
         },
-        "id": 18159
+        "id": 18255
       },
       {
         "properties": {
@@ -181727,7 +182529,7 @@
           "shape": "straight",
           "waterlogged": "false"
         },
-        "id": 18160
+        "id": 18256
       },
       {
         "properties": {
@@ -181736,7 +182538,7 @@
           "shape": "inner_left",
           "waterlogged": "true"
         },
-        "id": 18161
+        "id": 18257
       },
       {
         "properties": {
@@ -181745,7 +182547,7 @@
           "shape": "inner_left",
           "waterlogged": "false"
         },
-        "id": 18162
+        "id": 18258
       },
       {
         "properties": {
@@ -181754,7 +182556,7 @@
           "shape": "inner_right",
           "waterlogged": "true"
         },
-        "id": 18163
+        "id": 18259
       },
       {
         "properties": {
@@ -181763,7 +182565,7 @@
           "shape": "inner_right",
           "waterlogged": "false"
         },
-        "id": 18164
+        "id": 18260
       },
       {
         "properties": {
@@ -181772,7 +182574,7 @@
           "shape": "outer_left",
           "waterlogged": "true"
         },
-        "id": 18165
+        "id": 18261
       },
       {
         "properties": {
@@ -181781,7 +182583,7 @@
           "shape": "outer_left",
           "waterlogged": "false"
         },
-        "id": 18166
+        "id": 18262
       },
       {
         "properties": {
@@ -181790,7 +182592,7 @@
           "shape": "outer_right",
           "waterlogged": "true"
         },
-        "id": 18167
+        "id": 18263
       },
       {
         "properties": {
@@ -181799,7 +182601,7 @@
           "shape": "outer_right",
           "waterlogged": "false"
         },
-        "id": 18168
+        "id": 18264
       }
     ]
   },
@@ -181821,28 +182623,28 @@
           "type": "top",
           "waterlogged": "true"
         },
-        "id": 18169
+        "id": 18265
       },
       {
         "properties": {
           "type": "top",
           "waterlogged": "false"
         },
-        "id": 18170
+        "id": 18266
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "true"
         },
-        "id": 18171
+        "id": 18267
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "false"
         },
-        "id": 18172,
+        "id": 18268,
         "default": true
       },
       {
@@ -181850,14 +182652,14 @@
           "type": "double",
           "waterlogged": "true"
         },
-        "id": 18173
+        "id": 18269
       },
       {
         "properties": {
           "type": "double",
           "waterlogged": "false"
         },
-        "id": 18174
+        "id": 18270
       }
     ]
   },
@@ -181879,28 +182681,28 @@
           "type": "top",
           "waterlogged": "true"
         },
-        "id": 18175
+        "id": 18271
       },
       {
         "properties": {
           "type": "top",
           "waterlogged": "false"
         },
-        "id": 18176
+        "id": 18272
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "true"
         },
-        "id": 18177
+        "id": 18273
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "false"
         },
-        "id": 18178,
+        "id": 18274,
         "default": true
       },
       {
@@ -181908,14 +182710,14 @@
           "type": "double",
           "waterlogged": "true"
         },
-        "id": 18179
+        "id": 18275
       },
       {
         "properties": {
           "type": "double",
           "waterlogged": "false"
         },
-        "id": 18180
+        "id": 18276
       }
     ]
   },
@@ -181937,28 +182739,28 @@
           "type": "top",
           "waterlogged": "true"
         },
-        "id": 18181
+        "id": 18277
       },
       {
         "properties": {
           "type": "top",
           "waterlogged": "false"
         },
-        "id": 18182
+        "id": 18278
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "true"
         },
-        "id": 18183
+        "id": 18279
       },
       {
         "properties": {
           "type": "bottom",
           "waterlogged": "false"
         },
-        "id": 18184,
+        "id": 18280,
         "default": true
       },
       {
@@ -181966,14 +182768,14 @@
           "type": "double",
           "waterlogged": "true"
         },
-        "id": 18185
+        "id": 18281
       },
       {
         "properties": {
           "type": "double",
           "waterlogged": "false"
         },
-        "id": 18186
+        "id": 18282
       }
     ]
   },
@@ -181998,70 +182800,70 @@
           "facing": "north",
           "powered": "true"
         },
-        "id": 18187
+        "id": 18283
       },
       {
         "properties": {
           "facing": "north",
           "powered": "false"
         },
-        "id": 18188
+        "id": 18284
       },
       {
         "properties": {
           "facing": "east",
           "powered": "true"
         },
-        "id": 18189
+        "id": 18285
       },
       {
         "properties": {
           "facing": "east",
           "powered": "false"
         },
-        "id": 18190
+        "id": 18286
       },
       {
         "properties": {
           "facing": "south",
           "powered": "true"
         },
-        "id": 18191
+        "id": 18287
       },
       {
         "properties": {
           "facing": "south",
           "powered": "false"
         },
-        "id": 18192
+        "id": 18288
       },
       {
         "properties": {
           "facing": "west",
           "powered": "true"
         },
-        "id": 18193
+        "id": 18289
       },
       {
         "properties": {
           "facing": "west",
           "powered": "false"
         },
-        "id": 18194
+        "id": 18290
       },
       {
         "properties": {
           "facing": "up",
           "powered": "true"
         },
-        "id": 18195
+        "id": 18291
       },
       {
         "properties": {
           "facing": "up",
           "powered": "false"
         },
-        "id": 18196,
+        "id": 18292,
         "default": true
       },
       {
@@ -182069,14 +182871,14 @@
           "facing": "down",
           "powered": "true"
         },
-        "id": 18197
+        "id": 18293
       },
       {
         "properties": {
           "facing": "down",
           "powered": "false"
         },
-        "id": 18198
+        "id": 18294
       }
     ]
   },
@@ -182105,7 +182907,7 @@
           "vertical_direction": "up",
           "waterlogged": "true"
         },
-        "id": 18199
+        "id": 18295
       },
       {
         "properties": {
@@ -182113,7 +182915,7 @@
           "vertical_direction": "up",
           "waterlogged": "false"
         },
-        "id": 18200
+        "id": 18296
       },
       {
         "properties": {
@@ -182121,7 +182923,7 @@
           "vertical_direction": "down",
           "waterlogged": "true"
         },
-        "id": 18201
+        "id": 18297
       },
       {
         "properties": {
@@ -182129,7 +182931,7 @@
           "vertical_direction": "down",
           "waterlogged": "false"
         },
-        "id": 18202
+        "id": 18298
       },
       {
         "properties": {
@@ -182137,7 +182939,7 @@
           "vertical_direction": "up",
           "waterlogged": "true"
         },
-        "id": 18203
+        "id": 18299
       },
       {
         "properties": {
@@ -182145,7 +182947,7 @@
           "vertical_direction": "up",
           "waterlogged": "false"
         },
-        "id": 18204,
+        "id": 18300,
         "default": true
       },
       {
@@ -182154,7 +182956,7 @@
           "vertical_direction": "down",
           "waterlogged": "true"
         },
-        "id": 18205
+        "id": 18301
       },
       {
         "properties": {
@@ -182162,7 +182964,7 @@
           "vertical_direction": "down",
           "waterlogged": "false"
         },
-        "id": 18206
+        "id": 18302
       },
       {
         "properties": {
@@ -182170,7 +182972,7 @@
           "vertical_direction": "up",
           "waterlogged": "true"
         },
-        "id": 18207
+        "id": 18303
       },
       {
         "properties": {
@@ -182178,7 +182980,7 @@
           "vertical_direction": "up",
           "waterlogged": "false"
         },
-        "id": 18208
+        "id": 18304
       },
       {
         "properties": {
@@ -182186,7 +182988,7 @@
           "vertical_direction": "down",
           "waterlogged": "true"
         },
-        "id": 18209
+        "id": 18305
       },
       {
         "properties": {
@@ -182194,7 +182996,7 @@
           "vertical_direction": "down",
           "waterlogged": "false"
         },
-        "id": 18210
+        "id": 18306
       },
       {
         "properties": {
@@ -182202,7 +183004,7 @@
           "vertical_direction": "up",
           "waterlogged": "true"
         },
-        "id": 18211
+        "id": 18307
       },
       {
         "properties": {
@@ -182210,7 +183012,7 @@
           "vertical_direction": "up",
           "waterlogged": "false"
         },
-        "id": 18212
+        "id": 18308
       },
       {
         "properties": {
@@ -182218,7 +183020,7 @@
           "vertical_direction": "down",
           "waterlogged": "true"
         },
-        "id": 18213
+        "id": 18309
       },
       {
         "properties": {
@@ -182226,7 +183028,7 @@
           "vertical_direction": "down",
           "waterlogged": "false"
         },
-        "id": 18214
+        "id": 18310
       },
       {
         "properties": {
@@ -182234,7 +183036,7 @@
           "vertical_direction": "up",
           "waterlogged": "true"
         },
-        "id": 18215
+        "id": 18311
       },
       {
         "properties": {
@@ -182242,7 +183044,7 @@
           "vertical_direction": "up",
           "waterlogged": "false"
         },
-        "id": 18216
+        "id": 18312
       },
       {
         "properties": {
@@ -182250,7 +183052,7 @@
           "vertical_direction": "down",
           "waterlogged": "true"
         },
-        "id": 18217
+        "id": 18313
       },
       {
         "properties": {
@@ -182258,14 +183060,14 @@
           "vertical_direction": "down",
           "waterlogged": "false"
         },
-        "id": 18218
+        "id": 18314
       }
     ]
   },
   "minecraft:dripstone_block": {
     "states": [
       {
-        "id": 18219,
+        "id": 18315,
         "default": true
       }
     ]

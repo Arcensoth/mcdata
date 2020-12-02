@@ -809,6 +809,7 @@ values:
 - minecraft:calcite
 - minecraft:tinted_glass
 - minecraft:powder_snow
+- minecraft:sculk_sensor
 - minecraft:weathered_copper_block
 - minecraft:semi_weathered_copper_block
 - minecraft:lightly_weathered_copper_block

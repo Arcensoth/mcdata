@@ -52,3 +52,6 @@ values:
 - minecraft:random_boolean_selector
 - minecraft:decorated
 - minecraft:geode
+- minecraft:dripstone_cluster
+- minecraft:large_dripstone
+- minecraft:small_dripstone

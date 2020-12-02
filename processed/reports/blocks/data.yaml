@@ -22655,11 +22655,11 @@ minecraft:conduit:
 minecraft:copper_block:
   states:
   - default: true
-    id: 17573
+    id: 17669
 minecraft:copper_ore:
   states:
   - default: true
-    id: 17574
+    id: 17670
 minecraft:cornflower:
   states:
   - default: true
@@ -25099,7 +25099,7 @@ minecraft:crying_obsidian:
 minecraft:cut_copper:
   states:
   - default: true
-    id: 17578
+    id: 17674
 minecraft:cut_copper_slab:
   properties:
     type:
@@ -25110,28 +25110,28 @@ minecraft:cut_copper_slab:
     - 'true'
     - 'false'
   states:
-  - id: 17917
+  - id: 18013
     properties:
       type: top
       waterlogged: 'true'
-  - id: 17918
+  - id: 18014
     properties:
       type: top
       waterlogged: 'false'
-  - id: 17919
+  - id: 18015
     properties:
       type: bottom
       waterlogged: 'true'
   - default: true
-    id: 17920
+    id: 18016
     properties:
       type: bottom
       waterlogged: 'false'
-  - id: 17921
+  - id: 18017
     properties:
       type: double
       waterlogged: 'true'
-  - id: 17922
+  - id: 18018
     properties:
       type: double
       waterlogged: 'false'
@@ -25155,482 +25155,482 @@ minecraft:cut_copper_stairs:
     - 'true'
     - 'false'
   states:
-  - id: 17819
+  - id: 17915
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17820
+  - id: 17916
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17821
+  - id: 17917
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17822
+  - id: 17918
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17823
+  - id: 17919
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17824
+  - id: 17920
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17825
+  - id: 17921
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17826
+  - id: 17922
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17827
+  - id: 17923
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17828
+  - id: 17924
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17829
+  - id: 17925
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'true'
   - default: true
-    id: 17830
+    id: 17926
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17831
+  - id: 17927
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17832
+  - id: 17928
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17833
+  - id: 17929
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17834
+  - id: 17930
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17835
+  - id: 17931
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17836
+  - id: 17932
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17837
+  - id: 17933
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17838
+  - id: 17934
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17839
+  - id: 17935
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17840
+  - id: 17936
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17841
+  - id: 17937
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17842
+  - id: 17938
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17843
+  - id: 17939
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17844
+  - id: 17940
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17845
+  - id: 17941
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17846
+  - id: 17942
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17847
+  - id: 17943
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17848
+  - id: 17944
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17849
+  - id: 17945
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17850
+  - id: 17946
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17851
+  - id: 17947
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17852
+  - id: 17948
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17853
+  - id: 17949
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17854
+  - id: 17950
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17855
+  - id: 17951
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17856
+  - id: 17952
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17857
-    properties:
-      facing: south
-      half: bottom
-      shape: outer_right
-      waterlogged: 'true'
-  - id: 17858
+  - id: 17953
     properties:
       facing: south
       half: bottom
       shape: outer_right
+      waterlogged: 'true'
+  - id: 17954
+    properties:
+      facing: south
+      half: bottom
+      shape: outer_right
       waterlogged: 'false'
-  - id: 17859
+  - id: 17955
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17860
+  - id: 17956
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17861
+  - id: 17957
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17862
+  - id: 17958
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17863
+  - id: 17959
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17864
+  - id: 17960
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17865
+  - id: 17961
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17866
+  - id: 17962
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17867
+  - id: 17963
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17868
+  - id: 17964
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17869
+  - id: 17965
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17870
+  - id: 17966
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17871
+  - id: 17967
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17872
+  - id: 17968
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17873
+  - id: 17969
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17874
+  - id: 17970
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17875
+  - id: 17971
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17876
+  - id: 17972
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17877
+  - id: 17973
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17878
+  - id: 17974
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17879
+  - id: 17975
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17880
+  - id: 17976
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17881
+  - id: 17977
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17882
+  - id: 17978
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17883
+  - id: 17979
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17884
+  - id: 17980
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17885
+  - id: 17981
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17886
+  - id: 17982
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17887
+  - id: 17983
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17888
+  - id: 17984
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17889
+  - id: 17985
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17890
+  - id: 17986
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17891
+  - id: 17987
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17892
+  - id: 17988
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17893
+  - id: 17989
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17894
+  - id: 17990
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17895
+  - id: 17991
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17896
+  - id: 17992
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17897
+  - id: 17993
     properties:
       facing: east
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17898
+  - id: 17994
     properties:
       facing: east
       half: bottom
@@ -33283,7 +33283,7 @@ minecraft:dried_kelp_block:
 minecraft:dripstone_block:
   states:
   - default: true
-    id: 18219
+    id: 18315
 minecraft:dropper:
   properties:
     facing:
@@ -51544,11 +51544,11 @@ minecraft:light_weighted_pressure_plate:
 minecraft:lightly_weathered_copper_block:
   states:
   - default: true
-    id: 17572
+    id: 17668
 minecraft:lightly_weathered_cut_copper:
   states:
   - default: true
-    id: 17577
+    id: 17673
 minecraft:lightly_weathered_cut_copper_slab:
   properties:
     type:
@@ -51559,28 +51559,28 @@ minecraft:lightly_weathered_cut_copper_slab:
     - 'true'
     - 'false'
   states:
-  - id: 17911
+  - id: 18007
     properties:
       type: top
       waterlogged: 'true'
-  - id: 17912
+  - id: 18008
     properties:
       type: top
       waterlogged: 'false'
-  - id: 17913
+  - id: 18009
     properties:
       type: bottom
       waterlogged: 'true'
   - default: true
-    id: 17914
+    id: 18010
     properties:
       type: bottom
       waterlogged: 'false'
-  - id: 17915
+  - id: 18011
     properties:
       type: double
       waterlogged: 'true'
-  - id: 17916
+  - id: 18012
     properties:
       type: double
       waterlogged: 'false'
@@ -51604,482 +51604,482 @@ minecraft:lightly_weathered_cut_copper_stairs:
     - 'true'
     - 'false'
   states:
-  - id: 17739
+  - id: 17835
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17740
+  - id: 17836
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17741
+  - id: 17837
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17742
+  - id: 17838
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17743
+  - id: 17839
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17744
+  - id: 17840
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17745
+  - id: 17841
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17746
+  - id: 17842
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17747
+  - id: 17843
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17748
+  - id: 17844
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17749
+  - id: 17845
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'true'
   - default: true
-    id: 17750
+    id: 17846
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17751
+  - id: 17847
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17752
+  - id: 17848
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17753
+  - id: 17849
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17754
+  - id: 17850
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17755
+  - id: 17851
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17756
+  - id: 17852
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17757
+  - id: 17853
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17758
+  - id: 17854
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17759
+  - id: 17855
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17760
+  - id: 17856
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17761
+  - id: 17857
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17762
+  - id: 17858
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17763
+  - id: 17859
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17764
+  - id: 17860
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17765
+  - id: 17861
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17766
+  - id: 17862
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17767
+  - id: 17863
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17768
+  - id: 17864
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17769
+  - id: 17865
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17770
+  - id: 17866
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17771
+  - id: 17867
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17772
+  - id: 17868
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17773
+  - id: 17869
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17774
+  - id: 17870
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17775
+  - id: 17871
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17776
+  - id: 17872
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17777
-    properties:
-      facing: south
-      half: bottom
-      shape: outer_right
-      waterlogged: 'true'
-  - id: 17778
+  - id: 17873
     properties:
       facing: south
       half: bottom
       shape: outer_right
+      waterlogged: 'true'
+  - id: 17874
+    properties:
+      facing: south
+      half: bottom
+      shape: outer_right
       waterlogged: 'false'
-  - id: 17779
+  - id: 17875
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17780
+  - id: 17876
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17781
+  - id: 17877
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17782
+  - id: 17878
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17783
+  - id: 17879
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17784
+  - id: 17880
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17785
+  - id: 17881
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17786
+  - id: 17882
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17787
+  - id: 17883
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17788
+  - id: 17884
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17789
+  - id: 17885
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17790
+  - id: 17886
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17791
+  - id: 17887
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17792
+  - id: 17888
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17793
+  - id: 17889
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17794
+  - id: 17890
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17795
+  - id: 17891
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17796
+  - id: 17892
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17797
+  - id: 17893
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17798
+  - id: 17894
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17799
+  - id: 17895
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17800
+  - id: 17896
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17801
+  - id: 17897
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17802
+  - id: 17898
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17803
+  - id: 17899
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17804
+  - id: 17900
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17805
+  - id: 17901
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17806
+  - id: 17902
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17807
+  - id: 17903
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17808
+  - id: 17904
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17809
+  - id: 17905
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17810
+  - id: 17906
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17811
+  - id: 17907
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17812
+  - id: 17908
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17813
+  - id: 17909
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17814
+  - id: 17910
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17815
+  - id: 17911
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17816
+  - id: 17912
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17817
+  - id: 17913
     properties:
       facing: east
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17818
+  - id: 17914
     properties:
       facing: east
       half: bottom
@@ -52098,52 +52098,52 @@ minecraft:lightning_rod:
     - 'true'
     - 'false'
   states:
-  - id: 18187
+  - id: 18283
     properties:
       facing: north
       powered: 'true'
-  - id: 18188
+  - id: 18284
     properties:
       facing: north
       powered: 'false'
-  - id: 18189
+  - id: 18285
     properties:
       facing: east
       powered: 'true'
-  - id: 18190
+  - id: 18286
     properties:
       facing: east
       powered: 'false'
-  - id: 18191
+  - id: 18287
     properties:
       facing: south
       powered: 'true'
-  - id: 18192
+  - id: 18288
     properties:
       facing: south
       powered: 'false'
-  - id: 18193
+  - id: 18289
     properties:
       facing: west
       powered: 'true'
-  - id: 18194
+  - id: 18290
     properties:
       facing: west
       powered: 'false'
-  - id: 18195
+  - id: 18291
     properties:
       facing: up
       powered: 'true'
   - default: true
-    id: 18196
+    id: 18292
     properties:
       facing: up
       powered: 'false'
-  - id: 18197
+  - id: 18293
     properties:
       facing: down
       powered: 'true'
-  - id: 18198
+  - id: 18294
     properties:
       facing: down
       powered: 'false'
@@ -72090,103 +72090,103 @@ minecraft:pointed_dripstone:
     - 'true'
     - 'false'
   states:
-  - id: 18199
+  - id: 18295
     properties:
       thickness: tip_merge
       vertical_direction: up
       waterlogged: 'true'
-  - id: 18200
+  - id: 18296
     properties:
       thickness: tip_merge
       vertical_direction: up
       waterlogged: 'false'
-  - id: 18201
+  - id: 18297
     properties:
       thickness: tip_merge
       vertical_direction: down
       waterlogged: 'true'
-  - id: 18202
+  - id: 18298
     properties:
       thickness: tip_merge
       vertical_direction: down
       waterlogged: 'false'
-  - id: 18203
+  - id: 18299
     properties:
       thickness: tip
       vertical_direction: up
       waterlogged: 'true'
   - default: true
-    id: 18204
+    id: 18300
     properties:
       thickness: tip
       vertical_direction: up
       waterlogged: 'false'
-  - id: 18205
+  - id: 18301
     properties:
       thickness: tip
       vertical_direction: down
       waterlogged: 'true'
-  - id: 18206
+  - id: 18302
     properties:
       thickness: tip
       vertical_direction: down
       waterlogged: 'false'
-  - id: 18207
+  - id: 18303
     properties:
       thickness: frustum
       vertical_direction: up
       waterlogged: 'true'
-  - id: 18208
+  - id: 18304
     properties:
       thickness: frustum
       vertical_direction: up
       waterlogged: 'false'
-  - id: 18209
+  - id: 18305
     properties:
       thickness: frustum
       vertical_direction: down
       waterlogged: 'true'
-  - id: 18210
+  - id: 18306
     properties:
       thickness: frustum
       vertical_direction: down
       waterlogged: 'false'
-  - id: 18211
+  - id: 18307
     properties:
       thickness: middle
       vertical_direction: up
       waterlogged: 'true'
-  - id: 18212
+  - id: 18308
     properties:
       thickness: middle
       vertical_direction: up
       waterlogged: 'false'
-  - id: 18213
+  - id: 18309
     properties:
       thickness: middle
       vertical_direction: down
       waterlogged: 'true'
-  - id: 18214
+  - id: 18310
     properties:
       thickness: middle
       vertical_direction: down
       waterlogged: 'false'
-  - id: 18215
+  - id: 18311
     properties:
       thickness: base
       vertical_direction: up
       waterlogged: 'true'
-  - id: 18216
+  - id: 18312
     properties:
       thickness: base
       vertical_direction: up
       waterlogged: 'false'
-  - id: 18217
+  - id: 18313
     properties:
       thickness: base
       vertical_direction: down
       waterlogged: 'true'
-  - id: 18218
+  - id: 18314
     properties:
       thickness: base
       vertical_direction: down
@@ -106686,6 +106686,514 @@ minecraft:scaffolding:
       bottom: 'false'
       distance: '7'
       waterlogged: 'false'
+minecraft:sculk_sensor:
+  properties:
+    power:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    sculk_sensor_phase:
+    - inactive
+    - active
+    - cooldown
+    waterlogged:
+    - 'true'
+    - 'false'
+  states:
+  - id: 17570
+    properties:
+      power: '0'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17571
+    properties:
+      power: '0'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17572
+    properties:
+      power: '0'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17573
+    properties:
+      power: '0'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17574
+    properties:
+      power: '0'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - default: true
+    id: 17575
+    properties:
+      power: '0'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17576
+    properties:
+      power: '1'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17577
+    properties:
+      power: '1'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17578
+    properties:
+      power: '1'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17579
+    properties:
+      power: '1'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17580
+    properties:
+      power: '1'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17581
+    properties:
+      power: '1'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17582
+    properties:
+      power: '2'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17583
+    properties:
+      power: '2'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17584
+    properties:
+      power: '2'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17585
+    properties:
+      power: '2'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17586
+    properties:
+      power: '2'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17587
+    properties:
+      power: '2'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17588
+    properties:
+      power: '3'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17589
+    properties:
+      power: '3'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17590
+    properties:
+      power: '3'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17591
+    properties:
+      power: '3'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17592
+    properties:
+      power: '3'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17593
+    properties:
+      power: '3'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17594
+    properties:
+      power: '4'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17595
+    properties:
+      power: '4'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17596
+    properties:
+      power: '4'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17597
+    properties:
+      power: '4'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17598
+    properties:
+      power: '4'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17599
+    properties:
+      power: '4'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17600
+    properties:
+      power: '5'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17601
+    properties:
+      power: '5'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17602
+    properties:
+      power: '5'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17603
+    properties:
+      power: '5'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17604
+    properties:
+      power: '5'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17605
+    properties:
+      power: '5'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17606
+    properties:
+      power: '6'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17607
+    properties:
+      power: '6'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17608
+    properties:
+      power: '6'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17609
+    properties:
+      power: '6'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17610
+    properties:
+      power: '6'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17611
+    properties:
+      power: '6'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17612
+    properties:
+      power: '7'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17613
+    properties:
+      power: '7'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17614
+    properties:
+      power: '7'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17615
+    properties:
+      power: '7'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17616
+    properties:
+      power: '7'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17617
+    properties:
+      power: '7'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17618
+    properties:
+      power: '8'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17619
+    properties:
+      power: '8'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17620
+    properties:
+      power: '8'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17621
+    properties:
+      power: '8'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17622
+    properties:
+      power: '8'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17623
+    properties:
+      power: '8'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17624
+    properties:
+      power: '9'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17625
+    properties:
+      power: '9'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17626
+    properties:
+      power: '9'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17627
+    properties:
+      power: '9'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17628
+    properties:
+      power: '9'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17629
+    properties:
+      power: '9'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17630
+    properties:
+      power: '10'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17631
+    properties:
+      power: '10'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17632
+    properties:
+      power: '10'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17633
+    properties:
+      power: '10'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17634
+    properties:
+      power: '10'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17635
+    properties:
+      power: '10'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17636
+    properties:
+      power: '11'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17637
+    properties:
+      power: '11'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17638
+    properties:
+      power: '11'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17639
+    properties:
+      power: '11'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17640
+    properties:
+      power: '11'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17641
+    properties:
+      power: '11'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17642
+    properties:
+      power: '12'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17643
+    properties:
+      power: '12'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17644
+    properties:
+      power: '12'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17645
+    properties:
+      power: '12'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17646
+    properties:
+      power: '12'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17647
+    properties:
+      power: '12'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17648
+    properties:
+      power: '13'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17649
+    properties:
+      power: '13'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17650
+    properties:
+      power: '13'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17651
+    properties:
+      power: '13'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17652
+    properties:
+      power: '13'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17653
+    properties:
+      power: '13'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17654
+    properties:
+      power: '14'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17655
+    properties:
+      power: '14'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17656
+    properties:
+      power: '14'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17657
+    properties:
+      power: '14'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17658
+    properties:
+      power: '14'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17659
+    properties:
+      power: '14'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
+  - id: 17660
+    properties:
+      power: '15'
+      sculk_sensor_phase: inactive
+      waterlogged: 'true'
+  - id: 17661
+    properties:
+      power: '15'
+      sculk_sensor_phase: inactive
+      waterlogged: 'false'
+  - id: 17662
+    properties:
+      power: '15'
+      sculk_sensor_phase: active
+      waterlogged: 'true'
+  - id: 17663
+    properties:
+      power: '15'
+      sculk_sensor_phase: active
+      waterlogged: 'false'
+  - id: 17664
+    properties:
+      power: '15'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'true'
+  - id: 17665
+    properties:
+      power: '15'
+      sculk_sensor_phase: cooldown
+      waterlogged: 'false'
 minecraft:sea_lantern:
   states:
   - default: true
@@ -106741,11 +107249,11 @@ minecraft:seagrass:
 minecraft:semi_weathered_copper_block:
   states:
   - default: true
-    id: 17571
+    id: 17667
 minecraft:semi_weathered_cut_copper:
   states:
   - default: true
-    id: 17576
+    id: 17672
 minecraft:semi_weathered_cut_copper_slab:
   properties:
     type:
@@ -106756,28 +107264,28 @@ minecraft:semi_weathered_cut_copper_slab:
     - 'true'
     - 'false'
   states:
-  - id: 17905
+  - id: 18001
     properties:
       type: top
       waterlogged: 'true'
-  - id: 17906
+  - id: 18002
     properties:
       type: top
       waterlogged: 'false'
-  - id: 17907
+  - id: 18003
     properties:
       type: bottom
       waterlogged: 'true'
   - default: true
-    id: 17908
+    id: 18004
     properties:
       type: bottom
       waterlogged: 'false'
-  - id: 17909
+  - id: 18005
     properties:
       type: double
       waterlogged: 'true'
-  - id: 17910
+  - id: 18006
     properties:
       type: double
       waterlogged: 'false'
@@ -106801,482 +107309,482 @@ minecraft:semi_weathered_cut_copper_stairs:
     - 'true'
     - 'false'
   states:
-  - id: 17659
+  - id: 17755
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17660
+  - id: 17756
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17661
+  - id: 17757
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17662
+  - id: 17758
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17663
+  - id: 17759
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17664
+  - id: 17760
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17665
+  - id: 17761
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17666
+  - id: 17762
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17667
+  - id: 17763
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17668
+  - id: 17764
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17669
+  - id: 17765
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'true'
   - default: true
-    id: 17670
+    id: 17766
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17671
+  - id: 17767
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17672
+  - id: 17768
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17673
+  - id: 17769
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17674
+  - id: 17770
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17675
+  - id: 17771
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17676
+  - id: 17772
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17677
+  - id: 17773
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17678
+  - id: 17774
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17679
+  - id: 17775
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17680
+  - id: 17776
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17681
+  - id: 17777
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17682
+  - id: 17778
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17683
+  - id: 17779
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17684
+  - id: 17780
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17685
+  - id: 17781
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17686
+  - id: 17782
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17687
+  - id: 17783
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17688
+  - id: 17784
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17689
+  - id: 17785
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17690
+  - id: 17786
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17691
+  - id: 17787
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17692
+  - id: 17788
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17693
+  - id: 17789
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17694
+  - id: 17790
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17695
+  - id: 17791
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17696
+  - id: 17792
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17697
-    properties:
-      facing: south
-      half: bottom
-      shape: outer_right
-      waterlogged: 'true'
-  - id: 17698
+  - id: 17793
     properties:
       facing: south
       half: bottom
       shape: outer_right
+      waterlogged: 'true'
+  - id: 17794
+    properties:
+      facing: south
+      half: bottom
+      shape: outer_right
       waterlogged: 'false'
-  - id: 17699
+  - id: 17795
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17700
+  - id: 17796
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17701
+  - id: 17797
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17702
+  - id: 17798
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17703
+  - id: 17799
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17704
+  - id: 17800
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17705
+  - id: 17801
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17706
+  - id: 17802
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17707
+  - id: 17803
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17708
+  - id: 17804
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17709
+  - id: 17805
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17710
+  - id: 17806
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17711
+  - id: 17807
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17712
+  - id: 17808
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17713
+  - id: 17809
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17714
+  - id: 17810
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17715
+  - id: 17811
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17716
+  - id: 17812
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17717
+  - id: 17813
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17718
+  - id: 17814
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17719
+  - id: 17815
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17720
+  - id: 17816
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17721
+  - id: 17817
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17722
+  - id: 17818
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17723
+  - id: 17819
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17724
+  - id: 17820
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17725
+  - id: 17821
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17726
+  - id: 17822
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17727
+  - id: 17823
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17728
+  - id: 17824
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17729
+  - id: 17825
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17730
+  - id: 17826
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17731
+  - id: 17827
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17732
+  - id: 17828
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17733
+  - id: 17829
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17734
+  - id: 17830
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17735
+  - id: 17831
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17736
+  - id: 17832
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17737
+  - id: 17833
     properties:
       facing: east
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17738
+  - id: 17834
     properties:
       facing: east
       half: bottom
@@ -120762,11 +121270,11 @@ minecraft:water_cauldron:
 minecraft:waxed_copper:
   states:
   - default: true
-    id: 17923
+    id: 18019
 minecraft:waxed_cut_copper:
   states:
   - default: true
-    id: 17928
+    id: 18024
 minecraft:waxed_cut_copper_slab:
   properties:
     type:
@@ -120777,28 +121285,28 @@ minecraft:waxed_cut_copper_slab:
     - 'true'
     - 'false'
   states:
-  - id: 18181
+  - id: 18277
     properties:
       type: top
       waterlogged: 'true'
-  - id: 18182
+  - id: 18278
     properties:
       type: top
       waterlogged: 'false'
-  - id: 18183
+  - id: 18279
     properties:
       type: bottom
       waterlogged: 'true'
   - default: true
-    id: 18184
+    id: 18280
     properties:
       type: bottom
       waterlogged: 'false'
-  - id: 18185
+  - id: 18281
     properties:
       type: double
       waterlogged: 'true'
-  - id: 18186
+  - id: 18282
     properties:
       type: double
       waterlogged: 'false'
@@ -120822,482 +121330,482 @@ minecraft:waxed_cut_copper_stairs:
     - 'true'
     - 'false'
   states:
-  - id: 18089
+  - id: 18185
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18090
+  - id: 18186
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18091
+  - id: 18187
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18092
+  - id: 18188
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18093
+  - id: 18189
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18094
+  - id: 18190
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18095
+  - id: 18191
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18096
+  - id: 18192
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18097
+  - id: 18193
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18098
+  - id: 18194
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18099
+  - id: 18195
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'true'
   - default: true
-    id: 18100
+    id: 18196
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18101
+  - id: 18197
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18102
+  - id: 18198
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18103
+  - id: 18199
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18104
+  - id: 18200
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18105
+  - id: 18201
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18106
+  - id: 18202
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18107
+  - id: 18203
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 18108
+  - id: 18204
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 18109
+  - id: 18205
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18110
+  - id: 18206
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18111
+  - id: 18207
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18112
+  - id: 18208
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18113
+  - id: 18209
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18114
+  - id: 18210
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18115
+  - id: 18211
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18116
+  - id: 18212
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18117
+  - id: 18213
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18118
+  - id: 18214
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18119
+  - id: 18215
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 18120
+  - id: 18216
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18121
+  - id: 18217
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18122
+  - id: 18218
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18123
+  - id: 18219
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18124
+  - id: 18220
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18125
+  - id: 18221
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18126
+  - id: 18222
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18127
-    properties:
-      facing: south
-      half: bottom
-      shape: outer_right
-      waterlogged: 'true'
-  - id: 18128
+  - id: 18223
     properties:
       facing: south
       half: bottom
       shape: outer_right
+      waterlogged: 'true'
+  - id: 18224
+    properties:
+      facing: south
+      half: bottom
+      shape: outer_right
       waterlogged: 'false'
-  - id: 18129
+  - id: 18225
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18130
+  - id: 18226
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18131
+  - id: 18227
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18132
+  - id: 18228
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18133
+  - id: 18229
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18134
+  - id: 18230
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18135
+  - id: 18231
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18136
+  - id: 18232
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18137
+  - id: 18233
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18138
+  - id: 18234
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18139
+  - id: 18235
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 18140
+  - id: 18236
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18141
+  - id: 18237
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18142
+  - id: 18238
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18143
+  - id: 18239
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18144
+  - id: 18240
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18145
+  - id: 18241
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18146
+  - id: 18242
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18147
+  - id: 18243
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 18148
+  - id: 18244
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 18149
+  - id: 18245
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18150
+  - id: 18246
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18151
+  - id: 18247
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18152
+  - id: 18248
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18153
+  - id: 18249
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18154
+  - id: 18250
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18155
+  - id: 18251
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18156
+  - id: 18252
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18157
+  - id: 18253
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18158
+  - id: 18254
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18159
+  - id: 18255
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 18160
+  - id: 18256
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18161
+  - id: 18257
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18162
+  - id: 18258
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18163
+  - id: 18259
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18164
+  - id: 18260
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18165
+  - id: 18261
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18166
+  - id: 18262
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18167
+  - id: 18263
     properties:
       facing: east
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 18168
+  - id: 18264
     properties:
       facing: east
       half: bottom
@@ -121306,11 +121814,11 @@ minecraft:waxed_cut_copper_stairs:
 minecraft:waxed_lightly_weathered_copper:
   states:
   - default: true
-    id: 17925
+    id: 18021
 minecraft:waxed_lightly_weathered_cut_copper:
   states:
   - default: true
-    id: 17927
+    id: 18023
 minecraft:waxed_lightly_weathered_cut_copper_slab:
   properties:
     type:
@@ -121321,28 +121829,28 @@ minecraft:waxed_lightly_weathered_cut_copper_slab:
     - 'true'
     - 'false'
   states:
-  - id: 18175
+  - id: 18271
     properties:
       type: top
       waterlogged: 'true'
-  - id: 18176
+  - id: 18272
     properties:
       type: top
       waterlogged: 'false'
-  - id: 18177
+  - id: 18273
     properties:
       type: bottom
       waterlogged: 'true'
   - default: true
-    id: 18178
+    id: 18274
     properties:
       type: bottom
       waterlogged: 'false'
-  - id: 18179
+  - id: 18275
     properties:
       type: double
       waterlogged: 'true'
-  - id: 18180
+  - id: 18276
     properties:
       type: double
       waterlogged: 'false'
@@ -121366,482 +121874,482 @@ minecraft:waxed_lightly_weathered_cut_copper_stairs:
     - 'true'
     - 'false'
   states:
-  - id: 18009
+  - id: 18105
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18010
+  - id: 18106
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18011
+  - id: 18107
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18012
+  - id: 18108
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18013
+  - id: 18109
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18014
+  - id: 18110
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18015
+  - id: 18111
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18016
+  - id: 18112
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18017
+  - id: 18113
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18018
+  - id: 18114
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18019
+  - id: 18115
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'true'
   - default: true
-    id: 18020
+    id: 18116
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18021
+  - id: 18117
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18022
+  - id: 18118
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18023
+  - id: 18119
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18024
+  - id: 18120
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18025
+  - id: 18121
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18026
+  - id: 18122
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18027
+  - id: 18123
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 18028
+  - id: 18124
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 18029
+  - id: 18125
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18030
+  - id: 18126
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18031
+  - id: 18127
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18032
+  - id: 18128
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18033
+  - id: 18129
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18034
+  - id: 18130
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18035
+  - id: 18131
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18036
+  - id: 18132
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18037
+  - id: 18133
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18038
+  - id: 18134
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18039
+  - id: 18135
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 18040
+  - id: 18136
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18041
+  - id: 18137
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18042
+  - id: 18138
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18043
+  - id: 18139
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18044
+  - id: 18140
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18045
+  - id: 18141
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18046
+  - id: 18142
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18047
-    properties:
-      facing: south
-      half: bottom
-      shape: outer_right
-      waterlogged: 'true'
-  - id: 18048
+  - id: 18143
     properties:
       facing: south
       half: bottom
       shape: outer_right
+      waterlogged: 'true'
+  - id: 18144
+    properties:
+      facing: south
+      half: bottom
+      shape: outer_right
       waterlogged: 'false'
-  - id: 18049
+  - id: 18145
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18050
+  - id: 18146
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18051
+  - id: 18147
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18052
+  - id: 18148
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18053
+  - id: 18149
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18054
+  - id: 18150
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18055
+  - id: 18151
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18056
+  - id: 18152
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18057
+  - id: 18153
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18058
+  - id: 18154
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18059
+  - id: 18155
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 18060
+  - id: 18156
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18061
+  - id: 18157
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18062
+  - id: 18158
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18063
+  - id: 18159
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18064
+  - id: 18160
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18065
+  - id: 18161
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18066
+  - id: 18162
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18067
+  - id: 18163
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 18068
+  - id: 18164
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 18069
+  - id: 18165
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 18070
+  - id: 18166
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 18071
+  - id: 18167
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 18072
+  - id: 18168
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 18073
+  - id: 18169
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 18074
+  - id: 18170
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 18075
+  - id: 18171
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 18076
+  - id: 18172
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 18077
+  - id: 18173
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 18078
+  - id: 18174
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 18079
+  - id: 18175
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 18080
+  - id: 18176
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18081
+  - id: 18177
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18082
+  - id: 18178
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18083
+  - id: 18179
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18084
+  - id: 18180
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18085
+  - id: 18181
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18086
+  - id: 18182
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18087
+  - id: 18183
     properties:
       facing: east
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 18088
+  - id: 18184
     properties:
       facing: east
       half: bottom
@@ -121850,11 +122358,11 @@ minecraft:waxed_lightly_weathered_cut_copper_stairs:
 minecraft:waxed_semi_weathered_copper:
   states:
   - default: true
-    id: 17924
+    id: 18020
 minecraft:waxed_semi_weathered_cut_copper:
   states:
   - default: true
-    id: 17926
+    id: 18022
 minecraft:waxed_semi_weathered_cut_copper_slab:
   properties:
     type:
@@ -121865,28 +122373,28 @@ minecraft:waxed_semi_weathered_cut_copper_slab:
     - 'true'
     - 'false'
   states:
-  - id: 18169
+  - id: 18265
     properties:
       type: top
       waterlogged: 'true'
-  - id: 18170
+  - id: 18266
     properties:
       type: top
       waterlogged: 'false'
-  - id: 18171
+  - id: 18267
     properties:
       type: bottom
       waterlogged: 'true'
   - default: true
-    id: 18172
+    id: 18268
     properties:
       type: bottom
       waterlogged: 'false'
-  - id: 18173
+  - id: 18269
     properties:
       type: double
       waterlogged: 'true'
-  - id: 18174
+  - id: 18270
     properties:
       type: double
       waterlogged: 'false'
@@ -121910,482 +122418,482 @@ minecraft:waxed_semi_weathered_cut_copper_stairs:
     - 'true'
     - 'false'
   states:
-  - id: 17929
+  - id: 18025
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17930
+  - id: 18026
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17931
+  - id: 18027
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17932
+  - id: 18028
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17933
+  - id: 18029
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17934
+  - id: 18030
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17935
+  - id: 18031
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17936
+  - id: 18032
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17937
+  - id: 18033
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17938
+  - id: 18034
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17939
+  - id: 18035
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'true'
   - default: true
-    id: 17940
+    id: 18036
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17941
+  - id: 18037
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17942
+  - id: 18038
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17943
+  - id: 18039
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17944
+  - id: 18040
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17945
+  - id: 18041
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17946
+  - id: 18042
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17947
+  - id: 18043
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17948
+  - id: 18044
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17949
+  - id: 18045
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17950
+  - id: 18046
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17951
+  - id: 18047
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17952
+  - id: 18048
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17953
+  - id: 18049
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17954
+  - id: 18050
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17955
+  - id: 18051
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17956
+  - id: 18052
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17957
+  - id: 18053
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17958
+  - id: 18054
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17959
+  - id: 18055
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17960
+  - id: 18056
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17961
+  - id: 18057
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17962
+  - id: 18058
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17963
+  - id: 18059
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17964
+  - id: 18060
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17965
+  - id: 18061
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17966
+  - id: 18062
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17967
-    properties:
-      facing: south
-      half: bottom
-      shape: outer_right
-      waterlogged: 'true'
-  - id: 17968
+  - id: 18063
     properties:
       facing: south
       half: bottom
       shape: outer_right
+      waterlogged: 'true'
+  - id: 18064
+    properties:
+      facing: south
+      half: bottom
+      shape: outer_right
       waterlogged: 'false'
-  - id: 17969
+  - id: 18065
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17970
+  - id: 18066
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17971
+  - id: 18067
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17972
+  - id: 18068
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17973
+  - id: 18069
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17974
+  - id: 18070
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17975
+  - id: 18071
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17976
+  - id: 18072
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17977
+  - id: 18073
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17978
+  - id: 18074
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17979
+  - id: 18075
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17980
+  - id: 18076
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17981
+  - id: 18077
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17982
+  - id: 18078
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17983
+  - id: 18079
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17984
+  - id: 18080
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17985
+  - id: 18081
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17986
+  - id: 18082
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17987
+  - id: 18083
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17988
+  - id: 18084
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17989
+  - id: 18085
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17990
+  - id: 18086
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17991
+  - id: 18087
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17992
+  - id: 18088
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17993
+  - id: 18089
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17994
+  - id: 18090
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17995
+  - id: 18091
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17996
+  - id: 18092
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17997
+  - id: 18093
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17998
+  - id: 18094
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17999
+  - id: 18095
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 18000
+  - id: 18096
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 18001
+  - id: 18097
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 18002
+  - id: 18098
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 18003
+  - id: 18099
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 18004
+  - id: 18100
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 18005
+  - id: 18101
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 18006
+  - id: 18102
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 18007
+  - id: 18103
     properties:
       facing: east
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 18008
+  - id: 18104
     properties:
       facing: east
       half: bottom
@@ -122394,11 +122902,11 @@ minecraft:waxed_semi_weathered_cut_copper_stairs:
 minecraft:weathered_copper_block:
   states:
   - default: true
-    id: 17570
+    id: 17666
 minecraft:weathered_cut_copper:
   states:
   - default: true
-    id: 17575
+    id: 17671
 minecraft:weathered_cut_copper_slab:
   properties:
     type:
@@ -122409,28 +122917,28 @@ minecraft:weathered_cut_copper_slab:
     - 'true'
     - 'false'
   states:
-  - id: 17899
+  - id: 17995
     properties:
       type: top
       waterlogged: 'true'
-  - id: 17900
+  - id: 17996
     properties:
       type: top
       waterlogged: 'false'
-  - id: 17901
+  - id: 17997
     properties:
       type: bottom
       waterlogged: 'true'
   - default: true
-    id: 17902
+    id: 17998
     properties:
       type: bottom
       waterlogged: 'false'
-  - id: 17903
+  - id: 17999
     properties:
       type: double
       waterlogged: 'true'
-  - id: 17904
+  - id: 18000
     properties:
       type: double
       waterlogged: 'false'
@@ -122454,482 +122962,482 @@ minecraft:weathered_cut_copper_stairs:
     - 'true'
     - 'false'
   states:
-  - id: 17579
+  - id: 17675
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17580
+  - id: 17676
     properties:
       facing: north
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17581
+  - id: 17677
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17582
+  - id: 17678
     properties:
       facing: north
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17583
+  - id: 17679
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17584
+  - id: 17680
     properties:
       facing: north
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17585
+  - id: 17681
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17586
+  - id: 17682
     properties:
       facing: north
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17587
+  - id: 17683
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17588
+  - id: 17684
     properties:
       facing: north
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17589
+  - id: 17685
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'true'
   - default: true
-    id: 17590
+    id: 17686
     properties:
       facing: north
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17591
+  - id: 17687
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17592
+  - id: 17688
     properties:
       facing: north
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17593
+  - id: 17689
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17594
+  - id: 17690
     properties:
       facing: north
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17595
+  - id: 17691
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17596
+  - id: 17692
     properties:
       facing: north
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17597
+  - id: 17693
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17598
+  - id: 17694
     properties:
       facing: north
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17599
+  - id: 17695
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17600
+  - id: 17696
     properties:
       facing: south
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17601
+  - id: 17697
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17602
+  - id: 17698
     properties:
       facing: south
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17603
+  - id: 17699
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17604
+  - id: 17700
     properties:
       facing: south
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17605
+  - id: 17701
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17606
+  - id: 17702
     properties:
       facing: south
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17607
+  - id: 17703
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17608
+  - id: 17704
     properties:
       facing: south
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17609
+  - id: 17705
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17610
+  - id: 17706
     properties:
       facing: south
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17611
+  - id: 17707
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17612
+  - id: 17708
     properties:
       facing: south
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17613
+  - id: 17709
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17614
+  - id: 17710
     properties:
       facing: south
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17615
+  - id: 17711
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17616
+  - id: 17712
     properties:
       facing: south
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17617
-    properties:
-      facing: south
-      half: bottom
-      shape: outer_right
-      waterlogged: 'true'
-  - id: 17618
+  - id: 17713
     properties:
       facing: south
       half: bottom
       shape: outer_right
+      waterlogged: 'true'
+  - id: 17714
+    properties:
+      facing: south
+      half: bottom
+      shape: outer_right
       waterlogged: 'false'
-  - id: 17619
+  - id: 17715
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17620
+  - id: 17716
     properties:
       facing: west
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17621
+  - id: 17717
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17622
+  - id: 17718
     properties:
       facing: west
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17623
+  - id: 17719
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17624
+  - id: 17720
     properties:
       facing: west
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17625
+  - id: 17721
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17626
+  - id: 17722
     properties:
       facing: west
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17627
+  - id: 17723
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17628
+  - id: 17724
     properties:
       facing: west
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17629
+  - id: 17725
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17630
+  - id: 17726
     properties:
       facing: west
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17631
+  - id: 17727
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17632
+  - id: 17728
     properties:
       facing: west
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17633
+  - id: 17729
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17634
+  - id: 17730
     properties:
       facing: west
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17635
+  - id: 17731
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17636
+  - id: 17732
     properties:
       facing: west
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17637
+  - id: 17733
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17638
+  - id: 17734
     properties:
       facing: west
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-  - id: 17639
+  - id: 17735
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'true'
-  - id: 17640
+  - id: 17736
     properties:
       facing: east
       half: top
       shape: straight
       waterlogged: 'false'
-  - id: 17641
+  - id: 17737
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'true'
-  - id: 17642
+  - id: 17738
     properties:
       facing: east
       half: top
       shape: inner_left
       waterlogged: 'false'
-  - id: 17643
+  - id: 17739
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'true'
-  - id: 17644
+  - id: 17740
     properties:
       facing: east
       half: top
       shape: inner_right
       waterlogged: 'false'
-  - id: 17645
+  - id: 17741
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'true'
-  - id: 17646
+  - id: 17742
     properties:
       facing: east
       half: top
       shape: outer_left
       waterlogged: 'false'
-  - id: 17647
+  - id: 17743
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'true'
-  - id: 17648
+  - id: 17744
     properties:
       facing: east
       half: top
       shape: outer_right
       waterlogged: 'false'
-  - id: 17649
+  - id: 17745
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'true'
-  - id: 17650
+  - id: 17746
     properties:
       facing: east
       half: bottom
       shape: straight
       waterlogged: 'false'
-  - id: 17651
+  - id: 17747
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'true'
-  - id: 17652
+  - id: 17748
     properties:
       facing: east
       half: bottom
       shape: inner_left
       waterlogged: 'false'
-  - id: 17653
+  - id: 17749
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'true'
-  - id: 17654
+  - id: 17750
     properties:
       facing: east
       half: bottom
       shape: inner_right
       waterlogged: 'false'
-  - id: 17655
+  - id: 17751
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'true'
-  - id: 17656
+  - id: 17752
     properties:
       facing: east
       half: bottom
       shape: outer_left
       waterlogged: 'false'
-  - id: 17657
+  - id: 17753
     properties:
       facing: east
       half: bottom
       shape: outer_right
       waterlogged: 'true'
-  - id: 17658
+  - id: 17754
     properties:
       facing: east
       half: bottom

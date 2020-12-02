@@ -616,6 +616,7 @@
     "minecraft:blocks/sandstone_stairs",
     "minecraft:blocks/sandstone_wall",
     "minecraft:blocks/scaffolding",
+    "minecraft:blocks/sculk_sensor",
     "minecraft:blocks/seagrass",
     "minecraft:blocks/sea_lantern",
     "minecraft:blocks/sea_pickle",

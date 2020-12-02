@@ -25,6 +25,7 @@ minecraft:crystal_sound_blocks
 minecraft:dark_oak_logs
 minecraft:doors
 minecraft:dragon_immune
+minecraft:dripstone_replaceable_blocks
 minecraft:enderman_holdable
 minecraft:fences
 minecraft:fence_gates
@@ -48,6 +49,7 @@ minecraft:mushroom_grow_block
 minecraft:non_flammable_wood
 minecraft:nylium
 minecraft:oak_logs
+minecraft:occludes_vibration_signals
 minecraft:piglin_repellents
 minecraft:planks
 minecraft:portals

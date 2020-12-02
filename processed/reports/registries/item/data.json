@@ -1038,6 +1038,7 @@
     "minecraft:lightning_rod",
     "minecraft:powder_snow_bucket",
     "minecraft:pointed_dripstone",
-    "minecraft:dripstone_block"
+    "minecraft:dripstone_block",
+    "minecraft:sculk_sensor"
   ]
 }

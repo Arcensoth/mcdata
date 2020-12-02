@@ -52,6 +52,9 @@
     "minecraft:simple_random_selector",
     "minecraft:random_boolean_selector",
     "minecraft:decorated",
-    "minecraft:geode"
+    "minecraft:geode",
+    "minecraft:dripstone_cluster",
+    "minecraft:large_dripstone",
+    "minecraft:small_dripstone"
   ]
 }
