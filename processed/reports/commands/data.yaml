@@ -2948,6 +2948,14 @@ children:
             type: argument
         executable: true
         type: literal
+      playersSleepingPercentage:
+        children:
+          value:
+            executable: true
+            parser: brigadier:integer
+            type: argument
+        executable: true
+        type: literal
       randomTickSpeed:
         children:
           value:

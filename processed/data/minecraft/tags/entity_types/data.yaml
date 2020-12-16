@@ -1,5 +1,7 @@
 values:
 - minecraft:arrows
+- minecraft:axolotl_always_hostiles
+- minecraft:axolotl_tempted_hostiles
 - minecraft:beehive_inhabitors
 - minecraft:impact_projectiles
 - minecraft:powder_snow_walkable_mobs

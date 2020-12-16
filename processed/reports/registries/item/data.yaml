@@ -678,6 +678,7 @@ values:
 - minecraft:salmon_bucket
 - minecraft:cod_bucket
 - minecraft:tropical_fish_bucket
+- minecraft:axolotl_bucket
 - minecraft:brick
 - minecraft:clay_ball
 - minecraft:dried_kelp_block
@@ -764,6 +765,7 @@ values:
 - minecraft:cauldron
 - minecraft:ender_eye
 - minecraft:glistering_melon_slice
+- minecraft:axolotl_spawn_egg
 - minecraft:bat_spawn_egg
 - minecraft:bee_spawn_egg
 - minecraft:blaze_spawn_egg

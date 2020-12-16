@@ -61,6 +61,13 @@ minecraft:entity.arrow.hit
 minecraft:entity.arrow.hit_player
 minecraft:entity.arrow.shoot
 minecraft:item.axe.strip
+minecraft:entity.axolotl.attack
+minecraft:entity.axolotl.death
+minecraft:entity.axolotl.hurt
+minecraft:entity.axolotl.idle_air
+minecraft:entity.axolotl.idle_water
+minecraft:entity.axolotl.splash
+minecraft:entity.axolotl.swim
 minecraft:block.bamboo.break
 minecraft:block.bamboo.fall
 minecraft:block.bamboo.hit
@@ -123,10 +130,12 @@ minecraft:block.bubble_column.upwards_inside
 minecraft:block.bubble_column.whirlpool_ambient
 minecraft:block.bubble_column.whirlpool_inside
 minecraft:item.bucket.empty
+minecraft:item.bucket.empty_axolotl
 minecraft:item.bucket.empty_fish
 minecraft:item.bucket.empty_lava
 minecraft:item.bucket.empty_powder_snow
 minecraft:item.bucket.fill
+minecraft:item.bucket.fill_axolotl
 minecraft:item.bucket.fill_fish
 minecraft:item.bucket.fill_lava
 minecraft:item.bucket.fill_powder_snow

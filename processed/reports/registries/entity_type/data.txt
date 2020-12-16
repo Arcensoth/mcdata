@@ -1,6 +1,7 @@
 minecraft:area_effect_cloud
 minecraft:armor_stand
 minecraft:arrow
+minecraft:axolotl
 minecraft:bat
 minecraft:bee
 minecraft:blaze

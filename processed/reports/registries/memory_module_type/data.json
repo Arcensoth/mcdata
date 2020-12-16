@@ -59,6 +59,10 @@
     "minecraft:nearest_player_holding_wanted_item",
     "minecraft:ate_recently",
     "minecraft:nearest_repellent",
-    "minecraft:pacified"
+    "minecraft:pacified",
+    "minecraft:play_dead_ticks",
+    "minecraft:tempting_player",
+    "minecraft:temptation_cooldown_ticks",
+    "minecraft:is_tempted"
   ]
 }

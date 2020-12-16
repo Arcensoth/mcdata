@@ -13,3 +13,5 @@ values:
 - minecraft:piglin_brute_specific_sensor
 - minecraft:hoglin_specific_sensor
 - minecraft:nearest_adult
+- minecraft:axolotl_hostiles
+- minecraft:axolotl_temptations

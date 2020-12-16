@@ -1810,6 +1810,7 @@ loot_tables:
 - minecraft:chests/village/village_toolsmith
 - minecraft:chests/village/village_weaponsmith
 - minecraft:entities/armor_stand
+- minecraft:entities/axolotl
 - minecraft:entities/bat
 - minecraft:entities/bee
 - minecraft:entities/blaze
@@ -2933,6 +2934,8 @@ tags:
   - minecraft:wool
   entity_types:
   - minecraft:arrows
+  - minecraft:axolotl_always_hostiles
+  - minecraft:axolotl_tempted_hostiles
   - minecraft:beehive_inhabitors
   - minecraft:impact_projectiles
   - minecraft:powder_snow_walkable_mobs
@@ -2945,6 +2948,7 @@ tags:
   - minecraft:acacia_logs
   - minecraft:anvil
   - minecraft:arrows
+  - minecraft:axolotl_tempt_items
   - minecraft:banners
   - minecraft:beacon_payment_items
   - minecraft:beds
@@ -2972,6 +2976,7 @@ tags:
   - minecraft:music_discs
   - minecraft:non_flammable_wood
   - minecraft:oak_logs
+  - minecraft:occludes_vibration_signals
   - minecraft:piglin_food
   - minecraft:piglin_loved
   - minecraft:piglin_repellents

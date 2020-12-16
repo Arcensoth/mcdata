@@ -822,6 +822,7 @@ values:
 - minecraft:chests/village/village_toolsmith
 - minecraft:chests/village/village_weaponsmith
 - minecraft:entities/armor_stand
+- minecraft:entities/axolotl
 - minecraft:entities/bat
 - minecraft:entities/bee
 - minecraft:entities/blaze
