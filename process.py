@@ -125,6 +125,23 @@ def split_registries(inparts: tuple, outparts: tuple):
         process_registry(registry, registries_outdir, reg_shortname)
 
 
+def simplify_blocks(inparts: tuple, outparts: tuple):
+    blocks_path = os.path.join(*inparts, "reports", "blocks.json")
+    LOG.info(f"Reading block from: {blocks_path}")
+    with open(blocks_path) as blocks_fp:
+        blocks_data = json.load(blocks_fp)
+    blocks_outdir = os.path.join(*outparts, "reports", "blocks")
+    data = {}
+    for block_name, block_data in blocks_data.items():
+        data[block_name] = {
+            "properties": block_data.get("properties", {}),
+            "default": next(filter(lambda s: s.get("default", False), block_data["states"])).get("properties", {})
+        }
+    write_json(data, blocks_outdir, "simplified")
+    write_min_json(data, blocks_outdir, "simplified")
+    write_yaml(data, blocks_outdir, "simplified")
+
+
 def summarize_reports(inparts: tuple, outparts: tuple):
     # assume namespace is `minecraft` for now
     namespace = "minecraft"
@@ -211,6 +228,8 @@ def process(inparts: tuple, outparts: tuple):
     convert_files(inparts, outparts)
     print("Splitting registries...")
     split_registries(inparts, outparts)
+    print("Simplifying blocks...")
+    simplify_blocks(inparts, outparts)
     print("Summarizing reports...")
     summarize_reports(inparts, outparts)
     print("Summarizing data...")
