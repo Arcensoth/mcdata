@@ -31,6 +31,8 @@ values:
 - minecraft:fox
 - minecraft:ghast
 - minecraft:giant
+- minecraft:glow_item_frame
+- minecraft:glow_squid
 - minecraft:guardian
 - minecraft:hoglin
 - minecraft:horse

@@ -1,8 +1,8 @@
 criteria:
-  has_polished_blackstone:
+  has_polished_blackstone_slab:
     conditions:
       items:
-      - item: minecraft:polished_blackstone
+      - item: minecraft:polished_blackstone_slab
     trigger: minecraft:inventory_changed
   has_the_recipe:
     conditions:
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_polished_blackstone
+- - has_polished_blackstone_slab
   - has_the_recipe
 rewards:
   recipes:

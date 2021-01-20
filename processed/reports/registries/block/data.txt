@@ -841,3 +841,4 @@ minecraft:waxed_cut_copper_slab
 minecraft:lightning_rod
 minecraft:pointed_dripstone
 minecraft:dripstone_block
+minecraft:glow_lichen

@@ -1,5 +1,5 @@
 criteria:
-  has_spruce_planks:
+  has_planks:
     conditions:
       items:
       - item: minecraft:spruce_planks
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_spruce_planks
+- - has_planks
   - has_the_recipe
 rewards:
   recipes:

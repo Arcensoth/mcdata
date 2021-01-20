@@ -785,6 +785,7 @@
     "minecraft:evoker_spawn_egg",
     "minecraft:fox_spawn_egg",
     "minecraft:ghast_spawn_egg",
+    "minecraft:glow_squid_spawn_egg",
     "minecraft:guardian_spawn_egg",
     "minecraft:hoglin_spawn_egg",
     "minecraft:horse_spawn_egg",
@@ -837,6 +838,7 @@
     "minecraft:written_book",
     "minecraft:emerald",
     "minecraft:item_frame",
+    "minecraft:glow_item_frame",
     "minecraft:flower_pot",
     "minecraft:carrot",
     "minecraft:potato",
@@ -1041,6 +1043,8 @@
     "minecraft:powder_snow_bucket",
     "minecraft:pointed_dripstone",
     "minecraft:dripstone_block",
-    "minecraft:sculk_sensor"
+    "minecraft:sculk_sensor",
+    "minecraft:glow_lichen",
+    "minecraft:glow_ink_sac"
   ]
 }

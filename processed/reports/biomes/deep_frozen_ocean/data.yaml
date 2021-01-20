@@ -657,6 +657,45 @@ features:
 - - config:
       decorator:
         config:
+          count:
+            base: 5
+            spread: 5
+        type: minecraft:count
+      feature:
+        config:
+          decorator:
+            config:
+              bottom_offset: 0
+              maximum: 55
+              top_offset: 0
+            type: minecraft:range
+          feature:
+            config:
+              decorator:
+                config: {}
+                type: minecraft:square
+              feature:
+                config:
+                  can_be_placed_on:
+                  - Name: minecraft:stone
+                  - Name: minecraft:andesite
+                  - Name: minecraft:diorite
+                  - Name: minecraft:granite
+                  - Name: minecraft:dripstone_block
+                  - Name: minecraft:calcite
+                  - Name: minecraft:tuff
+                  can_place_on_ceiling: true
+                  can_place_on_floor: false
+                  can_place_on_wall: true
+                  chance_of_spreading: 0.5
+                  search_range: 10
+                type: minecraft:glow_lichen
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
+  - config:
+      decorator:
+        config:
           count: 0
           extra_chance: 0.1
           extra_count: 1

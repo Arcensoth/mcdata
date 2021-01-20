@@ -263,6 +263,7 @@ minecraft:entity.drowned.hurt_water
 minecraft:entity.drowned.shoot
 minecraft:entity.drowned.step
 minecraft:entity.drowned.swim
+minecraft:item.dye.use
 minecraft:entity.egg.throw
 minecraft:entity.elder_guardian.ambient
 minecraft:entity.elder_guardian.ambient_land
@@ -372,6 +373,11 @@ minecraft:block.glass.fall
 minecraft:block.glass.hit
 minecraft:block.glass.place
 minecraft:block.glass.step
+minecraft:item.glow_ink_sac.use
+minecraft:entity.glow_squid.ambient
+minecraft:entity.glow_squid.death
+minecraft:entity.glow_squid.hurt
+minecraft:entity.glow_squid.squirt
 minecraft:block.grass.break
 minecraft:block.grass.fall
 minecraft:block.grass.hit
@@ -438,6 +444,7 @@ minecraft:entity.illusioner.hurt
 minecraft:entity.illusioner.mirror_move
 minecraft:entity.illusioner.prepare_blindness
 minecraft:entity.illusioner.prepare_mirror
+minecraft:item.ink_sac.use
 minecraft:block.iron_door.close
 minecraft:block.iron_door.open
 minecraft:entity.iron_golem.attack

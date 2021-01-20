@@ -1699,6 +1699,10 @@
   },
   "minecraft:oak_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -1723,12 +1727,17 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
   },
   "minecraft:spruce_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -1753,12 +1762,17 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
   },
   "minecraft:birch_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -1783,12 +1797,17 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
   },
   "minecraft:acacia_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -1813,12 +1832,17 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
   },
   "minecraft:jungle_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -1843,12 +1867,17 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
   },
   "minecraft:dark_oak_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -1873,6 +1902,7 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
@@ -1991,6 +2021,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -1998,6 +2032,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -2009,6 +2044,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -2016,6 +2055,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -2027,6 +2067,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -2034,6 +2078,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -2045,6 +2090,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -2052,6 +2101,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -2063,6 +2113,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -2070,6 +2124,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -2081,6 +2136,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -2088,6 +2147,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -10453,6 +10513,10 @@
   },
   "minecraft:crimson_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -10477,12 +10541,17 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
   },
   "minecraft:warped_sign": {
     "properties": {
+      "lit": [
+        "true",
+        "false"
+      ],
       "rotation": [
         "0",
         "1",
@@ -10507,6 +10576,7 @@
       ]
     },
     "default": {
+      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     }
@@ -10519,6 +10589,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -10526,6 +10600,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -10537,6 +10612,10 @@
         "west",
         "east"
       ],
+      "lit": [
+        "true",
+        "false"
+      ],
       "waterlogged": [
         "true",
         "false"
@@ -10544,6 +10623,7 @@
     },
     "default": {
       "facing": "north",
+      "lit": "false",
       "waterlogged": "false"
     }
   },
@@ -12238,5 +12318,46 @@
   "minecraft:dripstone_block": {
     "properties": {},
     "default": {}
+  },
+  "minecraft:glow_lichen": {
+    "properties": {
+      "down": [
+        "true",
+        "false"
+      ],
+      "east": [
+        "true",
+        "false"
+      ],
+      "north": [
+        "true",
+        "false"
+      ],
+      "south": [
+        "true",
+        "false"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "down": "false",
+      "east": "false",
+      "north": "false",
+      "south": "false",
+      "up": "false",
+      "waterlogged": "false",
+      "west": "false"
+    }
   }
 }

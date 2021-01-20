@@ -264,6 +264,7 @@ values:
 - minecraft:blocks/glass
 - minecraft:blocks/glass_pane
 - minecraft:blocks/glowstone
+- minecraft:blocks/glow_lichen
 - minecraft:blocks/gold_block
 - minecraft:blocks/gold_ore
 - minecraft:blocks/granite
@@ -843,6 +844,7 @@ values:
 - minecraft:entities/fox
 - minecraft:entities/ghast
 - minecraft:entities/giant
+- minecraft:entities/glow_squid
 - minecraft:entities/guardian
 - minecraft:entities/hoglin
 - minecraft:entities/horse

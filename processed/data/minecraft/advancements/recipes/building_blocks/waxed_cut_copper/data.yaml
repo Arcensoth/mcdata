@@ -1,7 +1,7 @@
 criteria:
   has_the_recipe:
     conditions:
-      recipe: minecraft:waxed_cut_copper_from_waxed_block
+      recipe: minecraft:waxed_cut_copper
     trigger: minecraft:recipe_unlocked
   has_waxed_copper:
     conditions:
@@ -14,4 +14,4 @@ requirements:
   - has_the_recipe
 rewards:
   recipes:
-  - minecraft:waxed_cut_copper_from_waxed_block
+  - minecraft:waxed_cut_copper

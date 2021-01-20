@@ -1,5 +1,5 @@
 criteria:
-  has_birch_planks:
+  has_planks:
     conditions:
       items:
       - item: minecraft:birch_planks
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_birch_planks
+- - has_planks
   - has_the_recipe
 rewards:
   recipes:
