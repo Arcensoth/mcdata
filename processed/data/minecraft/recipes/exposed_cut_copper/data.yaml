@@ -1,0 +1,10 @@
+key:
+  '#':
+    item: minecraft:exposed_copper_block
+pattern:
+- '##'
+- '##'
+result:
+  count: 4
+  item: minecraft:exposed_cut_copper
+type: minecraft:crafting_shaped

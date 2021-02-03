@@ -1,0 +1,5 @@
+count: 2
+ingredient:
+  item: minecraft:oxidized_cut_copper
+result: minecraft:oxidized_cut_copper_slab
+type: minecraft:stonecutting

@@ -1,0 +1,6 @@
+ingredients:
+- item: minecraft:weathered_cut_copper_slab
+- item: minecraft:honeycomb
+result:
+  item: minecraft:waxed_weathered_cut_copper_slab
+type: minecraft:crafting_shapeless

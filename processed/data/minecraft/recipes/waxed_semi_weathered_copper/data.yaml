@@ -1,6 +1,0 @@
-ingredients:
-- item: minecraft:semi_weathered_copper_block
-- item: minecraft:honeycomb
-result:
-  item: minecraft:waxed_semi_weathered_copper
-type: minecraft:crafting_shapeless

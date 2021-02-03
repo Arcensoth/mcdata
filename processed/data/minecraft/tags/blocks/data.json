@@ -2,6 +2,7 @@
   "values": [
     "minecraft:acacia_logs",
     "minecraft:anvil",
+    "minecraft:azalea_log_replaceable",
     "minecraft:bamboo_plantable_on",
     "minecraft:banners",
     "minecraft:base_stone_nether",
@@ -17,6 +18,7 @@
     "minecraft:candle_cakes",
     "minecraft:carpets",
     "minecraft:cauldrons",
+    "minecraft:cave_vines",
     "minecraft:climbable",
     "minecraft:corals",
     "minecraft:coral_blocks",
@@ -47,6 +49,7 @@
     "minecraft:leaves",
     "minecraft:logs",
     "minecraft:logs_that_burn",
+    "minecraft:lush_plants_replaceable",
     "minecraft:mushroom_grow_block",
     "minecraft:non_flammable_wood",
     "minecraft:nylium",

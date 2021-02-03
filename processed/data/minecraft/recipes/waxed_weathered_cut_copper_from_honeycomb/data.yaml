@@ -1,0 +1,6 @@
+ingredients:
+- item: minecraft:weathered_cut_copper
+- item: minecraft:honeycomb
+result:
+  item: minecraft:waxed_weathered_cut_copper
+type: minecraft:crafting_shapeless

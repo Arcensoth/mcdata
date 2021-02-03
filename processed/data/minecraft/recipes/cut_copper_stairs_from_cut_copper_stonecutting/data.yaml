@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:cut_copper
+result: minecraft:cut_copper_stairs
+type: minecraft:stonecutting

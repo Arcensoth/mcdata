@@ -57,22 +57,7 @@ pools:
           max: 10.0
           min: 7.0
           type: minecraft:uniform
-        type: minecraft:jump_boost
-      - duration:
-          max: 10.0
-          min: 7.0
-          type: minecraft:uniform
         type: minecraft:saturation
-      - duration:
-          max: 8.0
-          min: 6.0
-          type: minecraft:uniform
-        type: minecraft:weakness
-      - duration:
-          max: 7.0
-          min: 5.0
-          type: minecraft:uniform
-        type: minecraft:blindness
       - duration:
           max: 20.0
           min: 10.0
@@ -83,6 +68,21 @@ pools:
           min: 7.0
           type: minecraft:uniform
         type: minecraft:night_vision
+      - duration:
+          max: 8.0
+          min: 6.0
+          type: minecraft:uniform
+        type: minecraft:weakness
+      - duration:
+          max: 10.0
+          min: 7.0
+          type: minecraft:uniform
+        type: minecraft:jump_boost
+      - duration:
+          max: 7.0
+          min: 5.0
+          type: minecraft:uniform
+        type: minecraft:blindness
       function: minecraft:set_stew_effect
     name: minecraft:suspicious_stew
     type: minecraft:item

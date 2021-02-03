@@ -18,6 +18,7 @@ minecraft:doors
 minecraft:fences
 minecraft:fishes
 minecraft:flowers
+minecraft:fox_food
 minecraft:freeze_immune_wearables
 minecraft:gold_ores
 minecraft:ignored_by_piglin_babies

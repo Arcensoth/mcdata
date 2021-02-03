@@ -64,9 +64,11 @@ minecraft:dripping_honey
 minecraft:falling_honey
 minecraft:landing_honey
 minecraft:falling_nectar
+minecraft:falling_spore_blossom
 minecraft:ash
 minecraft:crimson_spore
 minecraft:warped_spore
+minecraft:spore_blossom_air
 minecraft:dripping_obsidian_tear
 minecraft:falling_obsidian_tear
 minecraft:landing_obsidian_tear

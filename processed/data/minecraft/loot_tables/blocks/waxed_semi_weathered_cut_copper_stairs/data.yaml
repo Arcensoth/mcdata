@@ -1,9 +1,0 @@
-pools:
-- bonus_rolls: 0.0
-  conditions:
-  - condition: minecraft:survives_explosion
-  entries:
-  - name: minecraft:waxed_semi_weathered_cut_copper_stairs
-    type: minecraft:item
-  rolls: 1.0
-type: minecraft:block

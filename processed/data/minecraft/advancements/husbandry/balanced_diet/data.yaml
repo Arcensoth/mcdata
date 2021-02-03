@@ -99,6 +99,11 @@ criteria:
       item:
         item: minecraft:enchanted_golden_apple
     trigger: minecraft:consume_item
+  glow_berries:
+    conditions:
+      item:
+        item: minecraft:glow_berries
+    trigger: minecraft:consume_item
   golden_apple:
     conditions:
       item:
@@ -246,5 +251,6 @@ requirements:
 - - suspicious_stew
 - - sweet_berries
 - - honey_bottle
+- - glow_berries
 rewards:
   experience: 100

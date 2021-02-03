@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:waxed_weathered_copper
+result: minecraft:waxed_weathered_cut_copper
+type: minecraft:stonecutting

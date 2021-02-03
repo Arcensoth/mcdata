@@ -1,0 +1,6 @@
+ingredients:
+- item: minecraft:exposed_copper_block
+- item: minecraft:honeycomb
+result:
+  item: minecraft:waxed_exposed_copper
+type: minecraft:crafting_shapeless

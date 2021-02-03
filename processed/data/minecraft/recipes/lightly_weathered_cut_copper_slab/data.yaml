@@ -1,9 +1,0 @@
-key:
-  '#':
-    item: minecraft:lightly_weathered_cut_copper
-pattern:
-- '###'
-result:
-  count: 6
-  item: minecraft:lightly_weathered_cut_copper_slab
-type: minecraft:crafting_shaped

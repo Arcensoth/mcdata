@@ -388,6 +388,41 @@ minecraft:attached_pumpkin_stem:
     - south
     - west
     - east
+minecraft:azalea:
+  default: {}
+  properties: {}
+minecraft:azalea_leaves:
+  default:
+    distance: '7'
+    persistent: 'false'
+  properties:
+    distance:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    persistent:
+    - 'true'
+    - 'false'
+minecraft:azalea_leaves_flowers:
+  default:
+    distance: '7'
+    persistent: 'false'
+  properties:
+    distance:
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    persistent:
+    - 'true'
+    - 'false'
 minecraft:azure_bluet:
   default: {}
   properties: {}
@@ -502,6 +537,38 @@ minecraft:bell:
     - west
     - east
     powered:
+    - 'true'
+    - 'false'
+minecraft:big_dripleaf:
+  default:
+    facing: north
+    tilt: none
+    waterlogged: 'false'
+  properties:
+    facing:
+    - north
+    - south
+    - west
+    - east
+    tilt:
+    - none
+    - unstable
+    - partial
+    - full
+    waterlogged:
+    - 'true'
+    - 'false'
+minecraft:big_dripleaf_stem:
+  default:
+    facing: north
+    waterlogged: 'false'
+  properties:
+    facing:
+    - north
+    - south
+    - west
+    - east
+    waterlogged:
     - 'true'
     - 'false'
 minecraft:birch_button:
@@ -1540,6 +1607,48 @@ minecraft:cauldron:
 minecraft:cave_air:
   default: {}
   properties: {}
+minecraft:cave_vines_body:
+  default:
+    berries: 'false'
+  properties:
+    berries:
+    - 'true'
+    - 'false'
+minecraft:cave_vines_head:
+  default:
+    age: '0'
+    berries: 'false'
+  properties:
+    age:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    - '16'
+    - '17'
+    - '18'
+    - '19'
+    - '20'
+    - '21'
+    - '22'
+    - '23'
+    - '24'
+    - '25'
+    berries:
+    - 'true'
+    - 'false'
 minecraft:chain:
   default:
     axis: y
@@ -3053,6 +3162,48 @@ minecraft:ender_chest:
     waterlogged:
     - 'true'
     - 'false'
+minecraft:exposed_copper_block:
+  default: {}
+  properties: {}
+minecraft:exposed_cut_copper:
+  default: {}
+  properties: {}
+minecraft:exposed_cut_copper_slab:
+  default:
+    type: bottom
+    waterlogged: 'false'
+  properties:
+    type:
+    - top
+    - bottom
+    - double
+    waterlogged:
+    - 'true'
+    - 'false'
+minecraft:exposed_cut_copper_stairs:
+  default:
+    facing: north
+    half: bottom
+    shape: straight
+    waterlogged: 'false'
+  properties:
+    facing:
+    - north
+    - south
+    - west
+    - east
+    half:
+    - top
+    - bottom
+    shape:
+    - straight
+    - inner_left
+    - inner_right
+    - outer_left
+    - outer_right
+    waterlogged:
+    - 'true'
+    - 'false'
 minecraft:farmland:
   default:
     moisture: '0'
@@ -3144,6 +3295,9 @@ minecraft:fletching_table:
   default: {}
   properties: {}
 minecraft:flower_pot:
+  default: {}
+  properties: {}
+minecraft:flowering_azalea:
   default: {}
   properties: {}
 minecraft:frosted_ice:
@@ -3598,6 +3752,9 @@ minecraft:grindstone:
     - south
     - west
     - east
+minecraft:hanging_roots:
+  default: {}
+  properties: {}
 minecraft:hay_block:
   default:
     axis: y
@@ -4487,48 +4644,6 @@ minecraft:light_weighted_pressure_plate:
     - '13'
     - '14'
     - '15'
-minecraft:lightly_weathered_copper_block:
-  default: {}
-  properties: {}
-minecraft:lightly_weathered_cut_copper:
-  default: {}
-  properties: {}
-minecraft:lightly_weathered_cut_copper_slab:
-  default:
-    type: bottom
-    waterlogged: 'false'
-  properties:
-    type:
-    - top
-    - bottom
-    - double
-    waterlogged:
-    - 'true'
-    - 'false'
-minecraft:lightly_weathered_cut_copper_stairs:
-  default:
-    facing: north
-    half: bottom
-    shape: straight
-    waterlogged: 'false'
-  properties:
-    facing:
-    - north
-    - south
-    - west
-    - east
-    half:
-    - top
-    - bottom
-    shape:
-    - straight
-    - inner_left
-    - inner_right
-    - outer_left
-    - outer_right
-    waterlogged:
-    - 'true'
-    - 'false'
 minecraft:lightning_rod:
   default:
     facing: up
@@ -4871,6 +4986,12 @@ minecraft:melon_stem:
     - '5'
     - '6'
     - '7'
+minecraft:moss_block:
+  default: {}
+  properties: {}
+minecraft:moss_carpet:
+  default: {}
+  properties: {}
 minecraft:mossy_cobblestone:
   default: {}
   properties: {}
@@ -5638,6 +5759,48 @@ minecraft:orange_wool:
 minecraft:oxeye_daisy:
   default: {}
   properties: {}
+minecraft:oxidized_copper_block:
+  default: {}
+  properties: {}
+minecraft:oxidized_cut_copper:
+  default: {}
+  properties: {}
+minecraft:oxidized_cut_copper_slab:
+  default:
+    type: bottom
+    waterlogged: 'false'
+  properties:
+    type:
+    - top
+    - bottom
+    - double
+    waterlogged:
+    - 'true'
+    - 'false'
+minecraft:oxidized_cut_copper_stairs:
+  default:
+    facing: north
+    half: bottom
+    shape: straight
+    waterlogged: 'false'
+  properties:
+    facing:
+    - north
+    - south
+    - west
+    - east
+    half:
+    - top
+    - bottom
+    shape:
+    - straight
+    - inner_left
+    - inner_right
+    - outer_left
+    - outer_right
+    waterlogged:
+    - 'true'
+    - 'false'
 minecraft:packed_ice:
   default: {}
   properties: {}
@@ -7114,6 +7277,9 @@ minecraft:respawn_anchor:
     - '2'
     - '3'
     - '4'
+minecraft:rooted_dirt:
+  default: {}
+  properties: {}
 minecraft:rose_bush:
   default:
     half: lower
@@ -7218,7 +7384,7 @@ minecraft:scaffolding:
 minecraft:sculk_sensor:
   default:
     power: '0'
-    sculk_sensor_phase: cooldown
+    sculk_sensor_phase: inactive
     waterlogged: 'false'
   properties:
     power:
@@ -7264,48 +7430,6 @@ minecraft:sea_pickle:
 minecraft:seagrass:
   default: {}
   properties: {}
-minecraft:semi_weathered_copper_block:
-  default: {}
-  properties: {}
-minecraft:semi_weathered_cut_copper:
-  default: {}
-  properties: {}
-minecraft:semi_weathered_cut_copper_slab:
-  default:
-    type: bottom
-    waterlogged: 'false'
-  properties:
-    type:
-    - top
-    - bottom
-    - double
-    waterlogged:
-    - 'true'
-    - 'false'
-minecraft:semi_weathered_cut_copper_stairs:
-  default:
-    facing: north
-    half: bottom
-    shape: straight
-    waterlogged: 'false'
-  properties:
-    facing:
-    - north
-    - south
-    - west
-    - east
-    half:
-    - top
-    - bottom
-    shape:
-    - straight
-    - inner_left
-    - inner_right
-    - outer_left
-    - outer_right
-    waterlogged:
-    - 'true'
-    - 'false'
 minecraft:shroomlight:
   default: {}
   properties: {}
@@ -7369,6 +7493,17 @@ minecraft:small_amethyst_bud:
     lit:
     - 'true'
     - 'false'
+    waterlogged:
+    - 'true'
+    - 'false'
+minecraft:small_dripleaf:
+  default:
+    half: lower
+    waterlogged: 'false'
+  properties:
+    half:
+    - upper
+    - lower
     waterlogged:
     - 'true'
     - 'false'
@@ -7593,6 +7728,9 @@ minecraft:spawner:
   default: {}
   properties: {}
 minecraft:sponge:
+  default: {}
+  properties: {}
+minecraft:spore_blossom:
   default: {}
   properties: {}
 minecraft:spruce_button:
@@ -8709,13 +8847,13 @@ minecraft:waxed_cut_copper_stairs:
     waterlogged:
     - 'true'
     - 'false'
-minecraft:waxed_lightly_weathered_copper:
+minecraft:waxed_exposed_copper:
   default: {}
   properties: {}
-minecraft:waxed_lightly_weathered_cut_copper:
+minecraft:waxed_exposed_cut_copper:
   default: {}
   properties: {}
-minecraft:waxed_lightly_weathered_cut_copper_slab:
+minecraft:waxed_exposed_cut_copper_slab:
   default:
     type: bottom
     waterlogged: 'false'
@@ -8727,7 +8865,7 @@ minecraft:waxed_lightly_weathered_cut_copper_slab:
     waterlogged:
     - 'true'
     - 'false'
-minecraft:waxed_lightly_weathered_cut_copper_stairs:
+minecraft:waxed_exposed_cut_copper_stairs:
   default:
     facing: north
     half: bottom
@@ -8751,13 +8889,13 @@ minecraft:waxed_lightly_weathered_cut_copper_stairs:
     waterlogged:
     - 'true'
     - 'false'
-minecraft:waxed_semi_weathered_copper:
+minecraft:waxed_weathered_copper:
   default: {}
   properties: {}
-minecraft:waxed_semi_weathered_cut_copper:
+minecraft:waxed_weathered_cut_copper:
   default: {}
   properties: {}
-minecraft:waxed_semi_weathered_cut_copper_slab:
+minecraft:waxed_weathered_cut_copper_slab:
   default:
     type: bottom
     waterlogged: 'false'
@@ -8769,7 +8907,7 @@ minecraft:waxed_semi_weathered_cut_copper_slab:
     waterlogged:
     - 'true'
     - 'false'
-minecraft:waxed_semi_weathered_cut_copper_stairs:
+minecraft:waxed_weathered_cut_copper_stairs:
   default:
     facing: north
     half: bottom

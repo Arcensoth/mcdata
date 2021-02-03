@@ -651,6 +651,48 @@
       "persistent": "false"
     }
   },
+  "minecraft:azalea_leaves": {
+    "properties": {
+      "distance": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "persistent": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "distance": "7",
+      "persistent": "false"
+    }
+  },
+  "minecraft:azalea_leaves_flowers": {
+    "properties": {
+      "distance": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "persistent": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "distance": "7",
+      "persistent": "false"
+    }
+  },
   "minecraft:sponge": {
     "properties": {},
     "default": {}
@@ -3195,6 +3237,47 @@
       "north": "false",
       "south": "false",
       "up": "false",
+      "west": "false"
+    }
+  },
+  "minecraft:glow_lichen": {
+    "properties": {
+      "down": [
+        "true",
+        "false"
+      ],
+      "east": [
+        "true",
+        "false"
+      ],
+      "north": [
+        "true",
+        "false"
+      ],
+      "south": [
+        "true",
+        "false"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "down": "false",
+      "east": "false",
+      "north": "false",
+      "south": "false",
+      "up": "false",
+      "waterlogged": "false",
       "west": "false"
     }
   },
@@ -11871,19 +11954,19 @@
     },
     "default": {
       "power": "0",
-      "sculk_sensor_phase": "cooldown",
+      "sculk_sensor_phase": "inactive",
       "waterlogged": "false"
     }
+  },
+  "minecraft:oxidized_copper_block": {
+    "properties": {},
+    "default": {}
   },
   "minecraft:weathered_copper_block": {
     "properties": {},
     "default": {}
   },
-  "minecraft:semi_weathered_copper_block": {
-    "properties": {},
-    "default": {}
-  },
-  "minecraft:lightly_weathered_copper_block": {
+  "minecraft:exposed_copper_block": {
     "properties": {},
     "default": {}
   },
@@ -11895,21 +11978,52 @@
     "properties": {},
     "default": {}
   },
+  "minecraft:oxidized_cut_copper": {
+    "properties": {},
+    "default": {}
+  },
   "minecraft:weathered_cut_copper": {
     "properties": {},
     "default": {}
   },
-  "minecraft:semi_weathered_cut_copper": {
-    "properties": {},
-    "default": {}
-  },
-  "minecraft:lightly_weathered_cut_copper": {
+  "minecraft:exposed_cut_copper": {
     "properties": {},
     "default": {}
   },
   "minecraft:cut_copper": {
     "properties": {},
     "default": {}
+  },
+  "minecraft:oxidized_cut_copper_stairs": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    }
   },
   "minecraft:weathered_cut_copper_stairs": {
     "properties": {
@@ -11942,38 +12056,7 @@
       "waterlogged": "false"
     }
   },
-  "minecraft:semi_weathered_cut_copper_stairs": {
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ],
-      "half": [
-        "top",
-        "bottom"
-      ],
-      "shape": [
-        "straight",
-        "inner_left",
-        "inner_right",
-        "outer_left",
-        "outer_right"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "default": {
-      "facing": "north",
-      "half": "bottom",
-      "shape": "straight",
-      "waterlogged": "false"
-    }
-  },
-  "minecraft:lightly_weathered_cut_copper_stairs": {
+  "minecraft:exposed_cut_copper_stairs": {
     "properties": {
       "facing": [
         "north",
@@ -12035,6 +12118,23 @@
       "waterlogged": "false"
     }
   },
+  "minecraft:oxidized_cut_copper_slab": {
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    }
+  },
   "minecraft:weathered_cut_copper_slab": {
     "properties": {
       "type": [
@@ -12052,24 +12152,7 @@
       "waterlogged": "false"
     }
   },
-  "minecraft:semi_weathered_cut_copper_slab": {
-    "properties": {
-      "type": [
-        "top",
-        "bottom",
-        "double"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    },
-    "default": {
-      "type": "bottom",
-      "waterlogged": "false"
-    }
-  },
-  "minecraft:lightly_weathered_cut_copper_slab": {
+  "minecraft:exposed_cut_copper_slab": {
     "properties": {
       "type": [
         "top",
@@ -12107,19 +12190,19 @@
     "properties": {},
     "default": {}
   },
-  "minecraft:waxed_semi_weathered_copper": {
+  "minecraft:waxed_weathered_copper": {
     "properties": {},
     "default": {}
   },
-  "minecraft:waxed_lightly_weathered_copper": {
+  "minecraft:waxed_exposed_copper": {
     "properties": {},
     "default": {}
   },
-  "minecraft:waxed_semi_weathered_cut_copper": {
+  "minecraft:waxed_weathered_cut_copper": {
     "properties": {},
     "default": {}
   },
-  "minecraft:waxed_lightly_weathered_cut_copper": {
+  "minecraft:waxed_exposed_cut_copper": {
     "properties": {},
     "default": {}
   },
@@ -12127,7 +12210,7 @@
     "properties": {},
     "default": {}
   },
-  "minecraft:waxed_semi_weathered_cut_copper_stairs": {
+  "minecraft:waxed_weathered_cut_copper_stairs": {
     "properties": {
       "facing": [
         "north",
@@ -12158,7 +12241,7 @@
       "waterlogged": "false"
     }
   },
-  "minecraft:waxed_lightly_weathered_cut_copper_stairs": {
+  "minecraft:waxed_exposed_cut_copper_stairs": {
     "properties": {
       "facing": [
         "north",
@@ -12220,7 +12303,7 @@
       "waterlogged": "false"
     }
   },
-  "minecraft:waxed_semi_weathered_cut_copper_slab": {
+  "minecraft:waxed_weathered_cut_copper_slab": {
     "properties": {
       "type": [
         "top",
@@ -12237,7 +12320,7 @@
       "waterlogged": "false"
     }
   },
-  "minecraft:waxed_lightly_weathered_cut_copper_slab": {
+  "minecraft:waxed_exposed_cut_copper_slab": {
     "properties": {
       "type": [
         "top",
@@ -12319,45 +12402,142 @@
     "properties": {},
     "default": {}
   },
-  "minecraft:glow_lichen": {
+  "minecraft:cave_vines_head": {
     "properties": {
-      "down": [
-        "true",
-        "false"
+      "age": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25"
       ],
-      "east": [
-        "true",
-        "false"
-      ],
-      "north": [
-        "true",
-        "false"
-      ],
-      "south": [
-        "true",
-        "false"
-      ],
-      "up": [
-        "true",
-        "false"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ],
-      "west": [
+      "berries": [
         "true",
         "false"
       ]
     },
     "default": {
-      "down": "false",
-      "east": "false",
-      "north": "false",
-      "south": "false",
-      "up": "false",
-      "waterlogged": "false",
-      "west": "false"
+      "age": "0",
+      "berries": "false"
     }
+  },
+  "minecraft:cave_vines_body": {
+    "properties": {
+      "berries": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "berries": "false"
+    }
+  },
+  "minecraft:spore_blossom": {
+    "properties": {},
+    "default": {}
+  },
+  "minecraft:azalea": {
+    "properties": {},
+    "default": {}
+  },
+  "minecraft:flowering_azalea": {
+    "properties": {},
+    "default": {}
+  },
+  "minecraft:moss_carpet": {
+    "properties": {},
+    "default": {}
+  },
+  "minecraft:moss_block": {
+    "properties": {},
+    "default": {}
+  },
+  "minecraft:big_dripleaf": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "tilt": [
+        "none",
+        "unstable",
+        "partial",
+        "full"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "facing": "north",
+      "tilt": "none",
+      "waterlogged": "false"
+    }
+  },
+  "minecraft:big_dripleaf_stem": {
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "facing": "north",
+      "waterlogged": "false"
+    }
+  },
+  "minecraft:small_dripleaf": {
+    "properties": {
+      "half": [
+        "upper",
+        "lower"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    },
+    "default": {
+      "half": "lower",
+      "waterlogged": "false"
+    }
+  },
+  "minecraft:rooted_dirt": {
+    "properties": {},
+    "default": {}
+  },
+  "minecraft:hanging_roots": {
+    "properties": {},
+    "default": {}
   }
 }
