@@ -85,7 +85,7 @@ def process_original(in_dirname: str, in_filename: str, out_dirname: str):
     # sort object keys
     # data = sort_dict_keys(data)
     out_filename = in_filename[: -len(JSON_EXT)]
-    # write_json(data, out_dirname, out_filename)
+    write_json(data, out_dirname, out_filename)
     write_min_json(data, out_dirname, out_filename)
     write_yaml(data, out_dirname, out_filename)
 
