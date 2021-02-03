@@ -83,9 +83,9 @@ def process_original(in_dirname: str, in_filename: str, out_dirname: str):
     with open(in_filepath) as fp:
         data = json.load(fp)
     # sort object keys
-    data = sort_dict_keys(data)
+    # data = sort_dict_keys(data)
     out_filename = in_filename[: -len(JSON_EXT)]
-    write_json(data, out_dirname, out_filename)
+    # write_json(data, out_dirname, out_filename)
     write_min_json(data, out_dirname, out_filename)
     write_yaml(data, out_dirname, out_filename)
 
@@ -143,7 +143,9 @@ def simplify_blocks(inparts: tuple, outparts: tuple):
     for block_name, block_data in blocks_data.items():
         data[block_name] = {
             "properties": block_data.get("properties", {}),
-            "default": next(filter(lambda s: s.get("default", False), block_data["states"])).get("properties", {})
+            "default": next(
+                filter(lambda s: s.get("default", False), block_data["states"])
+            ).get("properties", {}),
         }
     write_json(data, blocks_outdir, "simplified")
     write_min_json(data, blocks_outdir, "simplified")
