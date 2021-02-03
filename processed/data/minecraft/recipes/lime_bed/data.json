@@ -1,10 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "bed",
-  "pattern": [
-    "###",
-    "XXX"
-  ],
   "key": {
     "#": {
       "item": "minecraft:lime_wool"
@@ -13,7 +8,12 @@
       "tag": "minecraft:planks"
     }
   },
+  "pattern": [
+    "###",
+    "XXX"
+  ],
   "result": {
     "item": "minecraft:lime_bed"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

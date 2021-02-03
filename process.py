@@ -49,21 +49,21 @@ def write_json(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, JSON_EXT)
     LOG.debug(f"Writing JSON file: {filepath}")
     with open(filepath, "w") as fp:
-        json.dump(data, fp, indent=2)
+        json.dump(data, fp, indent=2, sort_keys=True)
 
 
 def write_min_json(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, MIN_JSON_EXT)
     LOG.debug(f"Writing minified JSON file: {filepath}")
     with open(filepath, "w") as fp:
-        json.dump(data, fp, separators=(",", ":"))
+        json.dump(data, fp, separators=(",", ":"), sort_keys=True)
 
 
 def write_yaml(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, YAML_EXT)
     LOG.debug(f"Writing YAML file: {filepath}")
     with open(filepath, "w") as fp:
-        yaml.safe_dump(data, fp)
+        yaml.safe_dump(data, fp, sort_keys=True)
 
 
 def write_txt(data: list, dirname: str, subname: str):
@@ -100,71 +100,6 @@ def process_originals(inparts: tuple, outparts: tuple):
         for filename in filenames:
             if filename.endswith(JSON_EXT):
                 process_original(dirname, filename, out_dirname)
-
-
-def adjust_advancement_criterium(criterium: dict):
-    trigger = criterium.get("trigger")
-    # sort keys for the "effects_changed" trigger
-    # because the game sometimes scrambles these
-    if trigger == "minecraft:effects_changed":
-        conditions = criterium.get("conditions")
-        if isinstance(conditions, dict):
-            effects = conditions.get("effects")
-            if isinstance(effects, dict):
-                effects = {k: v for k, v in sorted(effects.items())}
-            conditions["effects"] = effects
-        criterium["conditions"] = conditions
-    return criterium
-
-
-def adjust_advancement(data: dict):
-    criteria = data.get("criteria")
-    if isinstance(criteria, dict):
-        # sort advancement criteria to avoid unnecessary diffs
-        # and further process triggers while we're at it
-        data["criteria"] = {
-            name: adjust_advancement_criterium(criterium)
-            for name, criterium in sorted(criteria.items())
-        }
-    return data
-
-
-def adjust_original_data_file(
-    in_dirname: str, in_filename: str, out_dirname: str, callbacks: list
-):
-    in_filepath = os.path.join(in_dirname, in_filename)
-    LOG.debug(f"Reading original data file for adjustment: {in_filepath}")
-    with open(in_filepath) as fp:
-        data = json.load(fp)
-    for callback in callbacks:
-        data = callback(data)
-    out_filename = in_filename[: -len(JSON_EXT)]
-    write_json(data, out_dirname, out_filename)
-    write_min_json(data, out_dirname, out_filename)
-    write_yaml(data, out_dirname, out_filename)
-
-
-def adjust_original_data_files(
-    inparts: tuple, outparts: tuple, subfolder: str, callbacks: list
-):
-    data_path = os.path.join(*inparts, "data")
-    for namespace in os.listdir(data_path):
-        subpath = os.path.join(data_path, namespace, subfolder)
-        for dirname, subdirnames, filenames in os.walk(subpath):
-            LOG.info(f"Reading directory: {dirname}")
-            # don't include the root "generated" folder in the output
-            dirparts = dirname.split(os.path.sep)[1:]
-            LOG.debug(f"Directory path components: {dirparts}")
-            out_dirname = os.path.join(*outparts, *dirparts)
-            LOG.debug(f"Using output directory: {out_dirname}")
-            # process each file
-            for filename in filenames:
-                if filename.endswith(JSON_EXT):
-                    adjust_original_data_file(dirname, filename, out_dirname, callbacks)
-
-
-def adjust_originals(inparts: tuple, outparts: tuple):
-    adjust_original_data_files(inparts, outparts, "advancements", [adjust_advancement])
 
 
 def process_registry(registry: dict, dirname: str, shortname: str):
@@ -297,8 +232,6 @@ def summarize_data(inparts: tuple, outparts: tuple):
 def process(inparts: tuple, outparts: tuple):
     print("Processing originals...")
     process_originals(inparts, outparts)
-    print("Adjusting originals...")
-    adjust_originals(inparts, outparts)
     print("Splitting registries...")
     split_registries(inparts, outparts)
     print("Simplifying blocks...")

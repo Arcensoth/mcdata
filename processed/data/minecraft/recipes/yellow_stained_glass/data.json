@@ -1,11 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "stained_glass",
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:glass"
@@ -14,8 +8,14 @@
       "item": "minecraft:yellow_dye"
     }
   },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:yellow_stained_glass",
-    "count": 8
-  }
+    "count": 8,
+    "item": "minecraft:yellow_stained_glass"
+  },
+  "type": "minecraft:crafting_shaped"
 }

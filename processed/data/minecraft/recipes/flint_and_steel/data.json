@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:iron_ingot"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:flint_and_steel"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

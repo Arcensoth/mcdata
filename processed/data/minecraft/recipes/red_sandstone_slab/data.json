@@ -1,8 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###"
-  ],
   "key": {
     "#": [
       {
@@ -13,8 +9,12 @@
       }
     ]
   },
+  "pattern": [
+    "###"
+  ],
   "result": {
-    "item": "minecraft:red_sandstone_slab",
-    "count": 6
-  }
+    "count": 6,
+    "item": "minecraft:red_sandstone_slab"
+  },
+  "type": "minecraft:crafting_shaped"
 }

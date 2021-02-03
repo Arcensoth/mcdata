@@ -1,15 +1,11 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -18,29 +14,33 @@
                   }
                 }
               ],
-              "name": "minecraft:dead_bush"
+              "name": "minecraft:dead_bush",
+              "type": "minecraft:item"
             },
             {
-              "type": "minecraft:item",
               "functions": [
                 {
-                  "function": "minecraft:set_count",
+                  "add": false,
                   "count": {
-                    "type": "minecraft:uniform",
+                    "max": 2.0,
                     "min": 0.0,
-                    "max": 2.0
+                    "type": "minecraft:uniform"
                   },
-                  "add": false
+                  "function": "minecraft:set_count"
                 },
                 {
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:stick"
+              "name": "minecraft:stick",
+              "type": "minecraft:item"
             }
-          ]
+          ],
+          "type": "minecraft:alternatives"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

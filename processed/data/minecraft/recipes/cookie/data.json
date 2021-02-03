@@ -1,8 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#X#"
-  ],
   "key": {
     "#": {
       "item": "minecraft:wheat"
@@ -11,8 +7,12 @@
       "item": "minecraft:cocoa_beans"
     }
   },
+  "pattern": [
+    "#X#"
+  ],
   "result": {
-    "item": "minecraft:cookie",
-    "count": 8
-  }
+    "count": 8,
+    "item": "minecraft:cookie"
+  },
+  "type": "minecraft:crafting_shaped"
 }

@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "dyed_bed",
   "ingredients": [
     {
@@ -11,5 +10,6 @@
   ],
   "result": {
     "item": "minecraft:blue_bed"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

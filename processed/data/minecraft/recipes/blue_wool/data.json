@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "wool",
   "ingredients": [
     {
@@ -11,5 +10,6 @@
   ],
   "result": {
     "item": "minecraft:blue_wool"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

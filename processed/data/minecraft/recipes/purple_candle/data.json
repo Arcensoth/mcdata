@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:candle"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:purple_candle"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

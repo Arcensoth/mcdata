@@ -1,131 +1,131 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3.0,
-        "max": 6.0
-      },
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 90,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 5.0,
                 "min": 1.0,
-                "max": 5.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:iron_ingot",
+          "type": "minecraft:item",
+          "weight": 90
         },
         {
-          "type": "minecraft:item",
-          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 5.0,
                 "min": 1.0,
-                "max": 5.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:gold_ingot",
+          "type": "minecraft:item",
+          "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "weight": 40,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 5.0,
                 "min": 1.0,
-                "max": 5.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:emerald",
+          "type": "minecraft:item",
+          "weight": 40
         },
         {
+          "name": "minecraft:diamond",
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:diamond"
+          "weight": 5
         },
         {
+          "name": "minecraft:experience_bottle",
           "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:experience_bottle"
+          "weight": 5
         }
-      ]
+      ],
+      "rolls": {
+        "max": 6.0,
+        "min": 3.0,
+        "type": "minecraft:uniform"
+      }
     },
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 2.0,
-        "max": 5.0
-      },
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 50,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 10.0,
                 "min": 1.0,
-                "max": 10.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_nugget"
+          "name": "minecraft:iron_nugget",
+          "type": "minecraft:item",
+          "weight": 50
         },
         {
-          "type": "minecraft:item",
-          "weight": 10,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 10.0,
                 "min": 1.0,
-                "max": 10.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gold_nugget"
+          "name": "minecraft:gold_nugget",
+          "type": "minecraft:item",
+          "weight": 10
         },
         {
-          "type": "minecraft:item",
-          "weight": 20,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 10.0,
                 "min": 1.0,
-                "max": 10.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:lapis_lazuli",
+          "type": "minecraft:item",
+          "weight": 20
         }
-      ]
+      ],
+      "rolls": {
+        "max": 5.0,
+        "min": 2.0,
+        "type": "minecraft:uniform"
+      }
     }
-  ]
+  ],
+  "type": "minecraft:chest"
 }

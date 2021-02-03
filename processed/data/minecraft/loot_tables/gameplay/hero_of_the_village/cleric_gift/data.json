@@ -1,19 +1,19 @@
 {
-  "type": "minecraft:gift",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:redstone"
+          "name": "minecraft:redstone",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:lapis_lazuli",
+          "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:gift"
 }

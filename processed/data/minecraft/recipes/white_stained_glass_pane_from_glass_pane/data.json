@@ -1,11 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "stained_glass_pane",
-  "pattern": [
-    "###",
-    "#$#",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "minecraft:glass_pane"
@@ -14,8 +8,14 @@
       "item": "minecraft:white_dye"
     }
   },
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:white_stained_glass_pane",
-    "count": 8
-  }
+    "count": 8,
+    "item": "minecraft:white_stained_glass_pane"
+  },
+  "type": "minecraft:crafting_shaped"
 }

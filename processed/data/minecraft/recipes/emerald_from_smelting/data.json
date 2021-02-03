@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 1.0,
   "ingredient": {
     "item": "minecraft:emerald_ore"
   },
   "result": "minecraft:emerald",
-  "experience": 1.0,
-  "cookingtime": 200
+  "type": "minecraft:smelting"
 }

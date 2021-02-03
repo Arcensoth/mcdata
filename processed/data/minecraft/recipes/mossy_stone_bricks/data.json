@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:stone_bricks"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:mossy_stone_bricks"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

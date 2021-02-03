@@ -1,48 +1,48 @@
 {
-  "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 1.0,
                 "min": 0.0,
-                "max": 1.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:looting_enchant",
               "count": {
-                "type": "minecraft:uniform",
+                "max": 1.0,
                 "min": 0.0,
-                "max": 1.0
-              }
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:looting_enchant"
             },
             {
-              "function": "minecraft:furnace_smelt",
               "conditions": [
                 {
                   "condition": "minecraft:entity_properties",
+                  "entity": "this",
                   "predicate": {
                     "flags": {
                       "is_on_fire": true
                     }
-                  },
-                  "entity": "this"
+                  }
                 }
-              ]
+              ],
+              "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:cod"
+          "name": "minecraft:cod",
+          "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:entity"
 }

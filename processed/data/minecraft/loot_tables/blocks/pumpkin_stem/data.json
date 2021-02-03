@@ -1,166 +1,166 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "0"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.06666667
+                "p": 0.06666667,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "1"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.13333334
+                "p": 0.13333334,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "2"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.2
+                "p": 0.2,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "3"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.26666668
+                "p": 0.26666668,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "4"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.33333334
+                "p": 0.33333334,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "5"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.4
+                "p": 0.4,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "6"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.46666667
+                "p": 0.46666667,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "minecraft:pumpkin_stem",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "7"
                   }
                 }
               ],
               "count": {
-                "type": "minecraft:binomial",
                 "n": 3.0,
-                "p": 0.53333336
+                "p": 0.53333336,
+                "type": "minecraft:binomial"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:pumpkin_seeds"
+          "name": "minecraft:pumpkin_seeds",
+          "type": "minecraft:item"
         }
       ],
       "functions": [
         {
           "function": "minecraft:explosion_decay"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

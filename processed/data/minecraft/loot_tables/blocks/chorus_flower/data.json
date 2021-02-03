@@ -1,25 +1,25 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
           "conditions": [
             {
               "condition": "minecraft:survives_explosion"
             },
             {
               "condition": "minecraft:entity_properties",
-              "predicate": {},
-              "entity": "this"
+              "entity": "this",
+              "predicate": {}
             }
           ],
-          "name": "minecraft:chorus_flower"
+          "name": "minecraft:chorus_flower",
+          "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

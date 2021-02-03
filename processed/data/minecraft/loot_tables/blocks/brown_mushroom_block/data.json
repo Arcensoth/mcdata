@@ -1,15 +1,11 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -25,19 +21,19 @@
                   }
                 }
               ],
-              "name": "minecraft:brown_mushroom_block"
+              "name": "minecraft:brown_mushroom_block",
+              "type": "minecraft:item"
             },
             {
-              "type": "minecraft:item",
               "functions": [
                 {
-                  "function": "minecraft:set_count",
+                  "add": false,
                   "count": {
-                    "type": "minecraft:uniform",
+                    "max": 2.0,
                     "min": -6.0,
-                    "max": 2.0
+                    "type": "minecraft:uniform"
                   },
-                  "add": false
+                  "function": "minecraft:set_count"
                 },
                 {
                   "function": "minecraft:limit_count",
@@ -49,11 +45,15 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:brown_mushroom"
+              "name": "minecraft:brown_mushroom",
+              "type": "minecraft:item"
             }
-          ]
+          ],
+          "type": "minecraft:alternatives"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

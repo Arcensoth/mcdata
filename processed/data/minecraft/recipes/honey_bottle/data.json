@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:honey_block"
@@ -18,7 +17,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:honey_bottle",
-    "count": 4
-  }
+    "count": 4,
+    "item": "minecraft:honey_bottle"
+  },
+  "type": "minecraft:crafting_shapeless"
 }

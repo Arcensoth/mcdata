@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:chest"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:trapped_chest"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

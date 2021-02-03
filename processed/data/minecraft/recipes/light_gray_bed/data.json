@@ -1,10 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "bed",
-  "pattern": [
-    "###",
-    "XXX"
-  ],
   "key": {
     "#": {
       "item": "minecraft:light_gray_wool"
@@ -13,7 +8,12 @@
       "tag": "minecraft:planks"
     }
   },
+  "pattern": [
+    "###",
+    "XXX"
+  ],
   "result": {
     "item": "minecraft:light_gray_bed"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

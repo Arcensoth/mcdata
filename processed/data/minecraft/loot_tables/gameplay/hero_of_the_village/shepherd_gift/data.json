@@ -1,75 +1,75 @@
 {
-  "type": "minecraft:gift",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:white_wool"
+          "name": "minecraft:white_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:orange_wool"
+          "name": "minecraft:orange_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:magenta_wool"
+          "name": "minecraft:magenta_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:light_blue_wool"
+          "name": "minecraft:light_blue_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_wool"
+          "name": "minecraft:yellow_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:lime_wool"
+          "name": "minecraft:lime_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:pink_wool"
+          "name": "minecraft:pink_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:gray_wool"
+          "name": "minecraft:gray_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:light_gray_wool"
+          "name": "minecraft:light_gray_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:cyan_wool"
+          "name": "minecraft:cyan_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:purple_wool"
+          "name": "minecraft:purple_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:blue_wool"
+          "name": "minecraft:blue_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:brown_wool"
+          "name": "minecraft:brown_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:green_wool"
+          "name": "minecraft:green_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:red_wool"
+          "name": "minecraft:red_wool",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:black_wool"
+          "name": "minecraft:black_wool",
+          "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:gift"
 }

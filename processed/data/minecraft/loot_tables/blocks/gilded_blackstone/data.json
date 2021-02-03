@@ -1,15 +1,11 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -25,52 +21,56 @@
                   }
                 }
               ],
-              "name": "minecraft:gilded_blackstone"
+              "name": "minecraft:gilded_blackstone",
+              "type": "minecraft:item"
             },
             {
-              "type": "minecraft:alternatives",
-              "conditions": [
-                {
-                  "condition": "minecraft:survives_explosion"
-                }
-              ],
               "children": [
                 {
-                  "type": "minecraft:item",
                   "conditions": [
                     {
-                      "condition": "minecraft:table_bonus",
-                      "enchantment": "minecraft:fortune",
                       "chances": [
                         0.1,
                         0.14285715,
                         0.25,
                         1.0
-                      ]
+                      ],
+                      "condition": "minecraft:table_bonus",
+                      "enchantment": "minecraft:fortune"
                     }
                   ],
                   "functions": [
                     {
-                      "function": "minecraft:set_count",
+                      "add": false,
                       "count": {
-                        "type": "minecraft:uniform",
+                        "max": 5.0,
                         "min": 2.0,
-                        "max": 5.0
+                        "type": "minecraft:uniform"
                       },
-                      "add": false
+                      "function": "minecraft:set_count"
                     }
                   ],
-                  "name": "minecraft:gold_nugget"
+                  "name": "minecraft:gold_nugget",
+                  "type": "minecraft:item"
                 },
                 {
-                  "type": "minecraft:item",
-                  "name": "minecraft:gilded_blackstone"
+                  "name": "minecraft:gilded_blackstone",
+                  "type": "minecraft:item"
                 }
-              ]
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "type": "minecraft:alternatives"
             }
-          ]
+          ],
+          "type": "minecraft:alternatives"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:copper_block"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:waxed_copper"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

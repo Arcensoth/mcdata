@@ -1,25 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "$": {
+      "item": "minecraft:tripwire_hook"
+    },
+    "&": {
+      "item": "minecraft:iron_ingot"
+    },
+    "~": {
+      "item": "minecraft:string"
+    }
+  },
   "pattern": [
     "#&#",
     "~$~",
     " # "
   ],
-  "key": {
-    "~": {
-      "item": "minecraft:string"
-    },
-    "#": {
-      "item": "minecraft:stick"
-    },
-    "&": {
-      "item": "minecraft:iron_ingot"
-    },
-    "$": {
-      "item": "minecraft:tripwire_hook"
-    }
-  },
   "result": {
     "item": "minecraft:crossbow"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

@@ -1,27 +1,27 @@
 {
-  "type": "minecraft:gift",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe"
+          "name": "minecraft:stone_pickaxe",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_axe"
+          "name": "minecraft:stone_axe",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_hoe"
+          "name": "minecraft:stone_hoe",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_shovel"
+          "name": "minecraft:stone_shovel",
+          "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:gift"
 }

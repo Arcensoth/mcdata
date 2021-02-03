@@ -1,10 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X#X",
-    "#X#",
-    "X#X"
-  ],
   "key": {
     "#": [
       {
@@ -18,7 +12,13 @@
       "item": "minecraft:gunpowder"
     }
   },
+  "pattern": [
+    "X#X",
+    "#X#",
+    "X#X"
+  ],
   "result": {
     "item": "minecraft:tnt"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

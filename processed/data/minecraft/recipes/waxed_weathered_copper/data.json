@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:weathered_copper_block"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:waxed_weathered_copper"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

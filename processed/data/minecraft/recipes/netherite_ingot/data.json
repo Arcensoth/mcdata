@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "netherite_ingot",
   "ingredients": [
     {
@@ -29,5 +28,6 @@
   ],
   "result": {
     "item": "minecraft:netherite_ingot"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

@@ -1,10 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " #X",
-    "# X",
-    " #X"
-  ],
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -13,7 +7,13 @@
       "item": "minecraft:string"
     }
   },
+  "pattern": [
+    " #X",
+    "# X",
+    " #X"
+  ],
   "result": {
     "item": "minecraft:bow"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

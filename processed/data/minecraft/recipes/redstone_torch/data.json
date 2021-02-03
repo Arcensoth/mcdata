@@ -1,9 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X",
-    "#"
-  ],
   "key": {
     "#": {
       "item": "minecraft:stick"
@@ -12,7 +7,12 @@
       "item": "minecraft:redstone"
     }
   },
+  "pattern": [
+    "X",
+    "#"
+  ],
   "result": {
     "item": "minecraft:redstone_torch"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

@@ -1,18 +1,18 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
   "pattern": [
     " I ",
     "###"
   ],
-  "key": {
-    "I": {
-      "item": "minecraft:iron_ingot"
-    },
-    "#": {
-      "item": "minecraft:stone"
-    }
-  },
   "result": {
     "item": "minecraft:stonecutter"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

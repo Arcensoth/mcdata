@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:ice"
@@ -31,5 +30,6 @@
   ],
   "result": {
     "item": "minecraft:packed_ice"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

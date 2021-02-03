@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:exposed_copper_block"
   },
   "result": "minecraft:exposed_cut_copper_slab",
-  "count": 2
+  "type": "minecraft:stonecutting"
 }

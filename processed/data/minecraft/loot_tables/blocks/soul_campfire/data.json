@@ -1,15 +1,11 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -25,10 +21,10 @@
                   }
                 }
               ],
-              "name": "minecraft:soul_campfire"
+              "name": "minecraft:soul_campfire",
+              "type": "minecraft:item"
             },
             {
-              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:survives_explosion"
@@ -36,16 +32,20 @@
               ],
               "functions": [
                 {
-                  "function": "minecraft:set_count",
+                  "add": false,
                   "count": 1.0,
-                  "add": false
+                  "function": "minecraft:set_count"
                 }
               ],
-              "name": "minecraft:soul_soil"
+              "name": "minecraft:soul_soil",
+              "type": "minecraft:item"
             }
-          ]
+          ],
+          "type": "minecraft:alternatives"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

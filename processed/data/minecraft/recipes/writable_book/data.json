@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:book"
@@ -13,5 +12,6 @@
   ],
   "result": {
     "item": "minecraft:writable_book"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

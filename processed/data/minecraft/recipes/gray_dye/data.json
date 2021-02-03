@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:black_dye"
@@ -9,7 +8,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:gray_dye",
-    "count": 2
-  }
+    "count": 2,
+    "item": "minecraft:gray_dye"
+  },
+  "type": "minecraft:crafting_shapeless"
 }

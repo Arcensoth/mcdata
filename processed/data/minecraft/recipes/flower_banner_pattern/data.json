@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:paper"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:flower_banner_pattern"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

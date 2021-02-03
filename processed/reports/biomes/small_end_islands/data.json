@@ -1,17 +1,57 @@
 {
-  "scale": 0.2,
+  "carvers": {},
+  "category": "the_end",
+  "depth": 0.1,
+  "downfall": 0.5,
   "effects": {
+    "fog_color": 10518688,
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
     },
     "sky_color": 0,
-    "fog_color": 10518688,
     "water_color": 4159204,
     "water_fog_color": 329011
   },
+  "features": [
+    [
+      {
+        "config": {
+          "decorator": {
+            "config": {},
+            "type": "minecraft:end_island"
+          },
+          "feature": {
+            "config": {},
+            "type": "minecraft:end_island"
+          }
+        },
+        "type": "minecraft:decorated"
+      }
+    ]
+  ],
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "scale": 0.2,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:enderman",
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "starts": [],
   "surface_builder": {
     "config": {
       "top_material": {
@@ -26,45 +66,5 @@
     },
     "type": "minecraft:default"
   },
-  "carvers": {},
-  "features": [
-    [
-      {
-        "config": {
-          "feature": {
-            "config": {},
-            "type": "minecraft:end_island"
-          },
-          "decorator": {
-            "config": {},
-            "type": "minecraft:end_island"
-          }
-        },
-        "type": "minecraft:decorated"
-      }
-    ]
-  ],
-  "starts": [],
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ],
-    "creature": [],
-    "ambient": [],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "none",
-  "temperature": 0.5,
-  "downfall": 0.5,
-  "category": "the_end",
-  "depth": 0.1
+  "temperature": 0.5
 }

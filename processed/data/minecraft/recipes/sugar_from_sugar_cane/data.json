@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "sugar",
   "ingredients": [
     {
@@ -8,5 +7,6 @@
   ],
   "result": {
     "item": "minecraft:sugar"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

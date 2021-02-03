@@ -1,15 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "# #",
-    " # "
-  ],
   "key": {
     "#": {
       "item": "minecraft:brick"
     }
   },
+  "pattern": [
+    "# #",
+    " # "
+  ],
   "result": {
     "item": "minecraft:flower_pot"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

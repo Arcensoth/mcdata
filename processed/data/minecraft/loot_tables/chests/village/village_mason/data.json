@@ -1,72 +1,72 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 5.0
-      },
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 3.0,
                 "min": 1.0,
-                "max": 3.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:clay_ball"
+          "name": "minecraft:clay_ball",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:flower_pot"
+          "name": "minecraft:flower_pot",
+          "type": "minecraft:item"
         },
         {
+          "name": "minecraft:stone",
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:stone"
+          "weight": 2
         },
         {
+          "name": "minecraft:stone_bricks",
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:stone_bricks"
+          "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "weight": 4,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 4.0,
                 "min": 1.0,
-                "max": 4.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bread"
+          "name": "minecraft:bread",
+          "type": "minecraft:item",
+          "weight": 4
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:yellow_dye"
+          "name": "minecraft:yellow_dye",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:smooth_stone"
+          "name": "minecraft:smooth_stone",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:emerald",
+          "type": "minecraft:item"
         }
-      ]
+      ],
+      "rolls": {
+        "max": 5.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+      }
     }
-  ]
+  ],
+  "type": "minecraft:chest"
 }

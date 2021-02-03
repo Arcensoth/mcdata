@@ -1,15 +1,11 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -28,32 +24,36 @@
               "functions": [
                 {
                   "function": "minecraft:copy_nbt",
-                  "source": "block_entity",
                   "ops": [
                     {
+                      "op": "replace",
                       "source": "Bees",
-                      "target": "BlockEntityTag.Bees",
-                      "op": "replace"
+                      "target": "BlockEntityTag.Bees"
                     }
-                  ]
+                  ],
+                  "source": "block_entity"
                 },
                 {
-                  "function": "minecraft:copy_state",
                   "block": "minecraft:beehive",
+                  "function": "minecraft:copy_state",
                   "properties": [
                     "honey_level"
                   ]
                 }
               ],
-              "name": "minecraft:beehive"
+              "name": "minecraft:beehive",
+              "type": "minecraft:item"
             },
             {
-              "type": "minecraft:item",
-              "name": "minecraft:beehive"
+              "name": "minecraft:beehive",
+              "type": "minecraft:item"
             }
-          ]
+          ],
+          "type": "minecraft:alternatives"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

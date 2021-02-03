@@ -1,99 +1,99 @@
 {
-  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 1.0,
-        "max": 5.0
-      },
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:emerald",
+          "type": "minecraft:item"
         },
         {
-          "type": "minecraft:item",
-          "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 3.0,
                 "min": 1.0,
-                "max": 3.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:arrow"
+          "name": "minecraft:arrow",
+          "type": "minecraft:item",
+          "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "weight": 6,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 3.0,
                 "min": 1.0,
-                "max": 3.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:feather"
+          "name": "minecraft:feather",
+          "type": "minecraft:item",
+          "weight": 6
         },
         {
-          "type": "minecraft:item",
-          "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 3.0,
                 "min": 1.0,
-                "max": 3.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:egg"
+          "name": "minecraft:egg",
+          "type": "minecraft:item",
+          "weight": 2
         },
         {
-          "type": "minecraft:item",
-          "weight": 6,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 3.0,
                 "min": 1.0,
-                "max": 3.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:flint"
+          "name": "minecraft:flint",
+          "type": "minecraft:item",
+          "weight": 6
         },
         {
-          "type": "minecraft:item",
-          "weight": 6,
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "count": {
-                "type": "minecraft:uniform",
+                "max": 3.0,
                 "min": 1.0,
-                "max": 3.0
+                "type": "minecraft:uniform"
               },
-              "add": false
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:stick"
+          "name": "minecraft:stick",
+          "type": "minecraft:item",
+          "weight": 6
         }
-      ]
+      ],
+      "rolls": {
+        "max": 5.0,
+        "min": 1.0,
+        "type": "minecraft:uniform"
+      }
     }
-  ]
+  ],
+  "type": "minecraft:chest"
 }

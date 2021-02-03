@@ -1,14 +1,14 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": {
       "item": "minecraft:stone"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "minecraft:stone_pressure_plate"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

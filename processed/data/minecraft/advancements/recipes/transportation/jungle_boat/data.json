@@ -1,28 +1,28 @@
 {
-  "parent": "minecraft:recipes/root",
-  "rewards": {
-    "recipes": [
-      "minecraft:jungle_boat"
-    ]
-  },
   "criteria": {
     "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "minecraft:jungle_boat"
-      }
+      },
+      "trigger": "minecraft:recipe_unlocked"
     },
     "in_water": {
-      "trigger": "minecraft:enter_block",
       "conditions": {
         "block": "minecraft:water"
-      }
+      },
+      "trigger": "minecraft:enter_block"
     }
   },
+  "parent": "minecraft:recipes/root",
   "requirements": [
     [
       "in_water",
       "has_the_recipe"
     ]
-  ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:jungle_boat"
+    ]
+  }
 }

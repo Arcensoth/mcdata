@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:paper"
@@ -16,5 +15,6 @@
   ],
   "result": {
     "item": "minecraft:book"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

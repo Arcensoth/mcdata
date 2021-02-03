@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:blue_dye"
@@ -9,7 +8,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:purple_dye",
-    "count": 2
-  }
+    "count": 2,
+    "item": "minecraft:purple_dye"
+  },
+  "type": "minecraft:crafting_shapeless"
 }

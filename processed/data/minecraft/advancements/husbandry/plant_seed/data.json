@@ -1,52 +1,52 @@
 {
-  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "beetroots": {
+      "conditions": {
+        "block": "minecraft:beetroots"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "melon_stem": {
+      "conditions": {
+        "block": "minecraft:melon_stem"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "nether_wart": {
+      "conditions": {
+        "block": "minecraft:nether_wart"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "pumpkin_stem": {
+      "conditions": {
+        "block": "minecraft:pumpkin_stem"
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "wheat": {
+      "conditions": {
+        "block": "minecraft:wheat"
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
   "display": {
-    "icon": {
-      "item": "minecraft:wheat"
-    },
-    "title": {
-      "translate": "advancements.husbandry.plant_seed.title"
-    },
+    "announce_to_chat": true,
     "description": {
       "translate": "advancements.husbandry.plant_seed.description"
     },
     "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wheat"
+    },
     "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "beetroots": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:beetroots"
-      }
-    },
-    "melon_stem": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:melon_stem"
-      }
-    },
-    "nether_wart": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:nether_wart"
-      }
-    },
-    "pumpkin_stem": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:pumpkin_stem"
-      }
-    },
-    "wheat": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:wheat"
-      }
+    "title": {
+      "translate": "advancements.husbandry.plant_seed.title"
     }
   },
+  "parent": "minecraft:husbandry/root",
   "requirements": [
     [
       "wheat",

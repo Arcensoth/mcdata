@@ -1,10 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " # ",
-    "#X#",
-    " # "
-  ],
   "key": {
     "#": {
       "tag": "minecraft:logs"
@@ -13,7 +7,13 @@
       "item": "minecraft:furnace"
     }
   },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
   "result": {
     "item": "minecraft:smoker"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

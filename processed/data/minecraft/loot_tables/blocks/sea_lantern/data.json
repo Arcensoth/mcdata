@@ -1,15 +1,11 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
           "children": [
             {
-              "type": "minecraft:item",
               "conditions": [
                 {
                   "condition": "minecraft:match_tool",
@@ -25,24 +21,24 @@
                   }
                 }
               ],
-              "name": "minecraft:sea_lantern"
+              "name": "minecraft:sea_lantern",
+              "type": "minecraft:item"
             },
             {
-              "type": "minecraft:item",
               "functions": [
                 {
-                  "function": "minecraft:set_count",
+                  "add": false,
                   "count": {
-                    "type": "minecraft:uniform",
+                    "max": 3.0,
                     "min": 2.0,
-                    "max": 3.0
+                    "type": "minecraft:uniform"
                   },
-                  "add": false
+                  "function": "minecraft:set_count"
                 },
                 {
-                  "function": "minecraft:apply_bonus",
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
                   "parameters": {
                     "bonusMultiplier": 1
                   }
@@ -58,11 +54,15 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "minecraft:prismarine_crystals"
+              "name": "minecraft:prismarine_crystals",
+              "type": "minecraft:item"
             }
-          ]
+          ],
+          "type": "minecraft:alternatives"
         }
-      ]
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

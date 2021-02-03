@@ -1,9 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "X",
-    "#"
-  ],
   "key": {
     "#": {
       "item": "minecraft:cobblestone"
@@ -12,7 +7,12 @@
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "X",
+    "#"
+  ],
   "result": {
     "item": "minecraft:lever"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }

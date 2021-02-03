@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:item_frame"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:glow_item_frame"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

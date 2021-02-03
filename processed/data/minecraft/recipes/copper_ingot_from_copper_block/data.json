@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "copper_ingot",
   "ingredients": [
     {
@@ -7,7 +6,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:copper_ingot",
-    "count": 4
-  }
+    "count": 4,
+    "item": "minecraft:copper_ingot"
+  },
+  "type": "minecraft:crafting_shapeless"
 }

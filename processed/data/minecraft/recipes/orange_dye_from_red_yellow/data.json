@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "group": "orange_dye",
   "ingredients": [
     {
@@ -10,7 +9,8 @@
     }
   ],
   "result": {
-    "item": "minecraft:orange_dye",
-    "count": 2
-  }
+    "count": 2,
+    "item": "minecraft:orange_dye"
+  },
+  "type": "minecraft:crafting_shapeless"
 }

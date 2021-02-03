@@ -1,15 +1,7 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:turtle_egg"
-        }
-      ],
       "conditions": [
         {
           "condition": "minecraft:match_tool",
@@ -24,7 +16,15 @@
             ]
           }
         }
-      ]
+      ],
+      "entries": [
+        {
+          "name": "minecraft:turtle_egg",
+          "type": "minecraft:item"
+        }
+      ],
+      "rolls": 1.0
     }
-  ]
+  ],
+  "type": "minecraft:block"
 }

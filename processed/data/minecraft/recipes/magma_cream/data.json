@@ -1,5 +1,4 @@
 {
-  "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
       "item": "minecraft:blaze_powder"
@@ -10,5 +9,6 @@
   ],
   "result": {
     "item": "minecraft:magma_cream"
-  }
+  },
+  "type": "minecraft:crafting_shapeless"
 }

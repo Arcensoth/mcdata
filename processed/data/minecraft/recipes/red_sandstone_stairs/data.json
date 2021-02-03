@@ -1,10 +1,4 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
   "key": {
     "#": [
       {
@@ -18,8 +12,14 @@
       }
     ]
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "minecraft:red_sandstone_stairs",
-    "count": 4
-  }
+    "count": 4,
+    "item": "minecraft:red_sandstone_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
 }

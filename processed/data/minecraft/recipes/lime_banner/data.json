@@ -1,11 +1,5 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "banner",
-  "pattern": [
-    "###",
-    "###",
-    " | "
-  ],
   "key": {
     "#": {
       "item": "minecraft:lime_wool"
@@ -14,7 +8,13 @@
       "item": "minecraft:stick"
     }
   },
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
   "result": {
     "item": "minecraft:lime_banner"
-  }
+  },
+  "type": "minecraft:crafting_shaped"
 }
