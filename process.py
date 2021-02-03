@@ -72,12 +72,19 @@ def write_txt(data: list, dirname: str, subname: str):
         fp.write("\n".join(data))
 
 
+def sort_dict_keys(d: dict):
+    return {k: (sort_dict_keys(v) if isinstance(v, dict) else v) for k, v in d.items()}
+
+
 def process_original(in_dirname: str, in_filename: str, out_dirname: str):
     in_filepath = os.path.join(in_dirname, in_filename)
     LOG.debug(f"Reading original file: {in_filepath}")
     with open(in_filepath) as fp:
         data = json.load(fp)
+    # sort object keys
+    data = sort_dict_keys(data)
     out_filename = in_filename[: -len(JSON_EXT)]
+    write_json(data, out_dirname, out_filename)
     write_min_json(data, out_dirname, out_filename)
     write_yaml(data, out_dirname, out_filename)
 
