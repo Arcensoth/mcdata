@@ -3046,6 +3046,10 @@
       "minecraft:lava",
       "minecraft:water"
     ],
+    "game_events": [
+      "minecraft:ignore_vibrations_sneaking",
+      "minecraft:vibrations"
+    ],
     "items": [
       "minecraft:acacia_logs",
       "minecraft:anvil",

@@ -19,6 +19,7 @@ DATA_SUBPARTS = (
     ("tags", "blocks"),
     ("tags", "entity_types"),
     ("tags", "fluids"),
+    ("tags", "game_events"),
     ("tags", "items"),
 )
 
@@ -62,7 +63,7 @@ def write_yaml(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, YAML_EXT)
     LOG.debug(f"Writing YAML file: {filepath}")
     with open(filepath, "w") as fp:
-        yaml.dump(data, fp)
+        yaml.safe_dump(data, fp)
 
 
 def write_txt(data: list, dirname: str, subname: str):

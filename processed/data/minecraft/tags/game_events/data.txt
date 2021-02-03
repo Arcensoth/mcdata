@@ -1,0 +1,2 @@
+minecraft:ignore_vibrations_sneaking
+minecraft:vibrations
