@@ -17,12 +17,12 @@
     "hidden": false
   },
   "criteria": {
-    "iron_helmet": {
+    "iron_boots": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_helmet"
+            "item": "minecraft:iron_boots"
           }
         ]
       }
@@ -37,22 +37,22 @@
         ]
       }
     },
+    "iron_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_helmet"
+          }
+        ]
+      }
+    },
     "iron_leggings": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:iron_leggings"
-          }
-        ]
-      }
-    },
-    "iron_boots": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:iron_boots"
           }
         ]
       }

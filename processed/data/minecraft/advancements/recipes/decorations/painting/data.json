@@ -6,6 +6,12 @@
     ]
   },
   "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:painting"
+      }
+    },
     "has_wool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -14,12 +20,6 @@
             "tag": "minecraft:wool"
           }
         ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:painting"
       }
     }
   },

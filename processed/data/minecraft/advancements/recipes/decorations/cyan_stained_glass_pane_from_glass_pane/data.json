@@ -6,22 +6,22 @@
     ]
   },
   "criteria": {
-    "has_glass_pane": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:glass_pane"
-          }
-        ]
-      }
-    },
     "has_cyan_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:cyan_dye"
+          }
+        ]
+      }
+    },
+    "has_glass_pane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:glass_pane"
           }
         ]
       }

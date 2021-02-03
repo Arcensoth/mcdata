@@ -6,6 +6,12 @@
     ]
   },
   "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:skull_banner_pattern"
+      }
+    },
     "has_wither_skeleton_skull": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -14,12 +20,6 @@
             "item": "minecraft:wither_skeleton_skull"
           }
         ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:skull_banner_pattern"
       }
     }
   },

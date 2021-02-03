@@ -409,20 +409,6 @@
         ]
       }
     },
-    "minecraft:wither_skeleton": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "type": "minecraft:wither_skeleton"
-            },
-            "entity": "this"
-          }
-        ]
-      }
-    },
     "minecraft:wither": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -431,6 +417,20 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "type": "minecraft:wither"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "minecraft:wither_skeleton": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:wither_skeleton"
             },
             "entity": "this"
           }
@@ -451,20 +451,6 @@
         ]
       }
     },
-    "minecraft:zombie_villager": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": [
-          {
-            "condition": "minecraft:entity_properties",
-            "predicate": {
-              "type": "minecraft:zombie_villager"
-            },
-            "entity": "this"
-          }
-        ]
-      }
-    },
     "minecraft:zombie": {
       "trigger": "minecraft:player_killed_entity",
       "conditions": {
@@ -473,6 +459,20 @@
             "condition": "minecraft:entity_properties",
             "predicate": {
               "type": "minecraft:zombie"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "minecraft:zombie_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:zombie_villager"
             },
             "entity": "this"
           }

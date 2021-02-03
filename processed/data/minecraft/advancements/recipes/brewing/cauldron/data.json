@@ -6,6 +6,12 @@
     ]
   },
   "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:cauldron"
+      }
+    },
     "has_water_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -14,12 +20,6 @@
             "item": "minecraft:water_bucket"
           }
         ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:cauldron"
       }
     }
   },

@@ -6,6 +6,12 @@
     ]
   },
   "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:hay_block"
+      }
+    },
     "has_wheat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -14,12 +20,6 @@
             "item": "minecraft:wheat"
           }
         ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:hay_block"
       }
     }
   },

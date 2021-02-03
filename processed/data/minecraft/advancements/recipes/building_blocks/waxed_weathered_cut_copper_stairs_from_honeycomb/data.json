@@ -6,6 +6,12 @@
     ]
   },
   "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb"
+      }
+    },
     "has_weathered_cut_copper_stairs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -14,12 +20,6 @@
             "item": "minecraft:weathered_cut_copper_stairs"
           }
         ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb"
       }
     }
   },

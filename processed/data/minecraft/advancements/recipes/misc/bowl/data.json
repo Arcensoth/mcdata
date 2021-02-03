@@ -16,22 +16,22 @@
         ]
       }
     },
-    "has_red_mushroom": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:red_mushroom"
-          }
-        ]
-      }
-    },
     "has_mushroom_stew": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:mushroom_stew"
+          }
+        ]
+      }
+    },
+    "has_red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_mushroom"
           }
         ]
       }

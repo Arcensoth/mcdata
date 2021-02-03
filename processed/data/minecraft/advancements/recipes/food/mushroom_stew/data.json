@@ -6,16 +6,6 @@
     ]
   },
   "criteria": {
-    "has_mushroom_stew": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:mushroom_stew"
-          }
-        ]
-      }
-    },
     "has_bowl": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -32,6 +22,16 @@
         "items": [
           {
             "item": "minecraft:brown_mushroom"
+          }
+        ]
+      }
+    },
+    "has_mushroom_stew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mushroom_stew"
           }
         ]
       }

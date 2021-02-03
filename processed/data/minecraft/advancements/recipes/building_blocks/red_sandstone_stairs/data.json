@@ -6,16 +6,6 @@
     ]
   },
   "criteria": {
-    "has_red_sandstone": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:red_sandstone"
-          }
-        ]
-      }
-    },
     "has_chiseled_red_sandstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -32,6 +22,16 @@
         "items": [
           {
             "item": "minecraft:cut_red_sandstone"
+          }
+        ]
+      }
+    },
+    "has_red_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_sandstone"
           }
         ]
       }

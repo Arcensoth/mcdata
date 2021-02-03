@@ -6,16 +6,6 @@
     ]
   },
   "criteria": {
-    "has_white_carpet": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:white_carpet"
-          }
-        ]
-      }
-    },
     "has_light_gray_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -30,6 +20,16 @@
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "minecraft:light_gray_carpet_from_white_carpet"
+      }
+    },
+    "has_white_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_carpet"
+          }
+        ]
       }
     }
   },

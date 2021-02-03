@@ -16,12 +16,12 @@
     "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png"
   },
   "criteria": {
-    "killed_something": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {}
-    },
     "killed_by_something": {
       "trigger": "minecraft:entity_killed_player",
+      "conditions": {}
+    },
+    "killed_something": {
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {}
     }
   },

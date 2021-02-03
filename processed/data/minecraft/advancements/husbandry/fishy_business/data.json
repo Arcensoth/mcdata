@@ -25,14 +25,6 @@
         }
       }
     },
-    "tropical_fish": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "item": {
-          "item": "minecraft:tropical_fish"
-        }
-      }
-    },
     "pufferfish": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
@@ -46,6 +38,14 @@
       "conditions": {
         "item": {
           "item": "minecraft:salmon"
+        }
+      }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
         }
       }
     }

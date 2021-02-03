@@ -6,16 +6,6 @@
     ]
   },
   "criteria": {
-    "has_white_dye": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:white_dye"
-          }
-        ]
-      }
-    },
     "has_black_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -30,6 +20,16 @@
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
         "recipe": "minecraft:gray_dye"
+      }
+    },
+    "has_white_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_dye"
+          }
+        ]
       }
     }
   },

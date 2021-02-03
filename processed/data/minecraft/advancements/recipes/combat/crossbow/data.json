@@ -6,12 +6,12 @@
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_iron_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:string"
+            "item": "minecraft:iron_ingot"
           }
         ]
       }
@@ -26,14 +26,20 @@
         ]
       }
     },
-    "has_iron_ingot": {
+    "has_string": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_ingot"
+            "item": "minecraft:string"
           }
         ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:crossbow"
       }
     },
     "has_tripwire_hook": {
@@ -44,12 +50,6 @@
             "item": "minecraft:tripwire_hook"
           }
         ]
-      }
-    },
-    "has_the_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:crossbow"
       }
     }
   },

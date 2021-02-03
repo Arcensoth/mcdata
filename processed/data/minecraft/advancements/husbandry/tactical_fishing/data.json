@@ -24,14 +24,6 @@
         }
       }
     },
-    "tropical_fish_bucket": {
-      "trigger": "minecraft:filled_bucket",
-      "conditions": {
-        "item": {
-          "item": "minecraft:tropical_fish_bucket"
-        }
-      }
-    },
     "pufferfish_bucket": {
       "trigger": "minecraft:filled_bucket",
       "conditions": {
@@ -45,6 +37,14 @@
       "conditions": {
         "item": {
           "item": "minecraft:salmon_bucket"
+        }
+      }
+    },
+    "tropical_fish_bucket": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket"
         }
       }
     }

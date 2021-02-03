@@ -17,12 +17,12 @@
     "hidden": false
   },
   "criteria": {
-    "diamond_helmet": {
+    "diamond_boots": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_helmet"
+            "item": "minecraft:diamond_boots"
           }
         ]
       }
@@ -37,22 +37,22 @@
         ]
       }
     },
+    "diamond_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_helmet"
+          }
+        ]
+      }
+    },
     "diamond_leggings": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:diamond_leggings"
-          }
-        ]
-      }
-    },
-    "diamond_boots": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:diamond_boots"
           }
         ]
       }

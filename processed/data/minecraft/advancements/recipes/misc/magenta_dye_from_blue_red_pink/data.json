@@ -6,22 +6,22 @@
     ]
   },
   "criteria": {
-    "has_pink_dye": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "minecraft:pink_dye"
-          }
-        ]
-      }
-    },
     "has_blue_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "item": "minecraft:blue_dye"
+          }
+        ]
+      }
+    },
+    "has_pink_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pink_dye"
           }
         ]
       }

@@ -16,16 +16,10 @@
     "hidden": false
   },
   "criteria": {
-    "wheat": {
+    "beetroots": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:wheat"
-      }
-    },
-    "pumpkin_stem": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:pumpkin_stem"
+        "block": "minecraft:beetroots"
       }
     },
     "melon_stem": {
@@ -34,16 +28,22 @@
         "block": "minecraft:melon_stem"
       }
     },
-    "beetroots": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "minecraft:beetroots"
-      }
-    },
     "nether_wart": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "block": "minecraft:nether_wart"
+      }
+    },
+    "pumpkin_stem": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:pumpkin_stem"
+      }
+    },
+    "wheat": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:wheat"
       }
     }
   },

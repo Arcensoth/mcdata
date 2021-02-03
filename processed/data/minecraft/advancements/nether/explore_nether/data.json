@@ -20,6 +20,22 @@
     "experience": 500
   },
   "criteria": {
+    "minecraft:basalt_deltas": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:basalt_deltas"
+        }
+      }
+    },
+    "minecraft:crimson_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:crimson_forest"
+        }
+      }
+    },
     "minecraft:nether_wastes": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -41,22 +57,6 @@
       "conditions": {
         "location": {
           "biome": "minecraft:warped_forest"
-        }
-      }
-    },
-    "minecraft:crimson_forest": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:crimson_forest"
-        }
-      }
-    },
-    "minecraft:basalt_deltas": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:basalt_deltas"
         }
       }
     }
