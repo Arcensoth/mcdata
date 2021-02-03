@@ -1,20 +1,20 @@
 {
   "values": [
-    "minecraft:core",
-    "minecraft:idle",
-    "minecraft:work",
-    "minecraft:play",
-    "minecraft:rest",
-    "minecraft:meet",
-    "minecraft:panic",
-    "minecraft:raid",
-    "minecraft:pre_raid",
-    "minecraft:hide",
-    "minecraft:fight",
-    "minecraft:celebrate",
     "minecraft:admire_item",
     "minecraft:avoid",
+    "minecraft:celebrate",
+    "minecraft:core",
+    "minecraft:fight",
+    "minecraft:hide",
+    "minecraft:idle",
+    "minecraft:meet",
+    "minecraft:panic",
+    "minecraft:play",
+    "minecraft:play_dead",
+    "minecraft:pre_raid",
+    "minecraft:raid",
+    "minecraft:rest",
     "minecraft:ride",
-    "minecraft:play_dead"
+    "minecraft:work"
   ]
 }

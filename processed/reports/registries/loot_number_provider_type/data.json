@@ -1,8 +1,8 @@
 {
   "values": [
-    "minecraft:constant",
-    "minecraft:uniform",
     "minecraft:binomial",
-    "minecraft:score"
+    "minecraft:constant",
+    "minecraft:score",
+    "minecraft:uniform"
   ]
 }

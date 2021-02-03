@@ -1,4 +1,3 @@
-minecraft:none
 minecraft:armorer
 minecraft:butcher
 minecraft:cartographer
@@ -10,6 +9,7 @@ minecraft:leatherworker
 minecraft:librarian
 minecraft:mason
 minecraft:nitwit
+minecraft:none
 minecraft:shepherd
 minecraft:toolsmith
 minecraft:weaponsmith

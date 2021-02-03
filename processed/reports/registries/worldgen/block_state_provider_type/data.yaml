@@ -1,6 +1,6 @@
 values:
+- minecraft:forest_flower_provider
+- minecraft:plain_flower_provider
+- minecraft:rotated_block_provider
 - minecraft:simple_state_provider
 - minecraft:weighted_state_provider
-- minecraft:plain_flower_provider
-- minecraft:forest_flower_provider
-- minecraft:rotated_block_provider

@@ -1,5 +1,4 @@
 values:
-- minecraft:none
 - minecraft:armorer
 - minecraft:butcher
 - minecraft:cartographer
@@ -11,6 +10,7 @@ values:
 - minecraft:librarian
 - minecraft:mason
 - minecraft:nitwit
+- minecraft:none
 - minecraft:shepherd
 - minecraft:toolsmith
 - minecraft:weaponsmith

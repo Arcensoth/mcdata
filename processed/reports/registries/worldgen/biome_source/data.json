@@ -1,9 +1,9 @@
 {
   "values": [
+    "minecraft:checkerboard",
     "minecraft:fixed",
     "minecraft:multi_noise",
-    "minecraft:checkerboard",
-    "minecraft:vanilla_layered",
-    "minecraft:the_end"
+    "minecraft:the_end",
+    "minecraft:vanilla_layered"
   ]
 }

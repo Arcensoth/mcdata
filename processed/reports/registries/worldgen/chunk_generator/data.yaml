@@ -1,4 +1,4 @@
 values:
-- minecraft:noise
-- minecraft:flat
 - minecraft:debug
+- minecraft:flat
+- minecraft:noise

@@ -42,10 +42,10 @@ minecraft:modified_gravelly_mountains
 minecraft:modified_jungle
 minecraft:modified_jungle_edge
 minecraft:modified_wooded_badlands_plateau
-minecraft:mountains
 minecraft:mountain_edge
-minecraft:mushroom_fields
+minecraft:mountains
 minecraft:mushroom_field_shore
+minecraft:mushroom_fields
 minecraft:nether_wastes
 minecraft:ocean
 minecraft:plains
