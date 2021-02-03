@@ -19,6 +19,7 @@ DATA_SUBPARTS = (
     ("tags", "blocks"),
     ("tags", "entity_types"),
     ("tags", "fluids"),
+    ("tags", "game_events"),
     ("tags", "items"),
 )
 
