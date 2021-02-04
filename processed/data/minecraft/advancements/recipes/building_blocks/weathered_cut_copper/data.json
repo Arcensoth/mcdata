@@ -6,11 +6,11 @@
       },
       "trigger": "minecraft:recipe_unlocked"
     },
-    "has_weathered_copper_block": {
+    "has_weathered_copper": {
       "conditions": {
         "items": [
           {
-            "item": "minecraft:weathered_copper_block"
+            "item": "minecraft:weathered_copper"
           }
         ]
       },
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_weathered_copper_block",
+      "has_weathered_copper",
       "has_the_recipe"
     ]
   ],

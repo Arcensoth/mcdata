@@ -181768,7 +181768,7 @@
       }
     ]
   },
-  "minecraft:oxidized_copper_block": {
+  "minecraft:oxidized_copper": {
     "states": [
       {
         "id": 18142,
@@ -181776,7 +181776,7 @@
       }
     ]
   },
-  "minecraft:weathered_copper_block": {
+  "minecraft:weathered_copper": {
     "states": [
       {
         "id": 18143,
@@ -181784,7 +181784,7 @@
       }
     ]
   },
-  "minecraft:exposed_copper_block": {
+  "minecraft:exposed_copper": {
     "states": [
       {
         "id": 18144,
@@ -185064,7 +185064,7 @@
       }
     ]
   },
-  "minecraft:waxed_copper": {
+  "minecraft:waxed_copper_block": {
     "states": [
       {
         "id": 18495,

@@ -1,5 +1,5 @@
 ingredients:
-- item: minecraft:weathered_copper_block
+- item: minecraft:weathered_copper
 - item: minecraft:honeycomb
 result:
   item: minecraft:waxed_weathered_copper

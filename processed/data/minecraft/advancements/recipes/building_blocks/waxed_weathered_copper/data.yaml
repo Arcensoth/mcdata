@@ -6,7 +6,7 @@ criteria:
   has_weathered_copper_block:
     conditions:
       items:
-      - item: minecraft:weathered_copper_block
+      - item: minecraft:weathered_copper
     trigger: minecraft:inventory_changed
 parent: minecraft:recipes/root
 requirements:

@@ -1,8 +1,0 @@
-{
-  "count": 2,
-  "ingredient": {
-    "item": "minecraft:waxed_copper"
-  },
-  "result": "minecraft:waxed_cut_copper_slab",
-  "type": "minecraft:stonecutting"
-}

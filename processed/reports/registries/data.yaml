@@ -635,7 +635,7 @@ minecraft:block:
       protocol_id: 502
     minecraft:ender_chest:
       protocol_id: 276
-    minecraft:exposed_copper_block:
+    minecraft:exposed_copper:
       protocol_id: 816
     minecraft:exposed_cut_copper:
       protocol_id: 821
@@ -1111,7 +1111,7 @@ minecraft:block:
       protocol_id: 105
     minecraft:oxeye_daisy:
       protocol_id: 130
-    minecraft:oxidized_copper_block:
+    minecraft:oxidized_copper:
       protocol_id: 814
     minecraft:oxidized_cut_copper:
       protocol_id: 819
@@ -1673,7 +1673,7 @@ minecraft:block:
       protocol_id: 26
     minecraft:water_cauldron:
       protocol_id: 265
-    minecraft:waxed_copper:
+    minecraft:waxed_copper_block:
       protocol_id: 831
     minecraft:waxed_cut_copper:
       protocol_id: 836
@@ -1697,7 +1697,7 @@ minecraft:block:
       protocol_id: 840
     minecraft:waxed_weathered_cut_copper_stairs:
       protocol_id: 837
-    minecraft:weathered_copper_block:
+    minecraft:weathered_copper:
       protocol_id: 815
     minecraft:weathered_cut_copper:
       protocol_id: 820
@@ -3144,7 +3144,7 @@ minecraft:item:
       protocol_id: 794
     minecraft:experience_bottle:
       protocol_id: 844
-    minecraft:exposed_copper_block:
+    minecraft:exposed_copper:
       protocol_id: 1025
     minecraft:exposed_cut_copper:
       protocol_id: 1029
@@ -3810,7 +3810,7 @@ minecraft:item:
       protocol_id: 104
     minecraft:oxeye_daisy:
       protocol_id: 128
-    minecraft:oxidized_copper_block:
+    minecraft:oxidized_copper:
       protocol_id: 1027
     minecraft:oxidized_cut_copper:
       protocol_id: 1031
@@ -4436,7 +4436,7 @@ minecraft:item:
       protocol_id: 442
     minecraft:water_bucket:
       protocol_id: 678
-    minecraft:waxed_copper:
+    minecraft:waxed_copper_block:
       protocol_id: 1040
     minecraft:waxed_cut_copper:
       protocol_id: 1043
@@ -4460,7 +4460,7 @@ minecraft:item:
       protocol_id: 1051
     minecraft:waxed_weathered_cut_copper_stairs:
       protocol_id: 1048
-    minecraft:weathered_copper_block:
+    minecraft:weathered_copper:
       protocol_id: 1026
     minecraft:weathered_cut_copper:
       protocol_id: 1030

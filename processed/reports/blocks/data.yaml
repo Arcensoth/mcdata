@@ -38251,7 +38251,7 @@ minecraft:ender_chest:
     properties:
       facing: east
       waterlogged: 'false'
-minecraft:exposed_copper_block:
+minecraft:exposed_copper:
   states:
   - default: true
     id: 18144
@@ -74398,7 +74398,7 @@ minecraft:oxeye_daisy:
   states:
   - default: true
     id: 1473
-minecraft:oxidized_copper_block:
+minecraft:oxidized_copper:
   states:
   - default: true
     id: 18142
@@ -125084,7 +125084,7 @@ minecraft:water_cauldron:
   - id: 5578
     properties:
       level: '3'
-minecraft:waxed_copper:
+minecraft:waxed_copper_block:
   states:
   - default: true
     id: 18495
@@ -126716,7 +126716,7 @@ minecraft:waxed_weathered_cut_copper_stairs:
       half: bottom
       shape: outer_right
       waterlogged: 'false'
-minecraft:weathered_copper_block:
+minecraft:weathered_copper:
   states:
   - default: true
     id: 18143

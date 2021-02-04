@@ -1,6 +1,0 @@
-ingredients:
-- item: minecraft:copper_block
-- item: minecraft:honeycomb
-result:
-  item: minecraft:waxed_copper
-type: minecraft:crafting_shapeless

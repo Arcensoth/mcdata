@@ -6145,13 +6145,13 @@
       "minecraft:sculk_sensor": {
         "protocol_id": 813
       },
-      "minecraft:oxidized_copper_block": {
+      "minecraft:oxidized_copper": {
         "protocol_id": 814
       },
-      "minecraft:weathered_copper_block": {
+      "minecraft:weathered_copper": {
         "protocol_id": 815
       },
-      "minecraft:exposed_copper_block": {
+      "minecraft:exposed_copper": {
         "protocol_id": 816
       },
       "minecraft:copper_block": {
@@ -6196,7 +6196,7 @@
       "minecraft:cut_copper_slab": {
         "protocol_id": 830
       },
-      "minecraft:waxed_copper": {
+      "minecraft:waxed_copper_block": {
         "protocol_id": 831
       },
       "minecraft:waxed_weathered_copper": {
@@ -9816,13 +9816,13 @@
       "minecraft:copper_block": {
         "protocol_id": 1024
       },
-      "minecraft:exposed_copper_block": {
+      "minecraft:exposed_copper": {
         "protocol_id": 1025
       },
-      "minecraft:weathered_copper_block": {
+      "minecraft:weathered_copper": {
         "protocol_id": 1026
       },
-      "minecraft:oxidized_copper_block": {
+      "minecraft:oxidized_copper": {
         "protocol_id": 1027
       },
       "minecraft:cut_copper": {
@@ -9861,7 +9861,7 @@
       "minecraft:oxidized_cut_copper_slab": {
         "protocol_id": 1039
       },
-      "minecraft:waxed_copper": {
+      "minecraft:waxed_copper_block": {
         "protocol_id": 1040
       },
       "minecraft:waxed_exposed_copper": {

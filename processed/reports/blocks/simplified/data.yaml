@@ -3162,7 +3162,7 @@ minecraft:ender_chest:
     waterlogged:
     - 'true'
     - 'false'
-minecraft:exposed_copper_block:
+minecraft:exposed_copper:
   default: {}
   properties: {}
 minecraft:exposed_cut_copper:
@@ -5759,7 +5759,7 @@ minecraft:orange_wool:
 minecraft:oxeye_daisy:
   default: {}
   properties: {}
-minecraft:oxidized_copper_block:
+minecraft:oxidized_copper:
   default: {}
   properties: {}
 minecraft:oxidized_cut_copper:
@@ -8805,7 +8805,7 @@ minecraft:water_cauldron:
     - '1'
     - '2'
     - '3'
-minecraft:waxed_copper:
+minecraft:waxed_copper_block:
   default: {}
   properties: {}
 minecraft:waxed_cut_copper:
@@ -8931,7 +8931,7 @@ minecraft:waxed_weathered_cut_copper_stairs:
     waterlogged:
     - 'true'
     - 'false'
-minecraft:weathered_copper_block:
+minecraft:weathered_copper:
   default: {}
   properties: {}
 minecraft:weathered_cut_copper:

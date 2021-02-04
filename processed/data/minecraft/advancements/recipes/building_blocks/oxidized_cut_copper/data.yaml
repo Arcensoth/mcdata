@@ -1,8 +1,8 @@
 criteria:
-  has_oxidized_copper_block:
+  has_oxidized_copper:
     conditions:
       items:
-      - item: minecraft:oxidized_copper_block
+      - item: minecraft:oxidized_copper
     trigger: minecraft:inventory_changed
   has_the_recipe:
     conditions:
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_oxidized_copper_block
+- - has_oxidized_copper
   - has_the_recipe
 rewards:
   recipes:

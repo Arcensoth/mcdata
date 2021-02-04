@@ -1,6 +1,6 @@
 key:
   '#':
-    item: minecraft:weathered_copper_block
+    item: minecraft:weathered_copper
 pattern:
 - '##'
 - '##'

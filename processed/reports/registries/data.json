@@ -954,7 +954,7 @@
       "minecraft:ender_chest": {
         "protocol_id": 276
       },
-      "minecraft:exposed_copper_block": {
+      "minecraft:exposed_copper": {
         "protocol_id": 816
       },
       "minecraft:exposed_cut_copper": {
@@ -1668,7 +1668,7 @@
       "minecraft:oxeye_daisy": {
         "protocol_id": 130
       },
-      "minecraft:oxidized_copper_block": {
+      "minecraft:oxidized_copper": {
         "protocol_id": 814
       },
       "minecraft:oxidized_cut_copper": {
@@ -2511,7 +2511,7 @@
       "minecraft:water_cauldron": {
         "protocol_id": 265
       },
-      "minecraft:waxed_copper": {
+      "minecraft:waxed_copper_block": {
         "protocol_id": 831
       },
       "minecraft:waxed_cut_copper": {
@@ -2547,7 +2547,7 @@
       "minecraft:waxed_weathered_cut_copper_stairs": {
         "protocol_id": 837
       },
-      "minecraft:weathered_copper_block": {
+      "minecraft:weathered_copper": {
         "protocol_id": 815
       },
       "minecraft:weathered_cut_copper": {
@@ -4719,7 +4719,7 @@
       "minecraft:experience_bottle": {
         "protocol_id": 844
       },
-      "minecraft:exposed_copper_block": {
+      "minecraft:exposed_copper": {
         "protocol_id": 1025
       },
       "minecraft:exposed_cut_copper": {
@@ -5718,7 +5718,7 @@
       "minecraft:oxeye_daisy": {
         "protocol_id": 128
       },
-      "minecraft:oxidized_copper_block": {
+      "minecraft:oxidized_copper": {
         "protocol_id": 1027
       },
       "minecraft:oxidized_cut_copper": {
@@ -6657,7 +6657,7 @@
       "minecraft:water_bucket": {
         "protocol_id": 678
       },
-      "minecraft:waxed_copper": {
+      "minecraft:waxed_copper_block": {
         "protocol_id": 1040
       },
       "minecraft:waxed_cut_copper": {
@@ -6693,7 +6693,7 @@
       "minecraft:waxed_weathered_cut_copper_stairs": {
         "protocol_id": 1048
       },
-      "minecraft:weathered_copper_block": {
+      "minecraft:weathered_copper": {
         "protocol_id": 1026
       },
       "minecraft:weathered_cut_copper": {

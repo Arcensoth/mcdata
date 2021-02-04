@@ -346,7 +346,7 @@ values:
 - minecraft:endermite_spawn_egg
 - minecraft:evoker_spawn_egg
 - minecraft:experience_bottle
-- minecraft:exposed_copper_block
+- minecraft:exposed_copper
 - minecraft:exposed_cut_copper
 - minecraft:exposed_cut_copper_slab
 - minecraft:exposed_cut_copper_stairs
@@ -679,7 +679,7 @@ values:
 - minecraft:orange_tulip
 - minecraft:orange_wool
 - minecraft:oxeye_daisy
-- minecraft:oxidized_copper_block
+- minecraft:oxidized_copper
 - minecraft:oxidized_cut_copper
 - minecraft:oxidized_cut_copper_slab
 - minecraft:oxidized_cut_copper_stairs
@@ -992,7 +992,7 @@ values:
 - minecraft:warped_trapdoor
 - minecraft:warped_wart_block
 - minecraft:water_bucket
-- minecraft:waxed_copper
+- minecraft:waxed_copper_block
 - minecraft:waxed_cut_copper
 - minecraft:waxed_cut_copper_slab
 - minecraft:waxed_cut_copper_stairs
@@ -1004,7 +1004,7 @@ values:
 - minecraft:waxed_weathered_cut_copper
 - minecraft:waxed_weathered_cut_copper_slab
 - minecraft:waxed_weathered_cut_copper_stairs
-- minecraft:weathered_copper_block
+- minecraft:weathered_copper
 - minecraft:weathered_cut_copper
 - minecraft:weathered_cut_copper_slab
 - minecraft:weathered_cut_copper_stairs

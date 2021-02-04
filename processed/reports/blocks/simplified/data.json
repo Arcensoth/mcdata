@@ -4256,7 +4256,7 @@
       ]
     }
   },
-  "minecraft:exposed_copper_block": {
+  "minecraft:exposed_copper": {
     "default": {},
     "properties": {}
   },
@@ -7724,7 +7724,7 @@
     "default": {},
     "properties": {}
   },
-  "minecraft:oxidized_copper_block": {
+  "minecraft:oxidized_copper": {
     "default": {},
     "properties": {}
   },
@@ -11816,7 +11816,7 @@
       ]
     }
   },
-  "minecraft:waxed_copper": {
+  "minecraft:waxed_copper_block": {
     "default": {},
     "properties": {}
   },
@@ -11984,7 +11984,7 @@
       ]
     }
   },
-  "minecraft:weathered_copper_block": {
+  "minecraft:weathered_copper": {
     "default": {},
     "properties": {}
   },

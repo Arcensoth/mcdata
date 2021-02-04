@@ -56136,7 +56136,7 @@
       }
     ]
   },
-  "minecraft:exposed_copper_block": {
+  "minecraft:exposed_copper": {
     "states": [
       {
         "default": true,
@@ -109222,7 +109222,7 @@
       }
     ]
   },
-  "minecraft:oxidized_copper_block": {
+  "minecraft:oxidized_copper": {
     "states": [
       {
         "default": true,
@@ -182884,7 +182884,7 @@
       }
     ]
   },
-  "minecraft:waxed_copper": {
+  "minecraft:waxed_copper_block": {
     "states": [
       {
         "default": true,
@@ -185350,7 +185350,7 @@
       }
     ]
   },
-  "minecraft:weathered_copper_block": {
+  "minecraft:weathered_copper": {
     "states": [
       {
         "default": true,
