@@ -1,0 +1,12 @@
+{
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_hoe"
+  },
+  "result": {
+    "item": "minecraft:netherite_hoe"
+  },
+  "type": "minecraft:smithing"
+}

@@ -1,0 +1,19 @@
+{
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "@": {
+      "item": "minecraft:flint"
+    }
+  },
+  "pattern": [
+    "@@",
+    "##",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:fletching_table"
+  },
+  "type": "minecraft:crafting_shaped"
+}

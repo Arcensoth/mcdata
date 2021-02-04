@@ -1,0 +1,16 @@
+{
+  "group": "carpet",
+  "key": {
+    "#": {
+      "item": "minecraft:moss_block"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:moss_carpet"
+  },
+  "type": "minecraft:crafting_shaped"
+}

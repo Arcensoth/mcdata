@@ -1,0 +1,16 @@
+{
+  "group": "boat",
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:jungle_boat"
+  },
+  "type": "minecraft:crafting_shaped"
+}

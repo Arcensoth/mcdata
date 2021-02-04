@@ -1,6 +1,6 @@
 {
   "values": [
-    "minecraft:fixed",
-    "minecraft:context"
+    "minecraft:context",
+    "minecraft:fixed"
   ]
 }

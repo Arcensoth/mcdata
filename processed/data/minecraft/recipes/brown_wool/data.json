@@ -1,0 +1,15 @@
+{
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_dye"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_wool"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

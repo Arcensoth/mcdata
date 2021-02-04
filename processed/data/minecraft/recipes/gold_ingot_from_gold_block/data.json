@@ -1,0 +1,13 @@
+{
+  "group": "gold_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:gold_ingot"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

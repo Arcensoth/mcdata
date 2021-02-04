@@ -1,0 +1,8 @@
+{
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:copper_block"
+  },
+  "result": "minecraft:cut_copper_stairs",
+  "type": "minecraft:stonecutting"
+}

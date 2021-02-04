@@ -1,12 +1,12 @@
 {
   "values": [
+    "minecraft:alternatives",
+    "minecraft:dynamic",
     "minecraft:empty",
+    "minecraft:group",
     "minecraft:item",
     "minecraft:loot_table",
-    "minecraft:dynamic",
-    "minecraft:tag",
-    "minecraft:alternatives",
     "minecraft:sequence",
-    "minecraft:group"
+    "minecraft:tag"
   ]
 }

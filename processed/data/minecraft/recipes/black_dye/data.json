@@ -1,0 +1,12 @@
+{
+  "group": "black_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:ink_sac"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_dye"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

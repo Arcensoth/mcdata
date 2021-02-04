@@ -1,0 +1,9 @@
+{
+  "cookingtime": 200,
+  "experience": 0.3,
+  "ingredient": {
+    "item": "minecraft:clay_ball"
+  },
+  "result": "minecraft:brick",
+  "type": "minecraft:smelting"
+}

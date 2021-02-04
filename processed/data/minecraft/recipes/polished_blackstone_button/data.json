@@ -1,0 +1,11 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:polished_blackstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:polished_blackstone_button"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

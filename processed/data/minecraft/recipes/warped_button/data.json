@@ -1,0 +1,12 @@
+{
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:warped_button"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

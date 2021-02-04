@@ -1,0 +1,17 @@
+{
+  "group": "bark",
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:stripped_jungle_wood"
+  },
+  "type": "minecraft:crafting_shaped"
+}

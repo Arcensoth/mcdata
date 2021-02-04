@@ -1,0 +1,8 @@
+{
+  "count": 2,
+  "ingredient": {
+    "item": "minecraft:mossy_cobblestone"
+  },
+  "result": "minecraft:mossy_cobblestone_slab",
+  "type": "minecraft:stonecutting"
+}

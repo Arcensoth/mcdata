@@ -1,0 +1,14 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:heavy_weighted_pressure_plate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

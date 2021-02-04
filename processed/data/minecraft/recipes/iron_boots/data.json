@@ -1,0 +1,15 @@
+{
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "item": "minecraft:iron_boots"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,6 +1,6 @@
 {
   "values": [
-    "minecraft:storage",
-    "minecraft:context"
+    "minecraft:context",
+    "minecraft:storage"
   ]
 }

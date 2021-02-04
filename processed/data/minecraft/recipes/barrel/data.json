@@ -1,0 +1,19 @@
+{
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "result": {
+    "item": "minecraft:barrel"
+  },
+  "type": "minecraft:crafting_shaped"
+}

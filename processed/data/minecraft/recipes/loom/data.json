@@ -1,0 +1,18 @@
+{
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "@": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "@@",
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:loom"
+  },
+  "type": "minecraft:crafting_shaped"
+}

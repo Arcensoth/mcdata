@@ -1,0 +1,16 @@
+{
+  "group": "boat",
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:acacia_boat"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,13 @@
+{
+  "group": "bonemeal",
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:bone_meal"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

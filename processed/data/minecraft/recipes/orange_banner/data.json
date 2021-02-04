@@ -1,0 +1,20 @@
+{
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "minecraft:orange_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "result": {
+    "item": "minecraft:orange_banner"
+  },
+  "type": "minecraft:crafting_shaped"
+}

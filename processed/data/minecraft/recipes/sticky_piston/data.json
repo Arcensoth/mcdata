@@ -1,0 +1,18 @@
+{
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "S": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "pattern": [
+    "S",
+    "P"
+  ],
+  "result": {
+    "item": "minecraft:sticky_piston"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,59 @@
+{
+  "carvers": {},
+  "category": "the_end",
+  "depth": 0.1,
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 10518688,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 0,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [],
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "scale": 0.2,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:enderman",
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "starts": [
+    {
+      "config": {},
+      "type": "minecraft:endcity"
+    }
+  ],
+  "surface_builder": {
+    "config": {
+      "top_material": {
+        "Name": "minecraft:end_stone"
+      },
+      "under_material": {
+        "Name": "minecraft:end_stone"
+      },
+      "underwater_material": {
+        "Name": "minecraft:end_stone"
+      }
+    },
+    "type": "minecraft:default"
+  },
+  "temperature": 0.5
+}

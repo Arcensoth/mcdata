@@ -1,0 +1,20 @@
+{
+  "group": "banner",
+  "key": {
+    "#": {
+      "item": "minecraft:red_wool"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "result": {
+    "item": "minecraft:red_banner"
+  },
+  "type": "minecraft:crafting_shaped"
+}

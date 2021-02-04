@@ -1,0 +1,18 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "pattern": [
+    "#X#"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:cookie"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,9 @@
+{
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "minecraft:iron_ore"
+  },
+  "result": "minecraft:iron_ingot",
+  "type": "minecraft:smelting"
+}

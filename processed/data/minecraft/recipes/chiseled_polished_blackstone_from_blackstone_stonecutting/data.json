@@ -1,0 +1,8 @@
+{
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:blackstone"
+  },
+  "result": "minecraft:chiseled_polished_blackstone",
+  "type": "minecraft:stonecutting"
+}

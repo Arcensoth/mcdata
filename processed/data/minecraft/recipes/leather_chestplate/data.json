@@ -1,0 +1,16 @@
+{
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

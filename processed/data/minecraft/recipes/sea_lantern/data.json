@@ -1,0 +1,19 @@
+{
+  "key": {
+    "C": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "S": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "CCC",
+    "SCS"
+  ],
+  "result": {
+    "item": "minecraft:sea_lantern"
+  },
+  "type": "minecraft:crafting_shaped"
+}

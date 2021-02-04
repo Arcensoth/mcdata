@@ -1,0 +1,15 @@
+{
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "result": {
+    "item": "minecraft:diamond_boots"
+  },
+  "type": "minecraft:crafting_shaped"
+}

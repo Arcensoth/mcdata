@@ -1,0 +1,16 @@
+{
+  "key": {
+    "S": {
+      "item": "minecraft:polished_blackstone"
+    }
+  },
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:polished_blackstone_bricks"
+  },
+  "type": "minecraft:crafting_shaped"
+}

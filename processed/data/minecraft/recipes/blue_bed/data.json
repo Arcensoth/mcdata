@@ -1,0 +1,19 @@
+{
+  "group": "bed",
+  "key": {
+    "#": {
+      "item": "minecraft:blue_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:blue_bed"
+  },
+  "type": "minecraft:crafting_shaped"
+}

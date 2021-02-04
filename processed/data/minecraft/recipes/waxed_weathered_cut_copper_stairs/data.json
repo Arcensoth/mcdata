@@ -1,0 +1,17 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:waxed_weathered_cut_copper"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:waxed_weathered_cut_copper_stairs"
+  },
+  "type": "minecraft:crafting_shaped"
+}

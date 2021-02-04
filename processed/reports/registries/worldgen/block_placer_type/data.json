@@ -1,7 +1,7 @@
 {
   "values": [
-    "minecraft:simple_block_placer",
+    "minecraft:column_placer",
     "minecraft:double_plant_placer",
-    "minecraft:column_placer"
+    "minecraft:simple_block_placer"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:crimson_stems"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:crimson_planks"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,9 @@
+{
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:beef"
+  },
+  "result": "minecraft:cooked_beef",
+  "type": "minecraft:smelting"
+}

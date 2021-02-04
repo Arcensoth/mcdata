@@ -1,0 +1,18 @@
+{
+  "key": {
+    "A": {
+      "item": "minecraft:furnace"
+    },
+    "B": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "result": {
+    "item": "minecraft:furnace_minecart"
+  },
+  "type": "minecraft:crafting_shaped"
+}

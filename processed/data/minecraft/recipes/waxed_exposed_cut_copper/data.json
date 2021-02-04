@@ -1,0 +1,16 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:waxed_exposed_copper"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:waxed_exposed_cut_copper"
+  },
+  "type": "minecraft:crafting_shaped"
+}

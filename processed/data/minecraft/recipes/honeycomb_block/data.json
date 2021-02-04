@@ -1,0 +1,15 @@
+{
+  "key": {
+    "H": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "pattern": [
+    "HH",
+    "HH"
+  ],
+  "result": {
+    "item": "minecraft:honeycomb_block"
+  },
+  "type": "minecraft:crafting_shaped"
+}

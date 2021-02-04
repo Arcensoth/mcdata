@@ -1,0 +1,15 @@
+{
+  "group": "wooden_pressure_plate",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "minecraft:oak_pressure_plate"
+  },
+  "type": "minecraft:crafting_shaped"
+}

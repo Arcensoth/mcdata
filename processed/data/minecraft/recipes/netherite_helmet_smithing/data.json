@@ -1,0 +1,12 @@
+{
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_helmet"
+  },
+  "result": {
+    "item": "minecraft:netherite_helmet"
+  },
+  "type": "minecraft:smithing"
+}

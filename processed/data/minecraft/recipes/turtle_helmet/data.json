@@ -1,0 +1,15 @@
+{
+  "key": {
+    "X": {
+      "item": "minecraft:scute"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "result": {
+    "item": "minecraft:turtle_helmet"
+  },
+  "type": "minecraft:crafting_shaped"
+}

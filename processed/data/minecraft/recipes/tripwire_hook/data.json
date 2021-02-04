@@ -1,0 +1,23 @@
+{
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:tripwire_hook"
+  },
+  "type": "minecraft:crafting_shaped"
+}

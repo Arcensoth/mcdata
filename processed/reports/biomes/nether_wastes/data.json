@@ -1,0 +1,1250 @@
+{
+  "carvers": {
+    "air": [
+      {
+        "config": {
+          "probability": 0.2
+        },
+        "type": "minecraft:nether_cave"
+      }
+    ]
+  },
+  "category": "nether",
+  "depth": 0.1,
+  "downfall": 0.0,
+  "effects": {
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "fog_color": 3344392,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.nether.nether_wastes"
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 8
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 4,
+                      "maximum": 128,
+                      "top_offset": 8
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "hole_count": 1,
+                      "requires_block_below": false,
+                      "rock_count": 4,
+                      "state": {
+                        "Name": "minecraft:lava",
+                        "Properties": {
+                          "falling": "true"
+                        }
+                      },
+                      "valid_blocks": [
+                        "minecraft:netherrack"
+                      ]
+                    },
+                    "type": "minecraft:spring_feature"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 10
+            },
+            "type": "minecraft:fire"
+          },
+          "feature": {
+            "config": {
+              "blacklist": [],
+              "block_placer": {
+                "type": "minecraft:simple_block_placer"
+              },
+              "can_replace": false,
+              "need_water": false,
+              "project": false,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:fire",
+                  "Properties": {
+                    "age": "0",
+                    "east": "false",
+                    "north": "false",
+                    "south": "false",
+                    "up": "false",
+                    "west": "false"
+                  }
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "tries": 64,
+              "whitelist": [
+                {
+                  "Name": "minecraft:netherrack"
+                }
+              ],
+              "xspread": 7,
+              "yspread": 3,
+              "zspread": 7
+            },
+            "type": "minecraft:random_patch"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 10
+            },
+            "type": "minecraft:fire"
+          },
+          "feature": {
+            "config": {
+              "blacklist": [],
+              "block_placer": {
+                "type": "minecraft:simple_block_placer"
+              },
+              "can_replace": false,
+              "need_water": false,
+              "project": false,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:soul_fire"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "tries": 64,
+              "whitelist": [
+                {
+                  "Name": "minecraft:soul_soil"
+                }
+              ],
+              "xspread": 7,
+              "yspread": 3,
+              "zspread": 7
+            },
+            "type": "minecraft:random_patch"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 10
+            },
+            "type": "minecraft:glowstone"
+          },
+          "feature": {
+            "config": {},
+            "type": "minecraft:glowstone_blob"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 10
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 0,
+                      "maximum": 128,
+                      "top_offset": 0
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {},
+                    "type": "minecraft:glowstone_blob"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "chance": 2
+            },
+            "type": "minecraft:chance"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {
+                  "bottom_offset": 0,
+                  "maximum": 128,
+                  "top_offset": 0
+                },
+                "type": "minecraft:range"
+              },
+              "feature": {
+                "config": {
+                  "blacklist": [],
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  },
+                  "can_replace": false,
+                  "need_water": false,
+                  "project": false,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:brown_mushroom"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "tries": 64,
+                  "whitelist": [],
+                  "xspread": 7,
+                  "yspread": 3,
+                  "zspread": 7
+                },
+                "type": "minecraft:random_patch"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "chance": 2
+            },
+            "type": "minecraft:chance"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {
+                  "bottom_offset": 0,
+                  "maximum": 128,
+                  "top_offset": 0
+                },
+                "type": "minecraft:range"
+              },
+              "feature": {
+                "config": {
+                  "blacklist": [],
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  },
+                  "can_replace": false,
+                  "need_water": false,
+                  "project": false,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:red_mushroom"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "tries": 64,
+                  "whitelist": [],
+                  "xspread": 7,
+                  "yspread": 3,
+                  "zspread": 7
+                },
+                "type": "minecraft:random_patch"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 4
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {},
+                    "type": "minecraft:magma"
+                  },
+                  "feature": {
+                    "config": {
+                      "size": 33,
+                      "state": {
+                        "Name": "minecraft:magma_block"
+                      },
+                      "target": {
+                        "block": "minecraft:netherrack",
+                        "predicate_type": "minecraft:block_match"
+                      }
+                    },
+                    "type": "minecraft:ore"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 16
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 10,
+                      "maximum": 128,
+                      "top_offset": 20
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "hole_count": 0,
+                      "requires_block_below": false,
+                      "rock_count": 5,
+                      "state": {
+                        "Name": "minecraft:lava",
+                        "Properties": {
+                          "falling": "true"
+                        }
+                      },
+                      "valid_blocks": [
+                        "minecraft:netherrack"
+                      ]
+                    },
+                    "type": "minecraft:spring_feature"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 2
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 5,
+                      "maximum": 37,
+                      "top_offset": 0
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "size": 33,
+                      "state": {
+                        "Name": "minecraft:gravel"
+                      },
+                      "target": {
+                        "block": "minecraft:netherrack",
+                        "predicate_type": "minecraft:block_match"
+                      }
+                    },
+                    "type": "minecraft:ore"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 2
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 5,
+                      "maximum": 37,
+                      "top_offset": 10
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "size": 33,
+                      "state": {
+                        "Name": "minecraft:blackstone"
+                      },
+                      "target": {
+                        "block": "minecraft:netherrack",
+                        "predicate_type": "minecraft:block_match"
+                      }
+                    },
+                    "type": "minecraft:ore"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 10
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 10,
+                      "maximum": 128,
+                      "top_offset": 20
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "size": 10,
+                      "state": {
+                        "Name": "minecraft:nether_gold_ore"
+                      },
+                      "target": {
+                        "block": "minecraft:netherrack",
+                        "predicate_type": "minecraft:block_match"
+                      }
+                    },
+                    "type": "minecraft:ore"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 16
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 10,
+                      "maximum": 128,
+                      "top_offset": 20
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "size": 14,
+                      "state": {
+                        "Name": "minecraft:nether_quartz_ore"
+                      },
+                      "target": {
+                        "block": "minecraft:netherrack",
+                        "predicate_type": "minecraft:block_match"
+                      }
+                    },
+                    "type": "minecraft:ore"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {},
+            "type": "minecraft:square"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {
+                  "baseline": 16,
+                  "spread": 8
+                },
+                "type": "minecraft:depth_average"
+              },
+              "feature": {
+                "config": {
+                  "size": 3,
+                  "state": {
+                    "Name": "minecraft:ancient_debris"
+                  },
+                  "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:base_stone_nether"
+                  }
+                },
+                "type": "minecraft:no_surface_ore"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {},
+            "type": "minecraft:square"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {
+                  "bottom_offset": 8,
+                  "maximum": 128,
+                  "top_offset": 16
+                },
+                "type": "minecraft:range"
+              },
+              "feature": {
+                "config": {
+                  "size": 2,
+                  "state": {
+                    "Name": "minecraft:ancient_debris"
+                  },
+                  "target": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:base_stone_nether"
+                  }
+                },
+                "type": "minecraft:no_surface_ore"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      }
+    ],
+    [
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 20
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": 8,
+                      "maximum": 256,
+                      "top_offset": 16
+                    },
+                    "type": "minecraft:range_very_biased"
+                  },
+                  "feature": {
+                    "config": {
+                      "hole_count": 1,
+                      "requires_block_below": true,
+                      "rock_count": 4,
+                      "state": {
+                        "Name": "minecraft:lava",
+                        "Properties": {
+                          "falling": "true"
+                        }
+                      },
+                      "valid_blocks": [
+                        "minecraft:stone",
+                        "minecraft:granite",
+                        "minecraft:diorite",
+                        "minecraft:andesite"
+                      ]
+                    },
+                    "type": "minecraft:spring_feature"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "chance": 4
+            },
+            "type": "minecraft:chance"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {
+                  "inner": {
+                    "config": {},
+                    "type": "minecraft:heightmap_spread_double"
+                  },
+                  "outer": {
+                    "config": {},
+                    "type": "minecraft:square"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "feature": {
+                "config": {
+                  "blacklist": [],
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  },
+                  "can_replace": false,
+                  "need_water": false,
+                  "project": false,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:brown_mushroom"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "tries": 64,
+                  "whitelist": [],
+                  "xspread": 7,
+                  "yspread": 3,
+                  "zspread": 7
+                },
+                "type": "minecraft:random_patch"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "chance": 8
+            },
+            "type": "minecraft:chance"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {
+                  "inner": {
+                    "config": {},
+                    "type": "minecraft:heightmap_spread_double"
+                  },
+                  "outer": {
+                    "config": {},
+                    "type": "minecraft:square"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "feature": {
+                "config": {
+                  "blacklist": [],
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  },
+                  "can_replace": false,
+                  "need_water": false,
+                  "project": false,
+                  "state_provider": {
+                    "state": {
+                      "Name": "minecraft:red_mushroom"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
+                  "tries": 64,
+                  "whitelist": [],
+                  "xspread": 7,
+                  "yspread": 3,
+                  "zspread": 7
+                },
+                "type": "minecraft:random_patch"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      }
+    ]
+  ],
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "scale": 0.2,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "creature": [
+      {
+        "maxCount": 2,
+        "minCount": 1,
+        "type": "minecraft:strider",
+        "weight": 60
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:ghast",
+        "weight": 50
+      },
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:zombified_piglin",
+        "weight": 100
+      },
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:magma_cube",
+        "weight": 2
+      },
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:enderman",
+        "weight": 1
+      },
+      {
+        "maxCount": 4,
+        "minCount": 4,
+        "type": "minecraft:piglin",
+        "weight": 15
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "starts": [
+    {
+      "config": {
+        "portal_type": "nether"
+      },
+      "type": "minecraft:ruined_portal"
+    },
+    {
+      "config": {},
+      "type": "minecraft:fortress"
+    },
+    {
+      "config": {
+        "size": 6,
+        "start_pool": {
+          "elements": [
+            {
+              "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:bastion/units/air_base",
+                "processors": {
+                  "processors": [
+                    {
+                      "processor_type": "minecraft:rule",
+                      "rules": [
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:polished_blackstone_bricks",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.0001
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:air"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gold_block",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gilded_blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.5
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:blackstone"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.01
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:gilded_blackstone"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "projection": "rigid"
+              },
+              "weight": 1
+            },
+            {
+              "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:bastion/hoglin_stable/air_base",
+                "processors": {
+                  "processors": [
+                    {
+                      "processor_type": "minecraft:rule",
+                      "rules": [
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:polished_blackstone_bricks",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.0001
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:air"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gold_block",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gilded_blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.5
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:blackstone"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.01
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:gilded_blackstone"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "projection": "rigid"
+              },
+              "weight": 1
+            },
+            {
+              "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:bastion/treasure/big_air_full",
+                "processors": {
+                  "processors": [
+                    {
+                      "processor_type": "minecraft:rule",
+                      "rules": [
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:polished_blackstone_bricks",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.0001
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:air"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gold_block",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gilded_blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.5
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:blackstone"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.01
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:gilded_blackstone"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "projection": "rigid"
+              },
+              "weight": 1
+            },
+            {
+              "element": {
+                "element_type": "minecraft:single_pool_element",
+                "location": "minecraft:bastion/bridge/starting_pieces/entrance_base",
+                "processors": {
+                  "processors": [
+                    {
+                      "processor_type": "minecraft:rule",
+                      "rules": [
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:polished_blackstone_bricks",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.0001
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:air"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gold_block",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.3
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:cracked_polished_blackstone_bricks"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:gilded_blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.5
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:blackstone"
+                          }
+                        },
+                        {
+                          "input_predicate": {
+                            "block": "minecraft:blackstone",
+                            "predicate_type": "minecraft:random_block_match",
+                            "probability": 0.01
+                          },
+                          "location_predicate": {
+                            "predicate_type": "minecraft:always_true"
+                          },
+                          "output_state": {
+                            "Name": "minecraft:gilded_blackstone"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "projection": "rigid"
+              },
+              "weight": 1
+            }
+          ],
+          "fallback": "minecraft:empty",
+          "name": "minecraft:bastion/starts"
+        }
+      },
+      "type": "minecraft:bastion_remnant"
+    }
+  ],
+  "surface_builder": {
+    "config": {
+      "top_material": {
+        "Name": "minecraft:netherrack"
+      },
+      "under_material": {
+        "Name": "minecraft:netherrack"
+      },
+      "underwater_material": {
+        "Name": "minecraft:netherrack"
+      }
+    },
+    "type": "minecraft:nether"
+  },
+  "temperature": 2.0
+}

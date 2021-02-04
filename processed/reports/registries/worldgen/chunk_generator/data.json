@@ -1,7 +1,7 @@
 {
   "values": [
-    "minecraft:noise",
+    "minecraft:debug",
     "minecraft:flat",
-    "minecraft:debug"
+    "minecraft:noise"
   ]
 }

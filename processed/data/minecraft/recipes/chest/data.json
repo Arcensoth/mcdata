@@ -1,0 +1,16 @@
+{
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:chest"
+  },
+  "type": "minecraft:crafting_shaped"
+}

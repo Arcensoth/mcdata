@@ -1,0 +1,20 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "X": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:spectral_arrow"
+  },
+  "type": "minecraft:crafting_shaped"
+}

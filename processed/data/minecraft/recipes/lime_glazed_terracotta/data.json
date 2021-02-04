@@ -1,0 +1,9 @@
+{
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:lime_terracotta"
+  },
+  "result": "minecraft:lime_glazed_terracotta",
+  "type": "minecraft:smelting"
+}

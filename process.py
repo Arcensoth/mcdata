@@ -49,21 +49,21 @@ def write_json(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, JSON_EXT)
     LOG.debug(f"Writing JSON file: {filepath}")
     with open(filepath, "w") as fp:
-        json.dump(data, fp, indent=2)
+        json.dump(data, fp, indent=2, sort_keys=True)
 
 
 def write_min_json(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, MIN_JSON_EXT)
     LOG.debug(f"Writing minified JSON file: {filepath}")
     with open(filepath, "w") as fp:
-        json.dump(data, fp, separators=(",", ":"))
+        json.dump(data, fp, separators=(",", ":"), sort_keys=True)
 
 
 def write_yaml(data: dict, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, YAML_EXT)
     LOG.debug(f"Writing YAML file: {filepath}")
     with open(filepath, "w") as fp:
-        yaml.safe_dump(data, fp)
+        yaml.safe_dump(data, fp, sort_keys=True)
 
 
 def write_txt(data: list, dirname: str, subname: str):
@@ -73,18 +73,19 @@ def write_txt(data: list, dirname: str, subname: str):
         fp.write("\n".join(data))
 
 
-def convert_file(in_dirname: str, in_filename: str, out_dirname: str):
+def process_original(in_dirname: str, in_filename: str, out_dirname: str):
     in_filepath = os.path.join(in_dirname, in_filename)
-    LOG.debug(f"Reading original file: {in_filepath}")
+    LOG.debug(f"Reading original file for processing: {in_filepath}")
     with open(in_filepath) as fp:
         data = json.load(fp)
     out_filename = in_filename[: -len(JSON_EXT)]
+    write_json(data, out_dirname, out_filename)
     write_min_json(data, out_dirname, out_filename)
     write_yaml(data, out_dirname, out_filename)
 
 
-def convert_files(inparts: tuple, outparts: tuple):
-    # create minified versions of all original files
+def process_originals(inparts: tuple, outparts: tuple):
+    # create processed versions of original files
     inpath = os.path.join(*inparts)
     for dirname, subdirnames, filenames in os.walk(inpath):
         LOG.info(f"Reading directory: {dirname}")
@@ -98,12 +99,12 @@ def convert_files(inparts: tuple, outparts: tuple):
         # process each file
         for filename in filenames:
             if filename.endswith(JSON_EXT):
-                convert_file(dirname, filename, out_dirname)
+                process_original(dirname, filename, out_dirname)
 
 
 def process_registry(registry: dict, dirname: str, shortname: str):
     entries = registry["entries"]
-    values = list(entries.keys())
+    values = sorted(list(entries.keys()))
     data = {"values": values}
     write_json(data, dirname, shortname)
     write_min_json(data, dirname, shortname)
@@ -136,7 +137,9 @@ def simplify_blocks(inparts: tuple, outparts: tuple):
     for block_name, block_data in blocks_data.items():
         data[block_name] = {
             "properties": block_data.get("properties", {}),
-            "default": next(filter(lambda s: s.get("default", False), block_data["states"])).get("properties", {})
+            "default": next(
+                filter(lambda s: s.get("default", False), block_data["states"])
+            ).get("properties", {}),
         }
     write_json(data, blocks_outdir, "simplified")
     write_min_json(data, blocks_outdir, "simplified")
@@ -149,8 +152,7 @@ def summarize_reports(inparts: tuple, outparts: tuple):
     # compile namespaced id reports for report root folders
     reports_path = os.path.join(*inparts, "reports")
     for report_subparts in REPORT_SUBPARTS:
-        resource_ids = []
-        summary = {"values": resource_ids}
+        unsorted_resource_ids = []
         # process individual summaries
         namespace_subdir = os.path.join(reports_path, *report_subparts)
         for dirname, subdirnames, filenames in os.walk(namespace_subdir):
@@ -167,12 +169,14 @@ def summarize_reports(inparts: tuple, outparts: tuple):
                 filename_without_ext = ".".join(filename_parts_without_ext)
                 resource_name = "/".join((*resource_dir_parts, filename_without_ext))
                 resource_id = f"{namespace}:{resource_name}"
-                resource_ids.append(resource_id)
+                unsorted_resource_ids.append(resource_id)
+        sorted_resource_ids = sorted(unsorted_resource_ids)
+        summary = {"values": sorted_resource_ids}
         summary_out_dir = os.path.join(*outparts, "reports", *report_subparts[:-1])
         write_json(summary, summary_out_dir, report_subparts[-1])
         write_min_json(summary, summary_out_dir, report_subparts[-1])
         write_yaml(summary, summary_out_dir, report_subparts[-1])
-        write_txt(resource_ids, summary_out_dir, report_subparts[-1])
+        write_txt(sorted_resource_ids, summary_out_dir, report_subparts[-1])
 
 
 def summarize_data(inparts: tuple, outparts: tuple):
@@ -182,15 +186,14 @@ def summarize_data(inparts: tuple, outparts: tuple):
         namespace_root = os.path.join(data_path, namespace)
         summaries = {}
         for data_subparts in DATA_SUBPARTS:
-            resource_ids = []
-            summary = {"values": resource_ids}
+            unsorted_resource_ids = []
             # recursively construct data structure for namespace summary
             sub_summaries = summaries
             for subpart in data_subparts[:-1]:
                 if subpart not in sub_summaries:
                     sub_summaries[subpart] = {}
                 sub_summaries = sub_summaries[subpart]
-            sub_summaries[data_subparts[-1]] = resource_ids
+            sub_summaries[data_subparts[-1]] = unsorted_resource_ids
             # process individual summaries
             namespace_subdir = os.path.join(*data_subparts)
             namespace_data_root = os.path.join(namespace_root, namespace_subdir)
@@ -210,14 +213,16 @@ def summarize_data(inparts: tuple, outparts: tuple):
                         (*resource_dir_parts, filename_without_ext)
                     )
                     resource_id = f"{namespace}:{resource_name}"
-                    resource_ids.append(resource_id)
+                    unsorted_resource_ids.append(resource_id)
             summary_out_dir = os.path.join(
                 *outparts, "data", namespace, *data_subparts[:-1]
             )
+            sorted_resource_ids = sorted(unsorted_resource_ids)
+            summary = {"values": sorted_resource_ids}
             write_json(summary, summary_out_dir, data_subparts[-1])
             write_min_json(summary, summary_out_dir, data_subparts[-1])
             write_yaml(summary, summary_out_dir, data_subparts[-1])
-            write_txt(resource_ids, summary_out_dir, data_subparts[-1])
+            write_txt(sorted_resource_ids, summary_out_dir, data_subparts[-1])
         summaries_out_dir = os.path.join(*outparts, "data")
         write_json(summaries, summaries_out_dir, namespace)
         write_min_json(summaries, summaries_out_dir, namespace)
@@ -225,8 +230,8 @@ def summarize_data(inparts: tuple, outparts: tuple):
 
 
 def process(inparts: tuple, outparts: tuple):
-    print("Converting files...")
-    convert_files(inparts, outparts)
+    print("Processing originals...")
+    process_originals(inparts, outparts)
     print("Splitting registries...")
     split_registries(inparts, outparts)
     print("Simplifying blocks...")

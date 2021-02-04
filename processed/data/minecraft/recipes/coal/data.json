@@ -1,0 +1,12 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:coal"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

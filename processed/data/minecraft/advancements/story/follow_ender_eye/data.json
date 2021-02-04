@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "in_stronghold": {
+      "conditions": {
+        "location": {
+          "feature": "stronghold"
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.follow_ender_eye.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.follow_ender_eye.title"
+    }
+  },
+  "parent": "minecraft:story/enter_the_nether",
+  "requirements": [
+    [
+      "in_stronghold"
+    ]
+  ]
+}

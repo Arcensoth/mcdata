@@ -1,0 +1,18 @@
+{
+  "group": "wooden_door",
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "minecraft:oak_door"
+  },
+  "type": "minecraft:crafting_shaped"
+}

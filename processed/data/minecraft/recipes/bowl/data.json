@@ -1,0 +1,16 @@
+{
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    " # "
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:bowl"
+  },
+  "type": "minecraft:crafting_shaped"
+}

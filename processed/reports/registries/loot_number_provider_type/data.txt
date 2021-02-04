@@ -1,4 +1,4 @@
-minecraft:constant
-minecraft:uniform
 minecraft:binomial
+minecraft:constant
 minecraft:score
+minecraft:uniform

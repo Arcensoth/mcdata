@@ -1,7 +1,7 @@
 values:
-- minecraft:straight_trunk_placer
+- minecraft:dark_oak_trunk_placer
+- minecraft:fancy_trunk_placer
 - minecraft:forking_trunk_placer
 - minecraft:giant_trunk_placer
 - minecraft:mega_jungle_trunk_placer
-- minecraft:dark_oak_trunk_placer
-- minecraft:fancy_trunk_placer
+- minecraft:straight_trunk_placer

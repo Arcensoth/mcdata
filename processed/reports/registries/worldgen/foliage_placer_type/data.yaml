@@ -1,10 +1,10 @@
 values:
-- minecraft:blob_foliage_placer
-- minecraft:spruce_foliage_placer
-- minecraft:pine_foliage_placer
 - minecraft:acacia_foliage_placer
+- minecraft:blob_foliage_placer
 - minecraft:bush_foliage_placer
+- minecraft:dark_oak_foliage_placer
 - minecraft:fancy_foliage_placer
 - minecraft:jungle_foliage_placer
 - minecraft:mega_pine_foliage_placer
-- minecraft:dark_oak_foliage_placer
+- minecraft:pine_foliage_placer
+- minecraft:spruce_foliage_placer

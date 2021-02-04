@@ -1,0 +1,12 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:blaze_powder"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,19 @@
+{
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:diorite"
+  },
+  "type": "minecraft:crafting_shaped"
+}

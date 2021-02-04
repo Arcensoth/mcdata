@@ -1,0 +1,63 @@
+{
+  "carvers": {},
+  "category": "none",
+  "depth": 0.1,
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 12638463,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 8103167,
+    "water_color": 4159204,
+    "water_fog_color": 329011
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "config": {},
+        "type": "minecraft:void_start_platform"
+      }
+    ]
+  ],
+  "player_spawn_friendly": false,
+  "precipitation": "none",
+  "scale": 0.2,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "starts": [],
+  "surface_builder": {
+    "config": {
+      "top_material": {
+        "Name": "minecraft:stone"
+      },
+      "under_material": {
+        "Name": "minecraft:stone"
+      },
+      "underwater_material": {
+        "Name": "minecraft:gravel"
+      }
+    },
+    "type": "minecraft:nope"
+  },
+  "temperature": 0.5
+}

@@ -1,0 +1,20 @@
+{
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:purpur_block"
+      },
+      {
+        "item": "minecraft:purpur_pillar"
+      }
+    ]
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "minecraft:purpur_slab"
+  },
+  "type": "minecraft:crafting_shaped"
+}
