@@ -7859,10 +7859,6 @@ minecraft:worldgen/carver:
       protocol_id: 0
     minecraft:nether_cave:
       protocol_id: 1
-    minecraft:underwater_canyon:
-      protocol_id: 3
-    minecraft:underwater_cave:
-      protocol_id: 4
   protocol_id: 36
 minecraft:worldgen/chunk_generator:
   entries:
@@ -7937,55 +7933,55 @@ minecraft:worldgen/decorator:
 minecraft:worldgen/feature:
   entries:
     minecraft:bamboo:
-      protocol_id: 37
+      protocol_id: 38
     minecraft:basalt_columns:
-      protocol_id: 42
+      protocol_id: 43
     minecraft:basalt_pillar:
-      protocol_id: 47
+      protocol_id: 48
     minecraft:block_pile:
       protocol_id: 5
     minecraft:blue_ice:
-      protocol_id: 20
+      protocol_id: 21
     minecraft:bonus_chest:
-      protocol_id: 46
+      protocol_id: 47
     minecraft:chorus_plant:
       protocol_id: 7
     minecraft:coral_claw:
-      protocol_id: 34
+      protocol_id: 35
     minecraft:coral_mushroom:
-      protocol_id: 33
+      protocol_id: 34
     minecraft:coral_tree:
-      protocol_id: 32
+      protocol_id: 33
     minecraft:decorated:
-      protocol_id: 52
+      protocol_id: 53
     minecraft:delta_feature:
-      protocol_id: 43
+      protocol_id: 44
     minecraft:desert_well:
       protocol_id: 10
     minecraft:disk:
-      protocol_id: 23
+      protocol_id: 24
     minecraft:dripstone_cluster:
-      protocol_id: 54
+      protocol_id: 55
     minecraft:emerald_ore:
       protocol_id: 8
     minecraft:end_gateway:
-      protocol_id: 29
+      protocol_id: 30
     minecraft:end_island:
-      protocol_id: 28
+      protocol_id: 29
     minecraft:end_spike:
-      protocol_id: 27
+      protocol_id: 28
     minecraft:fill_layer:
-      protocol_id: 45
+      protocol_id: 46
     minecraft:flower:
       protocol_id: 2
     minecraft:forest_rock:
-      protocol_id: 22
+      protocol_id: 23
     minecraft:fossil:
       protocol_id: 11
     minecraft:freeze_top_layer:
       protocol_id: 16
     minecraft:geode:
-      protocol_id: 53
+      protocol_id: 54
     minecraft:glow_lichen:
       protocol_id: 18
     minecraft:glowstone_blob:
@@ -7993,63 +7989,65 @@ minecraft:worldgen/feature:
     minecraft:huge_brown_mushroom:
       protocol_id: 13
     minecraft:huge_fungus:
-      protocol_id: 38
+      protocol_id: 39
     minecraft:huge_red_mushroom:
       protocol_id: 12
     minecraft:ice_patch:
-      protocol_id: 24
+      protocol_id: 25
     minecraft:ice_spike:
       protocol_id: 14
     minecraft:iceberg:
-      protocol_id: 21
+      protocol_id: 22
     minecraft:kelp:
-      protocol_id: 31
+      protocol_id: 32
     minecraft:lake:
-      protocol_id: 25
+      protocol_id: 26
     minecraft:large_dripstone:
-      protocol_id: 55
+      protocol_id: 56
     minecraft:monster_room:
-      protocol_id: 19
+      protocol_id: 20
     minecraft:nether_forest_vegetation:
-      protocol_id: 39
+      protocol_id: 40
     minecraft:netherrack_replace_blobs:
-      protocol_id: 44
+      protocol_id: 45
     minecraft:no_bonemeal_flower:
       protocol_id: 3
     minecraft:no_op:
       protocol_id: 0
     minecraft:no_surface_ore:
-      protocol_id: 48
+      protocol_id: 49
     minecraft:ore:
-      protocol_id: 26
+      protocol_id: 27
     minecraft:random_boolean_selector:
-      protocol_id: 51
+      protocol_id: 52
     minecraft:random_patch:
       protocol_id: 4
     minecraft:random_selector:
-      protocol_id: 49
-    minecraft:sea_pickle:
-      protocol_id: 35
-    minecraft:seagrass:
-      protocol_id: 30
-    minecraft:simple_block:
-      protocol_id: 36
-    minecraft:simple_random_selector:
       protocol_id: 50
+    minecraft:sea_pickle:
+      protocol_id: 36
+    minecraft:seagrass:
+      protocol_id: 31
+    minecraft:simple_block:
+      protocol_id: 37
+    minecraft:simple_random_selector:
+      protocol_id: 51
     minecraft:small_dripstone:
-      protocol_id: 56
+      protocol_id: 57
     minecraft:spring_feature:
       protocol_id: 6
     minecraft:tree:
       protocol_id: 1
     minecraft:twisting_vines:
-      protocol_id: 41
+      protocol_id: 42
+    minecraft:underwater_magma:
+      protocol_id: 19
     minecraft:vines:
       protocol_id: 17
     minecraft:void_start_platform:
       protocol_id: 9
     minecraft:weeping_vines:
-      protocol_id: 40
+      protocol_id: 41
   protocol_id: 37
 minecraft:worldgen/feature_size_type:
   entries:

@@ -11798,12 +11798,6 @@
       },
       "minecraft:canyon": {
         "protocol_id": 2
-      },
-      "minecraft:underwater_canyon": {
-        "protocol_id": 3
-      },
-      "minecraft:underwater_cave": {
-        "protocol_id": 4
       }
     }
   },
@@ -11867,119 +11861,122 @@
       "minecraft:glow_lichen": {
         "protocol_id": 18
       },
-      "minecraft:monster_room": {
+      "minecraft:underwater_magma": {
         "protocol_id": 19
       },
-      "minecraft:blue_ice": {
+      "minecraft:monster_room": {
         "protocol_id": 20
       },
-      "minecraft:iceberg": {
+      "minecraft:blue_ice": {
         "protocol_id": 21
       },
-      "minecraft:forest_rock": {
+      "minecraft:iceberg": {
         "protocol_id": 22
       },
-      "minecraft:disk": {
+      "minecraft:forest_rock": {
         "protocol_id": 23
       },
-      "minecraft:ice_patch": {
+      "minecraft:disk": {
         "protocol_id": 24
       },
-      "minecraft:lake": {
+      "minecraft:ice_patch": {
         "protocol_id": 25
       },
-      "minecraft:ore": {
+      "minecraft:lake": {
         "protocol_id": 26
       },
-      "minecraft:end_spike": {
+      "minecraft:ore": {
         "protocol_id": 27
       },
-      "minecraft:end_island": {
+      "minecraft:end_spike": {
         "protocol_id": 28
       },
-      "minecraft:end_gateway": {
+      "minecraft:end_island": {
         "protocol_id": 29
       },
-      "minecraft:seagrass": {
+      "minecraft:end_gateway": {
         "protocol_id": 30
       },
-      "minecraft:kelp": {
+      "minecraft:seagrass": {
         "protocol_id": 31
       },
-      "minecraft:coral_tree": {
+      "minecraft:kelp": {
         "protocol_id": 32
       },
-      "minecraft:coral_mushroom": {
+      "minecraft:coral_tree": {
         "protocol_id": 33
       },
-      "minecraft:coral_claw": {
+      "minecraft:coral_mushroom": {
         "protocol_id": 34
       },
-      "minecraft:sea_pickle": {
+      "minecraft:coral_claw": {
         "protocol_id": 35
       },
-      "minecraft:simple_block": {
+      "minecraft:sea_pickle": {
         "protocol_id": 36
       },
-      "minecraft:bamboo": {
+      "minecraft:simple_block": {
         "protocol_id": 37
       },
-      "minecraft:huge_fungus": {
+      "minecraft:bamboo": {
         "protocol_id": 38
       },
-      "minecraft:nether_forest_vegetation": {
+      "minecraft:huge_fungus": {
         "protocol_id": 39
       },
-      "minecraft:weeping_vines": {
+      "minecraft:nether_forest_vegetation": {
         "protocol_id": 40
       },
-      "minecraft:twisting_vines": {
+      "minecraft:weeping_vines": {
         "protocol_id": 41
       },
-      "minecraft:basalt_columns": {
+      "minecraft:twisting_vines": {
         "protocol_id": 42
       },
-      "minecraft:delta_feature": {
+      "minecraft:basalt_columns": {
         "protocol_id": 43
       },
-      "minecraft:netherrack_replace_blobs": {
+      "minecraft:delta_feature": {
         "protocol_id": 44
       },
-      "minecraft:fill_layer": {
+      "minecraft:netherrack_replace_blobs": {
         "protocol_id": 45
       },
-      "minecraft:bonus_chest": {
+      "minecraft:fill_layer": {
         "protocol_id": 46
       },
-      "minecraft:basalt_pillar": {
+      "minecraft:bonus_chest": {
         "protocol_id": 47
       },
-      "minecraft:no_surface_ore": {
+      "minecraft:basalt_pillar": {
         "protocol_id": 48
       },
-      "minecraft:random_selector": {
+      "minecraft:no_surface_ore": {
         "protocol_id": 49
       },
-      "minecraft:simple_random_selector": {
+      "minecraft:random_selector": {
         "protocol_id": 50
       },
-      "minecraft:random_boolean_selector": {
+      "minecraft:simple_random_selector": {
         "protocol_id": 51
       },
-      "minecraft:decorated": {
+      "minecraft:random_boolean_selector": {
         "protocol_id": 52
       },
-      "minecraft:geode": {
+      "minecraft:decorated": {
         "protocol_id": 53
       },
-      "minecraft:dripstone_cluster": {
+      "minecraft:geode": {
         "protocol_id": 54
       },
-      "minecraft:large_dripstone": {
+      "minecraft:dripstone_cluster": {
         "protocol_id": 55
       },
-      "minecraft:small_dripstone": {
+      "minecraft:large_dripstone": {
         "protocol_id": 56
+      },
+      "minecraft:small_dripstone": {
+        "protocol_id": 57
       }
     }
   },

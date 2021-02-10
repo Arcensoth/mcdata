@@ -187,8 +187,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 6,
-                      "top_offset": 0,
+                      "bottom_offset": -58,
+                      "top_offset": -58,
                       "maximum": 47
                     },
                     "type": "minecraft:range"
@@ -205,7 +205,7 @@
           },
           "decorator": {
             "config": {
-              "chance": 48
+              "chance": 30
             },
             "type": "minecraft:chance"
           }
@@ -224,9 +224,9 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
-                      "maximum": 256
+                      "bottom_offset": -64,
+                      "top_offset": -64,
+                      "maximum": 384
                     },
                     "type": "minecraft:range"
                   }
@@ -308,9 +308,9 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
-                      "maximum": 256
+                      "bottom_offset": -64,
+                      "top_offset": -64,
+                      "maximum": 384
                     },
                     "type": "minecraft:range"
                   }
@@ -326,7 +326,7 @@
           },
           "decorator": {
             "config": {
-              "count": 10
+              "count": 15
             },
             "type": "minecraft:count"
           }
@@ -354,9 +354,9 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
-                      "maximum": 256
+                      "bottom_offset": -64,
+                      "top_offset": -64,
+                      "maximum": 384
                     },
                     "type": "minecraft:range"
                   }
@@ -372,7 +372,7 @@
           },
           "decorator": {
             "config": {
-              "count": 8
+              "count": 12
             },
             "type": "minecraft:count"
           }
@@ -400,8 +400,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 80
                     },
                     "type": "minecraft:range"
@@ -418,7 +418,7 @@
           },
           "decorator": {
             "config": {
-              "count": 10
+              "count": 20
             },
             "type": "minecraft:count"
           }
@@ -446,8 +446,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 80
                     },
                     "type": "minecraft:range"
@@ -464,7 +464,7 @@
           },
           "decorator": {
             "config": {
-              "count": 10
+              "count": 20
             },
             "type": "minecraft:count"
           }
@@ -492,8 +492,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 80
                     },
                     "type": "minecraft:range"
@@ -510,7 +510,7 @@
           },
           "decorator": {
             "config": {
-              "count": 10
+              "count": 20
             },
             "type": "minecraft:count"
           }
@@ -538,8 +538,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 128
                     },
                     "type": "minecraft:range"
@@ -556,7 +556,7 @@
           },
           "decorator": {
             "config": {
-              "count": 20
+              "count": 30
             },
             "type": "minecraft:count"
           }
@@ -584,8 +584,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 64
                     },
                     "type": "minecraft:range"
@@ -602,7 +602,7 @@
           },
           "decorator": {
             "config": {
-              "count": 20
+              "count": 40
             },
             "type": "minecraft:count"
           }
@@ -630,8 +630,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 32
                     },
                     "type": "minecraft:range"
@@ -648,7 +648,7 @@
           },
           "decorator": {
             "config": {
-              "count": 2
+              "count": 4
             },
             "type": "minecraft:count"
           }
@@ -679,8 +679,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 16
                     },
                     "type": "minecraft:range"
@@ -697,7 +697,7 @@
           },
           "decorator": {
             "config": {
-              "count": 8
+              "count": 12
             },
             "type": "minecraft:count"
           }
@@ -710,31 +710,42 @@
             "config": {
               "feature": {
                 "config": {
-                  "target": {
-                    "tag": "minecraft:base_stone_overworld",
-                    "predicate_type": "minecraft:tag_match"
+                  "feature": {
+                    "config": {
+                      "target": {
+                        "tag": "minecraft:base_stone_overworld",
+                        "predicate_type": "minecraft:tag_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:diamond_ore"
+                      },
+                      "size": 8
+                    },
+                    "type": "minecraft:ore"
                   },
-                  "state": {
-                    "Name": "minecraft:diamond_ore"
-                  },
-                  "size": 8
+                  "decorator": {
+                    "config": {
+                      "bottom_offset": -64,
+                      "top_offset": -64,
+                      "maximum": 16
+                    },
+                    "type": "minecraft:range"
+                  }
                 },
-                "type": "minecraft:ore"
+                "type": "minecraft:decorated"
               },
               "decorator": {
-                "config": {
-                  "bottom_offset": 0,
-                  "top_offset": 0,
-                  "maximum": 16
-                },
-                "type": "minecraft:range"
+                "config": {},
+                "type": "minecraft:square"
               }
             },
             "type": "minecraft:decorated"
           },
           "decorator": {
-            "config": {},
-            "type": "minecraft:square"
+            "config": {
+              "count": 2
+            },
+            "type": "minecraft:count"
           }
         },
         "type": "minecraft:decorated"
@@ -794,8 +805,8 @@
                   },
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
-                      "top_offset": 0,
+                      "bottom_offset": -64,
+                      "top_offset": -64,
                       "maximum": 64
                     },
                     "type": "minecraft:range"
@@ -812,7 +823,51 @@
           },
           "decorator": {
             "config": {
-              "count": 10
+              "count": 20
+            },
+            "type": "minecraft:count"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "floor_search_range": 5,
+                      "placement_radius_around_floor": 1,
+                      "placement_probability_per_valid_position": 0.5
+                    },
+                    "type": "minecraft:underwater_magma"
+                  },
+                  "decorator": {
+                    "config": {},
+                    "type": "minecraft:square"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "decorator": {
+                "config": {
+                  "bottom_offset": -64,
+                  "top_offset": -64,
+                  "maximum": 40
+                },
+                "type": "minecraft:range"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {
+              "count": {
+                "base": 4,
+                "spread": 6
+              }
             },
             "type": "minecraft:count"
           }
@@ -989,7 +1044,7 @@
                           "Name": "minecraft:tuff"
                         }
                       ],
-                      "search_range": 10,
+                      "search_range": 20,
                       "can_place_on_floor": false,
                       "can_place_on_ceiling": true
                     },
@@ -1004,8 +1059,8 @@
               },
               "decorator": {
                 "config": {
-                  "bottom_offset": 0,
-                  "top_offset": 0,
+                  "bottom_offset": -64,
+                  "top_offset": -64,
                   "maximum": 55
                 },
                 "type": "minecraft:range"
@@ -1016,8 +1071,8 @@
           "decorator": {
             "config": {
               "count": {
-                "base": 5,
-                "spread": 5
+                "base": 20,
+                "spread": 20
               }
             },
             "type": "minecraft:count"
@@ -1497,7 +1552,7 @@
                     "config": {
                       "bottom_offset": 8,
                       "top_offset": 8,
-                      "maximum": 256
+                      "maximum": 384
                     },
                     "type": "minecraft:range_biased"
                   }
@@ -1550,7 +1605,7 @@
                     "config": {
                       "bottom_offset": 8,
                       "top_offset": 16,
-                      "maximum": 256
+                      "maximum": 384
                     },
                     "type": "minecraft:range_very_biased"
                   }

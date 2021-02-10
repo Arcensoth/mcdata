@@ -420,9 +420,9 @@
                 "config": {
                   "decorator": {
                     "config": {
-                      "bottom_offset": 0,
+                      "bottom_offset": -64,
                       "maximum": 32,
-                      "top_offset": 0
+                      "top_offset": -64
                     },
                     "type": "minecraft:range"
                   },
@@ -722,7 +722,7 @@
                   "decorator": {
                     "config": {
                       "bottom_offset": 8,
-                      "maximum": 256,
+                      "maximum": 384,
                       "top_offset": 16
                     },
                     "type": "minecraft:range_very_biased"

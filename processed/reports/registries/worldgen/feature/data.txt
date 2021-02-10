@@ -52,6 +52,7 @@ minecraft:small_dripstone
 minecraft:spring_feature
 minecraft:tree
 minecraft:twisting_vines
+minecraft:underwater_magma
 minecraft:vines
 minecraft:void_start_platform
 minecraft:weeping_vines

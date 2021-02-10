@@ -522,7 +522,7 @@ features:
               decorator:
                 config:
                   bottom_offset: 8
-                  maximum: 256
+                  maximum: 384
                   top_offset: 16
                 type: minecraft:range_very_biased
               feature:
