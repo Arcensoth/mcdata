@@ -164,6 +164,7 @@ minecraft:chest_minecart
 minecraft:chicken
 minecraft:chicken_spawn_egg
 minecraft:chipped_anvil
+minecraft:chiseled_grimstone
 minecraft:chiseled_nether_bricks
 minecraft:chiseled_polished_blackstone
 minecraft:chiseled_quartz_block
@@ -434,6 +435,18 @@ minecraft:green_stained_glass
 minecraft:green_stained_glass_pane
 minecraft:green_terracotta
 minecraft:green_wool
+minecraft:grimstone
+minecraft:grimstone_brick_slab
+minecraft:grimstone_brick_stairs
+minecraft:grimstone_brick_wall
+minecraft:grimstone_bricks
+minecraft:grimstone_slab
+minecraft:grimstone_stairs
+minecraft:grimstone_tile_slab
+minecraft:grimstone_tile_stairs
+minecraft:grimstone_tile_wall
+minecraft:grimstone_tiles
+minecraft:grimstone_wall
 minecraft:grindstone
 minecraft:guardian_spawn_egg
 minecraft:gunpowder
@@ -736,6 +749,10 @@ minecraft:polished_diorite_stairs
 minecraft:polished_granite
 minecraft:polished_granite_slab
 minecraft:polished_granite_stairs
+minecraft:polished_grimstone
+minecraft:polished_grimstone_slab
+minecraft:polished_grimstone_stairs
+minecraft:polished_grimstone_wall
 minecraft:popped_chorus_fruit
 minecraft:poppy
 minecraft:porkchop

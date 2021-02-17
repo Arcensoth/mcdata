@@ -144,6 +144,7 @@ values:
 - minecraft:chain_command_block
 - minecraft:chest
 - minecraft:chipped_anvil
+- minecraft:chiseled_grimstone
 - minecraft:chiseled_nether_bricks
 - minecraft:chiseled_polished_blackstone
 - minecraft:chiseled_quartz_block
@@ -342,6 +343,18 @@ values:
 - minecraft:green_terracotta
 - minecraft:green_wall_banner
 - minecraft:green_wool
+- minecraft:grimstone
+- minecraft:grimstone_brick_slab
+- minecraft:grimstone_brick_stairs
+- minecraft:grimstone_brick_wall
+- minecraft:grimstone_bricks
+- minecraft:grimstone_slab
+- minecraft:grimstone_stairs
+- minecraft:grimstone_tile_slab
+- minecraft:grimstone_tile_stairs
+- minecraft:grimstone_tile_wall
+- minecraft:grimstone_tiles
+- minecraft:grimstone_wall
 - minecraft:grindstone
 - minecraft:hanging_roots
 - minecraft:hay_block
@@ -570,6 +583,10 @@ values:
 - minecraft:polished_granite
 - minecraft:polished_granite_slab
 - minecraft:polished_granite_stairs
+- minecraft:polished_grimstone
+- minecraft:polished_grimstone_slab
+- minecraft:polished_grimstone_stairs
+- minecraft:polished_grimstone_wall
 - minecraft:poppy
 - minecraft:potatoes
 - minecraft:potted_acacia_sapling

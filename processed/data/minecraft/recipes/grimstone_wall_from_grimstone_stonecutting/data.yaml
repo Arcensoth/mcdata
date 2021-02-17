@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:grimstone
+result: minecraft:grimstone_wall
+type: minecraft:stonecutting

@@ -130,6 +130,7 @@ minecraft:blocks/cave_vines_head
 minecraft:blocks/chain
 minecraft:blocks/chest
 minecraft:blocks/chipped_anvil
+minecraft:blocks/chiseled_grimstone
 minecraft:blocks/chiseled_nether_bricks
 minecraft:blocks/chiseled_polished_blackstone
 minecraft:blocks/chiseled_quartz_block
@@ -311,6 +312,18 @@ minecraft:blocks/green_stained_glass
 minecraft:blocks/green_stained_glass_pane
 minecraft:blocks/green_terracotta
 minecraft:blocks/green_wool
+minecraft:blocks/grimstone
+minecraft:blocks/grimstone_brick_slab
+minecraft:blocks/grimstone_brick_stairs
+minecraft:blocks/grimstone_brick_wall
+minecraft:blocks/grimstone_bricks
+minecraft:blocks/grimstone_slab
+minecraft:blocks/grimstone_stairs
+minecraft:blocks/grimstone_tile_slab
+minecraft:blocks/grimstone_tile_stairs
+minecraft:blocks/grimstone_tile_wall
+minecraft:blocks/grimstone_tiles
+minecraft:blocks/grimstone_wall
 minecraft:blocks/grindstone
 minecraft:blocks/hanging_roots
 minecraft:blocks/hay_block
@@ -525,6 +538,10 @@ minecraft:blocks/polished_diorite_stairs
 minecraft:blocks/polished_granite
 minecraft:blocks/polished_granite_slab
 minecraft:blocks/polished_granite_stairs
+minecraft:blocks/polished_grimstone
+minecraft:blocks/polished_grimstone_slab
+minecraft:blocks/polished_grimstone_stairs
+minecraft:blocks/polished_grimstone_wall
 minecraft:blocks/poppy
 minecraft:blocks/potatoes
 minecraft:blocks/potted_acacia_sapling

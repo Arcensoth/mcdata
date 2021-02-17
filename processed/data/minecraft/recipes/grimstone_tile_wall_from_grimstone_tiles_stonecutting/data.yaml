@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:grimstone_tiles
+result: minecraft:grimstone_tile_wall
+type: minecraft:stonecutting

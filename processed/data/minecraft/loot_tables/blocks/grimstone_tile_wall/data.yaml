@@ -1,0 +1,9 @@
+pools:
+- bonus_rolls: 0.0
+  conditions:
+  - condition: minecraft:survives_explosion
+  entries:
+  - name: minecraft:grimstone_tile_wall
+    type: minecraft:item
+  rolls: 1.0
+type: minecraft:block

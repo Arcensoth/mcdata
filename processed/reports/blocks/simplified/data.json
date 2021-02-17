@@ -2291,6 +2291,10 @@
       ]
     }
   },
+  "minecraft:chiseled_grimstone": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:chiseled_nether_bricks": {
     "default": {},
     "properties": {}
@@ -5028,6 +5032,282 @@
   "minecraft:green_wool": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:grimstone": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:grimstone_brick_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:grimstone_brick_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:grimstone_brick_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
+  },
+  "minecraft:grimstone_bricks": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:grimstone_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:grimstone_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:grimstone_tile_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:grimstone_tile_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:grimstone_tile_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
+  },
+  "minecraft:grimstone_tiles": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:grimstone_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
   },
   "minecraft:grindstone": {
     "default": {
@@ -8496,6 +8776,98 @@
       "waterlogged": [
         "true",
         "false"
+      ]
+    }
+  },
+  "minecraft:polished_grimstone": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:polished_grimstone_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:polished_grimstone_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:polished_grimstone_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
       ]
     }
   },

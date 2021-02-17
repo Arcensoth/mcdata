@@ -1,0 +1,17 @@
+pools:
+- bonus_rolls: 0.0
+  entries:
+  - functions:
+    - add: false
+      conditions:
+      - block: minecraft:polished_grimstone_slab
+        condition: minecraft:block_state_property
+        properties:
+          type: double
+      count: 2.0
+      function: minecraft:set_count
+    - function: minecraft:explosion_decay
+    name: minecraft:polished_grimstone_slab
+    type: minecraft:item
+  rolls: 1.0
+type: minecraft:block

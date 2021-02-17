@@ -29,3 +29,7 @@ values:
 - minecraft:blackstone_stairs
 - minecraft:polished_blackstone_brick_stairs
 - minecraft:polished_blackstone_stairs
+- minecraft:grimstone_stairs
+- minecraft:polished_grimstone_stairs
+- minecraft:grimstone_tile_stairs
+- minecraft:grimstone_brick_stairs

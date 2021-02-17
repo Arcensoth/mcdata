@@ -1,0 +1,8 @@
+{
+  "count": 1,
+  "ingredient": {
+    "item": "minecraft:grimstone"
+  },
+  "result": "minecraft:chiseled_grimstone",
+  "type": "minecraft:stonecutting"
+}

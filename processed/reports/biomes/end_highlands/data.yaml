@@ -19,16 +19,35 @@ features:
 - []
 - - config:
       decorator:
-        config: {}
-        type: minecraft:end_gateway
+        config:
+          chance: 700
+        type: minecraft:chance
       feature:
         config:
-          exact: true
-          exit:
-          - 100
-          - 50
-          - 0
-        type: minecraft:end_gateway
+          decorator:
+            config: {}
+            type: minecraft:square
+          feature:
+            config:
+              decorator:
+                config: {}
+                type: minecraft:heightmap
+              feature:
+                config:
+                  decorator:
+                    config: {}
+                    type: minecraft:end_gateway
+                  feature:
+                    config:
+                      exact: true
+                      exit:
+                      - 100
+                      - 50
+                      - 0
+                    type: minecraft:end_gateway
+                type: minecraft:decorated
+            type: minecraft:decorated
+        type: minecraft:decorated
     type: minecraft:decorated
 - []
 - []

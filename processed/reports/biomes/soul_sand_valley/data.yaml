@@ -46,9 +46,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 0
-                  maximum: 128
-                  top_offset: 0
+                  bottom_inclusive:
+                    above_bottom: 0
+                  top_inclusive:
+                    below_top: 0
                 type: minecraft:range
               feature:
                 config: {}
@@ -74,9 +75,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 4
-                  maximum: 128
-                  top_offset: 8
+                  bottom_inclusive:
+                    above_bottom: 4
+                  top_inclusive:
+                    below_top: 4
                 type: minecraft:range
               feature:
                 config:
@@ -99,8 +101,24 @@ features:
           count: 10
         type: minecraft:glowstone
       feature:
-        config: {}
-        type: minecraft:glowstone_blob
+        config:
+          decorator:
+            config: {}
+            type: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_inclusive:
+                    above_bottom: 4
+                  top_inclusive:
+                    below_top: 4
+                type: minecraft:range
+              feature:
+                config: {}
+                type: minecraft:glowstone_blob
+            type: minecraft:decorated
+        type: minecraft:decorated
     type: minecraft:decorated
   - config:
       decorator:
@@ -116,9 +134,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 0
-                  maximum: 128
-                  top_offset: 0
+                  bottom_inclusive:
+                    above_bottom: 0
+                  top_inclusive:
+                    below_top: 0
                 type: minecraft:range
               feature:
                 config: {}
@@ -129,9 +148,10 @@ features:
   - config:
       decorator:
         config:
-          bottom_offset: 0
-          maximum: 128
-          top_offset: 0
+          bottom_inclusive:
+            above_bottom: 0
+          top_inclusive:
+            below_top: 0
         type: minecraft:range
       feature:
         config:
@@ -155,8 +175,26 @@ features:
   - config:
       decorator:
         config:
-          count: 10
-        type: minecraft:fire
+          inner:
+            config:
+              inner:
+                config:
+                  bottom_inclusive:
+                    above_bottom: 4
+                  top_inclusive:
+                    below_top: 4
+                type: minecraft:range
+              outer:
+                config: {}
+                type: minecraft:square
+            type: minecraft:decorated
+          outer:
+            config:
+              count:
+                base: 0
+                spread: 5
+            type: minecraft:count
+        type: minecraft:decorated
       feature:
         config:
           blacklist: []
@@ -187,8 +225,26 @@ features:
   - config:
       decorator:
         config:
-          count: 10
-        type: minecraft:fire
+          inner:
+            config:
+              inner:
+                config:
+                  bottom_inclusive:
+                    above_bottom: 4
+                  top_inclusive:
+                    below_top: 4
+                type: minecraft:range
+              outer:
+                config: {}
+                type: minecraft:square
+            type: minecraft:decorated
+          outer:
+            config:
+              count:
+                base: 0
+                spread: 5
+            type: minecraft:count
+        type: minecraft:decorated
       feature:
         config:
           blacklist: []
@@ -222,8 +278,12 @@ features:
           feature:
             config:
               decorator:
-                config: {}
-                type: minecraft:magma
+                config:
+                  bottom_inclusive:
+                    absolute: 27
+                  top_inclusive:
+                    absolute: 36
+                type: minecraft:range
               feature:
                 config:
                   size: 33
@@ -250,9 +310,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 10
-                  maximum: 128
-                  top_offset: 20
+                  bottom_inclusive:
+                    above_bottom: 10
+                  top_inclusive:
+                    below_top: 10
                 type: minecraft:range
               feature:
                 config:
@@ -283,9 +344,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: -64
-                  maximum: 32
-                  top_offset: -64
+                  bottom_inclusive:
+                    above_bottom: 0
+                  top_inclusive:
+                    absolute: 31
                 type: minecraft:range
               feature:
                 config:
@@ -313,9 +375,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 5
-                  maximum: 37
-                  top_offset: 0
+                  bottom_inclusive:
+                    absolute: 5
+                  top_inclusive:
+                    absolute: 41
                 type: minecraft:range
               feature:
                 config:
@@ -343,9 +406,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 5
-                  maximum: 37
-                  top_offset: 10
+                  bottom_inclusive:
+                    absolute: 5
+                  top_inclusive:
+                    absolute: 31
                 type: minecraft:range
               feature:
                 config:
@@ -373,9 +437,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 10
-                  maximum: 128
-                  top_offset: 20
+                  bottom_inclusive:
+                    above_bottom: 10
+                  top_inclusive:
+                    below_top: 10
                 type: minecraft:range
               feature:
                 config:
@@ -403,9 +468,10 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 10
-                  maximum: 128
-                  top_offset: 20
+                  bottom_inclusive:
+                    above_bottom: 10
+                  top_inclusive:
+                    below_top: 10
                 type: minecraft:range
               feature:
                 config:
@@ -427,7 +493,8 @@ features:
         config:
           decorator:
             config:
-              baseline: 16
+              baseline:
+                absolute: 16
               spread: 8
             type: minecraft:depth_average
           feature:
@@ -449,9 +516,10 @@ features:
         config:
           decorator:
             config:
-              bottom_offset: 8
-              maximum: 128
-              top_offset: 16
+              bottom_inclusive:
+                above_bottom: 8
+              top_inclusive:
+                below_top: 8
             type: minecraft:range
           feature:
             config:
@@ -478,10 +546,12 @@ features:
             config:
               decorator:
                 config:
-                  bottom_offset: 8
-                  maximum: 384
-                  top_offset: 16
-                type: minecraft:range_very_biased
+                  bottom_inclusive:
+                    above_bottom: 0
+                  cutoff: 8
+                  top_inclusive:
+                    below_top: 8
+                type: minecraft:range_very_biased_to_bottom
               feature:
                 config:
                   hole_count: 1

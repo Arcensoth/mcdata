@@ -15,11 +15,37 @@ effects:
 features:
 - - config:
       decorator:
-        config: {}
-        type: minecraft:end_island
+        config:
+          chance: 14
+        type: minecraft:chance
       feature:
-        config: {}
-        type: minecraft:end_island
+        config:
+          decorator:
+            config:
+              count: 1
+              extra_chance: 0.25
+              extra_count: 1
+            type: minecraft:count_extra
+          feature:
+            config:
+              decorator:
+                config: {}
+                type: minecraft:square
+              feature:
+                config:
+                  decorator:
+                    config:
+                      bottom_inclusive:
+                        absolute: 55
+                      top_inclusive:
+                        absolute: 70
+                    type: minecraft:range
+                  feature:
+                    config: {}
+                    type: minecraft:end_island
+                type: minecraft:decorated
+            type: minecraft:decorated
+        type: minecraft:decorated
     type: minecraft:decorated
 player_spawn_friendly: false
 precipitation: none
