@@ -1,0 +1,5 @@
+count: 1
+ingredient:
+  item: minecraft:deepslate_tiles
+result: minecraft:deepslate_tile_stairs
+type: minecraft:stonecutting

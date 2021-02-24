@@ -1,6 +1,6 @@
 cookingtime: 100
 experience: 0.2
 ingredient:
-  item: minecraft:lapis_ore
+  tag: minecraft:lapis_ores
 result: minecraft:lapis_lazuli
 type: minecraft:blasting

@@ -277,14 +277,19 @@
                 "config": {
                   "feature": {
                     "config": {
-                      "target": {
-                        "block": "minecraft:netherrack",
-                        "predicate_type": "minecraft:block_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:magma_block"
-                      },
-                      "size": 33
+                      "targets": [
+                        {
+                          "target": {
+                            "block": "minecraft:netherrack",
+                            "predicate_type": "minecraft:block_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:magma_block"
+                          }
+                        }
+                      ],
+                      "size": 33,
+                      "discard_chance_on_air_exposure": 0.0
                     },
                     "type": "minecraft:ore"
                   },
@@ -379,14 +384,19 @@
                 "config": {
                   "feature": {
                     "config": {
-                      "target": {
-                        "block": "minecraft:netherrack",
-                        "predicate_type": "minecraft:block_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:gravel"
-                      },
-                      "size": 33
+                      "targets": [
+                        {
+                          "target": {
+                            "block": "minecraft:netherrack",
+                            "predicate_type": "minecraft:block_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:gravel"
+                          }
+                        }
+                      ],
+                      "size": 33,
+                      "discard_chance_on_air_exposure": 0.0
                     },
                     "type": "minecraft:ore"
                   },
@@ -428,14 +438,19 @@
                 "config": {
                   "feature": {
                     "config": {
-                      "target": {
-                        "block": "minecraft:netherrack",
-                        "predicate_type": "minecraft:block_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:blackstone"
-                      },
-                      "size": 33
+                      "targets": [
+                        {
+                          "target": {
+                            "block": "minecraft:netherrack",
+                            "predicate_type": "minecraft:block_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:blackstone"
+                          }
+                        }
+                      ],
+                      "size": 33,
+                      "discard_chance_on_air_exposure": 0.0
                     },
                     "type": "minecraft:ore"
                   },
@@ -477,14 +492,19 @@
                 "config": {
                   "feature": {
                     "config": {
-                      "target": {
-                        "block": "minecraft:netherrack",
-                        "predicate_type": "minecraft:block_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:nether_gold_ore"
-                      },
-                      "size": 10
+                      "targets": [
+                        {
+                          "target": {
+                            "block": "minecraft:netherrack",
+                            "predicate_type": "minecraft:block_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:nether_gold_ore"
+                          }
+                        }
+                      ],
+                      "size": 10,
+                      "discard_chance_on_air_exposure": 0.0
                     },
                     "type": "minecraft:ore"
                   },
@@ -526,14 +546,19 @@
                 "config": {
                   "feature": {
                     "config": {
-                      "target": {
-                        "block": "minecraft:netherrack",
-                        "predicate_type": "minecraft:block_match"
-                      },
-                      "state": {
-                        "Name": "minecraft:nether_quartz_ore"
-                      },
-                      "size": 14
+                      "targets": [
+                        {
+                          "target": {
+                            "block": "minecraft:netherrack",
+                            "predicate_type": "minecraft:block_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:nether_quartz_ore"
+                          }
+                        }
+                      ],
+                      "size": 14,
+                      "discard_chance_on_air_exposure": 0.0
                     },
                     "type": "minecraft:ore"
                   },
@@ -573,16 +598,21 @@
             "config": {
               "feature": {
                 "config": {
-                  "target": {
-                    "tag": "minecraft:base_stone_nether",
-                    "predicate_type": "minecraft:tag_match"
-                  },
-                  "state": {
-                    "Name": "minecraft:ancient_debris"
-                  },
-                  "size": 3
+                  "targets": [
+                    {
+                      "target": {
+                        "tag": "minecraft:base_stone_nether",
+                        "predicate_type": "minecraft:tag_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:ancient_debris"
+                      }
+                    }
+                  ],
+                  "size": 3,
+                  "discard_chance_on_air_exposure": 1.0
                 },
-                "type": "minecraft:no_surface_ore"
+                "type": "minecraft:scattered_ore"
               },
               "decorator": {
                 "config": {
@@ -609,16 +639,21 @@
             "config": {
               "feature": {
                 "config": {
-                  "target": {
-                    "tag": "minecraft:base_stone_nether",
-                    "predicate_type": "minecraft:tag_match"
-                  },
-                  "state": {
-                    "Name": "minecraft:ancient_debris"
-                  },
-                  "size": 2
+                  "targets": [
+                    {
+                      "target": {
+                        "tag": "minecraft:base_stone_nether",
+                        "predicate_type": "minecraft:tag_match"
+                      },
+                      "state": {
+                        "Name": "minecraft:ancient_debris"
+                      }
+                    }
+                  ],
+                  "size": 2,
+                  "discard_chance_on_air_exposure": 1.0
                 },
-                "type": "minecraft:no_surface_ore"
+                "type": "minecraft:scattered_ore"
               },
               "decorator": {
                 "config": {
@@ -657,7 +692,9 @@
                         "minecraft:stone",
                         "minecraft:granite",
                         "minecraft:diorite",
-                        "minecraft:andesite"
+                        "minecraft:andesite",
+                        "minecraft:deepslate",
+                        "minecraft:tuff"
                       ],
                       "state": {
                         "Properties": {

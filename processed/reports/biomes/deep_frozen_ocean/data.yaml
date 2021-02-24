@@ -1,10 +1,53 @@
 carvers:
   air:
   - config:
-      probability: 0.06666667
+      debug_settings:
+        air_state:
+          Name: minecraft:crimson_button
+          Properties:
+            face: wall
+            facing: north
+            powered: 'false'
+      probability: 0.125
     type: minecraft:cave
   - config:
+      bottom_inclusive:
+        absolute: 10
+      debug_settings:
+        air_state:
+          Name: minecraft:warped_button
+          Properties:
+            face: wall
+            facing: north
+            powered: 'false'
+      distanceFactor:
+        type: minecraft:uniform
+        value:
+          base: 0.75
+          spread: 0.25
+      horizontal_radius_factor:
+        type: minecraft:uniform
+        value:
+          base: 0.75
+          spread: 0.25
       probability: 0.02
+      thickness:
+        type: minecraft:trapezoid
+        value:
+          max: 6.0
+          min: 0.0
+          plateau: 2.0
+      top_inclusive:
+        absolute: 67
+      vertical_radius_center_factor: 0.0
+      vertical_radius_default_factor: 1.0
+      vertical_rotation:
+        type: minecraft:uniform
+        value:
+          base: -0.125
+          spread: 0.25
+      width_smoothness: 3
+      y_scale: 3
     type: minecraft:canyon
 category: ocean
 depth: -1.8
@@ -182,12 +225,13 @@ features:
                       type: minecraft:simple_state_provider
                     outer_layer_provider:
                       state:
-                        Name: minecraft:tuff
+                        Name: minecraft:smooth_basalt
                       type: minecraft:simple_state_provider
                   crack:
                     base_crack_size: 2.0
                     crack_point_offset: 2
                     generate_crack_chance: 0.95
+                  invalid_blocks_threshold: 1
                   layers:
                     filling: 1.7
                     inner_layer: 2.2
@@ -283,12 +327,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 33
-                  state:
-                    Name: minecraft:dirt
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:dirt
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -314,12 +360,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 33
-                  state:
-                    Name: minecraft:gravel
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:gravel
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -345,12 +393,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 64
-                  state:
-                    Name: minecraft:granite
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:granite
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -376,12 +426,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 64
-                  state:
-                    Name: minecraft:diorite
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:diorite
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -389,7 +441,40 @@ features:
   - config:
       decorator:
         config:
-          count: 4
+          count: 2
+        type: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            type: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_inclusive:
+                    absolute: 0
+                  top_inclusive:
+                    absolute: 79
+                type: minecraft:range
+              feature:
+                config:
+                  discard_chance_on_air_exposure: 0.0
+                  size: 64
+                  targets:
+                  - state:
+                      Name: minecraft:andesite
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          count: 2
         type: minecraft:count
       feature:
         config:
@@ -403,16 +488,18 @@ features:
                   bottom_inclusive:
                     above_bottom: 0
                   top_inclusive:
-                    absolute: 79
+                    absolute: 0
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 64
-                  state:
-                    Name: minecraft:andesite
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:tuff
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -438,12 +525,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 17
-                  state:
-                    Name: minecraft:coal_ore
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:coal_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -468,12 +557,14 @@ features:
                 type: minecraft:depth_average
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 17
-                  state:
-                    Name: minecraft:coal_ore
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:coal_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -481,7 +572,7 @@ features:
   - config:
       decorator:
         config:
-          count: 20
+          count: 4
         type: minecraft:count
       feature:
         config:
@@ -492,18 +583,26 @@ features:
             config:
               decorator:
                 config:
-                  baseline:
-                    absolute: 32
-                  spread: 48
-                type: minecraft:depth_average
+                  bottom_inclusive:
+                    above_bottom: 0
+                  top_inclusive:
+                    absolute: -8
+                type: minecraft:range
               feature:
                 config:
-                  size: 9
-                  state:
-                    Name: minecraft:iron_ore
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  discard_chance_on_air_exposure: 0.0
+                  size: 4
+                  targets:
+                  - state:
+                      Name: minecraft:iron_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:deepslate_iron_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -528,12 +627,19 @@ features:
                 type: minecraft:depth_average
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 9
-                  state:
-                    Name: minecraft:iron_ore
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:iron_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:deepslate_iron_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -541,7 +647,7 @@ features:
   - config:
       decorator:
         config:
-          count: 4
+          count: 6
         type: minecraft:count
       feature:
         config:
@@ -558,12 +664,19 @@ features:
                 type: minecraft:depth_average
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.5
                   size: 9
-                  state:
-                    Name: minecraft:gold_ore
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:gold_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:deepslate_gold_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -589,14 +702,23 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 8
-                  state:
-                    Name: minecraft:redstone_ore
-                    Properties:
-                      lit: 'false'
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:redstone_ore
+                      Properties:
+                        lit: 'false'
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:deepslate_redstone_ore
+                      Properties:
+                        lit: 'false'
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -621,12 +743,19 @@ features:
                 type: minecraft:depth_average
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.5
                   size: 8
-                  state:
-                    Name: minecraft:diamond_ore
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:diamond_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:deepslate_diamond_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -645,43 +774,64 @@ features:
             type: minecraft:depth_average
           feature:
             config:
+              discard_chance_on_air_exposure: 0.0
               size: 7
-              state:
-                Name: minecraft:lapis_ore
-              target:
-                predicate_type: minecraft:tag_match
-                tag: minecraft:base_stone_overworld
+              targets:
+              - state:
+                  Name: minecraft:lapis_ore
+                target:
+                  predicate_type: minecraft:tag_match
+                  tag: minecraft:stone_ore_replaceables
+              - state:
+                  Name: minecraft:lapis_ore
+                target:
+                  predicate_type: minecraft:tag_match
+                  tag: minecraft:deepslate_ore_replaceables
             type: minecraft:ore
         type: minecraft:decorated
     type: minecraft:decorated
   - config:
       decorator:
-        config: {}
-        type: minecraft:square
+        config:
+          count: 2
+        type: minecraft:count
       feature:
         config:
           decorator:
-            config:
-              bottom_inclusive:
-                above_bottom: 0
-              top_inclusive:
-                absolute: 64
-            type: minecraft:range
+            config: {}
+            type: minecraft:square
           feature:
             config:
-              size: 7
-              state:
-                Name: minecraft:lapis_ore
-              target:
-                predicate_type: minecraft:tag_match
-                tag: minecraft:base_stone_overworld
-            type: minecraft:no_surface_ore
+              decorator:
+                config:
+                  bottom_inclusive:
+                    above_bottom: 0
+                  top_inclusive:
+                    absolute: 64
+                type: minecraft:range
+              feature:
+                config:
+                  discard_chance_on_air_exposure: 1.0
+                  size: 7
+                  targets:
+                  - state:
+                      Name: minecraft:lapis_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:lapis_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
+                type: minecraft:scattered_ore
+            type: minecraft:decorated
         type: minecraft:decorated
     type: minecraft:decorated
   - config:
       decorator:
         config:
-          count: 20
+          count: 10
         type: minecraft:count
       feature:
         config:
@@ -698,12 +848,14 @@ features:
                 type: minecraft:depth_average
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 10
-                  state:
-                    Name: minecraft:copper_ore
-                  target:
-                    predicate_type: minecraft:tag_match
-                    tag: minecraft:base_stone_overworld
+                  targets:
+                  - state:
+                      Name: minecraft:copper_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -823,7 +975,7 @@ features:
       decorator:
         config:
           count:
-            base: 20
+            base: 40
             spread: 20
         type: minecraft:count
       feature:
@@ -850,7 +1002,7 @@ features:
                   - Name: minecraft:dripstone_block
                   - Name: minecraft:calcite
                   - Name: minecraft:tuff
-                  - Name: minecraft:grimstone
+                  - Name: minecraft:deepslate
                   can_place_on_ceiling: true
                   can_place_on_floor: false
                   can_place_on_wall: true
@@ -1199,10 +1351,9 @@ features:
                 config:
                   bottom_inclusive:
                     above_bottom: 0
-                  cutoff: 8
                   top_inclusive:
                     below_top: 0
-                type: minecraft:range_biased_to_bottom
+                type: minecraft:range
               feature:
                 config:
                   hole_count: 1
@@ -1217,6 +1368,8 @@ features:
                   - minecraft:granite
                   - minecraft:diorite
                   - minecraft:andesite
+                  - minecraft:deepslate
+                  - minecraft:tuff
                 type: minecraft:spring_feature
             type: minecraft:decorated
         type: minecraft:decorated
@@ -1255,6 +1408,8 @@ features:
                   - minecraft:granite
                   - minecraft:diorite
                   - minecraft:andesite
+                  - minecraft:deepslate
+                  - minecraft:tuff
                 type: minecraft:spring_feature
             type: minecraft:decorated
         type: minecraft:decorated

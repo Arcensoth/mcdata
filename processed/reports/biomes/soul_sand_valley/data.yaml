@@ -286,12 +286,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 33
-                  state:
-                    Name: minecraft:magma_block
-                  target:
-                    block: minecraft:netherrack
-                    predicate_type: minecraft:block_match
+                  targets:
+                  - state:
+                      Name: minecraft:magma_block
+                    target:
+                      block: minecraft:netherrack
+                      predicate_type: minecraft:block_match
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -351,12 +353,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 12
-                  state:
-                    Name: minecraft:soul_sand
-                  target:
-                    block: minecraft:netherrack
-                    predicate_type: minecraft:block_match
+                  targets:
+                  - state:
+                      Name: minecraft:soul_sand
+                    target:
+                      block: minecraft:netherrack
+                      predicate_type: minecraft:block_match
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -382,12 +386,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 33
-                  state:
-                    Name: minecraft:gravel
-                  target:
-                    block: minecraft:netherrack
-                    predicate_type: minecraft:block_match
+                  targets:
+                  - state:
+                      Name: minecraft:gravel
+                    target:
+                      block: minecraft:netherrack
+                      predicate_type: minecraft:block_match
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -413,12 +419,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 33
-                  state:
-                    Name: minecraft:blackstone
-                  target:
-                    block: minecraft:netherrack
-                    predicate_type: minecraft:block_match
+                  targets:
+                  - state:
+                      Name: minecraft:blackstone
+                    target:
+                      block: minecraft:netherrack
+                      predicate_type: minecraft:block_match
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -444,12 +452,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 10
-                  state:
-                    Name: minecraft:nether_gold_ore
-                  target:
-                    block: minecraft:netherrack
-                    predicate_type: minecraft:block_match
+                  targets:
+                  - state:
+                      Name: minecraft:nether_gold_ore
+                    target:
+                      block: minecraft:netherrack
+                      predicate_type: minecraft:block_match
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -475,12 +485,14 @@ features:
                 type: minecraft:range
               feature:
                 config:
+                  discard_chance_on_air_exposure: 0.0
                   size: 14
-                  state:
-                    Name: minecraft:nether_quartz_ore
-                  target:
-                    block: minecraft:netherrack
-                    predicate_type: minecraft:block_match
+                  targets:
+                  - state:
+                      Name: minecraft:nether_quartz_ore
+                    target:
+                      block: minecraft:netherrack
+                      predicate_type: minecraft:block_match
                 type: minecraft:ore
             type: minecraft:decorated
         type: minecraft:decorated
@@ -499,13 +511,15 @@ features:
             type: minecraft:depth_average
           feature:
             config:
+              discard_chance_on_air_exposure: 1.0
               size: 3
-              state:
-                Name: minecraft:ancient_debris
-              target:
-                predicate_type: minecraft:tag_match
-                tag: minecraft:base_stone_nether
-            type: minecraft:no_surface_ore
+              targets:
+              - state:
+                  Name: minecraft:ancient_debris
+                target:
+                  predicate_type: minecraft:tag_match
+                  tag: minecraft:base_stone_nether
+            type: minecraft:scattered_ore
         type: minecraft:decorated
     type: minecraft:decorated
   - config:
@@ -523,13 +537,15 @@ features:
             type: minecraft:range
           feature:
             config:
+              discard_chance_on_air_exposure: 1.0
               size: 2
-              state:
-                Name: minecraft:ancient_debris
-              target:
-                predicate_type: minecraft:tag_match
-                tag: minecraft:base_stone_nether
-            type: minecraft:no_surface_ore
+              targets:
+              - state:
+                  Name: minecraft:ancient_debris
+                target:
+                  predicate_type: minecraft:tag_match
+                  tag: minecraft:base_stone_nether
+            type: minecraft:scattered_ore
         type: minecraft:decorated
     type: minecraft:decorated
 - - config:
@@ -566,6 +582,8 @@ features:
                   - minecraft:granite
                   - minecraft:diorite
                   - minecraft:andesite
+                  - minecraft:deepslate
+                  - minecraft:tuff
                 type: minecraft:spring_feature
             type: minecraft:decorated
         type: minecraft:decorated

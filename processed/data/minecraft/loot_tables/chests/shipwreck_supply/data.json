@@ -89,11 +89,11 @@
               "effects": [
                 {
                   "duration": {
-                    "max": 10.0,
-                    "min": 7.0,
+                    "max": 8.0,
+                    "min": 6.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:saturation"
+                  "type": "minecraft:weakness"
                 },
                 {
                   "duration": {
@@ -105,19 +105,11 @@
                 },
                 {
                   "duration": {
-                    "max": 10.0,
-                    "min": 7.0,
+                    "max": 7.0,
+                    "min": 5.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:night_vision"
-                },
-                {
-                  "duration": {
-                    "max": 8.0,
-                    "min": 6.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "type": "minecraft:weakness"
+                  "type": "minecraft:blindness"
                 },
                 {
                   "duration": {
@@ -129,11 +121,19 @@
                 },
                 {
                   "duration": {
-                    "max": 7.0,
-                    "min": 5.0,
+                    "max": 10.0,
+                    "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:blindness"
+                  "type": "minecraft:saturation"
+                },
+                {
+                  "duration": {
+                    "max": 10.0,
+                    "min": 7.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "type": "minecraft:night_vision"
                 }
               ],
               "function": "minecraft:set_stew_effect"

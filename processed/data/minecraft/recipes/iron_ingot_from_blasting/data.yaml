@@ -1,6 +1,6 @@
 cookingtime: 100
 experience: 0.7
 ingredient:
-  item: minecraft:iron_ore
+  tag: minecraft:iron_ores
 result: minecraft:iron_ingot
 type: minecraft:blasting

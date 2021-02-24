@@ -2,7 +2,7 @@
   "cookingtime": 200,
   "experience": 1.0,
   "ingredient": {
-    "item": "minecraft:diamond_ore"
+    "tag": "minecraft:diamond_ores"
   },
   "result": "minecraft:diamond",
   "type": "minecraft:smelting"

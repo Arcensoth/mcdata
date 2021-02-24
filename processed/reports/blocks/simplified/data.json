@@ -2291,7 +2291,7 @@
       ]
     }
   },
-  "minecraft:chiseled_grimstone": {
+  "minecraft:chiseled_deepslate": {
     "default": {},
     "properties": {}
   },
@@ -2385,6 +2385,98 @@
   "minecraft:coarse_dirt": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:cobbled_deepslate": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:cobbled_deepslate_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:cobbled_deepslate_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
   },
   "minecraft:cobblestone": {
     "default": {},
@@ -3870,6 +3962,221 @@
       ]
     }
   },
+  "minecraft:deepslate": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_brick_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:deepslate_brick_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
+  },
+  "minecraft:deepslate_bricks": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_diamond_ore": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_gold_ore": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_iron_ore": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_lapis_ore": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_redstone_ore": {
+    "default": {
+      "lit": "false"
+    },
+    "properties": {
+      "lit": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:deepslate_tile_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
+  },
+  "minecraft:deepslate_tiles": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:detector_rail": {
     "default": {
       "powered": "false",
@@ -5032,282 +5339,6 @@
   "minecraft:green_wool": {
     "default": {},
     "properties": {}
-  },
-  "minecraft:grimstone": {
-    "default": {},
-    "properties": {}
-  },
-  "minecraft:grimstone_brick_slab": {
-    "default": {
-      "type": "bottom",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "type": [
-        "top",
-        "bottom",
-        "double"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:grimstone_brick_stairs": {
-    "default": {
-      "facing": "north",
-      "half": "bottom",
-      "shape": "straight",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ],
-      "half": [
-        "top",
-        "bottom"
-      ],
-      "shape": [
-        "straight",
-        "inner_left",
-        "inner_right",
-        "outer_left",
-        "outer_right"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:grimstone_brick_wall": {
-    "default": {
-      "east": "none",
-      "north": "none",
-      "south": "none",
-      "up": "true",
-      "waterlogged": "false",
-      "west": "none"
-    },
-    "properties": {
-      "east": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "north": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "south": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "up": [
-        "true",
-        "false"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ],
-      "west": [
-        "none",
-        "low",
-        "tall"
-      ]
-    }
-  },
-  "minecraft:grimstone_bricks": {
-    "default": {},
-    "properties": {}
-  },
-  "minecraft:grimstone_slab": {
-    "default": {
-      "type": "bottom",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "type": [
-        "top",
-        "bottom",
-        "double"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:grimstone_stairs": {
-    "default": {
-      "facing": "north",
-      "half": "bottom",
-      "shape": "straight",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ],
-      "half": [
-        "top",
-        "bottom"
-      ],
-      "shape": [
-        "straight",
-        "inner_left",
-        "inner_right",
-        "outer_left",
-        "outer_right"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:grimstone_tile_slab": {
-    "default": {
-      "type": "bottom",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "type": [
-        "top",
-        "bottom",
-        "double"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:grimstone_tile_stairs": {
-    "default": {
-      "facing": "north",
-      "half": "bottom",
-      "shape": "straight",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ],
-      "half": [
-        "top",
-        "bottom"
-      ],
-      "shape": [
-        "straight",
-        "inner_left",
-        "inner_right",
-        "outer_left",
-        "outer_right"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:grimstone_tile_wall": {
-    "default": {
-      "east": "none",
-      "north": "none",
-      "south": "none",
-      "up": "true",
-      "waterlogged": "false",
-      "west": "none"
-    },
-    "properties": {
-      "east": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "north": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "south": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "up": [
-        "true",
-        "false"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ],
-      "west": [
-        "none",
-        "low",
-        "tall"
-      ]
-    }
-  },
-  "minecraft:grimstone_tiles": {
-    "default": {},
-    "properties": {}
-  },
-  "minecraft:grimstone_wall": {
-    "default": {
-      "east": "none",
-      "north": "none",
-      "south": "none",
-      "up": "true",
-      "waterlogged": "false",
-      "west": "none"
-    },
-    "properties": {
-      "east": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "north": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "south": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "up": [
-        "true",
-        "false"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ],
-      "west": [
-        "none",
-        "low",
-        "tall"
-      ]
-    }
   },
   "minecraft:grindstone": {
     "default": {
@@ -8675,6 +8706,98 @@
       ]
     }
   },
+  "minecraft:polished_deepslate": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:polished_deepslate_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:polished_deepslate_wall": {
+    "default": {
+      "east": "none",
+      "north": "none",
+      "south": "none",
+      "up": "true",
+      "waterlogged": "false",
+      "west": "none"
+    },
+    "properties": {
+      "east": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "north": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "south": [
+        "none",
+        "low",
+        "tall"
+      ],
+      "up": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ],
+      "west": [
+        "none",
+        "low",
+        "tall"
+      ]
+    }
+  },
   "minecraft:polished_diorite": {
     "default": {},
     "properties": {}
@@ -8776,98 +8899,6 @@
       "waterlogged": [
         "true",
         "false"
-      ]
-    }
-  },
-  "minecraft:polished_grimstone": {
-    "default": {},
-    "properties": {}
-  },
-  "minecraft:polished_grimstone_slab": {
-    "default": {
-      "type": "bottom",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "type": [
-        "top",
-        "bottom",
-        "double"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:polished_grimstone_stairs": {
-    "default": {
-      "facing": "north",
-      "half": "bottom",
-      "shape": "straight",
-      "waterlogged": "false"
-    },
-    "properties": {
-      "facing": [
-        "north",
-        "south",
-        "west",
-        "east"
-      ],
-      "half": [
-        "top",
-        "bottom"
-      ],
-      "shape": [
-        "straight",
-        "inner_left",
-        "inner_right",
-        "outer_left",
-        "outer_right"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:polished_grimstone_wall": {
-    "default": {
-      "east": "none",
-      "north": "none",
-      "south": "none",
-      "up": "true",
-      "waterlogged": "false",
-      "west": "none"
-    },
-    "properties": {
-      "east": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "north": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "south": [
-        "none",
-        "low",
-        "tall"
-      ],
-      "up": [
-        "true",
-        "false"
-      ],
-      "waterlogged": [
-        "true",
-        "false"
-      ],
-      "west": [
-        "none",
-        "low",
-        "tall"
       ]
     }
   },
@@ -10449,6 +10480,10 @@
         "false"
       ]
     }
+  },
+  "minecraft:smooth_basalt": {
+    "default": {},
+    "properties": {}
   },
   "minecraft:smooth_quartz": {
     "default": {},

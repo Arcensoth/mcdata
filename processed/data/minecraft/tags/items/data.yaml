@@ -15,6 +15,7 @@ values:
 - minecraft:creeper_drop_music_discs
 - minecraft:crimson_stems
 - minecraft:dark_oak_logs
+- minecraft:diamond_ores
 - minecraft:doors
 - minecraft:fences
 - minecraft:fishes
@@ -23,7 +24,9 @@ values:
 - minecraft:freeze_immune_wearables
 - minecraft:gold_ores
 - minecraft:ignored_by_piglin_babies
+- minecraft:iron_ores
 - minecraft:jungle_logs
+- minecraft:lapis_ores
 - minecraft:leaves
 - minecraft:lectern_books
 - minecraft:logs
@@ -37,6 +40,7 @@ values:
 - minecraft:piglin_repellents
 - minecraft:planks
 - minecraft:rails
+- minecraft:redstone_ores
 - minecraft:sand
 - minecraft:saplings
 - minecraft:signs

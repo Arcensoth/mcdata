@@ -25,6 +25,8 @@ minecraft:crimson_stems
 minecraft:crops
 minecraft:crystal_sound_blocks
 minecraft:dark_oak_logs
+minecraft:deepslate_ore_replaceables
+minecraft:diamond_ores
 minecraft:doors
 minecraft:dragon_immune
 minecraft:dripstone_replaceable_blocks
@@ -43,7 +45,9 @@ minecraft:infiniburn_end
 minecraft:infiniburn_nether
 minecraft:infiniburn_overworld
 minecraft:inside_step_sound_blocks
+minecraft:iron_ores
 minecraft:jungle_logs
+minecraft:lapis_ores
 minecraft:leaves
 minecraft:logs
 minecraft:logs_that_burn
@@ -59,6 +63,7 @@ minecraft:portals
 minecraft:pressure_plates
 minecraft:prevent_mob_spawning_inside
 minecraft:rails
+minecraft:redstone_ores
 minecraft:sand
 minecraft:saplings
 minecraft:shulker_boxes
@@ -71,6 +76,7 @@ minecraft:spruce_logs
 minecraft:stairs
 minecraft:standing_signs
 minecraft:stone_bricks
+minecraft:stone_ore_replaceables
 minecraft:stone_pressure_plates
 minecraft:strider_warm_blocks
 minecraft:tall_flowers

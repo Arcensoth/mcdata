@@ -110,8 +110,8 @@ advancements:
 - minecraft:recipes/building_blocks/brown_stained_glass
 - minecraft:recipes/building_blocks/brown_terracotta
 - minecraft:recipes/building_blocks/brown_wool
-- minecraft:recipes/building_blocks/chiseled_grimstone
-- minecraft:recipes/building_blocks/chiseled_grimstone_from_grimstone_stonecutting
+- minecraft:recipes/building_blocks/chiseled_deepslate
+- minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting
 - minecraft:recipes/building_blocks/chiseled_nether_bricks
 - minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting
 - minecraft:recipes/building_blocks/chiseled_polished_blackstone
@@ -129,6 +129,10 @@ advancements:
 - minecraft:recipes/building_blocks/clay
 - minecraft:recipes/building_blocks/coal_block
 - minecraft:recipes/building_blocks/coarse_dirt
+- minecraft:recipes/building_blocks/cobbled_deepslate_slab
+- minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting
+- minecraft:recipes/building_blocks/cobbled_deepslate_stairs
+- minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting
 - minecraft:recipes/building_blocks/cobblestone_slab
 - minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting
 - minecraft:recipes/building_blocks/cobblestone_stairs
@@ -172,6 +176,14 @@ advancements:
 - minecraft:recipes/building_blocks/dark_prismarine_slab_from_dark_prismarine_stonecutting
 - minecraft:recipes/building_blocks/dark_prismarine_stairs
 - minecraft:recipes/building_blocks/dark_prismarine_stairs_from_dark_prismarine_stonecutting
+- minecraft:recipes/building_blocks/deepslate_brick_slab
+- minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting
+- minecraft:recipes/building_blocks/deepslate_brick_stairs
+- minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting
+- minecraft:recipes/building_blocks/deepslate_tile_slab
+- minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_tiles_stonecutting
+- minecraft:recipes/building_blocks/deepslate_tile_stairs
+- minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_tiles_stonecutting
 - minecraft:recipes/building_blocks/diamond_block
 - minecraft:recipes/building_blocks/diorite
 - minecraft:recipes/building_blocks/diorite_slab
@@ -213,18 +225,6 @@ advancements:
 - minecraft:recipes/building_blocks/green_stained_glass
 - minecraft:recipes/building_blocks/green_terracotta
 - minecraft:recipes/building_blocks/green_wool
-- minecraft:recipes/building_blocks/grimstone_brick_slab
-- minecraft:recipes/building_blocks/grimstone_brick_slab_from_grimstone_bricks_stonecutting
-- minecraft:recipes/building_blocks/grimstone_brick_stairs
-- minecraft:recipes/building_blocks/grimstone_brick_stairs_from_grimstone_bricks_stonecutting
-- minecraft:recipes/building_blocks/grimstone_slab
-- minecraft:recipes/building_blocks/grimstone_slab_from_grimstone_stonecutting
-- minecraft:recipes/building_blocks/grimstone_stairs
-- minecraft:recipes/building_blocks/grimstone_stairs_from_grimstone_stonecutting
-- minecraft:recipes/building_blocks/grimstone_tile_slab
-- minecraft:recipes/building_blocks/grimstone_tile_slab_from_grimstone_tiles_stonecutting
-- minecraft:recipes/building_blocks/grimstone_tile_stairs
-- minecraft:recipes/building_blocks/grimstone_tile_stairs_from_grimstone_tiles_stonecutting
 - minecraft:recipes/building_blocks/hay_block
 - minecraft:recipes/building_blocks/iron_block
 - minecraft:recipes/building_blocks/jack_o_lantern
@@ -318,6 +318,11 @@ advancements:
 - minecraft:recipes/building_blocks/polished_blackstone_stairs
 - minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting
 - minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting
+- minecraft:recipes/building_blocks/polished_deepslate
+- minecraft:recipes/building_blocks/polished_deepslate_slab
+- minecraft:recipes/building_blocks/polished_deepslate_slab_from_polished_deepslate_stonecutting
+- minecraft:recipes/building_blocks/polished_deepslate_stairs
+- minecraft:recipes/building_blocks/polished_deepslate_stairs_from_polished_deepslate_stonecutting
 - minecraft:recipes/building_blocks/polished_diorite
 - minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting
 - minecraft:recipes/building_blocks/polished_diorite_slab
@@ -334,11 +339,6 @@ advancements:
 - minecraft:recipes/building_blocks/polished_granite_stairs
 - minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting
 - minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting
-- minecraft:recipes/building_blocks/polished_grimstone
-- minecraft:recipes/building_blocks/polished_grimstone_slab
-- minecraft:recipes/building_blocks/polished_grimstone_slab_from_polished_grimstone_stonecutting
-- minecraft:recipes/building_blocks/polished_grimstone_stairs
-- minecraft:recipes/building_blocks/polished_grimstone_stairs_from_polished_grimstone_stonecutting
 - minecraft:recipes/building_blocks/prismarine
 - minecraft:recipes/building_blocks/prismarine_bricks
 - minecraft:recipes/building_blocks/prismarine_brick_slab
@@ -389,6 +389,7 @@ advancements:
 - minecraft:recipes/building_blocks/sandstone_stairs
 - minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting
 - minecraft:recipes/building_blocks/sea_lantern
+- minecraft:recipes/building_blocks/smooth_basalt
 - minecraft:recipes/building_blocks/smooth_quartz
 - minecraft:recipes/building_blocks/smooth_quartz_slab
 - minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting
@@ -571,6 +572,8 @@ advancements:
 - minecraft:recipes/decorations/cartography_table
 - minecraft:recipes/decorations/chain
 - minecraft:recipes/decorations/chest
+- minecraft:recipes/decorations/cobbled_deepslate_wall
+- minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting
 - minecraft:recipes/decorations/cobblestone_wall
 - minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting
 - minecraft:recipes/decorations/composter
@@ -588,6 +591,10 @@ advancements:
 - minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane
 - minecraft:recipes/decorations/dark_oak_fence
 - minecraft:recipes/decorations/dark_oak_sign
+- minecraft:recipes/decorations/deepslate_brick_wall
+- minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting
+- minecraft:recipes/decorations/deepslate_tile_wall
+- minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_tiles_stonecutting
 - minecraft:recipes/decorations/diorite_wall
 - minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting
 - minecraft:recipes/decorations/enchanting_table
@@ -622,15 +629,8 @@ advancements:
 - minecraft:recipes/decorations/green_glazed_terracotta
 - minecraft:recipes/decorations/green_stained_glass_pane
 - minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane
-- minecraft:recipes/decorations/grimstone_brick_wall
-- minecraft:recipes/decorations/grimstone_brick_wall_from_grimstone_bricks_stonecutting
-- minecraft:recipes/decorations/grimstone_tile_wall
-- minecraft:recipes/decorations/grimstone_tile_wall_from_grimstone_tiles_stonecutting
-- minecraft:recipes/decorations/grimstone_wall
-- minecraft:recipes/decorations/grimstone_wall_from_grimstone_stonecutting
 - minecraft:recipes/decorations/grindstone
 - minecraft:recipes/decorations/honeycomb_block
-- minecraft:recipes/decorations/honey_block
 - minecraft:recipes/decorations/iron_bars
 - minecraft:recipes/decorations/item_frame
 - minecraft:recipes/decorations/jukebox
@@ -712,8 +712,8 @@ advancements:
 - minecraft:recipes/decorations/polished_blackstone_wall
 - minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting
 - minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting
-- minecraft:recipes/decorations/polished_grimstone_wall
-- minecraft:recipes/decorations/polished_grimstone_wall_from_polished_grimstone_stonecutting
+- minecraft:recipes/decorations/polished_deepslate_wall
+- minecraft:recipes/decorations/polished_deepslate_wall_from_polished_deepslate_stonecutting
 - minecraft:recipes/decorations/prismarine_wall
 - minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting
 - minecraft:recipes/decorations/purple_banner
@@ -743,7 +743,6 @@ advancements:
 - minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting
 - minecraft:recipes/decorations/scaffolding
 - minecraft:recipes/decorations/shulker_box
-- minecraft:recipes/decorations/slime_block
 - minecraft:recipes/decorations/smithing_table
 - minecraft:recipes/decorations/smoker
 - minecraft:recipes/decorations/snow
@@ -940,6 +939,7 @@ advancements:
 - minecraft:recipes/redstone/dispenser
 - minecraft:recipes/redstone/dropper
 - minecraft:recipes/redstone/heavy_weighted_pressure_plate
+- minecraft:recipes/redstone/honey_block
 - minecraft:recipes/redstone/hopper
 - minecraft:recipes/redstone/iron_door
 - minecraft:recipes/redstone/iron_trapdoor
@@ -969,6 +969,7 @@ advancements:
 - minecraft:recipes/redstone/redstone_lamp
 - minecraft:recipes/redstone/redstone_torch
 - minecraft:recipes/redstone/repeater
+- minecraft:recipes/redstone/slime_block
 - minecraft:recipes/redstone/spruce_button
 - minecraft:recipes/redstone/spruce_door
 - minecraft:recipes/redstone/spruce_fence_gate
@@ -1184,7 +1185,7 @@ loot_tables:
 - minecraft:blocks/chain
 - minecraft:blocks/chest
 - minecraft:blocks/chipped_anvil
-- minecraft:blocks/chiseled_grimstone
+- minecraft:blocks/chiseled_deepslate
 - minecraft:blocks/chiseled_nether_bricks
 - minecraft:blocks/chiseled_polished_blackstone
 - minecraft:blocks/chiseled_quartz_block
@@ -1197,6 +1198,10 @@ loot_tables:
 - minecraft:blocks/coal_block
 - minecraft:blocks/coal_ore
 - minecraft:blocks/coarse_dirt
+- minecraft:blocks/cobbled_deepslate
+- minecraft:blocks/cobbled_deepslate_slab
+- minecraft:blocks/cobbled_deepslate_stairs
+- minecraft:blocks/cobbled_deepslate_wall
 - minecraft:blocks/cobblestone
 - minecraft:blocks/cobblestone_slab
 - minecraft:blocks/cobblestone_stairs
@@ -1286,6 +1291,20 @@ loot_tables:
 - minecraft:blocks/dead_tube_coral
 - minecraft:blocks/dead_tube_coral_block
 - minecraft:blocks/dead_tube_coral_fan
+- minecraft:blocks/deepslate
+- minecraft:blocks/deepslate_bricks
+- minecraft:blocks/deepslate_brick_slab
+- minecraft:blocks/deepslate_brick_stairs
+- minecraft:blocks/deepslate_brick_wall
+- minecraft:blocks/deepslate_diamond_ore
+- minecraft:blocks/deepslate_gold_ore
+- minecraft:blocks/deepslate_iron_ore
+- minecraft:blocks/deepslate_lapis_ore
+- minecraft:blocks/deepslate_redstone_ore
+- minecraft:blocks/deepslate_tiles
+- minecraft:blocks/deepslate_tile_slab
+- minecraft:blocks/deepslate_tile_stairs
+- minecraft:blocks/deepslate_tile_wall
 - minecraft:blocks/detector_rail
 - minecraft:blocks/diamond_block
 - minecraft:blocks/diamond_ore
@@ -1366,18 +1385,6 @@ loot_tables:
 - minecraft:blocks/green_stained_glass_pane
 - minecraft:blocks/green_terracotta
 - minecraft:blocks/green_wool
-- minecraft:blocks/grimstone
-- minecraft:blocks/grimstone_bricks
-- minecraft:blocks/grimstone_brick_slab
-- minecraft:blocks/grimstone_brick_stairs
-- minecraft:blocks/grimstone_brick_wall
-- minecraft:blocks/grimstone_slab
-- minecraft:blocks/grimstone_stairs
-- minecraft:blocks/grimstone_tiles
-- minecraft:blocks/grimstone_tile_slab
-- minecraft:blocks/grimstone_tile_stairs
-- minecraft:blocks/grimstone_tile_wall
-- minecraft:blocks/grimstone_wall
 - minecraft:blocks/grindstone
 - minecraft:blocks/hanging_roots
 - minecraft:blocks/hay_block
@@ -1586,16 +1593,16 @@ loot_tables:
 - minecraft:blocks/polished_blackstone_slab
 - minecraft:blocks/polished_blackstone_stairs
 - minecraft:blocks/polished_blackstone_wall
+- minecraft:blocks/polished_deepslate
+- minecraft:blocks/polished_deepslate_slab
+- minecraft:blocks/polished_deepslate_stairs
+- minecraft:blocks/polished_deepslate_wall
 - minecraft:blocks/polished_diorite
 - minecraft:blocks/polished_diorite_slab
 - minecraft:blocks/polished_diorite_stairs
 - minecraft:blocks/polished_granite
 - minecraft:blocks/polished_granite_slab
 - minecraft:blocks/polished_granite_stairs
-- minecraft:blocks/polished_grimstone
-- minecraft:blocks/polished_grimstone_slab
-- minecraft:blocks/polished_grimstone_stairs
-- minecraft:blocks/polished_grimstone_wall
 - minecraft:blocks/poppy
 - minecraft:blocks/potatoes
 - minecraft:blocks/potted_acacia_sapling
@@ -1714,6 +1721,7 @@ loot_tables:
 - minecraft:blocks/small_dripleaf
 - minecraft:blocks/smithing_table
 - minecraft:blocks/smoker
+- minecraft:blocks/smooth_basalt
 - minecraft:blocks/smooth_quartz
 - minecraft:blocks/smooth_quartz_slab
 - minecraft:blocks/smooth_quartz_stairs
@@ -2144,8 +2152,8 @@ recipes:
 - minecraft:charcoal
 - minecraft:chest
 - minecraft:chest_minecart
-- minecraft:chiseled_grimstone
-- minecraft:chiseled_grimstone_from_grimstone_stonecutting
+- minecraft:chiseled_deepslate
+- minecraft:chiseled_deepslate_from_cobbled_deepslate_stonecutting
 - minecraft:chiseled_nether_bricks
 - minecraft:chiseled_nether_bricks_from_nether_bricks_stonecutting
 - minecraft:chiseled_polished_blackstone
@@ -2167,6 +2175,12 @@ recipes:
 - minecraft:coal_from_blasting
 - minecraft:coal_from_smelting
 - minecraft:coarse_dirt
+- minecraft:cobbled_deepslate_slab
+- minecraft:cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting
+- minecraft:cobbled_deepslate_stairs
+- minecraft:cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting
+- minecraft:cobbled_deepslate_wall
+- minecraft:cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting
 - minecraft:cobblestone_slab
 - minecraft:cobblestone_slab_from_cobblestone_stonecutting
 - minecraft:cobblestone_stairs
@@ -2270,6 +2284,18 @@ recipes:
 - minecraft:dark_prismarine_stairs
 - minecraft:dark_prismarine_stairs_from_dark_prismarine_stonecutting
 - minecraft:daylight_detector
+- minecraft:deepslate_brick_slab
+- minecraft:deepslate_brick_slab_from_deepslate_bricks_stonecutting
+- minecraft:deepslate_brick_stairs
+- minecraft:deepslate_brick_stairs_from_deepslate_bricks_stonecutting
+- minecraft:deepslate_brick_wall
+- minecraft:deepslate_brick_wall_from_deepslate_bricks_stonecutting
+- minecraft:deepslate_tile_slab
+- minecraft:deepslate_tile_slab_from_deepslate_tiles_stonecutting
+- minecraft:deepslate_tile_stairs
+- minecraft:deepslate_tile_stairs_from_deepslate_tiles_stonecutting
+- minecraft:deepslate_tile_wall
+- minecraft:deepslate_tile_wall_from_deepslate_tiles_stonecutting
 - minecraft:detector_rail
 - minecraft:diamond
 - minecraft:diamond_axe
@@ -2400,24 +2426,6 @@ recipes:
 - minecraft:green_stained_glass_pane_from_glass_pane
 - minecraft:green_terracotta
 - minecraft:green_wool
-- minecraft:grimstone_brick_slab
-- minecraft:grimstone_brick_slab_from_grimstone_bricks_stonecutting
-- minecraft:grimstone_brick_stairs
-- minecraft:grimstone_brick_stairs_from_grimstone_bricks_stonecutting
-- minecraft:grimstone_brick_wall
-- minecraft:grimstone_brick_wall_from_grimstone_bricks_stonecutting
-- minecraft:grimstone_slab
-- minecraft:grimstone_slab_from_grimstone_stonecutting
-- minecraft:grimstone_stairs
-- minecraft:grimstone_stairs_from_grimstone_stonecutting
-- minecraft:grimstone_tile_slab
-- minecraft:grimstone_tile_slab_from_grimstone_tiles_stonecutting
-- minecraft:grimstone_tile_stairs
-- minecraft:grimstone_tile_stairs_from_grimstone_tiles_stonecutting
-- minecraft:grimstone_tile_wall
-- minecraft:grimstone_tile_wall_from_grimstone_tiles_stonecutting
-- minecraft:grimstone_wall
-- minecraft:grimstone_wall_from_grimstone_stonecutting
 - minecraft:grindstone
 - minecraft:hay_block
 - minecraft:heavy_weighted_pressure_plate
@@ -2690,6 +2698,13 @@ recipes:
 - minecraft:polished_blackstone_wall
 - minecraft:polished_blackstone_wall_from_blackstone_stonecutting
 - minecraft:polished_blackstone_wall_from_polished_blackstone_stonecutting
+- minecraft:polished_deepslate
+- minecraft:polished_deepslate_slab
+- minecraft:polished_deepslate_slab_from_polished_deepslate_stonecutting
+- minecraft:polished_deepslate_stairs
+- minecraft:polished_deepslate_stairs_from_polished_deepslate_stonecutting
+- minecraft:polished_deepslate_wall
+- minecraft:polished_deepslate_wall_from_polished_deepslate_stonecutting
 - minecraft:polished_diorite
 - minecraft:polished_diorite_from_diorite_stonecutting
 - minecraft:polished_diorite_slab
@@ -2706,13 +2721,6 @@ recipes:
 - minecraft:polished_granite_stairs
 - minecraft:polished_granite_stairs_from_granite_stonecutting
 - minecraft:polished_granite_stairs_from_polished_granite_stonecutting
-- minecraft:polished_grimstone
-- minecraft:polished_grimstone_slab
-- minecraft:polished_grimstone_slab_from_polished_grimstone_stonecutting
-- minecraft:polished_grimstone_stairs
-- minecraft:polished_grimstone_stairs_from_polished_grimstone_stonecutting
-- minecraft:polished_grimstone_wall
-- minecraft:polished_grimstone_wall_from_polished_grimstone_stonecutting
 - minecraft:popped_chorus_fruit
 - minecraft:powered_rail
 - minecraft:prismarine
@@ -2823,6 +2831,7 @@ recipes:
 - minecraft:slime_block
 - minecraft:smithing_table
 - minecraft:smoker
+- minecraft:smooth_basalt
 - minecraft:smooth_quartz
 - minecraft:smooth_quartz_slab
 - minecraft:smooth_quartz_slab_from_smooth_quartz_stonecutting
@@ -3029,6 +3038,8 @@ tags:
   - minecraft:crops
   - minecraft:crystal_sound_blocks
   - minecraft:dark_oak_logs
+  - minecraft:deepslate_ore_replaceables
+  - minecraft:diamond_ores
   - minecraft:doors
   - minecraft:dragon_immune
   - minecraft:dripstone_replaceable_blocks
@@ -3047,7 +3058,9 @@ tags:
   - minecraft:infiniburn_nether
   - minecraft:infiniburn_overworld
   - minecraft:inside_step_sound_blocks
+  - minecraft:iron_ores
   - minecraft:jungle_logs
+  - minecraft:lapis_ores
   - minecraft:leaves
   - minecraft:logs
   - minecraft:logs_that_burn
@@ -3063,6 +3076,7 @@ tags:
   - minecraft:pressure_plates
   - minecraft:prevent_mob_spawning_inside
   - minecraft:rails
+  - minecraft:redstone_ores
   - minecraft:sand
   - minecraft:saplings
   - minecraft:shulker_boxes
@@ -3075,6 +3089,7 @@ tags:
   - minecraft:stairs
   - minecraft:standing_signs
   - minecraft:stone_bricks
+  - minecraft:stone_ore_replaceables
   - minecraft:stone_pressure_plates
   - minecraft:strider_warm_blocks
   - minecraft:tall_flowers
@@ -3130,6 +3145,7 @@ tags:
   - minecraft:creeper_drop_music_discs
   - minecraft:crimson_stems
   - minecraft:dark_oak_logs
+  - minecraft:diamond_ores
   - minecraft:doors
   - minecraft:fences
   - minecraft:fishes
@@ -3138,7 +3154,9 @@ tags:
   - minecraft:freeze_immune_wearables
   - minecraft:gold_ores
   - minecraft:ignored_by_piglin_babies
+  - minecraft:iron_ores
   - minecraft:jungle_logs
+  - minecraft:lapis_ores
   - minecraft:leaves
   - minecraft:lectern_books
   - minecraft:logs
@@ -3152,6 +3170,7 @@ tags:
   - minecraft:piglin_repellents
   - minecraft:planks
   - minecraft:rails
+  - minecraft:redstone_ores
   - minecraft:sand
   - minecraft:saplings
   - minecraft:signs

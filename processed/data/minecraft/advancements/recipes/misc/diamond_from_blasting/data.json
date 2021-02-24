@@ -4,7 +4,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_ore"
+            "tag": "minecraft:diamond_ores"
           }
         ]
       },
