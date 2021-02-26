@@ -869,7 +869,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 4
+              "count": 40
             },
             "type": "minecraft:count"
           },
@@ -883,19 +883,17 @@
                 "config": {
                   "decorator": {
                     "config": {
-                      "bottom_inclusive": {
-                        "above_bottom": 0
+                      "baseline": {
+                        "absolute": 256
                       },
-                      "top_inclusive": {
-                        "absolute": -8
-                      }
+                      "spread": 128
                     },
-                    "type": "minecraft:range"
+                    "type": "minecraft:depth_average"
                   },
                   "feature": {
                     "config": {
                       "discard_chance_on_air_exposure": 0.0,
-                      "size": 4,
+                      "size": 9,
                       "targets": [
                         {
                           "state": {
@@ -932,7 +930,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 40
+              "count": 10
             },
             "type": "minecraft:count"
           },
@@ -947,9 +945,9 @@
                   "decorator": {
                     "config": {
                       "baseline": {
-                        "absolute": 256
+                        "absolute": 32
                       },
-                      "spread": 128
+                      "spread": 48
                     },
                     "type": "minecraft:depth_average"
                   },
@@ -957,6 +955,69 @@
                     "config": {
                       "discard_chance_on_air_exposure": 0.0,
                       "size": 9,
+                      "targets": [
+                        {
+                          "state": {
+                            "Name": "minecraft:iron_ore"
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:stone_ore_replaceables"
+                          }
+                        },
+                        {
+                          "state": {
+                            "Name": "minecraft:deepslate_iron_ore"
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:deepslate_ore_replaceables"
+                          }
+                        }
+                      ]
+                    },
+                    "type": "minecraft:ore"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 4
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "bottom_inclusive": {
+                        "above_bottom": 0
+                      },
+                      "top_inclusive": {
+                        "absolute": -8
+                      }
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "discard_chance_on_air_exposure": 0.0,
+                      "size": 4,
                       "targets": [
                         {
                           "state": {
@@ -1076,6 +1137,73 @@
                       }
                     },
                     "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "discard_chance_on_air_exposure": 0.0,
+                      "size": 8,
+                      "targets": [
+                        {
+                          "state": {
+                            "Name": "minecraft:redstone_ore",
+                            "Properties": {
+                              "lit": "false"
+                            }
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:stone_ore_replaceables"
+                          }
+                        },
+                        {
+                          "state": {
+                            "Name": "minecraft:deepslate_redstone_ore",
+                            "Properties": {
+                              "lit": "false"
+                            }
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:deepslate_ore_replaceables"
+                          }
+                        }
+                      ]
+                    },
+                    "type": "minecraft:ore"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 12
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "baseline": {
+                        "above_bottom": 0
+                      },
+                      "spread": 32
+                    },
+                    "type": "minecraft:depth_average"
                   },
                   "feature": {
                     "config": {
