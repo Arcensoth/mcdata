@@ -128,13 +128,9 @@ minecraft:acacia_sapling:
     - '1'
 minecraft:acacia_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -219,7 +215,6 @@ minecraft:acacia_trapdoor:
 minecraft:acacia_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -227,9 +222,6 @@ minecraft:acacia_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'
@@ -701,13 +693,9 @@ minecraft:birch_sapling:
     - '1'
 minecraft:birch_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -792,7 +780,6 @@ minecraft:birch_trapdoor:
 minecraft:birch_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -800,9 +787,6 @@ minecraft:birch_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'
@@ -1993,6 +1977,12 @@ minecraft:copper_ore:
 minecraft:cornflower:
   default: {}
   properties: {}
+minecraft:cracked_deepslate_bricks:
+  default: {}
+  properties: {}
+minecraft:cracked_deepslate_tiles:
+  default: {}
+  properties: {}
 minecraft:cracked_nether_bricks:
   default: {}
   properties: {}
@@ -2151,13 +2141,9 @@ minecraft:crimson_roots:
   properties: {}
 minecraft:crimson_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -2250,7 +2236,6 @@ minecraft:crimson_trapdoor:
 minecraft:crimson_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -2258,9 +2243,6 @@ minecraft:crimson_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'
@@ -2610,13 +2592,9 @@ minecraft:dark_oak_sapling:
     - '1'
 minecraft:dark_oak_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -2701,7 +2679,6 @@ minecraft:dark_oak_trapdoor:
 minecraft:dark_oak_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -2709,9 +2686,6 @@ minecraft:dark_oak_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'
@@ -2941,8 +2915,13 @@ minecraft:dead_tube_coral_wall_fan:
     - 'true'
     - 'false'
 minecraft:deepslate:
-  default: {}
-  properties: {}
+  default:
+    axis: y
+  properties:
+    axis:
+    - x
+    - y
+    - z
 minecraft:deepslate_brick_slab:
   default:
     type: bottom
@@ -3013,7 +2992,16 @@ minecraft:deepslate_brick_wall:
 minecraft:deepslate_bricks:
   default: {}
   properties: {}
+minecraft:deepslate_coal_ore:
+  default: {}
+  properties: {}
+minecraft:deepslate_copper_ore:
+  default: {}
+  properties: {}
 minecraft:deepslate_diamond_ore:
+  default: {}
+  properties: {}
+minecraft:deepslate_emerald_ore:
   default: {}
   properties: {}
 minecraft:deepslate_gold_ore:
@@ -4081,6 +4069,9 @@ minecraft:infested_cobblestone:
 minecraft:infested_cracked_stone_bricks:
   default: {}
   properties: {}
+minecraft:infested_deepslate:
+  default: {}
+  properties: {}
 minecraft:infested_mossy_stone_bricks:
   default: {}
   properties: {}
@@ -4332,13 +4323,9 @@ minecraft:jungle_sapling:
     - '1'
 minecraft:jungle_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -4423,7 +4410,6 @@ minecraft:jungle_trapdoor:
 minecraft:jungle_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -4431,9 +4417,6 @@ minecraft:jungle_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'
@@ -5725,13 +5708,9 @@ minecraft:oak_sapling:
     - '1'
 minecraft:oak_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -5816,7 +5795,6 @@ minecraft:oak_trapdoor:
 minecraft:oak_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -5824,9 +5802,6 @@ minecraft:oak_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'
@@ -8171,13 +8146,9 @@ minecraft:spruce_sapling:
     - '1'
 minecraft:spruce_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -8262,7 +8233,6 @@ minecraft:spruce_trapdoor:
 minecraft:spruce_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -8270,9 +8240,6 @@ minecraft:spruce_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'
@@ -8968,13 +8935,9 @@ minecraft:warped_roots:
   properties: {}
 minecraft:warped_sign:
   default:
-    lit: 'false'
     rotation: '0'
     waterlogged: 'false'
   properties:
-    lit:
-    - 'true'
-    - 'false'
     rotation:
     - '0'
     - '1'
@@ -9067,7 +9030,6 @@ minecraft:warped_trapdoor:
 minecraft:warped_wall_sign:
   default:
     facing: north
-    lit: 'false'
     waterlogged: 'false'
   properties:
     facing:
@@ -9075,9 +9037,6 @@ minecraft:warped_wall_sign:
     - south
     - west
     - east
-    lit:
-    - 'true'
-    - 'false'
     waterlogged:
     - 'true'
     - 'false'

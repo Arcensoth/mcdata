@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_blackstone_bricks": {
+    "has_polished_blackstone_bricks": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_blackstone_bricks",
+      "has_polished_blackstone_bricks",
       "has_the_recipe"
     ]
   ],

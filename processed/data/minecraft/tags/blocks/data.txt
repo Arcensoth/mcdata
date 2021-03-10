@@ -1,6 +1,5 @@
 minecraft:acacia_logs
 minecraft:anvil
-minecraft:azalea_log_replaceable
 minecraft:bamboo_plantable_on
 minecraft:banners
 minecraft:base_stone_nether
@@ -18,6 +17,8 @@ minecraft:carpets
 minecraft:cauldrons
 minecraft:cave_vines
 minecraft:climbable
+minecraft:coal_ores
+minecraft:copper_ores
 minecraft:coral_blocks
 minecraft:coral_plants
 minecraft:corals
@@ -30,6 +31,7 @@ minecraft:diamond_ores
 minecraft:doors
 minecraft:dragon_immune
 minecraft:dripstone_replaceable_blocks
+minecraft:emerald_ores
 minecraft:enderman_holdable
 minecraft:fence_gates
 minecraft:fences
@@ -51,6 +53,7 @@ minecraft:lapis_ores
 minecraft:leaves
 minecraft:logs
 minecraft:logs_that_burn
+minecraft:lush_ground_replaceable
 minecraft:lush_plants_replaceable
 minecraft:mushroom_grow_block
 minecraft:non_flammable_wood

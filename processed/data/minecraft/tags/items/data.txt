@@ -10,12 +10,15 @@ minecraft:boats
 minecraft:buttons
 minecraft:candles
 minecraft:carpets
+minecraft:coal_ores
 minecraft:coals
+minecraft:copper_ores
 minecraft:creeper_drop_music_discs
 minecraft:crimson_stems
 minecraft:dark_oak_logs
 minecraft:diamond_ores
 minecraft:doors
+minecraft:emerald_ores
 minecraft:fences
 minecraft:fishes
 minecraft:flowers

@@ -38,7 +38,9 @@
               "feature": {
                 "config": {
                   "decorator": {
-                    "config": {},
+                    "config": {
+                      "heightmap": "MOTION_BLOCKING"
+                    },
                     "type": "minecraft:heightmap"
                   },
                   "feature": {
@@ -91,7 +93,9 @@
               "decorator": {
                 "config": {
                   "inner": {
-                    "config": {},
+                    "config": {
+                      "heightmap": "MOTION_BLOCKING"
+                    },
                     "type": "minecraft:heightmap"
                   },
                   "outer": {

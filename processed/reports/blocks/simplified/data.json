@@ -176,15 +176,10 @@
   },
   "minecraft:acacia_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -293,7 +288,6 @@
   "minecraft:acacia_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -302,10 +296,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -944,15 +934,10 @@
   },
   "minecraft:birch_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -1061,7 +1046,6 @@
   "minecraft:birch_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -1070,10 +1054,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -2677,6 +2657,14 @@
     "default": {},
     "properties": {}
   },
+  "minecraft:cracked_deepslate_bricks": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:cracked_deepslate_tiles": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:cracked_nether_bricks": {
     "default": {},
     "properties": {}
@@ -2888,15 +2876,10 @@
   },
   "minecraft:crimson_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -3017,7 +3000,6 @@
   "minecraft:crimson_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -3026,10 +3008,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -3507,15 +3485,10 @@
   },
   "minecraft:dark_oak_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -3624,7 +3597,6 @@
   "minecraft:dark_oak_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -3633,10 +3605,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -3963,8 +3931,16 @@
     }
   },
   "minecraft:deepslate": {
-    "default": {},
-    "properties": {}
+    "default": {
+      "axis": "y"
+    },
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    }
   },
   "minecraft:deepslate_brick_slab": {
     "default": {
@@ -4058,7 +4034,19 @@
     "default": {},
     "properties": {}
   },
+  "minecraft:deepslate_coal_ore": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_copper_ore": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:deepslate_diamond_ore": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:deepslate_emerald_ore": {
     "default": {},
     "properties": {}
   },
@@ -5487,6 +5475,10 @@
     "default": {},
     "properties": {}
   },
+  "minecraft:infested_deepslate": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:infested_mossy_stone_bricks": {
     "default": {},
     "properties": {}
@@ -5826,15 +5818,10 @@
   },
   "minecraft:jungle_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -5943,7 +5930,6 @@
   "minecraft:jungle_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -5952,10 +5938,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -7676,15 +7658,10 @@
   },
   "minecraft:oak_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -7793,7 +7770,6 @@
   "minecraft:oak_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -7802,10 +7778,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -10945,15 +10917,10 @@
   },
   "minecraft:spruce_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -11062,7 +11029,6 @@
   "minecraft:spruce_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -11071,10 +11037,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -12033,15 +11995,10 @@
   },
   "minecraft:warped_sign": {
     "default": {
-      "lit": "false",
       "rotation": "0",
       "waterlogged": "false"
     },
     "properties": {
-      "lit": [
-        "true",
-        "false"
-      ],
       "rotation": [
         "0",
         "1",
@@ -12162,7 +12119,6 @@
   "minecraft:warped_wall_sign": {
     "default": {
       "facing": "north",
-      "lit": "false",
       "waterlogged": "false"
     },
     "properties": {
@@ -12171,10 +12127,6 @@
         "south",
         "west",
         "east"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",

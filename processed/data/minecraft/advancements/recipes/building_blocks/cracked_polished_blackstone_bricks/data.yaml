@@ -1,5 +1,5 @@
 criteria:
-  has_blackstone_bricks:
+  has_polished_blackstone_bricks:
     conditions:
       items:
       - item: minecraft:polished_blackstone_bricks
@@ -10,7 +10,7 @@ criteria:
     trigger: minecraft:recipe_unlocked
 parent: minecraft:recipes/root
 requirements:
-- - has_blackstone_bricks
+- - has_polished_blackstone_bricks
   - has_the_recipe
 rewards:
   recipes:

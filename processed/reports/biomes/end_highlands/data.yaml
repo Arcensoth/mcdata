@@ -30,7 +30,8 @@ features:
           feature:
             config:
               decorator:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap
               feature:
                 config:
@@ -64,7 +65,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap
               outer:
                 config: {}

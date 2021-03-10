@@ -213,6 +213,8 @@ minecraft:copper_ingot
 minecraft:copper_ore
 minecraft:cornflower
 minecraft:cow_spawn_egg
+minecraft:cracked_deepslate_bricks
+minecraft:cracked_deepslate_tiles
 minecraft:cracked_nether_bricks
 minecraft:cracked_polished_blackstone_bricks
 minecraft:cracked_stone_bricks
@@ -300,7 +302,10 @@ minecraft:deepslate_brick_slab
 minecraft:deepslate_brick_stairs
 minecraft:deepslate_brick_wall
 minecraft:deepslate_bricks
+minecraft:deepslate_coal_ore
+minecraft:deepslate_copper_ore
 minecraft:deepslate_diamond_ore
+minecraft:deepslate_emerald_ore
 minecraft:deepslate_gold_ore
 minecraft:deepslate_iron_ore
 minecraft:deepslate_lapis_ore
@@ -476,6 +481,7 @@ minecraft:ice
 minecraft:infested_chiseled_stone_bricks
 minecraft:infested_cobblestone
 minecraft:infested_cracked_stone_bricks
+minecraft:infested_deepslate
 minecraft:infested_mossy_stone_bricks
 minecraft:infested_stone
 minecraft:infested_stone_bricks

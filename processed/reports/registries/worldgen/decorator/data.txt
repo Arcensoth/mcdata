@@ -1,4 +1,5 @@
 minecraft:carving_mask
+minecraft:cave_surface
 minecraft:chance
 minecraft:count
 minecraft:count_extra
@@ -12,7 +13,7 @@ minecraft:end_gateway
 minecraft:glowstone
 minecraft:heightmap
 minecraft:heightmap_spread_double
-minecraft:heightmap_world_surface
+minecraft:heightmap_with_water_threshold
 minecraft:iceberg
 minecraft:lava_lake
 minecraft:nope
@@ -21,4 +22,3 @@ minecraft:range_biased_to_bottom
 minecraft:range_very_biased_to_bottom
 minecraft:spread_32_above
 minecraft:square
-minecraft:top_solid_heightmap

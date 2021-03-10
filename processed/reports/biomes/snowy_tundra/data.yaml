@@ -69,7 +69,7 @@ carvers:
         value:
           base: 0.25
           spread: 0.75
-      probability: 0.005
+      probability: 0.00125
       thickness:
         type: minecraft:uniform
         value:
@@ -539,7 +539,7 @@ features:
                 type: minecraft:depth_average
               feature:
                 config:
-                  discard_chance_on_air_exposure: 0.0
+                  discard_chance_on_air_exposure: 0.5
                   size: 17
                   targets:
                   - state:
@@ -591,7 +591,7 @@ features:
   - config:
       decorator:
         config:
-          count: 10
+          count: 6
         type: minecraft:count
       feature:
         config:
@@ -603,8 +603,8 @@ features:
               decorator:
                 config:
                   baseline:
-                    absolute: 32
-                  spread: 48
+                    absolute: 16
+                  spread: 40
                 type: minecraft:depth_average
               feature:
                 config:
@@ -628,7 +628,7 @@ features:
   - config:
       decorator:
         config:
-          count: 4
+          count: 3
         type: minecraft:count
       feature:
         config:
@@ -642,7 +642,7 @@ features:
                   bottom_inclusive:
                     above_bottom: 0
                   top_inclusive:
-                    absolute: -8
+                    absolute: -32
                 type: minecraft:range
               feature:
                 config:
@@ -666,7 +666,7 @@ features:
   - config:
       decorator:
         config:
-          count: 6
+          count: 4
         type: minecraft:count
       feature:
         config:
@@ -703,7 +703,7 @@ features:
   - config:
       decorator:
         config:
-          count: 6
+          count: 4
         type: minecraft:count
       feature:
         config:
@@ -745,7 +745,7 @@ features:
   - config:
       decorator:
         config:
-          count: 12
+          count: 8
         type: minecraft:count
       feature:
         config:
@@ -786,7 +786,7 @@ features:
   - config:
       decorator:
         config:
-          count: 4
+          count: 5
         type: minecraft:count
       feature:
         config:
@@ -804,7 +804,7 @@ features:
               feature:
                 config:
                   discard_chance_on_air_exposure: 0.5
-                  size: 8
+                  size: 4
                   targets:
                   - state:
                       Name: minecraft:diamond_ore
@@ -822,38 +822,45 @@ features:
     type: minecraft:decorated
   - config:
       decorator:
-        config: {}
-        type: minecraft:square
+        config:
+          count: 2
+        type: minecraft:count
       feature:
         config:
           decorator:
-            config:
-              baseline:
-                absolute: 0
-              spread: 32
-            type: minecraft:depth_average
+            config: {}
+            type: minecraft:square
           feature:
             config:
-              discard_chance_on_air_exposure: 0.0
-              size: 7
-              targets:
-              - state:
-                  Name: minecraft:lapis_ore
-                target:
-                  predicate_type: minecraft:tag_match
-                  tag: minecraft:stone_ore_replaceables
-              - state:
-                  Name: minecraft:lapis_ore
-                target:
-                  predicate_type: minecraft:tag_match
-                  tag: minecraft:deepslate_ore_replaceables
-            type: minecraft:ore
+              decorator:
+                config:
+                  baseline:
+                    absolute: 0
+                  spread: 32
+                type: minecraft:depth_average
+              feature:
+                config:
+                  discard_chance_on_air_exposure: 0.0
+                  size: 7
+                  targets:
+                  - state:
+                      Name: minecraft:lapis_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:deepslate_lapis_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
+                type: minecraft:ore
+            type: minecraft:decorated
         type: minecraft:decorated
     type: minecraft:decorated
   - config:
       decorator:
         config:
-          count: 2
+          count: 4
         type: minecraft:count
       feature:
         config:
@@ -880,7 +887,7 @@ features:
                       predicate_type: minecraft:tag_match
                       tag: minecraft:stone_ore_replaceables
                   - state:
-                      Name: minecraft:lapis_ore
+                      Name: minecraft:deepslate_lapis_ore
                     target:
                       predicate_type: minecraft:tag_match
                       tag: minecraft:deepslate_ore_replaceables
@@ -891,7 +898,7 @@ features:
   - config:
       decorator:
         config:
-          count: 10
+          count: 6
         type: minecraft:count
       feature:
         config:
@@ -960,8 +967,9 @@ features:
           decorator:
             config:
               inner:
-                config: {}
-                type: minecraft:top_solid_heightmap
+                config:
+                  heightmap: OCEAN_FLOOR_WG
+                type: minecraft:heightmap
               outer:
                 config: {}
                 type: minecraft:square
@@ -986,8 +994,9 @@ features:
       decorator:
         config:
           inner:
-            config: {}
-            type: minecraft:top_solid_heightmap
+            config:
+              heightmap: OCEAN_FLOOR_WG
+            type: minecraft:heightmap
           outer:
             config: {}
             type: minecraft:square
@@ -1009,8 +1018,9 @@ features:
       decorator:
         config:
           inner:
-            config: {}
-            type: minecraft:top_solid_heightmap
+            config:
+              heightmap: OCEAN_FLOOR_WG
+            type: minecraft:heightmap
           outer:
             config: {}
             type: minecraft:square
@@ -1063,6 +1073,8 @@ features:
                   - Name: minecraft:calcite
                   - Name: minecraft:tuff
                   - Name: minecraft:deepslate
+                    Properties:
+                      axis: y
                   can_place_on_ceiling: true
                   can_place_on_floor: false
                   can_place_on_wall: true
@@ -1084,8 +1096,16 @@ features:
           decorator:
             config:
               inner:
-                config: {}
-                type: minecraft:heightmap
+                config:
+                  inner:
+                    config:
+                      heightmap: OCEAN_FLOOR
+                    type: minecraft:heightmap
+                  outer:
+                    config:
+                      max_water_depth: 0
+                    type: minecraft:heightmap_with_water_threshold
+                type: minecraft:decorated
               outer:
                 config: {}
                 type: minecraft:square
@@ -1093,6 +1113,10 @@ features:
           feature:
             config:
               decorators: []
+              dirt_provider:
+                state:
+                  Name: minecraft:dirt
+                type: minecraft:simple_state_provider
               foliage_placer:
                 offset:
                   base: 0
@@ -1104,16 +1128,15 @@ features:
                   base: 1
                   spread: 1
                 type: minecraft:spruce_foliage_placer
-              heightmap: OCEAN_FLOOR
-              ignore_vines: true
-              leaves_provider:
+              foliage_provider:
                 state:
                   Name: minecraft:spruce_leaves
                   Properties:
                     distance: '7'
                     persistent: 'false'
                 type: minecraft:simple_state_provider
-              max_water_depth: 0
+              force_dirt: false
+              ignore_vines: true
               minimum_size:
                 limit: 2
                 lower_size: 0
@@ -1143,7 +1166,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap
               outer:
                 config: {}
@@ -1184,7 +1208,8 @@ features:
       decorator:
         config:
           inner:
-            config: {}
+            config:
+              heightmap: MOTION_BLOCKING
             type: minecraft:heightmap_spread_double
           outer:
             config: {}
@@ -1219,7 +1244,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap_spread_double
               outer:
                 config: {}
@@ -1255,7 +1281,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap_spread_double
               outer:
                 config: {}
@@ -1291,7 +1318,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap_spread_double
               outer:
                 config: {}
@@ -1331,7 +1359,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap_spread_double
               outer:
                 config: {}

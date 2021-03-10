@@ -27,6 +27,7 @@
     "minecraft:geode",
     "minecraft:glow_lichen",
     "minecraft:glowstone_blob",
+    "minecraft:growing_plant",
     "minecraft:huge_brown_mushroom",
     "minecraft:huge_fungus",
     "minecraft:huge_red_mushroom",
@@ -45,6 +46,7 @@
     "minecraft:random_boolean_selector",
     "minecraft:random_patch",
     "minecraft:random_selector",
+    "minecraft:root_system",
     "minecraft:scattered_ore",
     "minecraft:sea_pickle",
     "minecraft:seagrass",
@@ -55,8 +57,10 @@
     "minecraft:tree",
     "minecraft:twisting_vines",
     "minecraft:underwater_magma",
+    "minecraft:vegetation_patch",
     "minecraft:vines",
     "minecraft:void_start_platform",
+    "minecraft:waterlogged_vegetation_patch",
     "minecraft:weeping_vines"
   ]
 }

@@ -471,7 +471,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap_spread_double
               outer:
                 config: {}
@@ -507,7 +508,8 @@ features:
           decorator:
             config:
               inner:
-                config: {}
+                config:
+                  heightmap: MOTION_BLOCKING
                 type: minecraft:heightmap_spread_double
               outer:
                 config: {}

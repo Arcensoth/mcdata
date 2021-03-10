@@ -1,0 +1,5 @@
+replace: false
+values:
+- '#minecraft:lush_plants_replaceable'
+- minecraft:clay
+- minecraft:moss_block

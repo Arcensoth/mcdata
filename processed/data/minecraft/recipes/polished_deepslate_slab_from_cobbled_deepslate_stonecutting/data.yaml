@@ -1,0 +1,5 @@
+count: 2
+ingredient:
+  item: minecraft:cobbled_deepslate
+result: minecraft:polished_deepslate_slab
+type: minecraft:stonecutting
