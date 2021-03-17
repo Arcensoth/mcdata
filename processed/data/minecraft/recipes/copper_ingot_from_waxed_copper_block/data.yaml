@@ -1,0 +1,7 @@
+group: copper_ingot
+ingredients:
+- item: minecraft:waxed_copper_block
+result:
+  count: 4
+  item: minecraft:copper_ingot
+type: minecraft:crafting_shapeless

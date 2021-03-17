@@ -35,7 +35,7 @@
     "air": [
       {
         "config": {
-          "probability": 0.25,
+          "probability": 0.33333334,
           "debug_settings": {
             "air_state": {
               "Properties": {
@@ -80,7 +80,7 @@
             "absolute": 67
           },
           "y_scale": 3,
-          "distanceFactor": {
+          "distance_factor": {
             "type": "minecraft:uniform",
             "value": {
               "base": 0.75,
@@ -137,7 +137,7 @@
             "base": 6,
             "spread": 2
           },
-          "distanceFactor": {
+          "distance_factor": {
             "type": "minecraft:uniform",
             "value": {
               "base": 0.5,
@@ -1471,7 +1471,7 @@
           },
           "decorator": {
             "config": {
-              "count": 5
+              "count": 6
             },
             "type": "minecraft:count"
           }
@@ -1899,7 +1899,7 @@
                     "config": {
                       "max_water_depth": 1
                     },
-                    "type": "minecraft:heightmap_with_water_threshold"
+                    "type": "minecraft:water_depth_threshold"
                   }
                 },
                 "type": "minecraft:decorated"

@@ -2146,18 +2146,7 @@
     "default": {},
     "properties": {}
   },
-  "minecraft:cave_vines_body": {
-    "default": {
-      "berries": "false"
-    },
-    "properties": {
-      "berries": [
-        "true",
-        "false"
-      ]
-    }
-  },
-  "minecraft:cave_vines_head": {
+  "minecraft:cave_vines": {
     "default": {
       "age": "0",
       "berries": "false"
@@ -2191,6 +2180,17 @@
         "24",
         "25"
       ],
+      "berries": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:cave_vines_plant": {
+    "default": {
+      "berries": "false"
+    },
+    "properties": {
       "berries": [
         "true",
         "false"
@@ -6534,7 +6534,8 @@
   "minecraft:lightning_rod": {
     "default": {
       "facing": "up",
-      "powered": "false"
+      "powered": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "facing": [
@@ -6546,6 +6547,10 @@
         "down"
       ],
       "powered": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -10417,10 +10422,17 @@
   },
   "minecraft:small_dripleaf": {
     "default": {
+      "facing": "north",
       "half": "lower",
       "waterlogged": "false"
     },
     "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
       "half": [
         "upper",
         "lower"

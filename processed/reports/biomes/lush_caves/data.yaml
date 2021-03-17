@@ -8,7 +8,7 @@ carvers:
             face: wall
             facing: north
             powered: 'false'
-      probability: 0.25
+      probability: 0.33333334
     type: minecraft:cave
   - config:
       bottom_inclusive:
@@ -20,7 +20,7 @@ carvers:
             face: wall
             facing: north
             powered: 'false'
-      distanceFactor:
+      distance_factor:
         type: minecraft:uniform
         value:
           base: 0.75
@@ -59,7 +59,7 @@ carvers:
             face: wall
             facing: north
             powered: 'false'
-      distanceFactor:
+      distance_factor:
         type: minecraft:uniform
         value:
           base: 0.5
@@ -780,7 +780,7 @@ features:
   - config:
       decorator:
         config:
-          count: 5
+          count: 6
         type: minecraft:count
       feature:
         config:
@@ -1204,12 +1204,12 @@ features:
                           body_provider:
                             entries:
                             - data:
-                                Name: minecraft:cave_vines_body
+                                Name: minecraft:cave_vines_plant
                                 Properties:
                                   berries: 'false'
                               weight: 4
                             - data:
-                                Name: minecraft:cave_vines_body
+                                Name: minecraft:cave_vines_plant
                                 Properties:
                                   berries: 'true'
                               weight: 1
@@ -1220,13 +1220,13 @@ features:
                             source:
                               entries:
                               - data:
-                                  Name: minecraft:cave_vines_head
+                                  Name: minecraft:cave_vines
                                   Properties:
                                     age: '0'
                                     berries: 'false'
                                 weight: 4
                               - data:
-                                  Name: minecraft:cave_vines_head
+                                  Name: minecraft:cave_vines
                                   Properties:
                                     age: '0'
                                     berries: 'true'
@@ -1287,12 +1287,12 @@ features:
                       body_provider:
                         entries:
                         - data:
-                            Name: minecraft:cave_vines_body
+                            Name: minecraft:cave_vines_plant
                             Properties:
                               berries: 'false'
                           weight: 4
                         - data:
-                            Name: minecraft:cave_vines_body
+                            Name: minecraft:cave_vines_plant
                             Properties:
                               berries: 'true'
                           weight: 1
@@ -1303,13 +1303,13 @@ features:
                         source:
                           entries:
                           - data:
-                              Name: minecraft:cave_vines_head
+                              Name: minecraft:cave_vines
                               Properties:
                                 age: '0'
                                 berries: 'false'
                             weight: 4
                           - data:
-                              Name: minecraft:cave_vines_head
+                              Name: minecraft:cave_vines
                               Properties:
                                 age: '0'
                                 berries: 'true'
@@ -1379,8 +1379,122 @@ features:
                           vegetation_chance: 0.1
                           vegetation_feature:
                             config:
-                              default:
-                                config:
+                              features:
+                              - config:
+                                  place_in: []
+                                  place_on: []
+                                  place_under: []
+                                  to_place:
+                                    entries:
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: east
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: west
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: north
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: south
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    type: minecraft:weighted_state_provider
+                                type: minecraft:simple_block
+                              - config:
+                                  allow_water: true
+                                  body_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf_stem
+                                      Properties:
+                                        facing: east
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  direction: up
+                                  head_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf
+                                      Properties:
+                                        facing: east
+                                        tilt: none
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  height_distribution:
+                                  - data:
+                                      base: 1
+                                      spread: 4
+                                    weight: 2
+                                  - data: 1
+                                    weight: 1
+                                type: minecraft:growing_plant
+                              - config:
+                                  allow_water: true
+                                  body_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf_stem
+                                      Properties:
+                                        facing: west
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  direction: up
+                                  head_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf
+                                      Properties:
+                                        facing: west
+                                        tilt: none
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  height_distribution:
+                                  - data:
+                                      base: 1
+                                      spread: 4
+                                    weight: 2
+                                  - data: 1
+                                    weight: 1
+                                type: minecraft:growing_plant
+                              - config:
+                                  allow_water: true
+                                  body_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf_stem
+                                      Properties:
+                                        facing: south
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  direction: up
+                                  head_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf
+                                      Properties:
+                                        facing: south
+                                        tilt: none
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  height_distribution:
+                                  - data:
+                                      base: 1
+                                      spread: 4
+                                    weight: 2
+                                  - data: 1
+                                    weight: 1
+                                type: minecraft:growing_plant
+                              - config:
                                   allow_water: true
                                   body_provider:
                                     state:
@@ -1406,106 +1520,7 @@ features:
                                   - data: 1
                                     weight: 1
                                 type: minecraft:growing_plant
-                              features:
-                              - chance: 0.5
-                                feature:
-                                  config:
-                                    place_in: []
-                                    place_on: []
-                                    place_under: []
-                                    to_place:
-                                      state:
-                                        Name: minecraft:small_dripleaf
-                                        Properties:
-                                          half: lower
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                  type: minecraft:simple_block
-                              - chance: 0.25
-                                feature:
-                                  config:
-                                    allow_water: true
-                                    body_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf_stem
-                                        Properties:
-                                          facing: east
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    direction: up
-                                    head_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf
-                                        Properties:
-                                          facing: east
-                                          tilt: none
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    height_distribution:
-                                    - data:
-                                        base: 1
-                                        spread: 4
-                                      weight: 2
-                                    - data: 1
-                                      weight: 1
-                                  type: minecraft:growing_plant
-                              - chance: 0.33333334
-                                feature:
-                                  config:
-                                    allow_water: true
-                                    body_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf_stem
-                                        Properties:
-                                          facing: south
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    direction: up
-                                    head_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf
-                                        Properties:
-                                          facing: south
-                                          tilt: none
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    height_distribution:
-                                    - data:
-                                        base: 1
-                                        spread: 4
-                                      weight: 2
-                                    - data: 1
-                                      weight: 1
-                                  type: minecraft:growing_plant
-                              - chance: 0.5
-                                feature:
-                                  config:
-                                    allow_water: true
-                                    body_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf_stem
-                                        Properties:
-                                          facing: west
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    direction: up
-                                    head_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf
-                                        Properties:
-                                          facing: west
-                                          tilt: none
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    height_distribution:
-                                    - data:
-                                        base: 1
-                                        spread: 4
-                                      weight: 2
-                                    - data: 1
-                                      weight: 1
-                                  type: minecraft:growing_plant
-                            type: minecraft:random_selector
+                            type: minecraft:simple_random_selector
                           vertical_range: 5
                           xz_radius:
                             base: 4
@@ -1525,8 +1540,122 @@ features:
                           vegetation_chance: 0.05
                           vegetation_feature:
                             config:
-                              default:
-                                config:
+                              features:
+                              - config:
+                                  place_in: []
+                                  place_on: []
+                                  place_under: []
+                                  to_place:
+                                    entries:
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: east
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: west
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: north
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    - data:
+                                        Name: minecraft:small_dripleaf
+                                        Properties:
+                                          facing: south
+                                          half: lower
+                                          waterlogged: 'false'
+                                      weight: 1
+                                    type: minecraft:weighted_state_provider
+                                type: minecraft:simple_block
+                              - config:
+                                  allow_water: true
+                                  body_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf_stem
+                                      Properties:
+                                        facing: east
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  direction: up
+                                  head_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf
+                                      Properties:
+                                        facing: east
+                                        tilt: none
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  height_distribution:
+                                  - data:
+                                      base: 1
+                                      spread: 4
+                                    weight: 2
+                                  - data: 1
+                                    weight: 1
+                                type: minecraft:growing_plant
+                              - config:
+                                  allow_water: true
+                                  body_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf_stem
+                                      Properties:
+                                        facing: west
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  direction: up
+                                  head_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf
+                                      Properties:
+                                        facing: west
+                                        tilt: none
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  height_distribution:
+                                  - data:
+                                      base: 1
+                                      spread: 4
+                                    weight: 2
+                                  - data: 1
+                                    weight: 1
+                                type: minecraft:growing_plant
+                              - config:
+                                  allow_water: true
+                                  body_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf_stem
+                                      Properties:
+                                        facing: south
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  direction: up
+                                  head_provider:
+                                    state:
+                                      Name: minecraft:big_dripleaf
+                                      Properties:
+                                        facing: south
+                                        tilt: none
+                                        waterlogged: 'false'
+                                    type: minecraft:simple_state_provider
+                                  height_distribution:
+                                  - data:
+                                      base: 1
+                                      spread: 4
+                                    weight: 2
+                                  - data: 1
+                                    weight: 1
+                                type: minecraft:growing_plant
+                              - config:
                                   allow_water: true
                                   body_provider:
                                     state:
@@ -1552,106 +1681,7 @@ features:
                                   - data: 1
                                     weight: 1
                                 type: minecraft:growing_plant
-                              features:
-                              - chance: 0.5
-                                feature:
-                                  config:
-                                    place_in: []
-                                    place_on: []
-                                    place_under: []
-                                    to_place:
-                                      state:
-                                        Name: minecraft:small_dripleaf
-                                        Properties:
-                                          half: lower
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                  type: minecraft:simple_block
-                              - chance: 0.25
-                                feature:
-                                  config:
-                                    allow_water: true
-                                    body_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf_stem
-                                        Properties:
-                                          facing: east
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    direction: up
-                                    head_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf
-                                        Properties:
-                                          facing: east
-                                          tilt: none
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    height_distribution:
-                                    - data:
-                                        base: 1
-                                        spread: 4
-                                      weight: 2
-                                    - data: 1
-                                      weight: 1
-                                  type: minecraft:growing_plant
-                              - chance: 0.33333334
-                                feature:
-                                  config:
-                                    allow_water: true
-                                    body_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf_stem
-                                        Properties:
-                                          facing: south
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    direction: up
-                                    head_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf
-                                        Properties:
-                                          facing: south
-                                          tilt: none
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    height_distribution:
-                                    - data:
-                                        base: 1
-                                        spread: 4
-                                      weight: 2
-                                    - data: 1
-                                      weight: 1
-                                  type: minecraft:growing_plant
-                              - chance: 0.5
-                                feature:
-                                  config:
-                                    allow_water: true
-                                    body_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf_stem
-                                        Properties:
-                                          facing: west
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    direction: up
-                                    head_provider:
-                                      state:
-                                        Name: minecraft:big_dripleaf
-                                        Properties:
-                                          facing: west
-                                          tilt: none
-                                          waterlogged: 'false'
-                                      type: minecraft:simple_state_provider
-                                    height_distribution:
-                                    - data:
-                                        base: 1
-                                        spread: 4
-                                      weight: 2
-                                    - data: 1
-                                      weight: 1
-                                  type: minecraft:growing_plant
-                            type: minecraft:random_selector
+                            type: minecraft:simple_random_selector
                           vertical_range: 2
                           xz_radius:
                             base: 4

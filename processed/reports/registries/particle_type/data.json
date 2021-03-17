@@ -28,6 +28,7 @@
     "minecraft:dust_color_transition",
     "minecraft:effect",
     "minecraft:elder_guardian",
+    "minecraft:electric_spark",
     "minecraft:enchant",
     "minecraft:enchanted_hit",
     "minecraft:end_rod",
@@ -67,6 +68,7 @@
     "minecraft:portal",
     "minecraft:rain",
     "minecraft:reverse_portal",
+    "minecraft:scrape",
     "minecraft:small_flame",
     "minecraft:smoke",
     "minecraft:sneeze",
@@ -82,6 +84,8 @@
     "minecraft:underwater",
     "minecraft:vibration",
     "minecraft:warped_spore",
+    "minecraft:wax_off",
+    "minecraft:wax_on",
     "minecraft:white_ash",
     "minecraft:witch"
   ]

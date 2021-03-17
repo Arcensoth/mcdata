@@ -1591,14 +1591,7 @@ minecraft:cauldron:
 minecraft:cave_air:
   default: {}
   properties: {}
-minecraft:cave_vines_body:
-  default:
-    berries: 'false'
-  properties:
-    berries:
-    - 'true'
-    - 'false'
-minecraft:cave_vines_head:
+minecraft:cave_vines:
   default:
     age: '0'
     berries: 'false'
@@ -1630,6 +1623,13 @@ minecraft:cave_vines_head:
     - '23'
     - '24'
     - '25'
+    berries:
+    - 'true'
+    - 'false'
+minecraft:cave_vines_plant:
+  default:
+    berries: 'false'
+  properties:
     berries:
     - 'true'
     - 'false'
@@ -4866,6 +4866,7 @@ minecraft:lightning_rod:
   default:
     facing: up
     powered: 'false'
+    waterlogged: 'false'
   properties:
     facing:
     - north
@@ -4875,6 +4876,9 @@ minecraft:lightning_rod:
     - up
     - down
     powered:
+    - 'true'
+    - 'false'
+    waterlogged:
     - 'true'
     - 'false'
 minecraft:lilac:
@@ -7778,9 +7782,15 @@ minecraft:small_amethyst_bud:
     - 'false'
 minecraft:small_dripleaf:
   default:
+    facing: north
     half: lower
     waterlogged: 'false'
   properties:
+    facing:
+    - north
+    - south
+    - west
+    - east
     half:
     - upper
     - lower

@@ -138,8 +138,8 @@ values:
 - minecraft:carved_pumpkin
 - minecraft:cauldron
 - minecraft:cave_air
-- minecraft:cave_vines_body
-- minecraft:cave_vines_head
+- minecraft:cave_vines
+- minecraft:cave_vines_plant
 - minecraft:chain
 - minecraft:chain_command_block
 - minecraft:chest

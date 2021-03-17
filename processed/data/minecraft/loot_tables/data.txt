@@ -125,8 +125,8 @@ minecraft:blocks/carrots
 minecraft:blocks/cartography_table
 minecraft:blocks/carved_pumpkin
 minecraft:blocks/cauldron
-minecraft:blocks/cave_vines_body
-minecraft:blocks/cave_vines_head
+minecraft:blocks/cave_vines
+minecraft:blocks/cave_vines_plant
 minecraft:blocks/chain
 minecraft:blocks/chest
 minecraft:blocks/chipped_anvil
