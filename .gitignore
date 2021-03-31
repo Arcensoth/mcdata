@@ -1,5 +1,6 @@
 .idea
 .vscode
 
-generated/.cache
-generated/tmp
+/generated/.cache
+/generated/tmp
+/logs/
