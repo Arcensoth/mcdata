@@ -1,8 +1,9 @@
 {
   "values": [
-    "minecraft:axolotl_hostiles",
+    "minecraft:axolotl_attackables",
     "minecraft:axolotl_temptations",
     "minecraft:dummy",
+    "minecraft:goat_temptations",
     "minecraft:golem_detected",
     "minecraft:hoglin_specific_sensor",
     "minecraft:hurt_by",

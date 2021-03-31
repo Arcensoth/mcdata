@@ -8,11 +8,38 @@ carvers:
             face: wall
             facing: north
             powered: 'false'
+      floor_level:
+        type: minecraft:uniform
+        value:
+          max_exclusive: 0.0
+          min_inclusive: -1.0
+      horizontal_radius_multiplier:
+        type: minecraft:uniform
+        value:
+          max_exclusive: 1.8
+          min_inclusive: 0.3
+      lava_level:
+        above_bottom: 9
       probability: 0.33333334
+      vertical_radius_multiplier:
+        type: minecraft:uniform
+        value:
+          max_exclusive: 1.8
+          min_inclusive: 0.5
+      y:
+        type: minecraft:uniform
+        value:
+          max_inclusive:
+            absolute: 126
+          min_inclusive:
+            above_bottom: 8
+      yScale:
+        type: minecraft:uniform
+        value:
+          max_exclusive: 0.9
+          min_inclusive: 0.1
     type: minecraft:cave
   - config:
-      bottom_inclusive:
-        absolute: 10
       debug_settings:
         air_state:
           Name: minecraft:warped_button
@@ -20,38 +47,44 @@ carvers:
             face: wall
             facing: north
             powered: 'false'
-      distance_factor:
-        type: minecraft:uniform
-        value:
-          base: 0.75
-          spread: 0.25
-      horizontal_radius_factor:
-        type: minecraft:uniform
-        value:
-          base: 0.75
-          spread: 0.25
+      lava_level:
+        above_bottom: 9
       probability: 0.02
-      thickness:
-        type: minecraft:trapezoid
-        value:
-          max: 6.0
-          min: 0.0
-          plateau: 2.0
-      top_inclusive:
-        absolute: 67
-      vertical_radius_center_factor: 0.0
-      vertical_radius_default_factor: 1.0
+      shape:
+        distance_factor:
+          type: minecraft:uniform
+          value:
+            max_exclusive: 1.0
+            min_inclusive: 0.75
+        horizontal_radius_factor:
+          type: minecraft:uniform
+          value:
+            max_exclusive: 1.0
+            min_inclusive: 0.75
+        thickness:
+          type: minecraft:trapezoid
+          value:
+            max: 6.0
+            min: 0.0
+            plateau: 2.0
+        vertical_radius_center_factor: 0.0
+        vertical_radius_default_factor: 1.0
+        width_smoothness: 3
       vertical_rotation:
         type: minecraft:uniform
         value:
-          base: -0.125
-          spread: 0.25
-      width_smoothness: 3
-      y_scale: 3
+          max_exclusive: 0.125
+          min_inclusive: -0.125
+      y:
+        type: minecraft:uniform
+        value:
+          max_inclusive:
+            absolute: 67
+          min_inclusive:
+            absolute: 10
+      yScale: 3.0
     type: minecraft:canyon
   - config:
-      bottom_inclusive:
-        absolute: 40
       debug_settings:
         air_state:
           Name: minecraft:oak_button
@@ -59,35 +92,45 @@ carvers:
             face: wall
             facing: north
             powered: 'false'
-      distance_factor:
-        type: minecraft:uniform
-        value:
-          base: 0.5
-          spread: 0.5
-      horizontal_radius_factor:
-        type: minecraft:uniform
-        value:
-          base: 0.25
-          spread: 0.75
+      lava_level:
+        above_bottom: 9
       probability: 0.00125
-      thickness:
-        type: minecraft:uniform
-        value:
-          base: 0.0
-          spread: 1.0
-      top_inclusive:
-        absolute: 80
-      vertical_radius_center_factor: 5.0
-      vertical_radius_default_factor: 0.0
+      shape:
+        distance_factor:
+          type: minecraft:uniform
+          value:
+            max_exclusive: 1.0
+            min_inclusive: 0.5
+        horizontal_radius_factor:
+          type: minecraft:uniform
+          value:
+            max_exclusive: 1.0
+            min_inclusive: 0.25
+        thickness:
+          type: minecraft:uniform
+          value:
+            max_exclusive: 1.0
+            min_inclusive: 0.0
+        vertical_radius_center_factor: 5.0
+        vertical_radius_default_factor: 0.0
+        width_smoothness: 6
       vertical_rotation:
         type: minecraft:uniform
         value:
-          base: -0.125
-          spread: 0.25
-      width_smoothness: 6
-      y_scale:
-        base: 6
-        spread: 2
+          max_exclusive: 0.125
+          min_inclusive: -0.125
+      y:
+        type: minecraft:uniform
+        value:
+          max_inclusive:
+            absolute: 80
+          min_inclusive:
+            absolute: 40
+      yScale:
+        type: minecraft:uniform
+        value:
+          max_exclusive: 8.0
+          min_inclusive: 6.0
     type: minecraft:canyon
 category: swamp
 depth: -0.2
@@ -591,6 +634,41 @@ features:
   - config:
       decorator:
         config:
+          count: 2
+        type: minecraft:count
+      feature:
+        config:
+          decorator:
+            config: {}
+            type: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  bottom_inclusive:
+                    absolute: 0
+                  top_inclusive:
+                    absolute: 16
+                type: minecraft:range
+              feature:
+                config:
+                  discard_chance_on_air_exposure: 0.0
+                  size: 64
+                  targets:
+                  - state:
+                      Name: minecraft:deepslate
+                      Properties:
+                        axis: y
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:base_stone_overworld
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
+  - config:
+      decorator:
+        config:
           count: 30
         type: minecraft:count
       feature:
@@ -925,6 +1003,43 @@ features:
   - config:
       decorator:
         config:
+          chance: 9
+        type: minecraft:chance
+      feature:
+        config:
+          decorator:
+            config: {}
+            type: minecraft:square
+          feature:
+            config:
+              decorator:
+                config:
+                  baseline:
+                    above_bottom: 0
+                  spread: 80
+                type: minecraft:depth_average
+              feature:
+                config:
+                  discard_chance_on_air_exposure: 0.7
+                  size: 12
+                  targets:
+                  - state:
+                      Name: minecraft:diamond_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:stone_ore_replaceables
+                  - state:
+                      Name: minecraft:deepslate_diamond_ore
+                    target:
+                      predicate_type: minecraft:tag_match
+                      tag: minecraft:deepslate_ore_replaceables
+                type: minecraft:ore
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
+  - config:
+      decorator:
+        config:
           count: 2
         type: minecraft:count
       feature:
@@ -1000,7 +1115,7 @@ features:
   - config:
       decorator:
         config:
-          count: 6
+          count: 10
         type: minecraft:count
       feature:
         config:
@@ -1011,10 +1126,11 @@ features:
             config:
               decorator:
                 config:
-                  baseline:
-                    absolute: 48
-                  spread: 48
-                type: minecraft:depth_average
+                  bottom_inclusive:
+                    absolute: 0
+                  top_inclusive:
+                    absolute: 63
+                type: minecraft:range
               feature:
                 config:
                   discard_chance_on_air_exposure: 0.0
@@ -1033,8 +1149,10 @@ features:
       decorator:
         config:
           count:
-            base: 4
-            spread: 6
+            type: minecraft:uniform
+            value:
+              max_inclusive: 10
+              min_inclusive: 4
         type: minecraft:count
       feature:
         config:
@@ -1074,8 +1192,10 @@ features:
         config:
           half_height: 1
           radius:
-            base: 2
-            spread: 1
+            type: minecraft:uniform
+            value:
+              max_inclusive: 3
+              min_inclusive: 2
           state:
             Name: minecraft:clay
           targets:
@@ -1083,13 +1203,123 @@ features:
           - Name: minecraft:clay
         type: minecraft:disk
     type: minecraft:decorated
-- []
+- - config:
+      decorator:
+        config:
+          chance: 25
+        type: minecraft:chance
+      feature:
+        config:
+          decorator:
+            config:
+              count:
+                type: minecraft:uniform
+                value:
+                  max_inclusive: 10
+                  min_inclusive: 10
+            type: minecraft:count
+          feature:
+            config:
+              decorator:
+                config: {}
+                type: minecraft:square
+              feature:
+                config:
+                  decorator:
+                    config:
+                      bottom_inclusive:
+                        above_bottom: 0
+                      top_inclusive:
+                        absolute: 59
+                    type: minecraft:range
+                  feature:
+                    config:
+                      chance_of_dripstone_column_at_max_distance_from_center: 0.1
+                      density:
+                        type: minecraft:uniform
+                        value:
+                          max_exclusive: 0.4
+                          min_inclusive: 0.3
+                      dripstone_block_layer_thickness:
+                        type: minecraft:uniform
+                        value:
+                          max_inclusive: 2
+                          min_inclusive: 2
+                      floor_to_ceiling_search_range: 12
+                      height:
+                        type: minecraft:uniform
+                        value:
+                          max_inclusive: 3
+                          min_inclusive: 3
+                      height_deviation: 3
+                      max_distance_from_center_affecting_height_bias: 8
+                      max_distance_from_edge_affecting_chance_of_dripstone_column: 3
+                      max_stalagmite_stalactite_height_diff: 1
+                      radius:
+                        type: minecraft:uniform
+                        value:
+                          max_inclusive: 6
+                          min_inclusive: 2
+                      wetness:
+                        type: minecraft:clamped_normal
+                        value:
+                          deviation: 0.3
+                          max: 0.9
+                          mean: 0.1
+                          min: 0.1
+                    type: minecraft:dripstone_cluster
+                type: minecraft:decorated
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
+  - config:
+      decorator:
+        config:
+          chance: 30
+        type: minecraft:chance
+      feature:
+        config:
+          decorator:
+            config:
+              count:
+                type: minecraft:uniform
+                value:
+                  max_inclusive: 80
+                  min_inclusive: 40
+            type: minecraft:count
+          feature:
+            config:
+              decorator:
+                config: {}
+                type: minecraft:square
+              feature:
+                config:
+                  decorator:
+                    config:
+                      bottom_inclusive:
+                        above_bottom: 0
+                      top_inclusive:
+                        absolute: 59
+                    type: minecraft:range
+                  feature:
+                    config:
+                      chance_of_taller_dripstone: 0.2
+                      empty_space_search_radius: 10
+                      max_offset_from_origin: 2
+                      max_placements: 5
+                    type: minecraft:small_dripstone
+                type: minecraft:decorated
+            type: minecraft:decorated
+        type: minecraft:decorated
+    type: minecraft:decorated
 - - config:
       decorator:
         config:
           count:
-            base: 40
-            spread: 20
+            type: minecraft:uniform
+            value:
+              max_inclusive: 60
+              min_inclusive: 40
         type: minecraft:count
       feature:
         config:
@@ -1746,6 +1976,15 @@ spawners:
     minCount: 1
     type: minecraft:slime
     weight: 1
+  underground_water_creature:
+  - maxCount: 6
+    minCount: 4
+    type: minecraft:glow_squid
+    weight: 10
+  - maxCount: 6
+    minCount: 4
+    type: minecraft:axolotl
+    weight: 10
   water_ambient: []
   water_creature: []
 starts:

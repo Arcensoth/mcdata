@@ -1,5 +1,19 @@
 {
   "criteria": {
+    "minecraft:axolotl": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:axolotl"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
     "minecraft:bee": {
       "conditions": {
         "child": [
@@ -78,6 +92,20 @@
             "entity": "this",
             "predicate": {
               "type": "minecraft:fox"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
+    "minecraft:goat": {
+      "conditions": {
+        "child": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:goat"
             }
           }
         ]
@@ -346,6 +374,12 @@
     ],
     [
       "minecraft:strider"
+    ],
+    [
+      "minecraft:goat"
+    ],
+    [
+      "minecraft:axolotl"
     ],
     [
       "minecraft:turtle"

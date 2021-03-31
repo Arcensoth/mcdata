@@ -40,6 +40,22 @@
             {
               "add": false,
               "count": {
+                "max": 4.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:moss_block",
+          "type": "minecraft:item",
+          "weight": 7
+        },
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": {
                 "max": 6.0,
                 "min": 2.0,
                 "type": "minecraft:uniform"
@@ -93,7 +109,7 @@
                     "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:night_vision"
+                  "type": "minecraft:jump_boost"
                 },
                 {
                   "duration": {
@@ -113,11 +129,11 @@
                 },
                 {
                   "duration": {
-                    "max": 20.0,
-                    "min": 10.0,
+                    "max": 8.0,
+                    "min": 6.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:poison"
+                  "type": "minecraft:weakness"
                 },
                 {
                   "duration": {
@@ -125,15 +141,15 @@
                     "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:jump_boost"
+                  "type": "minecraft:night_vision"
                 },
                 {
                   "duration": {
-                    "max": 8.0,
-                    "min": 6.0,
+                    "max": 20.0,
+                    "min": 10.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:weakness"
+                  "type": "minecraft:poison"
                 }
               ],
               "function": "minecraft:set_stew_effect"

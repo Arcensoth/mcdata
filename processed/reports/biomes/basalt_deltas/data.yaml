@@ -1,7 +1,20 @@
 carvers:
   air:
   - config:
+      floor_level: -0.7
+      horizontal_radius_multiplier: 1.0
+      lava_level:
+        above_bottom: 11
       probability: 0.2
+      vertical_radius_multiplier: 1.0
+      y:
+        type: minecraft:uniform
+        value:
+          max_inclusive:
+            below_top: 1
+          min_inclusive:
+            absolute: 0
+      yScale: 0.5
     type: minecraft:nether_cave
 category: nether
 depth: 0.1
@@ -48,11 +61,15 @@ features:
           rim:
             Name: minecraft:magma_block
           rim_size:
-            base: 0
-            spread: 2
+            type: minecraft:uniform
+            value:
+              max_inclusive: 2
+              min_inclusive: 0
           size:
-            base: 3
-            spread: 4
+            type: minecraft:uniform
+            value:
+              max_inclusive: 7
+              min_inclusive: 3
         type: minecraft:delta_feature
     type: minecraft:decorated
   - config:
@@ -63,8 +80,10 @@ features:
       feature:
         config:
           height:
-            base: 1
-            spread: 3
+            type: minecraft:uniform
+            value:
+              max_inclusive: 4
+              min_inclusive: 1
           reach: 1
         type: minecraft:basalt_columns
     type: minecraft:decorated
@@ -76,11 +95,15 @@ features:
       feature:
         config:
           height:
-            base: 5
-            spread: 5
+            type: minecraft:uniform
+            value:
+              max_inclusive: 10
+              min_inclusive: 5
           reach:
-            base: 2
-            spread: 1
+            type: minecraft:uniform
+            value:
+              max_inclusive: 3
+              min_inclusive: 2
         type: minecraft:basalt_columns
     type: minecraft:decorated
 - []
@@ -107,8 +130,10 @@ features:
               feature:
                 config:
                   radius:
-                    base: 3
-                    spread: 4
+                    type: minecraft:uniform
+                    value:
+                      max_inclusive: 7
+                      min_inclusive: 3
                   state:
                     Name: minecraft:basalt
                     Properties:
@@ -141,8 +166,10 @@ features:
               feature:
                 config:
                   radius:
-                    base: 3
-                    spread: 4
+                    type: minecraft:uniform
+                    value:
+                      max_inclusive: 7
+                      min_inclusive: 3
                   state:
                     Name: minecraft:blackstone
                   target:
@@ -208,8 +235,10 @@ features:
           outer:
             config:
               count:
-                base: 0
-                spread: 5
+                type: minecraft:uniform
+                value:
+                  max_inclusive: 5
+                  min_inclusive: 0
             type: minecraft:count
         type: minecraft:decorated
       feature:
@@ -258,8 +287,10 @@ features:
           outer:
             config:
               count:
-                base: 0
-                spread: 5
+                type: minecraft:uniform
+                value:
+                  max_inclusive: 5
+                  min_inclusive: 0
             type: minecraft:count
         type: minecraft:decorated
       feature:
@@ -645,6 +676,7 @@ spawners:
     minCount: 2
     type: minecraft:magma_cube
     weight: 100
+  underground_water_creature: []
   water_ambient: []
   water_creature: []
 starts:

@@ -1146,6 +1146,7 @@ loot_tables:
 - minecraft:entities/elder_guardian
 - minecraft:entities/polar_bear
 - minecraft:entities/phantom
+- minecraft:entities/goat
 - minecraft:entities/squid
 - minecraft:entities/bee
 - minecraft:entities/pillager
@@ -3100,6 +3101,7 @@ tags:
   - minecraft:flower_pots
   - minecraft:warped_stems
   - minecraft:iron_ores
+  - minecraft:dirt
   - minecraft:crops
   - minecraft:beds
   - minecraft:gold_ores
@@ -3160,6 +3162,7 @@ tags:
   - minecraft:spruce_logs
   - minecraft:guarded_by_piglins
   - minecraft:ice
+  - minecraft:snow
   - minecraft:wooden_slabs
   - minecraft:buttons
   - minecraft:cauldrons
@@ -3187,9 +3190,11 @@ tags:
   - minecraft:wool
   - minecraft:doors
   entity_types:
-  - minecraft:axolotl_tempted_hostiles
   - minecraft:raiders
   - minecraft:beehive_inhabitors
+  - minecraft:axolotl_hunt_targets
+  - minecraft:freeze_hurts_extra_types
+  - minecraft:freeze_immune_entity_types
   - minecraft:arrows
   - minecraft:impact_projectiles
   - minecraft:axolotl_always_hostiles

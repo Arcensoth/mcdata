@@ -59,7 +59,15 @@ pools:
     condition: minecraft:random_chance_with_looting
     looting_multiplier: 0.01
   entries:
-  - name: minecraft:gameplay/fishing/fish
+  - functions:
+    - conditions:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          flags:
+            is_on_fire: true
+      function: minecraft:furnace_smelt
+    name: minecraft:gameplay/fishing/fish
     type: minecraft:loot_table
   rolls: 1.0
 type: minecraft:entity

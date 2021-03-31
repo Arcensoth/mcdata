@@ -14,6 +14,7 @@ values:
 - minecraft:doors_to_close
 - minecraft:dummy
 - minecraft:golem_detected_recently
+- minecraft:has_hunting_cooldown
 - minecraft:heard_bell_time
 - minecraft:hiding_place
 - minecraft:home
@@ -27,10 +28,13 @@ values:
 - minecraft:last_slept
 - minecraft:last_woken
 - minecraft:last_worked_at_poi
+- minecraft:long_jump_cooling_down
+- minecraft:long_jump_mid_jump
 - minecraft:look_target
 - minecraft:meeting_point
 - minecraft:mobs
 - minecraft:nearby_adult_piglins
+- minecraft:nearest_attackable
 - minecraft:nearest_bed
 - minecraft:nearest_hostile
 - minecraft:nearest_player_holding_wanted_item

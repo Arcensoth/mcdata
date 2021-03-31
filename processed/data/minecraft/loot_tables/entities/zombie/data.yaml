@@ -27,7 +27,15 @@ pools:
     type: minecraft:item
   - name: minecraft:carrot
     type: minecraft:item
-  - name: minecraft:potato
+  - functions:
+    - conditions:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          flags:
+            is_on_fire: true
+      function: minecraft:furnace_smelt
+    name: minecraft:potato
     type: minecraft:item
   rolls: 1.0
 type: minecraft:entity

@@ -41,7 +41,25 @@
     "air": [
       {
         "config": {
-          "probability": 0.2
+          "yScale": 0.5,
+          "lava_level": {
+            "above_bottom": 11
+          },
+          "probability": 0.2,
+          "y": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": {
+                "absolute": 0
+              },
+              "max_inclusive": {
+                "below_top": 1
+              }
+            }
+          },
+          "horizontal_radius_multiplier": 1.0,
+          "vertical_radius_multiplier": 1.0,
+          "floor_level": -0.7
         },
         "type": "minecraft:nether_cave"
       }
@@ -151,8 +169,11 @@
               "outer": {
                 "config": {
                   "count": {
-                    "base": 0,
-                    "spread": 5
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 0,
+                      "max_inclusive": 5
+                    }
                   }
                 },
                 "type": "minecraft:count"
@@ -217,8 +238,11 @@
               "outer": {
                 "config": {
                   "count": {
-                    "base": 0,
-                    "spread": 5
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 0,
+                      "max_inclusive": 5
+                    }
                   }
                 },
                 "type": "minecraft:count"
@@ -1401,6 +1425,7 @@
       }
     ],
     "ambient": [],
+    "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
     "misc": []

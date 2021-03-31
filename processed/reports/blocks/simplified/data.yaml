@@ -4577,6 +4577,31 @@ minecraft:lever:
     powered:
     - 'true'
     - 'false'
+minecraft:light:
+  default:
+    level: '15'
+    waterlogged: 'false'
+  properties:
+    level:
+    - '0'
+    - '1'
+    - '2'
+    - '3'
+    - '4'
+    - '5'
+    - '6'
+    - '7'
+    - '8'
+    - '9'
+    - '10'
+    - '11'
+    - '12'
+    - '13'
+    - '14'
+    - '15'
+    waterlogged:
+    - 'true'
+    - 'false'
 minecraft:light_blue_banner:
   default:
     rotation: '0'
@@ -8549,7 +8574,7 @@ minecraft:stripped_warped_stem:
     - z
 minecraft:structure_block:
   default:
-    mode: save
+    mode: load
   properties:
     mode:
     - save

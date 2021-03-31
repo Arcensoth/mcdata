@@ -24,6 +24,16 @@ pools:
   - functions:
     - add: false
       count:
+        max: 4.0
+        min: 1.0
+        type: minecraft:uniform
+      function: minecraft:set_count
+    name: minecraft:moss_block
+    type: minecraft:item
+    weight: 7
+  - functions:
+    - add: false
+      count:
         max: 6.0
         min: 2.0
         type: minecraft:uniform
@@ -57,7 +67,7 @@ pools:
           max: 10.0
           min: 7.0
           type: minecraft:uniform
-        type: minecraft:night_vision
+        type: minecraft:jump_boost
       - duration:
           max: 10.0
           min: 7.0
@@ -69,20 +79,20 @@ pools:
           type: minecraft:uniform
         type: minecraft:blindness
       - duration:
-          max: 20.0
-          min: 10.0
-          type: minecraft:uniform
-        type: minecraft:poison
-      - duration:
-          max: 10.0
-          min: 7.0
-          type: minecraft:uniform
-        type: minecraft:jump_boost
-      - duration:
           max: 8.0
           min: 6.0
           type: minecraft:uniform
         type: minecraft:weakness
+      - duration:
+          max: 10.0
+          min: 7.0
+          type: minecraft:uniform
+        type: minecraft:night_vision
+      - duration:
+          max: 20.0
+          min: 10.0
+          type: minecraft:uniform
+        type: minecraft:poison
       function: minecraft:set_stew_effect
     name: minecraft:suspicious_stew
     type: minecraft:item

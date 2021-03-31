@@ -1,7 +1,9 @@
 minecraft:arrows
 minecraft:axolotl_always_hostiles
-minecraft:axolotl_tempted_hostiles
+minecraft:axolotl_hunt_targets
 minecraft:beehive_inhabitors
+minecraft:freeze_hurts_extra_types
+minecraft:freeze_immune_entity_types
 minecraft:impact_projectiles
 minecraft:powder_snow_walkable_mobs
 minecraft:raiders

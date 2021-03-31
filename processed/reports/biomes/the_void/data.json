@@ -41,6 +41,7 @@
     "creature": [],
     "misc": [],
     "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },

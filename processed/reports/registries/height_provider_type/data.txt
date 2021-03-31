@@ -1,0 +1,3 @@
+minecraft:biased_to_bottom
+minecraft:constant
+minecraft:uniform

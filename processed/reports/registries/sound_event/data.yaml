@@ -660,6 +660,17 @@ values:
 - minecraft:entity.glow_squid.death
 - minecraft:entity.glow_squid.hurt
 - minecraft:entity.glow_squid.squirt
+- minecraft:entity.goat.ambient
+- minecraft:entity.goat.death
+- minecraft:entity.goat.hurt
+- minecraft:entity.goat.milk
+- minecraft:entity.goat.prepare_ram
+- minecraft:entity.goat.screaming.ambient
+- minecraft:entity.goat.screaming.death
+- minecraft:entity.goat.screaming.hurt
+- minecraft:entity.goat.screaming.milk
+- minecraft:entity.goat.screaming.ram
+- minecraft:entity.goat.step
 - minecraft:entity.guardian.ambient
 - minecraft:entity.guardian.ambient_land
 - minecraft:entity.guardian.attack

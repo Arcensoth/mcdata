@@ -82,8 +82,11 @@
           "decorator": {
             "config": {
               "count": {
-                "base": 0,
-                "spread": 4
+                "type": "minecraft:uniform",
+                "value": {
+                  "max_inclusive": 4,
+                  "min_inclusive": 0
+                }
               }
             },
             "type": "minecraft:count"
@@ -133,6 +136,7 @@
         "weight": 10
       }
     ],
+    "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },

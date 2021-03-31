@@ -2,6 +2,13 @@ pools:
 - bonus_rolls: 0.0
   entries:
   - functions:
+    - conditions:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          flags:
+            is_on_fire: true
+      function: minecraft:furnace_smelt
     - add: false
       count:
         max: 2.0
@@ -17,6 +24,13 @@ pools:
     type: minecraft:item
     weight: 3
   - functions:
+    - conditions:
+      - condition: minecraft:entity_properties
+        entity: this
+        predicate:
+          flags:
+            is_on_fire: true
+      function: minecraft:furnace_smelt
     - add: false
       count:
         max: 2.0

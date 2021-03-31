@@ -50,7 +50,25 @@
     "air": [
       {
         "config": {
-          "probability": 0.2
+          "yScale": 0.5,
+          "lava_level": {
+            "above_bottom": 11
+          },
+          "probability": 0.2,
+          "y": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": {
+                "absolute": 0
+              },
+              "max_inclusive": {
+                "below_top": 1
+              }
+            }
+          },
+          "horizontal_radius_multiplier": 1.0,
+          "vertical_radius_multiplier": 1.0,
+          "floor_level": -0.7
         },
         "type": "minecraft:nether_cave"
       }
@@ -76,12 +94,18 @@
                 "Name": "minecraft:magma_block"
               },
               "size": {
-                "base": 3,
-                "spread": 4
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 3,
+                  "max_inclusive": 7
+                }
               },
               "rim_size": {
-                "base": 0,
-                "spread": 2
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 2
+                }
               }
             },
             "type": "minecraft:delta_feature"
@@ -101,8 +125,11 @@
             "config": {
               "reach": 1,
               "height": {
-                "base": 1,
-                "spread": 3
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 1,
+                  "max_inclusive": 4
+                }
               }
             },
             "type": "minecraft:basalt_columns"
@@ -121,12 +148,18 @@
           "feature": {
             "config": {
               "reach": {
-                "base": 2,
-                "spread": 1
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 2,
+                  "max_inclusive": 3
+                }
               },
               "height": {
-                "base": 5,
-                "spread": 5
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 5,
+                  "max_inclusive": 10
+                }
               }
             },
             "type": "minecraft:basalt_columns"
@@ -162,8 +195,11 @@
                         "Name": "minecraft:basalt"
                       },
                       "radius": {
-                        "base": 3,
-                        "spread": 4
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "min_inclusive": 3,
+                          "max_inclusive": 7
+                        }
                       }
                     },
                     "type": "minecraft:netherrack_replace_blobs"
@@ -213,8 +249,11 @@
                         "Name": "minecraft:blackstone"
                       },
                       "radius": {
-                        "base": 3,
-                        "spread": 4
+                        "type": "minecraft:uniform",
+                        "value": {
+                          "min_inclusive": 3,
+                          "max_inclusive": 7
+                        }
                       }
                     },
                     "type": "minecraft:netherrack_replace_blobs"
@@ -348,8 +387,11 @@
               "outer": {
                 "config": {
                   "count": {
-                    "base": 0,
-                    "spread": 5
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 0,
+                      "max_inclusive": 5
+                    }
                   }
                 },
                 "type": "minecraft:count"
@@ -414,8 +456,11 @@
               "outer": {
                 "config": {
                   "count": {
-                    "base": 0,
-                    "spread": 5
+                    "type": "minecraft:uniform",
+                    "value": {
+                      "min_inclusive": 0,
+                      "max_inclusive": 5
+                    }
                   }
                 },
                 "type": "minecraft:count"
@@ -1024,6 +1069,7 @@
       }
     ],
     "ambient": [],
+    "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
     "misc": []

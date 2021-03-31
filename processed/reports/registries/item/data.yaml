@@ -410,6 +410,7 @@ values:
 - minecraft:glow_squid_spawn_egg
 - minecraft:glowstone
 - minecraft:glowstone_dust
+- minecraft:goat_spawn_egg
 - minecraft:gold_block
 - minecraft:gold_ingot
 - minecraft:gold_nugget
@@ -542,6 +543,7 @@ values:
 - minecraft:leather_leggings
 - minecraft:lectern
 - minecraft:lever
+- minecraft:light
 - minecraft:light_blue_banner
 - minecraft:light_blue_bed
 - minecraft:light_blue_candle

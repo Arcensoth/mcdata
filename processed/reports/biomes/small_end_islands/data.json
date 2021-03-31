@@ -88,6 +88,7 @@
         "weight": 10
       }
     ],
+    "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },
