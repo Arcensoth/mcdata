@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # Requirements:
-# - The game version, as the first agument
-# - The server jar file, as the second argument
+# - The server jar file, as the 1st argument
+# - The game version, as the 2nd agument
 # - Python 3.6+ with pyyaml package installed
 
 if [ "$#" -ne 2 ]
