@@ -1,3 +1,5 @@
 minecraft:canyon
 minecraft:cave
 minecraft:nether_cave
+minecraft:underwater_canyon
+minecraft:underwater_cave

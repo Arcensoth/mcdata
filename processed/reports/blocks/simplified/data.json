@@ -12329,6 +12329,62 @@
       ]
     }
   },
+  "minecraft:waxed_oxidized_copper": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:waxed_oxidized_cut_copper": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:waxed_oxidized_cut_copper_slab": {
+    "default": {
+      "type": "bottom",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "type": [
+        "top",
+        "bottom",
+        "double"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
+  "minecraft:waxed_oxidized_cut_copper_stairs": {
+    "default": {
+      "facing": "north",
+      "half": "bottom",
+      "shape": "straight",
+      "waterlogged": "false"
+    },
+    "properties": {
+      "facing": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "half": [
+        "top",
+        "bottom"
+      ],
+      "shape": [
+        "straight",
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right"
+      ],
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
+  },
   "minecraft:waxed_weathered_copper": {
     "default": {},
     "properties": {}

@@ -1,0 +1,9 @@
+{
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "minecraft:coal_ore"
+  },
+  "result": "minecraft:coal",
+  "type": "minecraft:smelting"
+}

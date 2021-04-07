@@ -1,6 +1,0 @@
-cookingtime: 200
-experience: 1.0
-ingredient:
-  tag: minecraft:emerald_ores
-result: minecraft:emerald
-type: minecraft:smelting

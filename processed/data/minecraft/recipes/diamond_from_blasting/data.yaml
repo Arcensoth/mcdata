@@ -1,6 +1,0 @@
-cookingtime: 100
-experience: 1.0
-ingredient:
-  tag: minecraft:diamond_ores
-result: minecraft:diamond
-type: minecraft:blasting

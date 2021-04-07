@@ -1,0 +1,6 @@
+cookingtime: 100
+experience: 0.7
+ingredient:
+  item: minecraft:raw_copper
+result: minecraft:copper_ingot
+type: minecraft:blasting

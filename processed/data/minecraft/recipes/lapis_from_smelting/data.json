@@ -1,9 +1,0 @@
-{
-  "cookingtime": 200,
-  "experience": 0.2,
-  "ingredient": {
-    "tag": "minecraft:lapis_ores"
-  },
-  "result": "minecraft:lapis_lazuli",
-  "type": "minecraft:smelting"
-}
