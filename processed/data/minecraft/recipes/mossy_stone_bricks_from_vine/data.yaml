@@ -1,6 +1,0 @@
-ingredients:
-- item: minecraft:stone_bricks
-- item: minecraft:vine
-result:
-  item: minecraft:mossy_stone_bricks
-type: minecraft:crafting_shapeless

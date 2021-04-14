@@ -1,6 +1,0 @@
-ingredients:
-- item: minecraft:candle
-- item: minecraft:purple_dye
-result:
-  item: minecraft:purple_candle
-type: minecraft:crafting_shapeless

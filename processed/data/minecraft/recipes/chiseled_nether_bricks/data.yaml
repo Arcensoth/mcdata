@@ -1,9 +1,0 @@
-key:
-  '#':
-    item: minecraft:nether_brick_slab
-pattern:
-- '#'
-- '#'
-result:
-  item: minecraft:chiseled_nether_bricks
-type: minecraft:crafting_shaped

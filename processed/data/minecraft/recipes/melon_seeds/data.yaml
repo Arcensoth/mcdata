@@ -1,5 +1,0 @@
-ingredients:
-- item: minecraft:melon_slice
-result:
-  item: minecraft:melon_seeds
-type: minecraft:crafting_shapeless

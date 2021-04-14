@@ -1,9 +1,0 @@
-key:
-  '#':
-    item: minecraft:iron_ingot
-pattern:
-- '# #'
-- ' # '
-result:
-  item: minecraft:bucket
-type: minecraft:crafting_shaped

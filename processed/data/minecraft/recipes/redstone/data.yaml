@@ -1,6 +1,0 @@
-ingredients:
-- item: minecraft:redstone_block
-result:
-  count: 9
-  item: minecraft:redstone
-type: minecraft:crafting_shapeless

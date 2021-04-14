@@ -1,9 +1,0 @@
-key:
-  '#':
-    item: minecraft:smooth_sandstone
-pattern:
-- '###'
-result:
-  count: 6
-  item: minecraft:smooth_sandstone_slab
-type: minecraft:crafting_shaped

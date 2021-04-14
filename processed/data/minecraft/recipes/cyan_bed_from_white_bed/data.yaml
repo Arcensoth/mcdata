@@ -1,7 +1,0 @@
-group: dyed_bed
-ingredients:
-- item: minecraft:white_bed
-- item: minecraft:cyan_dye
-result:
-  item: minecraft:cyan_bed
-type: minecraft:crafting_shapeless

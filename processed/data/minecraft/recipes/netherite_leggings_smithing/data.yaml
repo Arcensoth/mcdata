@@ -1,7 +1,0 @@
-addition:
-  item: minecraft:netherite_ingot
-base:
-  item: minecraft:diamond_leggings
-result:
-  item: minecraft:netherite_leggings
-type: minecraft:smithing

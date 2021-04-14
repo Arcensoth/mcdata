@@ -1,9 +1,0 @@
-key:
-  '#':
-    item: minecraft:purpur_slab
-pattern:
-- '#'
-- '#'
-result:
-  item: minecraft:purpur_pillar
-type: minecraft:crafting_shaped

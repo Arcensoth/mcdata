@@ -1,7 +1,0 @@
-addition:
-  item: minecraft:netherite_ingot
-base:
-  item: minecraft:diamond_chestplate
-result:
-  item: minecraft:netherite_chestplate
-type: minecraft:smithing

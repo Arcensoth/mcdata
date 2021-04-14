@@ -1,6 +1,0 @@
-group: red_dye
-ingredients:
-- item: minecraft:red_tulip
-result:
-  item: minecraft:red_dye
-type: minecraft:crafting_shapeless

@@ -1,6 +1,0 @@
-ingredients:
-- item: minecraft:cobblestone
-- item: minecraft:moss_block
-result:
-  item: minecraft:mossy_cobblestone
-type: minecraft:crafting_shapeless

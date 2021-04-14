@@ -3,11 +3,9 @@ import json
 import logging
 import os
 
-import yaml
 
 JSON_EXT = ".json"
 MIN_JSON_EXT = ".min.json"
-YAML_EXT = ".yaml"
 TXT_EXT = ".txt"
 
 EXCLUDE_DIRS = [".cache", "tmp"]
@@ -59,13 +57,6 @@ def write_min_json(data: dict, dirname: str, subname: str):
         json.dump(data, fp, separators=(",", ":"), sort_keys=True)
 
 
-def write_yaml(data: dict, dirname: str, subname: str):
-    filepath = prepare_filepath(dirname, subname, YAML_EXT)
-    LOG.debug(f"Writing YAML file: {filepath}")
-    with open(filepath, "w") as fp:
-        yaml.safe_dump(data, fp, sort_keys=True)
-
-
 def write_txt(data: list, dirname: str, subname: str):
     filepath = prepare_filepath(dirname, subname, TXT_EXT)
     LOG.debug(f"Writing TXT file: {filepath}")
@@ -81,7 +72,6 @@ def process_original(in_dirname: str, in_filename: str, out_dirname: str):
     out_filename = in_filename[: -len(JSON_EXT)]
     write_json(data, out_dirname, out_filename)
     write_min_json(data, out_dirname, out_filename)
-    write_yaml(data, out_dirname, out_filename)
 
 
 def process_originals(inparts: tuple, outparts: tuple):
@@ -108,7 +98,6 @@ def process_registry(registry: dict, dirname: str, shortname: str):
     data = {"values": values}
     write_json(data, dirname, shortname)
     write_min_json(data, dirname, shortname)
-    write_yaml(data, dirname, shortname)
     write_txt(values, dirname, shortname)
 
 
@@ -143,7 +132,6 @@ def simplify_blocks(inparts: tuple, outparts: tuple):
         }
     write_json(data, blocks_outdir, "simplified")
     write_min_json(data, blocks_outdir, "simplified")
-    write_yaml(data, blocks_outdir, "simplified")
 
 
 def summarize_reports(inparts: tuple, outparts: tuple):
@@ -175,7 +163,6 @@ def summarize_reports(inparts: tuple, outparts: tuple):
         summary_out_dir = os.path.join(*outparts, "reports", *report_subparts[:-1])
         write_json(summary, summary_out_dir, report_subparts[-1])
         write_min_json(summary, summary_out_dir, report_subparts[-1])
-        write_yaml(summary, summary_out_dir, report_subparts[-1])
         write_txt(sorted_resource_ids, summary_out_dir, report_subparts[-1])
 
 
@@ -221,12 +208,10 @@ def summarize_data(inparts: tuple, outparts: tuple):
             summary = {"values": sorted_resource_ids}
             write_json(summary, summary_out_dir, data_subparts[-1])
             write_min_json(summary, summary_out_dir, data_subparts[-1])
-            write_yaml(summary, summary_out_dir, data_subparts[-1])
             write_txt(sorted_resource_ids, summary_out_dir, data_subparts[-1])
         summaries_out_dir = os.path.join(*outparts, "data")
         write_json(summaries, summaries_out_dir, namespace)
         write_min_json(summaries, summaries_out_dir, namespace)
-        write_yaml(summaries, summaries_out_dir, namespace)
 
 
 def process(inparts: tuple, outparts: tuple):

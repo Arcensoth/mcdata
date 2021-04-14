@@ -1,9 +1,0 @@
-key:
-  '#':
-    item: minecraft:quartz
-pattern:
-- '##'
-- '##'
-result:
-  item: minecraft:quartz_block
-type: minecraft:crafting_shaped

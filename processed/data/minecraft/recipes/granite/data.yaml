@@ -1,6 +1,0 @@
-ingredients:
-- item: minecraft:diorite
-- item: minecraft:quartz
-result:
-  item: minecraft:granite
-type: minecraft:crafting_shapeless

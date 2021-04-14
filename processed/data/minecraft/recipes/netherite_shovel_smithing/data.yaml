@@ -1,7 +1,0 @@
-addition:
-  item: minecraft:netherite_ingot
-base:
-  item: minecraft:diamond_shovel
-result:
-  item: minecraft:netherite_shovel
-type: minecraft:smithing

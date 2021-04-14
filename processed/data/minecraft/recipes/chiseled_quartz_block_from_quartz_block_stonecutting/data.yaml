@@ -1,5 +1,0 @@
-count: 1
-ingredient:
-  item: minecraft:quartz_block
-result: minecraft:chiseled_quartz_block
-type: minecraft:stonecutting

@@ -1,9 +1,0 @@
-key:
-  '#':
-    item: minecraft:sand
-pattern:
-- '##'
-- '##'
-result:
-  item: minecraft:sandstone
-type: minecraft:crafting_shaped

@@ -1,6 +1,0 @@
-cookingtime: 200
-experience: 1.0
-ingredient:
-  item: minecraft:raw_gold
-result: minecraft:gold_ingot
-type: minecraft:smelting
