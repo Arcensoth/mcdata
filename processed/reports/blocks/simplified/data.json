@@ -4810,13 +4810,13 @@
   },
   "minecraft:glow_lichen": {
     "default": {
-      "down": "false",
-      "east": "false",
-      "north": "false",
-      "south": "false",
-      "up": "false",
+      "down": "true",
+      "east": "true",
+      "north": "true",
+      "south": "true",
+      "up": "true",
       "waterlogged": "false",
-      "west": "false"
+      "west": "true"
     },
     "properties": {
       "down": [
@@ -9585,6 +9585,18 @@
         "false"
       ]
     }
+  },
+  "minecraft:raw_copper_block": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:raw_gold_block": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:raw_iron_block": {
+    "default": {},
+    "properties": {}
   },
   "minecraft:red_banner": {
     "default": {

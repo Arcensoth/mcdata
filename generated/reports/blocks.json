@@ -47021,7 +47021,8 @@
           "waterlogged": "false",
           "west": "true"
         },
-        "id": 4895
+        "id": 4895,
+        "default": true
       },
       {
         "properties": {
@@ -48521,8 +48522,7 @@
           "waterlogged": "false",
           "west": "false"
         },
-        "id": 5020,
-        "default": true
+        "id": 5020
       }
     ]
   },
@@ -204846,6 +204846,30 @@
     "states": [
       {
         "id": 20381,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:raw_iron_block": {
+    "states": [
+      {
+        "id": 20382,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:raw_copper_block": {
+    "states": [
+      {
+        "id": 20383,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:raw_gold_block": {
+    "states": [
+      {
+        "id": 20384,
         "default": true
       }
     ]

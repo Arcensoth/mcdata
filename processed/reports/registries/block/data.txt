@@ -666,6 +666,9 @@ minecraft:quartz_pillar
 minecraft:quartz_slab
 minecraft:quartz_stairs
 minecraft:rail
+minecraft:raw_copper_block
+minecraft:raw_gold_block
+minecraft:raw_iron_block
 minecraft:red_banner
 minecraft:red_bed
 minecraft:red_candle

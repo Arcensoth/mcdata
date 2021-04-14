@@ -2,6 +2,8 @@
   "values": [
     "minecraft:biased_to_bottom",
     "minecraft:constant",
-    "minecraft:uniform"
+    "minecraft:trapezoid",
+    "minecraft:uniform",
+    "minecraft:very_biased_to_bottom"
   ]
 }

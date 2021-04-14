@@ -2121,6 +2121,16 @@
     },
     "debug": {
       "children": {
+        "function": {
+          "children": {
+            "name": {
+              "executable": true,
+              "parser": "minecraft:function",
+              "type": "argument"
+            }
+          },
+          "type": "literal"
+        },
         "report": {
           "executable": true,
           "type": "literal"

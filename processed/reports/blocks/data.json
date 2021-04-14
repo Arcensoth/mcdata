@@ -75289,6 +75289,7 @@
         }
       },
       {
+        "default": true,
         "id": 4895,
         "properties": {
           "down": "true",
@@ -76789,7 +76790,6 @@
         }
       },
       {
-        "default": true,
         "id": 5020,
         "properties": {
           "down": "false",
@@ -147945,6 +147945,30 @@
           "shape": "north_east",
           "waterlogged": "false"
         }
+      }
+    ]
+  },
+  "minecraft:raw_copper_block": {
+    "states": [
+      {
+        "default": true,
+        "id": 20383
+      }
+    ]
+  },
+  "minecraft:raw_gold_block": {
+    "states": [
+      {
+        "default": true,
+        "id": 20384
+      }
+    ]
+  },
+  "minecraft:raw_iron_block": {
+    "states": [
+      {
+        "default": true,
+        "id": 20382
       }
     ]
   },

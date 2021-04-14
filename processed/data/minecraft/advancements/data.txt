@@ -392,6 +392,9 @@ minecraft:recipes/building_blocks/quartz_slab
 minecraft:recipes/building_blocks/quartz_slab_from_stonecutting
 minecraft:recipes/building_blocks/quartz_stairs
 minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting
+minecraft:recipes/building_blocks/raw_copper_block
+minecraft:recipes/building_blocks/raw_gold_block
+minecraft:recipes/building_blocks/raw_iron_block
 minecraft:recipes/building_blocks/red_concrete_powder
 minecraft:recipes/building_blocks/red_nether_brick_slab
 minecraft:recipes/building_blocks/red_nether_brick_slab_from_red_nether_bricks_stonecutting
@@ -898,11 +901,13 @@ minecraft:recipes/misc/firework_rocket_simple
 minecraft:recipes/misc/flower_banner_pattern
 minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore
 minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore
+minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore
 minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold
 minecraft:recipes/misc/gold_ingot_from_gold_block
 minecraft:recipes/misc/gold_ingot_from_nuggets
 minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore
 minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore
+minecraft:recipes/misc/gold_ingot_from_smelting_nether_gold_ore
 minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold
 minecraft:recipes/misc/gold_nugget
 minecraft:recipes/misc/gold_nugget_from_blasting
@@ -960,6 +965,9 @@ minecraft:recipes/misc/pumpkin_seeds
 minecraft:recipes/misc/purple_dye
 minecraft:recipes/misc/quartz
 minecraft:recipes/misc/quartz_from_blasting
+minecraft:recipes/misc/raw_copper
+minecraft:recipes/misc/raw_gold
+minecraft:recipes/misc/raw_iron
 minecraft:recipes/misc/red_dye_from_beetroot
 minecraft:recipes/misc/red_dye_from_poppy
 minecraft:recipes/misc/red_dye_from_rose_bush

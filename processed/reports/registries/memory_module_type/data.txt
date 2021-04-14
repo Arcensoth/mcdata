@@ -55,6 +55,8 @@ minecraft:pacified
 minecraft:path
 minecraft:play_dead_ticks
 minecraft:potential_job_site
+minecraft:ram_cooldown_ticks
+minecraft:ram_target
 minecraft:ride_target
 minecraft:secondary_job_site
 minecraft:temptation_cooldown_ticks

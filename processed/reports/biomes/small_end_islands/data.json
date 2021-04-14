@@ -45,11 +45,14 @@
                     "config": {
                       "decorator": {
                         "config": {
-                          "bottom_inclusive": {
-                            "absolute": 55
-                          },
-                          "top_inclusive": {
-                            "absolute": 70
+                          "height": {
+                            "max_inclusive": {
+                              "absolute": 70
+                            },
+                            "min_inclusive": {
+                              "absolute": 55
+                            },
+                            "type": "minecraft:uniform"
                           }
                         },
                         "type": "minecraft:range"
