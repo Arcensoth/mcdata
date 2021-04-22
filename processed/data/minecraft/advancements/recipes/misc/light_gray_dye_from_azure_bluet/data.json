@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_red_flower": {
+    "has_azure_bluet": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_red_flower",
+      "has_azure_bluet",
       "has_the_recipe"
     ]
   ],

@@ -5476,8 +5476,16 @@
     "properties": {}
   },
   "minecraft:infested_deepslate": {
-    "default": {},
-    "properties": {}
+    "default": {
+      "axis": "y"
+    },
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    }
   },
   "minecraft:infested_mossy_stone_bricks": {
     "default": {},

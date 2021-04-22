@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_reeds": {
+    "has_sugar_cane": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_reeds",
+      "has_sugar_cane",
       "has_the_recipe"
     ]
   ],

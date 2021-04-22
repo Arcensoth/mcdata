@@ -204835,30 +204835,36 @@
     ]
   },
   "minecraft:infested_deepslate": {
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
     "states": [
       {
-        "id": 20380,
+        "properties": {
+          "axis": "x"
+        },
+        "id": 20380
+      },
+      {
+        "properties": {
+          "axis": "y"
+        },
+        "id": 20381,
         "default": true
+      },
+      {
+        "properties": {
+          "axis": "z"
+        },
+        "id": 20382
       }
     ]
   },
   "minecraft:smooth_basalt": {
-    "states": [
-      {
-        "id": 20381,
-        "default": true
-      }
-    ]
-  },
-  "minecraft:raw_iron_block": {
-    "states": [
-      {
-        "id": 20382,
-        "default": true
-      }
-    ]
-  },
-  "minecraft:raw_copper_block": {
     "states": [
       {
         "id": 20383,
@@ -204866,10 +204872,26 @@
       }
     ]
   },
-  "minecraft:raw_gold_block": {
+  "minecraft:raw_iron_block": {
     "states": [
       {
         "id": 20384,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:raw_copper_block": {
+    "states": [
+      {
+        "id": 20385,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:raw_gold_block": {
+    "states": [
+      {
+        "id": 20386,
         "default": true
       }
     ]

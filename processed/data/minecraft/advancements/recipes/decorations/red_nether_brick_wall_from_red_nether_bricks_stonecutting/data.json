@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_nether_bricks": {
+    "has_red_nether_bricks": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_nether_bricks",
+      "has_red_nether_bricks",
       "has_the_recipe"
     ]
   ],

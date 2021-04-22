@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_slime": {
+    "has_slime_block": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_slime",
+      "has_slime_block",
       "has_the_recipe"
     ]
   ],

@@ -3,6 +3,7 @@
     "air": [
       {
         "config": {
+          "aquifers_enabled": false,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:crimson_button",
@@ -11,12 +12,26 @@
                 "facing": "north",
                 "powered": "false"
               }
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "water_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "1",
+                "lit": "false",
+                "waterlogged": "false"
+              }
             }
           },
           "floor_level": -0.7,
           "horizontal_radius_multiplier": 1.0,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
           "probability": 0.14285715,
           "vertical_radius_multiplier": 1.0,
@@ -36,6 +51,7 @@
       },
       {
         "config": {
+          "aquifers_enabled": false,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:warped_button",
@@ -44,10 +60,24 @@
                 "facing": "north",
                 "powered": "false"
               }
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "water_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "1",
+                "lit": "false",
+                "waterlogged": "false"
+              }
             }
           },
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
           "probability": 0.02,
           "shape": {
@@ -1412,28 +1442,68 @@
         "config": {
           "decorator": {
             "config": {
-              "height": {
-                "max_inclusive": {
-                  "below_top": 0
-                },
-                "min_inclusive": {
-                  "above_bottom": 0
-                },
-                "type": "minecraft:uniform"
+              "count": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "max_inclusive": 24,
+                  "min_inclusive": 6
+                }
               }
             },
-            "type": "minecraft:range"
+            "type": "minecraft:count"
           },
           "feature": {
             "config": {
-              "state": {
-                "Name": "minecraft:emerald_ore"
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
               },
-              "target": {
-                "Name": "minecraft:stone"
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "max_inclusive": {
+                          "absolute": 31
+                        },
+                        "min_inclusive": {
+                          "absolute": 4
+                        },
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {
+                      "targets": [
+                        {
+                          "state": {
+                            "Name": "minecraft:emerald_ore"
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:stone_ore_replaceables"
+                          }
+                        },
+                        {
+                          "state": {
+                            "Name": "minecraft:deepslate_emerald_ore"
+                          },
+                          "target": {
+                            "predicate_type": "minecraft:tag_match",
+                            "tag": "minecraft:deepslate_ore_replaceables"
+                          }
+                        }
+                      ]
+                    },
+                    "type": "minecraft:replace_single_block"
+                  }
+                },
+                "type": "minecraft:decorated"
               }
             },
-            "type": "minecraft:emerald_ore"
+            "type": "minecraft:decorated"
           }
         },
         "type": "minecraft:decorated"
@@ -1655,7 +1725,10 @@
                         },
                         {
                           "state": {
-                            "Name": "minecraft:infested_deepslate"
+                            "Name": "minecraft:infested_deepslate",
+                            "Properties": {
+                              "axis": "y"
+                            }
                           },
                           "target": {
                             "predicate_type": "minecraft:tag_match",

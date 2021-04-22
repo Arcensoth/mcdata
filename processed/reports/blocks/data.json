@@ -83728,10 +83728,32 @@
     ]
   },
   "minecraft:infested_deepslate": {
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
     "states": [
       {
+        "id": 20380,
+        "properties": {
+          "axis": "x"
+        }
+      },
+      {
         "default": true,
-        "id": 20380
+        "id": 20381,
+        "properties": {
+          "axis": "y"
+        }
+      },
+      {
+        "id": 20382,
+        "properties": {
+          "axis": "z"
+        }
       }
     ]
   },
@@ -147952,7 +147974,7 @@
     "states": [
       {
         "default": true,
-        "id": 20383
+        "id": 20385
       }
     ]
   },
@@ -147960,7 +147982,7 @@
     "states": [
       {
         "default": true,
-        "id": 20384
+        "id": 20386
       }
     ]
   },
@@ -147968,7 +147990,7 @@
     "states": [
       {
         "default": true,
-        "id": 20382
+        "id": 20384
       }
     ]
   },
@@ -178722,7 +178744,7 @@
     "states": [
       {
         "default": true,
-        "id": 20381
+        "id": 20383
       }
     ]
   },

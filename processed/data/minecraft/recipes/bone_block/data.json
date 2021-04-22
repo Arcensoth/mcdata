@@ -1,13 +1,13 @@
 {
   "key": {
-    "X": {
+    "#": {
       "item": "minecraft:bone_meal"
     }
   },
   "pattern": [
-    "XXX",
-    "XXX",
-    "XXX"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
     "item": "minecraft:bone_block"

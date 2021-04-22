@@ -3,6 +3,7 @@
     "air": [
       {
         "config": {
+          "aquifers_enabled": false,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:crimson_button",
@@ -11,12 +12,26 @@
                 "facing": "north",
                 "powered": "false"
               }
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "water_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "1",
+                "lit": "false",
+                "waterlogged": "false"
+              }
             }
           },
           "floor_level": -0.7,
           "horizontal_radius_multiplier": 1.0,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
           "probability": 0.14285715,
           "vertical_radius_multiplier": 1.0,
@@ -36,6 +51,7 @@
       },
       {
         "config": {
+          "aquifers_enabled": false,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:warped_button",
@@ -44,10 +60,24 @@
                 "facing": "north",
                 "powered": "false"
               }
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "water_state": {
+              "Name": "minecraft:candle",
+              "Properties": {
+                "candles": "1",
+                "lit": "false",
+                "waterlogged": "false"
+              }
             }
           },
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
           "probability": 0.02,
           "shape": {
@@ -1840,7 +1870,7 @@
                             },
                             "type": "minecraft:simple_state_provider"
                           },
-                          "replaceable": "minecraft:lush_plants_replaceable",
+                          "replaceable": "minecraft:moss_replaceable",
                           "surface": "ceiling",
                           "vegetation_chance": 0.08,
                           "vegetation_feature": {
@@ -2739,7 +2769,7 @@
                             },
                             "type": "minecraft:simple_state_provider"
                           },
-                          "replaceable": "minecraft:lush_plants_replaceable",
+                          "replaceable": "minecraft:moss_replaceable",
                           "surface": "floor",
                           "vegetation_chance": 0.8,
                           "vegetation_feature": {
@@ -2852,6 +2882,7 @@
                       },
                       "feature": {
                         "config": {
+                          "allowed_vertical_water_for_tree": 3,
                           "feature": {
                             "config": {
                               "decorators": [],

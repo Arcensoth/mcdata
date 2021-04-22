@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_red_flower": {
+    "has_orange_tulip": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_red_flower",
+      "has_orange_tulip",
       "has_the_recipe"
     ]
   ],

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_bonemeal": {
+    "has_bone_meal": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_bonemeal",
+      "has_bone_meal",
       "has_the_recipe"
     ]
   ],

@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_blue_flower": {
+    "has_cornflower": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_blue_flower",
+      "has_cornflower",
       "has_the_recipe"
     ]
   ],

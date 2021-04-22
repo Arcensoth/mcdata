@@ -1,6 +1,12 @@
 {
   "criteria": {
-    "has_red_flower": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:light_gray_dye_from_white_tulip"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_tulip": {
       "conditions": {
         "items": [
           {
@@ -9,18 +15,12 @@
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "minecraft:light_gray_dye_from_white_tulip"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_red_flower",
+      "has_white_tulip",
       "has_the_recipe"
     ]
   ],

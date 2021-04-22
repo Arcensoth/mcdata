@@ -33,11 +33,25 @@
     "air": [
       {
         "config": {
-          "yScale": 0.5,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
+          "aquifers_enabled": false,
           "debug_settings": {
+            "water_state": {
+              "Properties": {
+                "waterlogged": "false",
+                "lit": "false",
+                "candles": "1"
+              },
+              "Name": "minecraft:candle"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
             "air_state": {
               "Properties": {
                 "powered": "false",
@@ -58,6 +72,7 @@
             "inner": 8,
             "type": "minecraft:biased_to_bottom"
           },
+          "yScale": 0.5,
           "horizontal_radius_multiplier": 1.0,
           "vertical_radius_multiplier": 1.0,
           "floor_level": -0.7
@@ -66,11 +81,25 @@
       },
       {
         "config": {
-          "yScale": 3.0,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
+          "aquifers_enabled": false,
           "debug_settings": {
+            "water_state": {
+              "Properties": {
+                "waterlogged": "false",
+                "lit": "false",
+                "candles": "1"
+              },
+              "Name": "minecraft:candle"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
             "air_state": {
               "Properties": {
                 "powered": "false",
@@ -91,6 +120,7 @@
             "inner": 8,
             "type": "minecraft:biased_to_bottom"
           },
+          "yScale": 3.0,
           "vertical_rotation": {
             "type": "minecraft:uniform",
             "value": {
@@ -132,11 +162,25 @@
     "liquid": [
       {
         "config": {
-          "yScale": 3.0,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
+          "aquifers_enabled": false,
           "debug_settings": {
+            "water_state": {
+              "Properties": {
+                "waterlogged": "false",
+                "lit": "false",
+                "candles": "1"
+              },
+              "Name": "minecraft:candle"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
             "air_state": {
               "Properties": {
                 "powered": "false",
@@ -157,6 +201,7 @@
             "inner": 8,
             "type": "minecraft:biased_to_bottom"
           },
+          "yScale": 3.0,
           "vertical_rotation": {
             "type": "minecraft:uniform",
             "value": {
@@ -196,11 +241,25 @@
       },
       {
         "config": {
-          "yScale": 0.5,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
+          "aquifers_enabled": false,
           "debug_settings": {
+            "water_state": {
+              "Properties": {
+                "waterlogged": "false",
+                "lit": "false",
+                "candles": "1"
+              },
+              "Name": "minecraft:candle"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
             "air_state": {
               "Properties": {
                 "powered": "false",
@@ -221,6 +280,7 @@
             "inner": 8,
             "type": "minecraft:biased_to_bottom"
           },
+          "yScale": 0.5,
           "horizontal_radius_multiplier": 1.0,
           "vertical_radius_multiplier": 1.0,
           "floor_level": -0.7
@@ -1695,90 +1755,6 @@
       }
     ],
     [
-      {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "feature": {
-                    "config": {
-                      "can_place_on_wall": true,
-                      "chance_of_spreading": 0.5,
-                      "can_be_placed_on": [
-                        {
-                          "Name": "minecraft:stone"
-                        },
-                        {
-                          "Name": "minecraft:andesite"
-                        },
-                        {
-                          "Name": "minecraft:diorite"
-                        },
-                        {
-                          "Name": "minecraft:granite"
-                        },
-                        {
-                          "Name": "minecraft:dripstone_block"
-                        },
-                        {
-                          "Name": "minecraft:calcite"
-                        },
-                        {
-                          "Name": "minecraft:tuff"
-                        },
-                        {
-                          "Properties": {
-                            "axis": "y"
-                          },
-                          "Name": "minecraft:deepslate"
-                        }
-                      ],
-                      "search_range": 20,
-                      "can_place_on_floor": false,
-                      "can_place_on_ceiling": true
-                    },
-                    "type": "minecraft:glow_lichen"
-                  },
-                  "decorator": {
-                    "config": {},
-                    "type": "minecraft:square"
-                  }
-                },
-                "type": "minecraft:decorated"
-              },
-              "decorator": {
-                "config": {
-                  "height": {
-                    "min_inclusive": {
-                      "above_bottom": 0
-                    },
-                    "max_inclusive": {
-                      "absolute": 54
-                    },
-                    "type": "minecraft:uniform"
-                  }
-                },
-                "type": "minecraft:range"
-              }
-            },
-            "type": "minecraft:decorated"
-          },
-          "decorator": {
-            "config": {
-              "count": {
-                "type": "minecraft:uniform",
-                "value": {
-                  "min_inclusive": 20,
-                  "max_inclusive": 30
-                }
-              }
-            },
-            "type": "minecraft:count"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
       {
         "config": {
           "feature": {

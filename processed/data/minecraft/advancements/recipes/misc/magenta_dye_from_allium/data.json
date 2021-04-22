@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_red_flower": {
+    "has_allium": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_red_flower",
+      "has_allium",
       "has_the_recipe"
     ]
   ],

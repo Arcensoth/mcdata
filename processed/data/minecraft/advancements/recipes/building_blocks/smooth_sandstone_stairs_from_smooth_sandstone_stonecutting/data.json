@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_mossy_cobblestone": {
+    "has_smooth_sandstone": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_mossy_cobblestone",
+      "has_smooth_sandstone",
       "has_the_recipe"
     ]
   ],

@@ -13,7 +13,6 @@ minecraft:delta_feature
 minecraft:desert_well
 minecraft:disk
 minecraft:dripstone_cluster
-minecraft:emerald_ore
 minecraft:end_gateway
 minecraft:end_island
 minecraft:end_spike
@@ -44,6 +43,7 @@ minecraft:ore
 minecraft:random_boolean_selector
 minecraft:random_patch
 minecraft:random_selector
+minecraft:replace_single_block
 minecraft:root_system
 minecraft:scattered_ore
 minecraft:sea_pickle

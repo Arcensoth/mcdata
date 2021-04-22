@@ -1,35 +1,16 @@
 {
-  "ingredients": [
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
-      "item": "minecraft:dried_kelp"
-    },
-    {
+  "key": {
+    "#": {
       "item": "minecraft:dried_kelp"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
     "item": "minecraft:dried_kelp_block"
   },
-  "type": "minecraft:crafting_shapeless"
+  "type": "minecraft:crafting_shaped"
 }

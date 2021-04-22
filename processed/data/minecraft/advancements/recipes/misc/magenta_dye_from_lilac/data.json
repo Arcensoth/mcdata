@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "has_double_plant": {
+    "has_lilac": {
       "conditions": {
         "items": [
           {
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_double_plant",
+      "has_lilac",
       "has_the_recipe"
     ]
   ],

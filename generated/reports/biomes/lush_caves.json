@@ -27,11 +27,25 @@
     "air": [
       {
         "config": {
-          "yScale": 0.5,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
+          "aquifers_enabled": false,
           "debug_settings": {
+            "water_state": {
+              "Properties": {
+                "waterlogged": "false",
+                "lit": "false",
+                "candles": "1"
+              },
+              "Name": "minecraft:candle"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
             "air_state": {
               "Properties": {
                 "powered": "false",
@@ -52,6 +66,7 @@
             "inner": 8,
             "type": "minecraft:biased_to_bottom"
           },
+          "yScale": 0.5,
           "horizontal_radius_multiplier": 1.0,
           "vertical_radius_multiplier": 1.0,
           "floor_level": -0.7
@@ -60,11 +75,25 @@
       },
       {
         "config": {
-          "yScale": 3.0,
           "lava_level": {
-            "above_bottom": 11
+            "above_bottom": 10
           },
+          "aquifers_enabled": false,
           "debug_settings": {
+            "water_state": {
+              "Properties": {
+                "waterlogged": "false",
+                "lit": "false",
+                "candles": "1"
+              },
+              "Name": "minecraft:candle"
+            },
+            "lava_state": {
+              "Name": "minecraft:orange_stained_glass"
+            },
+            "barrier_state": {
+              "Name": "minecraft:glass"
+            },
             "air_state": {
               "Properties": {
                 "powered": "false",
@@ -85,6 +114,7 @@
             "inner": 8,
             "type": "minecraft:biased_to_bottom"
           },
+          "yScale": 3.0,
           "vertical_rotation": {
             "type": "minecraft:uniform",
             "value": {
@@ -1916,7 +1946,7 @@
                               "max_inclusive": 2
                             }
                           },
-                          "replaceable": "minecraft:lush_plants_replaceable",
+                          "replaceable": "minecraft:moss_replaceable",
                           "ground_state": {
                             "state": {
                               "Name": "minecraft:moss_block"
@@ -2773,7 +2803,7 @@
                           },
                           "surface": "floor",
                           "depth": 1,
-                          "replaceable": "minecraft:lush_plants_replaceable",
+                          "replaceable": "minecraft:moss_replaceable",
                           "ground_state": {
                             "state": {
                               "Name": "minecraft:moss_block"
@@ -2836,7 +2866,6 @@
                     "config": {
                       "feature": {
                         "config": {
-                          "hanging_roots_vertical_span": 2,
                           "hanging_root_state_provider": {
                             "state": {
                               "Name": "minecraft:hanging_roots"
@@ -2844,10 +2873,10 @@
                             "type": "minecraft:simple_state_provider"
                           },
                           "hanging_root_placement_attempts": 20,
-                          "root_placement_attempts": 20,
+                          "allowed_vertical_water_for_tree": 3,
                           "root_column_max_height": 100,
                           "hanging_root_radius": 3,
-                          "root_radius": 3,
+                          "hanging_roots_vertical_span": 2,
                           "root_replaceable": "minecraft:lush_ground_replaceable",
                           "root_state_provider": {
                             "state": {
@@ -2855,6 +2884,7 @@
                             },
                             "type": "minecraft:simple_state_provider"
                           },
+                          "root_placement_attempts": 20,
                           "feature": {
                             "config": {
                               "decorators": [],
@@ -2930,7 +2960,8 @@
                             },
                             "type": "minecraft:tree"
                           },
-                          "required_vertical_space_for_tree": 3
+                          "required_vertical_space_for_tree": 3,
+                          "root_radius": 3
                         },
                         "type": "minecraft:root_system"
                       },
