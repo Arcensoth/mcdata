@@ -355,7 +355,6 @@
   "minecraft:amethyst_cluster": {
     "default": {
       "facing": "up",
-      "lit": "true",
       "waterlogged": "false"
     },
     "properties": {
@@ -366,10 +365,6 @@
         "west",
         "up",
         "down"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -5348,8 +5343,15 @@
     }
   },
   "minecraft:hanging_roots": {
-    "default": {},
-    "properties": {}
+    "default": {
+      "waterlogged": "false"
+    },
+    "properties": {
+      "waterlogged": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:hay_block": {
     "default": {
@@ -6049,7 +6051,6 @@
   "minecraft:large_amethyst_bud": {
     "default": {
       "facing": "up",
-      "lit": "true",
       "waterlogged": "false"
     },
     "properties": {
@@ -6060,10 +6061,6 @@
         "west",
         "up",
         "down"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -6993,7 +6990,6 @@
   "minecraft:medium_amethyst_bud": {
     "default": {
       "facing": "up",
-      "lit": "true",
       "waterlogged": "false"
     },
     "properties": {
@@ -7004,10 +7000,6 @@
         "west",
         "up",
         "down"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",
@@ -10448,7 +10440,6 @@
   "minecraft:small_amethyst_bud": {
     "default": {
       "facing": "up",
-      "lit": "true",
       "waterlogged": "false"
     },
     "properties": {
@@ -10459,10 +10450,6 @@
         "west",
         "up",
         "down"
-      ],
-      "lit": [
-        "true",
-        "false"
       ],
       "waterlogged": [
         "true",

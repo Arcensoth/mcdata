@@ -386,7 +386,6 @@
                           {
                             "Properties": {
                               "waterlogged": "false",
-                              "lit": "true",
                               "facing": "up"
                             },
                             "Name": "minecraft:small_amethyst_bud"
@@ -394,7 +393,6 @@
                           {
                             "Properties": {
                               "waterlogged": "false",
-                              "lit": "true",
                               "facing": "up"
                             },
                             "Name": "minecraft:medium_amethyst_bud"
@@ -402,7 +400,6 @@
                           {
                             "Properties": {
                               "waterlogged": "false",
-                              "lit": "true",
                               "facing": "up"
                             },
                             "Name": "minecraft:large_amethyst_bud"
@@ -410,7 +407,6 @@
                           {
                             "Properties": {
                               "waterlogged": "false",
-                              "lit": "true",
                               "facing": "up"
                             },
                             "Name": "minecraft:amethyst_cluster"
@@ -942,11 +938,20 @@
                       "targets": [
                         {
                           "target": {
-                            "tag": "minecraft:base_stone_overworld",
+                            "tag": "minecraft:stone_ore_replaceables",
                             "predicate_type": "minecraft:tag_match"
                           },
                           "state": {
                             "Name": "minecraft:coal_ore"
+                          }
+                        },
+                        {
+                          "target": {
+                            "tag": "minecraft:deepslate_ore_replaceables",
+                            "predicate_type": "minecraft:tag_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:deepslate_coal_ore"
                           }
                         }
                       ],
@@ -1313,11 +1318,20 @@
                       "targets": [
                         {
                           "target": {
-                            "tag": "minecraft:base_stone_overworld",
+                            "tag": "minecraft:stone_ore_replaceables",
                             "predicate_type": "minecraft:tag_match"
                           },
                           "state": {
                             "Name": "minecraft:copper_ore"
+                          }
+                        },
+                        {
+                          "target": {
+                            "tag": "minecraft:deepslate_ore_replaceables",
+                            "predicate_type": "minecraft:tag_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:deepslate_copper_ore"
                           }
                         }
                       ],

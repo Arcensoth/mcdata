@@ -7411,10 +7411,10 @@
           "children": {
             "distance": {
               "type": "argument",
-              "parser": "brigadier:float",
+              "parser": "brigadier:double",
               "properties": {
-                "min": -6.0E7,
-                "max": 6.0E7
+                "min": -5.9999968E7,
+                "max": 5.9999968E7
               },
               "children": {
                 "time": {
@@ -7435,10 +7435,10 @@
           "children": {
             "distance": {
               "type": "argument",
-              "parser": "brigadier:float",
+              "parser": "brigadier:double",
               "properties": {
-                "min": -6.0E7,
-                "max": 6.0E7
+                "min": -5.9999968E7,
+                "max": 5.9999968E7
               },
               "children": {
                 "time": {

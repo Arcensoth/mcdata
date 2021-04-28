@@ -1,10 +1,10 @@
 {
   "criteria": {
-    "has_mossy_cobblestone": {
+    "has_moss_block": {
       "conditions": {
         "items": [
           {
-            "item": "minecraft:mossy_cobblestone"
+            "item": "minecraft:moss_block"
           }
         ]
       },
@@ -20,7 +20,7 @@
   "parent": "minecraft:recipes/root",
   "requirements": [
     [
-      "has_mossy_cobblestone",
+      "has_moss_block",
       "has_the_recipe"
     ]
   ],

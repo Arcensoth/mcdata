@@ -5,8 +5,9 @@
     }
   },
   "pattern": [
-    "##",
-    "##"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
     "item": "minecraft:copper_block"

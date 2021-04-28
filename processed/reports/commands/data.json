@@ -7597,10 +7597,10 @@
                 }
               },
               "executable": true,
-              "parser": "brigadier:float",
+              "parser": "brigadier:double",
               "properties": {
-                "max": 60000000.0,
-                "min": -60000000.0
+                "max": 59999968.0,
+                "min": -59999968.0
               },
               "type": "argument"
             }
@@ -7666,10 +7666,10 @@
                 }
               },
               "executable": true,
-              "parser": "brigadier:float",
+              "parser": "brigadier:double",
               "properties": {
-                "max": 60000000.0,
-                "min": -60000000.0
+                "max": 59999968.0,
+                "min": -59999968.0
               },
               "type": "argument"
             }
