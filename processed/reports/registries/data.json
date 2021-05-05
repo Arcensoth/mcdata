@@ -4765,7 +4765,7 @@
         "protocol_id": 554
       },
       "minecraft:deepslate_brick_stairs": {
-        "protocol_id": 538
+        "protocol_id": 537
       },
       "minecraft:deepslate_brick_wall": {
         "protocol_id": 315
@@ -4801,7 +4801,7 @@
         "protocol_id": 555
       },
       "minecraft:deepslate_tile_stairs": {
-        "protocol_id": 537
+        "protocol_id": 538
       },
       "minecraft:deepslate_tile_wall": {
         "protocol_id": 316

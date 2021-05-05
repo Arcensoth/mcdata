@@ -8610,10 +8610,10 @@
       "minecraft:polished_deepslate_stairs": {
         "protocol_id": 536
       },
-      "minecraft:deepslate_tile_stairs": {
+      "minecraft:deepslate_brick_stairs": {
         "protocol_id": 537
       },
-      "minecraft:deepslate_brick_stairs": {
+      "minecraft:deepslate_tile_stairs": {
         "protocol_id": 538
       },
       "minecraft:polished_granite_slab": {

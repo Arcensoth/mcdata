@@ -105,19 +105,19 @@
               "effects": [
                 {
                   "duration": {
-                    "max": 10.0,
-                    "min": 7.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "type": "minecraft:night_vision"
-                },
-                {
-                  "duration": {
                     "max": 20.0,
                     "min": 10.0,
                     "type": "minecraft:uniform"
                   },
                   "type": "minecraft:poison"
+                },
+                {
+                  "duration": {
+                    "max": 10.0,
+                    "min": 7.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "type": "minecraft:night_vision"
                 },
                 {
                   "duration": {
