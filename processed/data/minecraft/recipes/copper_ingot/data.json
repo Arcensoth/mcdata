@@ -1,4 +1,5 @@
 {
+  "group": "copper_ingot",
   "ingredients": [
     {
       "item": "minecraft:copper_block"

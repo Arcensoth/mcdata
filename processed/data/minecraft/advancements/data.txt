@@ -576,7 +576,6 @@ minecraft:recipes/decorations/birch_sign
 minecraft:recipes/decorations/black_banner
 minecraft:recipes/decorations/black_bed
 minecraft:recipes/decorations/black_bed_from_white_bed
-minecraft:recipes/decorations/black_candle
 minecraft:recipes/decorations/black_carpet
 minecraft:recipes/decorations/black_carpet_from_white_carpet
 minecraft:recipes/decorations/black_glazed_terracotta
@@ -588,7 +587,6 @@ minecraft:recipes/decorations/blast_furnace
 minecraft:recipes/decorations/blue_banner
 minecraft:recipes/decorations/blue_bed
 minecraft:recipes/decorations/blue_bed_from_white_bed
-minecraft:recipes/decorations/blue_candle
 minecraft:recipes/decorations/blue_carpet
 minecraft:recipes/decorations/blue_carpet_from_white_carpet
 minecraft:recipes/decorations/blue_glazed_terracotta
@@ -599,14 +597,12 @@ minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting
 minecraft:recipes/decorations/brown_banner
 minecraft:recipes/decorations/brown_bed
 minecraft:recipes/decorations/brown_bed_from_white_bed
-minecraft:recipes/decorations/brown_candle
 minecraft:recipes/decorations/brown_carpet
 minecraft:recipes/decorations/brown_carpet_from_white_carpet
 minecraft:recipes/decorations/brown_glazed_terracotta
 minecraft:recipes/decorations/brown_stained_glass_pane
 minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane
 minecraft:recipes/decorations/campfire
-minecraft:recipes/decorations/candle
 minecraft:recipes/decorations/cartography_table
 minecraft:recipes/decorations/chain
 minecraft:recipes/decorations/chest
@@ -621,7 +617,6 @@ minecraft:recipes/decorations/crimson_sign
 minecraft:recipes/decorations/cyan_banner
 minecraft:recipes/decorations/cyan_bed
 minecraft:recipes/decorations/cyan_bed_from_white_bed
-minecraft:recipes/decorations/cyan_candle
 minecraft:recipes/decorations/cyan_carpet
 minecraft:recipes/decorations/cyan_carpet_from_white_carpet
 minecraft:recipes/decorations/cyan_glazed_terracotta
@@ -657,7 +652,6 @@ minecraft:recipes/decorations/granite_wall_from_granite_stonecutting
 minecraft:recipes/decorations/gray_banner
 minecraft:recipes/decorations/gray_bed
 minecraft:recipes/decorations/gray_bed_from_white_bed
-minecraft:recipes/decorations/gray_candle
 minecraft:recipes/decorations/gray_carpet
 minecraft:recipes/decorations/gray_carpet_from_white_carpet
 minecraft:recipes/decorations/gray_glazed_terracotta
@@ -666,7 +660,6 @@ minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane
 minecraft:recipes/decorations/green_banner
 minecraft:recipes/decorations/green_bed
 minecraft:recipes/decorations/green_bed_from_white_bed
-minecraft:recipes/decorations/green_candle
 minecraft:recipes/decorations/green_carpet
 minecraft:recipes/decorations/green_carpet_from_white_carpet
 minecraft:recipes/decorations/green_glazed_terracotta
@@ -684,7 +677,6 @@ minecraft:recipes/decorations/lantern
 minecraft:recipes/decorations/light_blue_banner
 minecraft:recipes/decorations/light_blue_bed
 minecraft:recipes/decorations/light_blue_bed_from_white_bed
-minecraft:recipes/decorations/light_blue_candle
 minecraft:recipes/decorations/light_blue_carpet
 minecraft:recipes/decorations/light_blue_carpet_from_white_carpet
 minecraft:recipes/decorations/light_blue_glazed_terracotta
@@ -693,7 +685,6 @@ minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane
 minecraft:recipes/decorations/light_gray_banner
 minecraft:recipes/decorations/light_gray_bed
 minecraft:recipes/decorations/light_gray_bed_from_white_bed
-minecraft:recipes/decorations/light_gray_candle
 minecraft:recipes/decorations/light_gray_carpet
 minecraft:recipes/decorations/light_gray_carpet_from_white_carpet
 minecraft:recipes/decorations/light_gray_glazed_terracotta
@@ -702,7 +693,6 @@ minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane
 minecraft:recipes/decorations/lime_banner
 minecraft:recipes/decorations/lime_bed
 minecraft:recipes/decorations/lime_bed_from_white_bed
-minecraft:recipes/decorations/lime_candle
 minecraft:recipes/decorations/lime_carpet
 minecraft:recipes/decorations/lime_carpet_from_white_carpet
 minecraft:recipes/decorations/lime_glazed_terracotta
@@ -713,7 +703,6 @@ minecraft:recipes/decorations/loom
 minecraft:recipes/decorations/magenta_banner
 minecraft:recipes/decorations/magenta_bed
 minecraft:recipes/decorations/magenta_bed_from_white_bed
-minecraft:recipes/decorations/magenta_candle
 minecraft:recipes/decorations/magenta_carpet
 minecraft:recipes/decorations/magenta_carpet_from_white_carpet
 minecraft:recipes/decorations/magenta_glazed_terracotta
@@ -732,7 +721,6 @@ minecraft:recipes/decorations/oak_sign
 minecraft:recipes/decorations/orange_banner
 minecraft:recipes/decorations/orange_bed
 minecraft:recipes/decorations/orange_bed_from_white_bed
-minecraft:recipes/decorations/orange_candle
 minecraft:recipes/decorations/orange_carpet
 minecraft:recipes/decorations/orange_carpet_from_white_carpet
 minecraft:recipes/decorations/orange_glazed_terracotta
@@ -742,7 +730,6 @@ minecraft:recipes/decorations/painting
 minecraft:recipes/decorations/pink_banner
 minecraft:recipes/decorations/pink_bed
 minecraft:recipes/decorations/pink_bed_from_white_bed
-minecraft:recipes/decorations/pink_candle
 minecraft:recipes/decorations/pink_carpet
 minecraft:recipes/decorations/pink_carpet_from_white_carpet
 minecraft:recipes/decorations/pink_glazed_terracotta
@@ -763,7 +750,6 @@ minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting
 minecraft:recipes/decorations/purple_banner
 minecraft:recipes/decorations/purple_bed
 minecraft:recipes/decorations/purple_bed_from_white_bed
-minecraft:recipes/decorations/purple_candle
 minecraft:recipes/decorations/purple_carpet
 minecraft:recipes/decorations/purple_carpet_from_white_carpet
 minecraft:recipes/decorations/purple_glazed_terracotta
@@ -772,7 +758,6 @@ minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane
 minecraft:recipes/decorations/red_banner
 minecraft:recipes/decorations/red_bed
 minecraft:recipes/decorations/red_bed_from_white_bed
-minecraft:recipes/decorations/red_candle
 minecraft:recipes/decorations/red_carpet
 minecraft:recipes/decorations/red_carpet_from_white_carpet
 minecraft:recipes/decorations/red_glazed_terracotta
@@ -804,7 +789,6 @@ minecraft:recipes/decorations/warped_fence
 minecraft:recipes/decorations/warped_sign
 minecraft:recipes/decorations/white_banner
 minecraft:recipes/decorations/white_bed
-minecraft:recipes/decorations/white_candle
 minecraft:recipes/decorations/white_carpet
 minecraft:recipes/decorations/white_glazed_terracotta
 minecraft:recipes/decorations/white_stained_glass_pane
@@ -812,7 +796,6 @@ minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane
 minecraft:recipes/decorations/yellow_banner
 minecraft:recipes/decorations/yellow_bed
 minecraft:recipes/decorations/yellow_bed_from_white_bed
-minecraft:recipes/decorations/yellow_candle
 minecraft:recipes/decorations/yellow_carpet
 minecraft:recipes/decorations/yellow_carpet_from_white_carpet
 minecraft:recipes/decorations/yellow_glazed_terracotta
@@ -1060,7 +1043,6 @@ minecraft:recipes/redstone/warped_fence_gate
 minecraft:recipes/redstone/warped_pressure_plate
 minecraft:recipes/redstone/warped_trapdoor
 minecraft:recipes/root
-minecraft:recipes/tools/bundle
 minecraft:recipes/tools/clock
 minecraft:recipes/tools/compass
 minecraft:recipes/tools/diamond_axe
