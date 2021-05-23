@@ -278,61 +278,7 @@
         "type": "minecraft:decorated"
       }
     ],
-    [],
     [
-      {
-        "config": {
-          "feature": {
-            "config": {
-              "fossil_processors": {
-                "processors": [
-                  {
-                    "integrity": 0.9,
-                    "processor_type": "minecraft:block_rot"
-                  }
-                ]
-              },
-              "overlay_processors": {
-                "processors": [
-                  {
-                    "integrity": 0.1,
-                    "processor_type": "minecraft:block_rot"
-                  }
-                ]
-              },
-              "max_empty_corners_allowed": 4,
-              "fossil_structures": [
-                "minecraft:fossil/spine_1",
-                "minecraft:fossil/spine_2",
-                "minecraft:fossil/spine_3",
-                "minecraft:fossil/spine_4",
-                "minecraft:fossil/skull_1",
-                "minecraft:fossil/skull_2",
-                "minecraft:fossil/skull_3",
-                "minecraft:fossil/skull_4"
-              ],
-              "overlay_structures": [
-                "minecraft:fossil/spine_1_coal",
-                "minecraft:fossil/spine_2_coal",
-                "minecraft:fossil/spine_3_coal",
-                "minecraft:fossil/spine_4_coal",
-                "minecraft:fossil/skull_1_coal",
-                "minecraft:fossil/skull_2_coal",
-                "minecraft:fossil/skull_3_coal",
-                "minecraft:fossil/skull_4_coal"
-              ]
-            },
-            "type": "minecraft:fossil"
-          },
-          "decorator": {
-            "config": {
-              "chance": 64
-            },
-            "type": "minecraft:chance"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
       {
         "config": {
           "feature": {
@@ -412,6 +358,7 @@
                             "Name": "minecraft:amethyst_cluster"
                           }
                         ],
+                        "cannot_replace": "minecraft:features_cannot_replace",
                         "filling_provider": {
                           "state": {
                             "Name": "minecraft:air"
@@ -471,7 +418,66 @@
           },
           "decorator": {
             "config": {
-              "chance": 30
+              "chance": 53
+            },
+            "type": "minecraft:chance"
+          }
+        },
+        "type": "minecraft:decorated"
+      }
+    ],
+    [
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "fossil_processors": {
+                "processors": [
+                  {
+                    "integrity": 0.9,
+                    "processor_type": "minecraft:block_rot"
+                  },
+                  {
+                    "processor_type": "minecraft:protected_blocks",
+                    "value": "minecraft:features_cannot_replace"
+                  }
+                ]
+              },
+              "overlay_processors": {
+                "processors": [
+                  {
+                    "integrity": 0.1,
+                    "processor_type": "minecraft:block_rot"
+                  }
+                ]
+              },
+              "max_empty_corners_allowed": 4,
+              "fossil_structures": [
+                "minecraft:fossil/spine_1",
+                "minecraft:fossil/spine_2",
+                "minecraft:fossil/spine_3",
+                "minecraft:fossil/spine_4",
+                "minecraft:fossil/skull_1",
+                "minecraft:fossil/skull_2",
+                "minecraft:fossil/skull_3",
+                "minecraft:fossil/skull_4"
+              ],
+              "overlay_structures": [
+                "minecraft:fossil/spine_1_coal",
+                "minecraft:fossil/spine_2_coal",
+                "minecraft:fossil/spine_3_coal",
+                "minecraft:fossil/spine_4_coal",
+                "minecraft:fossil/skull_1_coal",
+                "minecraft:fossil/skull_2_coal",
+                "minecraft:fossil/skull_3_coal",
+                "minecraft:fossil/skull_4_coal"
+              ]
+            },
+            "type": "minecraft:fossil"
+          },
+          "decorator": {
+            "config": {
+              "chance": 64
             },
             "type": "minecraft:chance"
           }

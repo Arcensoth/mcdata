@@ -9854,6 +9854,9 @@
       "minecraft:block.sweet_berry_bush.break": {
         "protocol_id": 1018
       },
+      "minecraft:block.sweet_berry_bush.pick_berries": {
+        "protocol_id": 1020
+      },
       "minecraft:block.sweet_berry_bush.place": {
         "protocol_id": 1019
       },
@@ -11966,9 +11969,6 @@
       "minecraft:item.spyglass.use": {
         "protocol_id": 999
       },
-      "minecraft:item.sweet_berries.pick_from_bush": {
-        "protocol_id": 1020
-      },
       "minecraft:item.totem.use": {
         "protocol_id": 1023
       },
@@ -12890,6 +12890,9 @@
       },
       "minecraft:nop": {
         "protocol_id": 5
+      },
+      "minecraft:protected_blocks": {
+        "protocol_id": 9
       },
       "minecraft:rule": {
         "protocol_id": 4

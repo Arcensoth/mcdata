@@ -6,4 +6,5 @@ minecraft:gravity
 minecraft:jigsaw_replacement
 minecraft:lava_submerged_block
 minecraft:nop
+minecraft:protected_blocks
 minecraft:rule

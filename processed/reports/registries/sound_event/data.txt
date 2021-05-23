@@ -437,6 +437,7 @@ minecraft:block.stone_button.click_on
 minecraft:block.stone_pressure_plate.click_off
 minecraft:block.stone_pressure_plate.click_on
 minecraft:block.sweet_berry_bush.break
+minecraft:block.sweet_berry_bush.pick_berries
 minecraft:block.sweet_berry_bush.place
 minecraft:block.tripwire.attach
 minecraft:block.tripwire.click_off
@@ -1141,7 +1142,6 @@ minecraft:item.shield.break
 minecraft:item.shovel.flatten
 minecraft:item.spyglass.stop_using
 minecraft:item.spyglass.use
-minecraft:item.sweet_berries.pick_from_bush
 minecraft:item.totem.use
 minecraft:item.trident.hit
 minecraft:item.trident.hit_ground

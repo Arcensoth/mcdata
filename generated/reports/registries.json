@@ -3203,7 +3203,7 @@
       "minecraft:block.sweet_berry_bush.place": {
         "protocol_id": 1019
       },
-      "minecraft:item.sweet_berries.pick_from_bush": {
+      "minecraft:block.sweet_berry_bush.pick_berries": {
         "protocol_id": 1020
       },
       "minecraft:enchant.thorns.hit": {
@@ -12970,6 +12970,9 @@
       },
       "minecraft:lava_submerged_block": {
         "protocol_id": 8
+      },
+      "minecraft:protected_blocks": {
+        "protocol_id": 9
       }
     }
   },

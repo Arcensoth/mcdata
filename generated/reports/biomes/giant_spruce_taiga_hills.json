@@ -283,53 +283,6 @@
             "config": {
               "feature": {
                 "config": {
-                  "state": {
-                    "Name": "minecraft:mossy_cobblestone"
-                  }
-                },
-                "type": "minecraft:forest_rock"
-              },
-              "decorator": {
-                "config": {
-                  "outer": {
-                    "config": {},
-                    "type": "minecraft:square"
-                  },
-                  "inner": {
-                    "config": {
-                      "heightmap": "MOTION_BLOCKING"
-                    },
-                    "type": "minecraft:heightmap"
-                  }
-                },
-                "type": "minecraft:decorated"
-              }
-            },
-            "type": "minecraft:decorated"
-          },
-          "decorator": {
-            "config": {
-              "count": {
-                "type": "minecraft:uniform",
-                "value": {
-                  "min_inclusive": 0,
-                  "max_inclusive": 2
-                }
-              }
-            },
-            "type": "minecraft:count"
-          }
-        },
-        "type": "minecraft:decorated"
-      }
-    ],
-    [
-      {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
                   "feature": {
                     "config": {
                       "min_gen_offset": -16,
@@ -403,6 +356,7 @@
                             "Name": "minecraft:amethyst_cluster"
                           }
                         ],
+                        "cannot_replace": "minecraft:features_cannot_replace",
                         "filling_provider": {
                           "state": {
                             "Name": "minecraft:air"
@@ -462,13 +416,60 @@
           },
           "decorator": {
             "config": {
-              "chance": 30
+              "chance": 53
             },
             "type": "minecraft:chance"
           }
         },
         "type": "minecraft:decorated"
       },
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "state": {
+                    "Name": "minecraft:mossy_cobblestone"
+                  }
+                },
+                "type": "minecraft:forest_rock"
+              },
+              "decorator": {
+                "config": {
+                  "outer": {
+                    "config": {},
+                    "type": "minecraft:square"
+                  },
+                  "inner": {
+                    "config": {
+                      "heightmap": "MOTION_BLOCKING"
+                    },
+                    "type": "minecraft:heightmap"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {
+              "count": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 2
+                }
+              }
+            },
+            "type": "minecraft:count"
+          }
+        },
+        "type": "minecraft:decorated"
+      }
+    ],
+    [
       {
         "config": {
           "feature": {

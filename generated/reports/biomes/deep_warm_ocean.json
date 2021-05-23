@@ -402,7 +402,6 @@
         "type": "minecraft:decorated"
       }
     ],
-    [],
     [
       {
         "config": {
@@ -483,6 +482,7 @@
                             "Name": "minecraft:amethyst_cluster"
                           }
                         ],
+                        "cannot_replace": "minecraft:features_cannot_replace",
                         "filling_provider": {
                           "state": {
                             "Name": "minecraft:air"
@@ -542,13 +542,15 @@
           },
           "decorator": {
             "config": {
-              "chance": 30
+              "chance": 53
             },
             "type": "minecraft:chance"
           }
         },
         "type": "minecraft:decorated"
-      },
+      }
+    ],
+    [
       {
         "config": {
           "feature": {

@@ -3230,6 +3230,7 @@
       "minecraft:cauldrons",
       "minecraft:pressure_plates",
       "minecraft:anvil",
+      "minecraft:features_cannot_replace",
       "minecraft:impermeable",
       "minecraft:base_stone_nether",
       "minecraft:coral_plants",
