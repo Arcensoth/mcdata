@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bone_meal"
+            "items": [
+              "minecraft:bone_meal"
+            ]
           }
         ]
       },

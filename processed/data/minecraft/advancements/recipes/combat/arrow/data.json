@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:feather"
+            "items": [
+              "minecraft:feather"
+            ]
           }
         ]
       },
@@ -14,7 +16,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:flint"
+            "items": [
+              "minecraft:flint"
+            ]
           }
         ]
       },

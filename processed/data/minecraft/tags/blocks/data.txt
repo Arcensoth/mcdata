@@ -40,6 +40,7 @@ minecraft:fences
 minecraft:fire
 minecraft:flower_pots
 minecraft:flowers
+minecraft:geode_invalid_blocks
 minecraft:gold_ores
 minecraft:guarded_by_piglins
 minecraft:hoglin_repellents
@@ -52,6 +53,7 @@ minecraft:inside_step_sound_blocks
 minecraft:iron_ores
 minecraft:jungle_logs
 minecraft:lapis_ores
+minecraft:lava_pool_stone_replaceables
 minecraft:leaves
 minecraft:logs
 minecraft:logs_that_burn

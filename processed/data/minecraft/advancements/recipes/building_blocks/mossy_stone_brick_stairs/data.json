@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:mossy_stone_bricks"
+            "items": [
+              "minecraft:mossy_stone_bricks"
+            ]
           }
         ]
       },

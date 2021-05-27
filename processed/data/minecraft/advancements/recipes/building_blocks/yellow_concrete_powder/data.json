@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:gravel"
+            "items": [
+              "minecraft:gravel"
+            ]
           }
         ]
       },
@@ -14,7 +16,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sand"
+            "items": [
+              "minecraft:sand"
+            ]
           }
         ]
       },

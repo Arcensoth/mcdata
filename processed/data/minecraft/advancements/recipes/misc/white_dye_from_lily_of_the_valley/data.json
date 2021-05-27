@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:lily_of_the_valley"
+            "items": [
+              "minecraft:lily_of_the_valley"
+            ]
           }
         ]
       },

@@ -558,6 +558,7 @@ minecraft:blocks/poppy
 minecraft:blocks/potatoes
 minecraft:blocks/potted_acacia_sapling
 minecraft:blocks/potted_allium
+minecraft:blocks/potted_azalea_bush
 minecraft:blocks/potted_azure_bluet
 minecraft:blocks/potted_bamboo
 minecraft:blocks/potted_birch_sapling
@@ -571,6 +572,7 @@ minecraft:blocks/potted_dandelion
 minecraft:blocks/potted_dark_oak_sapling
 minecraft:blocks/potted_dead_bush
 minecraft:blocks/potted_fern
+minecraft:blocks/potted_flowering_azalea_bush
 minecraft:blocks/potted_jungle_sapling
 minecraft:blocks/potted_lily_of_the_valley
 minecraft:blocks/potted_oak_sapling

@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:red_sand"
+            "items": [
+              "minecraft:red_sand"
+            ]
           }
         ]
       },

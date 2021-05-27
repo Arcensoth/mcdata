@@ -8938,6 +8938,10 @@
     "default": {},
     "properties": {}
   },
+  "minecraft:potted_azalea_bush": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:potted_azure_bluet": {
     "default": {},
     "properties": {}
@@ -8987,6 +8991,10 @@
     "properties": {}
   },
   "minecraft:potted_fern": {
+    "default": {},
+    "properties": {}
+  },
+  "minecraft:potted_flowering_azalea_bush": {
     "default": {},
     "properties": {}
   },

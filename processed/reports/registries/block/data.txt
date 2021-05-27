@@ -603,6 +603,7 @@ minecraft:poppy
 minecraft:potatoes
 minecraft:potted_acacia_sapling
 minecraft:potted_allium
+minecraft:potted_azalea_bush
 minecraft:potted_azure_bluet
 minecraft:potted_bamboo
 minecraft:potted_birch_sapling
@@ -616,6 +617,7 @@ minecraft:potted_dandelion
 minecraft:potted_dark_oak_sapling
 minecraft:potted_dead_bush
 minecraft:potted_fern
+minecraft:potted_flowering_azalea_bush
 minecraft:potted_jungle_sapling
 minecraft:potted_lily_of_the_valley
 minecraft:potted_oak_sapling

@@ -294,6 +294,7 @@
                             }
                           }
                         ],
+                        "invalid_blocks": "minecraft:geode_invalid_blocks",
                         "middle_layer_provider": {
                           "state": {
                             "Name": "minecraft:calcite"
@@ -398,6 +399,10 @@
                   {
                     "integrity": 0.1,
                     "processor_type": "minecraft:block_rot"
+                  },
+                  {
+                    "processor_type": "minecraft:protected_blocks",
+                    "value": "minecraft:features_cannot_replace"
                   }
                 ]
               },

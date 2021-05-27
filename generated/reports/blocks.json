@@ -204462,5 +204462,21 @@
         "default": true
       }
     ]
+  },
+  "minecraft:potted_azalea_bush": {
+    "states": [
+      {
+        "id": 20340,
+        "default": true
+      }
+    ]
+  },
+  "minecraft:potted_flowering_azalea_bush": {
+    "states": [
+      {
+        "id": 20341,
+        "default": true
+      }
+    ]
   }
 }

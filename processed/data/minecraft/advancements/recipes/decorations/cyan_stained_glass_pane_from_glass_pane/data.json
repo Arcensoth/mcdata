@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:cyan_dye"
+            "items": [
+              "minecraft:cyan_dye"
+            ]
           }
         ]
       },
@@ -14,7 +16,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:glass_pane"
+            "items": [
+              "minecraft:glass_pane"
+            ]
           }
         ]
       },

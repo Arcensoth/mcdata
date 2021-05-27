@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:light_gray_wool"
+            "items": [
+              "minecraft:light_gray_wool"
+            ]
           }
         ]
       },

@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:polished_blackstone_slab"
+            "items": [
+              "minecraft:polished_blackstone_slab"
+            ]
           }
         ]
       },

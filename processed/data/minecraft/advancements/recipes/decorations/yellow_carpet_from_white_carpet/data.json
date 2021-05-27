@@ -10,7 +10,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:white_carpet"
+            "items": [
+              "minecraft:white_carpet"
+            ]
           }
         ]
       },
@@ -20,7 +22,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:yellow_dye"
+            "items": [
+              "minecraft:yellow_dye"
+            ]
           }
         ]
       },

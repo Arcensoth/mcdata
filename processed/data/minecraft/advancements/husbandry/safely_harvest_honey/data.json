@@ -3,7 +3,9 @@
     "safely_harvest_honey": {
       "conditions": {
         "item": {
-          "item": "minecraft:glass_bottle"
+          "items": [
+            "minecraft:glass_bottle"
+          ]
         },
         "location": {
           "block": {

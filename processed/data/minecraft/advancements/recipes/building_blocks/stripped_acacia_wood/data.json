@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_acacia_log"
+            "items": [
+              "minecraft:stripped_acacia_log"
+            ]
           }
         ]
       },

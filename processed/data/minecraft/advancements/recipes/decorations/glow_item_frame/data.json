@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:glow_ink_sac"
+            "items": [
+              "minecraft:glow_ink_sac"
+            ]
           }
         ]
       },
@@ -14,7 +16,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:item_frame"
+            "items": [
+              "minecraft:item_frame"
+            ]
           }
         ]
       },

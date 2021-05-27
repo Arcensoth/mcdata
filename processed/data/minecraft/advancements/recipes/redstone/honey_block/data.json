@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:honey_bottle"
+            "items": [
+              "minecraft:honey_bottle"
+            ]
           }
         ]
       },

@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherite_block"
+            "items": [
+              "minecraft:netherite_block"
+            ]
           }
         ]
       },

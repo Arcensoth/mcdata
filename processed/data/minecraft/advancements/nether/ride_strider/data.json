@@ -3,7 +3,9 @@
     "used_warped_fungus_on_a_stick": {
       "conditions": {
         "item": {
-          "item": "minecraft:warped_fungus_on_a_stick"
+          "items": [
+            "minecraft:warped_fungus_on_a_stick"
+          ]
         },
         "player": [
           {

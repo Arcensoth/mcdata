@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_block"
+            "items": [
+              "minecraft:diamond_block"
+            ]
           }
         ]
       },

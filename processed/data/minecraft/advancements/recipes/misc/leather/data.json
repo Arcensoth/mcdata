@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:rabbit_hide"
+            "items": [
+              "minecraft:rabbit_hide"
+            ]
           }
         ]
       },

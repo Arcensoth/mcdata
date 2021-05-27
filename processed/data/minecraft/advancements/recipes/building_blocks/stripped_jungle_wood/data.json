@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stripped_jungle_log"
+            "items": [
+              "minecraft:stripped_jungle_log"
+            ]
           }
         ]
       },

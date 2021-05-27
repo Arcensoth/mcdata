@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:cut_red_sandstone"
+            "items": [
+              "minecraft:cut_red_sandstone"
+            ]
           }
         ]
       },

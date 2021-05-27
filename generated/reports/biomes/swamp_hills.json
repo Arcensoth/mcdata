@@ -316,12 +316,6 @@
                       "use_alternate_layer0_chance": 0.083,
                       "placements_require_layer0_alternate": true,
                       "blocks": {
-                        "middle_layer_provider": {
-                          "state": {
-                            "Name": "minecraft:calcite"
-                          },
-                          "type": "minecraft:simple_state_provider"
-                        },
                         "outer_layer_provider": {
                           "state": {
                             "Name": "minecraft:smooth_basalt"
@@ -359,6 +353,7 @@
                           }
                         ],
                         "cannot_replace": "minecraft:features_cannot_replace",
+                        "invalid_blocks": "minecraft:geode_invalid_blocks",
                         "filling_provider": {
                           "state": {
                             "Name": "minecraft:air"
@@ -374,6 +369,12 @@
                         "alternate_inner_layer_provider": {
                           "state": {
                             "Name": "minecraft:budding_amethyst"
+                          },
+                          "type": "minecraft:simple_state_provider"
+                        },
+                        "middle_layer_provider": {
+                          "state": {
+                            "Name": "minecraft:calcite"
                           },
                           "type": "minecraft:simple_state_provider"
                         }
@@ -491,6 +492,10 @@
                   {
                     "integrity": 0.1,
                     "processor_type": "minecraft:block_rot"
+                  },
+                  {
+                    "processor_type": "minecraft:protected_blocks",
+                    "value": "minecraft:features_cannot_replace"
                   }
                 ]
               },
@@ -1709,6 +1714,31 @@
                             "upper_size": 1,
                             "type": "minecraft:two_layers_feature_size"
                           },
+                          "foliage_provider": {
+                            "state": {
+                              "Properties": {
+                                "persistent": "false",
+                                "distance": "7"
+                              },
+                              "Name": "minecraft:oak_leaves"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "sapling_provider": {
+                            "state": {
+                              "Properties": {
+                                "stage": "0"
+                              },
+                              "Name": "minecraft:oak_sapling"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
+                          "foliage_placer": {
+                            "radius": 3,
+                            "offset": 0,
+                            "height": 3,
+                            "type": "minecraft:blob_foliage_placer"
+                          },
                           "trunk_provider": {
                             "state": {
                               "Properties": {
@@ -1723,22 +1753,6 @@
                             "height_rand_a": 3,
                             "height_rand_b": 0,
                             "type": "minecraft:straight_trunk_placer"
-                          },
-                          "foliage_provider": {
-                            "state": {
-                              "Properties": {
-                                "persistent": "false",
-                                "distance": "7"
-                              },
-                              "Name": "minecraft:oak_leaves"
-                            },
-                            "type": "minecraft:simple_state_provider"
-                          },
-                          "foliage_placer": {
-                            "radius": 3,
-                            "offset": 0,
-                            "height": 3,
-                            "type": "minecraft:blob_foliage_placer"
                           }
                         },
                         "type": "minecraft:tree"

@@ -3,11 +3,15 @@
     "use_lodestone": {
       "conditions": {
         "item": {
-          "item": "minecraft:compass"
+          "items": [
+            "minecraft:compass"
+          ]
         },
         "location": {
           "block": {
-            "block": "minecraft:lodestone"
+            "blocks": [
+              "minecraft:lodestone"
+            ]
           }
         }
       },

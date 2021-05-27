@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:raw_gold"
+            "items": [
+              "minecraft:raw_gold"
+            ]
           }
         ]
       },

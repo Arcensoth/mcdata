@@ -344,6 +344,7 @@
                             }
                           }
                         ],
+                        "invalid_blocks": "minecraft:geode_invalid_blocks",
                         "middle_layer_provider": {
                           "state": {
                             "Name": "minecraft:calcite"
@@ -1850,6 +1851,15 @@
                         "type": "minecraft:two_layers_feature_size",
                         "upper_size": 1
                       },
+                      "sapling_provider": {
+                        "state": {
+                          "Name": "minecraft:oak_sapling",
+                          "Properties": {
+                            "stage": "0"
+                          }
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
                       "trunk_placer": {
                         "base_height": 4,
                         "height_rand_a": 2,
@@ -1902,6 +1912,15 @@
                             "lower_size": 0,
                             "type": "minecraft:two_layers_feature_size",
                             "upper_size": 2
+                          },
+                          "sapling_provider": {
+                            "state": {
+                              "Name": "minecraft:acacia_sapling",
+                              "Properties": {
+                                "stage": "0"
+                              }
+                            },
+                            "type": "minecraft:simple_state_provider"
                           },
                           "trunk_placer": {
                             "base_height": 5,

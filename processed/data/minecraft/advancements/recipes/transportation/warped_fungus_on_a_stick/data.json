@@ -10,7 +10,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:warped_fungus"
+            "items": [
+              "minecraft:warped_fungus"
+            ]
           }
         ]
       },

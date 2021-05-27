@@ -10,7 +10,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:weathered_cut_copper_stairs"
+            "items": [
+              "minecraft:weathered_cut_copper_stairs"
+            ]
           }
         ]
       },

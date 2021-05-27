@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:smooth_quartz"
+            "items": [
+              "minecraft:smooth_quartz"
+            ]
           }
         ]
       },

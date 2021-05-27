@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:spruce_planks"
+            "items": [
+              "minecraft:spruce_planks"
+            ]
           }
         ]
       },

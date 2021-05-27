@@ -2131,10 +2131,6 @@
           },
           "type": "literal"
         },
-        "report": {
-          "executable": true,
-          "type": "literal"
-        },
         "start": {
           "executable": true,
           "type": "literal"
@@ -5606,6 +5602,19 @@
           "executable": true,
           "parser": "minecraft:particle",
           "type": "argument"
+        }
+      },
+      "type": "literal"
+    },
+    "perf": {
+      "children": {
+        "start": {
+          "executable": true,
+          "type": "literal"
+        },
+        "stop": {
+          "executable": true,
+          "type": "literal"
         }
       },
       "type": "literal"

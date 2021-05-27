@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:enchanted_golden_apple"
+            "items": [
+              "minecraft:enchanted_golden_apple"
+            ]
           }
         ]
       },

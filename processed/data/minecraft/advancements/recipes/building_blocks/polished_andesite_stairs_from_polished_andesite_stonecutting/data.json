@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:polished_andesite"
+            "items": [
+              "minecraft:polished_andesite"
+            ]
           }
         ]
       },

@@ -3,11 +3,15 @@
     "charge_respawn_anchor": {
       "conditions": {
         "item": {
-          "item": "minecraft:glowstone"
+          "items": [
+            "minecraft:glowstone"
+          ]
         },
         "location": {
           "block": {
-            "block": "minecraft:respawn_anchor",
+            "blocks": [
+              "minecraft:respawn_anchor"
+            ],
             "state": {
               "charges": "4"
             }

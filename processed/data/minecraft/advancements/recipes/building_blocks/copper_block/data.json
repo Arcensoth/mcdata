@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:copper_ingot"
+            "items": [
+              "minecraft:copper_ingot"
+            ]
           }
         ]
       },

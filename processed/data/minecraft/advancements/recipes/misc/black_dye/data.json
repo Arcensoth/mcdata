@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:ink_sac"
+            "items": [
+              "minecraft:ink_sac"
+            ]
           }
         ]
       },

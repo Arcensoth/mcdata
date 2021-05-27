@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:black_stained_glass"
+            "items": [
+              "minecraft:black_stained_glass"
+            ]
           }
         ]
       },

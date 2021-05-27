@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:red_nether_bricks"
+            "items": [
+              "minecraft:red_nether_bricks"
+            ]
           }
         ]
       },

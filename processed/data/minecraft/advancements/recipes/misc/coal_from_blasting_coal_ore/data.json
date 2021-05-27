@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:coal_ore"
+            "items": [
+              "minecraft:coal_ore"
+            ]
           }
         ]
       },

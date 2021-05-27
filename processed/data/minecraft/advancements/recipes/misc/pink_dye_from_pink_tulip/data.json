@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:pink_tulip"
+            "items": [
+              "minecraft:pink_tulip"
+            ]
           }
         ]
       },

@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:prismarine_crystals"
+            "items": [
+              "minecraft:prismarine_crystals"
+            ]
           }
         ]
       },

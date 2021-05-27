@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:oak_planks"
+            "items": [
+              "minecraft:oak_planks"
+            ]
           }
         ]
       },

@@ -10,7 +10,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:wither_rose"
+            "items": [
+              "minecraft:wither_rose"
+            ]
           }
         ]
       },

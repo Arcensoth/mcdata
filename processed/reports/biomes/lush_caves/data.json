@@ -338,6 +338,7 @@
                             }
                           }
                         ],
+                        "invalid_blocks": "minecraft:geode_invalid_blocks",
                         "middle_layer_provider": {
                           "state": {
                             "Name": "minecraft:calcite"
@@ -2947,6 +2948,12 @@
                                 "lower_size": 0,
                                 "type": "minecraft:two_layers_feature_size",
                                 "upper_size": 1
+                              },
+                              "sapling_provider": {
+                                "state": {
+                                  "Name": "minecraft:azalea"
+                                },
+                                "type": "minecraft:simple_state_provider"
                               },
                               "trunk_placer": {
                                 "base_height": 4,

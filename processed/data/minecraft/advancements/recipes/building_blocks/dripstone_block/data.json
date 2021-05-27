@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:pointed_dripstone"
+            "items": [
+              "minecraft:pointed_dripstone"
+            ]
           }
         ]
       },

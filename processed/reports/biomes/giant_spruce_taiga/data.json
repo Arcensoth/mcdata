@@ -344,6 +344,7 @@
                             }
                           }
                         ],
+                        "invalid_blocks": "minecraft:geode_invalid_blocks",
                         "middle_layer_provider": {
                           "state": {
                             "Name": "minecraft:calcite"
@@ -1913,6 +1914,15 @@
                         "type": "minecraft:two_layers_feature_size",
                         "upper_size": 2
                       },
+                      "sapling_provider": {
+                        "state": {
+                          "Name": "minecraft:spruce_sapling",
+                          "Properties": {
+                            "stage": "0"
+                          }
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      },
                       "trunk_placer": {
                         "base_height": 5,
                         "height_rand_a": 2,
@@ -1986,6 +1996,15 @@
                             "type": "minecraft:two_layers_feature_size",
                             "upper_size": 2
                           },
+                          "sapling_provider": {
+                            "state": {
+                              "Name": "minecraft:spruce_sapling",
+                              "Properties": {
+                                "stage": "0"
+                              }
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          },
                           "trunk_placer": {
                             "base_height": 13,
                             "height_rand_a": 2,
@@ -2045,6 +2064,15 @@
                             "lower_size": 0,
                             "type": "minecraft:two_layers_feature_size",
                             "upper_size": 2
+                          },
+                          "sapling_provider": {
+                            "state": {
+                              "Name": "minecraft:spruce_sapling",
+                              "Properties": {
+                                "stage": "0"
+                              }
+                            },
+                            "type": "minecraft:simple_state_provider"
                           },
                           "trunk_placer": {
                             "base_height": 6,

@@ -10,7 +10,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:waxed_oxidized_cut_copper"
+            "items": [
+              "minecraft:waxed_oxidized_cut_copper"
+            ]
           }
         ]
       },

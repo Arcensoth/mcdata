@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:raw_copper"
+            "items": [
+              "minecraft:raw_copper"
+            ]
           }
         ]
       },

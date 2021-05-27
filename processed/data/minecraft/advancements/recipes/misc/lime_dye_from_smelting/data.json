@@ -4,7 +4,9 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:sea_pickle"
+            "items": [
+              "minecraft:sea_pickle"
+            ]
           }
         ]
       },
