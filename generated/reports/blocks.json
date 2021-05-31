@@ -2195,7 +2195,7 @@
       }
     ]
   },
-  "minecraft:azalea_leaves_flowers": {
+  "minecraft:flowering_azalea_leaves": {
     "properties": {
       "distance": [
         "1",

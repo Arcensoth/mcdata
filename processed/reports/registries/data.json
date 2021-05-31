@@ -195,9 +195,6 @@
       "minecraft:azalea_leaves": {
         "protocol_id": 68
       },
-      "minecraft:azalea_leaves_flowers": {
-        "protocol_id": 69
-      },
       "minecraft:azure_bluet": {
         "protocol_id": 129
       },
@@ -1073,6 +1070,9 @@
       },
       "minecraft:flowering_azalea": {
         "protocol_id": 863
+      },
+      "minecraft:flowering_azalea_leaves": {
+        "protocol_id": 69
       },
       "minecraft:frosted_ice": {
         "protocol_id": 516
@@ -3969,9 +3969,6 @@
       "minecraft:azalea_leaves": {
         "protocol_id": 139
       },
-      "minecraft:azalea_leaves_flowers": {
-        "protocol_id": 140
-      },
       "minecraft:azure_bluet": {
         "protocol_id": 177
       },
@@ -5045,6 +5042,9 @@
       },
       "minecraft:flowering_azalea": {
         "protocol_id": 153
+      },
+      "minecraft:flowering_azalea_leaves": {
+        "protocol_id": 140
       },
       "minecraft:fox_spawn_egg": {
         "protocol_id": 890

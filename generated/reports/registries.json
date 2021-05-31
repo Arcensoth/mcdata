@@ -4048,7 +4048,7 @@
       "minecraft:azalea_leaves": {
         "protocol_id": 68
       },
-      "minecraft:azalea_leaves_flowers": {
+      "minecraft:flowering_azalea_leaves": {
         "protocol_id": 69
       },
       "minecraft:sponge": {
@@ -7425,7 +7425,7 @@
       "minecraft:azalea_leaves": {
         "protocol_id": 139
       },
-      "minecraft:azalea_leaves_flowers": {
+      "minecraft:flowering_azalea_leaves": {
         "protocol_id": 140
       },
       "minecraft:sponge": {

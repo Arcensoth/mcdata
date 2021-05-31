@@ -8575,124 +8575,6 @@
       }
     ]
   },
-  "minecraft:azalea_leaves_flowers": {
-    "properties": {
-      "distance": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "persistent": [
-        "true",
-        "false"
-      ]
-    },
-    "states": [
-      {
-        "id": 246,
-        "properties": {
-          "distance": "1",
-          "persistent": "true"
-        }
-      },
-      {
-        "id": 247,
-        "properties": {
-          "distance": "1",
-          "persistent": "false"
-        }
-      },
-      {
-        "id": 248,
-        "properties": {
-          "distance": "2",
-          "persistent": "true"
-        }
-      },
-      {
-        "id": 249,
-        "properties": {
-          "distance": "2",
-          "persistent": "false"
-        }
-      },
-      {
-        "id": 250,
-        "properties": {
-          "distance": "3",
-          "persistent": "true"
-        }
-      },
-      {
-        "id": 251,
-        "properties": {
-          "distance": "3",
-          "persistent": "false"
-        }
-      },
-      {
-        "id": 252,
-        "properties": {
-          "distance": "4",
-          "persistent": "true"
-        }
-      },
-      {
-        "id": 253,
-        "properties": {
-          "distance": "4",
-          "persistent": "false"
-        }
-      },
-      {
-        "id": 254,
-        "properties": {
-          "distance": "5",
-          "persistent": "true"
-        }
-      },
-      {
-        "id": 255,
-        "properties": {
-          "distance": "5",
-          "persistent": "false"
-        }
-      },
-      {
-        "id": 256,
-        "properties": {
-          "distance": "6",
-          "persistent": "true"
-        }
-      },
-      {
-        "id": 257,
-        "properties": {
-          "distance": "6",
-          "persistent": "false"
-        }
-      },
-      {
-        "id": 258,
-        "properties": {
-          "distance": "7",
-          "persistent": "true"
-        }
-      },
-      {
-        "default": true,
-        "id": 259,
-        "properties": {
-          "distance": "7",
-          "persistent": "false"
-        }
-      }
-    ]
-  },
   "minecraft:azure_bluet": {
     "states": [
       {
@@ -74644,6 +74526,124 @@
       {
         "default": true,
         "id": 18621
+      }
+    ]
+  },
+  "minecraft:flowering_azalea_leaves": {
+    "properties": {
+      "distance": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "persistent": [
+        "true",
+        "false"
+      ]
+    },
+    "states": [
+      {
+        "id": 246,
+        "properties": {
+          "distance": "1",
+          "persistent": "true"
+        }
+      },
+      {
+        "id": 247,
+        "properties": {
+          "distance": "1",
+          "persistent": "false"
+        }
+      },
+      {
+        "id": 248,
+        "properties": {
+          "distance": "2",
+          "persistent": "true"
+        }
+      },
+      {
+        "id": 249,
+        "properties": {
+          "distance": "2",
+          "persistent": "false"
+        }
+      },
+      {
+        "id": 250,
+        "properties": {
+          "distance": "3",
+          "persistent": "true"
+        }
+      },
+      {
+        "id": 251,
+        "properties": {
+          "distance": "3",
+          "persistent": "false"
+        }
+      },
+      {
+        "id": 252,
+        "properties": {
+          "distance": "4",
+          "persistent": "true"
+        }
+      },
+      {
+        "id": 253,
+        "properties": {
+          "distance": "4",
+          "persistent": "false"
+        }
+      },
+      {
+        "id": 254,
+        "properties": {
+          "distance": "5",
+          "persistent": "true"
+        }
+      },
+      {
+        "id": 255,
+        "properties": {
+          "distance": "5",
+          "persistent": "false"
+        }
+      },
+      {
+        "id": 256,
+        "properties": {
+          "distance": "6",
+          "persistent": "true"
+        }
+      },
+      {
+        "id": 257,
+        "properties": {
+          "distance": "6",
+          "persistent": "false"
+        }
+      },
+      {
+        "id": 258,
+        "properties": {
+          "distance": "7",
+          "persistent": "true"
+        }
+      },
+      {
+        "default": true,
+        "id": 259,
+        "properties": {
+          "distance": "7",
+          "persistent": "false"
+        }
       }
     ]
   },

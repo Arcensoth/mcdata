@@ -2930,7 +2930,7 @@
                                   },
                                   {
                                     "data": {
-                                      "Name": "minecraft:azalea_leaves_flowers",
+                                      "Name": "minecraft:flowering_azalea_leaves",
                                       "Properties": {
                                         "distance": "7",
                                         "persistent": "false"

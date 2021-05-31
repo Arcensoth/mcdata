@@ -32,7 +32,6 @@ minecraft:axolotl_bucket
 minecraft:axolotl_spawn_egg
 minecraft:azalea
 minecraft:azalea_leaves
-minecraft:azalea_leaves_flowers
 minecraft:azure_bluet
 minecraft:baked_potato
 minecraft:bamboo
@@ -391,6 +390,7 @@ minecraft:flint_and_steel
 minecraft:flower_banner_pattern
 minecraft:flower_pot
 minecraft:flowering_azalea
+minecraft:flowering_azalea_leaves
 minecraft:fox_spawn_egg
 minecraft:furnace
 minecraft:furnace_minecart

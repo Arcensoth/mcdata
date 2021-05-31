@@ -532,27 +532,6 @@
       ]
     }
   },
-  "minecraft:azalea_leaves_flowers": {
-    "default": {
-      "distance": "7",
-      "persistent": "false"
-    },
-    "properties": {
-      "distance": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "persistent": [
-        "true",
-        "false"
-      ]
-    }
-  },
   "minecraft:azure_bluet": {
     "default": {},
     "properties": {}
@@ -4732,6 +4711,27 @@
   "minecraft:flowering_azalea": {
     "default": {},
     "properties": {}
+  },
+  "minecraft:flowering_azalea_leaves": {
+    "default": {
+      "distance": "7",
+      "persistent": "false"
+    },
+    "properties": {
+      "distance": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "persistent": [
+        "true",
+        "false"
+      ]
+    }
   },
   "minecraft:frosted_ice": {
     "default": {
