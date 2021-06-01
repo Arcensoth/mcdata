@@ -47021,8 +47021,7 @@
           "waterlogged": "false",
           "west": "true"
         },
-        "id": 4895,
-        "default": true
+        "id": 4895
       },
       {
         "properties": {
@@ -48522,7 +48521,8 @@
           "waterlogged": "false",
           "west": "false"
         },
-        "id": 5020
+        "id": 5020,
+        "default": true
       }
     ]
   },
