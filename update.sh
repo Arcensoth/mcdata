@@ -19,3 +19,6 @@ python -m mcgen --rawpath ./temp/raw --outpath ./processed --log INFO --version 
 
 echo "Copying generated data..."
 cp -r ./temp/raw/generated ./generated
+
+echo "Copying version file..."
+cp ./processed/VERSION.txt .
