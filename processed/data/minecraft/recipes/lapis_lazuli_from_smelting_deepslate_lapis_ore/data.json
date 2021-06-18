@@ -1,7 +1,7 @@
 {
   "cookingtime": 200,
   "experience": 0.2,
-  "group": "lapus_lazuli",
+  "group": "lapis_lazuli",
   "ingredient": {
     "item": "minecraft:deepslate_lapis_ore"
   },

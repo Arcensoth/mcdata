@@ -2899,7 +2899,7 @@
                       },
                       "feature": {
                         "config": {
-                          "allowed_vertical_water_for_tree": 3,
+                          "allowed_vertical_water_for_tree": 2,
                           "feature": {
                             "config": {
                               "decorators": [],
