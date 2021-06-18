@@ -1,30 +1,21 @@
 #!/usr/bin/env bash
 
 # Requirements:
-# - The server jar file, as the 1st argument
-# - The game version, as the 2nd agument
-# - Python 3.6+ with pyyaml package installed
+# - Python 3.8+ with the mcgen package installed
+# - The game version, as the first argument (default: snapshot)
 
-if [ "$#" -ne 2 ]
-then
-    echo "Usage: ./update.sh <server_jar> <version>"
-    exit 1
-fi
+echo "Purging temp directory..."
+rm -r ./temp
 
-echo "Using server jar: $1"
-echo "Using version: $2"
+echo "Purging generated directory..."
+rm -r ./generated
 
-echo "Updating version file..."
-echo "$2" >| VERSION.txt
+echo "Purging processed directory..."
+rm -r ./processed
 
-echo "Purging existing generated data..."
-rm -rf ./generated
+version="${1:-snapshot}"
+echo "Invoking mcgen with version: $version"
+python -m mcgen --rawpath ./temp/raw --outpath ./processed --log INFO --version "$version"
 
-echo "Purging existing processed data..."
-rm -rf ./processed
-
-echo "Invoking data generator..."
-java -cp "$1" net.minecraft.data.Main --server --reports
-
-echo "Running data processor..."
-python3 process.py --inpath=./generated --outpath=./processed
+echo "Copying generated data..."
+cp -r ./temp/raw/generated ./generated
