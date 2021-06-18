@@ -4,3 +4,5 @@
 /generated/.cache
 /generated/tmp
 /logs/
+/temp/
+/venv/
