@@ -1142,7 +1142,7 @@
                 "config": {
                   "height": {
                     "max_inclusive": {
-                      "absolute": 16
+                      "absolute": 15
                     },
                     "min_inclusive": {
                       "above_bottom": 0
@@ -1462,8 +1462,8 @@
               "count": {
                 "type": "minecraft:uniform",
                 "value": {
-                  "max_inclusive": 24,
-                  "min_inclusive": 6
+                  "max_inclusive": 8,
+                  "min_inclusive": 3
                 }
               }
             },
