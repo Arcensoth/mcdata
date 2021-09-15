@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.basalt_deltas.mood",
@@ -1088,18 +1087,6 @@
       }
     ]
   ],
-  "starts": [
-    {
-      "config": {
-        "portal_type": "nether"
-      },
-      "type": "minecraft:ruined_portal"
-    },
-    {
-      "config": {},
-      "type": "minecraft:fortress"
-    }
-  ],
   "spawners": {
     "monster": [
       {
@@ -1124,6 +1111,7 @@
       }
     ],
     "ambient": [],
+    "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
@@ -1134,6 +1122,5 @@
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,
-  "category": "nether",
-  "depth": 0.1
+  "category": "nether"
 }

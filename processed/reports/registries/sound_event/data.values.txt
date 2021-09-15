@@ -1116,6 +1116,9 @@ minecraft:item.bucket.fill_axolotl
 minecraft:item.bucket.fill_fish
 minecraft:item.bucket.fill_lava
 minecraft:item.bucket.fill_powder_snow
+minecraft:item.bundle.drop_contents
+minecraft:item.bundle.insert
+minecraft:item.bundle.remove_one
 minecraft:item.chorus_fruit.teleport
 minecraft:item.crop.plant
 minecraft:item.crossbow.hit

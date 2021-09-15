@@ -17,4 +17,5 @@ minecraft:nope
 minecraft:range
 minecraft:spread_32_above
 minecraft:square
+minecraft:surface_relative_threshold
 minecraft:water_depth_threshold

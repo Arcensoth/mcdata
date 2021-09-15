@@ -55,7 +55,7 @@
     "minecraft:iron_ores",
     "minecraft:jungle_logs",
     "minecraft:lapis_ores",
-    "minecraft:lava_pool_stone_replaceables",
+    "minecraft:lava_pool_stone_cannot_replace",
     "minecraft:leaves",
     "minecraft:logs",
     "minecraft:logs_that_burn",

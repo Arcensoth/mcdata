@@ -37,7 +37,8 @@
                   "type": "minecraft:dynamic"
                 }
               ],
-              "function": "minecraft:set_contents"
+              "function": "minecraft:set_contents",
+              "type": "minecraft:shulker_box"
             }
           ],
           "name": "minecraft:black_shulker_box",

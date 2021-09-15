@@ -27,7 +27,6 @@
     ]
   },
   "category": "nether",
-  "depth": 0.1,
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
@@ -163,140 +162,6 @@
               }
             },
             "type": "minecraft:decorated"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
-      {
-        "config": {
-          "decorator": {
-            "config": {
-              "count": {
-                "type": "minecraft:biased_to_bottom",
-                "value": {
-                  "max_inclusive": 9,
-                  "min_inclusive": 0
-                }
-              }
-            },
-            "type": "minecraft:count"
-          },
-          "feature": {
-            "config": {
-              "decorator": {
-                "config": {},
-                "type": "minecraft:square"
-              },
-              "feature": {
-                "config": {
-                  "decorator": {
-                    "config": {
-                      "height": {
-                        "max_inclusive": {
-                          "below_top": 4
-                        },
-                        "min_inclusive": {
-                          "above_bottom": 4
-                        },
-                        "type": "minecraft:uniform"
-                      }
-                    },
-                    "type": "minecraft:range"
-                  },
-                  "feature": {
-                    "config": {},
-                    "type": "minecraft:glowstone_blob"
-                  }
-                },
-                "type": "minecraft:decorated"
-              }
-            },
-            "type": "minecraft:decorated"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
-      {
-        "config": {
-          "decorator": {
-            "config": {
-              "count": 10
-            },
-            "type": "minecraft:count"
-          },
-          "feature": {
-            "config": {
-              "decorator": {
-                "config": {},
-                "type": "minecraft:square"
-              },
-              "feature": {
-                "config": {
-                  "decorator": {
-                    "config": {
-                      "height": {
-                        "max_inclusive": {
-                          "below_top": 0
-                        },
-                        "min_inclusive": {
-                          "above_bottom": 0
-                        },
-                        "type": "minecraft:uniform"
-                      }
-                    },
-                    "type": "minecraft:range"
-                  },
-                  "feature": {
-                    "config": {},
-                    "type": "minecraft:glowstone_blob"
-                  }
-                },
-                "type": "minecraft:decorated"
-              }
-            },
-            "type": "minecraft:decorated"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
-      {
-        "config": {
-          "decorator": {
-            "config": {
-              "height": {
-                "max_inclusive": {
-                  "below_top": 0
-                },
-                "min_inclusive": {
-                  "above_bottom": 0
-                },
-                "type": "minecraft:uniform"
-              }
-            },
-            "type": "minecraft:range"
-          },
-          "feature": {
-            "config": {
-              "blacklist": [],
-              "block_placer": {
-                "type": "minecraft:simple_block_placer"
-              },
-              "can_replace": false,
-              "need_water": false,
-              "project": false,
-              "state_provider": {
-                "state": {
-                  "Name": "minecraft:crimson_roots"
-                },
-                "type": "minecraft:simple_state_provider"
-              },
-              "tries": 64,
-              "whitelist": [],
-              "xspread": 7,
-              "yspread": 3,
-              "zspread": 7
-            },
-            "type": "minecraft:random_patch"
           }
         },
         "type": "minecraft:decorated"
@@ -444,6 +309,140 @@
                   "Name": "minecraft:soul_soil"
                 }
               ],
+              "xspread": 7,
+              "yspread": 3,
+              "zspread": 7
+            },
+            "type": "minecraft:random_patch"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": {
+                "type": "minecraft:biased_to_bottom",
+                "value": {
+                  "max_inclusive": 9,
+                  "min_inclusive": 0
+                }
+              }
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "max_inclusive": {
+                          "below_top": 4
+                        },
+                        "min_inclusive": {
+                          "above_bottom": 4
+                        },
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {},
+                    "type": "minecraft:glowstone_blob"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "count": 10
+            },
+            "type": "minecraft:count"
+          },
+          "feature": {
+            "config": {
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              },
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "max_inclusive": {
+                          "below_top": 0
+                        },
+                        "min_inclusive": {
+                          "above_bottom": 0
+                        },
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  },
+                  "feature": {
+                    "config": {},
+                    "type": "minecraft:glowstone_blob"
+                  }
+                },
+                "type": "minecraft:decorated"
+              }
+            },
+            "type": "minecraft:decorated"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "decorator": {
+            "config": {
+              "height": {
+                "max_inclusive": {
+                  "below_top": 0
+                },
+                "min_inclusive": {
+                  "above_bottom": 0
+                },
+                "type": "minecraft:uniform"
+              }
+            },
+            "type": "minecraft:range"
+          },
+          "feature": {
+            "config": {
+              "blacklist": [],
+              "block_placer": {
+                "type": "minecraft:simple_block_placer"
+              },
+              "can_replace": false,
+              "need_water": false,
+              "project": false,
+              "state_provider": {
+                "state": {
+                  "Name": "minecraft:crimson_roots"
+                },
+                "type": "minecraft:simple_state_provider"
+              },
+              "tries": 64,
+              "whitelist": [],
               "xspread": 7,
               "yspread": 3,
               "zspread": 7
@@ -1011,7 +1010,6 @@
   ],
   "player_spawn_friendly": false,
   "precipitation": "none",
-  "scale": 0.2,
   "spawn_costs": {
     "minecraft:enderman": {
       "charge": 0.7,
@@ -1032,6 +1030,7 @@
   },
   "spawners": {
     "ambient": [],
+    "axolotls": [],
     "creature": [
       {
         "maxCount": 2,
@@ -1065,372 +1064,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "starts": [
-    {
-      "config": {},
-      "type": "minecraft:fortress"
-    },
-    {
-      "config": {
-        "height": {
-          "max_inclusive": {
-            "below_top": 2
-          },
-          "min_inclusive": {
-            "absolute": 32
-          },
-          "type": "minecraft:uniform"
-        }
-      },
-      "type": "minecraft:nether_fossil"
-    },
-    {
-      "config": {
-        "portal_type": "nether"
-      },
-      "type": "minecraft:ruined_portal"
-    },
-    {
-      "config": {
-        "size": 6,
-        "start_pool": {
-          "elements": [
-            {
-              "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "minecraft:bastion/units/air_base",
-                "processors": {
-                  "processors": [
-                    {
-                      "processor_type": "minecraft:rule",
-                      "rules": [
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:polished_blackstone_bricks",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.0001
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:air"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gold_block",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gilded_blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.5
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:blackstone"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.01
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:gilded_blackstone"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "projection": "rigid"
-              },
-              "weight": 1
-            },
-            {
-              "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "minecraft:bastion/hoglin_stable/air_base",
-                "processors": {
-                  "processors": [
-                    {
-                      "processor_type": "minecraft:rule",
-                      "rules": [
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:polished_blackstone_bricks",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.0001
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:air"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gold_block",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gilded_blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.5
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:blackstone"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.01
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:gilded_blackstone"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "projection": "rigid"
-              },
-              "weight": 1
-            },
-            {
-              "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "minecraft:bastion/treasure/big_air_full",
-                "processors": {
-                  "processors": [
-                    {
-                      "processor_type": "minecraft:rule",
-                      "rules": [
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:polished_blackstone_bricks",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.0001
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:air"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gold_block",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gilded_blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.5
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:blackstone"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.01
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:gilded_blackstone"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "projection": "rigid"
-              },
-              "weight": 1
-            },
-            {
-              "element": {
-                "element_type": "minecraft:single_pool_element",
-                "location": "minecraft:bastion/bridge/starting_pieces/entrance_base",
-                "processors": {
-                  "processors": [
-                    {
-                      "processor_type": "minecraft:rule",
-                      "rules": [
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:polished_blackstone_bricks",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.0001
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:air"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gold_block",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.3
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:cracked_polished_blackstone_bricks"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:gilded_blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.5
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:blackstone"
-                          }
-                        },
-                        {
-                          "input_predicate": {
-                            "block": "minecraft:blackstone",
-                            "predicate_type": "minecraft:random_block_match",
-                            "probability": 0.01
-                          },
-                          "location_predicate": {
-                            "predicate_type": "minecraft:always_true"
-                          },
-                          "output_state": {
-                            "Name": "minecraft:gilded_blackstone"
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                "projection": "rigid"
-              },
-              "weight": 1
-            }
-          ],
-          "fallback": "minecraft:empty",
-          "name": "minecraft:bastion/starts"
-        }
-      },
-      "type": "minecraft:bastion_remnant"
-    }
-  ],
   "surface_builder": {
     "config": {
       "top_material": {

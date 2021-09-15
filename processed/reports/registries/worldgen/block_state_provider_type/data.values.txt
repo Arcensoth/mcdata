@@ -1,5 +1,6 @@
-minecraft:forest_flower_provider
-minecraft:plain_flower_provider
+minecraft:dual_noise_2d_provider
+minecraft:noise_2d_cutoff_provider
+minecraft:noise_2d_provider
 minecraft:randomized_int_state_provider
 minecraft:rotated_block_provider
 minecraft:simple_state_provider

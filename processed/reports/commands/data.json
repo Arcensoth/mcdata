@@ -4670,6 +4670,19 @@
       },
       "type": "literal"
     },
+    "jfr": {
+      "children": {
+        "start": {
+          "executable": true,
+          "type": "literal"
+        },
+        "stop": {
+          "executable": true,
+          "type": "literal"
+        }
+      },
+      "type": "literal"
+    },
     "kick": {
       "children": {
         "targets": {

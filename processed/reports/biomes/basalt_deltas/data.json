@@ -27,7 +27,6 @@
     ]
   },
   "category": "nether",
-  "depth": 0.1,
   "downfall": 0.0,
   "effects": {
     "additions_sound": {
@@ -1075,10 +1074,10 @@
   ],
   "player_spawn_friendly": false,
   "precipitation": "none",
-  "scale": 0.2,
   "spawn_costs": {},
   "spawners": {
     "ambient": [],
+    "axolotls": [],
     "creature": [
       {
         "maxCount": 2,
@@ -1106,18 +1105,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "starts": [
-    {
-      "config": {
-        "portal_type": "nether"
-      },
-      "type": "minecraft:ruined_portal"
-    },
-    {
-      "config": {},
-      "type": "minecraft:fortress"
-    }
-  ],
   "surface_builder": {
     "config": {
       "top_material": {

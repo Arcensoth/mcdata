@@ -5,11 +5,17 @@ minecraft:eroded_badlands
 minecraft:frozen_ocean
 minecraft:giant_tree_taiga
 minecraft:gravelly_mountain
+minecraft:grove
+minecraft:lofty_peaks
 minecraft:mountain
 minecraft:nether
 minecraft:nether_forest
 minecraft:nope
 minecraft:shattered_savanna
+minecraft:snowcapped_peaks
+minecraft:snowy_slopes
 minecraft:soul_sand_valley
+minecraft:stone_shore
+minecraft:stony_peaks
 minecraft:swamp
 minecraft:wooded_badlands

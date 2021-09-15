@@ -1,7 +1,6 @@
 {
   "carvers": {},
   "category": "the_end",
-  "depth": 0.1,
   "downfall": 0.5,
   "effects": {
     "fog_color": 10518688,
@@ -122,10 +121,10 @@
   ],
   "player_spawn_friendly": false,
   "precipitation": "none",
-  "scale": 0.2,
   "spawn_costs": {},
   "spawners": {
     "ambient": [],
+    "axolotls": [],
     "creature": [],
     "misc": [],
     "monster": [
@@ -140,12 +139,6 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "starts": [
-    {
-      "config": {},
-      "type": "minecraft:endcity"
-    }
-  ],
   "surface_builder": {
     "config": {
       "top_material": {
