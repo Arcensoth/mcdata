@@ -3,7 +3,6 @@
     "air": [
       {
         "config": {
-          "aquifers_enabled": true,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:crimson_button",
@@ -74,7 +73,6 @@
       },
       {
         "config": {
-          "aquifers_enabled": true,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:oak_button",
@@ -145,7 +143,6 @@
       },
       {
         "config": {
-          "aquifers_enabled": true,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:warped_button",
@@ -2035,7 +2032,7 @@
                         }
                       ]
                     },
-                    "type": "minecraft:scattered_ore"
+                    "type": "minecraft:ore"
                   }
                 },
                 "type": "minecraft:decorated"
@@ -2050,7 +2047,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 8
+              "count": 12
             },
             "type": "minecraft:count"
           },
@@ -2066,12 +2063,12 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "absolute": 63
+                          "absolute": 95
                         },
                         "min_inclusive": {
                           "absolute": 0
                         },
-                        "type": "minecraft:uniform"
+                        "type": "minecraft:trapezoid"
                       }
                     },
                     "type": "minecraft:range"
@@ -2354,67 +2351,74 @@
                       },
                       "feature": {
                         "config": {
-                          "decorators": [
-                            {
-                              "type": "minecraft:leave_vine"
-                            }
-                          ],
-                          "dirt_provider": {
-                            "state": {
-                              "Name": "minecraft:dirt"
-                            },
-                            "type": "minecraft:simple_state_provider"
-                          },
-                          "foliage_placer": {
-                            "height": 3,
-                            "offset": 0,
-                            "radius": 3,
-                            "type": "minecraft:blob_foliage_placer"
-                          },
-                          "foliage_provider": {
-                            "state": {
-                              "Name": "minecraft:oak_leaves",
-                              "Properties": {
-                                "distance": "7",
-                                "persistent": "false"
+                          "decorator": {
+                            "config": {
+                              "state": {
+                                "Name": "minecraft:oak_sapling",
+                                "Properties": {
+                                  "stage": "0"
+                                }
                               }
                             },
-                            "type": "minecraft:simple_state_provider"
+                            "type": "minecraft:block_survives_filter"
                           },
-                          "force_dirt": false,
-                          "ignore_vines": false,
-                          "minimum_size": {
-                            "limit": 1,
-                            "lower_size": 0,
-                            "type": "minecraft:two_layers_feature_size",
-                            "upper_size": 1
-                          },
-                          "sapling_provider": {
-                            "state": {
-                              "Name": "minecraft:oak_sapling",
-                              "Properties": {
-                                "stage": "0"
+                          "feature": {
+                            "config": {
+                              "decorators": [
+                                {
+                                  "type": "minecraft:leave_vine"
+                                }
+                              ],
+                              "dirt_provider": {
+                                "state": {
+                                  "Name": "minecraft:dirt"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "foliage_placer": {
+                                "height": 3,
+                                "offset": 0,
+                                "radius": 3,
+                                "type": "minecraft:blob_foliage_placer"
+                              },
+                              "foliage_provider": {
+                                "state": {
+                                  "Name": "minecraft:oak_leaves",
+                                  "Properties": {
+                                    "distance": "7",
+                                    "persistent": "false"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              },
+                              "force_dirt": false,
+                              "ignore_vines": false,
+                              "minimum_size": {
+                                "limit": 1,
+                                "lower_size": 0,
+                                "type": "minecraft:two_layers_feature_size",
+                                "upper_size": 1
+                              },
+                              "trunk_placer": {
+                                "base_height": 5,
+                                "height_rand_a": 3,
+                                "height_rand_b": 0,
+                                "type": "minecraft:straight_trunk_placer"
+                              },
+                              "trunk_provider": {
+                                "state": {
+                                  "Name": "minecraft:oak_log",
+                                  "Properties": {
+                                    "axis": "y"
+                                  }
+                                },
+                                "type": "minecraft:simple_state_provider"
                               }
                             },
-                            "type": "minecraft:simple_state_provider"
-                          },
-                          "trunk_placer": {
-                            "base_height": 5,
-                            "height_rand_a": 3,
-                            "height_rand_b": 0,
-                            "type": "minecraft:straight_trunk_placer"
-                          },
-                          "trunk_provider": {
-                            "state": {
-                              "Name": "minecraft:oak_log",
-                              "Properties": {
-                                "axis": "y"
-                              }
-                            },
-                            "type": "minecraft:simple_state_provider"
+                            "type": "minecraft:tree"
                           }
                         },
-                        "type": "minecraft:tree"
+                        "type": "minecraft:decorated"
                       }
                     },
                     "type": "minecraft:decorated"

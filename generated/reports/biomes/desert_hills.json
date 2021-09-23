@@ -29,10 +29,16 @@
     "air": [
       {
         "config": {
+          "yScale": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 0.1,
+              "max_exclusive": 0.9
+            }
+          },
           "lava_level": {
             "above_bottom": 8
           },
-          "aquifers_enabled": true,
           "debug_settings": {
             "water_state": {
               "Properties": {
@@ -67,13 +73,6 @@
             },
             "type": "minecraft:uniform"
           },
-          "yScale": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 0.1,
-              "max_exclusive": 0.9
-            }
-          },
           "horizontal_radius_multiplier": {
             "type": "minecraft:uniform",
             "value": {
@@ -100,10 +99,16 @@
       },
       {
         "config": {
+          "yScale": {
+            "type": "minecraft:uniform",
+            "value": {
+              "min_inclusive": 0.1,
+              "max_exclusive": 0.9
+            }
+          },
           "lava_level": {
             "above_bottom": 8
           },
-          "aquifers_enabled": true,
           "debug_settings": {
             "water_state": {
               "Properties": {
@@ -138,13 +143,6 @@
             },
             "type": "minecraft:uniform"
           },
-          "yScale": {
-            "type": "minecraft:uniform",
-            "value": {
-              "min_inclusive": 0.1,
-              "max_exclusive": 0.9
-            }
-          },
           "horizontal_radius_multiplier": {
             "type": "minecraft:uniform",
             "value": {
@@ -171,10 +169,10 @@
       },
       {
         "config": {
+          "yScale": 3.0,
           "lava_level": {
             "above_bottom": 8
           },
-          "aquifers_enabled": true,
           "debug_settings": {
             "water_state": {
               "Properties": {
@@ -209,7 +207,6 @@
             },
             "type": "minecraft:uniform"
           },
-          "yScale": 3.0,
           "vertical_rotation": {
             "type": "minecraft:uniform",
             "value": {
@@ -1830,7 +1827,7 @@
                       "size": 7,
                       "discard_chance_on_air_exposure": 1.0
                     },
-                    "type": "minecraft:scattered_ore"
+                    "type": "minecraft:ore"
                   },
                   "decorator": {
                     "config": {
@@ -1905,9 +1902,9 @@
                           "absolute": 0
                         },
                         "max_inclusive": {
-                          "absolute": 63
+                          "absolute": 95
                         },
-                        "type": "minecraft:uniform"
+                        "type": "minecraft:trapezoid"
                       }
                     },
                     "type": "minecraft:range"
@@ -1924,7 +1921,7 @@
           },
           "decorator": {
             "config": {
-              "count": 8
+              "count": 12
             },
             "type": "minecraft:count"
           }

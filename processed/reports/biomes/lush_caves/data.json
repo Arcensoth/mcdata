@@ -3,7 +3,6 @@
     "air": [
       {
         "config": {
-          "aquifers_enabled": true,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:crimson_button",
@@ -74,7 +73,6 @@
       },
       {
         "config": {
-          "aquifers_enabled": true,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:oak_button",
@@ -145,7 +143,6 @@
       },
       {
         "config": {
-          "aquifers_enabled": true,
           "debug_settings": {
             "air_state": {
               "Name": "minecraft:warped_button",
@@ -1850,7 +1847,7 @@
                         }
                       ]
                     },
-                    "type": "minecraft:scattered_ore"
+                    "type": "minecraft:ore"
                   }
                 },
                 "type": "minecraft:decorated"
@@ -1865,7 +1862,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 8
+              "count": 12
             },
             "type": "minecraft:count"
           },
@@ -1881,12 +1878,12 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "absolute": 63
+                          "absolute": 95
                         },
                         "min_inclusive": {
                           "absolute": 0
                         },
-                        "type": "minecraft:uniform"
+                        "type": "minecraft:trapezoid"
                       }
                     },
                     "type": "minecraft:range"
@@ -3610,12 +3607,6 @@
                                 "lower_size": 0,
                                 "type": "minecraft:two_layers_feature_size",
                                 "upper_size": 1
-                              },
-                              "sapling_provider": {
-                                "state": {
-                                  "Name": "minecraft:azalea"
-                                },
-                                "type": "minecraft:simple_state_provider"
                               },
                               "trunk_placer": {
                                 "base_height": 4,

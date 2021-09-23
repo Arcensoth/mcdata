@@ -217,6 +217,7 @@
     "minecraft:block.gravel.place",
     "minecraft:block.gravel.step",
     "minecraft:block.grindstone.use",
+    "minecraft:block.growing_plant.crop",
     "minecraft:block.hanging_roots.break",
     "minecraft:block.hanging_roots.fall",
     "minecraft:block.hanging_roots.hit",
