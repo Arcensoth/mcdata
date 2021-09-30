@@ -32,8 +32,8 @@
         {
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
             }
           ],
           "name": "minecraft:potion",
@@ -43,8 +43,8 @@
         {
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
             }
           ],
           "name": "minecraft:splash_potion",
@@ -54,8 +54,8 @@
         {
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
             }
           ],
           "name": "minecraft:potion",

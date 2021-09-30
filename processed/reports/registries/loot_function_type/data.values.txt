@@ -20,4 +20,5 @@ minecraft:set_loot_table
 minecraft:set_lore
 minecraft:set_name
 minecraft:set_nbt
+minecraft:set_potion
 minecraft:set_stew_effect

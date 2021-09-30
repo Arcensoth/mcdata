@@ -590,7 +590,7 @@
                           "absolute": 0
                         },
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 160
                         },
                         "type": "minecraft:uniform"
                       }
@@ -609,7 +609,7 @@
           },
           "decorator": {
             "config": {
-              "count": 15
+              "count": 7
             },
             "type": "minecraft:count"
           }

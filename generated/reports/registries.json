@@ -12086,6 +12086,9 @@
       },
       "minecraft:set_banner_pattern": {
         "protocol_id": 22
+      },
+      "minecraft:set_potion": {
+        "protocol_id": 23
       }
     }
   },
@@ -12215,6 +12218,9 @@
       },
       "minecraft:clamped": {
         "protocol_id": 3
+      },
+      "minecraft:weighted_list": {
+        "protocol_id": 4
       }
     }
   },
@@ -12238,8 +12244,31 @@
       }
     }
   },
-  "minecraft:worldgen/surface_builder": {
+  "minecraft:block_predicate_type": {
     "protocol_id": 38,
+    "entries": {
+      "minecraft:matching_blocks": {
+        "protocol_id": 0
+      },
+      "minecraft:matching_fluids": {
+        "protocol_id": 1
+      },
+      "minecraft:replaceable": {
+        "protocol_id": 2
+      },
+      "minecraft:any_of": {
+        "protocol_id": 3
+      },
+      "minecraft:all_of": {
+        "protocol_id": 4
+      },
+      "minecraft:not": {
+        "protocol_id": 5
+      }
+    }
+  },
+  "minecraft:worldgen/surface_builder": {
+    "protocol_id": 39,
     "entries": {
       "minecraft:default": {
         "protocol_id": 0
@@ -12307,7 +12336,7 @@
     }
   },
   "minecraft:worldgen/carver": {
-    "protocol_id": 39,
+    "protocol_id": 40,
     "entries": {
       "minecraft:cave": {
         "protocol_id": 0
@@ -12317,17 +12346,11 @@
       },
       "minecraft:canyon": {
         "protocol_id": 2
-      },
-      "minecraft:underwater_canyon": {
-        "protocol_id": 3
-      },
-      "minecraft:underwater_cave": {
-        "protocol_id": 4
       }
     }
   },
   "minecraft:worldgen/feature": {
-    "protocol_id": 40,
+    "protocol_id": 41,
     "entries": {
       "minecraft:no_op": {
         "protocol_id": 0
@@ -12383,7 +12406,7 @@
       "minecraft:vines": {
         "protocol_id": 17
       },
-      "minecraft:growing_plant": {
+      "minecraft:block_column": {
         "protocol_id": 18
       },
       "minecraft:vegetation_patch": {
@@ -12518,7 +12541,7 @@
     }
   },
   "minecraft:worldgen/structure_feature": {
-    "protocol_id": 41,
+    "protocol_id": 42,
     "entries": {
       "minecraft:pillager_outpost": {
         "protocol_id": 0
@@ -12577,7 +12600,7 @@
     }
   },
   "minecraft:worldgen/structure_piece": {
-    "protocol_id": 42,
+    "protocol_id": 43,
     "entries": {
       "minecraft:mscorridor": {
         "protocol_id": 0
@@ -12750,7 +12773,7 @@
     }
   },
   "minecraft:worldgen/decorator": {
-    "protocol_id": 43,
+    "protocol_id": 44,
     "entries": {
       "minecraft:nope": {
         "protocol_id": 0
@@ -12794,37 +12817,34 @@
       "minecraft:heightmap": {
         "protocol_id": 13
       },
-      "minecraft:heightmap_spread_double": {
+      "minecraft:surface_relative_threshold": {
         "protocol_id": 14
       },
-      "minecraft:surface_relative_threshold": {
+      "minecraft:water_depth_threshold": {
         "protocol_id": 15
       },
-      "minecraft:water_depth_threshold": {
+      "minecraft:cave_surface": {
         "protocol_id": 16
       },
-      "minecraft:cave_surface": {
+      "minecraft:range": {
         "protocol_id": 17
       },
-      "minecraft:range": {
+      "minecraft:end_gateway": {
         "protocol_id": 18
       },
-      "minecraft:spread_32_above": {
+      "minecraft:environment_scan": {
         "protocol_id": 19
       },
-      "minecraft:end_gateway": {
+      "minecraft:block_survives_filter": {
         "protocol_id": 20
       },
-      "minecraft:block_survives_filter": {
-        "protocol_id": 21
-      },
       "minecraft:block_filter": {
-        "protocol_id": 22
+        "protocol_id": 21
       }
     }
   },
   "minecraft:worldgen/block_state_provider_type": {
-    "protocol_id": 44,
+    "protocol_id": 45,
     "entries": {
       "minecraft:simple_state_provider": {
         "protocol_id": 0
@@ -12846,20 +12866,6 @@
       },
       "minecraft:randomized_int_state_provider": {
         "protocol_id": 6
-      }
-    }
-  },
-  "minecraft:worldgen/block_placer_type": {
-    "protocol_id": 45,
-    "entries": {
-      "minecraft:simple_block_placer": {
-        "protocol_id": 0
-      },
-      "minecraft:double_plant_placer": {
-        "protocol_id": 1
-      },
-      "minecraft:column_placer": {
-        "protocol_id": 2
       }
     }
   },

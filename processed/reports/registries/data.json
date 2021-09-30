@@ -2909,6 +2909,29 @@
     },
     "protocol_id": 10
   },
+  "minecraft:block_predicate_type": {
+    "entries": {
+      "minecraft:all_of": {
+        "protocol_id": 4
+      },
+      "minecraft:any_of": {
+        "protocol_id": 3
+      },
+      "minecraft:matching_blocks": {
+        "protocol_id": 0
+      },
+      "minecraft:matching_fluids": {
+        "protocol_id": 1
+      },
+      "minecraft:not": {
+        "protocol_id": 5
+      },
+      "minecraft:replaceable": {
+        "protocol_id": 2
+      }
+    },
+    "protocol_id": 38
+  },
   "minecraft:chunk_status": {
     "default": "minecraft:empty",
     "entries": {
@@ -3860,6 +3883,9 @@
       },
       "minecraft:uniform": {
         "protocol_id": 1
+      },
+      "minecraft:weighted_list": {
+        "protocol_id": 4
       }
     },
     "protocol_id": 36
@@ -7293,6 +7319,9 @@
       },
       "minecraft:set_nbt": {
         "protocol_id": 4
+      },
+      "minecraft:set_potion": {
+        "protocol_id": 23
       },
       "minecraft:set_stew_effect": {
         "protocol_id": 11
@@ -12255,20 +12284,6 @@
     },
     "protocol_id": 50
   },
-  "minecraft:worldgen/block_placer_type": {
-    "entries": {
-      "minecraft:column_placer": {
-        "protocol_id": 2
-      },
-      "minecraft:double_plant_placer": {
-        "protocol_id": 1
-      },
-      "minecraft:simple_block_placer": {
-        "protocol_id": 0
-      }
-    },
-    "protocol_id": 45
-  },
   "minecraft:worldgen/block_state_provider_type": {
     "entries": {
       "minecraft:dual_noise_provider": {
@@ -12293,7 +12308,7 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 44
+    "protocol_id": 45
   },
   "minecraft:worldgen/carver": {
     "entries": {
@@ -12305,15 +12320,9 @@
       },
       "minecraft:nether_cave": {
         "protocol_id": 1
-      },
-      "minecraft:underwater_canyon": {
-        "protocol_id": 3
-      },
-      "minecraft:underwater_cave": {
-        "protocol_id": 4
       }
     },
-    "protocol_id": 39
+    "protocol_id": 40
   },
   "minecraft:worldgen/chunk_generator": {
     "entries": {
@@ -12332,16 +12341,16 @@
   "minecraft:worldgen/decorator": {
     "entries": {
       "minecraft:block_filter": {
-        "protocol_id": 22
+        "protocol_id": 21
       },
       "minecraft:block_survives_filter": {
-        "protocol_id": 21
+        "protocol_id": 20
       },
       "minecraft:carving_mask": {
         "protocol_id": 2
       },
       "minecraft:cave_surface": {
-        "protocol_id": 17
+        "protocol_id": 16
       },
       "minecraft:chance": {
         "protocol_id": 7
@@ -12368,13 +12377,13 @@
         "protocol_id": 1
       },
       "minecraft:end_gateway": {
-        "protocol_id": 20
+        "protocol_id": 18
+      },
+      "minecraft:environment_scan": {
+        "protocol_id": 19
       },
       "minecraft:heightmap": {
         "protocol_id": 13
-      },
-      "minecraft:heightmap_spread_double": {
-        "protocol_id": 14
       },
       "minecraft:iceberg": {
         "protocol_id": 6
@@ -12386,22 +12395,19 @@
         "protocol_id": 0
       },
       "minecraft:range": {
-        "protocol_id": 18
-      },
-      "minecraft:spread_32_above": {
-        "protocol_id": 19
+        "protocol_id": 17
       },
       "minecraft:square": {
         "protocol_id": 4
       },
       "minecraft:surface_relative_threshold": {
-        "protocol_id": 15
+        "protocol_id": 14
       },
       "minecraft:water_depth_threshold": {
-        "protocol_id": 16
+        "protocol_id": 15
       }
     },
-    "protocol_id": 43
+    "protocol_id": 44
   },
   "minecraft:worldgen/feature": {
     "entries": {
@@ -12413,6 +12419,9 @@
       },
       "minecraft:basalt_pillar": {
         "protocol_id": 52
+      },
+      "minecraft:block_column": {
+        "protocol_id": 18
       },
       "minecraft:block_pile": {
         "protocol_id": 5
@@ -12482,9 +12491,6 @@
       },
       "minecraft:glowstone_blob": {
         "protocol_id": 15
-      },
-      "minecraft:growing_plant": {
-        "protocol_id": 18
       },
       "minecraft:huge_brown_mushroom": {
         "protocol_id": 13
@@ -12592,7 +12598,7 @@
         "protocol_id": 45
       }
     },
-    "protocol_id": 40
+    "protocol_id": 41
   },
   "minecraft:worldgen/feature_size_type": {
     "entries": {
@@ -12697,7 +12703,7 @@
         "protocol_id": 15
       }
     },
-    "protocol_id": 41
+    "protocol_id": 42
   },
   "minecraft:worldgen/structure_piece": {
     "entries": {
@@ -12870,7 +12876,7 @@
         "protocol_id": 51
       }
     },
-    "protocol_id": 42
+    "protocol_id": 43
   },
   "minecraft:worldgen/structure_pool_element": {
     "entries": {
@@ -12993,7 +12999,7 @@
         "protocol_id": 7
       }
     },
-    "protocol_id": 38
+    "protocol_id": 39
   },
   "minecraft:worldgen/tree_decorator_type": {
     "entries": {

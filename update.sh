@@ -15,7 +15,7 @@ rm -r ./processed
 
 version="${1:-snapshot}"
 echo "Invoking mcgen with version: $version"
-python -m mcgen --rawpath ./temp/raw --outpath ./processed --log INFO --version "$version"
+python -m mcgen --rawpath ./temp/raw --outpath ./processed --log INFO --version "$version" --cmd "java -DbundlerMainClass=net.minecraft.data.Main -jar {jar_path} --server --reports"
 
 echo "Copying generated data..."
 cp -r ./temp/raw/generated ./generated

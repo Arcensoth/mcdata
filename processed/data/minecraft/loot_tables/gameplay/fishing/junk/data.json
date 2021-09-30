@@ -37,8 +37,8 @@
         {
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:water\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
             }
           ],
           "name": "minecraft:potion",

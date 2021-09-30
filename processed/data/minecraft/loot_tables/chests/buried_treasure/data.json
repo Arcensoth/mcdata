@@ -179,6 +179,26 @@
         }
       ],
       "rolls": 2.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:potion",
+          "type": "minecraft:item"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_potion",
+          "id": "minecraft:water_breathing"
+        }
+      ],
+      "rolls": {
+        "max": 2.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+      }
     }
   ],
   "type": "minecraft:chest"

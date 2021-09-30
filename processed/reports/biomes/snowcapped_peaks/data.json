@@ -551,7 +551,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 15
+              "count": 7
             },
             "type": "minecraft:count"
           },
@@ -567,7 +567,7 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 160
                         },
                         "min_inclusive": {
                           "absolute": 0

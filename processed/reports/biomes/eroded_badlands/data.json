@@ -503,7 +503,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 15
+              "count": 7
             },
             "type": "minecraft:count"
           },
@@ -519,7 +519,7 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 160
                         },
                         "min_inclusive": {
                           "absolute": 0
@@ -2264,42 +2264,62 @@
       {
         "config": {
           "decorator": {
-            "config": {
-              "inner": {
-                "config": {
-                  "heightmap": "MOTION_BLOCKING"
-                },
-                "type": "minecraft:heightmap_spread_double"
-              },
-              "outer": {
-                "config": {},
-                "type": "minecraft:square"
-              }
-            },
-            "type": "minecraft:decorated"
+            "config": {},
+            "type": "minecraft:square"
           },
           "feature": {
             "config": {
-              "blacklist": [],
-              "block_placer": {
-                "type": "minecraft:simple_block_placer"
-              },
-              "can_replace": false,
-              "need_water": false,
-              "project": true,
-              "state_provider": {
-                "state": {
-                  "Name": "minecraft:grass"
+              "decorator": {
+                "config": {
+                  "heightmap": "WORLD_SURFACE_WG"
                 },
-                "type": "minecraft:simple_state_provider"
+                "type": "minecraft:heightmap"
               },
-              "tries": 32,
-              "whitelist": [],
-              "xspread": 7,
-              "yspread": 3,
-              "zspread": 7
+              "feature": {
+                "config": {
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:grass"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  },
+                  "only_in_air": false,
+                  "tries": 32,
+                  "xz_spread": 7,
+                  "y_spread": 3
+                },
+                "type": "minecraft:random_patch"
+              }
             },
-            "type": "minecraft:random_patch"
+            "type": "minecraft:decorated"
           }
         },
         "type": "minecraft:decorated"
@@ -2315,42 +2335,62 @@
           "feature": {
             "config": {
               "decorator": {
-                "config": {
-                  "inner": {
-                    "config": {
-                      "heightmap": "MOTION_BLOCKING"
-                    },
-                    "type": "minecraft:heightmap_spread_double"
-                  },
-                  "outer": {
-                    "config": {},
-                    "type": "minecraft:square"
-                  }
-                },
-                "type": "minecraft:decorated"
+                "config": {},
+                "type": "minecraft:square"
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": true,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:dead_bush"
+                  "decorator": {
+                    "config": {
+                      "heightmap": "WORLD_SURFACE_WG"
                     },
-                    "type": "minecraft:simple_state_provider"
+                    "type": "minecraft:heightmap"
                   },
-                  "tries": 4,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "feature": {
+                    "config": {
+                      "allowed_on": [],
+                      "disallowed_on": [],
+                      "feature": {
+                        "config": {
+                          "decorator": {
+                            "config": {
+                              "predicate": {
+                                "blocks": [
+                                  "minecraft:air"
+                                ],
+                                "offset": [
+                                  0,
+                                  0,
+                                  0
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              }
+                            },
+                            "type": "minecraft:block_filter"
+                          },
+                          "feature": {
+                            "config": {
+                              "to_place": {
+                                "state": {
+                                  "Name": "minecraft:dead_bush"
+                                },
+                                "type": "minecraft:simple_state_provider"
+                              }
+                            },
+                            "type": "minecraft:simple_block"
+                          }
+                        },
+                        "type": "minecraft:decorated"
+                      },
+                      "only_in_air": false,
+                      "tries": 4,
+                      "xz_spread": 7,
+                      "y_spread": 3
+                    },
+                    "type": "minecraft:random_patch"
+                  }
                 },
-                "type": "minecraft:random_patch"
+                "type": "minecraft:decorated"
               }
             },
             "type": "minecraft:decorated"
@@ -2362,7 +2402,7 @@
         "config": {
           "decorator": {
             "config": {
-              "chance": 4
+              "chance": 256
             },
             "type": "minecraft:chance"
           },
@@ -2374,7 +2414,7 @@
                     "config": {
                       "heightmap": "MOTION_BLOCKING"
                     },
-                    "type": "minecraft:heightmap_spread_double"
+                    "type": "minecraft:heightmap"
                   },
                   "outer": {
                     "config": {},
@@ -2385,24 +2425,44 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:brown_mushroom"
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:brown_mushroom"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
                     },
-                    "type": "minecraft:simple_state_provider"
+                    "type": "minecraft:decorated"
                   },
-                  "tries": 64,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "only_in_air": false,
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }
@@ -2416,7 +2476,7 @@
         "config": {
           "decorator": {
             "config": {
-              "chance": 8
+              "chance": 512
             },
             "type": "minecraft:chance"
           },
@@ -2428,7 +2488,7 @@
                     "config": {
                       "heightmap": "MOTION_BLOCKING"
                     },
-                    "type": "minecraft:heightmap_spread_double"
+                    "type": "minecraft:heightmap"
                   },
                   "outer": {
                     "config": {},
@@ -2439,24 +2499,44 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:red_mushroom"
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:red_mushroom"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
                     },
-                    "type": "minecraft:simple_state_provider"
+                    "type": "minecraft:decorated"
                   },
-                  "tries": 64,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "only_in_air": false,
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }
@@ -2470,9 +2550,9 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 13
+              "chance": 5
             },
-            "type": "minecraft:count"
+            "type": "minecraft:chance"
           },
           "feature": {
             "config": {
@@ -2482,7 +2562,7 @@
                     "config": {
                       "heightmap": "MOTION_BLOCKING"
                     },
-                    "type": "minecraft:heightmap_spread_double"
+                    "type": "minecraft:heightmap"
                   },
                   "outer": {
                     "config": {},
@@ -2493,34 +2573,140 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "size": {
-                      "type": "minecraft:biased_to_bottom",
-                      "value": {
-                        "max_inclusive": 4,
-                        "min_inclusive": 2
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "predicates": [
+                              {
+                                "fluids": [
+                                  "minecraft:water",
+                                  "minecraft:flowing_water"
+                                ],
+                                "offset": [
+                                  1,
+                                  -1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_fluids"
+                              },
+                              {
+                                "fluids": [
+                                  "minecraft:water",
+                                  "minecraft:flowing_water"
+                                ],
+                                "offset": [
+                                  -1,
+                                  -1,
+                                  0
+                                ],
+                                "type": "minecraft:matching_fluids"
+                              },
+                              {
+                                "fluids": [
+                                  "minecraft:water",
+                                  "minecraft:flowing_water"
+                                ],
+                                "offset": [
+                                  0,
+                                  -1,
+                                  1
+                                ],
+                                "type": "minecraft:matching_fluids"
+                              },
+                              {
+                                "fluids": [
+                                  "minecraft:water",
+                                  "minecraft:flowing_water"
+                                ],
+                                "offset": [
+                                  0,
+                                  -1,
+                                  -1
+                                ],
+                                "type": "minecraft:matching_fluids"
+                              }
+                            ],
+                            "type": "minecraft:any_of"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "decorator": {
+                            "config": {
+                              "state": {
+                                "Name": "minecraft:sugar_cane",
+                                "Properties": {
+                                  "age": "0"
+                                }
+                              }
+                            },
+                            "type": "minecraft:block_survives_filter"
+                          },
+                          "feature": {
+                            "config": {
+                              "decorator": {
+                                "config": {
+                                  "predicate": {
+                                    "blocks": [
+                                      "minecraft:air"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                },
+                                "type": "minecraft:block_filter"
+                              },
+                              "feature": {
+                                "config": {
+                                  "allow_water": false,
+                                  "direction": "up",
+                                  "layers": [
+                                    {
+                                      "height": {
+                                        "type": "minecraft:biased_to_bottom",
+                                        "value": {
+                                          "max_inclusive": 4,
+                                          "min_inclusive": 2
+                                        }
+                                      },
+                                      "provider": {
+                                        "state": {
+                                          "Name": "minecraft:sugar_cane",
+                                          "Properties": {
+                                            "age": "0"
+                                          }
+                                        },
+                                        "type": "minecraft:simple_state_provider"
+                                      }
+                                    }
+                                  ],
+                                  "prioritize_tip": false
+                                },
+                                "type": "minecraft:block_column"
+                              }
+                            },
+                            "type": "minecraft:decorated"
+                          }
+                        },
+                        "type": "minecraft:decorated"
                       }
                     },
-                    "type": "minecraft:column_placer"
+                    "type": "minecraft:decorated"
                   },
-                  "can_replace": false,
-                  "need_water": true,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:sugar_cane",
-                      "Properties": {
-                        "age": "0"
-                      }
-                    },
-                    "type": "minecraft:simple_state_provider"
-                  },
+                  "only_in_air": false,
                   "tries": 20,
-                  "whitelist": [],
-                  "xspread": 4,
-                  "yspread": 0,
-                  "zspread": 4
+                  "xz_spread": 4,
+                  "y_spread": 0
                 },
                 "type": "minecraft:random_patch"
               }
@@ -2534,7 +2720,7 @@
         "config": {
           "decorator": {
             "config": {
-              "chance": 32
+              "chance": 2048
             },
             "type": "minecraft:chance"
           },
@@ -2546,7 +2732,7 @@
                     "config": {
                       "heightmap": "MOTION_BLOCKING"
                     },
-                    "type": "minecraft:heightmap_spread_double"
+                    "type": "minecraft:heightmap"
                   },
                   "outer": {
                     "config": {},
@@ -2557,31 +2743,46 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:pumpkin"
-                    },
-                    "type": "minecraft:simple_state_provider"
-                  },
-                  "tries": 64,
-                  "whitelist": [
-                    {
-                      "Name": "minecraft:grass_block",
-                      "Properties": {
-                        "snowy": "false"
-                      }
-                    }
+                  "allowed_on": [
+                    "minecraft:grass_block"
                   ],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:pumpkin"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
+                    },
+                    "type": "minecraft:decorated"
+                  },
+                  "only_in_air": false,
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }
@@ -2595,9 +2796,9 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 5
+              "chance": 13
             },
-            "type": "minecraft:count"
+            "type": "minecraft:chance"
           },
           "feature": {
             "config": {
@@ -2607,7 +2808,7 @@
                     "config": {
                       "heightmap": "MOTION_BLOCKING"
                     },
-                    "type": "minecraft:heightmap_spread_double"
+                    "type": "minecraft:heightmap"
                   },
                   "outer": {
                     "config": {},
@@ -2618,34 +2819,77 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "size": {
-                      "type": "minecraft:biased_to_bottom",
-                      "value": {
-                        "max_inclusive": 3,
-                        "min_inclusive": 1
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "decorator": {
+                            "config": {
+                              "state": {
+                                "Name": "minecraft:cactus",
+                                "Properties": {
+                                  "age": "0"
+                                }
+                              }
+                            },
+                            "type": "minecraft:block_survives_filter"
+                          },
+                          "feature": {
+                            "config": {
+                              "allow_water": false,
+                              "direction": "up",
+                              "layers": [
+                                {
+                                  "height": {
+                                    "type": "minecraft:biased_to_bottom",
+                                    "value": {
+                                      "max_inclusive": 3,
+                                      "min_inclusive": 1
+                                    }
+                                  },
+                                  "provider": {
+                                    "state": {
+                                      "Name": "minecraft:cactus",
+                                      "Properties": {
+                                        "age": "0"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_state_provider"
+                                  }
+                                }
+                              ],
+                              "prioritize_tip": false
+                            },
+                            "type": "minecraft:block_column"
+                          }
+                        },
+                        "type": "minecraft:decorated"
                       }
                     },
-                    "type": "minecraft:column_placer"
+                    "type": "minecraft:decorated"
                   },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:cactus",
-                      "Properties": {
-                        "age": "0"
-                      }
-                    },
-                    "type": "minecraft:simple_state_provider"
-                  },
+                  "only_in_air": false,
                   "tries": 10,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }

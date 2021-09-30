@@ -20,8 +20,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -39,8 +39,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:slowness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:slowness"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -58,8 +58,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strength\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strength"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -77,8 +77,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:healing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -96,8 +96,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:harming\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:harming"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -115,8 +115,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:leaping\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:leaping"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -134,8 +134,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -153,8 +153,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -172,8 +172,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:water_breathing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water_breathing"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -191,8 +191,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:invisibility\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:invisibility"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -210,8 +210,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:night_vision\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:night_vision"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -229,8 +229,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:weakness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:weakness"
             }
           ],
           "name": "minecraft:tipped_arrow",
@@ -248,8 +248,8 @@
               "function": "minecraft:set_count"
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:poison\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:poison"
             }
           ],
           "name": "minecraft:tipped_arrow",

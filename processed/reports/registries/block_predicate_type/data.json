@@ -1,0 +1,10 @@
+{
+  "values": [
+    "minecraft:all_of",
+    "minecraft:any_of",
+    "minecraft:matching_blocks",
+    "minecraft:matching_fluids",
+    "minecraft:not",
+    "minecraft:replaceable"
+  ]
+}

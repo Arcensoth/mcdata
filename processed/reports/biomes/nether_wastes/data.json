@@ -159,36 +159,54 @@
           },
           "feature": {
             "config": {
-              "blacklist": [],
-              "block_placer": {
-                "type": "minecraft:simple_block_placer"
-              },
-              "can_replace": false,
-              "need_water": false,
-              "project": false,
-              "state_provider": {
-                "state": {
-                  "Name": "minecraft:fire",
-                  "Properties": {
-                    "age": "0",
-                    "east": "false",
-                    "north": "false",
-                    "south": "false",
-                    "up": "false",
-                    "west": "false"
+              "allowed_on": [
+                "minecraft:netherrack"
+              ],
+              "disallowed_on": [],
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:air"
+                        ],
+                        "offset": [
+                          0,
+                          0,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      }
+                    },
+                    "type": "minecraft:block_filter"
+                  },
+                  "feature": {
+                    "config": {
+                      "to_place": {
+                        "state": {
+                          "Name": "minecraft:fire",
+                          "Properties": {
+                            "age": "0",
+                            "east": "false",
+                            "north": "false",
+                            "south": "false",
+                            "up": "false",
+                            "west": "false"
+                          }
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      }
+                    },
+                    "type": "minecraft:simple_block"
                   }
                 },
-                "type": "minecraft:simple_state_provider"
+                "type": "minecraft:decorated"
               },
-              "tries": 64,
-              "whitelist": [
-                {
-                  "Name": "minecraft:netherrack"
-                }
-              ],
-              "xspread": 7,
-              "yspread": 3,
-              "zspread": 7
+              "only_in_air": false,
+              "tries": 96,
+              "xz_spread": 7,
+              "y_spread": 3
             },
             "type": "minecraft:random_patch"
           }
@@ -239,28 +257,46 @@
           },
           "feature": {
             "config": {
-              "blacklist": [],
-              "block_placer": {
-                "type": "minecraft:simple_block_placer"
-              },
-              "can_replace": false,
-              "need_water": false,
-              "project": false,
-              "state_provider": {
-                "state": {
-                  "Name": "minecraft:soul_fire"
-                },
-                "type": "minecraft:simple_state_provider"
-              },
-              "tries": 64,
-              "whitelist": [
-                {
-                  "Name": "minecraft:soul_soil"
-                }
+              "allowed_on": [
+                "minecraft:soul_soil"
               ],
-              "xspread": 7,
-              "yspread": 3,
-              "zspread": 7
+              "disallowed_on": [],
+              "feature": {
+                "config": {
+                  "decorator": {
+                    "config": {
+                      "predicate": {
+                        "blocks": [
+                          "minecraft:air"
+                        ],
+                        "offset": [
+                          0,
+                          0,
+                          0
+                        ],
+                        "type": "minecraft:matching_blocks"
+                      }
+                    },
+                    "type": "minecraft:block_filter"
+                  },
+                  "feature": {
+                    "config": {
+                      "to_place": {
+                        "state": {
+                          "Name": "minecraft:soul_fire"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                      }
+                    },
+                    "type": "minecraft:simple_block"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "only_in_air": false,
+              "tries": 96,
+              "xz_spread": 7,
+              "y_spread": 3
             },
             "type": "minecraft:random_patch"
           }
@@ -385,24 +421,44 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:brown_mushroom"
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:brown_mushroom"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
                     },
-                    "type": "minecraft:simple_state_provider"
+                    "type": "minecraft:decorated"
                   },
-                  "tries": 64,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "only_in_air": false,
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }
@@ -438,24 +494,44 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:red_mushroom"
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:red_mushroom"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
                     },
-                    "type": "minecraft:simple_state_provider"
+                    "type": "minecraft:decorated"
                   },
-                  "tries": 64,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "only_in_air": false,
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }
@@ -966,7 +1042,7 @@
         "config": {
           "decorator": {
             "config": {
-              "chance": 4
+              "chance": 256
             },
             "type": "minecraft:chance"
           },
@@ -978,7 +1054,7 @@
                     "config": {
                       "heightmap": "MOTION_BLOCKING"
                     },
-                    "type": "minecraft:heightmap_spread_double"
+                    "type": "minecraft:heightmap"
                   },
                   "outer": {
                     "config": {},
@@ -989,24 +1065,44 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:brown_mushroom"
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:brown_mushroom"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
                     },
-                    "type": "minecraft:simple_state_provider"
+                    "type": "minecraft:decorated"
                   },
-                  "tries": 64,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "only_in_air": false,
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }
@@ -1020,7 +1116,7 @@
         "config": {
           "decorator": {
             "config": {
-              "chance": 8
+              "chance": 512
             },
             "type": "minecraft:chance"
           },
@@ -1032,7 +1128,7 @@
                     "config": {
                       "heightmap": "MOTION_BLOCKING"
                     },
-                    "type": "minecraft:heightmap_spread_double"
+                    "type": "minecraft:heightmap"
                   },
                   "outer": {
                     "config": {},
@@ -1043,24 +1139,44 @@
               },
               "feature": {
                 "config": {
-                  "blacklist": [],
-                  "block_placer": {
-                    "type": "minecraft:simple_block_placer"
-                  },
-                  "can_replace": false,
-                  "need_water": false,
-                  "project": false,
-                  "state_provider": {
-                    "state": {
-                      "Name": "minecraft:red_mushroom"
+                  "allowed_on": [],
+                  "disallowed_on": [],
+                  "feature": {
+                    "config": {
+                      "decorator": {
+                        "config": {
+                          "predicate": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "offset": [
+                              0,
+                              0,
+                              0
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          }
+                        },
+                        "type": "minecraft:block_filter"
+                      },
+                      "feature": {
+                        "config": {
+                          "to_place": {
+                            "state": {
+                              "Name": "minecraft:red_mushroom"
+                            },
+                            "type": "minecraft:simple_state_provider"
+                          }
+                        },
+                        "type": "minecraft:simple_block"
+                      }
                     },
-                    "type": "minecraft:simple_state_provider"
+                    "type": "minecraft:decorated"
                   },
-                  "tries": 64,
-                  "whitelist": [],
-                  "xspread": 7,
-                  "yspread": 3,
-                  "zspread": 7
+                  "only_in_air": false,
+                  "tries": 96,
+                  "xz_spread": 7,
+                  "y_spread": 3
                 },
                 "type": "minecraft:random_patch"
               }

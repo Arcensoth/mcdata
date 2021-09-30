@@ -2,3 +2,4 @@ minecraft:biased_to_bottom
 minecraft:clamped
 minecraft:constant
 minecraft:uniform
+minecraft:weighted_list

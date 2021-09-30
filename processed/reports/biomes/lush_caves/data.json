@@ -545,7 +545,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 15
+              "count": 7
             },
             "type": "minecraft:count"
           },
@@ -561,7 +561,7 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 160
                         },
                         "min_inclusive": {
                           "absolute": 0
@@ -2211,46 +2211,68 @@
           "feature": {
             "config": {
               "decorator": {
-                "config": {},
-                "type": "minecraft:square"
+                "config": {
+                  "chance": 32
+                },
+                "type": "minecraft:chance"
               },
               "feature": {
                 "config": {
                   "decorator": {
-                    "config": {
-                      "heightmap": "MOTION_BLOCKING"
-                    },
-                    "type": "minecraft:heightmap"
+                    "config": {},
+                    "type": "minecraft:square"
                   },
                   "feature": {
                     "config": {
                       "decorator": {
-                        "config": {},
-                        "type": "minecraft:spread_32_above"
+                        "config": {
+                          "heightmap": "MOTION_BLOCKING"
+                        },
+                        "type": "minecraft:heightmap"
                       },
                       "feature": {
                         "config": {
-                          "blacklist": [],
-                          "block_placer": {
-                            "type": "minecraft:double_plant_placer"
-                          },
-                          "can_replace": false,
-                          "need_water": false,
-                          "project": false,
-                          "state_provider": {
-                            "state": {
-                              "Name": "minecraft:tall_grass",
-                              "Properties": {
-                                "half": "lower"
+                          "allowed_on": [],
+                          "disallowed_on": [],
+                          "feature": {
+                            "config": {
+                              "decorator": {
+                                "config": {
+                                  "predicate": {
+                                    "blocks": [
+                                      "minecraft:air"
+                                    ],
+                                    "offset": [
+                                      0,
+                                      0,
+                                      0
+                                    ],
+                                    "type": "minecraft:matching_blocks"
+                                  }
+                                },
+                                "type": "minecraft:block_filter"
+                              },
+                              "feature": {
+                                "config": {
+                                  "to_place": {
+                                    "state": {
+                                      "Name": "minecraft:tall_grass",
+                                      "Properties": {
+                                        "half": "lower"
+                                      }
+                                    },
+                                    "type": "minecraft:simple_state_provider"
+                                  }
+                                },
+                                "type": "minecraft:simple_block"
                               }
                             },
-                            "type": "minecraft:simple_state_provider"
+                            "type": "minecraft:decorated"
                           },
-                          "tries": 64,
-                          "whitelist": [],
-                          "xspread": 7,
-                          "yspread": 3,
-                          "zspread": 7
+                          "only_in_air": false,
+                          "tries": 96,
+                          "xz_spread": 7,
+                          "y_spread": 3
                         },
                         "type": "minecraft:random_patch"
                       }
@@ -2552,90 +2574,101 @@
                           "vegetation_feature": {
                             "config": {
                               "allow_water": false,
-                              "body_provider": {
-                                "entries": [
-                                  {
-                                    "data": {
-                                      "Name": "minecraft:cave_vines_plant",
-                                      "Properties": {
-                                        "berries": "false"
-                                      }
-                                    },
-                                    "weight": 4
-                                  },
-                                  {
-                                    "data": {
-                                      "Name": "minecraft:cave_vines_plant",
-                                      "Properties": {
-                                        "berries": "true"
-                                      }
-                                    },
-                                    "weight": 1
-                                  }
-                                ],
-                                "type": "minecraft:weighted_state_provider"
-                              },
                               "direction": "down",
-                              "head_provider": {
-                                "property": "age",
-                                "source": {
-                                  "entries": [
-                                    {
-                                      "data": {
-                                        "Name": "minecraft:cave_vines",
-                                        "Properties": {
-                                          "age": "0",
-                                          "berries": "false"
-                                        }
+                              "layers": [
+                                {
+                                  "height": {
+                                    "distribution": [
+                                      {
+                                        "data": {
+                                          "type": "minecraft:uniform",
+                                          "value": {
+                                            "max_inclusive": 3,
+                                            "min_inclusive": 0
+                                          }
+                                        },
+                                        "weight": 5
                                       },
-                                      "weight": 4
-                                    },
-                                    {
-                                      "data": {
-                                        "Name": "minecraft:cave_vines",
-                                        "Properties": {
-                                          "age": "0",
-                                          "berries": "true"
-                                        }
+                                      {
+                                        "data": {
+                                          "type": "minecraft:uniform",
+                                          "value": {
+                                            "max_inclusive": 7,
+                                            "min_inclusive": 1
+                                          }
+                                        },
+                                        "weight": 1
+                                      }
+                                    ],
+                                    "type": "minecraft:weighted_list"
+                                  },
+                                  "provider": {
+                                    "entries": [
+                                      {
+                                        "data": {
+                                          "Name": "minecraft:cave_vines_plant",
+                                          "Properties": {
+                                            "berries": "false"
+                                          }
+                                        },
+                                        "weight": 4
                                       },
-                                      "weight": 1
-                                    }
-                                  ],
-                                  "type": "minecraft:weighted_state_provider"
+                                      {
+                                        "data": {
+                                          "Name": "minecraft:cave_vines_plant",
+                                          "Properties": {
+                                            "berries": "true"
+                                          }
+                                        },
+                                        "weight": 1
+                                      }
+                                    ],
+                                    "type": "minecraft:weighted_state_provider"
+                                  }
                                 },
-                                "type": "minecraft:randomized_int_state_provider",
-                                "values": {
-                                  "type": "minecraft:uniform",
-                                  "value": {
-                                    "max_inclusive": 25,
-                                    "min_inclusive": 17
+                                {
+                                  "height": 1,
+                                  "provider": {
+                                    "property": "age",
+                                    "source": {
+                                      "entries": [
+                                        {
+                                          "data": {
+                                            "Name": "minecraft:cave_vines",
+                                            "Properties": {
+                                              "age": "0",
+                                              "berries": "false"
+                                            }
+                                          },
+                                          "weight": 4
+                                        },
+                                        {
+                                          "data": {
+                                            "Name": "minecraft:cave_vines",
+                                            "Properties": {
+                                              "age": "0",
+                                              "berries": "true"
+                                            }
+                                          },
+                                          "weight": 1
+                                        }
+                                      ],
+                                      "type": "minecraft:weighted_state_provider"
+                                    },
+                                    "type": "minecraft:randomized_int_state_provider",
+                                    "values": {
+                                      "type": "minecraft:uniform",
+                                      "value": {
+                                        "max_inclusive": 25,
+                                        "min_inclusive": 23
+                                      }
+                                    }
                                   }
                                 }
-                              },
-                              "height_distribution": [
-                                {
-                                  "data": {
-                                    "type": "minecraft:uniform",
-                                    "value": {
-                                      "max_inclusive": 4,
-                                      "min_inclusive": 1
-                                    }
-                                  },
-                                  "weight": 5
-                                },
-                                {
-                                  "data": {
-                                    "type": "minecraft:uniform",
-                                    "value": {
-                                      "max_inclusive": 8,
-                                      "min_inclusive": 2
-                                    }
-                                  },
-                                  "weight": 1
-                                }
-                              ]
+                              ],
+                              "prioritize_tip": true
                             },
-                            "type": "minecraft:growing_plant"
+                            "type": "minecraft:block_column"
                           },
                           "vertical_range": 5,
                           "xz_radius": {
@@ -2702,100 +2735,111 @@
                       "feature": {
                         "config": {
                           "allow_water": false,
-                          "body_provider": {
-                            "entries": [
-                              {
-                                "data": {
-                                  "Name": "minecraft:cave_vines_plant",
-                                  "Properties": {
-                                    "berries": "false"
-                                  }
-                                },
-                                "weight": 4
-                              },
-                              {
-                                "data": {
-                                  "Name": "minecraft:cave_vines_plant",
-                                  "Properties": {
-                                    "berries": "true"
-                                  }
-                                },
-                                "weight": 1
-                              }
-                            ],
-                            "type": "minecraft:weighted_state_provider"
-                          },
                           "direction": "down",
-                          "head_provider": {
-                            "property": "age",
-                            "source": {
-                              "entries": [
-                                {
-                                  "data": {
-                                    "Name": "minecraft:cave_vines",
-                                    "Properties": {
-                                      "age": "0",
-                                      "berries": "false"
-                                    }
+                          "layers": [
+                            {
+                              "height": {
+                                "distribution": [
+                                  {
+                                    "data": {
+                                      "type": "minecraft:uniform",
+                                      "value": {
+                                        "max_inclusive": 19,
+                                        "min_inclusive": 0
+                                      }
+                                    },
+                                    "weight": 2
                                   },
-                                  "weight": 4
-                                },
-                                {
-                                  "data": {
-                                    "Name": "minecraft:cave_vines",
-                                    "Properties": {
-                                      "age": "0",
-                                      "berries": "true"
-                                    }
+                                  {
+                                    "data": {
+                                      "type": "minecraft:uniform",
+                                      "value": {
+                                        "max_inclusive": 2,
+                                        "min_inclusive": 0
+                                      }
+                                    },
+                                    "weight": 3
                                   },
-                                  "weight": 1
-                                }
-                              ],
-                              "type": "minecraft:weighted_state_provider"
+                                  {
+                                    "data": {
+                                      "type": "minecraft:uniform",
+                                      "value": {
+                                        "max_inclusive": 6,
+                                        "min_inclusive": 0
+                                      }
+                                    },
+                                    "weight": 10
+                                  }
+                                ],
+                                "type": "minecraft:weighted_list"
+                              },
+                              "provider": {
+                                "entries": [
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:cave_vines_plant",
+                                      "Properties": {
+                                        "berries": "false"
+                                      }
+                                    },
+                                    "weight": 4
+                                  },
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:cave_vines_plant",
+                                      "Properties": {
+                                        "berries": "true"
+                                      }
+                                    },
+                                    "weight": 1
+                                  }
+                                ],
+                                "type": "minecraft:weighted_state_provider"
+                              }
                             },
-                            "type": "minecraft:randomized_int_state_provider",
-                            "values": {
-                              "type": "minecraft:uniform",
-                              "value": {
-                                "max_inclusive": 25,
-                                "min_inclusive": 17
+                            {
+                              "height": 1,
+                              "provider": {
+                                "property": "age",
+                                "source": {
+                                  "entries": [
+                                    {
+                                      "data": {
+                                        "Name": "minecraft:cave_vines",
+                                        "Properties": {
+                                          "age": "0",
+                                          "berries": "false"
+                                        }
+                                      },
+                                      "weight": 4
+                                    },
+                                    {
+                                      "data": {
+                                        "Name": "minecraft:cave_vines",
+                                        "Properties": {
+                                          "age": "0",
+                                          "berries": "true"
+                                        }
+                                      },
+                                      "weight": 1
+                                    }
+                                  ],
+                                  "type": "minecraft:weighted_state_provider"
+                                },
+                                "type": "minecraft:randomized_int_state_provider",
+                                "values": {
+                                  "type": "minecraft:uniform",
+                                  "value": {
+                                    "max_inclusive": 25,
+                                    "min_inclusive": 23
+                                  }
+                                }
                               }
                             }
-                          },
-                          "height_distribution": [
-                            {
-                              "data": {
-                                "type": "minecraft:uniform",
-                                "value": {
-                                  "max_inclusive": 20,
-                                  "min_inclusive": 1
-                                }
-                              },
-                              "weight": 2
-                            },
-                            {
-                              "data": {
-                                "type": "minecraft:uniform",
-                                "value": {
-                                  "max_inclusive": 3,
-                                  "min_inclusive": 1
-                                }
-                              },
-                              "weight": 3
-                            },
-                            {
-                              "data": {
-                                "type": "minecraft:uniform",
-                                "value": {
-                                  "max_inclusive": 7,
-                                  "min_inclusive": 1
-                                }
-                              },
-                              "weight": 10
-                            }
-                          ]
+                          ],
+                          "prioritize_tip": true
                         },
-                        "type": "minecraft:growing_plant"
+                        "type": "minecraft:block_column"
                       }
                     },
                     "type": "minecraft:decorated"
@@ -2869,9 +2913,6 @@
                                   "features": [
                                     {
                                       "config": {
-                                        "place_in": [],
-                                        "place_on": [],
-                                        "place_under": [],
                                         "to_place": {
                                           "entries": [
                                             {
@@ -2927,178 +2968,222 @@
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "east",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "east",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "east",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "east",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     },
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "west",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "west",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "west",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "west",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     },
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "south",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "south",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "south",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "south",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     },
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "north",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "north",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "north",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "north",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     }
                                   ]
                                 },
@@ -3134,9 +3219,6 @@
                                   "features": [
                                     {
                                       "config": {
-                                        "place_in": [],
-                                        "place_on": [],
-                                        "place_under": [],
                                         "to_place": {
                                           "entries": [
                                             {
@@ -3192,178 +3274,222 @@
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "east",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "east",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "east",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "east",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     },
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "west",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "west",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "west",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "west",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     },
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "south",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "south",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "south",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "south",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     },
                                     {
                                       "config": {
                                         "allow_water": true,
-                                        "body_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf_stem",
-                                            "Properties": {
-                                              "facing": "north",
-                                              "waterlogged": "false"
-                                            }
-                                          },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
                                         "direction": "up",
-                                        "head_provider": {
-                                          "state": {
-                                            "Name": "minecraft:big_dripleaf",
-                                            "Properties": {
-                                              "facing": "north",
-                                              "tilt": "none",
-                                              "waterlogged": "false"
+                                        "layers": [
+                                          {
+                                            "height": {
+                                              "distribution": [
+                                                {
+                                                  "data": {
+                                                    "type": "minecraft:uniform",
+                                                    "value": {
+                                                      "max_inclusive": 4,
+                                                      "min_inclusive": 0
+                                                    }
+                                                  },
+                                                  "weight": 2
+                                                },
+                                                {
+                                                  "data": 0,
+                                                  "weight": 1
+                                                }
+                                              ],
+                                              "type": "minecraft:weighted_list"
+                                            },
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf_stem",
+                                                "Properties": {
+                                                  "facing": "north",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
                                             }
                                           },
-                                          "type": "minecraft:simple_state_provider"
-                                        },
-                                        "height_distribution": [
                                           {
-                                            "data": {
-                                              "type": "minecraft:uniform",
-                                              "value": {
-                                                "max_inclusive": 5,
-                                                "min_inclusive": 1
-                                              }
-                                            },
-                                            "weight": 2
-                                          },
-                                          {
-                                            "data": 1,
-                                            "weight": 1
+                                            "height": 1,
+                                            "provider": {
+                                              "state": {
+                                                "Name": "minecraft:big_dripleaf",
+                                                "Properties": {
+                                                  "facing": "north",
+                                                  "tilt": "none",
+                                                  "waterlogged": "false"
+                                                }
+                                              },
+                                              "type": "minecraft:simple_state_provider"
+                                            }
                                           }
-                                        ]
+                                        ],
+                                        "prioritize_tip": true
                                       },
-                                      "type": "minecraft:growing_plant"
+                                      "type": "minecraft:block_column"
                                     }
                                   ]
                                 },
@@ -3450,9 +3576,6 @@
                           "vegetation_chance": 0.8,
                           "vegetation_feature": {
                             "config": {
-                              "place_in": [],
-                              "place_on": [],
-                              "place_under": [],
                               "to_place": {
                                 "entries": [
                                   {
@@ -3713,9 +3836,6 @@
                       },
                       "feature": {
                         "config": {
-                          "place_in": [],
-                          "place_on": [],
-                          "place_under": [],
                           "to_place": {
                             "state": {
                               "Name": "minecraft:spore_blossom"
