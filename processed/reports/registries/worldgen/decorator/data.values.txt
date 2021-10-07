@@ -1,5 +1,4 @@
 minecraft:block_filter
-minecraft:block_survives_filter
 minecraft:carving_mask
 minecraft:cave_surface
 minecraft:chance

@@ -12256,14 +12256,20 @@
       "minecraft:replaceable": {
         "protocol_id": 2
       },
-      "minecraft:any_of": {
+      "minecraft:would_survive": {
         "protocol_id": 3
       },
-      "minecraft:all_of": {
+      "minecraft:any_of": {
         "protocol_id": 4
       },
-      "minecraft:not": {
+      "minecraft:all_of": {
         "protocol_id": 5
+      },
+      "minecraft:not": {
+        "protocol_id": 6
+      },
+      "minecraft:true": {
+        "protocol_id": 7
       }
     }
   },
@@ -12835,11 +12841,8 @@
       "minecraft:environment_scan": {
         "protocol_id": 19
       },
-      "minecraft:block_survives_filter": {
-        "protocol_id": 20
-      },
       "minecraft:block_filter": {
-        "protocol_id": 21
+        "protocol_id": 20
       }
     }
   },

@@ -2912,10 +2912,10 @@
   "minecraft:block_predicate_type": {
     "entries": {
       "minecraft:all_of": {
-        "protocol_id": 4
+        "protocol_id": 5
       },
       "minecraft:any_of": {
-        "protocol_id": 3
+        "protocol_id": 4
       },
       "minecraft:matching_blocks": {
         "protocol_id": 0
@@ -2924,10 +2924,16 @@
         "protocol_id": 1
       },
       "minecraft:not": {
-        "protocol_id": 5
+        "protocol_id": 6
       },
       "minecraft:replaceable": {
         "protocol_id": 2
+      },
+      "minecraft:true": {
+        "protocol_id": 7
+      },
+      "minecraft:would_survive": {
+        "protocol_id": 3
       }
     },
     "protocol_id": 38
@@ -12341,9 +12347,6 @@
   "minecraft:worldgen/decorator": {
     "entries": {
       "minecraft:block_filter": {
-        "protocol_id": 21
-      },
-      "minecraft:block_survives_filter": {
         "protocol_id": 20
       },
       "minecraft:carving_mask": {

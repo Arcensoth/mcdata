@@ -254,56 +254,6 @@
                 "config": {
                   "feature": {
                     "config": {
-                      "state": {
-                        "Properties": {
-                          "level": "0"
-                        },
-                        "Name": "minecraft:water"
-                      }
-                    },
-                    "type": "minecraft:lake"
-                  },
-                  "decorator": {
-                    "config": {
-                      "height": {
-                        "min_inclusive": {
-                          "above_bottom": 0
-                        },
-                        "max_inclusive": {
-                          "below_top": 0
-                        },
-                        "type": "minecraft:uniform"
-                      }
-                    },
-                    "type": "minecraft:range"
-                  }
-                },
-                "type": "minecraft:decorated"
-              },
-              "decorator": {
-                "config": {},
-                "type": "minecraft:square"
-              }
-            },
-            "type": "minecraft:decorated"
-          },
-          "decorator": {
-            "config": {
-              "chance": 32
-            },
-            "type": "minecraft:chance"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
-      {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "feature": {
-                    "config": {
                       "feature": {
                         "config": {
                           "state": {
@@ -523,7 +473,7 @@
                     "config": {
                       "height": {
                         "min_inclusive": {
-                          "above_bottom": 0
+                          "absolute": 0
                         },
                         "max_inclusive": {
                           "below_top": 0
@@ -545,7 +495,50 @@
           },
           "decorator": {
             "config": {
-              "count": 8
+              "count": 10
+            },
+            "type": "minecraft:count"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "feature": {
+                    "config": {},
+                    "type": "minecraft:monster_room"
+                  },
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "min_inclusive": {
+                          "above_bottom": 6
+                        },
+                        "max_inclusive": {
+                          "absolute": -1
+                        },
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {
+              "count": 4
             },
             "type": "minecraft:count"
           }
@@ -641,7 +634,7 @@
                     "config": {
                       "height": {
                         "min_inclusive": {
-                          "absolute": 0
+                          "above_bottom": 0
                         },
                         "max_inclusive": {
                           "below_top": 0
@@ -663,7 +656,7 @@
           },
           "decorator": {
             "config": {
-              "count": 12
+              "count": 14
             },
             "type": "minecraft:count"
           }
@@ -1238,7 +1231,7 @@
                     "config": {
                       "height": {
                         "min_inclusive": {
-                          "absolute": 112
+                          "absolute": 80
                         },
                         "max_inclusive": {
                           "absolute": 384
@@ -1260,7 +1253,7 @@
           },
           "decorator": {
             "config": {
-              "count": 80
+              "count": 90
             },
             "type": "minecraft:count"
           }
@@ -1459,6 +1452,78 @@
           "decorator": {
             "config": {
               "count": 4
+            },
+            "type": "minecraft:count"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "targets": [
+                        {
+                          "target": {
+                            "tag": "minecraft:stone_ore_replaceables",
+                            "predicate_type": "minecraft:tag_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:gold_ore"
+                          }
+                        },
+                        {
+                          "target": {
+                            "tag": "minecraft:deepslate_ore_replaceables",
+                            "predicate_type": "minecraft:tag_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:deepslate_gold_ore"
+                          }
+                        }
+                      ],
+                      "size": 9,
+                      "discard_chance_on_air_exposure": 0.5
+                    },
+                    "type": "minecraft:ore"
+                  },
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "min_inclusive": {
+                          "absolute": -64
+                        },
+                        "max_inclusive": {
+                          "absolute": -48
+                        },
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {
+              "count": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 0,
+                  "max_inclusive": 1
+                }
+              }
             },
             "type": "minecraft:count"
           }
@@ -1756,6 +1821,72 @@
                             "predicate_type": "minecraft:tag_match"
                           },
                           "state": {
+                            "Name": "minecraft:diamond_ore"
+                          }
+                        },
+                        {
+                          "target": {
+                            "tag": "minecraft:deepslate_ore_replaceables",
+                            "predicate_type": "minecraft:tag_match"
+                          },
+                          "state": {
+                            "Name": "minecraft:deepslate_diamond_ore"
+                          }
+                        }
+                      ],
+                      "size": 8,
+                      "discard_chance_on_air_exposure": 1.0
+                    },
+                    "type": "minecraft:ore"
+                  },
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "min_inclusive": {
+                          "above_bottom": -80
+                        },
+                        "max_inclusive": {
+                          "above_bottom": 80
+                        },
+                        "type": "minecraft:trapezoid"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {
+              "count": 4
+            },
+            "type": "minecraft:count"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "targets": [
+                        {
+                          "target": {
+                            "tag": "minecraft:stone_ore_replaceables",
+                            "predicate_type": "minecraft:tag_match"
+                          },
+                          "state": {
                             "Name": "minecraft:lapis_ore"
                           }
                         },
@@ -1910,10 +2041,10 @@
                     "config": {
                       "height": {
                         "min_inclusive": {
-                          "absolute": 0
+                          "absolute": -16
                         },
                         "max_inclusive": {
-                          "absolute": 95
+                          "absolute": 112
                         },
                         "type": "minecraft:trapezoid"
                       }
@@ -1932,7 +2063,7 @@
           },
           "decorator": {
             "config": {
-              "count": 12
+              "count": 16
             },
             "type": "minecraft:count"
           }
@@ -1994,7 +2125,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "value": {
-                  "min_inclusive": 18,
+                  "min_inclusive": 25,
                   "max_inclusive": 30
                 }
               }
@@ -2223,9 +2354,9 @@
                     "config": {
                       "feature": {
                         "config": {
-                          "allowed_on": [],
-                          "disallowed_on": [],
-                          "only_in_air": false,
+                          "tries": 96,
+                          "xz_spread": 7,
+                          "y_spread": 3,
                           "feature": {
                             "config": {
                               "feature": {
@@ -2248,11 +2379,6 @@
                                     "blocks": [
                                       "minecraft:air"
                                     ],
-                                    "offset": [
-                                      0,
-                                      0,
-                                      0
-                                    ],
                                     "type": "minecraft:matching_blocks"
                                   }
                                 },
@@ -2260,10 +2386,7 @@
                               }
                             },
                             "type": "minecraft:decorated"
-                          },
-                          "tries": 96,
-                          "xz_spread": 7,
-                          "y_spread": 3
+                          }
                         },
                         "type": "minecraft:random_patch"
                       },
@@ -2642,7 +2765,12 @@
                                 }
                               ],
                               "direction": "down",
-                              "allow_water": false,
+                              "allowed_placement": {
+                                "blocks": [
+                                  "minecraft:air"
+                                ],
+                                "type": "minecraft:matching_blocks"
+                              },
                               "prioritize_tip": true
                             },
                             "type": "minecraft:block_column"
@@ -2820,7 +2948,12 @@
                             }
                           ],
                           "direction": "down",
-                          "allow_water": false,
+                          "allowed_placement": {
+                            "blocks": [
+                              "minecraft:air"
+                            ],
+                            "type": "minecraft:matching_blocks"
+                          },
                           "prioritize_tip": true
                         },
                         "type": "minecraft:block_column"
@@ -2998,7 +3131,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3053,7 +3192,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3108,7 +3253,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3163,7 +3314,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3304,7 +3461,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3359,7 +3522,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3414,7 +3583,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3469,7 +3644,13 @@
                                           }
                                         ],
                                         "direction": "up",
-                                        "allow_water": true,
+                                        "allowed_placement": {
+                                          "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:water"
+                                          ],
+                                          "type": "minecraft:matching_blocks"
+                                        },
                                         "prioritize_tip": true
                                       },
                                       "type": "minecraft:block_column"
@@ -3994,7 +4175,14 @@
       }
     ],
     "water_creature": [],
-    "water_ambient": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 25,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
     "misc": []
   },
   "spawn_costs": {},

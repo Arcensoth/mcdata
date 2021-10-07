@@ -5,6 +5,8 @@
     "minecraft:matching_blocks",
     "minecraft:matching_fluids",
     "minecraft:not",
-    "minecraft:replaceable"
+    "minecraft:replaceable",
+    "minecraft:true",
+    "minecraft:would_survive"
   ]
 }
