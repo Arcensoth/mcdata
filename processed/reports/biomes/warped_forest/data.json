@@ -847,6 +847,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {
@@ -1217,20 +1218,6 @@
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
-  },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:warped_nylium"
-      },
-      "under_material": {
-        "Name": "minecraft:netherrack"
-      },
-      "underwater_material": {
-        "Name": "minecraft:warped_wart_block"
-      }
-    },
-    "type": "minecraft:nether_forest"
   },
   "temperature": 2.0
 }

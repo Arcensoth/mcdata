@@ -6,24 +6,10 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7972607,
+    "sky_color": 8560639,
     "fog_color": 12638463,
     "water_color": 4159204,
     "water_fog_color": 329011
-  },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:snow_block"
-      },
-      "under_material": {
-        "Name": "minecraft:snow_block"
-      },
-      "underwater_material": {
-        "Name": "minecraft:gravel"
-      }
-    },
-    "type": "minecraft:snowy_slopes"
   },
   "carvers": {
     "air": [
@@ -434,7 +420,7 @@
                           "above_bottom": 6
                         },
                         "max_inclusive": {
-                          "absolute": 46
+                          "absolute": 30
                         },
                         "type": "minecraft:uniform"
                       }
@@ -453,7 +439,7 @@
           },
           "decorator": {
             "config": {
-              "chance": 53
+              "chance": 24
             },
             "type": "minecraft:chance"
           }
@@ -2113,7 +2099,7 @@
                       "above_bottom": 0
                     },
                     "max_inclusive": {
-                      "absolute": 120
+                      "absolute": 256
                     },
                     "type": "minecraft:uniform"
                   }
@@ -2128,8 +2114,8 @@
               "count": {
                 "type": "minecraft:uniform",
                 "value": {
-                  "min_inclusive": 25,
-                  "max_inclusive": 30
+                  "min_inclusive": 44,
+                  "max_inclusive": 52
                 }
               }
             },
@@ -2434,6 +2420,136 @@
                 "config": {
                   "feature": {
                     "config": {
+                      "rock_count": 4,
+                      "hole_count": 1,
+                      "valid_blocks": [
+                        "minecraft:stone",
+                        "minecraft:granite",
+                        "minecraft:diorite",
+                        "minecraft:andesite",
+                        "minecraft:deepslate",
+                        "minecraft:tuff",
+                        "minecraft:calcite",
+                        "minecraft:dirt",
+                        "minecraft:snow_block",
+                        "minecraft:powder_snow",
+                        "minecraft:packed_ice"
+                      ],
+                      "state": {
+                        "Properties": {
+                          "falling": "true"
+                        },
+                        "Name": "minecraft:water"
+                      },
+                      "requires_block_below": true
+                    },
+                    "type": "minecraft:spring_feature"
+                  },
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "min_inclusive": {
+                          "above_bottom": 0
+                        },
+                        "max_inclusive": {
+                          "below_top": 0
+                        },
+                        "type": "minecraft:uniform"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {
+              "count": 40
+            },
+            "type": "minecraft:count"
+          }
+        },
+        "type": "minecraft:decorated"
+      },
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "feature": {
+                    "config": {
+                      "rock_count": 4,
+                      "hole_count": 1,
+                      "valid_blocks": [
+                        "minecraft:stone",
+                        "minecraft:granite",
+                        "minecraft:diorite",
+                        "minecraft:andesite",
+                        "minecraft:deepslate",
+                        "minecraft:tuff"
+                      ],
+                      "state": {
+                        "Properties": {
+                          "falling": "true"
+                        },
+                        "Name": "minecraft:lava"
+                      },
+                      "requires_block_below": true
+                    },
+                    "type": "minecraft:spring_feature"
+                  },
+                  "decorator": {
+                    "config": {
+                      "height": {
+                        "min_inclusive": {
+                          "above_bottom": 0
+                        },
+                        "max_inclusive": {
+                          "below_top": 8
+                        },
+                        "inner": 8,
+                        "type": "minecraft:very_biased_to_bottom"
+                      }
+                    },
+                    "type": "minecraft:range"
+                  }
+                },
+                "type": "minecraft:decorated"
+              },
+              "decorator": {
+                "config": {},
+                "type": "minecraft:square"
+              }
+            },
+            "type": "minecraft:decorated"
+          },
+          "decorator": {
+            "config": {
+              "count": 20
+            },
+            "type": "minecraft:count"
+          }
+        },
+        "type": "minecraft:decorated"
+      }
+    ],
+    [
+      {
+        "config": {
+          "feature": {
+            "config": {
+              "feature": {
+                "config": {
+                  "feature": {
+                    "config": {
                       "feature": {
                         "config": {
                           "can_place_on_wall": true,
@@ -2497,7 +2613,7 @@
                       "above_bottom": 0
                     },
                     "max_inclusive": {
-                      "absolute": 120
+                      "absolute": 256
                     },
                     "type": "minecraft:uniform"
                   }
@@ -2512,8 +2628,8 @@
               "count": {
                 "type": "minecraft:uniform",
                 "value": {
-                  "min_inclusive": 60,
-                  "max_inclusive": 90
+                  "min_inclusive": 104,
+                  "max_inclusive": 157
                 }
               }
             },
@@ -2770,134 +2886,6 @@
               "chance": 2048
             },
             "type": "minecraft:chance"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
-      {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "feature": {
-                    "config": {
-                      "rock_count": 4,
-                      "hole_count": 1,
-                      "valid_blocks": [
-                        "minecraft:stone",
-                        "minecraft:granite",
-                        "minecraft:diorite",
-                        "minecraft:andesite",
-                        "minecraft:deepslate",
-                        "minecraft:tuff",
-                        "minecraft:calcite",
-                        "minecraft:dirt",
-                        "minecraft:snow_block",
-                        "minecraft:powder_snow",
-                        "minecraft:packed_ice"
-                      ],
-                      "state": {
-                        "Properties": {
-                          "falling": "true"
-                        },
-                        "Name": "minecraft:water"
-                      },
-                      "requires_block_below": true
-                    },
-                    "type": "minecraft:spring_feature"
-                  },
-                  "decorator": {
-                    "config": {
-                      "height": {
-                        "min_inclusive": {
-                          "above_bottom": 0
-                        },
-                        "max_inclusive": {
-                          "below_top": 0
-                        },
-                        "type": "minecraft:uniform"
-                      }
-                    },
-                    "type": "minecraft:range"
-                  }
-                },
-                "type": "minecraft:decorated"
-              },
-              "decorator": {
-                "config": {},
-                "type": "minecraft:square"
-              }
-            },
-            "type": "minecraft:decorated"
-          },
-          "decorator": {
-            "config": {
-              "count": 40
-            },
-            "type": "minecraft:count"
-          }
-        },
-        "type": "minecraft:decorated"
-      },
-      {
-        "config": {
-          "feature": {
-            "config": {
-              "feature": {
-                "config": {
-                  "feature": {
-                    "config": {
-                      "rock_count": 4,
-                      "hole_count": 1,
-                      "valid_blocks": [
-                        "minecraft:stone",
-                        "minecraft:granite",
-                        "minecraft:diorite",
-                        "minecraft:andesite",
-                        "minecraft:deepslate",
-                        "minecraft:tuff"
-                      ],
-                      "state": {
-                        "Properties": {
-                          "falling": "true"
-                        },
-                        "Name": "minecraft:lava"
-                      },
-                      "requires_block_below": true
-                    },
-                    "type": "minecraft:spring_feature"
-                  },
-                  "decorator": {
-                    "config": {
-                      "height": {
-                        "min_inclusive": {
-                          "above_bottom": 0
-                        },
-                        "max_inclusive": {
-                          "below_top": 8
-                        },
-                        "inner": 8,
-                        "type": "minecraft:very_biased_to_bottom"
-                      }
-                    },
-                    "type": "minecraft:range"
-                  }
-                },
-                "type": "minecraft:decorated"
-              },
-              "decorator": {
-                "config": {},
-                "type": "minecraft:square"
-              }
-            },
-            "type": "minecraft:decorated"
-          },
-          "decorator": {
-            "config": {
-              "count": 20
-            },
-            "type": "minecraft:count"
           }
         },
         "type": "minecraft:decorated"

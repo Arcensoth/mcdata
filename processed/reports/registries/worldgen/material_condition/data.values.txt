@@ -1,0 +1,9 @@
+minecraft:biome
+minecraft:hole
+minecraft:noise_threshold
+minecraft:not
+minecraft:steep
+minecraft:stone_depth
+minecraft:temperature
+minecraft:water
+minecraft:y_above

@@ -28,20 +28,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:crimson_nylium"
-      },
-      "under_material": {
-        "Name": "minecraft:netherrack"
-      },
-      "underwater_material": {
-        "Name": "minecraft:nether_wart_block"
-      }
-    },
-    "type": "minecraft:nether_forest"
-  },
   "carvers": {
     "air": [
       {
@@ -763,6 +749,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {

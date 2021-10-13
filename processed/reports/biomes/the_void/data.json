@@ -24,6 +24,7 @@
     [],
     [],
     [],
+    [],
     [
       {
         "config": {},
@@ -43,20 +44,6 @@
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
-  },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:stone"
-      },
-      "under_material": {
-        "Name": "minecraft:stone"
-      },
-      "underwater_material": {
-        "Name": "minecraft:gravel"
-      }
-    },
-    "type": "minecraft:nope"
   },
   "temperature": 0.5
 }

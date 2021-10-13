@@ -1002,6 +1002,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {
@@ -1122,20 +1123,6 @@
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
-  },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:soul_sand"
-      },
-      "under_material": {
-        "Name": "minecraft:soul_sand"
-      },
-      "underwater_material": {
-        "Name": "minecraft:soul_sand"
-      }
-    },
-    "type": "minecraft:soul_sand_valley"
   },
   "temperature": 2.0
 }

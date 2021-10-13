@@ -94,19 +94,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:end_stone"
-      },
-      "under_material": {
-        "Name": "minecraft:end_stone"
-      },
-      "underwater_material": {
-        "Name": "minecraft:end_stone"
-      }
-    },
-    "type": "minecraft:default"
-  },
   "temperature": 0.5
 }

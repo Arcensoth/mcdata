@@ -971,6 +971,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {
@@ -1218,20 +1219,6 @@
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
-  },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:netherrack"
-      },
-      "under_material": {
-        "Name": "minecraft:netherrack"
-      },
-      "underwater_material": {
-        "Name": "minecraft:netherrack"
-      }
-    },
-    "type": "minecraft:nether"
   },
   "temperature": 2.0
 }

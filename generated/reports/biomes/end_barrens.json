@@ -11,20 +11,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:end_stone"
-      },
-      "under_material": {
-        "Name": "minecraft:end_stone"
-      },
-      "underwater_material": {
-        "Name": "minecraft:end_stone"
-      }
-    },
-    "type": "minecraft:default"
-  },
   "carvers": {},
   "features": [],
   "spawners": {

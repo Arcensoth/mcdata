@@ -28,20 +28,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:soul_sand"
-      },
-      "under_material": {
-        "Name": "minecraft:soul_sand"
-      },
-      "underwater_material": {
-        "Name": "minecraft:soul_sand"
-      }
-    },
-    "type": "minecraft:soul_sand_valley"
-  },
   "carvers": {
     "air": [
       {
@@ -1014,6 +1000,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {

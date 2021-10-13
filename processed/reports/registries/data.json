@@ -12288,7 +12288,7 @@
         "protocol_id": 3
       }
     },
-    "protocol_id": 50
+    "protocol_id": 49
   },
   "minecraft:worldgen/block_state_provider_type": {
     "entries": {
@@ -12314,7 +12314,7 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 45
+    "protocol_id": 44
   },
   "minecraft:worldgen/carver": {
     "entries": {
@@ -12328,7 +12328,7 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 40
+    "protocol_id": 39
   },
   "minecraft:worldgen/chunk_generator": {
     "entries": {
@@ -12342,7 +12342,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 51
+    "protocol_id": 50
   },
   "minecraft:worldgen/decorator": {
     "entries": {
@@ -12410,7 +12410,7 @@
         "protocol_id": 15
       }
     },
-    "protocol_id": 44
+    "protocol_id": 43
   },
   "minecraft:worldgen/feature": {
     "entries": {
@@ -12601,7 +12601,7 @@
         "protocol_id": 45
       }
     },
-    "protocol_id": 41
+    "protocol_id": 40
   },
   "minecraft:worldgen/feature_size_type": {
     "entries": {
@@ -12612,7 +12612,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 49
+    "protocol_id": 48
   },
   "minecraft:worldgen/foliage_placer_type": {
     "entries": {
@@ -12647,7 +12647,56 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 46
+    "protocol_id": 45
+  },
+  "minecraft:worldgen/material_condition": {
+    "entries": {
+      "minecraft:biome": {
+        "protocol_id": 0
+      },
+      "minecraft:hole": {
+        "protocol_id": 7
+      },
+      "minecraft:noise_threshold": {
+        "protocol_id": 1
+      },
+      "minecraft:not": {
+        "protocol_id": 6
+      },
+      "minecraft:steep": {
+        "protocol_id": 5
+      },
+      "minecraft:stone_depth": {
+        "protocol_id": 8
+      },
+      "minecraft:temperature": {
+        "protocol_id": 4
+      },
+      "minecraft:water": {
+        "protocol_id": 3
+      },
+      "minecraft:y_above": {
+        "protocol_id": 2
+      }
+    },
+    "protocol_id": 51
+  },
+  "minecraft:worldgen/material_rule": {
+    "entries": {
+      "minecraft:bandlands": {
+        "protocol_id": 0
+      },
+      "minecraft:block": {
+        "protocol_id": 1
+      },
+      "minecraft:condition": {
+        "protocol_id": 3
+      },
+      "minecraft:sequence": {
+        "protocol_id": 2
+      }
+    },
+    "protocol_id": 52
   },
   "minecraft:worldgen/structure_feature": {
     "entries": {
@@ -12706,7 +12755,7 @@
         "protocol_id": 15
       }
     },
-    "protocol_id": 42
+    "protocol_id": 41
   },
   "minecraft:worldgen/structure_piece": {
     "entries": {
@@ -12879,7 +12928,7 @@
         "protocol_id": 51
       }
     },
-    "protocol_id": 43
+    "protocol_id": 42
   },
   "minecraft:worldgen/structure_pool_element": {
     "entries": {
@@ -12899,7 +12948,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 53
+    "protocol_id": 54
   },
   "minecraft:worldgen/structure_processor": {
     "entries": {
@@ -12934,75 +12983,7 @@
         "protocol_id": 4
       }
     },
-    "protocol_id": 52
-  },
-  "minecraft:worldgen/surface_builder": {
-    "entries": {
-      "minecraft:badlands": {
-        "protocol_id": 6
-      },
-      "minecraft:basalt_deltas": {
-        "protocol_id": 13
-      },
-      "minecraft:default": {
-        "protocol_id": 0
-      },
-      "minecraft:eroded_badlands": {
-        "protocol_id": 8
-      },
-      "minecraft:frozen_ocean": {
-        "protocol_id": 9
-      },
-      "minecraft:giant_tree_taiga": {
-        "protocol_id": 4
-      },
-      "minecraft:gravelly_mountain": {
-        "protocol_id": 3
-      },
-      "minecraft:grove": {
-        "protocol_id": 14
-      },
-      "minecraft:lofty_peaks": {
-        "protocol_id": 18
-      },
-      "minecraft:mountain": {
-        "protocol_id": 1
-      },
-      "minecraft:nether": {
-        "protocol_id": 10
-      },
-      "minecraft:nether_forest": {
-        "protocol_id": 11
-      },
-      "minecraft:nope": {
-        "protocol_id": 16
-      },
-      "minecraft:shattered_savanna": {
-        "protocol_id": 2
-      },
-      "minecraft:snowcapped_peaks": {
-        "protocol_id": 15
-      },
-      "minecraft:snowy_slopes": {
-        "protocol_id": 17
-      },
-      "minecraft:soul_sand_valley": {
-        "protocol_id": 12
-      },
-      "minecraft:stone_shore": {
-        "protocol_id": 20
-      },
-      "minecraft:stony_peaks": {
-        "protocol_id": 19
-      },
-      "minecraft:swamp": {
-        "protocol_id": 5
-      },
-      "minecraft:wooded_badlands": {
-        "protocol_id": 7
-      }
-    },
-    "protocol_id": 39
+    "protocol_id": 53
   },
   "minecraft:worldgen/tree_decorator_type": {
     "entries": {
@@ -13022,7 +13003,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 48
+    "protocol_id": 47
   },
   "minecraft:worldgen/trunk_placer_type": {
     "entries": {
@@ -13048,6 +13029,6 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 47
+    "protocol_id": 46
   }
 }

@@ -54,7 +54,7 @@
     },
     "sky_color": 7254527,
     "water_color": 4159204,
-    "water_fog_color": 4341314
+    "water_fog_color": 329011
   },
   "features": [
     [],
@@ -1078,6 +1078,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {
@@ -1175,23 +1176,6 @@
     "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
-  },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:blackstone"
-      },
-      "under_material": {
-        "Name": "minecraft:basalt",
-        "Properties": {
-          "axis": "y"
-        }
-      },
-      "underwater_material": {
-        "Name": "minecraft:magma_block"
-      }
-    },
-    "type": "minecraft:basalt_deltas"
   },
   "temperature": 2.0
 }

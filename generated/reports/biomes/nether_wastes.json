@@ -22,20 +22,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:netherrack"
-      },
-      "under_material": {
-        "Name": "minecraft:netherrack"
-      },
-      "underwater_material": {
-        "Name": "minecraft:netherrack"
-      }
-    },
-    "type": "minecraft:nether"
-  },
   "carvers": {
     "air": [
       {
@@ -983,6 +969,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {

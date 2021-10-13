@@ -26,24 +26,7 @@
     "sky_color": 7254527,
     "fog_color": 6840176,
     "water_color": 4159204,
-    "water_fog_color": 4341314
-  },
-  "surface_builder": {
-    "config": {
-      "top_material": {
-        "Name": "minecraft:blackstone"
-      },
-      "under_material": {
-        "Properties": {
-          "axis": "y"
-        },
-        "Name": "minecraft:basalt"
-      },
-      "underwater_material": {
-        "Name": "minecraft:magma_block"
-      }
-    },
-    "type": "minecraft:basalt_deltas"
+    "water_fog_color": 329011
   },
   "carvers": {
     "air": [
@@ -1093,6 +1076,7 @@
         "type": "minecraft:decorated"
       }
     ],
+    [],
     [
       {
         "config": {
