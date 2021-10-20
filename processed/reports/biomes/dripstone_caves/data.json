@@ -230,6 +230,12 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.dripstone_caves"
+    },
     "sky_color": 7907327,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -2497,12 +2503,99 @@
                   },
                   "feature": {
                     "config": {
-                      "chance_of_taller_dripstone": 0.2,
-                      "empty_space_search_radius": 10,
-                      "max_offset_from_origin": 2,
-                      "max_placements": 5
+                      "decorator": {
+                        "config": {
+                          "count": {
+                            "type": "minecraft:uniform",
+                            "value": {
+                              "max_inclusive": 5,
+                              "min_inclusive": 1
+                            }
+                          }
+                        },
+                        "type": "minecraft:count"
+                      },
+                      "feature": {
+                        "config": {
+                          "decorator": {
+                            "config": {
+                              "xz_spread": {
+                                "type": "minecraft:clamped_normal",
+                                "value": {
+                                  "deviation": 3.0,
+                                  "max_inclusive": 10,
+                                  "mean": 0.0,
+                                  "min_inclusive": -10
+                                }
+                              },
+                              "y_spread": {
+                                "type": "minecraft:clamped_normal",
+                                "value": {
+                                  "deviation": 0.6,
+                                  "max_inclusive": 2,
+                                  "mean": 0.0,
+                                  "min_inclusive": -2
+                                }
+                              }
+                            },
+                            "type": "minecraft:scatter"
+                          },
+                          "feature": {
+                            "config": {
+                              "features": [
+                                {
+                                  "config": {
+                                    "decorator": {
+                                      "config": {
+                                        "allow_water": true,
+                                        "floor_to_ceiling_search_range": 12,
+                                        "surface": "floor"
+                                      },
+                                      "type": "minecraft:cave_surface"
+                                    },
+                                    "feature": {
+                                      "config": {
+                                        "chance_of_directional_spread": 0.7,
+                                        "chance_of_spread_radius2": 0.5,
+                                        "chance_of_spread_radius3": 0.5,
+                                        "chance_of_taller_dripstone": 0.2
+                                      },
+                                      "type": "minecraft:pointed_dripstone"
+                                    }
+                                  },
+                                  "type": "minecraft:decorated"
+                                },
+                                {
+                                  "config": {
+                                    "decorator": {
+                                      "config": {
+                                        "allow_water": true,
+                                        "floor_to_ceiling_search_range": 12,
+                                        "surface": "ceiling"
+                                      },
+                                      "type": "minecraft:cave_surface"
+                                    },
+                                    "feature": {
+                                      "config": {
+                                        "chance_of_directional_spread": 0.7,
+                                        "chance_of_spread_radius2": 0.5,
+                                        "chance_of_spread_radius3": 0.5,
+                                        "chance_of_taller_dripstone": 0.2
+                                      },
+                                      "type": "minecraft:pointed_dripstone"
+                                    }
+                                  },
+                                  "type": "minecraft:decorated"
+                                }
+                              ]
+                            },
+                            "type": "minecraft:simple_random_selector"
+                          }
+                        },
+                        "type": "minecraft:decorated"
+                      }
                     },
-                    "type": "minecraft:small_dripstone"
+                    "type": "minecraft:decorated"
                   }
                 },
                 "type": "minecraft:decorated"
@@ -2519,7 +2612,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 40
+              "count": 25
             },
             "type": "minecraft:count"
           },
@@ -2535,7 +2628,7 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 192
                         },
                         "min_inclusive": {
                           "above_bottom": 0
@@ -2629,7 +2722,12 @@
                         "minecraft:diorite",
                         "minecraft:andesite",
                         "minecraft:deepslate",
-                        "minecraft:tuff"
+                        "minecraft:tuff",
+                        "minecraft:calcite",
+                        "minecraft:dirt",
+                        "minecraft:snow_block",
+                        "minecraft:powder_snow",
+                        "minecraft:packed_ice"
                       ]
                     },
                     "type": "minecraft:spring_feature"

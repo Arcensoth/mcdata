@@ -230,6 +230,12 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.frozen_peaks"
+    },
     "sky_color": 8756735,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -2418,7 +2424,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 40
+              "count": 25
             },
             "type": "minecraft:count"
           },
@@ -2434,7 +2440,7 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 192
                         },
                         "min_inclusive": {
                           "above_bottom": 0
@@ -2528,7 +2534,12 @@
                         "minecraft:diorite",
                         "minecraft:andesite",
                         "minecraft:deepslate",
-                        "minecraft:tuff"
+                        "minecraft:tuff",
+                        "minecraft:calcite",
+                        "minecraft:dirt",
+                        "minecraft:snow_block",
+                        "minecraft:powder_snow",
+                        "minecraft:packed_ice"
                       ]
                     },
                     "type": "minecraft:spring_feature"

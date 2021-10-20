@@ -6,6 +6,12 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
+    "music": {
+      "sound": "minecraft:music.overworld.lush_caves",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
     "sky_color": 8103167,
     "fog_color": 12638463,
     "water_color": 4159204,
@@ -2373,7 +2379,7 @@
                           "above_bottom": 0
                         },
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 192
                         },
                         "type": "minecraft:uniform"
                       }
@@ -2392,7 +2398,7 @@
           },
           "decorator": {
             "config": {
-              "count": 40
+              "count": 25
             },
             "type": "minecraft:count"
           }
@@ -2415,7 +2421,12 @@
                         "minecraft:diorite",
                         "minecraft:andesite",
                         "minecraft:deepslate",
-                        "minecraft:tuff"
+                        "minecraft:tuff",
+                        "minecraft:calcite",
+                        "minecraft:dirt",
+                        "minecraft:snow_block",
+                        "minecraft:powder_snow",
+                        "minecraft:packed_ice"
                       ],
                       "state": {
                         "Properties": {
@@ -2787,7 +2798,8 @@
                       "decorator": {
                         "config": {
                           "surface": "ceiling",
-                          "floor_to_ceiling_search_range": 12
+                          "floor_to_ceiling_search_range": 12,
+                          "allow_water": false
                         },
                         "type": "minecraft:cave_surface"
                       }
@@ -2952,7 +2964,8 @@
                       "decorator": {
                         "config": {
                           "surface": "ceiling",
-                          "floor_to_ceiling_search_range": 12
+                          "floor_to_ceiling_search_range": 12,
+                          "allow_water": false
                         },
                         "type": "minecraft:cave_surface"
                       }
@@ -3668,7 +3681,8 @@
                       "decorator": {
                         "config": {
                           "surface": "floor",
-                          "floor_to_ceiling_search_range": 12
+                          "floor_to_ceiling_search_range": 12,
+                          "allow_water": false
                         },
                         "type": "minecraft:cave_surface"
                       }
@@ -3787,7 +3801,8 @@
                       "decorator": {
                         "config": {
                           "surface": "floor",
-                          "floor_to_ceiling_search_range": 12
+                          "floor_to_ceiling_search_range": 12,
+                          "allow_water": false
                         },
                         "type": "minecraft:cave_surface"
                       }
@@ -3940,7 +3955,8 @@
                   "decorator": {
                     "config": {
                       "surface": "ceiling",
-                      "floor_to_ceiling_search_range": 12
+                      "floor_to_ceiling_search_range": 12,
+                      "allow_water": false
                     },
                     "type": "minecraft:cave_surface"
                   }
@@ -3993,7 +4009,8 @@
                       "decorator": {
                         "config": {
                           "surface": "ceiling",
-                          "floor_to_ceiling_search_range": 12
+                          "floor_to_ceiling_search_range": 12,
+                          "allow_water": false
                         },
                         "type": "minecraft:cave_surface"
                       }

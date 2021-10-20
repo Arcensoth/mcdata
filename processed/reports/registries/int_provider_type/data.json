@@ -2,6 +2,7 @@
   "values": [
     "minecraft:biased_to_bottom",
     "minecraft:clamped",
+    "minecraft:clamped_normal",
     "minecraft:constant",
     "minecraft:uniform",
     "minecraft:weighted_list"

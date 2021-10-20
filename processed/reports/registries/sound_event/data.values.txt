@@ -1166,6 +1166,14 @@ minecraft:music.nether.crimson_forest
 minecraft:music.nether.nether_wastes
 minecraft:music.nether.soul_sand_valley
 minecraft:music.nether.warped_forest
+minecraft:music.overworld.dripstone_caves
+minecraft:music.overworld.frozen_peaks
+minecraft:music.overworld.grove
+minecraft:music.overworld.jagged_peaks
+minecraft:music.overworld.lush_caves
+minecraft:music.overworld.meadow
+minecraft:music.overworld.snowy_slopes
+minecraft:music.overworld.stony_peaks
 minecraft:music.under_water
 minecraft:music_disc.11
 minecraft:music_disc.13
@@ -1175,6 +1183,7 @@ minecraft:music_disc.chirp
 minecraft:music_disc.far
 minecraft:music_disc.mall
 minecraft:music_disc.mellohi
+minecraft:music_disc.otherside
 minecraft:music_disc.pigstep
 minecraft:music_disc.stal
 minecraft:music_disc.strad

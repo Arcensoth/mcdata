@@ -2398,7 +2398,7 @@
         "config": {
           "decorator": {
             "config": {
-              "count": 40
+              "count": 25
             },
             "type": "minecraft:count"
           },
@@ -2414,7 +2414,7 @@
                     "config": {
                       "height": {
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 192
                         },
                         "min_inclusive": {
                           "above_bottom": 0
@@ -2508,7 +2508,12 @@
                         "minecraft:diorite",
                         "minecraft:andesite",
                         "minecraft:deepslate",
-                        "minecraft:tuff"
+                        "minecraft:tuff",
+                        "minecraft:calcite",
+                        "minecraft:dirt",
+                        "minecraft:snow_block",
+                        "minecraft:powder_snow",
+                        "minecraft:packed_ice"
                       ]
                     },
                     "type": "minecraft:spring_feature"

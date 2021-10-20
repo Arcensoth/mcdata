@@ -16,6 +16,7 @@ minecraft:iceberg
 minecraft:lava_lake
 minecraft:nope
 minecraft:range
+minecraft:scatter
 minecraft:square
 minecraft:surface_relative_threshold
 minecraft:water_depth_threshold

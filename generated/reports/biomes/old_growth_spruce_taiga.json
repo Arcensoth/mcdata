@@ -2361,7 +2361,7 @@
                           "above_bottom": 0
                         },
                         "max_inclusive": {
-                          "below_top": 0
+                          "absolute": 192
                         },
                         "type": "minecraft:uniform"
                       }
@@ -2380,7 +2380,7 @@
           },
           "decorator": {
             "config": {
-              "count": 40
+              "count": 25
             },
             "type": "minecraft:count"
           }
@@ -2403,7 +2403,12 @@
                         "minecraft:diorite",
                         "minecraft:andesite",
                         "minecraft:deepslate",
-                        "minecraft:tuff"
+                        "minecraft:tuff",
+                        "minecraft:calcite",
+                        "minecraft:dirt",
+                        "minecraft:snow_block",
+                        "minecraft:powder_snow",
+                        "minecraft:packed_ice"
                       ],
                       "state": {
                         "Properties": {

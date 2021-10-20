@@ -40,6 +40,7 @@ minecraft:netherrack_replace_blobs
 minecraft:no_bonemeal_flower
 minecraft:no_op
 minecraft:ore
+minecraft:pointed_dripstone
 minecraft:random_boolean_selector
 minecraft:random_patch
 minecraft:random_selector
@@ -50,7 +51,6 @@ minecraft:sea_pickle
 minecraft:seagrass
 minecraft:simple_block
 minecraft:simple_random_selector
-minecraft:small_dripstone
 minecraft:spring_feature
 minecraft:tree
 minecraft:twisting_vines
