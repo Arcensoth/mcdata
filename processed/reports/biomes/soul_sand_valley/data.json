@@ -1054,10 +1054,7 @@
                         "minecraft:deepslate",
                         "minecraft:tuff",
                         "minecraft:calcite",
-                        "minecraft:dirt",
-                        "minecraft:snow_block",
-                        "minecraft:powder_snow",
-                        "minecraft:packed_ice"
+                        "minecraft:dirt"
                       ]
                     },
                     "type": "minecraft:spring_feature"
