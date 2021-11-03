@@ -1,5 +1,7 @@
 minecraft:acacia_logs
+minecraft:animals_spawnable_on
 minecraft:anvil
+minecraft:axolotls_spawnable_on
 minecraft:bamboo_plantable_on
 minecraft:banners
 minecraft:base_stone_nether
@@ -41,7 +43,9 @@ minecraft:fences
 minecraft:fire
 minecraft:flower_pots
 minecraft:flowers
+minecraft:foxes_spawnable_on
 minecraft:geode_invalid_blocks
+minecraft:goats_spawnable_on
 minecraft:gold_ores
 minecraft:guarded_by_piglins
 minecraft:hoglin_repellents
@@ -63,6 +67,7 @@ minecraft:mineable/axe
 minecraft:mineable/hoe
 minecraft:mineable/pickaxe
 minecraft:mineable/shovel
+minecraft:mooshrooms_spawnable_on
 minecraft:moss_replaceable
 minecraft:mushroom_grow_block
 minecraft:needs_diamond_tool
@@ -72,11 +77,14 @@ minecraft:non_flammable_wood
 minecraft:nylium
 minecraft:oak_logs
 minecraft:occludes_vibration_signals
+minecraft:parrots_spawnable_on
 minecraft:piglin_repellents
 minecraft:planks
+minecraft:polar_bears_spawnable_on_in_frozen_ocean
 minecraft:portals
 minecraft:pressure_plates
 minecraft:prevent_mob_spawning_inside
+minecraft:rabbits_spawnable_on
 minecraft:rails
 minecraft:redstone_ores
 minecraft:sand
@@ -109,6 +117,7 @@ minecraft:warped_stems
 minecraft:wart_blocks
 minecraft:wither_immune
 minecraft:wither_summon_base_blocks
+minecraft:wolves_spawnable_on
 minecraft:wooden_buttons
 minecraft:wooden_doors
 minecraft:wooden_fences

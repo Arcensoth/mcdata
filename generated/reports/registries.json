@@ -12969,26 +12969,32 @@
       "minecraft:noise_threshold": {
         "protocol_id": 1
       },
-      "minecraft:y_above": {
+      "minecraft:vertical_gradient": {
         "protocol_id": 2
       },
-      "minecraft:water": {
+      "minecraft:y_above": {
         "protocol_id": 3
       },
-      "minecraft:temperature": {
+      "minecraft:water": {
         "protocol_id": 4
       },
-      "minecraft:steep": {
+      "minecraft:temperature": {
         "protocol_id": 5
       },
-      "minecraft:not": {
+      "minecraft:steep": {
         "protocol_id": 6
       },
-      "minecraft:hole": {
+      "minecraft:not": {
         "protocol_id": 7
       },
-      "minecraft:stone_depth": {
+      "minecraft:hole": {
         "protocol_id": 8
+      },
+      "minecraft:above_preliminary_surface": {
+        "protocol_id": 9
+      },
+      "minecraft:stone_depth": {
+        "protocol_id": 10
       }
     }
   },

@@ -1,3 +1,4 @@
+minecraft:above_preliminary_surface
 minecraft:biome
 minecraft:hole
 minecraft:noise_threshold
@@ -5,5 +6,6 @@ minecraft:not
 minecraft:steep
 minecraft:stone_depth
 minecraft:temperature
+minecraft:vertical_gradient
 minecraft:water
 minecraft:y_above

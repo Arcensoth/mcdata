@@ -105,27 +105,11 @@
               "effects": [
                 {
                   "duration": {
-                    "max": 7.0,
-                    "min": 5.0,
+                    "max": 20.0,
+                    "min": 10.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:blindness"
-                },
-                {
-                  "duration": {
-                    "max": 10.0,
-                    "min": 7.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "type": "minecraft:jump_boost"
-                },
-                {
-                  "duration": {
-                    "max": 8.0,
-                    "min": 6.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "type": "minecraft:weakness"
+                  "type": "minecraft:poison"
                 },
                 {
                   "duration": {
@@ -145,11 +129,27 @@
                 },
                 {
                   "duration": {
-                    "max": 20.0,
-                    "min": 10.0,
+                    "max": 10.0,
+                    "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:poison"
+                  "type": "minecraft:jump_boost"
+                },
+                {
+                  "duration": {
+                    "max": 8.0,
+                    "min": 6.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "type": "minecraft:weakness"
+                },
+                {
+                  "duration": {
+                    "max": 7.0,
+                    "min": 5.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "type": "minecraft:blindness"
                 }
               ],
               "function": "minecraft:set_stew_effect"

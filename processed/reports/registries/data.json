@@ -12684,32 +12684,38 @@
   },
   "minecraft:worldgen/material_condition": {
     "entries": {
+      "minecraft:above_preliminary_surface": {
+        "protocol_id": 9
+      },
       "minecraft:biome": {
         "protocol_id": 0
       },
       "minecraft:hole": {
-        "protocol_id": 7
+        "protocol_id": 8
       },
       "minecraft:noise_threshold": {
         "protocol_id": 1
       },
       "minecraft:not": {
-        "protocol_id": 6
+        "protocol_id": 7
       },
       "minecraft:steep": {
-        "protocol_id": 5
+        "protocol_id": 6
       },
       "minecraft:stone_depth": {
-        "protocol_id": 8
+        "protocol_id": 10
       },
       "minecraft:temperature": {
-        "protocol_id": 4
+        "protocol_id": 5
+      },
+      "minecraft:vertical_gradient": {
+        "protocol_id": 2
       },
       "minecraft:water": {
-        "protocol_id": 3
+        "protocol_id": 4
       },
       "minecraft:y_above": {
-        "protocol_id": 2
+        "protocol_id": 3
       }
     },
     "protocol_id": 51
