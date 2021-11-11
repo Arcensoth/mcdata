@@ -1,0 +1,24 @@
+{
+  "config": {
+    "state": {
+      "Name": "minecraft:clay"
+    },
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 2,
+        "max_inclusive": 3
+      }
+    },
+    "half_height": 1,
+    "targets": [
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:clay"
+      }
+    ]
+  },
+  "type": "minecraft:disk"
+}

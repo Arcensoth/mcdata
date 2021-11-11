@@ -12271,6 +12271,9 @@
       },
       "minecraft:trapezoid": {
         "protocol_id": 4
+      },
+      "minecraft:weighted_list": {
+        "protocol_id": 5
       }
     }
   },
@@ -12283,23 +12286,29 @@
       "minecraft:matching_fluids": {
         "protocol_id": 1
       },
-      "minecraft:replaceable": {
+      "minecraft:solid": {
         "protocol_id": 2
       },
-      "minecraft:would_survive": {
+      "minecraft:replaceable": {
         "protocol_id": 3
       },
-      "minecraft:any_of": {
+      "minecraft:would_survive": {
         "protocol_id": 4
       },
-      "minecraft:all_of": {
+      "minecraft:inside_world_bounds": {
         "protocol_id": 5
       },
-      "minecraft:not": {
+      "minecraft:any_of": {
         "protocol_id": 6
       },
-      "minecraft:true": {
+      "minecraft:all_of": {
         "protocol_id": 7
+      },
+      "minecraft:not": {
+        "protocol_id": 8
+      },
+      "minecraft:true": {
+        "protocol_id": 9
       }
     }
   },
@@ -12491,20 +12500,17 @@
       "minecraft:random_boolean_selector": {
         "protocol_id": 56
       },
-      "minecraft:decorated": {
+      "minecraft:geode": {
         "protocol_id": 57
       },
-      "minecraft:geode": {
+      "minecraft:dripstone_cluster": {
         "protocol_id": 58
       },
-      "minecraft:dripstone_cluster": {
+      "minecraft:large_dripstone": {
         "protocol_id": 59
       },
-      "minecraft:large_dripstone": {
-        "protocol_id": 60
-      },
       "minecraft:pointed_dripstone": {
-        "protocol_id": 61
+        "protocol_id": 60
       }
     }
   },
@@ -12740,74 +12746,53 @@
       }
     }
   },
-  "minecraft:worldgen/decorator": {
+  "minecraft:worldgen/placement_modifier_type": {
     "protocol_id": 43,
     "entries": {
-      "minecraft:nope": {
+      "minecraft:block_predicate_filter": {
         "protocol_id": 0
       },
-      "minecraft:decorated": {
+      "minecraft:rarity_filter": {
         "protocol_id": 1
       },
-      "minecraft:carving_mask": {
+      "minecraft:surface_relative_threshold_filter": {
         "protocol_id": 2
       },
-      "minecraft:count_multilayer": {
+      "minecraft:surface_water_depth_filter": {
         "protocol_id": 3
       },
-      "minecraft:square": {
+      "minecraft:biome": {
         "protocol_id": 4
       },
-      "minecraft:dark_oak_tree": {
+      "minecraft:count": {
         "protocol_id": 5
       },
-      "minecraft:iceberg": {
+      "minecraft:noise_based_count": {
         "protocol_id": 6
       },
-      "minecraft:scatter": {
+      "minecraft:noise_threshold_count": {
         "protocol_id": 7
       },
-      "minecraft:chance": {
+      "minecraft:count_on_every_layer": {
         "protocol_id": 8
       },
-      "minecraft:count": {
+      "minecraft:environment_scan": {
         "protocol_id": 9
       },
-      "minecraft:count_noise": {
+      "minecraft:heightmap": {
         "protocol_id": 10
       },
-      "minecraft:count_noise_biased": {
+      "minecraft:height_range": {
         "protocol_id": 11
       },
-      "minecraft:count_extra": {
+      "minecraft:in_square": {
         "protocol_id": 12
       },
-      "minecraft:lava_lake": {
+      "minecraft:random_offset": {
         "protocol_id": 13
       },
-      "minecraft:heightmap": {
+      "minecraft:carving_mask": {
         "protocol_id": 14
-      },
-      "minecraft:surface_relative_threshold": {
-        "protocol_id": 15
-      },
-      "minecraft:water_depth_threshold": {
-        "protocol_id": 16
-      },
-      "minecraft:cave_surface": {
-        "protocol_id": 17
-      },
-      "minecraft:range": {
-        "protocol_id": 18
-      },
-      "minecraft:end_gateway": {
-        "protocol_id": 19
-      },
-      "minecraft:environment_scan": {
-        "protocol_id": 20
-      },
-      "minecraft:block_filter": {
-        "protocol_id": 21
       }
     }
   },

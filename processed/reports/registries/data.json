@@ -2912,10 +2912,13 @@
   "minecraft:block_predicate_type": {
     "entries": {
       "minecraft:all_of": {
-        "protocol_id": 5
+        "protocol_id": 7
       },
       "minecraft:any_of": {
-        "protocol_id": 4
+        "protocol_id": 6
+      },
+      "minecraft:inside_world_bounds": {
+        "protocol_id": 5
       },
       "minecraft:matching_blocks": {
         "protocol_id": 0
@@ -2924,16 +2927,19 @@
         "protocol_id": 1
       },
       "minecraft:not": {
-        "protocol_id": 6
+        "protocol_id": 8
       },
       "minecraft:replaceable": {
+        "protocol_id": 3
+      },
+      "minecraft:solid": {
         "protocol_id": 2
       },
       "minecraft:true": {
-        "protocol_id": 7
+        "protocol_id": 9
       },
       "minecraft:would_survive": {
-        "protocol_id": 3
+        "protocol_id": 4
       }
     },
     "protocol_id": 38
@@ -3872,6 +3878,9 @@
       },
       "minecraft:very_biased_to_bottom": {
         "protocol_id": 3
+      },
+      "minecraft:weighted_list": {
+        "protocol_id": 5
       }
     },
     "protocol_id": 37
@@ -12374,77 +12383,6 @@
     },
     "protocol_id": 50
   },
-  "minecraft:worldgen/decorator": {
-    "entries": {
-      "minecraft:block_filter": {
-        "protocol_id": 21
-      },
-      "minecraft:carving_mask": {
-        "protocol_id": 2
-      },
-      "minecraft:cave_surface": {
-        "protocol_id": 17
-      },
-      "minecraft:chance": {
-        "protocol_id": 8
-      },
-      "minecraft:count": {
-        "protocol_id": 9
-      },
-      "minecraft:count_extra": {
-        "protocol_id": 12
-      },
-      "minecraft:count_multilayer": {
-        "protocol_id": 3
-      },
-      "minecraft:count_noise": {
-        "protocol_id": 10
-      },
-      "minecraft:count_noise_biased": {
-        "protocol_id": 11
-      },
-      "minecraft:dark_oak_tree": {
-        "protocol_id": 5
-      },
-      "minecraft:decorated": {
-        "protocol_id": 1
-      },
-      "minecraft:end_gateway": {
-        "protocol_id": 19
-      },
-      "minecraft:environment_scan": {
-        "protocol_id": 20
-      },
-      "minecraft:heightmap": {
-        "protocol_id": 14
-      },
-      "minecraft:iceberg": {
-        "protocol_id": 6
-      },
-      "minecraft:lava_lake": {
-        "protocol_id": 13
-      },
-      "minecraft:nope": {
-        "protocol_id": 0
-      },
-      "minecraft:range": {
-        "protocol_id": 18
-      },
-      "minecraft:scatter": {
-        "protocol_id": 7
-      },
-      "minecraft:square": {
-        "protocol_id": 4
-      },
-      "minecraft:surface_relative_threshold": {
-        "protocol_id": 15
-      },
-      "minecraft:water_depth_threshold": {
-        "protocol_id": 16
-      }
-    },
-    "protocol_id": 43
-  },
   "minecraft:worldgen/feature": {
     "entries": {
       "minecraft:bamboo": {
@@ -12480,9 +12418,6 @@
       "minecraft:coral_tree": {
         "protocol_id": 37
       },
-      "minecraft:decorated": {
-        "protocol_id": 57
-      },
       "minecraft:delta_feature": {
         "protocol_id": 48
       },
@@ -12493,7 +12428,7 @@
         "protocol_id": 28
       },
       "minecraft:dripstone_cluster": {
-        "protocol_id": 59
+        "protocol_id": 58
       },
       "minecraft:end_gateway": {
         "protocol_id": 34
@@ -12520,7 +12455,7 @@
         "protocol_id": 16
       },
       "minecraft:geode": {
-        "protocol_id": 58
+        "protocol_id": 57
       },
       "minecraft:glow_lichen": {
         "protocol_id": 22
@@ -12553,7 +12488,7 @@
         "protocol_id": 30
       },
       "minecraft:large_dripstone": {
-        "protocol_id": 60
+        "protocol_id": 59
       },
       "minecraft:monster_room": {
         "protocol_id": 24
@@ -12574,7 +12509,7 @@
         "protocol_id": 31
       },
       "minecraft:pointed_dripstone": {
-        "protocol_id": 61
+        "protocol_id": 60
       },
       "minecraft:random_boolean_selector": {
         "protocol_id": 56
@@ -12736,6 +12671,56 @@
       }
     },
     "protocol_id": 52
+  },
+  "minecraft:worldgen/placement_modifier_type": {
+    "entries": {
+      "minecraft:biome": {
+        "protocol_id": 4
+      },
+      "minecraft:block_predicate_filter": {
+        "protocol_id": 0
+      },
+      "minecraft:carving_mask": {
+        "protocol_id": 14
+      },
+      "minecraft:count": {
+        "protocol_id": 5
+      },
+      "minecraft:count_on_every_layer": {
+        "protocol_id": 8
+      },
+      "minecraft:environment_scan": {
+        "protocol_id": 9
+      },
+      "minecraft:height_range": {
+        "protocol_id": 11
+      },
+      "minecraft:heightmap": {
+        "protocol_id": 10
+      },
+      "minecraft:in_square": {
+        "protocol_id": 12
+      },
+      "minecraft:noise_based_count": {
+        "protocol_id": 6
+      },
+      "minecraft:noise_threshold_count": {
+        "protocol_id": 7
+      },
+      "minecraft:random_offset": {
+        "protocol_id": 13
+      },
+      "minecraft:rarity_filter": {
+        "protocol_id": 1
+      },
+      "minecraft:surface_relative_threshold_filter": {
+        "protocol_id": 2
+      },
+      "minecraft:surface_water_depth_filter": {
+        "protocol_id": 3
+      }
+    },
+    "protocol_id": 43
   },
   "minecraft:worldgen/structure_feature": {
     "entries": {

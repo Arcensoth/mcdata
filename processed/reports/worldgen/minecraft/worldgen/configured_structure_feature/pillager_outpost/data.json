@@ -1,0 +1,7 @@
+{
+  "config": {
+    "size": 7,
+    "start_pool": "minecraft:pillager_outpost/base_plates"
+  },
+  "type": "minecraft:pillager_outpost"
+}

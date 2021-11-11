@@ -1,0 +1,69 @@
+{
+  "name": "minecraft:village/snowy/zombie/decor",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/snowy/snowy_lamp_post_01",
+        "processors": "minecraft:zombie_snowy",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/snowy/snowy_lamp_post_02",
+        "processors": "minecraft:zombie_snowy",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/snowy/snowy_lamp_post_03",
+        "processors": "minecraft:zombie_snowy",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "feature": "minecraft:spruce_checked",
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "feature": {
+          "feature": "minecraft:pile_snow",
+          "placement": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "feature": {
+          "feature": "minecraft:pile_ice",
+          "placement": []
+        },
+        "projection": "rigid",
+        "element_type": "minecraft:feature_pool_element"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

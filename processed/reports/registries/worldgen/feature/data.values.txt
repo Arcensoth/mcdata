@@ -9,7 +9,6 @@ minecraft:chorus_plant
 minecraft:coral_claw
 minecraft:coral_mushroom
 minecraft:coral_tree
-minecraft:decorated
 minecraft:delta_feature
 minecraft:desert_well
 minecraft:disk

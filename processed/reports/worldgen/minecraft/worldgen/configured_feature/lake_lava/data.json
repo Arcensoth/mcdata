@@ -1,0 +1,20 @@
+{
+  "config": {
+    "barrier": {
+      "state": {
+        "Name": "minecraft:stone"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "fluid": {
+      "state": {
+        "Name": "minecraft:lava",
+        "Properties": {
+          "level": "0"
+        }
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  },
+  "type": "minecraft:lake"
+}

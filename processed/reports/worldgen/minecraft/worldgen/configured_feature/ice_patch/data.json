@@ -1,0 +1,48 @@
+{
+  "config": {
+    "half_height": 1,
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 3,
+        "min_inclusive": 2
+      }
+    },
+    "state": {
+      "Name": "minecraft:packed_ice"
+    },
+    "targets": [
+      {
+        "Name": "minecraft:dirt"
+      },
+      {
+        "Name": "minecraft:grass_block",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:podzol",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:coarse_dirt"
+      },
+      {
+        "Name": "minecraft:mycelium",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      {
+        "Name": "minecraft:snow_block"
+      },
+      {
+        "Name": "minecraft:ice"
+      }
+    ]
+  },
+  "type": "minecraft:ice_patch"
+}

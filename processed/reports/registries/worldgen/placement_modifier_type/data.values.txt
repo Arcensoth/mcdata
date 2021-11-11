@@ -1,0 +1,15 @@
+minecraft:biome
+minecraft:block_predicate_filter
+minecraft:carving_mask
+minecraft:count
+minecraft:count_on_every_layer
+minecraft:environment_scan
+minecraft:height_range
+minecraft:heightmap
+minecraft:in_square
+minecraft:noise_based_count
+minecraft:noise_threshold_count
+minecraft:random_offset
+minecraft:rarity_filter
+minecraft:surface_relative_threshold_filter
+minecraft:surface_water_depth_filter

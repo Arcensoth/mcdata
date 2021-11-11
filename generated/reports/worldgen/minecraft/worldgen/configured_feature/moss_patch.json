@@ -1,0 +1,26 @@
+{
+  "config": {
+    "vegetation_chance": 0.8,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 4,
+        "max_inclusive": 7
+      }
+    },
+    "extra_edge_column_chance": 0.3,
+    "extra_bottom_block_chance": 0.0,
+    "vertical_range": 5,
+    "vegetation_feature": "minecraft:moss_vegetation",
+    "surface": "floor",
+    "depth": 1,
+    "replaceable": "minecraft:moss_replaceable",
+    "ground_state": {
+      "state": {
+        "Name": "minecraft:moss_block"
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  },
+  "type": "minecraft:vegetation_patch"
+}

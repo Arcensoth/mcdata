@@ -1,0 +1,8 @@
+{
+  "values": [
+    "minecraft:overworld",
+    "minecraft:overworld_caves",
+    "minecraft:the_end",
+    "minecraft:the_nether"
+  ]
+}

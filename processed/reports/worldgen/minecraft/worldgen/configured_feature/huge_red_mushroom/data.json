@@ -1,0 +1,34 @@
+{
+  "config": {
+    "cap_provider": {
+      "state": {
+        "Name": "minecraft:red_mushroom_block",
+        "Properties": {
+          "down": "false",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "true",
+          "west": "true"
+        }
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "foliage_radius": 2,
+    "stem_provider": {
+      "state": {
+        "Name": "minecraft:mushroom_stem",
+        "Properties": {
+          "down": "false",
+          "east": "true",
+          "north": "true",
+          "south": "true",
+          "up": "false",
+          "west": "true"
+        }
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  },
+  "type": "minecraft:huge_red_mushroom"
+}

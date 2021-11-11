@@ -1,0 +1,14 @@
+{
+  "config": {
+    "height": {
+      "max_inclusive": {
+        "below_top": 2
+      },
+      "min_inclusive": {
+        "absolute": 32
+      },
+      "type": "minecraft:uniform"
+    }
+  },
+  "type": "minecraft:nether_fossil"
+}

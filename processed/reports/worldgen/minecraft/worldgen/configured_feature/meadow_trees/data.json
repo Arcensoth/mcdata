@@ -1,0 +1,12 @@
+{
+  "config": {
+    "default": "minecraft:super_birch_bees",
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "minecraft:fancy_oak_bees"
+      }
+    ]
+  },
+  "type": "minecraft:random_selector"
+}

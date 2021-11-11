@@ -1,0 +1,8 @@
+{
+  "config": {
+    "max_height": 2,
+    "spread_height": 1,
+    "spread_width": 3
+  },
+  "type": "minecraft:twisting_vines"
+}

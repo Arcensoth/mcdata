@@ -1,0 +1,7 @@
+{
+  "config": {
+    "feature_true": "minecraft:clay_with_dripleaves",
+    "feature_false": "minecraft:clay_pool_with_dripleaves"
+  },
+  "type": "minecraft:random_boolean_selector"
+}
