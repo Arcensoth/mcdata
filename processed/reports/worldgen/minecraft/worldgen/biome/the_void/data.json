@@ -29,7 +29,6 @@
       "minecraft:void_start_platform"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "spawn_costs": {},
   "spawners": {

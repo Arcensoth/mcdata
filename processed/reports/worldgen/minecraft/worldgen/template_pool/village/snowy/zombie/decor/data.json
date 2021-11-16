@@ -30,7 +30,7 @@
     {
       "element": {
         "element_type": "minecraft:feature_pool_element",
-        "feature": "minecraft:spruce_checked",
+        "feature": "minecraft:spruce",
         "projection": "rigid"
       },
       "weight": 4
@@ -38,10 +38,7 @@
     {
       "element": {
         "element_type": "minecraft:feature_pool_element",
-        "feature": {
-          "feature": "minecraft:pile_snow",
-          "placement": []
-        },
+        "feature": "minecraft:pile_snow",
         "projection": "rigid"
       },
       "weight": 4
@@ -49,10 +46,7 @@
     {
       "element": {
         "element_type": "minecraft:feature_pool_element",
-        "feature": {
-          "feature": "minecraft:pile_ice",
-          "placement": []
-        },
+        "feature": "minecraft:pile_ice",
         "projection": "rigid"
       },
       "weight": 4

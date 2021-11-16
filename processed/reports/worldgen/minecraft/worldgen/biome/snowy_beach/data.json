@@ -83,7 +83,6 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "snow",
   "spawn_costs": {},
   "spawners": {

@@ -84,7 +84,6 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "spawn_costs": {},
   "spawners": {

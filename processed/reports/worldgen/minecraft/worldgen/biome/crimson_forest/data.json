@@ -67,7 +67,6 @@
       "minecraft:crimson_forest_vegetation"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "spawn_costs": {},
   "spawners": {

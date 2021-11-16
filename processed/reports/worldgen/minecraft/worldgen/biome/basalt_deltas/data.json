@@ -65,7 +65,6 @@
       "minecraft:ore_debris_small"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "spawn_costs": {},
   "spawners": {

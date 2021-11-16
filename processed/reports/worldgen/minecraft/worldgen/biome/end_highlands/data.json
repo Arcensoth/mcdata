@@ -30,7 +30,6 @@
       "minecraft:chorus_plant"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "spawn_costs": {},
   "spawners": {

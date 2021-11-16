@@ -67,7 +67,6 @@
       "minecraft:spring_lava"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "spawn_costs": {
     "minecraft:enderman": {

@@ -61,7 +61,6 @@
       "minecraft:red_mushroom_normal"
     ]
   ],
-  "player_spawn_friendly": false,
   "precipitation": "none",
   "spawn_costs": {},
   "spawners": {
