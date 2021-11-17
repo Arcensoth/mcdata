@@ -1,33 +1,14 @@
 {
   "config": {
     "can_be_placed_on": [
-      {
-        "Name": "minecraft:stone"
-      },
-      {
-        "Name": "minecraft:andesite"
-      },
-      {
-        "Name": "minecraft:diorite"
-      },
-      {
-        "Name": "minecraft:granite"
-      },
-      {
-        "Name": "minecraft:dripstone_block"
-      },
-      {
-        "Name": "minecraft:calcite"
-      },
-      {
-        "Name": "minecraft:tuff"
-      },
-      {
-        "Name": "minecraft:deepslate",
-        "Properties": {
-          "axis": "y"
-        }
-      }
+      "minecraft:stone",
+      "minecraft:andesite",
+      "minecraft:diorite",
+      "minecraft:granite",
+      "minecraft:dripstone_block",
+      "minecraft:calcite",
+      "minecraft:tuff",
+      "minecraft:deepslate"
     ],
     "can_place_on_ceiling": true,
     "can_place_on_floor": false,
