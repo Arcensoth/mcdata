@@ -113,6 +113,22 @@
                 },
                 {
                   "duration": {
+                    "max": 10.0,
+                    "min": 7.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "type": "minecraft:night_vision"
+                },
+                {
+                  "duration": {
+                    "max": 7.0,
+                    "min": 5.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "type": "minecraft:blindness"
+                },
+                {
+                  "duration": {
                     "max": 20.0,
                     "min": 10.0,
                     "type": "minecraft:uniform"
@@ -125,7 +141,7 @@
                     "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:night_vision"
+                  "type": "minecraft:saturation"
                 },
                 {
                   "duration": {
@@ -134,22 +150,6 @@
                     "type": "minecraft:uniform"
                   },
                   "type": "minecraft:jump_boost"
-                },
-                {
-                  "duration": {
-                    "max": 7.0,
-                    "min": 5.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "type": "minecraft:blindness"
-                },
-                {
-                  "duration": {
-                    "max": 10.0,
-                    "min": 7.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "type": "minecraft:saturation"
                 }
               ],
               "function": "minecraft:set_stew_effect"
