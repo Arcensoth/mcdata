@@ -12283,32 +12283,38 @@
       "minecraft:matching_blocks": {
         "protocol_id": 0
       },
-      "minecraft:matching_fluids": {
+      "minecraft:matching_block_tag": {
         "protocol_id": 1
       },
-      "minecraft:solid": {
+      "minecraft:matching_fluids": {
         "protocol_id": 2
       },
-      "minecraft:replaceable": {
+      "minecraft:has_sturdy_face": {
         "protocol_id": 3
       },
-      "minecraft:would_survive": {
+      "minecraft:solid": {
         "protocol_id": 4
       },
-      "minecraft:inside_world_bounds": {
+      "minecraft:replaceable": {
         "protocol_id": 5
       },
-      "minecraft:any_of": {
+      "minecraft:would_survive": {
         "protocol_id": 6
       },
-      "minecraft:all_of": {
+      "minecraft:inside_world_bounds": {
         "protocol_id": 7
       },
-      "minecraft:not": {
+      "minecraft:any_of": {
         "protocol_id": 8
       },
-      "minecraft:true": {
+      "minecraft:all_of": {
         "protocol_id": 9
+      },
+      "minecraft:not": {
+        "protocol_id": 10
+      },
+      "minecraft:true": {
+        "protocol_id": 11
       }
     }
   },

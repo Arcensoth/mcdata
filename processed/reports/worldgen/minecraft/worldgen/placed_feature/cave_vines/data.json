@@ -30,7 +30,13 @@
       "direction_of_search": "up",
       "max_steps": 12,
       "target_condition": {
-        "type": "minecraft:solid"
+        "direction": "down",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "type": "minecraft:has_sturdy_face"
       },
       "type": "minecraft:environment_scan"
     },

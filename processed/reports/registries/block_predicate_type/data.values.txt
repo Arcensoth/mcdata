@@ -1,6 +1,8 @@
 minecraft:all_of
 minecraft:any_of
+minecraft:has_sturdy_face
 minecraft:inside_world_bounds
+minecraft:matching_block_tag
 minecraft:matching_blocks
 minecraft:matching_fluids
 minecraft:not

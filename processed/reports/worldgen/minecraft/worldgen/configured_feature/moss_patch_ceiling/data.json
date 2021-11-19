@@ -18,7 +18,10 @@
     "replaceable": "minecraft:moss_replaceable",
     "surface": "ceiling",
     "vegetation_chance": 0.08,
-    "vegetation_feature": "minecraft:cave_vine_in_moss",
+    "vegetation_feature": {
+      "feature": "minecraft:cave_vine_in_moss",
+      "placement": []
+    },
     "vertical_range": 5,
     "xz_radius": {
       "type": "minecraft:uniform",

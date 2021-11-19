@@ -23,6 +23,11 @@
             "direction_of_search": "down",
             "max_steps": 12,
             "target_condition": {
+              "offset": [
+                0,
+                -1,
+                0
+              ],
               "type": "minecraft:solid"
             },
             "type": "minecraft:environment_scan"
@@ -51,6 +56,11 @@
             "direction_of_search": "up",
             "max_steps": 12,
             "target_condition": {
+              "offset": [
+                0,
+                1,
+                0
+              ],
               "type": "minecraft:solid"
             },
             "type": "minecraft:environment_scan"

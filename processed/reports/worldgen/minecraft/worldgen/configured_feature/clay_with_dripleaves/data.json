@@ -12,7 +12,10 @@
     "replaceable": "minecraft:lush_ground_replaceable",
     "surface": "floor",
     "vegetation_chance": 0.05,
-    "vegetation_feature": "minecraft:dripleaf",
+    "vegetation_feature": {
+      "feature": "minecraft:dripleaf",
+      "placement": []
+    },
     "vertical_range": 2,
     "xz_radius": {
       "type": "minecraft:uniform",

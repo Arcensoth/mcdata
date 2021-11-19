@@ -19,6 +19,19 @@
         {
           "input_predicate": {
             "block": "minecraft:dirt_path",
+            "predicate_type": "minecraft:block_match"
+          },
+          "location_predicate": {
+            "block": "minecraft:ice",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_planks"
+          }
+        },
+        {
+          "input_predicate": {
+            "block": "minecraft:dirt_path",
             "predicate_type": "minecraft:random_block_match",
             "probability": 0.2
           },

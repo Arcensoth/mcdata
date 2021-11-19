@@ -12,7 +12,10 @@
     "replaceable": "minecraft:moss_replaceable",
     "surface": "floor",
     "vegetation_chance": 0.8,
-    "vegetation_feature": "minecraft:moss_vegetation",
+    "vegetation_feature": {
+      "feature": "minecraft:moss_vegetation",
+      "placement": []
+    },
     "vertical_range": 5,
     "xz_radius": {
       "type": "minecraft:uniform",

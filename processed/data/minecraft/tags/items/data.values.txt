@@ -18,6 +18,7 @@ minecraft:creeper_drop_music_discs
 minecraft:crimson_stems
 minecraft:dark_oak_logs
 minecraft:diamond_ores
+minecraft:dirt
 minecraft:doors
 minecraft:emerald_ores
 minecraft:fences
@@ -56,6 +57,7 @@ minecraft:stone_bricks
 minecraft:stone_crafting_materials
 minecraft:stone_tool_materials
 minecraft:tall_flowers
+minecraft:terracotta
 minecraft:trapdoors
 minecraft:walls
 minecraft:warped_stems
