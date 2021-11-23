@@ -140,6 +140,7 @@ minecraft:patch_grass_taiga
 minecraft:patch_grass_taiga_2
 minecraft:patch_large_fern
 minecraft:patch_melon
+minecraft:patch_melon_sparse
 minecraft:patch_pumpkin
 minecraft:patch_soul_fire
 minecraft:patch_sugar_cane

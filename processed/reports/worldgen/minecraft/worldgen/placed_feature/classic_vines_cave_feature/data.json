@@ -11,7 +11,7 @@
     {
       "height": {
         "max_inclusive": {
-          "absolute": 120
+          "absolute": 256
         },
         "min_inclusive": {
           "above_bottom": 0
