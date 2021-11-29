@@ -16,7 +16,7 @@
         "min_inclusive": {
           "absolute": 0
         },
-        "type": "minecraft:uniform"
+        "type": "minecraft:trapezoid"
       },
       "type": "minecraft:height_range"
     },
