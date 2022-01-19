@@ -519,9 +519,6 @@
       "minecraft:badlands"
     ],
     [
-      "minecraft:eroded_badlands"
-    ],
-    [
       "minecraft:desert"
     ],
     [
@@ -556,6 +553,9 @@
     ],
     [
       "minecraft:bamboo_jungle"
+    ],
+    [
+      "minecraft:eroded_badlands"
     ],
     [
       "minecraft:windswept_savanna"

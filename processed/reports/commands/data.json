@@ -4731,77 +4731,10 @@
     },
     "locate": {
       "children": {
-        "bastion_remnant": {
+        "structure": {
           "executable": true,
-          "type": "literal"
-        },
-        "buried_treasure": {
-          "executable": true,
-          "type": "literal"
-        },
-        "desert_pyramid": {
-          "executable": true,
-          "type": "literal"
-        },
-        "endcity": {
-          "executable": true,
-          "type": "literal"
-        },
-        "fortress": {
-          "executable": true,
-          "type": "literal"
-        },
-        "igloo": {
-          "executable": true,
-          "type": "literal"
-        },
-        "jungle_pyramid": {
-          "executable": true,
-          "type": "literal"
-        },
-        "mansion": {
-          "executable": true,
-          "type": "literal"
-        },
-        "mineshaft": {
-          "executable": true,
-          "type": "literal"
-        },
-        "monument": {
-          "executable": true,
-          "type": "literal"
-        },
-        "nether_fossil": {
-          "executable": true,
-          "type": "literal"
-        },
-        "ocean_ruin": {
-          "executable": true,
-          "type": "literal"
-        },
-        "pillager_outpost": {
-          "executable": true,
-          "type": "literal"
-        },
-        "ruined_portal": {
-          "executable": true,
-          "type": "literal"
-        },
-        "shipwreck": {
-          "executable": true,
-          "type": "literal"
-        },
-        "stronghold": {
-          "executable": true,
-          "type": "literal"
-        },
-        "swamp_hut": {
-          "executable": true,
-          "type": "literal"
-        },
-        "village": {
-          "executable": true,
-          "type": "literal"
+          "parser": "minecraft:resource_location",
+          "type": "argument"
         }
       },
       "type": "literal"
@@ -5628,6 +5561,23 @@
         "stop": {
           "executable": true,
           "type": "literal"
+        }
+      },
+      "type": "literal"
+    },
+    "placefeature": {
+      "children": {
+        "feature": {
+          "children": {
+            "pos": {
+              "executable": true,
+              "parser": "minecraft:block_pos",
+              "type": "argument"
+            }
+          },
+          "executable": true,
+          "parser": "minecraft:resource_location",
+          "type": "argument"
         }
       },
       "type": "literal"
@@ -6780,9 +6730,6 @@
                             }
                           },
                           "parser": "brigadier:integer",
-                          "properties": {
-                            "min": 0
-                          },
                           "type": "argument"
                         }
                       },
