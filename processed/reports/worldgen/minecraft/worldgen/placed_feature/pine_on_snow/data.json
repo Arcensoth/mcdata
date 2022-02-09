@@ -6,9 +6,7 @@
       "max_steps": 8,
       "target_condition": {
         "predicate": {
-          "blocks": [
-            "minecraft:powder_snow"
-          ],
+          "blocks": "minecraft:powder_snow",
           "type": "minecraft:matching_blocks"
         },
         "type": "minecraft:not"

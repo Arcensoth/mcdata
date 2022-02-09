@@ -25,15 +25,11 @@
           "predicate": {
             "predicates": [
               {
-                "blocks": [
-                  "minecraft:air"
-                ],
+                "blocks": "minecraft:air",
                 "type": "minecraft:matching_blocks"
               },
               {
-                "blocks": [
-                  "minecraft:netherrack"
-                ],
+                "blocks": "minecraft:netherrack",
                 "offset": [
                   0,
                   -1,

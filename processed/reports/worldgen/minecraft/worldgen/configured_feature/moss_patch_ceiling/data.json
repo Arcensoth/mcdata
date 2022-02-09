@@ -15,7 +15,7 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "replaceable": "minecraft:moss_replaceable",
+    "replaceable": "#minecraft:moss_replaceable",
     "surface": "ceiling",
     "vegetation_chance": 0.08,
     "vegetation_feature": {

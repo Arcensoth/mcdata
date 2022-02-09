@@ -20,9 +20,7 @@
                 "type": "minecraft:replaceable"
               },
               {
-                "blocks": [
-                  "minecraft:grass_block"
-                ],
+                "blocks": "minecraft:grass_block",
                 "offset": [
                   0,
                   -1,

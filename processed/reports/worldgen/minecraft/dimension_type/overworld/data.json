@@ -7,7 +7,7 @@
   "has_raids": true,
   "has_skylight": true,
   "height": 384,
-  "infiniburn": "minecraft:infiniburn_overworld",
+  "infiniburn": "#minecraft:infiniburn_overworld",
   "logical_height": 384,
   "min_y": -64,
   "natural": true,

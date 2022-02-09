@@ -9,7 +9,7 @@
       },
       "type": "minecraft:simple_state_provider"
     },
-    "replaceable": "minecraft:lush_ground_replaceable",
+    "replaceable": "#minecraft:lush_ground_replaceable",
     "surface": "floor",
     "vegetation_chance": 0.1,
     "vegetation_feature": {

@@ -17,15 +17,11 @@
           "predicate": {
             "predicates": [
               {
-                "blocks": [
-                  "minecraft:air"
-                ],
+                "blocks": "minecraft:air",
                 "type": "minecraft:matching_blocks"
               },
               {
-                "blocks": [
-                  "minecraft:grass_block"
-                ],
+                "blocks": "minecraft:grass_block",
                 "offset": [
                   0,
                   -1,

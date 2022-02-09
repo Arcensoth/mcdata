@@ -12333,7 +12333,7 @@
         "protocol_id": 3
       }
     },
-    "protocol_id": 49
+    "protocol_id": 50
   },
   "minecraft:worldgen/block_state_provider_type": {
     "entries": {
@@ -12359,7 +12359,7 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 44
+    "protocol_id": 45
   },
   "minecraft:worldgen/carver": {
     "entries": {
@@ -12387,7 +12387,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 50
+    "protocol_id": 51
   },
   "minecraft:worldgen/feature": {
     "entries": {
@@ -12586,7 +12586,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 48
+    "protocol_id": 49
   },
   "minecraft:worldgen/foliage_placer_type": {
     "entries": {
@@ -12621,7 +12621,7 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 45
+    "protocol_id": 46
   },
   "minecraft:worldgen/material_condition": {
     "entries": {
@@ -12659,7 +12659,7 @@
         "protocol_id": 3
       }
     },
-    "protocol_id": 51
+    "protocol_id": 52
   },
   "minecraft:worldgen/material_rule": {
     "entries": {
@@ -12676,7 +12676,7 @@
         "protocol_id": 2
       }
     },
-    "protocol_id": 52
+    "protocol_id": 53
   },
   "minecraft:worldgen/placement_modifier_type": {
     "entries": {
@@ -12726,7 +12726,7 @@
         "protocol_id": 3
       }
     },
-    "protocol_id": 43
+    "protocol_id": 44
   },
   "minecraft:worldgen/structure_feature": {
     "entries": {
@@ -12958,6 +12958,17 @@
         "protocol_id": 51
       }
     },
+    "protocol_id": 43
+  },
+  "minecraft:worldgen/structure_placement": {
+    "entries": {
+      "minecraft:concentric_rings": {
+        "protocol_id": 1
+      },
+      "minecraft:random_spread": {
+        "protocol_id": 0
+      }
+    },
     "protocol_id": 42
   },
   "minecraft:worldgen/structure_pool_element": {
@@ -12978,7 +12989,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 54
+    "protocol_id": 55
   },
   "minecraft:worldgen/structure_processor": {
     "entries": {
@@ -13013,7 +13024,7 @@
         "protocol_id": 4
       }
     },
-    "protocol_id": 53
+    "protocol_id": 54
   },
   "minecraft:worldgen/tree_decorator_type": {
     "entries": {
@@ -13033,7 +13044,7 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 47
+    "protocol_id": 48
   },
   "minecraft:worldgen/trunk_placer_type": {
     "entries": {
@@ -13059,6 +13070,6 @@
         "protocol_id": 0
       }
     },
-    "protocol_id": 46
+    "protocol_id": 47
   }
 }

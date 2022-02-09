@@ -28,16 +28,12 @@
           "predicate": {
             "predicates": [
               {
-                "blocks": [
-                  "minecraft:air"
-                ],
+                "blocks": "minecraft:air",
                 "type": "minecraft:matching_blocks"
               },
               {
                 "predicate": {
-                  "blocks": [
-                    "minecraft:podzol"
-                  ],
+                  "blocks": "minecraft:podzol",
                   "offset": [
                     0,
                     -1,

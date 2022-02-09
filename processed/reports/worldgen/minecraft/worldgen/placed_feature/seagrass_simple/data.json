@@ -13,9 +13,7 @@
       "predicate": {
         "predicates": [
           {
-            "blocks": [
-              "minecraft:stone"
-            ],
+            "blocks": "minecraft:stone",
             "offset": [
               0,
               -1,
@@ -24,15 +22,11 @@
             "type": "minecraft:matching_blocks"
           },
           {
-            "blocks": [
-              "minecraft:water"
-            ],
+            "blocks": "minecraft:water",
             "type": "minecraft:matching_blocks"
           },
           {
-            "blocks": [
-              "minecraft:water"
-            ],
+            "blocks": "minecraft:water",
             "offset": [
               0,
               1,

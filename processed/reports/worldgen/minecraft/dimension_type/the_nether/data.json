@@ -8,7 +8,7 @@
   "has_raids": false,
   "has_skylight": false,
   "height": 256,
-  "infiniburn": "minecraft:infiniburn_nether",
+  "infiniburn": "#minecraft:infiniburn_nether",
   "logical_height": 128,
   "min_y": 0,
   "natural": false,

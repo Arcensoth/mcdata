@@ -57,7 +57,7 @@
     "root_column_max_height": 100,
     "root_placement_attempts": 20,
     "root_radius": 3,
-    "root_replaceable": "minecraft:azalea_root_replaceable",
+    "root_replaceable": "#minecraft:azalea_root_replaceable",
     "root_state_provider": {
       "state": {
         "Name": "minecraft:rooted_dirt"
