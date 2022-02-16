@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/swamp_hut",
   "config": {},
   "type": "minecraft:swamp_hut"
 }

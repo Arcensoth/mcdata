@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/mineshaft",
   "config": {
     "probability": 0.004,
     "type": "normal"

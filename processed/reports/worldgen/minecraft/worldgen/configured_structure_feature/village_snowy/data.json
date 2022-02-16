@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/village_snowy",
   "config": {
     "size": 6,
     "start_pool": "minecraft:village/snowy/town_centers"

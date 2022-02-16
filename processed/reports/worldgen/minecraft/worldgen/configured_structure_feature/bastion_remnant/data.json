@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/bastion_remnant",
   "config": {
     "size": 6,
     "start_pool": "minecraft:bastion/starts"

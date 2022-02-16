@@ -2888,7 +2888,7 @@
                               {
                                 "if_true": {
                                   "add_stone_depth": false,
-                                  "offset": -1,
+                                  "offset": 0,
                                   "surface_depth_multiplier": 0,
                                   "type": "minecraft:water"
                                 },
@@ -3887,7 +3887,7 @@
                                     {
                                       "if_true": {
                                         "add_stone_depth": false,
-                                        "offset": -1,
+                                        "offset": 0,
                                         "surface_depth_multiplier": 0,
                                         "type": "minecraft:water"
                                       },
@@ -4040,7 +4040,7 @@
                             {
                               "if_true": {
                                 "add_stone_depth": false,
-                                "offset": -1,
+                                "offset": 0,
                                 "surface_depth_multiplier": 0,
                                 "type": "minecraft:water"
                               },

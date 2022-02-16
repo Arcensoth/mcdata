@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/nether_fortress",
   "config": {},
   "type": "minecraft:fortress"
 }

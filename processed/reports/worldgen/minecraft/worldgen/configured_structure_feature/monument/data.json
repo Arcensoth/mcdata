@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/ocean_monument",
   "config": {},
   "type": "minecraft:monument"
 }

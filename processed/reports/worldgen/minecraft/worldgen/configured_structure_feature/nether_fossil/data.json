@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/nether_fossil",
   "config": {
     "height": {
       "max_inclusive": {

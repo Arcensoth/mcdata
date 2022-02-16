@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/ocean_ruin_warm",
   "config": {
     "biome_temp": "warm",
     "cluster_probability": 0.9,

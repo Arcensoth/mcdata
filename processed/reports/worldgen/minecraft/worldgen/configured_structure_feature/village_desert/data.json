@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/village_desert",
   "config": {
     "size": 6,
     "start_pool": "minecraft:village/desert/town_centers"

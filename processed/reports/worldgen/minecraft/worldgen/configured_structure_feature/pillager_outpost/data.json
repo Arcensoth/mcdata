@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/pillager_outpost",
   "config": {
     "size": 7,
     "start_pool": "minecraft:pillager_outpost/base_plates"

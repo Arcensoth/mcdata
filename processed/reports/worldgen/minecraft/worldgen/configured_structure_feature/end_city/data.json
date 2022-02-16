@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/end_city",
   "config": {},
   "type": "minecraft:endcity"
 }

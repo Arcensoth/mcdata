@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/mineshaft_mesa",
   "config": {
     "probability": 0.004,
     "type": "mesa"

@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/ruined_portal_jungle",
   "config": {
     "portal_type": "jungle"
   },

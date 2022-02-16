@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/village_plains",
   "config": {
     "size": 6,
     "start_pool": "minecraft:village/plains/town_centers"

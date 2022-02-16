@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/jungle_temple",
   "config": {},
   "type": "minecraft:jungle_pyramid"
 }

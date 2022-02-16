@@ -1,4 +1,5 @@
 {
+  "biomes": "#minecraft:has_structure/igloo",
   "config": {},
   "type": "minecraft:igloo"
 }
