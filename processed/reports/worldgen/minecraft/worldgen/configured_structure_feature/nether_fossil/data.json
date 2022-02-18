@@ -1,4 +1,5 @@
 {
+  "adapt_noise": true,
   "biomes": "#minecraft:has_structure/nether_fossil",
   "config": {
     "height": {
@@ -11,5 +12,6 @@
       "type": "minecraft:uniform"
     }
   },
+  "spawn_overrides": {},
   "type": "minecraft:nether_fossil"
 }

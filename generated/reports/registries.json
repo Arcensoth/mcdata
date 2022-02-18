@@ -13017,8 +13017,112 @@
       }
     }
   },
-  "minecraft:worldgen/structure_processor": {
+  "minecraft:worldgen/density_function_type": {
     "protocol_id": 54,
+    "entries": {
+      "minecraft:blend_alpha": {
+        "protocol_id": 0
+      },
+      "minecraft:blend_offset": {
+        "protocol_id": 1
+      },
+      "minecraft:beardifier": {
+        "protocol_id": 2
+      },
+      "minecraft:old_blended_noise": {
+        "protocol_id": 3
+      },
+      "minecraft:interpolated": {
+        "protocol_id": 4
+      },
+      "minecraft:flat_cache": {
+        "protocol_id": 5
+      },
+      "minecraft:cache_2d": {
+        "protocol_id": 6
+      },
+      "minecraft:cache_once": {
+        "protocol_id": 7
+      },
+      "minecraft:cache_all_in_cell": {
+        "protocol_id": 8
+      },
+      "minecraft:noise": {
+        "protocol_id": 9
+      },
+      "minecraft:end_islands": {
+        "protocol_id": 10
+      },
+      "minecraft:weird_scaled_sampler": {
+        "protocol_id": 11
+      },
+      "minecraft:shifted_noise": {
+        "protocol_id": 12
+      },
+      "minecraft:range_choice": {
+        "protocol_id": 13
+      },
+      "minecraft:shift_a": {
+        "protocol_id": 14
+      },
+      "minecraft:shift_b": {
+        "protocol_id": 15
+      },
+      "minecraft:shift": {
+        "protocol_id": 16
+      },
+      "minecraft:blend_density": {
+        "protocol_id": 17
+      },
+      "minecraft:clamp": {
+        "protocol_id": 18
+      },
+      "minecraft:abs": {
+        "protocol_id": 19
+      },
+      "minecraft:square": {
+        "protocol_id": 20
+      },
+      "minecraft:cube": {
+        "protocol_id": 21
+      },
+      "minecraft:half_negative": {
+        "protocol_id": 22
+      },
+      "minecraft:quarter_negative": {
+        "protocol_id": 23
+      },
+      "minecraft:squeeze": {
+        "protocol_id": 24
+      },
+      "minecraft:slide": {
+        "protocol_id": 25
+      },
+      "minecraft:add": {
+        "protocol_id": 26
+      },
+      "minecraft:mul": {
+        "protocol_id": 27
+      },
+      "minecraft:min": {
+        "protocol_id": 28
+      },
+      "minecraft:max": {
+        "protocol_id": 29
+      },
+      "minecraft:terrain_shaper_spline": {
+        "protocol_id": 30
+      },
+      "minecraft:constant": {
+        "protocol_id": 31
+      },
+      "minecraft:y_clamped_gradient": {
+        "protocol_id": 32
+      }
+    }
+  },
+  "minecraft:worldgen/structure_processor": {
+    "protocol_id": 55,
     "entries": {
       "minecraft:block_ignore": {
         "protocol_id": 0
@@ -13053,7 +13157,7 @@
     }
   },
   "minecraft:worldgen/structure_pool_element": {
-    "protocol_id": 55,
+    "protocol_id": 56,
     "entries": {
       "minecraft:single_pool_element": {
         "protocol_id": 0

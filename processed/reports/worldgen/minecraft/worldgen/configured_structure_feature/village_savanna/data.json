@@ -1,8 +1,10 @@
 {
+  "adapt_noise": true,
   "biomes": "#minecraft:has_structure/village_savanna",
   "config": {
     "size": 6,
     "start_pool": "minecraft:village/savanna/town_centers"
   },
+  "spawn_overrides": {},
   "type": "minecraft:village"
 }

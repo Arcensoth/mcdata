@@ -1,0 +1,61 @@
+{
+  "input": {
+    "argument1": {
+      "argument1": {
+        "input": {
+          "noise": "minecraft:spaghetti_2d_modulator",
+          "type": "minecraft:noise",
+          "xz_scale": 2.0,
+          "y_scale": 1.0
+        },
+        "noise": "minecraft:spaghetti_2d",
+        "rarity_value_mapper": "type_2",
+        "type": "minecraft:weird_scaled_sampler"
+      },
+      "argument2": {
+        "argument1": 0.083,
+        "argument2": "minecraft:overworld/caves/spaghetti_2d_thickness_modulator",
+        "type": "minecraft:mul"
+      },
+      "type": "minecraft:add"
+    },
+    "argument2": {
+      "argument": {
+        "argument1": {
+          "argument": {
+            "argument1": {
+              "argument1": 0.0,
+              "argument2": {
+                "argument1": 8.0,
+                "argument2": {
+                  "noise": "minecraft:spaghetti_2d_elevation",
+                  "type": "minecraft:noise",
+                  "xz_scale": 1.0,
+                  "y_scale": 0.0
+                },
+                "type": "minecraft:mul"
+              },
+              "type": "minecraft:add"
+            },
+            "argument2": {
+              "from_value": 8.0,
+              "from_y": -64,
+              "to_value": -40.0,
+              "to_y": 320,
+              "type": "minecraft:y_clamped_gradient"
+            },
+            "type": "minecraft:add"
+          },
+          "type": "minecraft:abs"
+        },
+        "argument2": "minecraft:overworld/caves/spaghetti_2d_thickness_modulator",
+        "type": "minecraft:add"
+      },
+      "type": "minecraft:cube"
+    },
+    "type": "minecraft:max"
+  },
+  "max": 1.0,
+  "min": -1.0,
+  "type": "minecraft:clamp"
+}

@@ -1,5 +1,6 @@
 {
   "biomes": "#minecraft:has_structure/igloo",
   "config": {},
+  "spawn_overrides": {},
   "type": "minecraft:igloo"
 }

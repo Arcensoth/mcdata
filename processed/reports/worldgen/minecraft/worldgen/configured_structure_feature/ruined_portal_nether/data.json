@@ -3,5 +3,6 @@
   "config": {
     "portal_type": "nether"
   },
+  "spawn_overrides": {},
   "type": "minecraft:ruined_portal"
 }

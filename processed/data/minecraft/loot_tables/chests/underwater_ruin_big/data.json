@@ -104,6 +104,12 @@
               "function": "minecraft:exploration_map",
               "skip_existing_chunks": false,
               "zoom": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "filled_map.buried_treasure"
+              }
             }
           ],
           "name": "minecraft:map",

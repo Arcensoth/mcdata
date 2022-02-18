@@ -3,7 +3,7 @@
     "in_city": {
       "conditions": {
         "location": {
-          "feature": "endcity"
+          "feature": "minecraft:end_city"
         }
       },
       "trigger": "minecraft:location"

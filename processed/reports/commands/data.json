@@ -4733,7 +4733,10 @@
       "children": {
         "structure": {
           "executable": true,
-          "parser": "minecraft:resource_location",
+          "parser": "minecraft:resource_or_tag",
+          "properties": {
+            "registry": "minecraft:worldgen/configured_structure_feature"
+          },
           "type": "argument"
         }
       },
@@ -4743,7 +4746,10 @@
       "children": {
         "biome": {
           "executable": true,
-          "parser": "minecraft:resource_location",
+          "parser": "minecraft:resource_or_tag",
+          "properties": {
+            "registry": "minecraft:worldgen/biome"
+          },
           "type": "argument"
         }
       },

@@ -4,5 +4,6 @@
     "size": 6,
     "start_pool": "minecraft:bastion/starts"
   },
+  "spawn_overrides": {},
   "type": "minecraft:bastion_remnant"
 }

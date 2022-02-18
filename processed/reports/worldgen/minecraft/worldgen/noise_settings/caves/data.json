@@ -38,122 +38,163 @@
       "target": 0.9375
     }
   },
-  "noise_caves_enabled": false,
-  "noodle_caves_enabled": false,
-  "ore_veins_enabled": false,
-  "sea_level": 32,
-  "structures": {
-    "minecraft:bastion_remnant": {
-      "salt": 30084232,
-      "separation": 4,
-      "spacing": 27,
-      "type": "minecraft:random_spread"
+  "noise_router": {
+    "barrier": {
+      "noise": "minecraft:aquifer_barrier",
+      "type": "minecraft:noise",
+      "xz_scale": 1.0,
+      "y_scale": 0.5
     },
-    "minecraft:buried_treasure": {
-      "locate_offset": [
-        9,
-        0,
-        9
-      ],
-      "salt": 0,
-      "separation": 0,
-      "spacing": 1,
-      "type": "minecraft:random_spread"
+    "continents": "minecraft:overworld/continents",
+    "depth": "minecraft:overworld/depth",
+    "erosion": "minecraft:overworld/erosion",
+    "final_density": {
+      "argument1": {
+        "argument": {
+          "argument1": 0.64,
+          "argument2": {
+            "argument": {
+              "argument": {
+                "argument": "minecraft:overworld/sloped_cheese",
+                "type": "minecraft:slide"
+              },
+              "type": "minecraft:blend_density"
+            },
+            "type": "minecraft:interpolated"
+          },
+          "type": "minecraft:mul"
+        },
+        "type": "minecraft:squeeze"
+      },
+      "argument2": 64.0,
+      "type": "minecraft:min"
     },
-    "minecraft:desert_pyramid": {
-      "salt": 14357617,
-      "separation": 8,
-      "spacing": 32,
-      "type": "minecraft:random_spread"
+    "fluid_level_floodedness": {
+      "noise": "minecraft:aquifer_fluid_level_floodedness",
+      "type": "minecraft:noise",
+      "xz_scale": 1.0,
+      "y_scale": 0.67
     },
-    "minecraft:endcity": {
-      "salt": 10387313,
-      "separation": 11,
-      "spacing": 20,
-      "spread_type": "triangular",
-      "type": "minecraft:random_spread"
+    "fluid_level_spread": {
+      "noise": "minecraft:aquifer_fluid_level_spread",
+      "type": "minecraft:noise",
+      "xz_scale": 1.0,
+      "y_scale": 0.7142857142857143
     },
-    "minecraft:fortress": {
-      "salt": 30084232,
-      "separation": 4,
-      "spacing": 27,
-      "type": "minecraft:random_spread"
+    "initial_density_without_jaggedness": {
+      "argument1": 4.0,
+      "argument2": {
+        "argument": {
+          "argument1": {
+            "argument1": 0.0,
+            "argument2": "minecraft:overworld/depth",
+            "type": "minecraft:add"
+          },
+          "argument2": {
+            "argument": "minecraft:overworld/factor",
+            "type": "minecraft:cache_2d"
+          },
+          "type": "minecraft:mul"
+        },
+        "type": "minecraft:quarter_negative"
+      },
+      "type": "minecraft:mul"
     },
-    "minecraft:igloo": {
-      "salt": 14357618,
-      "separation": 8,
-      "spacing": 32,
-      "type": "minecraft:random_spread"
+    "lava": {
+      "noise": "minecraft:aquifer_lava",
+      "type": "minecraft:noise",
+      "xz_scale": 1.0,
+      "y_scale": 1.0
     },
-    "minecraft:jungle_pyramid": {
-      "salt": 14357619,
-      "separation": 8,
-      "spacing": 32,
-      "type": "minecraft:random_spread"
+    "ridges": "minecraft:overworld/ridges",
+    "temperature": {
+      "noise": "minecraft:temperature",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
     },
-    "minecraft:mansion": {
-      "salt": 10387319,
-      "separation": 20,
-      "spacing": 80,
-      "spread_type": "triangular",
-      "type": "minecraft:random_spread"
+    "vegetation": {
+      "noise": "minecraft:vegetation",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0.0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise",
+      "xz_scale": 0.25,
+      "y_scale": 0.0
     },
-    "minecraft:mineshaft": {
-      "salt": 0,
-      "separation": 0,
-      "spacing": 1,
-      "type": "minecraft:random_spread"
+    "vein_gap": {
+      "noise": "minecraft:ore_gap",
+      "type": "minecraft:noise",
+      "xz_scale": 1.0,
+      "y_scale": 1.0
     },
-    "minecraft:monument": {
-      "salt": 10387313,
-      "separation": 5,
-      "spacing": 32,
-      "spread_type": "triangular",
-      "type": "minecraft:random_spread"
+    "vein_ridged": {
+      "argument1": -0.07999999821186066,
+      "argument2": {
+        "argument1": {
+          "argument": {
+            "argument": {
+              "input": "minecraft:y",
+              "max_exclusive": 51.0,
+              "min_inclusive": -60.0,
+              "type": "minecraft:range_choice",
+              "when_in_range": {
+                "noise": "minecraft:ore_vein_a",
+                "type": "minecraft:noise",
+                "xz_scale": 4.0,
+                "y_scale": 4.0
+              },
+              "when_out_of_range": 0.0
+            },
+            "type": "minecraft:interpolated"
+          },
+          "type": "minecraft:abs"
+        },
+        "argument2": {
+          "argument": {
+            "argument": {
+              "input": "minecraft:y",
+              "max_exclusive": 51.0,
+              "min_inclusive": -60.0,
+              "type": "minecraft:range_choice",
+              "when_in_range": {
+                "noise": "minecraft:ore_vein_b",
+                "type": "minecraft:noise",
+                "xz_scale": 4.0,
+                "y_scale": 4.0
+              },
+              "when_out_of_range": 0.0
+            },
+            "type": "minecraft:interpolated"
+          },
+          "type": "minecraft:abs"
+        },
+        "type": "minecraft:max"
+      },
+      "type": "minecraft:add"
     },
-    "minecraft:nether_fossil": {
-      "salt": 14357921,
-      "separation": 1,
-      "spacing": 2,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:ocean_ruin": {
-      "salt": 14357621,
-      "separation": 8,
-      "spacing": 20,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:pillager_outpost": {
-      "salt": 165745296,
-      "separation": 8,
-      "spacing": 32,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:ruined_portal": {
-      "salt": 34222645,
-      "separation": 15,
-      "spacing": 40,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:shipwreck": {
-      "salt": 165745295,
-      "separation": 4,
-      "spacing": 24,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:swamp_hut": {
-      "salt": 14357620,
-      "separation": 8,
-      "spacing": 32,
-      "type": "minecraft:random_spread"
-    },
-    "minecraft:village": {
-      "salt": 10387312,
-      "separation": 8,
-      "spacing": 34,
-      "type": "minecraft:random_spread"
+    "vein_toggle": {
+      "argument": {
+        "input": "minecraft:y",
+        "max_exclusive": 51.0,
+        "min_inclusive": -60.0,
+        "type": "minecraft:range_choice",
+        "when_in_range": {
+          "noise": "minecraft:ore_veininess",
+          "type": "minecraft:noise",
+          "xz_scale": 1.5,
+          "y_scale": 1.5
+        },
+        "when_out_of_range": 0.0
+      },
+      "type": "minecraft:interpolated"
     }
   },
+  "ore_veins_enabled": false,
+  "sea_level": 32,
   "surface_rule": {
     "sequence": [
       {

@@ -3,7 +3,7 @@
     "bastion": {
       "conditions": {
         "location": {
-          "feature": "bastion_remnant"
+          "feature": "minecraft:bastion_remnant"
         }
       },
       "trigger": "minecraft:location"
