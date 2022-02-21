@@ -12422,7 +12422,7 @@
         "protocol_id": 18
       },
       "minecraft:constant": {
-        "protocol_id": 31
+        "protocol_id": 32
       },
       "minecraft:cube": {
         "protocol_id": 21
@@ -12475,6 +12475,9 @@
       "minecraft:slide": {
         "protocol_id": 25
       },
+      "minecraft:spline": {
+        "protocol_id": 30
+      },
       "minecraft:square": {
         "protocol_id": 20
       },
@@ -12482,13 +12485,13 @@
         "protocol_id": 24
       },
       "minecraft:terrain_shaper_spline": {
-        "protocol_id": 30
+        "protocol_id": 31
       },
       "minecraft:weird_scaled_sampler": {
         "protocol_id": 11
       },
       "minecraft:y_clamped_gradient": {
-        "protocol_id": 32
+        "protocol_id": 33
       }
     },
     "protocol_id": 54

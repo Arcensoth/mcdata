@@ -3,7 +3,7 @@
   "config": {},
   "spawn_overrides": {
     "monster": {
-      "bounding_box": "full",
+      "bounding_box": "piece",
       "spawns": [
         {
           "maxCount": 3,

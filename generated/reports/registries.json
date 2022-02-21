@@ -13110,14 +13110,17 @@
       "minecraft:max": {
         "protocol_id": 29
       },
-      "minecraft:terrain_shaper_spline": {
+      "minecraft:spline": {
         "protocol_id": 30
       },
-      "minecraft:constant": {
+      "minecraft:terrain_shaper_spline": {
         "protocol_id": 31
       },
-      "minecraft:y_clamped_gradient": {
+      "minecraft:constant": {
         "protocol_id": 32
+      },
+      "minecraft:y_clamped_gradient": {
+        "protocol_id": 33
       }
     }
   },
