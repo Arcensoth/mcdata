@@ -2792,11 +2792,7 @@
       "argument1": 4.0,
       "argument2": {
         "argument": {
-          "argument1": {
-            "argument1": 0.0,
-            "argument2": "minecraft:overworld/depth",
-            "type": "minecraft:add"
-          },
+          "argument1": "minecraft:overworld/depth",
           "argument2": {
             "argument": "minecraft:overworld/factor",
             "type": "minecraft:cache_2d"

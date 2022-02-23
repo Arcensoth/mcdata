@@ -262,7 +262,10 @@
                   "type": "literal"
                 }
               },
-              "parser": "minecraft:resource_location",
+              "parser": "minecraft:resource",
+              "properties": {
+                "registry": "minecraft:attribute"
+              },
               "type": "argument"
             }
           },
@@ -5582,7 +5585,10 @@
             }
           },
           "executable": true,
-          "parser": "minecraft:resource_location",
+          "parser": "minecraft:resource",
+          "properties": {
+            "registry": "minecraft:worldgen/configured_feature"
+          },
           "type": "argument"
         }
       },

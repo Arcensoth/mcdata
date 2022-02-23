@@ -18,7 +18,6 @@
       "target": 0.1171875
     },
     "height": 384,
-    "large_biomes": true,
     "min_y": -64,
     "sampling": {
       "xz_factor": 80.0,
@@ -2793,11 +2792,7 @@
       "argument1": 4.0,
       "argument2": {
         "argument": {
-          "argument1": {
-            "argument1": 0.0,
-            "argument2": "minecraft:overworld_large_biomes/depth",
-            "type": "minecraft:add"
-          },
+          "argument1": "minecraft:overworld_large_biomes/depth",
           "argument2": {
             "argument": "minecraft:overworld_large_biomes/factor",
             "type": "minecraft:cache_2d"
