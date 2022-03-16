@@ -1,8 +1,0 @@
-{
-  "biomes": "#minecraft:has_structure/shipwreck_beached",
-  "config": {
-    "is_beached": true
-  },
-  "spawn_overrides": {},
-  "type": "minecraft:shipwreck"
-}

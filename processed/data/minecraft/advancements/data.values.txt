@@ -283,6 +283,12 @@ minecraft:recipes/building_blocks/magenta_stained_glass
 minecraft:recipes/building_blocks/magenta_terracotta
 minecraft:recipes/building_blocks/magenta_wool
 minecraft:recipes/building_blocks/magma_block
+minecraft:recipes/building_blocks/mangrove_fence
+minecraft:recipes/building_blocks/mangrove_fence_gate
+minecraft:recipes/building_blocks/mangrove_planks
+minecraft:recipes/building_blocks/mangrove_slab
+minecraft:recipes/building_blocks/mangrove_stairs
+minecraft:recipes/building_blocks/mangrove_wood
 minecraft:recipes/building_blocks/melon
 minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block
 minecraft:recipes/building_blocks/mossy_cobblestone_from_vine
@@ -296,6 +302,12 @@ minecraft:recipes/building_blocks/mossy_stone_brick_stairs
 minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting
 minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block
 minecraft:recipes/building_blocks/mossy_stone_bricks_from_vine
+minecraft:recipes/building_blocks/mud_brick_slab
+minecraft:recipes/building_blocks/mud_brick_slab_from_mud_bricks_stonecutting
+minecraft:recipes/building_blocks/mud_brick_stairs
+minecraft:recipes/building_blocks/mud_brick_stairs_from_mud_bricks_stonecutting
+minecraft:recipes/building_blocks/mud_bricks
+minecraft:recipes/building_blocks/muddy_mangrove_roots
 minecraft:recipes/building_blocks/nether_brick_slab
 minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting
 minecraft:recipes/building_blocks/nether_brick_stairs
@@ -320,6 +332,7 @@ minecraft:recipes/building_blocks/oxidized_cut_copper_stairs
 minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_copper_stonecutting
 minecraft:recipes/building_blocks/oxidized_cut_copper_stairs_from_oxidized_cut_copper_stonecutting
 minecraft:recipes/building_blocks/packed_ice
+minecraft:recipes/building_blocks/packed_mud
 minecraft:recipes/building_blocks/pink_concrete_powder
 minecraft:recipes/building_blocks/pink_stained_glass
 minecraft:recipes/building_blocks/pink_terracotta
@@ -473,6 +486,7 @@ minecraft:recipes/building_blocks/stripped_birch_wood
 minecraft:recipes/building_blocks/stripped_crimson_hyphae
 minecraft:recipes/building_blocks/stripped_dark_oak_wood
 minecraft:recipes/building_blocks/stripped_jungle_wood
+minecraft:recipes/building_blocks/stripped_mangrove_wood
 minecraft:recipes/building_blocks/stripped_oak_wood
 minecraft:recipes/building_blocks/stripped_spruce_wood
 minecraft:recipes/building_blocks/stripped_warped_hyphae
@@ -734,11 +748,14 @@ minecraft:recipes/decorations/magenta_carpet_from_white_carpet
 minecraft:recipes/decorations/magenta_glazed_terracotta
 minecraft:recipes/decorations/magenta_stained_glass_pane
 minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane
+minecraft:recipes/decorations/mangrove_sign
 minecraft:recipes/decorations/moss_carpet
 minecraft:recipes/decorations/mossy_cobblestone_wall
 minecraft:recipes/decorations/mossy_cobblestone_wall_from_mossy_cobblestone_stonecutting
 minecraft:recipes/decorations/mossy_stone_brick_wall
 minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting
+minecraft:recipes/decorations/mud_brick_wall
+minecraft:recipes/decorations/mud_brick_wall_from_mud_bricks_stonecutting
 minecraft:recipes/decorations/nether_brick_fence
 minecraft:recipes/decorations/nether_brick_wall
 minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting
@@ -1037,6 +1054,10 @@ minecraft:recipes/redstone/lectern
 minecraft:recipes/redstone/lever
 minecraft:recipes/redstone/light_weighted_pressure_plate
 minecraft:recipes/redstone/lightning_rod
+minecraft:recipes/redstone/mangrove_button
+minecraft:recipes/redstone/mangrove_door
+minecraft:recipes/redstone/mangrove_pressure_plate
+minecraft:recipes/redstone/mangrove_trapdoor
 minecraft:recipes/redstone/note_block
 minecraft:recipes/redstone/oak_button
 minecraft:recipes/redstone/oak_door
@@ -1116,6 +1137,7 @@ minecraft:recipes/transportation/detector_rail
 minecraft:recipes/transportation/furnace_minecart
 minecraft:recipes/transportation/hopper_minecart
 minecraft:recipes/transportation/jungle_boat
+minecraft:recipes/transportation/mangrove_boat
 minecraft:recipes/transportation/minecart
 minecraft:recipes/transportation/oak_boat
 minecraft:recipes/transportation/powered_rail

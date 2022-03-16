@@ -5,6 +5,7 @@ minecraft:core
 minecraft:fight
 minecraft:hide
 minecraft:idle
+minecraft:lay_spawn
 minecraft:long_jump
 minecraft:meet
 minecraft:panic
@@ -15,4 +16,6 @@ minecraft:raid
 minecraft:ram
 minecraft:rest
 minecraft:ride
+minecraft:swim
+minecraft:tongue
 minecraft:work

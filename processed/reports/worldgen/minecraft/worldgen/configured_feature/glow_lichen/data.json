@@ -1,5 +1,6 @@
 {
   "config": {
+    "block": "minecraft:glow_lichen",
     "can_be_placed_on": [
       "minecraft:stone",
       "minecraft:andesite",

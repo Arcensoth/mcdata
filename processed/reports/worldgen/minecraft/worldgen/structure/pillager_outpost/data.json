@@ -1,0 +1,26 @@
+{
+  "adapt_noise": true,
+  "biomes": "#minecraft:has_structure/pillager_outpost",
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "size": 7,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "maxCount": 1,
+          "minCount": 1,
+          "type": "minecraft:pillager",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "start_height": {
+    "absolute": 0
+  },
+  "start_pool": "minecraft:pillager_outpost/base_plates",
+  "step": "surface_structures",
+  "type": "minecraft:jigsaw",
+  "use_expansion_hack": true
+}

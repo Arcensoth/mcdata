@@ -167,6 +167,8 @@ minecraft:red_mushroom_old_growth
 minecraft:red_mushroom_swamp
 minecraft:red_mushroom_taiga
 minecraft:rooted_azalea_tree
+minecraft:sculk_patch
+minecraft:sculk_vein
 minecraft:sea_pickle
 minecraft:seagrass_cold
 minecraft:seagrass_deep

@@ -18,6 +18,7 @@
     "minecraft:eat",
     "minecraft:elytra_free_fall",
     "minecraft:entity_damaged",
+    "minecraft:entity_dying",
     "minecraft:entity_killed",
     "minecraft:entity_place",
     "minecraft:equip",

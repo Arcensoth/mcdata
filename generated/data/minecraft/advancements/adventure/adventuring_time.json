@@ -419,6 +419,14 @@
           "biome": "minecraft:lush_caves"
         }
       }
+    },
+    "minecraft:deep_dark": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_dark"
+        }
+      }
     }
   },
   "requirements": [
@@ -571,6 +579,9 @@
     ],
     [
       "minecraft:lush_caves"
+    ],
+    [
+      "minecraft:deep_dark"
     ]
   ]
 }

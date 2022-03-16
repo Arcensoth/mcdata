@@ -6,51 +6,7 @@
         "argument1": {
           "argument1": "minecraft:overworld_large_biomes/depth",
           "argument2": {
-            "argument1": {
-              "argument": {
-                "argument": {
-                  "argument1": {
-                    "argument1": 0.0,
-                    "argument2": {
-                      "argument1": 1.0,
-                      "argument2": {
-                        "argument1": -1.0,
-                        "argument2": {
-                          "argument": {
-                            "type": "minecraft:blend_alpha"
-                          },
-                          "type": "minecraft:cache_once"
-                        },
-                        "type": "minecraft:mul"
-                      },
-                      "type": "minecraft:add"
-                    },
-                    "type": "minecraft:mul"
-                  },
-                  "argument2": {
-                    "argument1": {
-                      "continentalness": "minecraft:overworld_large_biomes/continents",
-                      "erosion": "minecraft:overworld_large_biomes/erosion",
-                      "max_value": 1.28,
-                      "min_value": 0.0,
-                      "spline": "jaggedness",
-                      "type": "minecraft:terrain_shaper_spline",
-                      "weirdness": "minecraft:overworld/ridges"
-                    },
-                    "argument2": {
-                      "argument": {
-                        "type": "minecraft:blend_alpha"
-                      },
-                      "type": "minecraft:cache_once"
-                    },
-                    "type": "minecraft:mul"
-                  },
-                  "type": "minecraft:add"
-                },
-                "type": "minecraft:cache_2d"
-              },
-              "type": "minecraft:flat_cache"
-            },
+            "argument1": "minecraft:overworld_large_biomes/jaggedness",
             "argument2": {
               "argument": {
                 "noise": "minecraft:jagged",

@@ -56,6 +56,14 @@
       },
       "trigger": "minecraft:location"
     },
+    "minecraft:deep_dark": {
+      "conditions": {
+        "location": {
+          "biome": "minecraft:deep_dark"
+        }
+      },
+      "trigger": "minecraft:location"
+    },
     "minecraft:deep_frozen_ocean": {
       "conditions": {
         "location": {
@@ -568,6 +576,9 @@
     ],
     [
       "minecraft:lush_caves"
+    ],
+    [
+      "minecraft:deep_dark"
     ]
   ],
   "rewards": {

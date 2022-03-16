@@ -1,10 +1,13 @@
 minecraft:axolotl_attackables
 minecraft:axolotl_temptations
 minecraft:dummy
+minecraft:frog_attackables
+minecraft:frog_temptations
 minecraft:goat_temptations
 minecraft:golem_detected
 minecraft:hoglin_specific_sensor
 minecraft:hurt_by
+minecraft:is_in_water
 minecraft:nearest_adult
 minecraft:nearest_bed
 minecraft:nearest_items

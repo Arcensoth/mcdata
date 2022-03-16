@@ -23,6 +23,7 @@ minecraft:cauldrons
 minecraft:cave_vines
 minecraft:climbable
 minecraft:coal_ores
+minecraft:convertable_to_mud
 minecraft:copper_ores
 minecraft:coral_blocks
 minecraft:coral_plants
@@ -36,6 +37,7 @@ minecraft:diamond_ores
 minecraft:dirt
 minecraft:doors
 minecraft:dragon_immune
+minecraft:dragon_transparent
 minecraft:dripstone_replaceable_blocks
 minecraft:emerald_ores
 minecraft:enderman_holdable
@@ -47,6 +49,7 @@ minecraft:fire
 minecraft:flower_pots
 minecraft:flowers
 minecraft:foxes_spawnable_on
+minecraft:frog_prefer_jump_to
 minecraft:geode_invalid_blocks
 minecraft:goats_spawnable_on
 minecraft:gold_ores
@@ -66,6 +69,7 @@ minecraft:leaves
 minecraft:logs
 minecraft:logs_that_burn
 minecraft:lush_ground_replaceable
+minecraft:mangrove_logs
 minecraft:mineable/axe
 minecraft:mineable/hoe
 minecraft:mineable/pickaxe
@@ -83,7 +87,7 @@ minecraft:occludes_vibration_signals
 minecraft:parrots_spawnable_on
 minecraft:piglin_repellents
 minecraft:planks
-minecraft:polar_bears_spawnable_on_in_frozen_ocean
+minecraft:polar_bears_spawnable_on_alternate
 minecraft:portals
 minecraft:pressure_plates
 minecraft:prevent_mob_spawning_inside
@@ -93,6 +97,8 @@ minecraft:redstone_ores
 minecraft:replaceable_plants
 minecraft:sand
 minecraft:saplings
+minecraft:sculk_replaceable
+minecraft:sculk_replaceable_world_gen
 minecraft:shulker_boxes
 minecraft:signs
 minecraft:slabs

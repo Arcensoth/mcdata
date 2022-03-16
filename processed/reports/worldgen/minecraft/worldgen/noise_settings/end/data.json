@@ -24,11 +24,6 @@
     },
     "size_horizontal": 2,
     "size_vertical": 1,
-    "terrain_shaper": {
-      "factor": 1.0,
-      "jaggedness": 0.0,
-      "offset": 0.0
-    },
     "top_slide": {
       "offset": -46,
       "size": 64,
@@ -39,7 +34,12 @@
     "barrier": 0.0,
     "continents": 0.0,
     "depth": 0.0,
-    "erosion": 0.0,
+    "erosion": {
+      "argument": {
+        "type": "minecraft:end_islands"
+      },
+      "type": "minecraft:cache_2d"
+    },
     "final_density": {
       "argument": {
         "argument1": 0.64,
@@ -75,6 +75,7 @@
   },
   "ore_veins_enabled": false,
   "sea_level": 0,
+  "spawn_target": [],
   "surface_rule": {
     "result_state": {
       "Name": "minecraft:end_stone"

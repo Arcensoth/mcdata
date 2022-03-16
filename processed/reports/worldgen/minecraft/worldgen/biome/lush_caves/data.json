@@ -6,7 +6,6 @@
       "minecraft:canyon"
     ]
   },
-  "category": "underground",
   "downfall": 0.5,
   "effects": {
     "fog_color": 12638463,

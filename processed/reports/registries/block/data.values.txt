@@ -321,6 +321,7 @@ minecraft:fletching_table
 minecraft:flower_pot
 minecraft:flowering_azalea
 minecraft:flowering_azalea_leaves
+minecraft:frogspawn
 minecraft:frosted_ice
 minecraft:furnace
 minecraft:gilded_blackstone
@@ -484,6 +485,22 @@ minecraft:magenta_terracotta
 minecraft:magenta_wall_banner
 minecraft:magenta_wool
 minecraft:magma_block
+minecraft:mangrove_button
+minecraft:mangrove_door
+minecraft:mangrove_fence
+minecraft:mangrove_fence_gate
+minecraft:mangrove_leaves
+minecraft:mangrove_log
+minecraft:mangrove_planks
+minecraft:mangrove_pressure_plate
+minecraft:mangrove_propagule
+minecraft:mangrove_roots
+minecraft:mangrove_sign
+minecraft:mangrove_slab
+minecraft:mangrove_stairs
+minecraft:mangrove_trapdoor
+minecraft:mangrove_wall_sign
+minecraft:mangrove_wood
 minecraft:medium_amethyst_bud
 minecraft:melon
 minecraft:melon_stem
@@ -498,6 +515,12 @@ minecraft:mossy_stone_brick_stairs
 minecraft:mossy_stone_brick_wall
 minecraft:mossy_stone_bricks
 minecraft:moving_piston
+minecraft:mud
+minecraft:mud_brick_slab
+minecraft:mud_brick_stairs
+minecraft:mud_brick_wall
+minecraft:mud_bricks
+minecraft:muddy_mangrove_roots
 minecraft:mushroom_stem
 minecraft:mycelium
 minecraft:nether_brick_fence
@@ -531,6 +554,7 @@ minecraft:oak_wall_sign
 minecraft:oak_wood
 minecraft:observer
 minecraft:obsidian
+minecraft:ochre_froglight
 minecraft:orange_banner
 minecraft:orange_bed
 minecraft:orange_candle
@@ -552,6 +576,8 @@ minecraft:oxidized_cut_copper
 minecraft:oxidized_cut_copper_slab
 minecraft:oxidized_cut_copper_stairs
 minecraft:packed_ice
+minecraft:packed_mud
+minecraft:pearlescent_froglight
 minecraft:peony
 minecraft:petrified_oak_slab
 minecraft:pink_banner
@@ -620,6 +646,7 @@ minecraft:potted_fern
 minecraft:potted_flowering_azalea_bush
 minecraft:potted_jungle_sapling
 minecraft:potted_lily_of_the_valley
+minecraft:potted_mangrove_propagule
 minecraft:potted_oak_sapling
 minecraft:potted_orange_tulip
 minecraft:potted_oxeye_daisy
@@ -714,7 +741,11 @@ minecraft:sandstone_slab
 minecraft:sandstone_stairs
 minecraft:sandstone_wall
 minecraft:scaffolding
+minecraft:sculk
+minecraft:sculk_catalyst
 minecraft:sculk_sensor
+minecraft:sculk_shrieker
+minecraft:sculk_vein
 minecraft:sea_lantern
 minecraft:sea_pickle
 minecraft:seagrass
@@ -787,6 +818,8 @@ minecraft:stripped_dark_oak_log
 minecraft:stripped_dark_oak_wood
 minecraft:stripped_jungle_log
 minecraft:stripped_jungle_wood
+minecraft:stripped_mangrove_log
+minecraft:stripped_mangrove_wood
 minecraft:stripped_oak_log
 minecraft:stripped_oak_wood
 minecraft:stripped_spruce_log
@@ -816,6 +849,7 @@ minecraft:tuff
 minecraft:turtle_egg
 minecraft:twisting_vines
 minecraft:twisting_vines_plant
+minecraft:verdant_froglight
 minecraft:vine
 minecraft:void_air
 minecraft:wall_torch

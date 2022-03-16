@@ -24,6 +24,8 @@
     "minecraft:hurt_by_entity",
     "minecraft:interactable_doors",
     "minecraft:interaction_target",
+    "minecraft:is_in_water",
+    "minecraft:is_pregnant",
     "minecraft:is_tempted",
     "minecraft:job_site",
     "minecraft:last_slept",

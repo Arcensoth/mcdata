@@ -3,7 +3,7 @@
     "fortress": {
       "conditions": {
         "location": {
-          "feature": "minecraft:fortress"
+          "structure": "minecraft:fortress"
         }
       },
       "trigger": "minecraft:location"

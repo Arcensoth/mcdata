@@ -46,6 +46,7 @@ minecraft:random_selector
 minecraft:replace_single_block
 minecraft:root_system
 minecraft:scattered_ore
+minecraft:sculk_patch
 minecraft:sea_pickle
 minecraft:seagrass
 minecraft:simple_block

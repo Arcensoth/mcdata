@@ -25,7 +25,9 @@ minecraft:jukebox
 minecraft:lectern
 minecraft:mob_spawner
 minecraft:piston
+minecraft:sculk_catalyst
 minecraft:sculk_sensor
+minecraft:sculk_shrieker
 minecraft:shulker_box
 minecraft:sign
 minecraft:skull

@@ -1,8 +1,0 @@
-{
-  "biomes": "#minecraft:has_structure/buried_treasure",
-  "config": {
-    "probability": 0.01
-  },
-  "spawn_overrides": {},
-  "type": "minecraft:buried_treasure"
-}

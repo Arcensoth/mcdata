@@ -35,6 +35,7 @@ minecraft:fireball
 minecraft:firework_rocket
 minecraft:fishing_bobber
 minecraft:fox
+minecraft:frog
 minecraft:furnace_minecart
 minecraft:ghast
 minecraft:giant
@@ -91,6 +92,7 @@ minecraft:spider
 minecraft:squid
 minecraft:stray
 minecraft:strider
+minecraft:tadpole
 minecraft:tnt
 minecraft:tnt_minecart
 minecraft:trader_llama

@@ -6,7 +6,6 @@
       "minecraft:canyon"
     ]
   },
-  "category": "swamp",
   "downfall": 0.9,
   "effects": {
     "fog_color": 12638463,
@@ -127,6 +126,12 @@
         "minCount": 4,
         "type": "minecraft:cow",
         "weight": 8
+      },
+      {
+        "maxCount": 5,
+        "minCount": 2,
+        "type": "minecraft:frog",
+        "weight": 10
       }
     ],
     "misc": [],

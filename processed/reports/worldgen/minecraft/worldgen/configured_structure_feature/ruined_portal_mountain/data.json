@@ -1,8 +1,0 @@
-{
-  "biomes": "#minecraft:has_structure/ruined_portal_mountain",
-  "config": {
-    "portal_type": "mountain"
-  },
-  "spawn_overrides": {},
-  "type": "minecraft:ruined_portal"
-}
