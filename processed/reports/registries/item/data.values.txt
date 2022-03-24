@@ -1,5 +1,6 @@
 minecraft:acacia_boat
 minecraft:acacia_button
+minecraft:acacia_chest_boat
 minecraft:acacia_door
 minecraft:acacia_fence
 minecraft:acacia_fence_gate
@@ -52,6 +53,7 @@ minecraft:bell
 minecraft:big_dripleaf
 minecraft:birch_boat
 minecraft:birch_button
+minecraft:birch_chest_boat
 minecraft:birch_door
 minecraft:birch_fence
 minecraft:birch_fence_gate
@@ -262,6 +264,7 @@ minecraft:damaged_anvil
 minecraft:dandelion
 minecraft:dark_oak_boat
 minecraft:dark_oak_button
+minecraft:dark_oak_chest_boat
 minecraft:dark_oak_door
 minecraft:dark_oak_fence
 minecraft:dark_oak_fence_gate
@@ -512,6 +515,7 @@ minecraft:jigsaw
 minecraft:jukebox
 minecraft:jungle_boat
 minecraft:jungle_button
+minecraft:jungle_chest_boat
 minecraft:jungle_door
 minecraft:jungle_fence
 minecraft:jungle_fence_gate
@@ -611,6 +615,7 @@ minecraft:magma_cream
 minecraft:magma_cube_spawn_egg
 minecraft:mangrove_boat
 minecraft:mangrove_button
+minecraft:mangrove_chest_boat
 minecraft:mangrove_door
 minecraft:mangrove_fence
 minecraft:mangrove_fence_gate
@@ -699,6 +704,7 @@ minecraft:netherrack
 minecraft:note_block
 minecraft:oak_boat
 minecraft:oak_button
+minecraft:oak_chest_boat
 minecraft:oak_door
 minecraft:oak_fence
 minecraft:oak_fence_gate
@@ -956,6 +962,7 @@ minecraft:sponge
 minecraft:spore_blossom
 minecraft:spruce_boat
 minecraft:spruce_button
+minecraft:spruce_chest_boat
 minecraft:spruce_door
 minecraft:spruce_fence
 minecraft:spruce_fence_gate
@@ -1048,6 +1055,7 @@ minecraft:villager_spawn_egg
 minecraft:vindicator_spawn_egg
 minecraft:vine
 minecraft:wandering_trader_spawn_egg
+minecraft:warden_spawn_egg
 minecraft:warped_button
 minecraft:warped_door
 minecraft:warped_fence

@@ -8,6 +8,7 @@ minecraft:blaze
 minecraft:boat
 minecraft:cat
 minecraft:cave_spider
+minecraft:chest_boat
 minecraft:chest_minecart
 minecraft:chicken
 minecraft:cod
@@ -103,6 +104,7 @@ minecraft:vex
 minecraft:villager
 minecraft:vindicator
 minecraft:wandering_trader
+minecraft:warden
 minecraft:witch
 minecraft:wither
 minecraft:wither_skeleton

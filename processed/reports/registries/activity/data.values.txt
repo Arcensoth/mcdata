@@ -2,9 +2,12 @@ minecraft:admire_item
 minecraft:avoid
 minecraft:celebrate
 minecraft:core
+minecraft:dig
+minecraft:emerge
 minecraft:fight
 minecraft:hide
 minecraft:idle
+minecraft:investigate
 minecraft:lay_spawn
 minecraft:long_jump
 minecraft:meet
@@ -16,6 +19,8 @@ minecraft:raid
 minecraft:ram
 minecraft:rest
 minecraft:ride
+minecraft:roar
+minecraft:sniff
 minecraft:swim
 minecraft:tongue
 minecraft:work

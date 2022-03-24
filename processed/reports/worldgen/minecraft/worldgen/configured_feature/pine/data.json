@@ -24,7 +24,8 @@
         "Name": "minecraft:spruce_leaves",
         "Properties": {
           "distance": "7",
-          "persistent": "false"
+          "persistent": "false",
+          "waterlogged": "false"
         }
       },
       "type": "minecraft:simple_state_provider"

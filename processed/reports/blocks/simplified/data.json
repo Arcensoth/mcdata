@@ -118,7 +118,8 @@
   "minecraft:acacia_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -131,6 +132,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -514,7 +519,8 @@
   "minecraft:azalea_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -527,6 +533,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -850,7 +860,8 @@
   "minecraft:birch_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -863,6 +874,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -3401,7 +3416,8 @@
   "minecraft:dark_oak_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -3414,6 +3430,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -4715,7 +4735,8 @@
   "minecraft:flowering_azalea_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -4728,6 +4749,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -5774,7 +5799,8 @@
   "minecraft:jungle_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -5787,6 +5813,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -7110,7 +7140,8 @@
   "minecraft:mangrove_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -7123,6 +7154,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -8092,7 +8127,8 @@
   "minecraft:oak_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -8105,6 +8141,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]
@@ -11477,7 +11517,8 @@
   "minecraft:spruce_leaves": {
     "default": {
       "distance": "7",
-      "persistent": "false"
+      "persistent": "false",
+      "waterlogged": "false"
     },
     "properties": {
       "distance": [
@@ -11490,6 +11531,10 @@
         "7"
       ],
       "persistent": [
+        "true",
+        "false"
+      ],
+      "waterlogged": [
         "true",
         "false"
       ]

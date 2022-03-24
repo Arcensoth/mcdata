@@ -293,6 +293,7 @@ minecraft:blocks/fletching_table
 minecraft:blocks/flower_pot
 minecraft:blocks/flowering_azalea
 minecraft:blocks/flowering_azalea_leaves
+minecraft:blocks/frogspawn
 minecraft:blocks/frosted_ice
 minecraft:blocks/furnace
 minecraft:blocks/gilded_blackstone
@@ -990,6 +991,7 @@ minecraft:entities/vex
 minecraft:entities/villager
 minecraft:entities/vindicator
 minecraft:entities/wandering_trader
+minecraft:entities/warden
 minecraft:entities/witch
 minecraft:entities/wither
 minecraft:entities/wither_skeleton

@@ -70,6 +70,7 @@ minecraft:scrape
 minecraft:sculk_charge
 minecraft:sculk_charge_pop
 minecraft:sculk_soul
+minecraft:shriek
 minecraft:small_flame
 minecraft:smoke
 minecraft:sneeze

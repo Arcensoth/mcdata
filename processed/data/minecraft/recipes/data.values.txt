@@ -1,5 +1,6 @@
 minecraft:acacia_boat
 minecraft:acacia_button
+minecraft:acacia_chest_boat
 minecraft:acacia_door
 minecraft:acacia_fence
 minecraft:acacia_fence_gate
@@ -33,6 +34,7 @@ minecraft:beehive
 minecraft:beetroot_soup
 minecraft:birch_boat
 minecraft:birch_button
+minecraft:birch_chest_boat
 minecraft:birch_door
 minecraft:birch_fence
 minecraft:birch_fence_gate
@@ -250,6 +252,7 @@ minecraft:cyan_terracotta
 minecraft:cyan_wool
 minecraft:dark_oak_boat
 minecraft:dark_oak_button
+minecraft:dark_oak_chest_boat
 minecraft:dark_oak_door
 minecraft:dark_oak_fence
 minecraft:dark_oak_fence_gate
@@ -478,6 +481,7 @@ minecraft:jack_o_lantern
 minecraft:jukebox
 minecraft:jungle_boat
 minecraft:jungle_button
+minecraft:jungle_chest_boat
 minecraft:jungle_door
 minecraft:jungle_fence
 minecraft:jungle_fence_gate
@@ -579,6 +583,7 @@ minecraft:magma_block
 minecraft:magma_cream
 minecraft:mangrove_boat
 minecraft:mangrove_button
+minecraft:mangrove_chest_boat
 minecraft:mangrove_door
 minecraft:mangrove_fence
 minecraft:mangrove_fence_gate
@@ -649,6 +654,7 @@ minecraft:netherite_sword_smithing
 minecraft:note_block
 minecraft:oak_boat
 minecraft:oak_button
+minecraft:oak_chest_boat
 minecraft:oak_door
 minecraft:oak_fence
 minecraft:oak_fence_gate
@@ -915,6 +921,7 @@ minecraft:spectral_arrow
 minecraft:sponge
 minecraft:spruce_boat
 minecraft:spruce_button
+minecraft:spruce_chest_boat
 minecraft:spruce_door
 minecraft:spruce_fence
 minecraft:spruce_fence_gate

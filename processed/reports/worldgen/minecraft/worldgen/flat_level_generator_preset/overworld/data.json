@@ -23,11 +23,11 @@
       }
     ],
     "structure_overrides": [
-      "minecraft:ruined_portals",
-      "minecraft:mineshafts",
       "minecraft:pillager_outposts",
-      "minecraft:strongholds",
-      "minecraft:villages"
+      "minecraft:mineshafts",
+      "minecraft:ruined_portals",
+      "minecraft:villages",
+      "minecraft:strongholds"
     ]
   }
 }

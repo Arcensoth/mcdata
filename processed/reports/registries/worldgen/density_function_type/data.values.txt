@@ -25,7 +25,6 @@ minecraft:shift
 minecraft:shift_a
 minecraft:shift_b
 minecraft:shifted_noise
-minecraft:slide
 minecraft:spline
 minecraft:square
 minecraft:squeeze

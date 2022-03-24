@@ -9,26 +9,10 @@
   "disable_mob_generation": true,
   "legacy_random_source": true,
   "noise": {
-    "bottom_slide": {
-      "offset": 1,
-      "size": 7,
-      "target": -0.234375
-    },
     "height": 128,
     "min_y": 0,
-    "sampling": {
-      "xz_factor": 80.0,
-      "xz_scale": 2.0,
-      "y_factor": 160.0,
-      "y_scale": 1.0
-    },
     "size_horizontal": 2,
-    "size_vertical": 1,
-    "top_slide": {
-      "offset": -46,
-      "size": 64,
-      "target": -23.4375
-    }
+    "size_vertical": 1
   },
   "noise_router": {
     "barrier": 0.0,
@@ -46,8 +30,41 @@
         "argument2": {
           "argument": {
             "argument": {
-              "argument": "minecraft:end/sloped_cheese",
-              "type": "minecraft:slide"
+              "argument1": -0.234375,
+              "argument2": {
+                "argument1": {
+                  "from_value": 0.0,
+                  "from_y": 4,
+                  "to_value": 1.0,
+                  "to_y": 32,
+                  "type": "minecraft:y_clamped_gradient"
+                },
+                "argument2": {
+                  "argument1": 0.234375,
+                  "argument2": {
+                    "argument1": -23.4375,
+                    "argument2": {
+                      "argument1": {
+                        "from_value": 1.0,
+                        "from_y": 56,
+                        "to_value": 0.0,
+                        "to_y": 312,
+                        "type": "minecraft:y_clamped_gradient"
+                      },
+                      "argument2": {
+                        "argument1": 23.4375,
+                        "argument2": "minecraft:end/sloped_cheese",
+                        "type": "minecraft:add"
+                      },
+                      "type": "minecraft:mul"
+                    },
+                    "type": "minecraft:add"
+                  },
+                  "type": "minecraft:add"
+                },
+                "type": "minecraft:mul"
+              },
+              "type": "minecraft:add"
             },
             "type": "minecraft:blend_density"
           },
@@ -60,10 +77,50 @@
     "fluid_level_floodedness": 0.0,
     "fluid_level_spread": 0.0,
     "initial_density_without_jaggedness": {
-      "argument": {
-        "type": "minecraft:end_islands"
+      "argument1": -0.234375,
+      "argument2": {
+        "argument1": {
+          "from_value": 0.0,
+          "from_y": 4,
+          "to_value": 1.0,
+          "to_y": 32,
+          "type": "minecraft:y_clamped_gradient"
+        },
+        "argument2": {
+          "argument1": 0.234375,
+          "argument2": {
+            "argument1": -23.4375,
+            "argument2": {
+              "argument1": {
+                "from_value": 1.0,
+                "from_y": 56,
+                "to_value": 0.0,
+                "to_y": 312,
+                "type": "minecraft:y_clamped_gradient"
+              },
+              "argument2": {
+                "argument1": 23.4375,
+                "argument2": {
+                  "argument1": -0.703125,
+                  "argument2": {
+                    "argument": {
+                      "type": "minecraft:end_islands"
+                    },
+                    "type": "minecraft:cache_2d"
+                  },
+                  "type": "minecraft:add"
+                },
+                "type": "minecraft:add"
+              },
+              "type": "minecraft:mul"
+            },
+            "type": "minecraft:add"
+          },
+          "type": "minecraft:add"
+        },
+        "type": "minecraft:mul"
       },
-      "type": "minecraft:cache_2d"
+      "type": "minecraft:add"
     },
     "lava": 0.0,
     "ridges": 0.0,

@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:ignore_vibrations_sneaking",
-    "minecraft:vibrations"
+    "minecraft:vibrations",
+    "minecraft:warden_events_can_listen"
   ]
 }

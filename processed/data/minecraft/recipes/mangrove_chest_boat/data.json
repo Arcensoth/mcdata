@@ -1,0 +1,14 @@
+{
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:mangrove_boat"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mangrove_chest_boat"
+  },
+  "type": "minecraft:crafting_shapeless"
+}

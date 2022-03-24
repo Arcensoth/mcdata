@@ -10,6 +10,7 @@ minecraft:boats
 minecraft:buttons
 minecraft:candles
 minecraft:carpets
+minecraft:chest_boats
 minecraft:cluster_max_harvestables
 minecraft:coal_ores
 minecraft:coals
