@@ -219,7 +219,8 @@
     "minecraft:pine",
     "minecraft:pointed_dripstone",
     "minecraft:rooted_azalea_tree",
-    "minecraft:sculk_patch",
+    "minecraft:sculk_patch_ancient_city",
+    "minecraft:sculk_patch_deep_dark",
     "minecraft:sculk_vein",
     "minecraft:sea_pickle",
     "minecraft:seagrass_mid",
@@ -506,7 +507,8 @@
     "minecraft:red_mushroom_swamp",
     "minecraft:red_mushroom_taiga",
     "minecraft:rooted_azalea_tree",
-    "minecraft:sculk_patch",
+    "minecraft:sculk_patch_ancient_city",
+    "minecraft:sculk_patch_deep_dark",
     "minecraft:sculk_vein",
     "minecraft:sea_pickle",
     "minecraft:seagrass_cold",
@@ -561,6 +563,9 @@
     "minecraft:weeping_vines"
   ],
   "worldgen/processor_list": [
+    "minecraft:ancient_city_generic_degradation",
+    "minecraft:ancient_city_start_degradation",
+    "minecraft:ancient_city_walls_degradation",
     "minecraft:bastion_generic_degradation",
     "minecraft:bottom_rampart",
     "minecraft:bridge",
@@ -596,6 +601,13 @@
     "minecraft:zombie_taiga"
   ],
   "worldgen/template_pool": [
+    "minecraft:ancient_city/city/entrance",
+    "minecraft:ancient_city/city_center",
+    "minecraft:ancient_city/city_center/walls",
+    "minecraft:ancient_city/sculk",
+    "minecraft:ancient_city/structures",
+    "minecraft:ancient_city/walls",
+    "minecraft:ancient_city/walls/no_corners",
     "minecraft:bastion/blocks/gold",
     "minecraft:bastion/bridge/bridge_pieces",
     "minecraft:bastion/bridge/connectors",

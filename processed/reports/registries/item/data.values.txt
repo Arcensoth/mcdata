@@ -16,6 +16,7 @@ minecraft:acacia_trapdoor
 minecraft:acacia_wood
 minecraft:activator_rail
 minecraft:air
+minecraft:allay_spawn_egg
 minecraft:allium
 minecraft:amethyst_block
 minecraft:amethyst_cluster
@@ -889,6 +890,7 @@ minecraft:redstone_block
 minecraft:redstone_lamp
 minecraft:redstone_ore
 minecraft:redstone_torch
+minecraft:reinforced_deepslate
 minecraft:repeater
 minecraft:repeating_command_block
 minecraft:respawn_anchor

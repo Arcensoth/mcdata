@@ -11,7 +11,6 @@
     "minecraft:boats",
     "minecraft:buttons",
     "minecraft:candles",
-    "minecraft:carpets",
     "minecraft:chest_boats",
     "minecraft:cluster_max_harvestables",
     "minecraft:coal_ores",
@@ -72,6 +71,7 @@
     "minecraft:wooden_slabs",
     "minecraft:wooden_stairs",
     "minecraft:wooden_trapdoors",
-    "minecraft:wool"
+    "minecraft:wool",
+    "minecraft:wool_carpets"
   ]
 }

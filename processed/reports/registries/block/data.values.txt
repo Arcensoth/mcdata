@@ -730,6 +730,7 @@ minecraft:redstone_ore
 minecraft:redstone_torch
 minecraft:redstone_wall_torch
 minecraft:redstone_wire
+minecraft:reinforced_deepslate
 minecraft:repeater
 minecraft:repeating_command_block
 minecraft:respawn_anchor

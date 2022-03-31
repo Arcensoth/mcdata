@@ -1,5 +1,5 @@
 {
-  "feature": "minecraft:sculk_patch",
+  "feature": "minecraft:sculk_patch_deep_dark",
   "placement": [
     {
       "count": 256,
@@ -10,11 +10,11 @@
     },
     {
       "height": {
-        "min_inclusive": {
-          "above_bottom": 0
-        },
         "max_inclusive": {
           "absolute": 256
+        },
+        "min_inclusive": {
+          "above_bottom": 0
         },
         "type": "minecraft:uniform"
       },

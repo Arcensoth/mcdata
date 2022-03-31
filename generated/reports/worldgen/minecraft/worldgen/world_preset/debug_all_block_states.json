@@ -10,6 +10,12 @@
         "type": "minecraft:noise"
       }
     },
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "minecraft:debug"
+      }
+    },
     "minecraft:the_nether": {
       "type": "minecraft:the_nether",
       "generator": {
@@ -19,12 +25,6 @@
         },
         "settings": "minecraft:nether",
         "type": "minecraft:noise"
-      }
-    },
-    "minecraft:overworld": {
-      "type": "minecraft:overworld",
-      "generator": {
-        "type": "minecraft:debug"
       }
     }
   }

@@ -1,5 +1,4 @@
 {
-  "adapt_noise": true,
   "biomes": "#minecraft:has_structure/nether_fossil",
   "height": {
     "max_inclusive": {
@@ -12,5 +11,6 @@
   },
   "spawn_overrides": {},
   "step": "underground_decoration",
+  "terrain_adaptation": "beard_thin",
   "type": "minecraft:nether_fossil"
 }

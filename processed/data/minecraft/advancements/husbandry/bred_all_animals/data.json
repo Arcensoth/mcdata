@@ -98,6 +98,29 @@
       },
       "trigger": "minecraft:bred_animals"
     },
+    "minecraft:frog": {
+      "conditions": {
+        "parent": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:frog"
+            }
+          }
+        ],
+        "partner": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:frog"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:bred_animals"
+    },
     "minecraft:goat": {
       "conditions": {
         "child": [
@@ -383,6 +406,9 @@
     ],
     [
       "minecraft:turtle"
+    ],
+    [
+      "minecraft:frog"
     ]
   ],
   "rewards": {

@@ -21,6 +21,15 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:pillager_outpost/feature_cage_with_allays",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
         "location": "minecraft:pillager_outpost/feature_logs",
         "processors": "minecraft:empty",
         "projection": "rigid"

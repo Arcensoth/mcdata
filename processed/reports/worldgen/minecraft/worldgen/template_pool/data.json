@@ -1,5 +1,12 @@
 {
   "values": [
+    "minecraft:ancient_city/city/entrance",
+    "minecraft:ancient_city/city_center",
+    "minecraft:ancient_city/city_center/walls",
+    "minecraft:ancient_city/sculk",
+    "minecraft:ancient_city/structures",
+    "minecraft:ancient_city/walls",
+    "minecraft:ancient_city/walls/no_corners",
     "minecraft:bastion/blocks/gold",
     "minecraft:bastion/bridge/bridge_pieces",
     "minecraft:bastion/bridge/connectors",

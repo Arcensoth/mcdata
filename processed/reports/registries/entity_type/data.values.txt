@@ -1,3 +1,4 @@
+minecraft:allay
 minecraft:area_effect_cloud
 minecraft:armor_stand
 minecraft:arrow

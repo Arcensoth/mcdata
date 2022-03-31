@@ -681,6 +681,7 @@ minecraft:blocks/redstone_lamp
 minecraft:blocks/redstone_ore
 minecraft:blocks/redstone_torch
 minecraft:blocks/redstone_wire
+minecraft:blocks/reinforced_deepslate
 minecraft:blocks/repeater
 minecraft:blocks/respawn_anchor
 minecraft:blocks/rooted_dirt
@@ -867,6 +868,8 @@ minecraft:blocks/yellow_terracotta
 minecraft:blocks/yellow_wool
 minecraft:blocks/zombie_head
 minecraft:chests/abandoned_mineshaft
+minecraft:chests/ancient_city
+minecraft:chests/ancient_city_ice_box
 minecraft:chests/bastion_bridge
 minecraft:chests/bastion_hoglin_stable
 minecraft:chests/bastion_other
@@ -907,6 +910,7 @@ minecraft:chests/village/village_temple
 minecraft:chests/village/village_toolsmith
 minecraft:chests/village/village_weaponsmith
 minecraft:chests/woodland_mansion
+minecraft:entities/allay
 minecraft:entities/armor_stand
 minecraft:entities/axolotl
 minecraft:entities/bat

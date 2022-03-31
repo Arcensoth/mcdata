@@ -284,14 +284,6 @@
         }
       }
     },
-    "minecraft:eroded_badlands": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "biome": "minecraft:eroded_badlands"
-        }
-      }
-    },
     "minecraft:desert": {
       "trigger": "minecraft:location",
       "conditions": {
@@ -385,6 +377,14 @@
       "conditions": {
         "location": {
           "biome": "minecraft:bamboo_jungle"
+        }
+      }
+    },
+    "minecraft:eroded_badlands": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "minecraft:eroded_badlands"
         }
       }
     },
@@ -530,9 +530,6 @@
       "minecraft:badlands"
     ],
     [
-      "minecraft:eroded_badlands"
-    ],
-    [
       "minecraft:desert"
     ],
     [
@@ -567,6 +564,9 @@
     ],
     [
       "minecraft:bamboo_jungle"
+    ],
+    [
+      "minecraft:eroded_badlands"
     ],
     [
       "minecraft:windswept_savanna"

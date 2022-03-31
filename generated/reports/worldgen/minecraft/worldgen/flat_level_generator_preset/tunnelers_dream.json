@@ -5,8 +5,8 @@
     "features": true,
     "biome": "minecraft:windswept_hills",
     "structure_overrides": [
-      "minecraft:mineshafts",
-      "minecraft:strongholds"
+      "minecraft:strongholds",
+      "minecraft:mineshafts"
     ],
     "layers": [
       {

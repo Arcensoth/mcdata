@@ -1,5 +1,8 @@
 {
   "values": [
+    "minecraft:ancient_city_generic_degradation",
+    "minecraft:ancient_city_start_degradation",
+    "minecraft:ancient_city_walls_degradation",
     "minecraft:bastion_generic_degradation",
     "minecraft:bottom_rampart",
     "minecraft:bridge",

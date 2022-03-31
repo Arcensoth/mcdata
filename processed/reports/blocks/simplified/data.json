@@ -10649,6 +10649,10 @@
       ]
     }
   },
+  "minecraft:reinforced_deepslate": {
+    "default": {},
+    "properties": {}
+  },
   "minecraft:repeater": {
     "default": {
       "delay": "1",
@@ -10904,10 +10908,15 @@
   },
   "minecraft:sculk_shrieker": {
     "default": {
+      "can_summon": "false",
       "shrieking": "false",
       "waterlogged": "false"
     },
     "properties": {
+      "can_summon": [
+        "true",
+        "false"
+      ],
       "shrieking": [
         "true",
         "false"

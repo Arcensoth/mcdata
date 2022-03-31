@@ -16147,7 +16147,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -16174,7 +16174,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -16309,7 +16309,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -16336,7 +16336,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -16471,7 +16471,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -16498,7 +16498,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -16903,7 +16903,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -16930,7 +16930,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -17065,7 +17065,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -17092,7 +17092,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -17227,7 +17227,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -17254,7 +17254,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -34021,7 +34021,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -34048,7 +34048,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -34075,7 +34075,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -34102,7 +34102,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -34291,7 +34291,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -34318,7 +34318,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -34723,7 +34723,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -34750,7 +34750,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -34777,7 +34777,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -34804,7 +34804,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -34993,7 +34993,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -35020,7 +35020,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -49303,7 +49303,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -49330,7 +49330,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -49357,7 +49357,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -49384,7 +49384,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -49411,7 +49411,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -49438,7 +49438,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -49573,7 +49573,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -49600,7 +49600,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -49897,7 +49897,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -49924,7 +49924,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -49951,7 +49951,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -49978,7 +49978,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -50005,7 +50005,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -50032,7 +50032,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -50167,7 +50167,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -50194,7 +50194,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -66421,7 +66421,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -66448,7 +66448,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -66475,7 +66475,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -66502,7 +66502,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -66691,7 +66691,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -66718,7 +66718,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -67123,7 +67123,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -67150,7 +67150,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -67177,7 +67177,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -67204,7 +67204,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -67393,7 +67393,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -67420,7 +67420,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -85375,7 +85375,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -85402,7 +85402,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -85537,7 +85537,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -85564,7 +85564,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -85699,7 +85699,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -85726,7 +85726,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -86131,7 +86131,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -86158,7 +86158,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -86293,7 +86293,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -86320,7 +86320,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -86455,7 +86455,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -86482,7 +86482,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -100279,7 +100279,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -100306,7 +100306,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -100333,7 +100333,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -100360,7 +100360,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -100441,7 +100441,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -100468,7 +100468,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -100819,7 +100819,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -100846,7 +100846,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -100873,7 +100873,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -100900,7 +100900,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -100981,7 +100981,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -101008,7 +101008,7 @@
       }
     },
     {
-      "biome": "minecraft:eroded_badlands",
+      "biome": "minecraft:badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -104599,7 +104599,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -104626,7 +104626,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -104653,7 +104653,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -104680,7 +104680,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116047,7 +116047,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -116074,7 +116074,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -116101,7 +116101,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116128,7 +116128,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116209,7 +116209,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116236,7 +116236,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116587,7 +116587,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -116614,7 +116614,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -116641,7 +116641,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116668,7 +116668,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116749,7 +116749,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -116776,7 +116776,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -133219,7 +133219,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -133246,7 +133246,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -133381,7 +133381,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -133408,7 +133408,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -133543,7 +133543,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -133570,7 +133570,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -133921,7 +133921,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -133948,7 +133948,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -134083,7 +134083,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -134110,7 +134110,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -134245,7 +134245,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -134272,7 +134272,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -150823,7 +150823,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -150850,7 +150850,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -150877,7 +150877,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -150904,7 +150904,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -151093,7 +151093,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -151120,7 +151120,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -151525,7 +151525,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -151552,7 +151552,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -151579,7 +151579,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -151606,7 +151606,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -151795,7 +151795,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -151822,7 +151822,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166105,7 +166105,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166132,7 +166132,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166159,7 +166159,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166186,7 +166186,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166213,7 +166213,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166240,7 +166240,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166375,7 +166375,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166402,7 +166402,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166699,7 +166699,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166726,7 +166726,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166753,7 +166753,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166780,7 +166780,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.19,
@@ -166807,7 +166807,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166834,7 +166834,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166969,7 +166969,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -166996,7 +166996,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -183223,7 +183223,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -183250,7 +183250,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -183277,7 +183277,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -183304,7 +183304,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -183493,7 +183493,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -183520,7 +183520,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -183925,7 +183925,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -183952,7 +183952,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -183979,7 +183979,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -184006,7 +184006,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -184195,7 +184195,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -184222,7 +184222,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -201097,7 +201097,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -201124,7 +201124,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -201259,7 +201259,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -201286,7 +201286,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -201421,7 +201421,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -201448,7 +201448,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -201799,7 +201799,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -201826,7 +201826,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           -0.11,
@@ -201961,7 +201961,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -201988,7 +201988,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -202123,7 +202123,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,
@@ -202150,7 +202150,7 @@
       }
     },
     {
-      "biome": "minecraft:badlands",
+      "biome": "minecraft:eroded_badlands",
       "parameters": {
         "continentalness": [
           0.03,

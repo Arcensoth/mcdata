@@ -140,7 +140,8 @@ minecraft:pile_snow
 minecraft:pine
 minecraft:pointed_dripstone
 minecraft:rooted_azalea_tree
-minecraft:sculk_patch
+minecraft:sculk_patch_ancient_city
+minecraft:sculk_patch_deep_dark
 minecraft:sculk_vein
 minecraft:sea_pickle
 minecraft:seagrass_mid

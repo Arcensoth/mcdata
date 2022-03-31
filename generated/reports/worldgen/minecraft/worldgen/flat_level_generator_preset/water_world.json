@@ -6,8 +6,8 @@
     "biome": "minecraft:deep_ocean",
     "structure_overrides": [
       "minecraft:ocean_monuments",
-      "minecraft:ocean_ruins",
-      "minecraft:shipwrecks"
+      "minecraft:shipwrecks",
+      "minecraft:ocean_ruins"
     ],
     "layers": [
       {
