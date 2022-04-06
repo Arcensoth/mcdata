@@ -1,4 +1,5 @@
 minecraft:alter_ground
+minecraft:attached_to_leaves
 minecraft:beehive
 minecraft:cocoa
 minecraft:leave_vine

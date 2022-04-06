@@ -1,5 +1,6 @@
 {
   "config": {
+    "can_origin_replace": "minecraft:water",
     "half_height": 1,
     "radius": {
       "type": "minecraft:uniform",

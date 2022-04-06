@@ -28,6 +28,7 @@ minecraft:dark_oak
 minecraft:delta
 minecraft:desert_well
 minecraft:disk_clay
+minecraft:disk_grass
 minecraft:disk_gravel
 minecraft:disk_sand
 minecraft:dripleaf
@@ -67,6 +68,8 @@ minecraft:lake_lava
 minecraft:large_basalt_columns
 minecraft:large_dripstone
 minecraft:lush_caves_clay
+minecraft:mangrove
+minecraft:mangrove_vegetation
 minecraft:meadow_trees
 minecraft:mega_jungle_tree
 minecraft:mega_pine
@@ -162,6 +165,7 @@ minecraft:spruce
 minecraft:super_birch_bees
 minecraft:super_birch_bees_0002
 minecraft:swamp_oak
+minecraft:tall_mangrove
 minecraft:trees_birch_and_oak
 minecraft:trees_flower_forest
 minecraft:trees_grove

@@ -27,6 +27,7 @@ minecraft:dark_oak_checked
 minecraft:delta
 minecraft:desert_well
 minecraft:disk_clay
+minecraft:disk_grass
 minecraft:disk_gravel
 minecraft:disk_sand
 minecraft:dripstone_cluster
@@ -69,6 +70,7 @@ minecraft:large_dripstone
 minecraft:lush_caves_ceiling_vegetation
 minecraft:lush_caves_clay
 minecraft:lush_caves_vegetation
+minecraft:mangrove_checked
 minecraft:mega_jungle_tree_checked
 minecraft:mega_pine_checked
 minecraft:mega_spruce_checked
@@ -194,12 +196,14 @@ minecraft:spruce_checked
 minecraft:spruce_on_snow
 minecraft:super_birch_bees
 minecraft:super_birch_bees_0002
+minecraft:tall_mangrove_checked
 minecraft:trees_badlands
 minecraft:trees_birch
 minecraft:trees_birch_and_oak
 minecraft:trees_flower_forest
 minecraft:trees_grove
 minecraft:trees_jungle
+minecraft:trees_mangrove
 minecraft:trees_meadow
 minecraft:trees_old_growth_pine_taiga
 minecraft:trees_old_growth_spruce_taiga

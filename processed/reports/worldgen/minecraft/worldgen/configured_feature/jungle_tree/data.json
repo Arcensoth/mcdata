@@ -9,6 +9,7 @@
         "type": "minecraft:trunk_vine"
       },
       {
+        "probability": 0.25,
         "type": "minecraft:leave_vine"
       }
     ],

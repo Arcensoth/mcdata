@@ -121,11 +121,11 @@
                 },
                 {
                   "duration": {
-                    "max": 10.0,
-                    "min": 7.0,
+                    "max": 7.0,
+                    "min": 5.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:jump_boost"
+                  "type": "minecraft:blindness"
                 },
                 {
                   "duration": {
@@ -137,11 +137,11 @@
                 },
                 {
                   "duration": {
-                    "max": 7.0,
-                    "min": 5.0,
+                    "max": 10.0,
+                    "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:blindness"
+                  "type": "minecraft:saturation"
                 },
                 {
                   "duration": {
@@ -149,7 +149,7 @@
                     "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:saturation"
+                  "type": "minecraft:jump_boost"
                 }
               ],
               "function": "minecraft:set_stew_effect"

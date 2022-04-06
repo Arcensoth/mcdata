@@ -282,6 +282,22 @@
                 "type": "minecraft:uniform"
               },
               "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:echo_shard",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:set_count"
             },
             {
               "function": "minecraft:set_potion",
@@ -290,7 +306,7 @@
           ],
           "name": "minecraft:potion",
           "type": "minecraft:item",
-          "weight": 4
+          "weight": 5
         },
         {
           "functions": [
@@ -300,7 +316,7 @@
           ],
           "name": "minecraft:book",
           "type": "minecraft:item",
-          "weight": 4
+          "weight": 5
         },
         {
           "functions": [
@@ -316,7 +332,7 @@
           ],
           "name": "minecraft:book",
           "type": "minecraft:item",
-          "weight": 4
+          "weight": 5
         },
         {
           "functions": [
@@ -332,7 +348,7 @@
           ],
           "name": "minecraft:bone",
           "type": "minecraft:item",
-          "weight": 4
+          "weight": 5
         },
         {
           "functions": [
@@ -348,7 +364,7 @@
           ],
           "name": "minecraft:soul_torch",
           "type": "minecraft:item",
-          "weight": 4
+          "weight": 5
         },
         {
           "functions": [
@@ -364,12 +380,12 @@
           ],
           "name": "minecraft:coal",
           "type": "minecraft:item",
-          "weight": 6
+          "weight": 7
         }
       ],
       "rolls": {
-        "max": 9.0,
-        "min": 4.0,
+        "max": 10.0,
+        "min": 5.0,
         "type": "minecraft:uniform"
       }
     }

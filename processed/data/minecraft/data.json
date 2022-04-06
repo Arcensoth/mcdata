@@ -38,6 +38,8 @@
     "minecraft:end/levitate",
     "minecraft:end/respawn_dragon",
     "minecraft:end/root",
+    "minecraft:husbandry/allay_deliver_cake_to_noteblock",
+    "minecraft:husbandry/allay_deliver_item_to_player",
     "minecraft:husbandry/axolotl_in_a_bucket",
     "minecraft:husbandry/balanced_diet",
     "minecraft:husbandry/bred_all_animals",
@@ -1122,6 +1124,7 @@
     "minecraft:recipes/tools/netherite_hoe_smithing",
     "minecraft:recipes/tools/netherite_pickaxe_smithing",
     "minecraft:recipes/tools/netherite_shovel_smithing",
+    "minecraft:recipes/tools/recovery_compass",
     "minecraft:recipes/tools/shears",
     "minecraft:recipes/tools/spyglass",
     "minecraft:recipes/tools/stone_axe",
@@ -3037,6 +3040,7 @@
     "minecraft:raw_gold_block",
     "minecraft:raw_iron",
     "minecraft:raw_iron_block",
+    "minecraft:recovery_compass",
     "minecraft:red_banner",
     "minecraft:red_bed",
     "minecraft:red_bed_from_white_bed",
@@ -3294,7 +3298,6 @@
   "tags": {
     "blocks": [
       "minecraft:acacia_logs",
-      "minecraft:ancient_city_center_replaceable",
       "minecraft:ancient_city_replaceable",
       "minecraft:animals_spawnable_on",
       "minecraft:anvil",
@@ -3328,6 +3331,7 @@
       "minecraft:crops",
       "minecraft:crystal_sound_blocks",
       "minecraft:dark_oak_logs",
+      "minecraft:dead_bush_may_place_on",
       "minecraft:deepslate_ore_replaceables",
       "minecraft:diamond_ores",
       "minecraft:dirt",
@@ -3366,6 +3370,8 @@
       "minecraft:logs_that_burn",
       "minecraft:lush_ground_replaceable",
       "minecraft:mangrove_logs",
+      "minecraft:mangrove_logs_can_grow_through",
+      "minecraft:mangrove_roots_can_grow_through",
       "minecraft:mineable/axe",
       "minecraft:mineable/hoe",
       "minecraft:mineable/pickaxe",
@@ -3442,6 +3448,7 @@
       "minecraft:beehive_inhabitors",
       "minecraft:freeze_hurts_extra_types",
       "minecraft:freeze_immune_entity_types",
+      "minecraft:frog_food",
       "minecraft:impact_projectiles",
       "minecraft:powder_snow_walkable_mobs",
       "minecraft:raiders",
@@ -3454,8 +3461,9 @@
     "game_events": [
       "minecraft:ignore_vibrations_on_occluding_block",
       "minecraft:ignore_vibrations_sneaking",
+      "minecraft:shrieker_can_listen",
       "minecraft:vibrations",
-      "minecraft:warden_events_can_listen"
+      "minecraft:warden_can_listen"
     ],
     "items": [
       "minecraft:acacia_logs",
@@ -3473,6 +3481,7 @@
       "minecraft:cluster_max_harvestables",
       "minecraft:coal_ores",
       "minecraft:coals",
+      "minecraft:compasses",
       "minecraft:copper_ores",
       "minecraft:creeper_drop_music_discs",
       "minecraft:crimson_stems",

@@ -2,9 +2,17 @@
   "criteria": {
     "in_city": {
       "conditions": {
-        "location": {
-          "structure": "minecraft:end_city"
-        }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:end_city"
+              }
+            }
+          }
+        ]
       },
       "trigger": "minecraft:location"
     }

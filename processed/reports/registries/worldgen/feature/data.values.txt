@@ -22,7 +22,6 @@ minecraft:forest_rock
 minecraft:fossil
 minecraft:freeze_top_layer
 minecraft:geode
-minecraft:glow_lichen
 minecraft:glowstone_blob
 minecraft:huge_brown_mushroom
 minecraft:huge_fungus
@@ -34,6 +33,7 @@ minecraft:kelp
 minecraft:lake
 minecraft:large_dripstone
 minecraft:monster_room
+minecraft:multiface_growth
 minecraft:nether_forest_vegetation
 minecraft:netherrack_replace_blobs
 minecraft:no_bonemeal_flower
@@ -52,6 +52,7 @@ minecraft:seagrass
 minecraft:simple_block
 minecraft:simple_random_selector
 minecraft:spring_feature
+minecraft:surface_disk
 minecraft:tree
 minecraft:twisting_vines
 minecraft:underwater_magma

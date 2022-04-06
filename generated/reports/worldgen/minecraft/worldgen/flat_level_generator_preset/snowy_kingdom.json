@@ -5,8 +5,8 @@
     "features": false,
     "biome": "minecraft:snowy_plains",
     "structure_overrides": [
-      "minecraft:igloos",
-      "minecraft:villages"
+      "minecraft:villages",
+      "minecraft:igloos"
     ],
     "layers": [
       {

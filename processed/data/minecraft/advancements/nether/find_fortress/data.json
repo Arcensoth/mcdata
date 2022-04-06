@@ -2,9 +2,17 @@
   "criteria": {
     "fortress": {
       "conditions": {
-        "location": {
-          "structure": "minecraft:fortress"
-        }
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "minecraft:fortress"
+              }
+            }
+          }
+        ]
       },
       "trigger": "minecraft:location"
     }

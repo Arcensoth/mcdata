@@ -348,6 +348,7 @@ minecraft:dried_kelp_block
 minecraft:dripstone_block
 minecraft:dropper
 minecraft:drowned_spawn_egg
+minecraft:echo_shard
 minecraft:egg
 minecraft:elder_guardian_spawn_egg
 minecraft:elytra
@@ -860,6 +861,7 @@ minecraft:raw_gold
 minecraft:raw_gold_block
 minecraft:raw_iron
 minecraft:raw_iron_block
+minecraft:recovery_compass
 minecraft:red_banner
 minecraft:red_bed
 minecraft:red_candle

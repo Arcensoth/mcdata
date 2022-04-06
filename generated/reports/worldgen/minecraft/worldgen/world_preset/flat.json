@@ -1,12 +1,13 @@
 {
   "dimensions": {
-    "minecraft:the_end": {
-      "type": "minecraft:the_end",
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
       "generator": {
         "biome_source": {
-          "type": "minecraft:the_end"
+          "preset": "minecraft:nether",
+          "type": "minecraft:multi_noise"
         },
-        "settings": "minecraft:end",
+        "settings": "minecraft:nether",
         "type": "minecraft:noise"
       }
     },
@@ -39,14 +40,13 @@
         "type": "minecraft:flat"
       }
     },
-    "minecraft:the_nether": {
-      "type": "minecraft:the_nether",
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
       "generator": {
         "biome_source": {
-          "preset": "minecraft:nether",
-          "type": "minecraft:multi_noise"
+          "type": "minecraft:the_end"
         },
-        "settings": "minecraft:nether",
+        "settings": "minecraft:end",
         "type": "minecraft:noise"
       }
     }

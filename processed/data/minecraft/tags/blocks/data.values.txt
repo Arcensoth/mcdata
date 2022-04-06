@@ -1,5 +1,4 @@
 minecraft:acacia_logs
-minecraft:ancient_city_center_replaceable
 minecraft:ancient_city_replaceable
 minecraft:animals_spawnable_on
 minecraft:anvil
@@ -33,6 +32,7 @@ minecraft:crimson_stems
 minecraft:crops
 minecraft:crystal_sound_blocks
 minecraft:dark_oak_logs
+minecraft:dead_bush_may_place_on
 minecraft:deepslate_ore_replaceables
 minecraft:diamond_ores
 minecraft:dirt
@@ -71,6 +71,8 @@ minecraft:logs
 minecraft:logs_that_burn
 minecraft:lush_ground_replaceable
 minecraft:mangrove_logs
+minecraft:mangrove_logs_can_grow_through
+minecraft:mangrove_roots_can_grow_through
 minecraft:mineable/axe
 minecraft:mineable/hoe
 minecraft:mineable/pickaxe

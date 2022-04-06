@@ -1,153 +1,186 @@
 {
   "criteria": {
-    "textures/entity/cat/all_black.png": {
+    "minecraft:all_black": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/all_black.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:all_black"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/black.png": {
+    "minecraft:black": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/black.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:black"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/british_shorthair.png": {
+    "minecraft:british": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/british_shorthair.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:british"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/calico.png": {
+    "minecraft:calico": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/calico.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:calico"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/jellie.png": {
+    "minecraft:jellie": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/jellie.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:jellie"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/persian.png": {
+    "minecraft:persian": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/persian.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:persian"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/ragdoll.png": {
+    "minecraft:ragdoll": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/ragdoll.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:ragdoll"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/red.png": {
+    "minecraft:red": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/red.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:red"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/siamese.png": {
+    "minecraft:siamese": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/siamese.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:siamese"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/tabby.png": {
+    "minecraft:tabby": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/tabby.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:tabby"
+              }
             }
           }
         ]
       },
       "trigger": "minecraft:tame_animal"
     },
-    "textures/entity/cat/white.png": {
+    "minecraft:white": {
       "conditions": {
         "entity": [
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "catType": "minecraft:textures/entity/cat/white.png"
+              "type_specific": {
+                "type": "cat",
+                "variant": "minecraft:white"
+              }
             }
           }
         ]
@@ -173,37 +206,37 @@
   "parent": "minecraft:husbandry/tame_an_animal",
   "requirements": [
     [
-      "textures/entity/cat/tabby.png"
+      "minecraft:siamese"
     ],
     [
-      "textures/entity/cat/black.png"
+      "minecraft:jellie"
     ],
     [
-      "textures/entity/cat/red.png"
+      "minecraft:black"
     ],
     [
-      "textures/entity/cat/siamese.png"
+      "minecraft:tabby"
     ],
     [
-      "textures/entity/cat/british_shorthair.png"
+      "minecraft:white"
     ],
     [
-      "textures/entity/cat/calico.png"
+      "minecraft:ragdoll"
     ],
     [
-      "textures/entity/cat/persian.png"
+      "minecraft:red"
     ],
     [
-      "textures/entity/cat/ragdoll.png"
+      "minecraft:calico"
     ],
     [
-      "textures/entity/cat/white.png"
+      "minecraft:british"
     ],
     [
-      "textures/entity/cat/jellie.png"
+      "minecraft:all_black"
     ],
     [
-      "textures/entity/cat/all_black.png"
+      "minecraft:persian"
     ]
   ],
   "rewards": {

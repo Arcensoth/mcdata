@@ -4,6 +4,7 @@ minecraft:axolotl_hunt_targets
 minecraft:beehive_inhabitors
 minecraft:freeze_hurts_extra_types
 minecraft:freeze_immune_entity_types
+minecraft:frog_food
 minecraft:impact_projectiles
 minecraft:powder_snow_walkable_mobs
 minecraft:raiders
