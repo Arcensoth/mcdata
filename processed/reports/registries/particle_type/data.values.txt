@@ -76,6 +76,7 @@ minecraft:small_flame
 minecraft:smoke
 minecraft:sneeze
 minecraft:snowflake
+minecraft:sonic_boom
 minecraft:soul
 minecraft:soul_fire_flame
 minecraft:spit

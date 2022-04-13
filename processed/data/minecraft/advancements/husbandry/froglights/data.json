@@ -38,7 +38,7 @@
       "translate": "advancements.husbandry.froglights.title"
     }
   },
-  "parent": "minecraft:husbandry/tadpole_in_a_bucket",
+  "parent": "minecraft:husbandry/leash_all_frog_variants",
   "requirements": [
     [
       "froglights"

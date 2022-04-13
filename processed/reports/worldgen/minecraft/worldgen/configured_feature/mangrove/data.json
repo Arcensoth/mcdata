@@ -39,7 +39,7 @@
         "type": "minecraft:attached_to_leaves"
       },
       {
-        "probability": 0.05,
+        "probability": 0.01,
         "type": "minecraft:beehive"
       }
     ],
@@ -70,26 +70,40 @@
     "force_dirt": false,
     "ignore_vines": true,
     "minimum_size": {
-      "limit": 1,
+      "limit": 2,
       "lower_size": 0,
       "type": "minecraft:two_layers_feature_size",
       "upper_size": 2
     },
     "root_placer": {
-      "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
-      "max_root_length": 15,
-      "max_root_width": 8,
-      "muddy_roots_in": "minecraft:mud",
-      "muddy_roots_provider": {
-        "state": {
-          "Name": "minecraft:muddy_mangrove_roots",
-          "Properties": {
-            "axis": "y"
-          }
-        },
-        "type": "minecraft:simple_state_provider"
+      "above_root_placement": {
+        "above_root_placement_chance": 0.5,
+        "above_root_provider": {
+          "state": {
+            "Name": "minecraft:moss_carpet"
+          },
+          "type": "minecraft:simple_state_provider"
+        }
       },
-      "random_skew_chance": 0.2,
+      "mangrove_root_placement": {
+        "can_grow_through": "#minecraft:mangrove_roots_can_grow_through",
+        "max_root_length": 15,
+        "max_root_width": 8,
+        "muddy_roots_in": [
+          "minecraft:mud",
+          "minecraft:muddy_mangrove_roots"
+        ],
+        "muddy_roots_provider": {
+          "state": {
+            "Name": "minecraft:muddy_mangrove_roots",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          "type": "minecraft:simple_state_provider"
+        },
+        "random_skew_chance": 0.2
+      },
       "root_provider": {
         "state": {
           "Name": "minecraft:mangrove_roots",
@@ -99,14 +113,14 @@
         },
         "type": "minecraft:simple_state_provider"
       },
-      "type": "minecraft:mangrove_root_placer",
-      "y_offset": {
+      "trunk_offset_y": {
         "type": "minecraft:uniform",
         "value": {
           "max_inclusive": 3,
           "min_inclusive": 1
         }
-      }
+      },
+      "type": "minecraft:mangrove_root_placer"
     },
     "trunk_placer": {
       "base_height": 2,

@@ -6,6 +6,7 @@
       "above_bottom": 10
     },
     "probability": 0.2,
+    "replaceable": "#minecraft:nether_carver_replaceables",
     "vertical_radius_multiplier": 1.0,
     "y": {
       "max_inclusive": {

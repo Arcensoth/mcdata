@@ -19,7 +19,7 @@
     },
     "sky_color": 7907327,
     "water_color": 3832426,
-    "water_fog_color": 2302743
+    "water_fog_color": 5077600
   },
   "features": [
     [],
@@ -169,7 +169,14 @@
         "weight": 10
       }
     ],
-    "water_ambient": [],
+    "water_ambient": [
+      {
+        "maxCount": 8,
+        "minCount": 8,
+        "type": "minecraft:tropical_fish",
+        "weight": 25
+      }
+    ],
     "water_creature": []
   },
   "temperature": 0.8

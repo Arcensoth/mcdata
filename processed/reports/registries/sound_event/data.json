@@ -1134,6 +1134,8 @@
     "minecraft:entity.warden.nearby_closest",
     "minecraft:entity.warden.roar",
     "minecraft:entity.warden.sniff",
+    "minecraft:entity.warden.sonic_boom",
+    "minecraft:entity.warden.sonic_charge",
     "minecraft:entity.warden.step",
     "minecraft:entity.warden.tendril_clicks",
     "minecraft:entity.witch.ambient",

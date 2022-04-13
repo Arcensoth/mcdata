@@ -2,88 +2,74 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "items": [
-              "minecraft:shears"
-            ]
-          }
-        }
-      ],
       "entries": [
         {
-          "name": "minecraft:mangrove_leaves",
-          "type": "minecraft:item"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:inverted",
-          "term": {
-            "condition": "minecraft:alternative",
-            "terms": [
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "items": [
-                    "minecraft:shears"
-                  ]
-                }
-              },
-              {
-                "condition": "minecraft:match_tool",
-                "predicate": {
-                  "enchantments": [
+          "children": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
                     {
-                      "enchantment": "minecraft:silk_touch",
-                      "levels": {
-                        "min": 1
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "items": [
+                          "minecraft:shears"
+                        ]
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
                 }
-              }
-            ]
-          }
-        }
-      ],
-      "entries": [
-        {
-          "conditions": [
-            {
-              "chances": [
-                0.02,
-                0.022222223,
-                0.025,
-                0.033333335,
-                0.1
               ],
-              "condition": "minecraft:table_bonus",
-              "enchantment": "minecraft:fortune"
-            }
-          ],
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "max": 2.0,
-                "min": 1.0,
-                "type": "minecraft:uniform"
-              },
-              "function": "minecraft:set_count"
+              "name": "minecraft:mangrove_leaves",
+              "type": "minecraft:item"
             },
             {
-              "function": "minecraft:explosion_decay"
+              "conditions": [
+                {
+                  "chances": [
+                    0.02,
+                    0.022222223,
+                    0.025,
+                    0.033333335,
+                    0.1
+                  ],
+                  "condition": "minecraft:table_bonus",
+                  "enchantment": "minecraft:fortune"
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "max": 2.0,
+                    "min": 1.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "minecraft:stick",
+              "type": "minecraft:item"
             }
           ],
-          "name": "minecraft:stick",
-          "type": "minecraft:item"
+          "type": "minecraft:alternatives"
         }
       ],
       "rolls": 1.0

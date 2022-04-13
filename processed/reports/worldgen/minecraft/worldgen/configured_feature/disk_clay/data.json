@@ -1,6 +1,5 @@
 {
   "config": {
-    "can_origin_replace": "minecraft:water",
     "half_height": 1,
     "radius": {
       "type": "minecraft:uniform",
@@ -9,17 +8,22 @@
         "min_inclusive": 2
       }
     },
-    "state": {
-      "Name": "minecraft:clay"
-    },
-    "targets": [
-      {
-        "Name": "minecraft:dirt"
+    "state_provider": {
+      "fallback": {
+        "state": {
+          "Name": "minecraft:clay"
+        },
+        "type": "minecraft:simple_state_provider"
       },
-      {
-        "Name": "minecraft:clay"
-      }
-    ]
+      "rules": []
+    },
+    "target": {
+      "blocks": [
+        "minecraft:dirt",
+        "minecraft:clay"
+      ],
+      "type": "minecraft:matching_blocks"
+    }
   },
   "type": "minecraft:disk"
 }

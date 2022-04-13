@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "allay_deliver_cake_to_noteblock": {
+    "allay_deliver_cake_to_note_block": {
       "conditions": {
         "item": {
           "items": [
@@ -21,7 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "advancements.husbandry.allay_deliver_cake_to_noteblock.description"
+      "translate": "advancements.husbandry.allay_deliver_cake_to_note_block.description"
     },
     "frame": "challenge",
     "hidden": true,
@@ -30,13 +30,13 @@
     },
     "show_toast": true,
     "title": {
-      "translate": "advancements.husbandry.allay_deliver_cake_to_noteblock.title"
+      "translate": "advancements.husbandry.allay_deliver_cake_to_note_block.title"
     }
   },
   "parent": "minecraft:husbandry/allay_deliver_item_to_player",
   "requirements": [
     [
-      "allay_deliver_cake_to_noteblock"
+      "allay_deliver_cake_to_note_block"
     ]
   ]
 }

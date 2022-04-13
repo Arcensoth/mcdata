@@ -26,7 +26,6 @@ minecraft:glowstone_blob
 minecraft:huge_brown_mushroom
 minecraft:huge_fungus
 minecraft:huge_red_mushroom
-minecraft:ice_patch
 minecraft:ice_spike
 minecraft:iceberg
 minecraft:kelp
@@ -52,7 +51,6 @@ minecraft:seagrass
 minecraft:simple_block
 minecraft:simple_random_selector
 minecraft:spring_feature
-minecraft:surface_disk
 minecraft:tree
 minecraft:twisting_vines
 minecraft:underwater_magma

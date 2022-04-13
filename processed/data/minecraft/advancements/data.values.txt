@@ -1,5 +1,6 @@
 minecraft:adventure/adventuring_time
 minecraft:adventure/arbalistic
+minecraft:adventure/avoid_vibration
 minecraft:adventure/bullseye
 minecraft:adventure/fall_from_world_height
 minecraft:adventure/hero_of_the_village
@@ -36,7 +37,7 @@ minecraft:end/kill_dragon
 minecraft:end/levitate
 minecraft:end/respawn_dragon
 minecraft:end/root
-minecraft:husbandry/allay_deliver_cake_to_noteblock
+minecraft:husbandry/allay_deliver_cake_to_note_block
 minecraft:husbandry/allay_deliver_item_to_player
 minecraft:husbandry/axolotl_in_a_bucket
 minecraft:husbandry/balanced_diet
@@ -46,6 +47,7 @@ minecraft:husbandry/complete_catalogue
 minecraft:husbandry/fishy_business
 minecraft:husbandry/froglights
 minecraft:husbandry/kill_axolotl_target
+minecraft:husbandry/leash_all_frog_variants
 minecraft:husbandry/make_a_sign_glow
 minecraft:husbandry/obtain_netherite_hoe
 minecraft:husbandry/plant_seed

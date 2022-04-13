@@ -42,6 +42,7 @@
       "above_bottom": 8
     },
     "probability": 0.07,
+    "replaceable": "#minecraft:overworld_carver_replaceables",
     "vertical_radius_multiplier": {
       "type": "minecraft:uniform",
       "value": {

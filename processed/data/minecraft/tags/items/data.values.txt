@@ -14,9 +14,11 @@ minecraft:cluster_max_harvestables
 minecraft:coal_ores
 minecraft:coals
 minecraft:compasses
+minecraft:completes_find_tree_tutorial
 minecraft:copper_ores
 minecraft:creeper_drop_music_discs
 minecraft:crimson_stems
+minecraft:dampens_vibrations
 minecraft:dark_oak_logs
 minecraft:diamond_ores
 minecraft:dirt
@@ -40,7 +42,6 @@ minecraft:mangrove_logs
 minecraft:music_discs
 minecraft:non_flammable_wood
 minecraft:oak_logs
-minecraft:occludes_vibration_signals
 minecraft:piglin_food
 minecraft:piglin_loved
 minecraft:piglin_repellents
@@ -63,6 +64,7 @@ minecraft:terracotta
 minecraft:trapdoors
 minecraft:walls
 minecraft:warped_stems
+minecraft:wart_blocks
 minecraft:wooden_buttons
 minecraft:wooden_doors
 minecraft:wooden_fences

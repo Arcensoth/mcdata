@@ -214,6 +214,22 @@
           "name": "minecraft:dark_oak_log",
           "type": "minecraft:item",
           "weight": 3
+        },
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:mangrove_log",
+          "type": "minecraft:item",
+          "weight": 3
         }
       ],
       "rolls": 4.0

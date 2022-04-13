@@ -1,6 +1,5 @@
 {
   "config": {
-    "can_origin_replace": "minecraft:water",
     "half_height": 2,
     "radius": {
       "type": "minecraft:uniform",
@@ -9,20 +8,40 @@
         "min_inclusive": 2
       }
     },
-    "state": {
-      "Name": "minecraft:sand"
-    },
-    "targets": [
-      {
-        "Name": "minecraft:dirt"
+    "state_provider": {
+      "fallback": {
+        "state": {
+          "Name": "minecraft:sand"
+        },
+        "type": "minecraft:simple_state_provider"
       },
-      {
-        "Name": "minecraft:grass_block",
-        "Properties": {
-          "snowy": "false"
+      "rules": [
+        {
+          "if_true": {
+            "blocks": "minecraft:air",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "type": "minecraft:matching_blocks"
+          },
+          "then": {
+            "state": {
+              "Name": "minecraft:sandstone"
+            },
+            "type": "minecraft:simple_state_provider"
+          }
         }
-      }
-    ]
+      ]
+    },
+    "target": {
+      "blocks": [
+        "minecraft:dirt",
+        "minecraft:grass_block"
+      ],
+      "type": "minecraft:matching_blocks"
+    }
   },
   "type": "minecraft:disk"
 }

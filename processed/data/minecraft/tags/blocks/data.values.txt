@@ -23,6 +23,7 @@ minecraft:cauldrons
 minecraft:cave_vines
 minecraft:climbable
 minecraft:coal_ores
+minecraft:completes_find_tree_tutorial
 minecraft:convertable_to_mud
 minecraft:copper_ores
 minecraft:coral_blocks
@@ -31,6 +32,7 @@ minecraft:corals
 minecraft:crimson_stems
 minecraft:crops
 minecraft:crystal_sound_blocks
+minecraft:dampens_vibrations
 minecraft:dark_oak_logs
 minecraft:dead_bush_may_place_on
 minecraft:deepslate_ore_replaceables
@@ -83,10 +85,12 @@ minecraft:mushroom_grow_block
 minecraft:needs_diamond_tool
 minecraft:needs_iron_tool
 minecraft:needs_stone_tool
+minecraft:nether_carver_replaceables
 minecraft:non_flammable_wood
 minecraft:nylium
 minecraft:oak_logs
 minecraft:occludes_vibration_signals
+minecraft:overworld_carver_replaceables
 minecraft:parrots_spawnable_on
 minecraft:piglin_repellents
 minecraft:planks
