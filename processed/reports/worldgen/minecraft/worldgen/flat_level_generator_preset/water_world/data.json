@@ -31,8 +31,8 @@
       }
     ],
     "structure_overrides": [
-      "minecraft:shipwrecks",
       "minecraft:ocean_monuments",
+      "minecraft:shipwrecks",
       "minecraft:ocean_ruins"
     ]
   }
