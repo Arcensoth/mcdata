@@ -27,8 +27,8 @@
       }
     ],
     "structure_overrides": [
-      "minecraft:igloos",
-      "minecraft:villages"
+      "minecraft:villages",
+      "minecraft:igloos"
     ]
   }
 }

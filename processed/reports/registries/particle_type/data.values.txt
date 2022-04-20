@@ -1,4 +1,3 @@
-minecraft:allay_dust
 minecraft:ambient_entity_effect
 minecraft:angry_villager
 minecraft:ash

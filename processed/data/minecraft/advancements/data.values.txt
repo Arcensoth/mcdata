@@ -987,6 +987,7 @@ minecraft:recipes/misc/magenta_dye_from_purple_and_pink
 minecraft:recipes/misc/map
 minecraft:recipes/misc/melon_seeds
 minecraft:recipes/misc/mojang_banner_pattern
+minecraft:recipes/misc/music_disc_5
 minecraft:recipes/misc/nether_brick
 minecraft:recipes/misc/netherite_ingot
 minecraft:recipes/misc/netherite_ingot_from_netherite_block

@@ -4153,6 +4153,17 @@
           "executable": true,
           "type": "literal"
         },
+        "doWardenSpawning": {
+          "children": {
+            "value": {
+              "executable": true,
+              "parser": "brigadier:bool",
+              "type": "argument"
+            }
+          },
+          "executable": true,
+          "type": "literal"
+        },
         "doWeatherCycle": {
           "children": {
             "value": {

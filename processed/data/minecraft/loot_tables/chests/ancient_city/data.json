@@ -298,6 +298,22 @@
                 "type": "minecraft:uniform"
               },
               "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:disc_fragment_5",
+          "type": "minecraft:item",
+          "weight": 4
+        },
+        {
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "max": 3.0,
+                "min": 1.0,
+                "type": "minecraft:uniform"
+              },
+              "function": "minecraft:set_count"
             },
             {
               "function": "minecraft:set_potion",

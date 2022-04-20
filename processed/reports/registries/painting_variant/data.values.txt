@@ -7,7 +7,9 @@ minecraft:bust
 minecraft:courbet
 minecraft:creebet
 minecraft:donkey_kong
+minecraft:earth
 minecraft:fighters
+minecraft:fire
 minecraft:graham
 minecraft:kebab
 minecraft:match
@@ -23,4 +25,6 @@ minecraft:sunset
 minecraft:void
 minecraft:wanderer
 minecraft:wasteland
+minecraft:water
+minecraft:wind
 minecraft:wither

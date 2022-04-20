@@ -9,19 +9,19 @@
               "effects": [
                 {
                   "duration": {
-                    "max": 7.0,
-                    "min": 5.0,
-                    "type": "minecraft:uniform"
-                  },
-                  "type": "minecraft:blindness"
-                },
-                {
-                  "duration": {
                     "max": 10.0,
                     "min": 7.0,
                     "type": "minecraft:uniform"
                   },
                   "type": "minecraft:night_vision"
+                },
+                {
+                  "duration": {
+                    "max": 7.0,
+                    "min": 5.0,
+                    "type": "minecraft:uniform"
+                  },
+                  "type": "minecraft:blindness"
                 }
               ],
               "function": "minecraft:set_stew_effect"
