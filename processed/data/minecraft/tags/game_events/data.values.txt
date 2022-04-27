@@ -1,4 +1,4 @@
-minecraft:dampenable_vibrations
+minecraft:allay_can_listen
 minecraft:ignore_vibrations_sneaking
 minecraft:shrieker_can_listen
 minecraft:vibrations

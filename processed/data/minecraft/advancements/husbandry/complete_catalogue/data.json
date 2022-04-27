@@ -206,37 +206,37 @@
   "parent": "minecraft:husbandry/tame_an_animal",
   "requirements": [
     [
-      "minecraft:white"
-    ],
-    [
-      "minecraft:calico"
-    ],
-    [
-      "minecraft:tabby"
-    ],
-    [
-      "minecraft:black"
-    ],
-    [
-      "minecraft:persian"
-    ],
-    [
       "minecraft:red"
-    ],
-    [
-      "minecraft:jellie"
-    ],
-    [
-      "minecraft:british"
-    ],
-    [
-      "minecraft:all_black"
     ],
     [
       "minecraft:siamese"
     ],
     [
+      "minecraft:white"
+    ],
+    [
+      "minecraft:all_black"
+    ],
+    [
       "minecraft:ragdoll"
+    ],
+    [
+      "minecraft:persian"
+    ],
+    [
+      "minecraft:british"
+    ],
+    [
+      "minecraft:black"
+    ],
+    [
+      "minecraft:tabby"
+    ],
+    [
+      "minecraft:jellie"
+    ],
+    [
+      "minecraft:calico"
     ]
   ],
   "rewards": {

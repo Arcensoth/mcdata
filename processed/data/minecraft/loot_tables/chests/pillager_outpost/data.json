@@ -184,6 +184,25 @@
         "min": 2.0,
         "type": "minecraft:uniform"
       }
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "name": "minecraft:goat_horn",
+          "type": "minecraft:item"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_goat_horn_sound"
+        }
+      ],
+      "rolls": {
+        "max": 1.0,
+        "min": 0.0,
+        "type": "minecraft:uniform"
+      }
     }
   ],
   "type": "minecraft:chest"

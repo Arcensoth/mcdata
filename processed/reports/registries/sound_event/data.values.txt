@@ -739,6 +739,7 @@ minecraft:entity.glow_squid.squirt
 minecraft:entity.goat.ambient
 minecraft:entity.goat.death
 minecraft:entity.goat.eat
+minecraft:entity.goat.horn_break
 minecraft:entity.goat.hurt
 minecraft:entity.goat.long_jump
 minecraft:entity.goat.milk
@@ -747,6 +748,7 @@ minecraft:entity.goat.ram_impact
 minecraft:entity.goat.screaming.ambient
 minecraft:entity.goat.screaming.death
 minecraft:entity.goat.screaming.eat
+minecraft:entity.goat.screaming.horn_break
 minecraft:entity.goat.screaming.hurt
 minecraft:entity.goat.screaming.long_jump
 minecraft:entity.goat.screaming.milk
@@ -1237,6 +1239,15 @@ minecraft:item.elytra.flying
 minecraft:item.firecharge.use
 minecraft:item.flintandsteel.use
 minecraft:item.glow_ink_sac.use
+minecraft:item.goat_horn.play
+minecraft:item.goat_horn.sound.0
+minecraft:item.goat_horn.sound.1
+minecraft:item.goat_horn.sound.2
+minecraft:item.goat_horn.sound.3
+minecraft:item.goat_horn.sound.4
+minecraft:item.goat_horn.sound.5
+minecraft:item.goat_horn.sound.6
+minecraft:item.goat_horn.sound.7
 minecraft:item.hoe.till
 minecraft:item.honey_bottle.drink
 minecraft:item.honeycomb.wax_on
