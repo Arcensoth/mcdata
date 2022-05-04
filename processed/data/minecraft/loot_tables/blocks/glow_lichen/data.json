@@ -22,7 +22,7 @@
                   "block": "minecraft:glow_lichen",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "east": "true"
+                    "down": "true"
                   }
                 }
               ],
@@ -36,7 +36,7 @@
                   "block": "minecraft:glow_lichen",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "west": "true"
+                    "up": "true"
                   }
                 }
               ],
@@ -78,7 +78,7 @@
                   "block": "minecraft:glow_lichen",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "up": "true"
+                    "west": "true"
                   }
                 }
               ],
@@ -92,7 +92,7 @@
                   "block": "minecraft:glow_lichen",
                   "condition": "minecraft:block_state_property",
                   "properties": {
-                    "down": "true"
+                    "east": "true"
                   }
                 }
               ],

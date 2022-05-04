@@ -117,6 +117,8 @@
     "minecraft:small_flowers",
     "minecraft:snaps_goat_horn",
     "minecraft:snow",
+    "minecraft:snow_layer_can_survive_on",
+    "minecraft:snow_layer_cannot_survive_on",
     "minecraft:soul_fire_base_blocks",
     "minecraft:soul_speed_blocks",
     "minecraft:spruce_logs",

@@ -113,11 +113,11 @@
                 },
                 {
                   "duration": {
-                    "max": 20.0,
-                    "min": 10.0,
+                    "max": 10.0,
+                    "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:poison"
+                  "type": "minecraft:jump_boost"
                 },
                 {
                   "duration": {
@@ -137,11 +137,11 @@
                 },
                 {
                   "duration": {
-                    "max": 10.0,
-                    "min": 7.0,
+                    "max": 20.0,
+                    "min": 10.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:saturation"
+                  "type": "minecraft:poison"
                 },
                 {
                   "duration": {
@@ -149,7 +149,7 @@
                     "min": 7.0,
                     "type": "minecraft:uniform"
                   },
-                  "type": "minecraft:jump_boost"
+                  "type": "minecraft:saturation"
                 }
               ],
               "function": "minecraft:set_stew_effect"

@@ -1,33 +1,33 @@
 {
   "display": "minecraft:grass",
   "settings": {
-    "lakes": true,
-    "features": true,
     "biome": "minecraft:plains",
-    "structure_overrides": [
-      "minecraft:mineshafts",
-      "minecraft:strongholds",
-      "minecraft:pillager_outposts",
-      "minecraft:ruined_portals",
-      "minecraft:villages"
-    ],
+    "features": true,
+    "lakes": true,
     "layers": [
       {
-        "height": 1,
-        "block": "minecraft:bedrock"
+        "block": "minecraft:bedrock",
+        "height": 1
       },
       {
-        "height": 59,
-        "block": "minecraft:stone"
+        "block": "minecraft:stone",
+        "height": 59
       },
       {
-        "height": 3,
-        "block": "minecraft:dirt"
+        "block": "minecraft:dirt",
+        "height": 3
       },
       {
-        "height": 1,
-        "block": "minecraft:grass_block"
+        "block": "minecraft:grass_block",
+        "height": 1
       }
+    ],
+    "structure_overrides": [
+      "minecraft:villages",
+      "minecraft:mineshafts",
+      "minecraft:pillager_outposts",
+      "minecraft:ruined_portals",
+      "minecraft:strongholds"
     ]
   }
 }

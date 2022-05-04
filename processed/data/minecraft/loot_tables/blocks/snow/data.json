@@ -24,6 +24,13 @@
                       }
                     }
                   ],
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
+                    }
+                  ],
                   "name": "minecraft:snowball",
                   "type": "minecraft:item"
                 },
@@ -148,6 +155,15 @@
                   "type": "minecraft:item"
                 },
                 {
+                  "conditions": [
+                    {
+                      "block": "minecraft:snow",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "layers": "8"
+                      }
+                    }
+                  ],
                   "functions": [
                     {
                       "add": false,
@@ -189,6 +205,13 @@
                       "properties": {
                         "layers": "1"
                       }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "add": false,
+                      "count": 1.0,
+                      "function": "minecraft:set_count"
                     }
                   ],
                   "name": "minecraft:snow",

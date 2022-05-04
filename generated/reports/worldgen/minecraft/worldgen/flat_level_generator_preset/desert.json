@@ -1,32 +1,32 @@
 {
   "display": "minecraft:sand",
   "settings": {
-    "lakes": false,
-    "features": true,
     "biome": "minecraft:desert",
-    "structure_overrides": [
-      "minecraft:villages",
-      "minecraft:mineshafts",
-      "minecraft:strongholds",
-      "minecraft:desert_pyramids"
-    ],
+    "features": true,
+    "lakes": false,
     "layers": [
       {
-        "height": 1,
-        "block": "minecraft:bedrock"
+        "block": "minecraft:bedrock",
+        "height": 1
       },
       {
-        "height": 3,
-        "block": "minecraft:stone"
+        "block": "minecraft:stone",
+        "height": 3
       },
       {
-        "height": 52,
-        "block": "minecraft:sandstone"
+        "block": "minecraft:sandstone",
+        "height": 52
       },
       {
-        "height": 8,
-        "block": "minecraft:sand"
+        "block": "minecraft:sand",
+        "height": 8
       }
+    ],
+    "structure_overrides": [
+      "minecraft:villages",
+      "minecraft:desert_pyramids",
+      "minecraft:mineshafts",
+      "minecraft:strongholds"
     ]
   }
 }

@@ -195,7 +195,8 @@
       ],
       "functions": [
         {
-          "function": "minecraft:set_goat_horn_sound"
+          "function": "minecraft:set_instrument",
+          "options": "#minecraft:regular_goat_horns"
         }
       ],
       "rolls": {

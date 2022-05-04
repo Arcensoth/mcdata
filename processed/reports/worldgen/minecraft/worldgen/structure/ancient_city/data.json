@@ -1,6 +1,6 @@
 {
   "biomes": "#minecraft:has_structure/ancient_city",
-  "max_distance_from_center": 100,
+  "max_distance_from_center": 116,
   "size": 7,
   "spawn_overrides": {
     "ambient": {
@@ -37,8 +37,9 @@
     }
   },
   "start_height": {
-    "absolute": -51
+    "absolute": -27
   },
+  "start_jigsaw_name": "minecraft:city_anchor",
   "start_pool": "minecraft:ancient_city/city_center",
   "step": "underground_decoration",
   "terrain_adaptation": "beard_box",

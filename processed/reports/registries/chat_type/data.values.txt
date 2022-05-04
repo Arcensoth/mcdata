@@ -1,0 +1,8 @@
+minecraft:chat
+minecraft:emote_command
+minecraft:game_info
+minecraft:msg_command
+minecraft:say_command
+minecraft:system
+minecraft:team_msg_command
+minecraft:tellraw_command

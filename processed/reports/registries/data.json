@@ -126,6 +126,134 @@
     },
     "protocol_id": 19
   },
+  "minecraft:banner_pattern": {
+    "entries": {
+      "minecraft:base": {
+        "protocol_id": 0
+      },
+      "minecraft:border": {
+        "protocol_id": 30
+      },
+      "minecraft:bricks": {
+        "protocol_id": 34
+      },
+      "minecraft:circle": {
+        "protocol_id": 24
+      },
+      "minecraft:creeper": {
+        "protocol_id": 36
+      },
+      "minecraft:cross": {
+        "protocol_id": 14
+      },
+      "minecraft:curly_border": {
+        "protocol_id": 31
+      },
+      "minecraft:diagonal_left": {
+        "protocol_id": 20
+      },
+      "minecraft:diagonal_right": {
+        "protocol_id": 23
+      },
+      "minecraft:diagonal_up_left": {
+        "protocol_id": 22
+      },
+      "minecraft:diagonal_up_right": {
+        "protocol_id": 21
+      },
+      "minecraft:flower": {
+        "protocol_id": 38
+      },
+      "minecraft:globe": {
+        "protocol_id": 35
+      },
+      "minecraft:gradient": {
+        "protocol_id": 32
+      },
+      "minecraft:gradient_up": {
+        "protocol_id": 33
+      },
+      "minecraft:half_horizontal": {
+        "protocol_id": 27
+      },
+      "minecraft:half_horizontal_bottom": {
+        "protocol_id": 29
+      },
+      "minecraft:half_vertical": {
+        "protocol_id": 26
+      },
+      "minecraft:half_vertical_right": {
+        "protocol_id": 28
+      },
+      "minecraft:mojang": {
+        "protocol_id": 39
+      },
+      "minecraft:piglin": {
+        "protocol_id": 40
+      },
+      "minecraft:rhombus": {
+        "protocol_id": 25
+      },
+      "minecraft:skull": {
+        "protocol_id": 37
+      },
+      "minecraft:small_stripes": {
+        "protocol_id": 13
+      },
+      "minecraft:square_bottom_left": {
+        "protocol_id": 1
+      },
+      "minecraft:square_bottom_right": {
+        "protocol_id": 2
+      },
+      "minecraft:square_top_left": {
+        "protocol_id": 3
+      },
+      "minecraft:square_top_right": {
+        "protocol_id": 4
+      },
+      "minecraft:straight_cross": {
+        "protocol_id": 15
+      },
+      "minecraft:stripe_bottom": {
+        "protocol_id": 5
+      },
+      "minecraft:stripe_center": {
+        "protocol_id": 9
+      },
+      "minecraft:stripe_downleft": {
+        "protocol_id": 12
+      },
+      "minecraft:stripe_downright": {
+        "protocol_id": 11
+      },
+      "minecraft:stripe_left": {
+        "protocol_id": 7
+      },
+      "minecraft:stripe_middle": {
+        "protocol_id": 10
+      },
+      "minecraft:stripe_right": {
+        "protocol_id": 8
+      },
+      "minecraft:stripe_top": {
+        "protocol_id": 6
+      },
+      "minecraft:triangle_bottom": {
+        "protocol_id": 16
+      },
+      "minecraft:triangle_top": {
+        "protocol_id": 17
+      },
+      "minecraft:triangles_bottom": {
+        "protocol_id": 18
+      },
+      "minecraft:triangles_top": {
+        "protocol_id": 19
+      }
+    },
+    "protocol_id": 62
+  },
   "minecraft:block": {
     "default": "minecraft:air",
     "entries": {
@@ -3121,6 +3249,35 @@
         "protocol_id": 8
       }
     },
+    "protocol_id": 60
+  },
+  "minecraft:chat_type": {
+    "entries": {
+      "minecraft:chat": {
+        "protocol_id": 0
+      },
+      "minecraft:emote_command": {
+        "protocol_id": 6
+      },
+      "minecraft:game_info": {
+        "protocol_id": 2
+      },
+      "minecraft:msg_command": {
+        "protocol_id": 4
+      },
+      "minecraft:say_command": {
+        "protocol_id": 3
+      },
+      "minecraft:system": {
+        "protocol_id": 1
+      },
+      "minecraft:team_msg_command": {
+        "protocol_id": 5
+      },
+      "minecraft:tellraw_command": {
+        "protocol_id": 7
+      }
+    },
     "protocol_id": 59
   },
   "minecraft:chunk_status": {
@@ -4073,7 +4230,7 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 60
+    "protocol_id": 61
   },
   "minecraft:game_event": {
     "default": "minecraft:step",
@@ -4229,6 +4386,35 @@
       }
     },
     "protocol_id": 38
+  },
+  "minecraft:instrument": {
+    "entries": {
+      "minecraft:admire_goat_horn": {
+        "protocol_id": 4
+      },
+      "minecraft:call_goat_horn": {
+        "protocol_id": 5
+      },
+      "minecraft:dream_goat_horn": {
+        "protocol_id": 7
+      },
+      "minecraft:feel_goat_horn": {
+        "protocol_id": 3
+      },
+      "minecraft:ponder_goat_horn": {
+        "protocol_id": 0
+      },
+      "minecraft:seek_goat_horn": {
+        "protocol_id": 2
+      },
+      "minecraft:sing_goat_horn": {
+        "protocol_id": 1
+      },
+      "minecraft:yearn_goat_horn": {
+        "protocol_id": 6
+      }
+    },
+    "protocol_id": 63
   },
   "minecraft:int_provider_type": {
     "entries": {
@@ -7827,7 +8013,7 @@
       "minecraft:set_enchantments": {
         "protocol_id": 3
       },
-      "minecraft:set_goat_horn_sound": {
+      "minecraft:set_instrument": {
         "protocol_id": 24
       },
       "minecraft:set_loot_table": {

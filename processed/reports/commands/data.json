@@ -5436,10 +5436,7 @@
       "children": {
         "action": {
           "executable": true,
-          "parser": "brigadier:string",
-          "properties": {
-            "type": "greedy"
-          },
+          "parser": "minecraft:message",
           "type": "argument"
         }
       },
@@ -5585,22 +5582,83 @@
       },
       "type": "literal"
     },
-    "placefeature": {
+    "place": {
       "children": {
         "feature": {
           "children": {
-            "pos": {
+            "feature": {
+              "children": {
+                "pos": {
+                  "executable": true,
+                  "parser": "minecraft:block_pos",
+                  "type": "argument"
+                }
+              },
               "executable": true,
-              "parser": "minecraft:block_pos",
+              "parser": "minecraft:resource",
+              "properties": {
+                "registry": "minecraft:worldgen/configured_feature"
+              },
               "type": "argument"
             }
           },
-          "executable": true,
-          "parser": "minecraft:resource",
-          "properties": {
-            "registry": "minecraft:worldgen/configured_feature"
+          "type": "literal"
+        },
+        "jigsaw": {
+          "children": {
+            "pool": {
+              "children": {
+                "target": {
+                  "children": {
+                    "max_depth": {
+                      "children": {
+                        "position": {
+                          "executable": true,
+                          "parser": "minecraft:block_pos",
+                          "type": "argument"
+                        }
+                      },
+                      "executable": true,
+                      "parser": "brigadier:integer",
+                      "properties": {
+                        "max": 7,
+                        "min": 1
+                      },
+                      "type": "argument"
+                    }
+                  },
+                  "parser": "minecraft:resource_location",
+                  "type": "argument"
+                }
+              },
+              "parser": "minecraft:resource",
+              "properties": {
+                "registry": "minecraft:worldgen/template_pool"
+              },
+              "type": "argument"
+            }
           },
-          "type": "argument"
+          "type": "literal"
+        },
+        "structure": {
+          "children": {
+            "structure": {
+              "children": {
+                "pos": {
+                  "executable": true,
+                  "parser": "minecraft:block_pos",
+                  "type": "argument"
+                }
+              },
+              "executable": true,
+              "parser": "minecraft:resource",
+              "properties": {
+                "registry": "minecraft:worldgen/structure"
+              },
+              "type": "argument"
+            }
+          },
+          "type": "literal"
         }
       },
       "type": "literal"

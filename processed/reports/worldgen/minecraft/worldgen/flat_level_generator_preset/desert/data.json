@@ -24,9 +24,9 @@
     ],
     "structure_overrides": [
       "minecraft:villages",
+      "minecraft:desert_pyramids",
       "minecraft:mineshafts",
-      "minecraft:strongholds",
-      "minecraft:desert_pyramids"
+      "minecraft:strongholds"
     ]
   }
 }

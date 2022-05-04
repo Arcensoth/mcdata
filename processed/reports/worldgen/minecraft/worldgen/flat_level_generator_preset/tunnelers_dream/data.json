@@ -23,8 +23,8 @@
       }
     ],
     "structure_overrides": [
-      "minecraft:strongholds",
-      "minecraft:mineshafts"
+      "minecraft:mineshafts",
+      "minecraft:strongholds"
     ]
   }
 }
