@@ -252,7 +252,7 @@
         "protocol_id": 19
       }
     },
-    "protocol_id": 62
+    "protocol_id": 61
   },
   "minecraft:block": {
     "default": "minecraft:air",
@@ -3249,35 +3249,6 @@
         "protocol_id": 8
       }
     },
-    "protocol_id": 60
-  },
-  "minecraft:chat_type": {
-    "entries": {
-      "minecraft:chat": {
-        "protocol_id": 0
-      },
-      "minecraft:emote_command": {
-        "protocol_id": 6
-      },
-      "minecraft:game_info": {
-        "protocol_id": 2
-      },
-      "minecraft:msg_command": {
-        "protocol_id": 4
-      },
-      "minecraft:say_command": {
-        "protocol_id": 3
-      },
-      "minecraft:system": {
-        "protocol_id": 1
-      },
-      "minecraft:team_msg_command": {
-        "protocol_id": 5
-      },
-      "minecraft:tellraw_command": {
-        "protocol_id": 7
-      }
-    },
     "protocol_id": 59
   },
   "minecraft:chunk_status": {
@@ -3453,11 +3424,17 @@
       "minecraft:team": {
         "protocol_id": 31
       },
+      "minecraft:template_mirror": {
+        "protocol_id": 45
+      },
+      "minecraft:template_rotation": {
+        "protocol_id": 46
+      },
       "minecraft:time": {
         "protocol_id": 42
       },
       "minecraft:uuid": {
-        "protocol_id": 45
+        "protocol_id": 47
       },
       "minecraft:vec2": {
         "protocol_id": 11
@@ -4230,7 +4207,7 @@
         "protocol_id": 1
       }
     },
-    "protocol_id": 61
+    "protocol_id": 60
   },
   "minecraft:game_event": {
     "default": "minecraft:step",
@@ -4414,7 +4391,7 @@
         "protocol_id": 6
       }
     },
-    "protocol_id": 63
+    "protocol_id": 62
   },
   "minecraft:int_provider_type": {
     "entries": {
@@ -8943,73 +8920,66 @@
     "protocol_id": 9
   },
   "minecraft:point_of_interest_type": {
-    "default": "minecraft:unemployed",
     "entries": {
       "minecraft:armorer": {
-        "protocol_id": 1
-      },
-      "minecraft:bee_nest": {
-        "protocol_id": 18
-      },
-      "minecraft:beehive": {
-        "protocol_id": 17
-      },
-      "minecraft:butcher": {
-        "protocol_id": 2
-      },
-      "minecraft:cartographer": {
-        "protocol_id": 3
-      },
-      "minecraft:cleric": {
-        "protocol_id": 4
-      },
-      "minecraft:farmer": {
-        "protocol_id": 5
-      },
-      "minecraft:fisherman": {
-        "protocol_id": 6
-      },
-      "minecraft:fletcher": {
-        "protocol_id": 7
-      },
-      "minecraft:home": {
-        "protocol_id": 15
-      },
-      "minecraft:leatherworker": {
-        "protocol_id": 8
-      },
-      "minecraft:librarian": {
-        "protocol_id": 9
-      },
-      "minecraft:lightning_rod": {
-        "protocol_id": 21
-      },
-      "minecraft:lodestone": {
-        "protocol_id": 20
-      },
-      "minecraft:mason": {
-        "protocol_id": 10
-      },
-      "minecraft:meeting": {
-        "protocol_id": 16
-      },
-      "minecraft:nether_portal": {
-        "protocol_id": 19
-      },
-      "minecraft:nitwit": {
-        "protocol_id": 11
-      },
-      "minecraft:shepherd": {
-        "protocol_id": 12
-      },
-      "minecraft:toolsmith": {
-        "protocol_id": 13
-      },
-      "minecraft:unemployed": {
         "protocol_id": 0
       },
-      "minecraft:weaponsmith": {
+      "minecraft:bee_nest": {
+        "protocol_id": 16
+      },
+      "minecraft:beehive": {
+        "protocol_id": 15
+      },
+      "minecraft:butcher": {
+        "protocol_id": 1
+      },
+      "minecraft:cartographer": {
+        "protocol_id": 2
+      },
+      "minecraft:cleric": {
+        "protocol_id": 3
+      },
+      "minecraft:farmer": {
+        "protocol_id": 4
+      },
+      "minecraft:fisherman": {
+        "protocol_id": 5
+      },
+      "minecraft:fletcher": {
+        "protocol_id": 6
+      },
+      "minecraft:home": {
+        "protocol_id": 13
+      },
+      "minecraft:leatherworker": {
+        "protocol_id": 7
+      },
+      "minecraft:librarian": {
+        "protocol_id": 8
+      },
+      "minecraft:lightning_rod": {
+        "protocol_id": 19
+      },
+      "minecraft:lodestone": {
+        "protocol_id": 18
+      },
+      "minecraft:mason": {
+        "protocol_id": 9
+      },
+      "minecraft:meeting": {
         "protocol_id": 14
+      },
+      "minecraft:nether_portal": {
+        "protocol_id": 17
+      },
+      "minecraft:shepherd": {
+        "protocol_id": 10
+      },
+      "minecraft:toolsmith": {
+        "protocol_id": 11
+      },
+      "minecraft:weaponsmith": {
+        "protocol_id": 12
       }
     },
     "protocol_id": 25

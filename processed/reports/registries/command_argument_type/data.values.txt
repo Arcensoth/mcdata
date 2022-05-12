@@ -40,6 +40,8 @@ minecraft:score_holder
 minecraft:scoreboard_slot
 minecraft:swizzle
 minecraft:team
+minecraft:template_mirror
+minecraft:template_rotation
 minecraft:time
 minecraft:uuid
 minecraft:vec2
