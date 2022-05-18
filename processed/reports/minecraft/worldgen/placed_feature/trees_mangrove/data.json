@@ -2,7 +2,7 @@
   "feature": "minecraft:mangrove_vegetation",
   "placement": [
     {
-      "count": 30,
+      "count": 25,
       "type": "minecraft:count"
     },
     {

@@ -28,6 +28,7 @@
     "minecraft:interaction_target",
     "minecraft:is_emerging",
     "minecraft:is_in_water",
+    "minecraft:is_panicking",
     "minecraft:is_pregnant",
     "minecraft:is_sniffing",
     "minecraft:is_tempted",

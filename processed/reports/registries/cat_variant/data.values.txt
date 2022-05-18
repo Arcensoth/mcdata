@@ -1,6 +1,6 @@
 minecraft:all_black
 minecraft:black
-minecraft:british
+minecraft:british_shorthair
 minecraft:calico
 minecraft:jellie
 minecraft:persian
