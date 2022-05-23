@@ -4340,6 +4340,9 @@
       },
       "minecraft:swim": {
         "protocol_id": 42
+      },
+      "minecraft:teleport": {
+        "protocol_id": 43
       }
     },
     "protocol_id": 0
