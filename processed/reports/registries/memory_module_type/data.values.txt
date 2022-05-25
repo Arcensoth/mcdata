@@ -83,6 +83,7 @@ minecraft:tempting_player
 minecraft:time_trying_to_reach_admire_item
 minecraft:touch_cooldown
 minecraft:universal_anger
+minecraft:unreachable_tongue_targets
 minecraft:vibration_cooldown
 minecraft:visible_adult_hoglin_count
 minecraft:visible_adult_piglin_count
