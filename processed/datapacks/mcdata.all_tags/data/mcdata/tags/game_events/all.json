@@ -30,6 +30,8 @@
     "minecraft:instrument_play",
     "minecraft:item_interact_finish",
     "minecraft:item_interact_start",
+    "minecraft:jukebox_play",
+    "minecraft:jukebox_stop_play",
     "minecraft:lightning_strike",
     "minecraft:note_block_play",
     "minecraft:piston_contract",
