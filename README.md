@@ -15,7 +15,7 @@ java -cp {jar_path} net.minecraft.data.Main --server --reports
 java -DbundlerMainClass=net.minecraft.data.Main -jar {jar_path} --server --reports
 ```
 
-Server downloads can be found via Mojang's [version manifest](https://launchermeta.mojang.com/mc/game/version_manifest.json).
+Server downloads can be found via Mojang's [version manifest](https://piston-meta.mojang.com/mc/game/version_manifest_v2.json).
 
 ## Disclaimer
 *This repository is working under the assumption that, because they intentionally exposed their internal data generators, Mojang does not have anything against the resulting data existing somewhere on the internet for public consumption. If ever this assumption is contradicted, the repository will be promptly removed.*
